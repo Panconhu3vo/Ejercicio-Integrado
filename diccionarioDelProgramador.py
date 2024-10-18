@@ -1,4 +1,4 @@
-
+from diccionario import diccionario
 # Zona de Variables
 menu = ''' 
 1: Agregar un término
