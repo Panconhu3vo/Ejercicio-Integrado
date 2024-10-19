@@ -10,9 +10,12 @@ diccionario = {
 '''
 diccionario = {
     "a": {"append": {"definicion": "Agrega un elemento al final de una lista.", "traduccion": "Adds an element to the end of a list."}, 
-          "abs": {"definicion": "Devuelve el valor absoluto de un número.", "traduccion": "Returns the absolute value of a number."}},
-          
-    "b": {},
+          "abs": {"definicion": "Devuelve el valor absoluto de un número.", "traduccion": "Returns the absolute value of a number."},
+          "assert": {"definicion": "Verifica que una condición sea verdadera, de lo contrario lanza un error.", "traduccion": "Tests if a condition is true, otherwise raises an error."},
+          "any": {"definicion": "Devuelve True si al menos un elemento de un iterable es verdadero.", "traduccion": "Returns True if any element of an iterable is true."}
+          "and": {"definicion": "Operador lógico que devuelve True si ambas condiciones son verdaderas.", "traduccion": "Logical operator that returns True if both conditions are true."}}
+
+    "b": {"break": {"definicion": "Interrumpe un ciclo antes de que se complete.", "traduccion": "Terminates a loop before it finishes."}},
 
     "c": {},
 
