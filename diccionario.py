@@ -26,7 +26,8 @@ diccionario = {
 
     "h": {},
 
-    "i": {},
+    "i": {
+        "if": {"definicion": "Evalúa una condición y ejecuta un bloque de código si se cumple.", "traduccion": "Evaluates a condition and executes a block of code if it is true."}},
 
     "j": {},
 
