@@ -11,6 +11,7 @@ menu = '''
 opc = 0 # Variable de Opcion
 abcdario = "abcdefghijklmnopqrstuvwxyz"
 comienzo = 0
+termino = ""
 # ---
 # Agregar Termino():
 
@@ -23,10 +24,13 @@ comienzo = 0
 # Buscar Término():
 def buscarTermino(x):
     
-    for i in range(abcdario):
+    for i in range(len(abcdario)):
         if abcdario[i] == x[0]:
             comienzo = i
-    print(i)
+    return comienzo
+    
+    
+
 
 
 # ---
@@ -41,7 +45,11 @@ while True:
     print(menu)
     opc = int(input(">>"))
     if opc == 1:
-    
+        termino = input("Ingresa el termino (Minuscula)")
+        numeroDiccionario = buscarTermino(termino)
+        llavesDiccionario = list(diccionario.keys())
+        print(termino)
+        print(diccionario[llavesDiccionario[numeroDiccionario+1][termino]])
     # elif opc == 2:
     # elif opc == 3:
     # elif opc == 4:
