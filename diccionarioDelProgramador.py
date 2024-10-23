@@ -9,7 +9,8 @@ menu = '''
 6: Salir
 ''' # Varibale Del Menu
 opc = 0 # Variable de Opcion
-
+abcdario = "abcdefghijklmnopqrstuvwxyz"
+comienzo = 0
 # ---
 # Agregar Termino():
 
@@ -20,6 +21,12 @@ opc = 0 # Variable de Opcion
 
 # ---
 # Buscar Término():
+def buscarTermino(x):
+    
+    for i in range(abcdario):
+        if abcdario[i] == x[0]:
+            comienzo = i
+    print(i)
 
 
 # ---
@@ -31,9 +38,10 @@ opc = 0 # Variable de Opcion
 
 # Menu:
 while True:
-    
+    print(menu)
+    opc = int(input(">>"))
     if opc == 1:
-        print("A")
+    
     # elif opc == 2:
     # elif opc == 3:
     # elif opc == 4:
