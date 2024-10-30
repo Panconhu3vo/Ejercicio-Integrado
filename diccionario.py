@@ -9,9 +9,8 @@ diccionario = {
 
 '''
 diccionario = {
-    "a": {"append": {"definicion": "Agrega un elemento al final de una lista.", "traduccion": "Adds an element to the end of a list."}, 
-          "abs": {"definicion": "Devuelve el valor absoluto de un número.", "traduccion": "Returns the absolute value of a number."}},
-    
+    "a": {},  
+  
     "b": {},
 
     "c": {},
