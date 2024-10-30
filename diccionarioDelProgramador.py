@@ -22,12 +22,10 @@ termino = ""
 
 # ---
 # Buscar Término():
-def buscarTermino(x):
-    
-    for i in range(len(abcdario)):
-        if abcdario[i] == x[0]:
-            comienzo = i
-    return comienzo
+def buscarTermino(termino):
+    print(termino)
+    primeraPalabra = termino[0]
+    return primeraPalabra
     
     
 
@@ -38,6 +36,16 @@ def buscarTermino(x):
 
 
 # ---
+# eliminarEspacios()
+def eliminarEspacios(limpiarPalabra):
+    terminioSinEspacios = limpiarPalabra.replace(" ", "")
+    return terminoSinEspacios
+
+
+# ---
+
+
+
 
 
 # Menu:
@@ -45,13 +53,18 @@ while True:
     print(menu)
     opc = int(input(">>"))
     if opc == 1:
-        termino = input("Ingresa el termino (Minuscula)")
-        numeroDiccionario = buscarTermino(termino)
-        llavesDiccionario = list(diccionario.keys())
-        print(termino)
-        print(diccionario[llavesDiccionario[numeroDiccionario+1][termino]])
-    # elif opc == 2:
-    # elif opc == 3:
+        print("Agregar Termino")
+    elif opc == 2:
+        print("Eliminar Termino")
+    elif opc == 3:
+        print("Buscar Termino")
+        print("Ingresa el nombre del termino (Minuscula):")
+        nombreTermino = input(">> ")
+        nombreLimpio = eliminarEspacios(nombreTermino)
+        print("| ",nombreTermino.ljust(167)," |")
+        print("| Definicion".ljust(80)," | ", "Traduccion:".ljust(80)," |" )
+        print("| ",diccionario[buscarTermino(nombreLimpio)][nombreLimpio]["definicion"].ljust(80)," | ",diccionario[buscarTermino(nombreLimpio)][nombreLimpio]["traduccion"].ljust(80)," |")
+        
     # elif opc == 4:
     # elif opc == 5:
     # elif opc == 6:

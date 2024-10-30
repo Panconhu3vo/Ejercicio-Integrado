@@ -120,7 +120,7 @@ diccionario = {
     "bin": {
         "definicion": "Convierte un número en su representación binaria.", 
         "traduccion": "Converts a number to its binary representation."},
- "bool": {"definicion": "Convierte un valor en su valor booleano.", "traduccion": "Converts a value to its boolean equivalent."},
+    "bool": {"definicion": "Convierte un valor en su valor booleano.", "traduccion": "Converts a value to its boolean equivalent."},
         "break": {"definicion": "Termina el bucle actual antes de tiempo.", "traduccion": "Ends the current loop prematurely."},
         "bytes": {"definicion": "Convierte datos en un objeto de bytes.", "traduccion": "Converts data to a bytes object."},
         "bytearray": {"definicion": "Devuelve un nuevo array de bytes modificable.", "traduccion": "Returns a new mutable array of bytes."}},
