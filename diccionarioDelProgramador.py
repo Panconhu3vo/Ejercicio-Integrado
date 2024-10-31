@@ -9,9 +9,9 @@ menu = '''
 6: Salir
 ''' # Varibale Del Menu
 opc = 0 # Variable de Opcion
-abcdario = "abcdefghijklmnopqrstuvwxyz"
-comienzo = 0
-termino = ""
+llavesTemporales = []
+noEncontrado = True
+nombreLimpio = ""
 # ---
 # Agregar Termino():
 
@@ -23,7 +23,6 @@ termino = ""
 # ---
 # Buscar Término():
 def buscarTermino(termino):
-    print(termino)
     primeraPalabra = termino[0]
     return primeraPalabra
     
@@ -38,10 +37,28 @@ def buscarTermino(termino):
 # ---
 # eliminarEspacios()
 def eliminarEspacios(limpiarPalabra):
-    terminioSinEspacios = limpiarPalabra.replace(" ", "")
+    terminoSinEspacios = limpiarPalabra.replace(" ", "")
     return terminoSinEspacios
 
-
+def verificarNombre(n):
+    noEncontrado = False
+    m = eliminarEspacios(n)
+    llavesTemporales = list(diccionario[buscarTermino(n)].keys())
+    while noEncontrado == False:
+                m = eliminarEspacios(n)
+                for i in llavesTemporales:
+                    if i == m:
+                        noEncontrado = True
+                        break
+                    else:
+                        noEncontrado = False
+                if noEncontrado == False:
+                    print("Asegurate de escibir bien el termino y que si exita:")
+                    n = input(">> ")
+                elif noEncontrado == True:
+                    return n
+                    break
+        
 # ---
 
 
@@ -51,7 +68,7 @@ def eliminarEspacios(limpiarPalabra):
 # Menu:
 while True:
     print(menu)
-    opc = int(input(">>"))
+    opc = int(input(">> "))
     if opc == 1:
         print("Agregar Termino")
     elif opc == 2:
@@ -60,9 +77,10 @@ while True:
         print("Buscar Termino")
         print("Ingresa el nombre del termino (Minuscula):")
         nombreTermino = input(">> ")
-        nombreLimpio = eliminarEspacios(nombreTermino)
-        print("| ",nombreTermino.ljust(167)," |")
-        print("| Definicion".ljust(80)," | ", "Traduccion:".ljust(80)," |" )
+        nombreLimpio = verificarNombre(nombreTermino) 
+
+        print("| ", nombreLimpio.ljust(165), " |")
+        print("| Definicion:".ljust(83)," | ", "Traduccion:".ljust(80)," |" )
         print("| ",diccionario[buscarTermino(nombreLimpio)][nombreLimpio]["definicion"].ljust(80)," | ",diccionario[buscarTermino(nombreLimpio)][nombreLimpio]["traduccion"].ljust(80)," |")
         
     # elif opc == 4:
