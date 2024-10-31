@@ -195,15 +195,67 @@ diccionario = {
     "bool_": {
         "definicion": "Tipo de dato booleano en bibliotecas como NumPy.",
         "traduccion": "Boolean data type in libraries like NumPy."}},
-
-
-
 "c": {
-        "callable": {"definicion": "Verifica si un objeto es invocable (llamable).", "traduccion": "Checks if an object is callable."},
-        "chr": {"definicion": "Devuelve el carácter correspondiente a un código Unicode.", "traduccion": "Returns the character that represents the specified Unicode code."},
-        "complex": {"definicion": "Crea un número complejo a partir de números reales e imaginarios.", "traduccion": "Creates a complex number from real and imaginary parts."},
-        "continue": {"definicion": "Salta el resto del código en el bucle y pasa a la siguiente iteración.", "traduccion": "Skips the rest of the code in the loop and moves to the next iteration."},
-        "copy": {"definicion": "Devuelve una copia superficial del objeto dado.", "traduccion": "Returns a shallow copy of the given object."}},
+    "callable": {
+        "definicion": "Devuelve True si el objeto es llamable (función, método, etc.).",
+        "traduccion": "Returns True if the object is callable (function, method, etc.)."},
+    "chr": {
+        "definicion": "Convierte un código ASCII en su carácter correspondiente.",
+        "traduccion": "Converts an ASCII code to its corresponding character."},
+    "class": {
+        "definicion": "Define una nueva clase para crear objetos personalizados.",
+        "traduccion": "Defines a new class to create custom objects."},
+    "classmethod": {
+        "definicion": "Convierte un método en un método de clase, accesible desde la clase sin instanciarla.",
+        "traduccion": "Converts a method to a class method, accessible from the class without instantiating it."},
+    "compile": {
+        "definicion": "Compila una cadena de texto en código ejecutable de Python.",
+        "traduccion": "Compiles a text string into executable Python code."},
+    "complex": {
+        "definicion": "Crea un número complejo a partir de dos valores (real e imaginario).",
+        "traduccion": "Creates a complex number from two values (real and imaginary)."},
+    "continue": {
+        "definicion": "Salta la iteración actual de un bucle y pasa a la siguiente.",
+        "traduccion": "Skips the current iteration of a loop and moves to the next one."},
+    "copy": {
+        "definicion": "Crea una copia superficial de una lista, diccionario u otro objeto mutable.",
+        "traduccion": "Creates a shallow copy of a list, dictionary, or other mutable object."},
+    "coroutine": {
+        "definicion": "Define una función especial que puede pausarse y reanudarse (asincrónica).",
+        "traduccion": "Defines a special function that can be paused and resumed (asynchronous)."},
+    "count": {
+        "definicion": "Cuenta la cantidad de ocurrencias de un valor en una lista o cadena.",
+        "traduccion": "Counts the occurrences of a value in a list or string."},
+    "clear": {
+        "definicion": "Elimina todos los elementos de una lista o diccionario.",
+        "traduccion": "Removes all elements from a list or dictionary."},
+    "cmath": {
+        "definicion": "Módulo para operaciones matemáticas complejas.",
+        "traduccion": "Module for complex mathematical operations."},
+    "chain": {
+        "definicion": "Función del módulo itertools que concatena múltiples iterables.",
+        "traduccion": "Function from itertools module that concatenates multiple iterables."},
+    "csv": {
+        "definicion": "Módulo para manipular archivos CSV (valores separados por comas).",
+        "traduccion": "Module for handling CSV (comma-separated values) files."},
+    "cmath": {
+        "definicion": "Módulo para operaciones matemáticas complejas.",
+        "traduccion": "Module for complex number math operations."},
+    "copyreg": {
+        "definicion": "Módulo que registra funciones para serialización de objetos.",
+        "traduccion": "Module that registers functions for object serialization."},
+    "counter": {
+        "definicion": "Clase de collections para contar elementos en un iterable.",
+        "traduccion": "Class from collections to count elements in an iterable."},
+    "cProfile": {
+        "definicion": "Herramienta para realizar un perfil de rendimiento de código Python.",
+        "traduccion": "Tool for profiling Python code performance."},
+    "capitalize": {
+        "definicion": "Devuelve una copia de la cadena con la primera letra en mayúscula.",
+        "traduccion": "Returns a copy of the string with the first letter capitalized."},
+    "center": {
+        "definicion": "Devuelve una cadena centrada, con ancho especificado y relleno opcional.",
+        "traduccion": "Returns a centered string with specified width and optional fill character."}},
 
     "d": {"def": {"definicion": "Define una función.", "traduccion": "Defines a function."} },
 
