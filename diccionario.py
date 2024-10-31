@@ -255,7 +255,59 @@ diccionario = {
         "traduccion": "Returns a copy of the string with the first letter capitalized."},
     "center": {
         "definicion": "Devuelve una cadena centrada, con ancho especificado y relleno opcional.",
-        "traduccion": "Returns a centered string with specified width and optional fill character."}},
+        "traduccion": "Returns a centered string with specified width and optional fill character."}
+    
+    "ceil": {
+        "definicion": "Redondea un número al entero más próximo hacia arriba.",
+        "traduccion": "Rounds a number up to the nearest integer."},
+    "call": {
+        "definicion": "Ejecuta una función o método específico en un objeto.",
+        "traduccion": "Executes a specific function or method on an object."},
+    "clamp": {
+        "definicion": "Restringe un valor dentro de un rango especificado (no en la biblioteca estándar).",
+        "traduccion": "Restricts a value within a specified range (not in standard library)."},
+    "choice": {
+        "definicion": "Selecciona un elemento aleatorio de una secuencia.",
+        "traduccion": "Selects a random element from a sequence."},
+    "collections": {
+        "definicion": "Módulo que proporciona estructuras de datos especializadas.",
+        "traduccion": "Module providing specialized data structures."},
+    "compress": {
+        "definicion": "Filtra elementos de un iterable según un selector booleano.",
+        "traduccion": "Filters elements in an iterable according to a boolean selector."},
+    "complex_conjugate": {
+        "definicion": "Devuelve el conjugado de un número complejo.",
+        "traduccion": "Returns the conjugate of a complex number."},
+    "ctypes": {
+        "definicion": "Módulo para manipular datos en bibliotecas compartidas en C.",
+        "traduccion": "Module for handling data in C shared libraries."},
+    "clear_screen": {
+        "definicion": "Limpia la pantalla en algunos entornos de terminal (no es una función estándar).",
+        "traduccion": "Clears the screen in some terminal environments (not a standard function)."},
+    "call_later": {
+        "definicion": "Programa la ejecución de una función después de un tiempo en asyncio.",
+        "traduccion": "Schedules the execution of a function after a delay in asyncio."},
+    "chunk": {
+        "definicion": "Divide un iterable en partes de tamaño fijo (disponible en itertools y otras bibliotecas).",
+        "traduccion": "Splits an iterable into fixed-size chunks (available in itertools and other libraries)."},
+    "cycle": {
+        "definicion": "Itertools: Cicla infinitamente a través de un iterable.",
+        "traduccion": "Itertools: Cycles infinitely through an iterable."},
+    "coerce": {
+        "definicion": "Convierte parámetros a un tipo común (obsoleto en Python 3).",
+        "traduccion": "Converts parameters to a common type (obsolete in Python 3)."},
+    "current_thread": {
+        "definicion": "Obtiene el hilo actual de ejecución en threading.",
+        "traduccion": "Gets the current thread in threading."},
+    "configparser": {
+        "definicion": "Módulo para manipular archivos de configuración estilo INI.",
+        "traduccion": "Module for handling INI-style configuration files."},
+    "compileall": {
+        "definicion": "Compila recursivamente archivos .py en bytecode.",
+        "traduccion": "Recursively compiles .py files to bytecode."},
+    "copytree": {
+        "definicion": "Copia recursivamente un directorio completo.",
+        "traduccion": "Recursively copies an entire directory."}},
 
     "d": {"def": {"definicion": "Define una función.", "traduccion": "Defines a function."} },
 
