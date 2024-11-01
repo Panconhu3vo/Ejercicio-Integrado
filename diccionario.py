@@ -336,8 +336,13 @@ diccionario = {
     "dtype": {
         "definicion": "Especifica el tipo de datos de un array en NumPy.",
         "traduccion": "Specifies the data type of a NumPy array."},
-
-
+    "deque.appendleft": {
+        "definicion": "Agrega un elemento al inicio de una deque.",
+        "traduccion": "Adds an element to the beginning of a deque."},
+    "dict.update": {
+        "definicion": "Actualiza un diccionario con pares clave-valor de otro diccionario.",
+        "traduccion": "Updates a dictionary with key-value pairs from another dictionary."}},
+    
     "e": {},
 
     "f": {
