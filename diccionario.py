@@ -333,7 +333,9 @@ diccionario = {
     "dropna": {
         "definicion": "Elimina filas o columnas con valores nulos en un DataFrame de Pandas.",
         "traduccion": "Removes rows or columns with null values in a Pandas DataFrame."},
-
+    "dtype": {
+        "definicion": "Especifica el tipo de datos de un array en NumPy.",
+        "traduccion": "Specifies the data type of a NumPy array."},
 
 
     "e": {},
