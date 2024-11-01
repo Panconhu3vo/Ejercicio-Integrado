@@ -256,7 +256,6 @@ diccionario = {
     "center": {
         "definicion": "Devuelve una cadena centrada, con ancho especificado y relleno opcional.",
         "traduccion": "Returns a centered string with specified width and optional fill character."}
-    
     "ceil": {
         "definicion": "Redondea un número al entero más próximo hacia arriba.",
         "traduccion": "Rounds a number up to the nearest integer."},
@@ -309,7 +308,33 @@ diccionario = {
         "definicion": "Copia recursivamente un directorio completo.",
         "traduccion": "Recursively copies an entire directory."}},
 
-    "d": {"def": {"definicion": "Define una función.", "traduccion": "Defines a function."} },
+"d": {
+    "def": {
+        "definicion": "Declara una función o método.",
+        "traduccion": "Declares a function or method."},
+    "delattr": {
+        "definicion": "Elimina un atributo de un objeto.",
+        "traduccion": "Deletes an attribute from an object."},
+    "dataframe": {
+        "definicion": "Estructura de datos de Pandas para manipulación de datos tabulares.",
+        "traduccion": "Pandas data structure for manipulating tabular data."},
+    "decode": {
+        "definicion": "Convierte bytes en una cadena utilizando una codificación.",
+        "traduccion": "Converts bytes into a string using an encoding."},
+    "decimal": {
+        "definicion": "Módulo para operaciones aritméticas con decimales de precisión exacta.",
+        "traduccion": "Module for arithmetic operations with exact decimal precision."},
+    "device": {
+        "definicion": "Atributo en PyTorch para definir el dispositivo (CPU o GPU) donde se almacenan los tensores.",
+        "traduccion": "Attribute in PyTorch to define the device (CPU or GPU) for tensor storage."},
+    "dict.get": {
+        "definicion": "Obtiene el valor de una clave en un diccionario o un valor predeterminado si la clave no existe.",
+        "traduccion": "Gets the value of a dictionary key or a default if the key doesn't exist."},
+    "dropna": {
+        "definicion": "Elimina filas o columnas con valores nulos en un DataFrame de Pandas.",
+        "traduccion": "Removes rows or columns with null values in a Pandas DataFrame."},
+
+
 
     "e": {},
 
