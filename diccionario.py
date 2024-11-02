@@ -9,7 +9,7 @@ diccionario = {
 
 '''
 diccionario = {
-    "a": {
+ "a": {
         "abs": {
             "definicion": "Devuelve el valor absoluto de un número.",
             "traduccion": "Returns the absolute value of a number."},
