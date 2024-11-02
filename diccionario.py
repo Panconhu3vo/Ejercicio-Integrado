@@ -828,8 +828,134 @@ diccionario = {
         "traduccion": "Records changes in a Git repository."},
     "gradient_descent": {
         "definicion": "Algoritmo para minimizar funciones en aprendizaje automático.",
-        "traduccion": "Algorithm to minimize functions in machine learning."}},
-
+        "traduccion": "Algorithm to minimize functions in machine learning."}
+    "get_referrers": {
+        "definicion": "Devuelve los objetos que hacen referencia a un objeto específico.",
+        "traduccion": "Returns the objects that reference a specific object."},
+    "get_window_extent": {
+        "definicion": "Obtiene el área de una ventana o figura en coordenadas.",
+        "traduccion": "Gets the extent of a window or figure in coordinates."},
+    "group": {
+        "definicion": "Agrupa elementos según una expresión regular.",
+        "traduccion": "Groups elements according to a regular expression."},
+    "get_history": {
+        "definicion": "Obtiene el historial de comandos ejecutados en el intérprete.",
+        "traduccion": "Retrieves the command history executed in the interpreter."},
+    "gradient": {
+        "definicion": "Calcula el gradiente de una función.",
+        "traduccion": "Calculates the gradient of a function."},
+    "getfqdn": {
+        "definicion": "Devuelve el nombre de dominio completo de un host.",
+        "traduccion": "Returns the fully qualified domain name of a host."},
+    "get_url": {
+        "definicion": "Obtiene el contenido de una URL.",
+        "traduccion": "Fetches the content of a URL."},
+    "get_line": {
+        "definicion": "Obtiene una línea de un archivo o entrada.",
+        "traduccion": "Gets a line from a file or input."},
+    "get_clock_info": {
+        "definicion": "Obtiene información sobre un reloj del sistema.",
+        "traduccion": "Gets information about a system clock."},
+    "getmtime": {
+        "definicion": "Devuelve la última modificación de un archivo en segundos.",
+        "traduccion": "Returns the last modification time of a file in seconds."},
+    "gettext_install": {
+        "definicion": "Instala el entorno para internacionalización usando gettext.",
+        "traduccion": "Sets up the environment for internationalization using gettext."},
+    "geometry_manager": {
+        "definicion": "Gestiona la geometría de widgets en interfaces gráficas.",
+        "traduccion": "Manages widget geometry in graphical interfaces."},
+    "gcd_algorithm": {
+        "definicion": "Algoritmo para calcular el máximo común divisor.",
+        "traduccion": "Algorithm to calculate the greatest common divisor."},
+    "googletrans": {
+        "definicion": "Librería para traducción de texto usando Google Translate.",
+        "traduccion": "Library for text translation using Google Translate."},
+    "get_dpi": {
+        "definicion": "Obtiene la densidad de puntos por pulgada en pantallas.",
+        "traduccion": "Gets the dots per inch (DPI) of screens."},
+    "geolocation": {
+        "definicion": "Obtiene la ubicación geográfica de un dispositivo.",
+        "traduccion": "Gets the geographic location of a device."},
+    "git_merge": {
+        "definicion": "Combina cambios de diferentes ramas en Git.",
+        "traduccion": "Merges changes from different branches in Git."},
+    "get_tick_params": {
+        "definicion": "Obtiene parámetros de los ticks de un gráfico.",
+        "traduccion": "Gets parameters of plot ticks."},
+    "getrandbits": {
+        "definicion": "Genera un número entero aleatorio de bits especificados.",
+        "traduccion": "Generates a random integer with specified bits."},
+    "gui_toolkit": {
+        "definicion": "Conjunto de herramientas para construir interfaces gráficas.",
+        "traduccion": "Toolkit for building graphical user interfaces."},
+    "getpid": {
+        "definicion": "Devuelve el ID de proceso del proceso actual.",
+        "traduccion": "Returns the process ID of the current process."},
+    "get_event": {
+        "definicion": "Obtiene un evento en la programación de interfaces.",
+        "traduccion": "Gets an event in interface programming."},
+    "gmm": {
+        "definicion": "Modelo de mezcla gaussiana utilizado en aprendizaje automático.",
+        "traduccion": "Gaussian Mixture Model used in machine learning."},
+    "gather": {
+        "definicion": "Agrupa varias tareas asincrónicas en una sola.",
+        "traduccion": "Groups multiple asynchronous tasks into one."},
+    "get_statistics": {
+        "definicion": "Devuelve estadísticas sobre un conjunto de datos.",
+        "traduccion": "Returns statistics on a dataset."},
+    "get_user": {
+        "definicion": "Obtiene el nombre de usuario actual del sistema.",
+        "traduccion": "Gets the current system's username."},
+    "get_unique": {
+        "definicion": "Obtiene valores únicos de un conjunto de datos.",
+        "traduccion": "Fetches unique values from a dataset."},
+    "git_rebase": {
+        "definicion": "Reaplica confirmaciones de una rama en Git.",
+        "traduccion": "Reapplies commits from a branch in Git."},
+    "get_score": {
+        "definicion": "Obtiene la puntuación de una operación o evaluación.",
+        "traduccion": "Gets the score of an operation or evaluation."},
+    "graph_data": {
+        "definicion": "Estructura para organizar y mostrar datos en forma de grafo.",
+        "traduccion": "Structure to organize and display data in graph form."},
+    "get_installed_distributions": {
+        "definicion": "Obtiene las distribuciones instaladas en el entorno de Python.",
+        "traduccion": "Gets installed distributions in the Python environment."},
+    "geocode": {
+        "definicion": "Convierte una dirección en coordenadas geográficas.",
+        "traduccion": "Converts an address into geographic coordinates."},
+    "get_type_hints": {
+        "definicion": "Obtiene sugerencias de tipo de una función o clase.",
+        "traduccion": "Gets type hints from a function or class."},
+    "genericpath": {
+        "definicion": "Módulo con operaciones comunes en rutas de archivos.",
+        "traduccion": "Module with common file path operations."},
+    "get_resource_path": {
+        "definicion": "Obtiene la ruta de un recurso empaquetado.",
+        "traduccion": "Gets the path of a packaged resource."},
+    "git_pull": {
+        "definicion": "Obtiene y fusiona cambios desde un repositorio remoto.",
+        "traduccion": "Fetches and merges changes from a remote repository."},
+    "get_cached_properties": {
+        "definicion": "Devuelve propiedades en caché de un objeto.",
+        "traduccion": "Returns cached properties of an object."},
+    "geopandas": {
+        "definicion": "Librería para análisis de datos geoespaciales en Python.",
+        "traduccion": "Library for geospatial data analysis in Python."},
+    "get_open_files": {
+        "definicion": "Devuelve una lista de archivos abiertos en el sistema.",
+        "traduccion": "Returns a list of open files in the system."},
+    "get_active_connections": {
+        "definicion": "Obtiene las conexiones activas en una red.",
+        "traduccion": "Gets active connections in a network."},
+    "guess_language": {
+        "definicion": "Intenta determinar el idioma de un texto.",
+        "traduccion": "Attempts to determine the language of a text."},
+    "get_doc": {
+        "definicion": "Obtiene la documentación de una función o módulo.",
+        "traduccion": "Fetches the documentation of a function or module."}},
+    
     "h": {},
 
     "i": {},
