@@ -705,7 +705,130 @@ diccionario = {
         "definicion": "Combinación de la funcionalidad de filter y map en una operación.",
         "traduccion": "Combination of the functionality of filter and map in a single operation."}},
 
-    "g": {},
+"g": {
+    "get": {
+        "definicion": "Devuelve el valor de una clave en un diccionario, o un valor predeterminado si la clave no existe.",
+        "traduccion": "Returns the value for a key in a dictionary, or a default value if the key is not present."},
+    "global": {
+        "definicion": "Palabra clave que declara una variable como global.",
+        "traduccion": "Keyword that declares a variable as global."},
+    "generator": {
+        "definicion": "Función que devuelve un iterador que genera valores uno a uno usando yield.",
+        "traduccion": "Function that returns an iterator generating values one by one using yield."},
+    "globals": {
+        "definicion": "Devuelve un diccionario de todas las variables globales actuales.",
+        "traduccion": "Returns a dictionary of all current global variables."},
+    "getattr": {
+        "definicion": "Obtiene el valor de un atributo de un objeto.",
+        "traduccion": "Gets the value of an object's attribute."},
+    "groupby": {
+        "definicion": "Agrupa datos en un iterable según una clave específica.",
+        "traduccion": "Groups data in an iterable by a specified key."},
+    "gc": {
+        "definicion": "Módulo para interactuar con el recolector de basura en Python.",
+        "traduccion": "Module to interact with the garbage collector in Python."},
+    "git": {
+        "definicion": "Sistema de control de versiones utilizado para el seguimiento de cambios en el código.",
+        "traduccion": "Version control system used for tracking code changes."},
+    "generator_expression": {
+        "definicion": "Expresión que genera un iterador de manera similar a una comprensión de listas.",
+        "traduccion": "Expression that generates an iterator similar to list comprehension."},
+    "gzip": {
+        "definicion": "Módulo para compresión y descompresión de archivos usando el formato gzip.",
+        "traduccion": "Module for compressing and decompressing files using the gzip format."},
+    "graph": {
+        "definicion": "Estructura de datos que representa nodos y aristas.",
+        "traduccion": "Data structure representing nodes and edges."},
+    "grid": {
+        "definicion": "Disposición bidimensional de elementos, común en interfaces gráficas.",
+        "traduccion": "Two-dimensional arrangement of elements, common in graphical interfaces."},
+    "getopt": {
+        "definicion": "Módulo para analizar opciones de línea de comandos.",
+        "traduccion": "Module to parse command-line options."},
+    "gcd": {
+        "definicion": "Calcula el máximo común divisor de dos números.",
+        "traduccion": "Calculates the greatest common divisor of two numbers."},
+    "getpass": {
+        "definicion": "Módulo para obtener contraseñas de manera segura en la consola.",
+        "traduccion": "Module for securely obtaining passwords in the console."},
+    "gradients": {
+        "definicion": "Mide la tasa de cambio, común en algoritmos de aprendizaje automático.",
+        "traduccion": "Measures rate of change, common in machine learning algorithms."},
+    "graphlib": {
+        "definicion": "Módulo que proporciona operaciones en grafos.",
+        "traduccion": "Module providing graph operations."},
+    "get_event_loop": {
+        "definicion": "Obtiene el bucle de eventos actual en programación asincrónica.",
+        "traduccion": "Gets the current event loop in asynchronous programming."},
+    "get_terminal_size": {
+        "definicion": "Devuelve el tamaño del terminal en caracteres.",
+        "traduccion": "Returns the terminal size in characters."},
+    "getsizeof": {
+        "definicion": "Devuelve el tamaño de un objeto en bytes.",
+        "traduccion": "Returns the size of an object in bytes."},
+    "google": {
+        "definicion": "API para interactuar con los servicios de Google desde Python.",
+        "traduccion": "API to interact with Google services from Python."},
+    "getdefaultencoding": {
+        "definicion": "Obtiene la codificación de caracteres predeterminada.",
+        "traduccion": "Gets the default character encoding."},
+    "geometry": {
+        "definicion": "Estudio de formas y sus propiedades.",
+        "traduccion": "Study of shapes and their properties."},
+    "greenlet": {
+        "definicion": "Librería que proporciona micro-hilos de ejecución en Python.",
+        "traduccion": "Library providing micro-threads of execution in Python."},
+    "gitignore": {
+        "definicion": "Archivo que especifica qué archivos o carpetas ignorar en un repositorio Git.",
+        "traduccion": "File that specifies files or folders to ignore in a Git repository."},
+    "grammar": {
+        "definicion": "Reglas que definen la estructura de un lenguaje de programación.",
+        "traduccion": "Rules defining the structure of a programming language."},
+    "gettext": {
+        "definicion": "Módulo para internacionalización y localización de aplicaciones.",
+        "traduccion": "Module for internationalization and localization of applications."},
+    "generate_tokens": {
+        "definicion": "Genera tokens de texto desde un archivo o cadena de entrada.",
+        "traduccion": "Generates text tokens from an input file or string."},
+    "gevent": {
+        "definicion": "Biblioteca para operaciones asincrónicas con microprocesos en Python.",
+        "traduccion": "Library for asynchronous operations with micro-threads in Python."},
+    "gui": {
+        "definicion": "Interfaz gráfica de usuario.",
+        "traduccion": "Graphical User Interface."},
+    "generator_function": {
+        "definicion": "Función que produce un iterador utilizando yield.",
+        "traduccion": "Function that produces an iterator using yield."},
+    "get_data": {
+        "definicion": "Obtiene datos de una fuente especificada.",
+        "traduccion": "Fetches data from a specified source."},
+    "git_branch": {
+        "definicion": "Rama en un repositorio Git.",
+        "traduccion": "Branch in a Git repository."},
+    "governance": {
+        "definicion": "Proceso de toma de decisiones y normas en el desarrollo de software.",
+        "traduccion": "Decision-making process and standards in software development."},
+    "gtts": {
+        "definicion": "Google Text-to-Speech, librería para convertir texto a voz usando Google.",
+        "traduccion": "Google Text-to-Speech, library to convert text to speech using Google."},
+    "get_identity": {
+        "definicion": "Devuelve la identidad o valor único de un objeto.",
+        "traduccion": "Returns the unique identity or value of an object."},
+    "get_status": {
+        "definicion": "Obtiene el estado de una operación o proceso.",
+        "traduccion": "Gets the status of an operation or process."},
+    "generator_instance": {
+        "definicion": "Instancia de una función generadora.",
+        "traduccion": "Instance of a generator function."},
+    "guess_encoding": {
+        "definicion": "Intenta determinar la codificación de un texto.",
+        "traduccion": "Attempts to guess the encoding of a text."},
+    "git_commit": {
+        "definicion": "Registra cambios en un repositorio Git.",
+        "traduccion": "Records changes in a Git repository."},
+    "gradient_descent": {
+        "definicion": "Algoritmo para minimizar funciones en aprendizaje automático.",
+        "traduccion": "Algorithm to minimize functions in machine learning."}},
 
     "h": {},
 
