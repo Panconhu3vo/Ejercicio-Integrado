@@ -1,5 +1,13 @@
 import tkinter as tk 
 
+# Funciones:
+
+def cerrarVentana():
+    vn.destroy()
+
+
+
+
 vn = tk.Tk()
 vn.configure(bg="#F2F2F2")
 vn.geometry("600x420")
@@ -43,9 +51,7 @@ footer.pack(fill="x")
 btnAcercaDe = tk.Button(footer,text="Acerca De",bg="#FFCE00",fg="#F2F2F2",font=("Roboto",12,"bold"))
 btnAcercaDe.pack(pady=10)
 
-btnSalir = tk.Button(footer,text="Salir",bg="#FFCE00",fg="#F2F2F2",font=("Roboto",12,"bold"))
+btnSalir = tk.Button(footer,text="Salir",bg="#FFCE00",fg="#F2F2F2",font=("Roboto",12,"bold"),command=cerrarVentana)
 btnSalir.pack(pady=10)
 
 vn.mainloop()
-
-
