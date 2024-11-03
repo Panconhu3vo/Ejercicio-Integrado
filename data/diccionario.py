@@ -1362,8 +1362,7 @@ diccionario = {
     },
     "http_redirect": {
         "definicion": "Redirección HTTP a otra URL.",
-        "traduccion": "HTTP redirection to another URL."
-    },
+        "traduccion": "HTTP redirection to another URL."},
     "highlighter": {
         "definicion": "Resalta código en editores o IDEs.",
         "traduccion": "Highlights code in editors or IDEs."}},
