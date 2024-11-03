@@ -1429,7 +1429,7 @@ diccionario = {
         "traduccion": "Accessing elements of a structure using indices."},
     "infinity": {
         "definicion": "Número sin límites o fin.",
-        "traduccion": "Number without bounds or end."}
+        "traduccion": "Number without bounds or end."},
     "image_processing": {
         "definicion": "Conjunto de técnicas para manipular imágenes.",
         "traduccion": "Set of techniques for manipulating images."},

@@ -11,7 +11,7 @@ nav = tk.Frame(vn)
 nav.configure(bg="#D92534",width=600,height=42)
 nav.pack(fill="x")
 
-lbnav = tk.Label(nav,text="Diccionario Del Programador",font=("Roboto",24,"bold"),fg="#FFCE00",bg="#D92534")
+lbnav = tk.Label(nav,text="Diccionario Del Programador",font=("Roboto",24,"bold"),fg="#F2F2F2",bg="#D92534")
 lbnav.pack(side="top")
 
 vn.mainloop()
