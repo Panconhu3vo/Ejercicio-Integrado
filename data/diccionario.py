@@ -956,7 +956,417 @@ diccionario = {
         "definicion": "Obtiene la documentación de una función o módulo.",
         "traduccion": "Fetches the documentation of a function or module."}},
     
-    "h": {},
+"h": {
+    "hash": {
+        "definicion": "Devuelve el valor hash de un objeto.",
+        "traduccion": "Returns the hash value of an object."
+    },
+    "help": {
+        "definicion": "Muestra la ayuda de un módulo, función o clase.",
+        "traduccion": "Displays the help information of a module, function, or class."
+    },
+    "hex": {
+        "definicion": "Convierte un número en su representación hexadecimal.",
+        "traduccion": "Converts a number to its hexadecimal representation."
+    },
+    "head": {
+        "definicion": "Devuelve las primeras filas de un DataFrame en pandas.",
+        "traduccion": "Returns the first rows of a DataFrame in pandas."
+    },
+    "heapq": {
+        "definicion": "Proporciona funciones para crear y manipular montículos.",
+        "traduccion": "Provides functions to create and manipulate heaps."
+    },
+    "hstack": {
+        "definicion": "Apila arrays en secuencia horizontal.",
+        "traduccion": "Stacks arrays in a horizontal sequence."
+    },
+    "hypot": {
+        "definicion": "Calcula la hipotenusa de un triángulo rectángulo.",
+        "traduccion": "Calculates the hypotenuse of a right triangle."
+    },
+    "hist": {
+        "definicion": "Genera un histograma de datos en matplotlib.",
+        "traduccion": "Generates a histogram of data in matplotlib."
+    },
+    "hostname": {
+        "definicion": "Devuelve o establece el nombre del host de la máquina.",
+        "traduccion": "Returns or sets the machine's hostname."
+    },
+    "hashlib": {
+        "definicion": "Ofrece funciones de hashing seguras.",
+        "traduccion": "Provides secure hashing functions."
+    },
+    "homedir": {
+        "definicion": "Devuelve el directorio de inicio del usuario.",
+        "traduccion": "Returns the user's home directory."
+    },
+    "highlight": {
+        "definicion": "Resalta el código para mejorar la legibilidad.",
+        "traduccion": "Highlights code for readability."
+    },
+    "histogram": {
+        "definicion": "Calcula la frecuencia de datos en rangos específicos.",
+        "traduccion": "Calculates data frequency in specific ranges."
+    },
+    "hook": {
+        "definicion": "Define una función personalizada para extender una operación.",
+        "traduccion": "Defines a custom function to extend an operation."
+    },
+    "http": {
+        "definicion": "Proporciona soporte para el protocolo HTTP en Python.",
+        "traduccion": "Provides support for the HTTP protocol in Python."
+    },
+    "hist2d": {
+        "definicion": "Genera un histograma bidimensional en matplotlib.",
+        "traduccion": "Generates a two-dimensional histogram in matplotlib."
+    },
+    "histc": {
+        "definicion": "Calcula la cuenta de histogramas en Numpy.",
+        "traduccion": "Calculates histogram counts in Numpy."
+    },
+    "hamming": {
+        "definicion": "Calcula la distancia de Hamming entre dos secuencias.",
+        "traduccion": "Calculates the Hamming distance between two sequences."
+    },
+    "heapify": {
+        "definicion": "Convierte una lista en un montículo.",
+        "traduccion": "Transforms a list into a heap."
+    },
+    "hsv": {
+        "definicion": "Modelo de color basado en matiz, saturación y valor.",
+        "traduccion": "Color model based on hue, saturation, and value."
+    },
+    "headless": {
+        "definicion": "Ejecuta aplicaciones gráficas sin entorno de visualización.",
+        "traduccion": "Runs graphical applications without a display environment."
+    },
+    "histcounts": {
+        "definicion": "Cuenta elementos para rangos especificados en un histograma.",
+        "traduccion": "Counts elements for specified ranges in a histogram."
+    },
+    "hexbin": {
+        "definicion": "Crea un gráfico de contenedores hexagonales.",
+        "traduccion": "Creates a hexbin plot."
+    },
+    "http.client": {
+        "definicion": "Módulo para realizar peticiones HTTP.",
+        "traduccion": "Module for making HTTP requests."
+    },
+    "hook_fn": {
+        "definicion": "Función personalizada que se llama en puntos específicos.",
+        "traduccion": "Custom function called at specific points."
+    },
+    "hue": {
+        "definicion": "Ajusta el tono de color en gráficos de seaborn.",
+        "traduccion": "Adjusts the color hue in seaborn plots."
+    },
+    "hashset": {
+        "definicion": "Estructura de datos para almacenar elementos únicos en hashing.",
+        "traduccion": "Data structure for storing unique items in hashing."
+    },
+    "hdf5": {
+        "definicion": "Formato de archivo para almacenar datos de gran tamaño.",
+        "traduccion": "File format for storing large data."
+    },
+    "hanning": {
+        "definicion": "Aplica la ventana de Hanning en procesamiento de señales.",
+        "traduccion": "Applies the Hanning window in signal processing."
+    },
+    "help_module": {
+        "definicion": "Proporciona ayuda sobre un módulo específico.",
+        "traduccion": "Provides help on a specific module."
+    },
+    "handle": {
+        "definicion": "Representa un recurso o elemento de sistema gestionado.",
+        "traduccion": "Represents a managed system resource or element."
+    },
+    "hstack_block": {
+        "definicion": "Apila bloques en horizontal.",
+        "traduccion": "Stacks blocks horizontally."
+    },
+    "hotspot": {
+        "definicion": "Punto de acceso para operaciones frecuentes en programación.",
+        "traduccion": "Access point for frequent operations in programming."
+    },
+    "http.server": {
+        "definicion": "Módulo para iniciar un servidor HTTP básico.",
+        "traduccion": "Module to start a basic HTTP server."
+    },
+    "haversine": {
+        "definicion": "Calcula la distancia entre dos puntos en una esfera.",
+        "traduccion": "Calculates the distance between two points on a sphere."
+    },
+    "hspace": {
+        "definicion": "Controla el espacio horizontal entre elementos gráficos.",
+        "traduccion": "Controls horizontal spacing between graphical elements."
+    },
+    "hex_color": {
+        "definicion": "Representación hexadecimal de un color.",
+        "traduccion": "Hexadecimal representation of a color."
+    },
+    "handle_request": {
+        "definicion": "Gestión de una solicitud en un servidor.",
+        "traduccion": "Handling a request in a server."
+    },
+    "html": {
+        "definicion": "Modulo que permite manejar y analizar código HTML.",
+        "traduccion": "Module that handles and parses HTML code."
+    },
+    "hybrid": {
+        "definicion": "Método que combina características de dos o más algoritmos.",
+        "traduccion": "Method combining features of two or more algorithms."
+    },
+    "hclust": {
+        "definicion": "Realiza el clustering jerárquico.",
+        "traduccion": "Performs hierarchical clustering."
+    },
+    "harden": {
+        "definicion": "Refuerza la seguridad de un sistema.",
+        "traduccion": "Strengthens system security."
+    },
+    "hist_equalize": {
+        "definicion": "Iguala el histograma de una imagen.",
+        "traduccion": "Equalizes the histogram of an image."},
+    "httpx": {
+        "definicion": "Cliente HTTP asíncrono para Python.",
+        "traduccion": "Asynchronous HTTP client for Python."},
+    "hdf": {
+        "definicion": "Formato de archivo para datos jerárquicos.",
+        "traduccion": "File format for hierarchical data."},
+    "histmatch": {
+        "definicion": "Iguala el histograma de una imagen con otra.",
+        "traduccion": "Matches the histogram of one image with another."},
+    "hasattr": {
+        "definicion": "Comprueba si un objeto tiene un atributo.",
+        "traduccion": "Checks if an object has an attribute."},
+    "httpx_session": {
+        "definicion": "Gestiona sesiones de solicitudes HTTP en httpx.",
+        "traduccion": "Manages HTTP request sessions in httpx."},
+    "hash_table": {
+        "definicion": "Estructura de datos que permite almacenar datos únicos.",
+        "traduccion": "Data structure that stores unique data."},
+    "hough_transform": {
+        "definicion": "Detecta líneas y formas en imágenes.",
+        "traduccion": "Detects lines and shapes in images."},
+    "hsv_to_rgb": {
+        "definicion": "Convierte un color de HSV a RGB.",
+        "traduccion": "Converts a color from HSV to RGB."},
+    "http_code": {
+        "definicion": "Código de respuesta HTTP.",
+        "traduccion": "HTTP response code."},
+
+     "http_status": {
+        "definicion": "Código que indica el estado de una solicitud HTTP.",
+        "traduccion": "Code that indicates the status of an HTTP request."
+    },
+    "hessian": {
+        "definicion": "Matriz de segundas derivadas en optimización.",
+        "traduccion": "Matrix of second derivatives in optimization."
+    },
+    "huber": {
+        "definicion": "Función de pérdida en estadística robusta.",
+        "traduccion": "Loss function in robust statistics."
+    },
+    "hue_shift": {
+        "definicion": "Ajusta el matiz de una imagen o color.",
+        "traduccion": "Adjusts the hue of an image or color."
+    },
+    "hard_limit": {
+        "definicion": "Límite rígido en una operación o parámetro.",
+        "traduccion": "Rigid limit in an operation or parameter."
+    },
+    "highlight_text": {
+        "definicion": "Resalta texto para mejorar la legibilidad.",
+        "traduccion": "Highlights text for readability."
+    },
+    "hierarchical": {
+        "definicion": "Relacionado con estructuras en niveles o jerarquías.",
+        "traduccion": "Related to structures in levels or hierarchies."
+    },
+    "hash_code": {
+        "definicion": "Representación numérica de un objeto.",
+        "traduccion": "Numeric representation of an object."
+    },
+    "hermite": {
+        "definicion": "Función ortogonal en procesamiento de señales.",
+        "traduccion": "Orthogonal function in signal processing."
+    },
+    "handle_event": {
+        "definicion": "Gestiona un evento específico en un sistema.",
+        "traduccion": "Handles a specific event in a system."
+    },
+    "homogeneous": {
+        "definicion": "Estructura consistente sin variaciones.",
+        "traduccion": "Consistent structure without variations."
+    },
+    "hash_set": {
+        "definicion": "Conjunto de elementos únicos basado en hashing.",
+        "traduccion": "Set of unique elements based on hashing."
+    },
+    "hough_line": {
+        "definicion": "Detecta líneas rectas en imágenes.",
+        "traduccion": "Detects straight lines in images."
+    },
+    "http_methods": {
+        "definicion": "Métodos estándar para solicitudes HTTP.",
+        "traduccion": "Standard methods for HTTP requests."
+    },
+    "http_response": {
+        "definicion": "Respuesta generada a una solicitud HTTP.",
+        "traduccion": "Response generated to an HTTP request."
+    },
+    "hex_to_bin": {
+        "definicion": "Convierte de hexadecimal a binario.",
+        "traduccion": "Converts from hexadecimal to binary."
+    },
+    "hist_interpolate": {
+        "definicion": "Interpolación en histogramas.",
+        "traduccion": "Interpolation in histograms."
+    },
+    "hyperlink": {
+        "definicion": "Vincula un recurso a través de URL.",
+        "traduccion": "Links a resource through a URL."
+    },
+    "hypertune": {
+        "definicion": "Ajuste de parámetros para optimización.",
+        "traduccion": "Parameter tuning for optimization."
+    },
+    "http_parser": {
+        "definicion": "Analizador de solicitudes HTTP.",
+        "traduccion": "HTTP request parser."
+    },
+    "hover": {
+        "definicion": "Efecto al pasar el cursor sobre un elemento.",
+        "traduccion": "Effect when hovering over an element."
+    },
+    "http_auth": {
+        "definicion": "Autenticación en protocolos HTTP.",
+        "traduccion": "Authentication in HTTP protocols."
+    },
+    "heightmap": {
+        "definicion": "Mapa de alturas en gráficos 3D.",
+        "traduccion": "Height map in 3D graphics."
+    },
+    "hstack_array": {
+        "definicion": "Apila arrays horizontalmente.",
+        "traduccion": "Stacks arrays horizontally."
+    },
+    "high_frequency": {
+        "definicion": "Componentes de alta frecuencia en señales.",
+        "traduccion": "High-frequency components in signals."
+    },
+    "hidden_state": {
+        "definicion": "Estado oculto en redes neuronales recurrentes.",
+        "traduccion": "Hidden state in recurrent neural networks."
+    },
+    "hashmap": {
+        "definicion": "Mapa que almacena pares clave-valor mediante hashing.",
+        "traduccion": "Map storing key-value pairs using hashing."
+    },
+    "hostfile": {
+        "definicion": "Archivo que mapea nombres de dominio a IPs.",
+        "traduccion": "File mapping domain names to IPs."
+    },
+    "hit_rate": {
+        "definicion": "Proporción de aciertos en una predicción o búsqueda.",
+        "traduccion": "Success rate in a prediction or search."
+    },
+    "horizontal_flip": {
+        "definicion": "Invierte una imagen horizontalmente.",
+        "traduccion": "Flips an image horizontally."
+    },
+    "http_request": {
+        "definicion": "Solicitud enviada a un servidor HTTP.",
+        "traduccion": "Request sent to an HTTP server."
+    },
+    "hysteresis": {
+        "definicion": "Efecto de retardo en un sistema ante cambios.",
+        "traduccion": "Delay effect in a system when changing states."
+    },
+    "half_width": {
+        "definicion": "Mitad de la anchura de un elemento.",
+        "traduccion": "Half the width of an element."
+    },
+    "hatch_fill": {
+        "definicion": "Patrón de relleno en gráficos.",
+        "traduccion": "Fill pattern in graphics."
+    },
+    "http_proxy": {
+        "definicion": "Servidor intermediario para solicitudes HTTP.",
+        "traduccion": "Intermediary server for HTTP requests."
+    },
+    "header_bytes": {
+        "definicion": "Bytes que componen el encabezado de una solicitud.",
+        "traduccion": "Bytes comprising a request header."
+    },
+    "hexa_grid": {
+        "definicion": "Grilla hexagonal para visualización o cálculos.",
+        "traduccion": "Hexagonal grid for visualization or calculations."
+    },
+    "http_cache": {
+        "definicion": "Almacén de respuestas HTTP para acceso rápido.",
+        "traduccion": "Store of HTTP responses for quick access."
+    },
+    "hierarchy_tree": {
+        "definicion": "Estructura en forma de árbol jerárquico.",
+        "traduccion": "Structure in a hierarchical tree form."
+    },
+    "hex_to_rgb": {
+        "definicion": "Convierte de hexadecimal a RGB.",
+        "traduccion": "Converts from hexadecimal to RGB."
+    },
+    "highlight_color": {
+        "definicion": "Color de resaltado en gráficos o interfaces.",
+        "traduccion": "Highlight color in graphics or interfaces."
+    },
+    "hyperbolic": {
+        "definicion": "Relativo a funciones hiperbólicas en matemáticas.",
+        "traduccion": "Related to hyperbolic functions in math."
+    },
+    "http_headers": {
+        "definicion": "Encabezados de una solicitud o respuesta HTTP.",
+        "traduccion": "Headers of an HTTP request or response."
+    },
+    "hist_norm": {
+        "definicion": "Normalización de un histograma.",
+        "traduccion": "Normalization of a histogram."
+    },
+    "hover_text": {
+        "definicion": "Texto que aparece al pasar el cursor sobre un elemento.",
+        "traduccion": "Text displayed when hovering over an element."
+    },
+    "http_status_code": {
+        "definicion": "Código de estado de una respuesta HTTP.",
+        "traduccion": "Status code of an HTTP response."
+    },
+    "http_endpoint": {
+        "definicion": "Punto final de una API en un servidor.",
+        "traduccion": "API endpoint on a server."
+    },
+    "holdout": {
+        "definicion": "Conjunto de datos separado para validación.",
+        "traduccion": "Data set held out for validation."
+    },
+    "hypergraph": {
+        "definicion": "Grafo en el cual cada arista conecta múltiples nodos.",
+        "traduccion": "Graph where each edge connects multiple nodes."
+    },
+    "hamming_window": {
+        "definicion": "Ventana de Hamming en análisis de señales.",
+        "traduccion": "Hamming window in signal analysis."
+    },
+    "headless_mode": {
+        "definicion": "Modo sin entorno gráfico para pruebas o servidores.",
+        "traduccion": "Headless mode for testing or servers."
+    },
+    "http_redirect": {
+        "definicion": "Redirección HTTP a otra URL.",
+        "traduccion": "HTTP redirection to another URL."
+    },
+    "highlighter": {
+        "definicion": "Resalta código en editores o IDEs.",
+        "traduccion": "Highlights code in editors or IDEs."}},
 
     "i": {},
 
