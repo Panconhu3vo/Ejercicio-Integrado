@@ -252,9 +252,9 @@ diccionario = {
     "capitalize": {
         "definicion": "Devuelve una copia de la cadena con la primera letra en mayúscula.",
         "traduccion": "Returns a copy of the string with the first letter capitalized."},
-    "center": {
+    "center":{
         "definicion": "Devuelve una cadena centrada, con ancho especificado y relleno opcional.",
-        "traduccion": "Returns a centered string with specified width and optional fill character."}
+        "traduccion": "Returns a centered string with specified width and optional fill character."},
     "ceil": {
         "definicion": "Redondea un número al entero más próximo hacia arriba.",
         "traduccion": "Rounds a number up to the nearest integer."},
@@ -340,7 +340,7 @@ diccionario = {
         "traduccion": "Adds an element to the beginning of a deque."},
     "dict.update": {
         "definicion": "Actualiza un diccionario con pares clave-valor de otro diccionario.",
-        "traduccion": "Updates a dictionary with key-value pairs from another dictionary."}
+        "traduccion": "Updates a dictionary with key-value pairs from another dictionary."},
     "del": {
         "definicion": "Elimina una variable, elemento o atributo.",
         "traduccion": "Deletes a variable, element, or attribute."},
@@ -828,7 +828,7 @@ diccionario = {
         "traduccion": "Records changes in a Git repository."},
     "gradient_descent": {
         "definicion": "Algoritmo para minimizar funciones en aprendizaje automático.",
-        "traduccion": "Algorithm to minimize functions in machine learning."}
+        "traduccion": "Algorithm to minimize functions in machine learning."},
     "get_referrers": {
         "definicion": "Devuelve los objetos que hacen referencia a un objeto específico.",
         "traduccion": "Returns the objects that reference a specific object."},
