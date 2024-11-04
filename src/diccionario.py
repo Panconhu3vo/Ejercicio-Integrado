@@ -7,6 +7,7 @@ diccionario = {
 "A":{"terminos,": {"categoría": "categoria en español", "traducción": "definicion en español"}},
 }
 
+aasafs
 '''
 diccionario = {
  "a": {
