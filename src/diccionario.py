@@ -4,7 +4,7 @@
 
 Estructura del diccionario.
 diccionario = {
-"A":{"terminos,": {"definicion": "definicion en español", "traducción": "definicion en español"}},
+"A":{"terminos,": {"categoría": "categoria en español", "traducción": "definicion en español"}},
 }
 
 '''
