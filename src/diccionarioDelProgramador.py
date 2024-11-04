@@ -14,7 +14,7 @@ noEncontrado = True
 nombreLimpio = ""
 # ---
 # Agregar Termino():
-
+#jose no trabaja
 
 # ---
 # Eliminar Término():
