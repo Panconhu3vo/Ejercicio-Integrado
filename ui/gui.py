@@ -95,6 +95,7 @@ def ocultarSeccionListarTermino():
 def seccionAcercaDe():
     ocultarInicio()
     navegadorEntreSecciones()
+    vn.geometry("600x530")
     acercaDe.pack(fill="both")
 
 def ocultarSeccionAcercaDe():
@@ -107,14 +108,14 @@ def ocultarSeccionAcercaDe():
 # ------------------------------------------------------
 
 def volver():
+    vn.geometry("600x420")
     """Vuelve al menú principal ocultando otras secciones."""
     ocultarSeccionAgregarTermino()
     ocultarSeccionEliminarTermino()
     ocultarSeccionBuscarTermino()
+    ocultarSeccionListarTermino()
+    ocultarSeccionAcercaDe()
     Inicio()
-
-    
-
 
 # ------------------------------------------------------
 # Configuración de la ventana principal
@@ -251,6 +252,41 @@ listarTermino = tk.Frame(vn)
 # ------------------------------------------------------
 
 acercaDe= tk.Frame(vn)
+
+lbTitulo = tk.Label(
+    acercaDe, text="Diccionario del Programador, Inglés-Español",
+    font=("Roboto", 12, "bold"),fg="#201161"
+)
+
+lbTitulo.pack(side="top", padx=(40),pady=10)
+
+txtAcecaDeP1 = tk.Text(
+    acercaDe, wrap="word", height=39,
+    font=("Roboto",11)
+)
+
+txtAcecaDeP1.insert(
+    "1.0","""Este proyecto, se desarrolla como un ejercicio integrado de colaboración entre estudiantes de programación. Su objetivo es crear una herramienta práctica para traducir términos técnicos del inglés al español, ayudando a futuros programadores a comprender y utilizar el vocabulario técnico en su aprendizaje y desarrollo profesional.
+
+Colaboradores
+
+El equipo está conformado por estudiantes comprometidos con la creación y perfeccionamiento de esta herramienta. A continuación se enlistan los miembros y sus respectivos nombres de usuario en GitHub:
+
+Juan Yañez - @Panconhu3vo
+Thiare Carvacho - @thiareecart
+Jose Cheuquefilo - @josecheuquefilo
+Juan Alchao - @Juan777ac
+Feguens Louissaint - @kanabuggi
+Millaray Perez - Usuario pendiente
+
+Tecnologías Utilizadas
+
+Para la creación del diccionario, empleamos la librería Tkinter, que permite una interfaz gráfica interactiva, y la herramienta DOT para generar diagramas de flujo, facilitando la visualización de los procesos dentro de la aplicación."""
+)
+
+txtAcecaDeP1.configure(state="disabled")
+txtAcecaDeP1.pack(side="top", padx=(40),pady=10)
+
 
 
 # ------------------------------------------------------
