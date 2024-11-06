@@ -257,7 +257,152 @@ diccionario = {
         "definicion": "Tipo de dato booleano en bibliotecas como NumPy.",
         "traduccion": "Boolean data type in libraries like NumPy."}},
 
-
+"c": {
+    "callable": {
+        "categoria": ("Funciones",),
+        "definicion": "Devuelve True si el objeto es llamable (función, método, etc.).",
+        "traduccion": "Returns True if the object is callable (function, method, etc.)."},
+    "chr": {
+        "categoria": ("Conversión de datos",),
+        "definicion": "Convierte un código ASCII en su carácter correspondiente.",
+        "traduccion": "Converts an ASCII code to its corresponding character."},
+    "class": {
+        "categoria": ("Programación orientada a objetos",),
+        "definicion": "Define una nueva clase para crear objetos personalizados.",
+        "traduccion": "Defines a new class to create custom objects."},
+    "classmethod": {
+        "categoria": ("Programación orientada a objetos",),
+        "definicion": "Convierte un método en un método de clase, accesible desde la clase sin instanciarla.",
+        "traduccion": "Converts a method to a class method, accessible from the class without instantiating it."},
+    "compile": {
+        "categoria": ("Compilación",),
+        "definicion": "Compila una cadena de texto en código ejecutable de Python.",
+        "traduccion": "Compiles a text string into executable Python code."},
+    "complex": {
+        "categoria": ("Tipos de datos",),
+        "definicion": "Crea un número complejo a partir de dos valores (real e imaginario).",
+        "traduccion": "Creates a complex number from two values (real and imaginary)."},
+    "continue": {
+        "categoria": ("Control de flujo",),
+        "definicion": "Salta la iteración actual de un bucle y pasa a la siguiente.",
+        "traduccion": "Skips the current iteration of a loop and moves to the next one."},
+    "copy": {
+        "categoria": ("Manipulación de datos",),
+        "definicion": "Crea una copia superficial de una lista, diccionario u otro objeto mutable.",
+        "traduccion": "Creates a shallow copy of a list, dictionary, or other mutable object."},
+    "coroutine": {
+        "categoria": ("Programación asincrónica",),
+        "definicion": "Define una función especial que puede pausarse y reanudarse (asincrónica).",
+        "traduccion": "Defines a special function that can be paused and resumed (asynchronous)."},
+    "count": {
+        "categoria": ("Manipulación de datos",),
+        "definicion": "Cuenta la cantidad de ocurrencias de un valor en una lista o cadena.",
+        "traduccion": "Counts the occurrences of a value in a list or string."},
+    "clear": {
+        "categoria": ("Manipulación de datos",),
+        "definicion": "Elimina todos los elementos de una lista o diccionario.",
+        "traduccion": "Removes all elements from a list or dictionary."},
+    "cmath": {
+        "categoria": ("Matemáticas complejas",),
+        "definicion": "Módulo para operaciones matemáticas complejas.",
+        "traduccion": "Module for complex mathematical operations."},
+    "chain": {
+        "categoria": ("Manipulación de iterables",),
+        "definicion": "Función del módulo itertools que concatena múltiples iterables.",
+        "traduccion": "Function from itertools module that concatenates multiple iterables."},
+    "csv": {
+        "categoria": ("Manejo de archivos",),
+        "definicion": "Módulo para manipular archivos CSV (valores separados por comas).",
+        "traduccion": "Module for handling CSV (comma-separated values) files."},
+    "copyreg": {
+        "categoria": ("Serialización",),
+        "definicion": "Módulo que registra funciones para serialización de objetos.",
+        "traduccion": "Module that registers functions for object serialization."},
+    "counter": {
+        "categoria": ("Estructura de datos",),
+        "definicion": "Clase de collections para contar elementos en un iterable.",
+        "traduccion": "Class from collections to count elements in an iterable."},
+    "cProfile": {
+        "categoria": ("Depuración y optimización",),
+        "definicion": "Herramienta para realizar un perfil de rendimiento de código Python.",
+        "traduccion": "Tool for profiling Python code performance."},
+    "capitalize": {
+        "categoria": ("Manipulación de texto",),
+        "definicion": "Devuelve una copia de la cadena con la primera letra en mayúscula.",
+        "traduccion": "Returns a copy of the string with the first letter capitalized."},
+    "center": {
+        "categoria": ("Manipulación de texto",),
+        "definicion": "Devuelve una cadena centrada, con ancho especificado y relleno opcional.",
+        "traduccion": "Returns a centered string with specified width and optional fill character."},
+    "ceil": {
+        "categoria": ("Matemáticas",),
+        "definicion": "Redondea un número al entero más próximo hacia arriba.",
+        "traduccion": "Rounds a number up to the nearest integer."},
+    "call": {
+        "categoria": ("Funciones",),
+        "definicion": "Ejecuta una función o método específico en un objeto.",
+        "traduccion": "Executes a specific function or method on an object."},
+    "clamp": {
+        "categoria": ("Matemáticas",),
+        "definicion": "Restringe un valor dentro de un rango especificado (no en la biblioteca estándar).",
+        "traduccion": "Restricts a value within a specified range (not in standard library)."},
+    "choice": {
+        "categoria": ("Generación de datos aleatorios",),
+        "definicion": "Selecciona un elemento aleatorio de una secuencia.",
+        "traduccion": "Selects a random element from a sequence."},
+    "collections": {
+        "categoria": ("Estructura de datos",),
+        "definicion": "Módulo que proporciona estructuras de datos especializadas.",
+        "traduccion": "Module providing specialized data structures."},
+    "compress": {
+        "categoria": ("Manipulación de iterables",),
+        "definicion": "Filtra elementos de un iterable según un selector booleano.",
+        "traduccion": "Filters elements in an iterable according to a boolean selector."},
+    "complex_conjugate": {
+        "categoria": ("Matemáticas complejas",),
+        "definicion": "Devuelve el conjugado de un número complejo.",
+        "traduccion": "Returns the conjugate of a complex number."},
+    "ctypes": {
+        "categoria": ("Interoperabilidad",),
+        "definicion": "Módulo para manipular datos en bibliotecas compartidas en C.",
+        "traduccion": "Module for handling data in C shared libraries."},
+    "clear_screen": {
+        "categoria": ("Interacción con el sistema",),
+        "definicion": "Limpia la pantalla en algunos entornos de terminal (no es una función estándar).",
+        "traduccion": "Clears the screen in some terminal environments (not a standard function)."},
+    "call_later": {
+        "categoria": ("Programación asincrónica",),
+        "definicion": "Programa la ejecución de una función después de un tiempo en asyncio.",
+        "traduccion": "Schedules the execution of a function after a delay in asyncio."},
+    "chunk": {
+        "categoria": ("Manipulación de iterables",),
+        "definicion": "Divide un iterable en partes de tamaño fijo (disponible en itertools y otras bibliotecas).",
+        "traduccion": "Splits an iterable into fixed-size chunks (available in itertools and other libraries)."},
+    "cycle": {
+        "categoria": ("Manipulación de iterables",),
+        "definicion": "Itertools: Cicla infinitamente a través de un iterable.",
+        "traduccion": "Itertools: Cycles infinitely through an iterable."},
+    "coerce": {
+        "categoria": ("Conversión de datos",),
+        "definicion": "Convierte parámetros a un tipo común (obsoleto en Python 3).",
+        "traduccion": "Converts parameters to a common type (obsolete in Python 3)."},
+    "current_thread": {
+        "categoria": ("Hilos",),
+        "definicion": "Obtiene el hilo actual de ejecución en threading.",
+        "traduccion": "Gets the current thread in threading."},
+    "configparser": {
+        "categoria": ("Manejo de archivos",),
+        "definicion": "Módulo para manipular archivos de configuración estilo INI.",
+        "traduccion": "Module for handling INI-style configuration files."},
+    "compileall": {
+        "categoria": ("Compilación",),
+        "definicion": "Compila recursivamente archivos .py en bytecode.",
+        "traduccion": "Recursively compiles .py files to bytecode."},
+    "copytree": {
+        "categoria": ("Manipulación de archivos",),
+        "definicion": "Copia recursivamente un directorio completo.",
+        "traduccion": "Recursively copies an entire directory."}},
+ 
 "d": {
     "def": {
         "definicion": "Declara una función o método.",
