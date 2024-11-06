@@ -1,3 +1,4 @@
+from src.diccionarioDelProgramador import *
 import tkinter as tk 
 
 # ------------------------------------------------------
@@ -240,6 +241,8 @@ eliminarTermino = tk.Frame(vn)
 # ------------------------------------------------------
 
 buscarTermino = tk.Frame(vn)
+
+
 
 # ------------------------------------------------------
 # Sección "Listar Término"

@@ -89,10 +89,11 @@ while True:
         print("Ingresa el nombre del termino (Minuscula):")
         nombreTermino = input(">> ")
         nombreLimpio = verificarNombre(nombreTermino) 
+        print(" ", nombreLimpio)
+        print("     Definicion: ",diccionario[buscarTermino(nombreLimpio)][nombreLimpio]["definicion"])
+        print("     Traduccion: ",diccionario[buscarTermino(nombreLimpio)][nombreLimpio]["traduccion"])
+        print("     Categoria: ",diccionario[buscarTermino(nombreLimpio)][nombreLimpio]["categoria"])
 
-        print("| ", nombreLimpio.ljust(165), " |")
-        print("| Definicion:".ljust(83)," | ", "Traduccion:".ljust(80)," |" )
-        print("| ",diccionario[buscarTermino(nombreLimpio)][nombreLimpio]["definicion"].ljust(80)," | ",diccionario[buscarTermino(nombreLimpio)][nombreLimpio]["traduccion"].ljust(80)," |")
         
     # elif opc == 4:
     # elif opc == 5:
