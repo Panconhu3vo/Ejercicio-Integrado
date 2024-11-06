@@ -76,7 +76,6 @@ while True:
         print("Agregar Termino")
         print("ingresa el nombre del termino que desea agregar ")
         terminoNuevo = input(">> ")
-        verificarNombre(terminoNuevo)
         print("ingresa la definicion del termino ")
         definicion = input(">> ")
         print("ingresa la traduccion del termino ")
