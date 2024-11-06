@@ -72,9 +72,16 @@ while True:
     opc = int(input(">> "))
     if opc == 1:
         print("Agregar Termino")
+        print("ingresa el nombre del termino que desea agregar ")
+        terminoNuevo = input(">> ")
+        print("ingresa la definicion del termino ")
+        definicion = input(">> ")
+        print("ingresa la traduccion del termino ")
+        traduccion = input(">> ")
+        
     elif opc == 2:
         print("Eliminar Termino")
-
+    
 
 
     elif opc == 3:
