@@ -1,0 +1,34 @@
+
+digraph "DiagramaDiccionario" {
+    rankdir=BT;
+    charset="utf-8";
+
+    // Nodos
+    node [shape=box];
+    menu [label="menu"];
+    opc [label="opc"];
+    llavesTemporales [label="llavesTemporales"];
+    noEncontrado [label="noEncontrado"];
+    nombreLimpio [label="nombreLimpio"];
+    
+    // Funciones
+    buscarTermino [label="buscarTermino(termino)"];
+    eliminarEspacios [label="eliminarEspacios(limpiarPalabra)"];
+    verificarNombre [label="verificarNombre(n)"];
+
+    // Conexiones
+    menu -> opc;
+    opc -> llavesTemporales;
+    opc -> noEncontrado;
+    opc -> nombreLimpio;
+    
+    // Llamadas a funciones
+    opc -> buscarTermino;
+    opc -> eliminarEspacios;
+    opc -> verificarNombre;
+
+    // Entradas y salidas
+    buscarTermino -> "return primeraPalabra";
+    eliminarEspacios -> "return terminoSinEspacios";
+    verificarNombre -> "return n";
+}
