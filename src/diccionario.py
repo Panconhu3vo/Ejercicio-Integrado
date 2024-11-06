@@ -366,7 +366,7 @@ diccionario = {
         "categoria": ("Interoperabilidad",),
         "definicion": "Módulo para manipular datos en bibliotecas compartidas en C.",
         "traduccion": "Module for handling data in C shared libraries."},
-    "clear_screen": {
+    "clear_screen": { 
         "categoria": ("Interacción con el sistema",),
         "definicion": "Limpia la pantalla en algunos entornos de terminal (no es una función estándar).",
         "traduccion": "Clears the screen in some terminal environments (not a standard function)."},
