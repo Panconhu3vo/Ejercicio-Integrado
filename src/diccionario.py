@@ -1,5 +1,6 @@
 # Diccionario:
 # Cabe recalcar que todos esos términos pertenecen al ecosistema de Python. parte de la biblioteca estándar de Python y otros provienen de bibliotecas adicionales como Pandas y NumPy que sirven para el análisis de datos y operaciones numéricas.
+#J_J
 '''
 
 Estructura del diccionario.
@@ -403,7 +404,7 @@ diccionario = {
         "definicion": "Copia recursivamente un directorio completo.",
         "traduccion": "Recursively copies an entire directory."}},
  
-"d": {
+ "d": {
         "def": {
             "categoria": "Función",
             "definicion": "Declara una función o método.",
