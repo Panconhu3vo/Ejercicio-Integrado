@@ -150,119 +150,113 @@ diccionario = {
         "categoria": ("Estructura de datos",),
         "definicion": "Cualquier objeto que pueda ser convertido a un array.",
         "traduccion": "Any object that can be converted to an array."}},
+ 
+"b": {
+    "bin": {
+        "categoria": ("Conversión de datos",),
+        "definicion": "Convierte un número en su representación binaria.",
+        "traduccion": "Converts a number to its binary representation."},
+    "bool": {
+        "categoria": ("Tipos de datos",),
+        "definicion": "Convierte un valor en su equivalente booleano (True o False).",
+        "traduccion": "Converts a value to its boolean equivalent (True or False)."},
+    "break": {
+        "categoria": ("Control de flujo",),
+        "definicion": "Termina el ciclo en el que se encuentra.",
+        "traduccion": "Terminates the loop it is in."},
+    "bytes": {
+        "categoria": ("Tipos de datos",),
+        "definicion": "Convierte a una secuencia inmutable de bytes.",
+        "traduccion": "Converts to an immutable sequence of bytes."},
+    "bytearray": {
+        "categoria": ("Tipos de datos",),
+        "definicion": "Crea una secuencia mutable de bytes.",
+        "traduccion": "Creates a mutable sequence of bytes."},
+    "byteswap": {
+        "categoria": ("Manipulación de datos",),
+        "definicion": "Invierte el orden de los bytes en una estructura de datos.",
+        "traduccion": "Swaps the byte order in a data structure."},
+    "buffer": {
+        "categoria": ("Memoria",),
+        "definicion": "Interfaz para acceder a los datos sin copiarlos.",
+        "traduccion": "Interface to access data without copying it."},
+    "base64": {
+        "categoria": ("Codificación y decodificación",),
+        "definicion": "Codifica y decodifica datos en el formato base64.",
+        "traduccion": "Encodes and decodes data in base64 format."},
+    "bitwise_and": {
+        "categoria": ("Operadores bit a bit",),
+        "definicion": "Operador AND bit a bit entre dos números.",
+        "traduccion": "Performs a bitwise AND operation between two numbers."},
+    "bitwise_or": {
+        "categoria": ("Operadores bit a bit",),
+        "definicion": "Operador OR bit a bit entre dos números.",
+        "traduccion": "Performs a bitwise OR operation between two numbers."},
+    "bitwise_xor": {
+        "categoria": ("Operadores bit a bit",),
+        "definicion": "Operador XOR bit a bit entre dos números.",
+        "traduccion": "Performs a bitwise XOR operation between two numbers."},
+    "bitwise_not": {
+        "categoria": ("Operadores bit a bit",),
+        "definicion": "Operador NOT bit a bit que invierte los bits de un número.",
+        "traduccion": "Performs a bitwise NOT operation, inverting bits of a number."},
+    "binomial": {
+        "categoria": ("Estadística",),
+        "definicion": "Distribución binomial en estadística.",
+        "traduccion": "Binomial distribution in statistics."},
+    "binascii": {
+        "categoria": ("Conversión de datos",),
+        "definicion": "Módulo para conversiones entre datos binarios y representaciones ASCII.",
+        "traduccion": "Module for conversions between binary data and ASCII representations."},
+    "byteorder": {
+        "categoria": ("Memoria",),
+        "definicion": "Propiedad que determina el orden de los bytes en un sistema ('big' o 'little').",
+        "traduccion": "Property determining byte order in a system ('big' or 'little')."},
+    "bit_length": {
+        "categoria": ("Operaciones numéricas",),
+        "definicion": "Devuelve el número de bits necesarios para representar un número en binario.",
+        "traduccion": "Returns the number of bits required to represent a number in binary."},
+    "breakpoint": {
+        "categoria": ("Depuración",),
+        "definicion": "Punto de interrupción para depurar el código.",
+        "traduccion": "Breakpoint for debugging code."},
+    "binhex": {
+        "categoria": ("Conversión de datos",),
+        "definicion": "Convierte datos binarios en formato hexadecimal.",
+        "traduccion": "Converts binary data to hexadecimal format."},
+    "bitset": {
+        "categoria": ("Estructura de datos",),
+        "definicion": "Conjunto de bits para operaciones bit a bit.",
+        "traduccion": "Set of bits for bitwise operations."},
+    "broadcast": {
+        "categoria": ("Manipulación de arrays",),
+        "definicion": "Extiende dimensiones para operaciones en arrays.",
+        "traduccion": "Extends dimensions for operations on arrays."},
+    "bitarray": {
+        "categoria": ("Estructura de datos",),
+        "definicion": "Estructura de datos que representa una secuencia de bits.",
+        "traduccion": "Data structure representing a sequence of bits."},
+    "buffer": {
+        "categoria": ("Memoria",),
+        "definicion": "Interfaz para manejar objetos de memoria sin copiarlos.",
+        "traduccion": "Interface for handling memory objects without copying them."},
+    "bitwise_left_shift": {
+        "categoria": ("Operadores bit a bit",),
+        "definicion": "Desplaza los bits de un número a la izquierda, equivalente a multiplicación por potencias de dos.",
+        "traduccion": "Shifts the bits of a number to the left, equivalent to multiplication by powers of two."},
+    "bitwise_right_shift": {
+        "categoria": ("Operadores bit a bit",),
+        "definicion": "Desplaza los bits de un número a la derecha, equivalente a división por potencias de dos.",
+        "traduccion": "Shifts the bits of a number to the right, equivalent to division by powers of two."},
+    "bz2": {
+        "categoria": ("Compresión de datos",),
+        "definicion": "Módulo para compresión y descompresión de archivos en formato bzip2.",
+        "traduccion": "Module for compressing and decompressing files in bzip2 format."},
+    "bool_": {
+        "categoria": ("Tipos de datos",),
+        "definicion": "Tipo de dato booleano en bibliotecas como NumPy.",
+        "traduccion": "Boolean data type in libraries like NumPy."}},
 
-"c": {
-    "callable": {
-        "definicion": "Devuelve True si el objeto es llamable (función, método, etc.).",
-        "traduccion": "Returns True if the object is callable (function, method, etc.)."},
-    "chr": {
-        "definicion": "Convierte un código ASCII en su carácter correspondiente.",
-        "traduccion": "Converts an ASCII code to its corresponding character."},
-    "class": {
-        "definicion": "Define una nueva clase para crear objetos personalizados.",
-        "traduccion": "Defines a new class to create custom objects."},
-    "classmethod": {
-        "definicion": "Convierte un método en un método de clase, accesible desde la clase sin instanciarla.",
-        "traduccion": "Converts a method to a class method, accessible from the class without instantiating it."},
-    "compile": {
-        "definicion": "Compila una cadena de texto en código ejecutable de Python.",
-        "traduccion": "Compiles a text string into executable Python code."},
-    "complex": {
-        "definicion": "Crea un número complejo a partir de dos valores (real e imaginario).",
-        "traduccion": "Creates a complex number from two values (real and imaginary)."},
-    "continue": {
-        "definicion": "Salta la iteración actual de un bucle y pasa a la siguiente.",
-        "traduccion": "Skips the current iteration of a loop and moves to the next one."},
-    "copy": {
-        "definicion": "Crea una copia superficial de una lista, diccionario u otro objeto mutable.",
-        "traduccion": "Creates a shallow copy of a list, dictionary, or other mutable object."},
-    "coroutine": {
-        "definicion": "Define una función especial que puede pausarse y reanudarse (asincrónica).",
-        "traduccion": "Defines a special function that can be paused and resumed (asynchronous)."},
-    "count": {
-        "definicion": "Cuenta la cantidad de ocurrencias de un valor en una lista o cadena.",
-        "traduccion": "Counts the occurrences of a value in a list or string."},
-    "clear": {
-        "definicion": "Elimina todos los elementos de una lista o diccionario.",
-        "traduccion": "Removes all elements from a list or dictionary."},
-    "cmath": {
-        "definicion": "Módulo para operaciones matemáticas complejas.",
-        "traduccion": "Module for complex mathematical operations."},
-    "chain": {
-        "definicion": "Función del módulo itertools que concatena múltiples iterables.",
-        "traduccion": "Function from itertools module that concatenates multiple iterables."},
-    "csv": {
-        "definicion": "Módulo para manipular archivos CSV (valores separados por comas).",
-        "traduccion": "Module for handling CSV (comma-separated values) files."},
-    "cmath": {
-        "definicion": "Módulo para operaciones matemáticas complejas.",
-        "traduccion": "Module for complex number math operations."},
-    "copyreg": {
-        "definicion": "Módulo que registra funciones para serialización de objetos.",
-        "traduccion": "Module that registers functions for object serialization."},
-    "counter": {
-        "definicion": "Clase de collections para contar elementos en un iterable.",
-        "traduccion": "Class from collections to count elements in an iterable."},
-    "cProfile": {
-        "definicion": "Herramienta para realizar un perfil de rendimiento de código Python.",
-        "traduccion": "Tool for profiling Python code performance."},
-    "capitalize": {
-        "definicion": "Devuelve una copia de la cadena con la primera letra en mayúscula.",
-        "traduccion": "Returns a copy of the string with the first letter capitalized."},
-    "center":{
-        "definicion": "Devuelve una cadena centrada, con ancho especificado y relleno opcional.",
-        "traduccion": "Returns a centered string with specified width and optional fill character."},
-    "ceil": {
-        "definicion": "Redondea un número al entero más próximo hacia arriba.",
-        "traduccion": "Rounds a number up to the nearest integer."},
-    "call": {
-        "definicion": "Ejecuta una función o método específico en un objeto.",
-        "traduccion": "Executes a specific function or method on an object."},
-    "clamp": {
-        "definicion": "Restringe un valor dentro de un rango especificado (no en la biblioteca estándar).",
-        "traduccion": "Restricts a value within a specified range (not in standard library)."},
-    "choice": {
-        "definicion": "Selecciona un elemento aleatorio de una secuencia.",
-        "traduccion": "Selects a random element from a sequence."},
-    "collections": {
-        "definicion": "Módulo que proporciona estructuras de datos especializadas.",
-        "traduccion": "Module providing specialized data structures."},
-    "compress": {
-        "definicion": "Filtra elementos de un iterable según un selector booleano.",
-        "traduccion": "Filters elements in an iterable according to a boolean selector."},
-    "complex_conjugate": {
-        "definicion": "Devuelve el conjugado de un número complejo.",
-        "traduccion": "Returns the conjugate of a complex number."},
-    "ctypes": {
-        "definicion": "Módulo para manipular datos en bibliotecas compartidas en C.",
-        "traduccion": "Module for handling data in C shared libraries."},
-    "clear_screen": {
-        "definicion": "Limpia la pantalla en algunos entornos de terminal (no es una función estándar).",
-        "traduccion": "Clears the screen in some terminal environments (not a standard function)."},
-    "call_later": {
-        "definicion": "Programa la ejecución de una función después de un tiempo en asyncio.",
-        "traduccion": "Schedules the execution of a function after a delay in asyncio."},
-    "chunk": {
-        "definicion": "Divide un iterable en partes de tamaño fijo (disponible en itertools y otras bibliotecas).",
-        "traduccion": "Splits an iterable into fixed-size chunks (available in itertools and other libraries)."},
-    "cycle": {
-        "definicion": "Itertools: Cicla infinitamente a través de un iterable.",
-        "traduccion": "Itertools: Cycles infinitely through an iterable."},
-    "coerce": {
-        "definicion": "Convierte parámetros a un tipo común (obsoleto en Python 3).",
-        "traduccion": "Converts parameters to a common type (obsolete in Python 3)."},
-    "current_thread": {
-        "definicion": "Obtiene el hilo actual de ejecución en threading.",
-        "traduccion": "Gets the current thread in threading."},
-    "configparser": {
-        "definicion": "Módulo para manipular archivos de configuración estilo INI.",
-        "traduccion": "Module for handling INI-style configuration files."},
-    "compileall": {
-        "definicion": "Compila recursivamente archivos .py en bytecode.",
-        "traduccion": "Recursively compiles .py files to bytecode."},
-    "copytree": {
-        "definicion": "Copia recursivamente un directorio completo.",
-        "traduccion": "Recursively copies an entire directory."}},
 
 "d": {
     "def": {
