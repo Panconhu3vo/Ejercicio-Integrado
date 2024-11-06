@@ -8,33 +8,11 @@ menu = '''
 5: Acerca De
 6: Salir
 ''' # Varibale Del Menu
-opc = 0 # Variable de Opcion
+opc = 0 # Variable de opcion
 llavesTemporales = []
 noEncontrado = True
 nombreLimpio = ""
-# ---
-# Agregar Termino():
 
-
-# ---
-# Eliminar Término():
-
-
-# ---
-# Buscar Término():
-def buscarTermino(termino):
-    primeraPalabra = termino[0]
-    return primeraPalabra
-    
-    
-
-
-
-# ---
-# Mostrar Términos():
-
-
-# ---
 # eliminarEspacios()
 def eliminarEspacios(limpiarPalabra):
     terminoSinEspacios = limpiarPalabra.replace(" ", "")
@@ -53,13 +31,36 @@ def verificarNombre(n):
                     else:
                         noEncontrado = False
                 if noEncontrado == False:
-                    print("Asegurate de escibir bien el termino y que si exita:")
+                    print("Asegurate de escibir bien el termino")
                     n = input(">> ")
                 elif noEncontrado == True:
                     return n
-                    break
         
 # ---
+# Agregar Termino():
+
+
+# ---
+# Eliminar Término():
+
+
+
+# ---
+# Buscar Término():
+def buscarTermino(termino):
+    primeraPalabra = termino[0]
+    return primeraPalabra
+    
+    
+
+
+
+# ---
+# Mostrar Términos():
+
+
+# ---
+
 
 
 
@@ -73,6 +74,9 @@ while True:
         print("Agregar Termino")
     elif opc == 2:
         print("Eliminar Termino")
+
+
+
     elif opc == 3:
         print("Buscar Termino")
         print("Ingresa el nombre del termino (Minuscula):")
