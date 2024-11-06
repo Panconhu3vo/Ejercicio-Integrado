@@ -7,7 +7,6 @@ Estructura del diccionario.
 diccionario = {
 "A":{"terminos,": {"categoría": "categoria en español", "traducción": "definicion en español"}},
 }
-
 '''
 diccionario = {
  "a": {
@@ -526,189 +525,172 @@ diccionario = {
             "definicion": "Caché que almacena temporalmente datos en el disco.",
             "traduccion": "Cache that temporarily stores data on disk."}},
  
+ "e": {
+    "enumerate": {
+        "categoria": ("Manipulación de iterables",),
+        "definicion": "Agrega un contador a un iterable y lo devuelve como un objeto enumerado.",
+        "traduccion": "Adds a counter to an iterable and returns it as an enumerated object."},
+    "eval": {
+        "categoria": ("Evaluación de expresiones",),
+        "definicion": "Ejecuta una expresión Python desde una cadena dada.",
+        "traduccion": "Executes a Python expression from a given string."},
+    "exec": {
+        "categoria": ("Ejecución de código",),
+        "definicion": "Ejecuta un código Python dinámico en el entorno actual.",
+        "traduccion": "Executes dynamic Python code in the current environment."},
+    "except": {
+        "categoria": ("Manejo de excepciones",),
+        "definicion": "Bloque que captura excepciones en el manejo de errores.",
+        "traduccion": "Block that catches exceptions in error handling."},
+    "else": {
+        "categoria": ("Control de flujo",),
+        "definicion": "Bloque que se ejecuta cuando no se cumple una condición if.",
+        "traduccion": "Block that runs when an if condition is not met."},
+    "elif": {
+        "categoria": ("Control de flujo",),
+        "definicion": "Condición alternativa en una declaración if.",
+        "traduccion": "Alternative condition in an if statement."},
+    "exit": {
+        "categoria": ("Control de programa",),
+        "definicion": "Finaliza el programa actual.",
+        "traduccion": "Terminates the current program."},
+    "end": {
+        "categoria": ("Impresión",),
+        "definicion": "Argumento en print() que especifica el carácter final en la salida.",
+        "traduccion": "Argument in print() specifying the end character in output."},
+    "expandtabs": {
+        "categoria": ("Manipulación de texto",),
+        "definicion": "Convierte tabulaciones en espacios en una cadena.",
+        "traduccion": "Converts tabs to spaces in a string."},
+    "encode": {
+        "categoria": ("Codificación",),
+        "definicion": "Convierte una cadena en bytes usando una codificación específica.",
+        "traduccion": "Converts a string to bytes using a specified encoding."},
+    "element": {
+        "categoria": ("Estructura de datos",),
+        "definicion": "Un item en una colección como listas o conjuntos.",
+        "traduccion": "An item in a collection such as lists or sets."},
+    "error": {
+        "categoria": ("Manejo de errores",),
+        "definicion": "Indica que ha ocurrido un problema en el programa.",
+        "traduccion": "Indicates that an issue has occurred in the program."},
+    "exception": {
+        "categoria": ("Manejo de excepciones",),
+        "definicion": "Un error que ocurre durante la ejecución del programa.",
+        "traduccion": "An error that occurs during program execution."},
+    "evaluate": {
+        "categoria": ("Evaluación de expresiones",),
+        "definicion": "Determina el valor de una expresión o variable.",
+        "traduccion": "Determines the value of an expression or variable."},
+    "elements": {
+        "categoria": ("Estructura de datos",),
+        "definicion": "Conjunto de items en una colección.",
+        "traduccion": "Set of items in a collection."},
+    "exponential": {
+        "categoria": ("Matemáticas",),
+        "definicion": "Función que calcula la potencia de un número.",
+        "traduccion": "Function that calculates the power of a number."},
+    "enumerations": {
+        "categoria": ("Estructura de datos",),
+        "definicion": "Tipo de dato que permite definir conjuntos de constantes.",
+        "traduccion": "Data type that allows defining sets of constants."},
+    "encode_utf8": {
+        "categoria": ("Codificación",),
+        "definicion": "Convierte una cadena a bytes usando la codificación UTF-8.",
+        "traduccion": "Converts a string to bytes using UTF-8 encoding."},
+    "execfile": {
+        "categoria": ("Ejecución de código",),
+        "definicion": "Ejecuta un archivo Python como si fuera un script.",
+        "traduccion": "Executes a Python file as if it were a script."},
+    "edit_distance": {
+        "categoria": ("Manipulación de texto",),
+        "definicion": "Número mínimo de operaciones necesarias para transformar una cadena en otra.",
+        "traduccion": "Minimum number of operations needed to transform one string into another."},
+    "eval_input": {
+        "categoria": ("Evaluación de expresiones",),
+        "definicion": "Evalúa una expresión ingresada por el usuario.",
+        "traduccion": "Evaluates an expression entered by the user."},
+    "exceed": {
+        "categoria": ("Comparación",),
+        "definicion": "Sobrepasar un límite o cantidad.",
+        "traduccion": "To go beyond a limit or amount."},
+    "expected": {
+        "categoria": ("Comparación",),
+        "definicion": "El resultado que se prevé en una operación.",
+        "traduccion": "The outcome that is anticipated in an operation."},
+    "encode_base64": {
+        "categoria": ("Codificación",),
+        "definicion": "Convierte datos en una representación Base64.",
+        "traduccion": "Converts data into a Base64 representation."},
+    "execute": {
+        "categoria": ("Ejecución de código",),
+        "definicion": "Llevar a cabo un comando o instrucción.",
+        "traduccion": "Carry out a command or instruction."},
+    "exit_code": {
+        "categoria": ("Control de programa",),
+        "definicion": "Valor devuelto al finalizar un programa.",
+        "traduccion": "Value returned when a program finishes."},
+    "evaluate_expression": {
+        "categoria": ("Evaluación de expresiones",),
+        "definicion": "Evalúa una expresión para determinar su valor.",
+        "traduccion": "Evaluates an expression to determine its value."},
+    "environment": {
+        "categoria": ("Configuración",),
+        "definicion": "Conjunto de variables que afectan la ejecución de un programa.",
+        "traduccion": "Set of variables that affect the execution of a program."},
+    "environment_variable": {
+        "categoria": ("Configuración",),
+        "definicion": "Variable que define el comportamiento de procesos en el sistema.",
+        "traduccion": "Variable that defines the behavior of processes in the system."},
+    "exp": {
+        "categoria": ("Matemáticas",),
+        "definicion": "Función que devuelve el valor de e elevado a la potencia especificada.",
+        "traduccion": "Function that returns the value of e raised to the specified power."},
+    "exception_handling": {
+        "categoria": ("Manejo de excepciones",),
+        "definicion": "Mecanismo para manejar errores y excepciones en el código.",
+        "traduccion": "Mechanism to handle errors and exceptions in code."},
+    "expand": {
+        "categoria": ("Manipulación de datos",),
+        "definicion": "Desarrolla variables o estructuras de datos.",
+        "traduccion": "Expands variables or data structures."},
+    "environment_config": {
+        "categoria": ("Configuración",),
+        "definicion": "Configuraciones que definen el entorno de ejecución.",
+        "traduccion": "Configurations that define the runtime environment."},
+    "equal": {
+        "categoria": ("Comparación",),
+        "definicion": "Operador que verifica la igualdad entre dos valores.",
+        "traduccion": "Operator that checks equality between two values."},
+    "error_handling": {
+        "categoria": ("Manejo de errores",),
+        "definicion": "Proceso de gestionar errores en el código.",
+        "traduccion": "Process of managing errors in code."},
+    "event": {
+        "categoria": ("Eventos",),
+        "definicion": "Acción que ocurre en un programa, como un clic de ratón.",
+        "traduccion": "An action that occurs in a program, such as a mouse click."},
+    "event_loop": {
+        "categoria": ("Programación asincrónica",),
+        "definicion": "Ciclo que espera y despacha eventos o mensajes.",
+        "traduccion": "Loop that waits for and dispatches events or messages."},
+    "exception_type": {
+        "categoria": ("Manejo de excepciones",),
+        "definicion": "Tipo de error que se puede manejar en Python.",
+        "traduccion": "Type of error that can be handled in Python."},
+    "error_message": {
+        "categoria": ("Manejo de errores",),
+        "definicion": "Mensaje que describe el error ocurrido.",
+        "traduccion": "Message describing the error that occurred."},
+    "extract": {
+        "categoria": ("Manipulación de datos",),
+        "definicion": "Obtiene un valor específico de una colección.",
+        "traduccion": "Retrieves a specific value from a collection."},
+    "exit_status": {
+        "categoria": ("Control de programa",),
+        "definicion": "Estado de salida que indica si un programa finalizó con éxito.",
+        "traduccion": "Exit status indicating whether a program finished successfully."}}
  
-"f": {
-    "filemode": {
-        "definicion": "Modo en el que se abre un archivo, como lectura o escritura.",
-        "traduccion": "Mode in which a file is opened, such as read or write."},
-    "frozen_set": {
-        "definicion": "Colección inmutable de elementos únicos.",
-        "traduccion": "Immutable collection of unique elements."},
-    "format_map": {
-        "definicion": "Devuelve una cadena formateada usando un diccionario.",
-        "traduccion": "Returns a formatted string using a dictionary."},
-    "find": {
-        "definicion": "Busca una subcadena dentro de una cadena y devuelve su índice.",
-        "traduccion": "Searches for a substring within a string and returns its index."},
-    "float32": {
-        "definicion": "Tipo de dato que representa un número en punto flotante de 32 bits.",
-        "traduccion": "Data type representing a 32-bit floating-point number."},
-    "float64": {
-        "definicion": "Tipo de dato que representa un número en punto flotante de 64 bits.",
-        "traduccion": "Data type representing a 64-bit floating-point number."},
-    "formatting": {
-        "definicion": "Proceso de dar formato a la salida de texto.",
-        "traduccion": "Process of formatting the output of text."},
-    "flush_output": {
-        "definicion": "Forza la escritura de datos en la salida estándar.",
-        "traduccion": "Forces the writing of data to standard output."},
-    "function_definition": {
-        "definicion": "La forma en que se define una función en Python.",
-        "traduccion": "The way a function is defined in Python."},
-    "filepath": {
-        "definicion": "Ruta que especifica la ubicación de un archivo en el sistema de archivos.",
-        "traduccion": "Path that specifies the location of a file in the file system."},
-    "flask": {
-        "definicion": "Microframework para desarrollar aplicaciones web en Python.",
-        "traduccion": "Microframework for developing web applications in Python."},
-    "filtering": {
-        "definicion": "Proceso de eliminar elementos no deseados de una colección.",
-        "traduccion": "Process of removing unwanted elements from a collection."},
-    "futures": {
-        "definicion": "Una forma de trabajar con programación asíncrona en Python.",
-        "traduccion": "A way to work with asynchronous programming in Python."},
-    "fold": {
-        "definicion": "Función que aplica una operación acumulativa sobre un iterable.",
-        "traduccion": "Function that applies an accumulating operation over an iterable."},
-    "fromkeys": {
-        "definicion": "Método de diccionario que crea un nuevo diccionario con claves y un valor por defecto.",
-        "traduccion": "Dictionary method that creates a new dictionary with keys and a default value."},
-    "flask_restful": {
-        "definicion": "Extensión de Flask para construir APIs RESTful de manera sencilla.",
-        "traduccion": "Flask extension for building RESTful APIs easily."},
-    "fix": {
-        "definicion": "Corregir o ajustar errores en el código.",
-        "traduccion": "To correct or adjust bugs in code."},
-    "float_conversion": {
-        "definicion": "Proceso de convertir un número a su representación en punto flotante.",
-        "traduccion": "Process of converting a number to its floating-point representation."},
-    "full_path": {
-        "definicion": "Ruta completa a un archivo, incluyendo el nombre del archivo y su directorio.",
-        "traduccion": "Complete path to a file, including the filename and its directory."},
-        "filter": {
-        "definicion": "Crea una lista de elementos para los cuales una función devuelve True.",
-        "traduccion": "Creates a list of elements for which a function returns True."},
-    "float": {
-        "definicion": "Tipo de dato que representa un número en punto flotante.",
-        "traduccion": "Data type that represents a floating-point number."},
-    "for": {
-        "definicion": "Crea un bucle que itera sobre un iterable.",
-        "traduccion": "Creates a loop that iterates over an iterable."},
-    "format": {
-        "definicion": "Devuelve una cadena formateada.",
-        "traduccion": "Returns a formatted string."},
-    "from": {
-        "definicion": "Utilizado para importar módulos o partes de un módulo.",
-        "traduccion": "Used to import modules or parts of a module."},
-    "function": {
-        "definicion": "Bloque de código reutilizable que realiza una tarea específica.",
-        "traduccion": "Reusable block of code that performs a specific task."},
-    "fibonacci": {
-        "definicion": "Secuencia de números donde cada número es la suma de los dos anteriores.",
-        "traduccion": "Sequence of numbers where each number is the sum of the two preceding ones."},
-    "file": {
-        "definicion": "Objeto que representa un archivo en el sistema de archivos.",
-        "traduccion": "Object that represents a file in the file system."},
-    "fwrite": {
-        "definicion": "Escribe datos en un archivo abierto.",
-        "traduccion": "Writes data to an open file."},
-    "fread": {
-        "definicion": "Lee datos de un archivo abierto.",
-        "traduccion": "Reads data from an open file."},
-    "finally": {
-        "definicion": "Bloque que se ejecuta después de un try/except, sin importar si se produjo un error.",
-        "traduccion": "Block that executes after a try/except, regardless of whether an error occurred."},
-    "freeze": {
-        "definicion": "Convierte un objeto en un formato inmutable.",
-        "traduccion": "Converts an object into an immutable format."},
-    "flush": {
-        "definicion": "Vacía el búfer de un archivo para asegurar que todos los datos se escriban.",
-        "traduccion": "Flushes the file buffer to ensure all data is written."},
-    "fstring": {
-        "definicion": "Cadena formateada literal, que permite incrustar expresiones.",
-        "traduccion": "Formatted string literal, allowing embedded expressions."},
-    "factorial": {
-        "definicion": "Producto de todos los números enteros positivos hasta un número dado.",
-        "traduccion": "Product of all positive integers up to a given number."},
-    "frozen": {
-        "definicion": "Un tipo de conjunto inmutable.",
-        "traduccion": "An immutable set type."},
-    "filterfalse": {
-        "definicion": "Devuelve un iterador que filtra elementos de una secuencia para los cuales la función es False.",
-        "traduccion": "Returns an iterator filtering elements from a sequence for which the function is False."},
-    "fuzzy": {
-        "definicion": "Método que permite trabajar con datos inexactos o imprecisos.",
-        "traduccion": "Method that allows working with inaccurate or imprecise data."},
-    "fibonacci_sequence": {
-        "definicion": "Genera la secuencia de Fibonacci hasta un número específico.",
-        "traduccion": "Generates the Fibonacci sequence up to a specific number."},
-    "format_spec": {
-        "definicion": "Especificación que define cómo se debe formatear un valor.",
-        "traduccion": "Specification that defines how a value should be formatted."},
-    "fork": {
-        "definicion": "Crea un nuevo proceso en sistemas operativos basados en Unix.",
-        "traduccion": "Creates a new process in Unix-based operating systems."},
-    "forking": {
-        "definicion": "Proceso de dividir un programa en varios procesos para ejecutar tareas en paralelo.",
-        "traduccion": "Process of dividing a program into multiple processes to run tasks in parallel."},
-    "first": {
-        "definicion": "Método para obtener el primer elemento de una secuencia.",
-        "traduccion": "Method to get the first element of a sequence."},
-    "float_format": {
-        "definicion": "Especificación de formato para representar números en punto flotante.",
-        "traduccion": "Format specification for representing floating-point numbers."},
-    "filter_none": {
-        "definicion": "Devuelve un iterador que filtra elementos que no son None.",
-        "traduccion": "Returns an iterator filtering elements that are not None."},
-    "func_code": {
-        "definicion": "Código byte que representa el cuerpo de una función.",
-        "traduccion": "Bytecode representing the body of a function."},
-    "float_power": {
-        "definicion": "Función que eleva un número a la potencia de otro número en punto flotante.",
-        "traduccion": "Function that raises a number to the power of another floating-point number."},
-    "format_string": {
-        "definicion": "Cadena que especifica cómo se deben formatear los valores en Python.",
-        "traduccion": "String that specifies how values should be formatted in Python."},
-    "filename": {
-        "definicion": "Nombre de un archivo, que puede incluir su extensión.",
-        "traduccion": "Name of a file, which may include its extension."},
-    "file_object": {
-        "definicion": "Objeto que permite interactuar con un archivo abierto en Python.",
-        "traduccion": "Object that allows interaction with an open file in Python."},
-    "finally_clause": {
-        "definicion": "Parte de una estructura try/except que se ejecuta siempre, independientemente de los errores.",
-        "traduccion": "Part of a try/except structure that always executes, regardless of errors."},
-    "file_read": {
-        "definicion": "Operación que lee el contenido de un archivo.",
-        "traduccion": "Operation that reads the content of a file."},
-    "form": {
-        "definicion": "Representación de datos en un formato estructurado, a menudo utilizado en aplicaciones web.",
-        "traduccion": "Representation of data in a structured format, often used in web applications."},
-    "function_call": {
-        "definicion": "Invocación de una función para ejecutar su código.",
-        "traduccion": "Invocation of a function to execute its code."},
-    "force": {
-        "definicion": "Método para forzar la ejecución de un proceso o función.",
-        "traduccion": "Method to force the execution of a process or function."},
-    "function_pointer": {
-        "definicion": "Referencia a una función que puede ser pasada como argumento.",
-        "traduccion": "Reference to a function that can be passed as an argument."},
-    "float_precision": {
-        "definicion": "Precisión de un número en punto flotante, que afecta la exactitud de los cálculos.",
-        "traduccion": "Precision of a floating-point number, affecting the accuracy of calculations."},
-    "format_error": {
-        "definicion": "Error que ocurre al formatear datos de manera incorrecta.",
-        "traduccion": "Error that occurs when formatting data incorrectly."},
-    "file_write": {
-        "definicion": "Operación que escribe datos en un archivo.",
-        "traduccion": "Operation that writes data to a file."},
-    "fibonacci_search": {
-        "definicion": "Algoritmo de búsqueda que utiliza la secuencia de Fibonacci para encontrar elementos.",
-        "traduccion": "Search algorithm that uses the Fibonacci sequence to find elements."},
-    "filter_map": {
-        "definicion": "Combinación de la funcionalidad de filter y map en una operación.",
-        "traduccion": "Combination of the functionality of filter and map in a single operation."}},
-
 "g": {
     "get": {
         "definicion": "Devuelve el valor de una clave en un diccionario, o un valor predeterminado si la clave no existe.",
