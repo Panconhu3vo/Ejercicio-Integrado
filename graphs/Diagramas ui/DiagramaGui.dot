@@ -1,0 +1,73 @@
+digraph DiccionarioDelProgramador {
+    rankdir=LR;
+    node [shape=rectangle, style=filled, fillcolor=lightblue, fontname="Arial"];
+    
+    subgraph cluster_MenuPrincipal {
+        label = "Menú Principal";
+        btnAgregarT [label="Agregar Término"];
+        btnEliminarT [label="Eliminar Término"];
+        btnBuscarT [label="Buscar Término"];
+        btnListarT [label="Listar Término"];
+        btnAcercaDe [label="Acerca De"];
+        btnSalir [label="Salir"];
+    }
+
+    subgraph cluster_Secciones {
+        label = "Secciones";
+        agregarTermino [label="Sección Agregar Término"];
+        eliminarTermino [label="Sección Eliminar Término"];
+        buscarTermino [label="Sección Buscar Término"];
+        listarTermino [label="Sección Listar Término"];
+        acercaDe [label="Sección Acerca De"];
+    }
+
+    subgraph cluster_Navegador {
+        label = "Navegador Secciones";
+        nav [label="Navegador Inicio"];
+        nav2 [label="Navegador Secundario"];
+        bordeInf [label="Borde Inferior"];
+    }
+
+    subgraph cluster_Funciones {
+        label = "Funciones";
+        Inicio -> nav [label="Navegador"];
+        Inicio -> bordeInf;
+        Inicio -> instr;
+        Inicio -> menu;
+        Inicio -> footer;
+
+        seccionAgregarTermino -> ocultarInicio;
+        seccionAgregarTermino -> navegadorEntreSecciones;
+        seccionAgregarTermino -> agregarTermino;
+
+        seccionEliminarTermino -> ocultarInicio;
+        seccionEliminarTermino -> navegadorEntreSecciones;
+        seccionEliminarTermino -> eliminarTermino;
+
+        seccionBuscarTermino -> ocultarInicio;
+        seccionBuscarTermino -> navegadorEntreSecciones;
+        seccionBuscarTermino -> buscarTermino;
+
+        seccionListarTermino -> ocultarInicio;
+        seccionListarTermino -> navegadorEntreSecciones;
+        seccionListarTermino -> listarTermino;
+
+        seccionAcercaDe -> ocultarInicio;
+        seccionAcercaDe -> navegadorEntreSecciones;
+        seccionAcercaDe -> acercaDe;
+        
+        volver -> ocultarSeccionAgregarTermino;
+        volver -> ocultarSeccionEliminarTermino;
+        volver -> ocultarSeccionBuscarTermino;
+        volver -> ocultarSeccionListarTermino;
+        volver -> ocultarSeccionAcercaDe;
+        volver -> Inicio;
+    }
+
+    "Menú Principal" -> btnAgregarT -> seccionAgregarTermino;
+    "Menú Principal" -> btnEliminarT -> seccionEliminarTermino;
+    "Menú Principal" -> btnBuscarT -> seccionBuscarTermino;
+    "Menú Principal" -> btnListarT -> seccionListarTermino;
+    "Menú Principal" -> btnAcercaDe -> seccionAcercaDe;
+    "Menú Principal" -> btnSalir -> cerrarVentana;
+}
