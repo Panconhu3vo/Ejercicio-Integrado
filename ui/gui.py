@@ -241,6 +241,36 @@ eliminarTermino = tk.Frame(vn)
 
 buscarTermino = tk.Frame(vn)
 
+lbBuscarTermino = tk.Label(
+    buscarTermino, text="Buscar Termino",
+    font=("Roboto",16,"bold"),fg="#1B1259"
+)
+lbBuscarTermino.pack(side="top")
+
+entradaDatos = tk.Frame(buscarTermino,width=160,height=270)
+entradaDatos.configure(bg="#1B1259")
+entradaDatos.pack_propagate(False)
+entradaDatos.pack(side="left", padx=(30),pady=10)
+
+lbInstrBuscarTermino = tk.Label(
+    entradaDatos, text='''Ingresa el nombre 
+    del término: ''',font=("Roboto", 10, "bold"), 
+    fg="white", bg="#1B1259",
+    justify="center",anchor="center"   
+)
+lbInstrBuscarTermino.pack(side="top", pady=5)
+
+enBuscarTermino = tk.Entry(entradaDatos)
+enBuscarTermino.pack(side="top",padx=10,pady=10)
+
+muestraDeDatos = tk.Frame(buscarTermino,width=350,height=270)
+muestraDeDatos.configure(bg="#1B1259")
+muestraDeDatos.pack_propagate(False)
+muestraDeDatos.pack(side="left", padx=(30),pady=10)
+
+txtTerminoEncontrado = tk.Text(muestraDeDatos, wrap="word",width=300,height=200)
+txtTerminoEncontrado.pack(side="top",padx=10,pady=10)
+
 # ------------------------------------------------------
 # Sección "Listar Término"
 # ------------------------------------------------------
