@@ -1,73 +1,43 @@
-digraph DiccionarioDelProgramador {
-    rankdir=LR;
-    node [shape=rectangle, style=filled, fillcolor=lightblue, fontname="Arial"];
+digraph DiccionarioProgramador {
+    // Definir colores y estilos de nodos
+    node [shape=box, style=filled, color="#1B1259", fontcolor=white];
+    edge [color="#F2B705"];
+
+    // Sección principal del menú
+    MenuPrincipal [label="Menú Principal\n- Agregar Término\n- Eliminar Término\n- Buscar Término\n- Mostrar Términos\n- Acerca De\n- Salir", color="#201161"];
     
-    subgraph cluster_MenuPrincipal {
-        label = "Menú Principal";
-        btnAgregarT [label="Agregar Término"];
-        btnEliminarT [label="Eliminar Término"];
-        btnBuscarT [label="Buscar Término"];
-        btnListarT [label="Listar Término"];
-        btnAcercaDe [label="Acerca De"];
-        btnSalir [label="Salir"];
-    }
+    // Funcionalidades del menú
+    AgregarTermino [label="Agregar Término", color="#d91f2b"];
+    EliminarTermino [label="Eliminar Término", color="#d91f2b"];
+    BuscarTermino [label="Buscar Término", color="#d91f2b"];
+    MostrarTerminos [label="Mostrar Términos", color="#d91f2b"];
+    AcercaDe [label="Acerca De", color="#d91f2b"];
 
-    subgraph cluster_Secciones {
-        label = "Secciones";
-        agregarTermino [label="Sección Agregar Término"];
-        eliminarTermino [label="Sección Eliminar Término"];
-        buscarTermino [label="Sección Buscar Término"];
-        listarTermino [label="Sección Listar Término"];
-        acercaDe [label="Sección Acerca De"];
-    }
+    // Relaciones de Menú Principal
+    MenuPrincipal -> AgregarTermino;
+    MenuPrincipal -> EliminarTermino;
+    MenuPrincipal -> BuscarTermino;
+    MenuPrincipal -> MostrarTerminos;
+    MenuPrincipal -> AcercaDe;
 
-    subgraph cluster_Navegador {
-        label = "Navegador Secciones";
-        nav [label="Navegador Inicio"];
-        nav2 [label="Navegador Secundario"];
-        bordeInf [label="Borde Inferior"];
-    }
+    // Agregar Término proceso
+    AgregarTermino -> ValidarUnicidad [label="Verificar unicidad"];
+    ValidarUnicidad -> AlmacenarTermino [label="Añadir en Diccionario"];
+    AlmacenarTermino -> MostrarConfirmacionAgregar [label="Confirmar"];
 
-    subgraph cluster_Funciones {
-        label = "Funciones";
-        Inicio -> nav [label="Navegador"];
-        Inicio -> bordeInf;
-        Inicio -> instr;
-        Inicio -> menu;
-        Inicio -> footer;
+    // Eliminar Término proceso
+    EliminarTermino -> VerificarExistencia [label="Verificar existencia"];
+    VerificarExistencia -> EliminarDelDiccionario [label="Eliminar"];
+    EliminarDelDiccionario -> MostrarConfirmacionEliminar [label="Confirmar"];
 
-        seccionAgregarTermino -> ocultarInicio;
-        seccionAgregarTermino -> navegadorEntreSecciones;
-        seccionAgregarTermino -> agregarTermino;
+    // Buscar Término proceso
+    BuscarTermino -> RecorrerDiccionario [label="Buscar término"];
+    RecorrerDiccionario -> MostrarTraduccion [label="Mostrar resultado"];
 
-        seccionEliminarTermino -> ocultarInicio;
-        seccionEliminarTermino -> navegadorEntreSecciones;
-        seccionEliminarTermino -> eliminarTermino;
+    // Mostrar Términos proceso
+    MostrarTerminos -> RecorrerTodosLosTerminos [label="Recorrer todos"];
+    RecorrerTodosLosTerminos -> MostrarLista [label="Mostrar términos"];
 
-        seccionBuscarTermino -> ocultarInicio;
-        seccionBuscarTermino -> navegadorEntreSecciones;
-        seccionBuscarTermino -> buscarTermino;
-
-        seccionListarTermino -> ocultarInicio;
-        seccionListarTermino -> navegadorEntreSecciones;
-        seccionListarTermino -> listarTermino;
-
-        seccionAcercaDe -> ocultarInicio;
-        seccionAcercaDe -> navegadorEntreSecciones;
-        seccionAcercaDe -> acercaDe;
-        
-        volver -> ocultarSeccionAgregarTermino;
-        volver -> ocultarSeccionEliminarTermino;
-        volver -> ocultarSeccionBuscarTermino;
-        volver -> ocultarSeccionListarTermino;
-        volver -> ocultarSeccionAcercaDe;
-        volver -> Inicio;
-    }
-
-    "Menú Principal" -> btnAgregarT -> seccionAgregarTermino;
-    "Menú Principal" -> btnEliminarT -> seccionEliminarTermino;
-    "Menú Principal" -> btnBuscarT -> seccionBuscarTermino;
-    "Menú Principal" -> btnListarT -> seccionListarTermino;
-    "Menú Principal" -> btnAcercaDe -> seccionAcercaDe;
-    "Menú Principal" -> btnSalir -> cerrarVentana;
+    // Acerca De
+    AcercaDe -> MostrarInformacion [label="Equipo y reseña"];
 }

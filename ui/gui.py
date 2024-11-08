@@ -1,5 +1,13 @@
 
 import tkinter as tk 
+# import sys
+# import os
+
+# ruta_src = os.path.abspath(os.path.join(os.path.dirname(__file__), '../src'))
+# sys.path.insert(0, ruta_src)
+
+# from diccionarioDelProgramador import *
+# from diccionario import *
 
 # ------------------------------------------------------
 # Funciones:
@@ -264,12 +272,20 @@ lbInstrBuscarTermino.pack(side="top", pady=5)
 enBuscarTermino = tk.Entry(entradaDatos)
 enBuscarTermino.pack(side="top",padx=10,pady=10)
 
+btnBuscar = tk.Button(
+    entradaDatos, text="Buscar",
+    bg="#FFCE00", fg="#F2F2F2", 
+    font=("Roboto", 12, "bold")
+)
+btnBuscar.pack(side="top",pady=15)
+
 muestraDeDatos = tk.Frame(buscarTermino,width=350,height=270)
 muestraDeDatos.configure(bg="#1B1259")
 muestraDeDatos.pack_propagate(False)
 muestraDeDatos.pack(side="left", padx=(30),pady=10)
 
 txtTerminoEncontrado = tk.Text(muestraDeDatos, wrap="word",width=300,height=200)
+txtTerminoEncontrado.configure(state="disable")
 txtTerminoEncontrado.pack(side="top",padx=10,pady=10)
 
 # ------------------------------------------------------
