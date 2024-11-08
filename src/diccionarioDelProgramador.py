@@ -1,4 +1,7 @@
 from diccionario import diccionario
+if __name__ == "__main__":
+    # Código de prueba o inicialización que no quieres que se ejecute en otros archivos
+    print("Ejecutando diccionarioDelProgramador directamente")
 # Zona de Variables
 menu = ''' 
 1: Agregar un término

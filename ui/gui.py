@@ -13,6 +13,11 @@ import tkinter as tk
 # Funciones:
 # ------------------------------------------------------
 
+# ------------------------------------------------------
+# Funciones Interfaz:
+# ------------------------------------------------------
+
+
 def cerrarVentana():
     """Cierra la ventana principal."""
     vn.destroy()
@@ -127,6 +132,11 @@ def volver():
     Inicio()
 
 # ------------------------------------------------------
+# Funciones Funcionalidades:
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
 # Configuración de la ventana principal
 # ------------------------------------------------------
 
@@ -238,6 +248,64 @@ btnVolver.pack(side="right", padx=(0, 10), pady=2)
 
 agregarTermino = tk.Frame(vn)
 
+tk.Label(
+    agregarTermino, text="Agregar Término",
+    font=("Roboto", 16, "bold"), fg="#1B1259"
+).pack(side="top", pady=10)
+
+
+fmAgregarTermino = tk.Frame(agregarTermino, width=500, height=270, bg="#1B1259")
+fmAgregarTermino.pack_propagate(False)
+fmAgregarTermino.pack(side="top", padx=25, pady=15)
+
+fmNNuevoTermino = tk.Frame(fmAgregarTermino,width=490,height=66,bg="#1b1259")
+fmNNuevoTermino.pack_propagate(False)
+fmNNuevoTermino.pack(side="top")
+             
+tk.Label(
+    fmNNuevoTermino, text="Nuevo término: ",
+    font=("Roboto", 10, "bold"), fg="#F2F2F2", bg="#1B1259", anchor="w"
+).pack(side="top", padx=10, pady=(10, 2), anchor="w")  
+
+nombreNuevoTermino = tk.Entry(fmNNuevoTermino)
+nombreNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 10))  
+
+fmDNuevoTermino = tk.Frame(fmAgregarTermino,width=490,height=66,bg="#1b1259")
+fmDNuevoTermino.pack_propagate(False)
+fmDNuevoTermino.pack(side="top")
+
+tk.Label(
+    fmDNuevoTermino, text="Definición: ",
+    font=("Roboto", 10, "bold"), fg="#F2F2F2", bg="#1B1259", anchor="w"
+).pack(side="top", padx=10, pady=(10, 2), anchor="w")
+
+definicionNuevoTermino = tk.Text(fmDNuevoTermino, width=50,height=30)  
+definicionNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 5))
+
+fmTNuevoTermino = tk.Frame(fmAgregarTermino,width=490,height=66,bg="#1b1259")
+fmTNuevoTermino.pack_propagate(False)
+fmTNuevoTermino.pack(side="top")
+ 
+tk.Label(
+    fmTNuevoTermino, text="Traduccion: ",
+    font=("Roboto", 10, "bold"), fg="#F2F2F2", bg="#1B1259", anchor="w"
+).pack(side="top", padx=10, pady=(10, 2), anchor="w")
+
+taduccionNuevoTermino = tk.Text(fmTNuevoTermino, width=50,height=30)  
+taduccionNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 5))
+
+fmCNuevoTermino = tk.Frame(fmAgregarTermino,width=490,height=66,bg="#1b1259")
+fmCNuevoTermino.pack_propagate(False)
+fmCNuevoTermino.pack(side="top")
+
+tk.Label(
+    fmCNuevoTermino, text="Categoria: ",
+    font=("Roboto", 10, "bold"), fg="#F2F2F2", bg="#1B1259", anchor="w"
+).pack(side="top", padx=10, pady=(10, 2), anchor="w")
+
+taduccionNuevoTermino = tk.Text(fmCNuevoTermino, width=50,height=30)  
+taduccionNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 5))
+
 # ------------------------------------------------------
 # Sección "Eliminar Término"
 # ------------------------------------------------------
@@ -250,24 +318,22 @@ eliminarTermino = tk.Frame(vn)
 
 buscarTermino = tk.Frame(vn)
 
-lbBuscarTermino = tk.Label(
+tk.Label(
     buscarTermino, text="Buscar Termino",
     font=("Roboto",16,"bold"),fg="#1B1259"
-)
-lbBuscarTermino.pack(side="top")
+).pack(side="top")
 
 entradaDatos = tk.Frame(buscarTermino,width=160,height=270)
 entradaDatos.configure(bg="#1B1259")
 entradaDatos.pack_propagate(False)
-entradaDatos.pack(side="left", padx=(30),pady=10)
+entradaDatos.pack(side="left", padx=(30),pady=25)
 
-lbInstrBuscarTermino = tk.Label(
+tk.Label(
     entradaDatos, text='''Ingresa el nombre 
     del término: ''',font=("Roboto", 10, "bold"), 
     fg="white", bg="#1B1259",
     justify="center",anchor="center"   
-)
-lbInstrBuscarTermino.pack(side="top", pady=5)
+).pack(side="top", pady=5)
 
 enBuscarTermino = tk.Entry(entradaDatos)
 enBuscarTermino.pack(side="top",padx=10,pady=10)
@@ -282,7 +348,7 @@ btnBuscar.pack(side="top",pady=15)
 muestraDeDatos = tk.Frame(buscarTermino,width=350,height=270)
 muestraDeDatos.configure(bg="#1B1259")
 muestraDeDatos.pack_propagate(False)
-muestraDeDatos.pack(side="left", padx=(30),pady=10)
+muestraDeDatos.pack(side="left", padx=(30),pady=25)
 
 txtTerminoEncontrado = tk.Text(muestraDeDatos, wrap="word",width=300,height=200)
 txtTerminoEncontrado.configure(state="disable")
