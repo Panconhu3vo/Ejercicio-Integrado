@@ -10,6 +10,12 @@ import tkinter as tk
 # from diccionario import *
 
 # ------------------------------------------------------
+# Variables:
+# ------------------------------------------------------
+
+termino = tk.StringVar
+
+# ------------------------------------------------------
 # Funciones:
 # ------------------------------------------------------
 
@@ -135,6 +141,17 @@ def volver():
 # Funciones Funcionalidades:
 # ------------------------------------------------------
 
+def FNbuscarTermino():
+    termino = enBuscarTermino.get()
+    
+    txtTerminoEncontrado.insert("1.0",
+    f'''Termino: {termino}
+    Definicion: {None}
+    Traduccion: {None}
+    Categoria: {None}
+
+'''
+)
 
 # ------------------------------------------------------
 # Configuración de la ventana principal
@@ -341,7 +358,8 @@ enBuscarTermino.pack(side="top",padx=10,pady=10)
 btnBuscar = tk.Button(
     entradaDatos, text="Buscar",
     bg="#FFCE00", fg="#F2F2F2", 
-    font=("Roboto", 12, "bold")
+    font=("Roboto", 12, "bold"),
+    command=FNbuscarTermino
 )
 btnBuscar.pack(side="top",pady=15)
 
@@ -351,7 +369,7 @@ muestraDeDatos.pack_propagate(False)
 muestraDeDatos.pack(side="left", padx=(30),pady=25)
 
 txtTerminoEncontrado = tk.Text(muestraDeDatos, wrap="word",width=300,height=200)
-txtTerminoEncontrado.configure(state="disable")
+txtTerminoEncontrado.configure()
 txtTerminoEncontrado.pack(side="top",padx=10,pady=10)
 
 # ------------------------------------------------------
@@ -379,7 +397,7 @@ txtAcecaDeP1 = tk.Text(
 )
 
 txtAcecaDeP1.insert(
-    "1.0","""Este proyecto, se desarrolla como un ejercicio integrado de colaboración entre estudiantes de programación. Su objetivo es crear una herramienta práctica para traducir términos técnicos del inglés al español, ayudando a futuros programadores a comprender y utilizar el vocabulario técnico en su aprendizaje y desarrollo profesional.
+    "1.0",f"""Este proyecto, se desarrolla como un ejercicio integrado de colaboración entre estudiantes de programación. Su objetivo es crear una herramienta práctica para traducir términos técnicos del inglés al español, ayudando a futuros programadores a comprender y utilizar el vocabulario técnico en su aprendizaje y desarrollo profesional.
 
 Colaboradores
 
