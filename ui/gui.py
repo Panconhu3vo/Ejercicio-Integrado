@@ -1,14 +1,12 @@
 
 import tkinter as tk 
-# import sys
-# import os
+import sys
+import os
 
-# ruta_src = os.path.abspath(os.path.join(os.path.dirname(__file__), '../src'))
-# sys.path.insert(0, ruta_src)
-
-# from diccionarioDelProgramador import *
-# from diccionario import *
-
+ruta_src = os.path.abspath(os.path.join(os.path.dirname(__file__), '../src'))
+sys.path.insert(0, ruta_src)
+from model import *
+from diccionario import diccionario
 # ------------------------------------------------------
 # Variables:
 # ------------------------------------------------------
@@ -19,6 +17,42 @@ termino = tk.StringVar
 # Funciones:
 # ------------------------------------------------------
 
+# ------------------------------------------------------
+# Funciones de Funcionalidades:
+# ------------------------------------------------------
+
+# Funcion buscar termino
+def FNbuscarTermino():
+    
+    termino = enBuscarTermino.get()
+    if verificarNombre(termino) == True:
+        txtTerminoEncontrado.configure(state="normal")
+        txtTerminoEncontrado.insert("1.0",
+        f'''Termino: {termino}
+  Definicion: {diccionario[termino[0]][termino]["definicion"]}
+  Traduccion: {diccionario[termino[0]][termino]["traduccion"]}
+  Categoria: {diccionario[termino[0]][termino]["categoria"]}
+        
+        ''')
+        txtTerminoEncontrado.configure(state="disable")
+    else:
+        txtTerminoEncontrado.configure(state="normal")
+        txtTerminoEncontrado.insert("1.0","""
+    ¡¡¡Termino no encontrado!!!
+                                    """)
+        txtTerminoEncontrado.configure(state="disable")
+         
+        
+        
+        
+        
+# Funcion limpiar casillas
+def limpiarCasillas():
+    txtTerminoEncontrado.configure(state="normal")
+    txtTerminoEncontrado.delete(1.0, tk.END)
+    txtTerminoEncontrado.configure(state="disable")
+    enBuscarTermino.delete(0, tk.END)
+    
 # ------------------------------------------------------
 # Funciones Interfaz:
 # ------------------------------------------------------
@@ -94,7 +128,7 @@ def seccionBuscarTermino():
 def ocultarSeccionBuscarTermino():
     ocultarNavegadorEntreSecciones()
     buscarTermino.pack_forget()
-
+    
 # ------------------------------------------------------
 # listar Termino:
 # ------------------------------------------------------
@@ -129,29 +163,13 @@ def ocultarSeccionAcercaDe():
 
 def volver():
     vn.geometry("600x420")
-    """Vuelve al menú principal ocultando otras secciones."""
+    limpiarCasillas()
     ocultarSeccionAgregarTermino()
     ocultarSeccionEliminarTermino()
     ocultarSeccionBuscarTermino()
     ocultarSeccionListarTermino()
     ocultarSeccionAcercaDe()
     Inicio()
-
-# ------------------------------------------------------
-# Funciones Funcionalidades:
-# ------------------------------------------------------
-
-def FNbuscarTermino():
-    termino = enBuscarTermino.get()
-    
-    txtTerminoEncontrado.insert("1.0",
-    f'''Termino: {termino}
-    Definicion: {None}
-    Traduccion: {None}
-    Categoria: {None}
-
-'''
-)
 
 # ------------------------------------------------------
 # Configuración de la ventana principal
@@ -369,7 +387,7 @@ muestraDeDatos.pack_propagate(False)
 muestraDeDatos.pack(side="left", padx=(30),pady=25)
 
 txtTerminoEncontrado = tk.Text(muestraDeDatos, wrap="word",width=300,height=200)
-txtTerminoEncontrado.configure()
+txtTerminoEncontrado.configure(state="disable")
 txtTerminoEncontrado.pack(side="top",padx=10,pady=10)
 
 # ------------------------------------------------------
