@@ -1,10 +1,10 @@
-
 import tkinter as tk 
 import sys
 import os
 
 ruta_src = os.path.abspath(os.path.join(os.path.dirname(__file__), '../src'))
 sys.path.insert(0, ruta_src)
+
 from model import *
 from diccionario import diccionario
 # ------------------------------------------------------
@@ -42,10 +42,6 @@ def FNbuscarTermino(event=None):
                                     """)
         txtTerminoEncontrado.configure(state="disable")
          
-        
-        
-        
-        
 # Funcion limpiar casillas
 def limpiarCasillas():
     txtTerminoEncontrado.configure(state="normal")
@@ -56,7 +52,6 @@ def limpiarCasillas():
 # ------------------------------------------------------
 # Funciones Interfaz:
 # ------------------------------------------------------
-
 
 def cerrarVentana():
     """Cierra la ventana principal."""
@@ -79,6 +74,7 @@ def ocultarInicio():
     instr.pack_forget()
     menu.pack_forget()
     footer.pack_forget()
+
 # ------------------------------------------------------
 # Navegador Secciones:
 # ------------------------------------------------------
@@ -90,6 +86,7 @@ def navegadorEntreSecciones():
 def ocultarNavegadorEntreSecciones():
     nav2.pack_forget()
     bordeInf.pack_forget()
+    
 # ------------------------------------------------------
 # Agregar Termino:
 # ------------------------------------------------------
@@ -136,6 +133,7 @@ def ocultarSeccionBuscarTermino():
 def seccionListarTermino():
     ocultarInicio()
     navegadorEntreSecciones()
+    vn.geometry("600x530")
     listarTermino.pack(fill="both")
 
 def ocultarSeccionListarTermino():
@@ -155,7 +153,6 @@ def seccionAcercaDe():
 def ocultarSeccionAcercaDe():
     ocultarNavegadorEntreSecciones()
     acercaDe.pack_forget()
-
 
 # ------------------------------------------------------
 # Volver:
@@ -181,7 +178,6 @@ vn.geometry("600x420")
 vn.resizable(False, False)
 vn.title("Diccionario del Programador")
 vn.iconbitmap("ui\img\diccionarioimg.ico")
-
 
 # ------------------------------------------------------
 # Barra de navegación Inicio
@@ -210,12 +206,11 @@ lbInstr = tk.Label(
 )
 lbInstr.pack(side="top", anchor="s", pady=15)
 
-
 # ------------------------------------------------------
 # Menú principal
 # ------------------------------------------------------
 
-menu = tk.Frame(vn, width=270, height=220, bg="#1B1259")
+menu = tk.Frame(vn, width=270, height=270, bg="#1B1259")
 
 btnAgregarT = tk.Button(
     menu, text="Agregar Término", bg="#F2B705", fg="#F2F2F2",
@@ -281,64 +276,78 @@ btnVolver.pack(side="right", padx=(0, 10), pady=2)
 # Sección "Agregar Término"
 # ------------------------------------------------------
 
+# Frame principal para "Agregar Término"
 agregarTermino = tk.Frame(vn)
 
+# Título de la sección "Agregar Término"
 tk.Label(
     agregarTermino, text="Agregar Término",
     font=("Roboto", 16, "bold"), fg="#1B1259"
-).pack(side="top", pady=10)
+).pack(side="top")
 
-
-fmAgregarTermino = tk.Frame(agregarTermino, width=500, height=270, bg="#1B1259")
+# Frame contenedor de los campos de entrada
+fmAgregarTermino = tk.Frame(agregarTermino, width=500, height=290, bg="#1B1259")
 fmAgregarTermino.pack_propagate(False)
 fmAgregarTermino.pack(side="top", padx=25, pady=15)
 
-fmNNuevoTermino = tk.Frame(fmAgregarTermino,width=490,height=66,bg="#1b1259")
+# Frame para "Nuevo término"
+fmNNuevoTermino = tk.Frame(fmAgregarTermino, width=490, height=66, bg="#1b1259")
 fmNNuevoTermino.pack_propagate(False)
 fmNNuevoTermino.pack(side="top")
-             
+
+# Etiqueta de "Nuevo término"
 tk.Label(
     fmNNuevoTermino, text="Nuevo término: ",
     font=("Roboto", 10, "bold"), fg="#F2F2F2", bg="#1B1259", anchor="w"
-).pack(side="top", padx=10, pady=(10, 2), anchor="w")  
+).pack(side="top", padx=10, pady=(10, 2), anchor="w")
 
+# Campo de entrada para "Nuevo término"
 nombreNuevoTermino = tk.Entry(fmNNuevoTermino)
-nombreNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 10))  
+nombreNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 10))
 
-fmDNuevoTermino = tk.Frame(fmAgregarTermino,width=490,height=66,bg="#1b1259")
+# Frame para "Definición"
+fmDNuevoTermino = tk.Frame(fmAgregarTermino, width=490, height=66, bg="#1b1259")
 fmDNuevoTermino.pack_propagate(False)
 fmDNuevoTermino.pack(side="top")
 
+# Etiqueta de "Definición"
 tk.Label(
     fmDNuevoTermino, text="Definición: ",
     font=("Roboto", 10, "bold"), fg="#F2F2F2", bg="#1B1259", anchor="w"
 ).pack(side="top", padx=10, pady=(10, 2), anchor="w")
 
-definicionNuevoTermino = tk.Text(fmDNuevoTermino, width=50,height=30)  
+# Campo de entrada para "Definición"
+definicionNuevoTermino = tk.Text(fmDNuevoTermino, width=50, height=30)
 definicionNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 5))
 
-fmTNuevoTermino = tk.Frame(fmAgregarTermino,width=490,height=66,bg="#1b1259")
+# Frame para "Traducción"
+fmTNuevoTermino = tk.Frame(fmAgregarTermino, width=490, height=66, bg="#1b1259")
 fmTNuevoTermino.pack_propagate(False)
 fmTNuevoTermino.pack(side="top")
- 
+
+# Etiqueta de "Traducción"
 tk.Label(
-    fmTNuevoTermino, text="Traduccion: ",
+    fmTNuevoTermino, text="Traducción: ",
     font=("Roboto", 10, "bold"), fg="#F2F2F2", bg="#1B1259", anchor="w"
 ).pack(side="top", padx=10, pady=(10, 2), anchor="w")
 
-taduccionNuevoTermino = tk.Text(fmTNuevoTermino, width=50,height=30)  
+# Campo de entrada para "Traducción"
+taduccionNuevoTermino = tk.Text(fmTNuevoTermino, width=50, height=30)
 taduccionNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 5))
 
-fmCNuevoTermino = tk.Frame(fmAgregarTermino,width=490,height=66,bg="#1b1259")
+# Frame para "Categoría"
+fmCNuevoTermino = tk.Frame(fmAgregarTermino, width=490, height=66, bg="#1b1259")
 fmCNuevoTermino.pack_propagate(False)
 fmCNuevoTermino.pack(side="top")
 
+# Etiqueta de "Categoría"
 tk.Label(
-    fmCNuevoTermino, text="Categoria: ",
+    fmCNuevoTermino, text="Categoría: ",
     font=("Roboto", 10, "bold"), fg="#F2F2F2", bg="#1B1259", anchor="w"
 ).pack(side="top", padx=10, pady=(10, 2), anchor="w")
 
-taduccionNuevoTermino = tk.Text(fmCNuevoTermino, width=50,height=30)  
+# Campo de entrada para "Categoría"
+taduccionNuevoTermino = tk.Text(fmCNuevoTermino, width=50, height=30)
 taduccionNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 5))
 
 # ------------------------------------------------------
@@ -347,48 +356,87 @@ taduccionNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 5))
 
 eliminarTermino = tk.Frame(vn)
 
+tk.Label(
+    eliminarTermino, text="Eliminar Termino",
+    font=("Roboto",16,"bold"), fg="#1B1259"
+).pack(side="top")
+
+entradaDatos = tk.Frame(eliminarTermino, width=270, height=270, bg="#1B1259")
+entradaDatos.pack_propagate(False)
+entradaDatos.pack(side="top", padx=35, pady=25)
+
+tk.Label(
+    entradaDatos, text='''Ingresa el nombre del término: ''', font=("Roboto", 10, "bold"),
+    fg="white", bg="#1B1259", justify="center", anchor="center"   
+).pack(side="top", pady=15)
+
+enEliminarTermino = tk.Entry(entradaDatos)
+enEliminarTermino.bind("<Return>", FNbuscarTermino)
+enEliminarTermino.pack(side="top", padx=10, pady=10)
+
+lbTerminoEliminado = tk.Label(
+    entradaDatos, font=("Roboto", 10, "bold"),
+    fg="white", bg="#1B1259", justify="center", anchor="center"   
+)
+lbTerminoEliminado.pack(side="top", pady=(10,5))
+
 # ------------------------------------------------------
 # Sección "Bucar Término"
 # ------------------------------------------------------
 
+# Frame principal para "Buscar Término"
 buscarTermino = tk.Frame(vn)
 
+# Título de la sección
 tk.Label(
     buscarTermino, text="Buscar Termino",
-    font=("Roboto",16,"bold"),fg="#1B1259"
+    font=("Roboto",16,"bold"), fg="#1B1259"
 ).pack(side="top")
 
-entradaDatos = tk.Frame(buscarTermino,width=160,height=270)
-entradaDatos.configure(bg="#1B1259")
+# Frame para entrada de datos
+entradaDatos = tk.Frame(buscarTermino, width=160, height=270, bg="#1B1259")
 entradaDatos.pack_propagate(False)
-entradaDatos.pack(side="left", padx=(30),pady=25)
+entradaDatos.pack(side="left", padx=30, pady=25)
 
+# Instrucción para ingresar término
 tk.Label(
     entradaDatos, text='''Ingresa el nombre 
-    del término: ''',font=("Roboto", 10, "bold"), 
-    fg="white", bg="#1B1259",
-    justify="center",anchor="center"   
-).pack(side="top", pady=5)
+    del término: ''', font=("Roboto", 10, "bold"),
+    fg="white", bg="#1B1259", justify="center", anchor="center"   
+).pack(side="top", pady=(10,5))
 
+# Campo de entrada, presionar Enter para buscar
 enBuscarTermino = tk.Entry(entradaDatos)
-enBuscarTermino.pack(side="top",padx=10,pady=10)
-enBuscarTermino.bind("<Return>", buscarTermino)
+enBuscarTermino.bind("<Return>", FNbuscarTermino)
+enBuscarTermino.pack(side="top", padx=10, pady=10)
+
+# Botón Buscar
 btnBuscar = tk.Button(
     entradaDatos, text="Buscar",
     bg="#FFCE00", fg="#F2F2F2", 
     font=("Roboto", 12, "bold"),
     command=FNbuscarTermino
 )
-btnBuscar.pack(side="top",pady=15)
+btnBuscar.pack(side="top", pady=15)
 
-muestraDeDatos = tk.Frame(buscarTermino,width=350,height=270)
-muestraDeDatos.configure(bg="#1B1259")
+# Botón Limpiar
+btnLimpiar = tk.Button(
+    entradaDatos, text="Limpiar",
+    bg="#FFCE00", fg="#F2F2F2", 
+    font=("Roboto", 12, "bold"),
+    command=limpiarCasillas
+)
+btnLimpiar.pack(side="top", pady=15)
+
+# Frame para mostrar resultados
+muestraDeDatos = tk.Frame(buscarTermino, width=350, height=270, bg="#1B1259")
 muestraDeDatos.pack_propagate(False)
-muestraDeDatos.pack(side="left", padx=(30),pady=25)
+muestraDeDatos.pack(side="left", padx=30, pady=25)
 
-txtTerminoEncontrado = tk.Text(muestraDeDatos, wrap="word",width=300,height=200)
-txtTerminoEncontrado.configure(state="disable")
-txtTerminoEncontrado.pack(side="top",padx=10,pady=10)
+# Área de texto de solo lectura para el resultado
+txtTerminoEncontrado = tk.Text(muestraDeDatos, wrap="word", width=300, height=200, state="disable")
+txtTerminoEncontrado.pack(side="top", padx=10, pady=10)
+
 
 # ------------------------------------------------------
 # Sección "Listar Término"
@@ -396,26 +444,66 @@ txtTerminoEncontrado.pack(side="top",padx=10,pady=10)
 
 listarTermino = tk.Frame(vn)
 
+tk.Label(
+    listarTermino, text="Listar Termino",
+    font=("Roboto",16,"bold"), fg="#1B1259"
+).pack(side="top")
+
+terminosListados = tk.Frame(listarTermino,width=550,height=350,bg="#d91f2b")
+terminosListados.pack_propagate(False)
+terminosListados.pack(side="top",padx=25)
+
+mostrarTerminos = tk.Text(
+    terminosListados,width=550,
+    height=350,state="disable",wrap="word"
+)
+
+mostrarTerminos.pack(side="top",padx=5,pady=5)
+
+menuFiltrar = tk.Frame(listarTermino,width=550,height=70,bg="#1b1259")
+menuFiltrar.propagate(False)
+menuFiltrar.pack(side="top",padx=25)
+
+tk.Label(
+    menuFiltrar, text="Ingresa al letra para filtrar: ",
+    font=("Roboto",12,"bold"), fg="#f2f2f2",bg="#1b1259"
+).pack(side="top")
+
+filtro = tk.Frame(menuFiltrar, bg="#1b1259")
+filtro.pack(side="top")
+
+enLetra = tk.Entry(filtro,width=3)
+enLetra.pack(side="left",padx=10)
+
+btnFiltrar = tk.Button(
+    filtro, text="Filtrar",
+    bg="#FFCE00", fg="#F2F2F2", 
+    font=("Roboto", 10, "bold")
+)
+btnFiltrar.pack(side="left",padx=10)
 # ------------------------------------------------------
 # Sección "Acerca De"
 # ------------------------------------------------------
 
+# Frame para la sección "Acerca de"
 acercaDe= tk.Frame(vn)
 
+# Título de la sección "Acerca de"
 lbTitulo = tk.Label(
     acercaDe, text="Diccionario del Programador, Inglés-Español",
-    font=("Roboto", 12, "bold"),fg="#201161"
+    font=("Roboto", 12, "bold"), fg="#201161"
 )
+lbTitulo.pack(side="top", padx=(40), pady=10)
 
-lbTitulo.pack(side="top", padx=(40),pady=10)
-
+# Texto explicativo sobre el proyecto, en un campo de solo lectura
 txtAcecaDeP1 = tk.Text(
     acercaDe, wrap="word", height=39,
-    font=("Roboto",11)
+    font=("Roboto", 11)
 )
 
+# Insertar información sobre el proyecto y colaboradores
 txtAcecaDeP1.insert(
-    "1.0",f"""Este proyecto, se desarrolla como un ejercicio integrado de colaboración entre estudiantes de programación. Su objetivo es crear una herramienta práctica para traducir términos técnicos del inglés al español, ayudando a futuros programadores a comprender y utilizar el vocabulario técnico en su aprendizaje y desarrollo profesional.
+    "1.0", f"""Este proyecto, se desarrolla como un ejercicio integrado de colaboración entre estudiantes de programación. Su objetivo es crear una herramienta práctica para traducir términos técnicos del inglés al español, ayudando a futuros programadores a comprender y utilizar el vocabulario técnico en su aprendizaje y desarrollo profesional.
 
 Colaboradores
 
@@ -433,10 +521,9 @@ Tecnologías Utilizadas
 Para la creación del diccionario, empleamos la librería Tkinter, que permite una interfaz gráfica interactiva, y la herramienta DOT para generar diagramas de flujo, facilitando la visualización de los procesos dentro de la aplicación."""
 )
 
+# Configuración de solo lectura y ubicación para el texto de información
 txtAcecaDeP1.configure(state="disabled")
-txtAcecaDeP1.pack(side="top", padx=(40),pady=10)
-
-
+txtAcecaDeP1.pack(side="top", padx=(40), pady=10)
 
 # ------------------------------------------------------
 # Ejecutar la aplicación
