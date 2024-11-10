@@ -22,7 +22,7 @@ termino = tk.StringVar
 # ------------------------------------------------------
 
 # Funcion buscar termino
-def FNbuscarTermino():
+def FNbuscarTermino(event=None):
     
     termino = enBuscarTermino.get()
     if verificarNombre(termino) == True:
@@ -372,7 +372,7 @@ tk.Label(
 
 enBuscarTermino = tk.Entry(entradaDatos)
 enBuscarTermino.pack(side="top",padx=10,pady=10)
-
+enBuscarTermino.bind("<Return>", buscarTermino)
 btnBuscar = tk.Button(
     entradaDatos, text="Buscar",
     bg="#FFCE00", fg="#F2F2F2", 
