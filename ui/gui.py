@@ -38,7 +38,8 @@ def FNbuscarTermino(event=None):
     else:
         txtTerminoEncontrado.configure(state="normal")
         txtTerminoEncontrado.insert("1.0","""
-    ¡¡¡Termino no encontrado!!!
+      ¡¡¡Termino no encontrado!!!
+     (Asegurate de escribirlo bien)
                                     """)
         txtTerminoEncontrado.configure(state="disable")
          
@@ -267,7 +268,7 @@ lbnav2 = tk.Label(
 lbnav2.pack(side="left", padx=(40, 0))
 
 btnVolver = tk.Button(
-    nav2, text="Volver", bg="#FFCE00", fg="#F2F2F2", 
+    nav2, text="Volver", bg="#d91f2b", fg="#F2F2F2", 
     font=("Roboto", 12, "bold"), command=volver
 )
 btnVolver.pack(side="right", padx=(0, 10), pady=2)
@@ -393,45 +394,52 @@ tk.Label(
     font=("Roboto",16,"bold"), fg="#1B1259"
 ).pack(side="top")
 
-# Frame para entrada de datos
-entradaDatos = tk.Frame(buscarTermino, width=160, height=270, bg="#1B1259")
+bordeEntradaDatos = tk.Frame(buscarTermino, bg="#D92534", padx=4, pady=4)
+bordeEntradaDatos.pack(side="left", padx=(26,13), pady=(16,26))
+
+# Frame para entrada de datos dentro del borde
+entradaDatos = tk.Frame(bordeEntradaDatos, width=160, height=270, bg="#1B1259", relief="solid")
 entradaDatos.pack_propagate(False)
-entradaDatos.pack(side="left", padx=30, pady=25)
+entradaDatos.pack()
+
 
 # Instrucción para ingresar término
 tk.Label(
-    entradaDatos, text='''Ingresa el nombre 
-    del término: ''', font=("Roboto", 10, "bold"),
-    fg="white", bg="#1B1259", justify="center", anchor="center"   
-).pack(side="top", pady=(10,5))
+    entradaDatos, text='''Ingresa el
+término: ''', font=("Roboto", 16, "bold"),
+    fg="white", bg="#1B1259", justify="left", anchor="center"   
+).pack(side="top", pady=(10,5),padx=(14),anchor="nw")
 
 # Campo de entrada, presionar Enter para buscar
 enBuscarTermino = tk.Entry(entradaDatos)
 enBuscarTermino.bind("<Return>", FNbuscarTermino)
-enBuscarTermino.pack(side="top", padx=10, pady=10)
+enBuscarTermino.pack(side="top", padx=14, pady=10)
 
 # Botón Buscar
 btnBuscar = tk.Button(
     entradaDatos, text="Buscar",
     bg="#FFCE00", fg="#F2F2F2", 
-    font=("Roboto", 12, "bold"),
+    font=("Roboto", 10, "bold"),
     command=FNbuscarTermino
 )
-btnBuscar.pack(side="top", pady=15)
+btnBuscar.pack(side="left", pady=15,padx=(14,7))
 
 # Botón Limpiar
 btnLimpiar = tk.Button(
     entradaDatos, text="Limpiar",
     bg="#FFCE00", fg="#F2F2F2", 
-    font=("Roboto", 12, "bold"),
+    font=("Roboto", 10, "bold"),
     command=limpiarCasillas
 )
-btnLimpiar.pack(side="top", pady=15)
+btnLimpiar.pack(side="right", pady=20,padx=(7, 14))
+
+bordeMuestraDatos = tk.Frame(buscarTermino, bg="#D92534", padx=4, pady=4)
+bordeMuestraDatos.pack(side="left", padx=(13,26), pady=(16,26))
 
 # Frame para mostrar resultados
-muestraDeDatos = tk.Frame(buscarTermino, width=350, height=270, bg="#1B1259")
+muestraDeDatos = tk.Frame(bordeMuestraDatos, width=350, height=270, bg="#1B1259")
 muestraDeDatos.pack_propagate(False)
-muestraDeDatos.pack(side="left", padx=30, pady=25)
+muestraDeDatos.pack(side="left")
 
 # Área de texto de solo lectura para el resultado
 txtTerminoEncontrado = tk.Text(muestraDeDatos, wrap="word", width=300, height=200, state="disable")
