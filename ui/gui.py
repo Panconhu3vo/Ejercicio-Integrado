@@ -142,7 +142,7 @@ def ocultarSeccionListarTermino():
     listarTermino.pack_forget()
 
 # ------------------------------------------------------
-# listar Termino:
+# Seccion Acerca De:
 # ------------------------------------------------------
 
 def seccionAcercaDe():
@@ -286,70 +286,68 @@ tk.Label(
     font=("Roboto", 16, "bold"), fg="#1B1259"
 ).pack(side="top")
 
-# Frame contenedor de los campos de entrada
-fmAgregarTermino = tk.Frame(agregarTermino, width=500, height=290, bg="#1B1259")
-fmAgregarTermino.pack_propagate(False)
-fmAgregarTermino.pack(side="top", padx=25, pady=15)
+# Borde de entrada de datos
+bordeEntradaDatos = tk.Frame(agregarTermino, bg="#D92534", padx=4, pady=4)
+bordeEntradaDatos.pack(side="left", padx=38, pady=(16,26))
 
-# Frame para "Nuevo término"
-fmNNuevoTermino = tk.Frame(fmAgregarTermino, width=490, height=66, bg="#1b1259")
-fmNNuevoTermino.pack_propagate(False)
-fmNNuevoTermino.pack(side="top")
+# Frame contenedor para menú izquierdo y derecho
+menuAgregarTermino = tk.Frame(bordeEntradaDatos, bg="#1b1259", width=525, height=340)
+menuAgregarTermino.pack_propagate(False)
+menuAgregarTermino.pack(side="left")
 
-# Etiqueta de "Nuevo término"
+# Frame izquierdo (menuIzquierdoAG) configurado para el lado izquierdo
+menuIzquierdoAG = tk.Frame(menuAgregarTermino, bg="#1b1259", width=260, height=338)
+menuIzquierdoAG.pack(side="left", anchor="nw")
+
 tk.Label(
-    fmNNuevoTermino, text="Nuevo término: ",
-    font=("Roboto", 10, "bold"), fg="#F2F2F2", bg="#1B1259", anchor="w"
-).pack(side="top", padx=10, pady=(10, 2), anchor="w")
+    menuIzquierdoAG, text="Nombre Termino: ",
+    font=("Roboto",14,"bold"), fg="#F2F2F2",
+    bg="#1B1259", justify="left", anchor="center"   
+).pack(side="top", anchor="nw", padx=35, pady=(15,4))
 
-# Campo de entrada para "Nuevo término"
-nombreNuevoTermino = tk.Entry(fmNNuevoTermino)
-nombreNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 10))
+enNombreNT = tk.Entry(menuIzquierdoAG)
+enNombreNT.pack(side="top", anchor="nw", padx=39, pady=4)
 
-# Frame para "Definición"
-fmDNuevoTermino = tk.Frame(fmAgregarTermino, width=490, height=66, bg="#1b1259")
-fmDNuevoTermino.pack_propagate(False)
-fmDNuevoTermino.pack(side="top")
+txtConsole = tk.Text(menuIzquierdoAG, width=19, height=5, wrap="word")
+txtConsole.pack(side="top", anchor="nw", expand=False, fill=None, padx=39, pady=4)
 
-# Etiqueta de "Definición"
 tk.Label(
-    fmDNuevoTermino, text="Definición: ",
-    font=("Roboto", 10, "bold"), fg="#F2F2F2", bg="#1B1259", anchor="w"
-).pack(side="top", padx=10, pady=(10, 2), anchor="w")
+    menuIzquierdoAG, text="Categoria: ",
+    font=("Roboto",14,"bold"), fg="#F2F2F2",
+    bg="#1B1259", justify="left", anchor="center"   
+).pack(side="top", anchor="nw", padx=35, pady=(8))
 
-# Campo de entrada para "Definición"
-definicionNuevoTermino = tk.Text(fmDNuevoTermino, width=50, height=30)
-definicionNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 5))
+# Menú desplegable de categorías en el Frame izquierdo
+categoriasMenu = ('Estructuras de Datos', 'Funciones', 'Condicionales', 'Ciclos', 'General')
+categoriaSelect = tk.StringVar()
+categoriaSelect.set("Categoria")
+menuCategoria = tk.OptionMenu(menuIzquierdoAG, categoriaSelect, *categoriasMenu)
+menuCategoria.pack(side="top", anchor="nw", padx=39, pady=(4))
 
-# Frame para "Traducción"
-fmTNuevoTermino = tk.Frame(fmAgregarTermino, width=490, height=66, bg="#1b1259")
-fmTNuevoTermino.pack_propagate(False)
-fmTNuevoTermino.pack(side="top")
+# Frame derecho (menuDerechoAG) configurado para el lado derecho
+menuDerechoAG = tk.Frame(menuAgregarTermino, bg="#1b1259", width=255, height=338)
+menuDerechoAG.pack_propagate(False)
+menuDerechoAG.pack(side="right")
 
-# Etiqueta de "Traducción"
 tk.Label(
-    fmTNuevoTermino, text="Traducción: ",
-    font=("Roboto", 10, "bold"), fg="#F2F2F2", bg="#1B1259", anchor="w"
-).pack(side="top", padx=10, pady=(10, 2), anchor="w")
+    menuDerechoAG, text="Definicion: ",
+    font=("Roboto",14,"bold"),fg="#F2F2F2",
+    bg="#1B1259",justify="left", anchor="center"   
+).pack(side="top",anchor="nw",padx=35,pady=(15,4))
 
-# Campo de entrada para "Traducción"
-taduccionNuevoTermino = tk.Text(fmTNuevoTermino, width=50, height=30)
-taduccionNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 5))
+txtDefinicion = tk.Text(menuDerechoAG,width=25,height=5,wrap="word")
+txtDefinicion.pack(side="top",anchor="nw",expand=False,fill=None,padx=39,pady=(4))
 
-# Frame para "Categoría"
-fmCNuevoTermino = tk.Frame(fmAgregarTermino, width=490, height=66, bg="#1b1259")
-fmCNuevoTermino.pack_propagate(False)
-fmCNuevoTermino.pack(side="top")
-
-# Etiqueta de "Categoría"
 tk.Label(
-    fmCNuevoTermino, text="Categoría: ",
-    font=("Roboto", 10, "bold"), fg="#F2F2F2", bg="#1B1259", anchor="w"
-).pack(side="top", padx=10, pady=(10, 2), anchor="w")
+    menuDerechoAG, text="Traduccion: ",
+    font=("Roboto",14,"bold"),fg="#F2F2F2",
+    bg="#1B1259",justify="left", anchor="center"   
+).pack(side="top",anchor="nw",padx=35,pady=(4))
 
-# Campo de entrada para "Categoría"
-taduccionNuevoTermino = tk.Text(fmCNuevoTermino, width=50, height=30)
-taduccionNuevoTermino.pack(side="left", anchor="n", padx=12, pady=(0, 5))
+txtTraduccion = tk.Text(menuDerechoAG,width=25,height=5,wrap="word")
+txtTraduccion.pack(side="top",anchor="nw",expand=False,fill=None,padx=39,pady=(4))
+
+
 
 # ------------------------------------------------------
 # Sección "Eliminar Término"
@@ -406,7 +404,7 @@ entradaDatos.pack()
 # Instrucción para ingresar término
 tk.Label(
     entradaDatos, text='''Ingresa el
-término: ''', font=("Roboto", 16, "bold"),
+término: ''', font=("Roboto", 14, "bold"),
     fg="white", bg="#1B1259", justify="left", anchor="center"   
 ).pack(side="top", pady=(10,5),padx=(14),anchor="nw")
 
