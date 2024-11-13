@@ -65,14 +65,16 @@ def cerrarVentana():
 def Inicio():
     nav.pack(fill="x")
     bordeInf.pack(fill="x", pady=(0, 5))
-    instr.pack(fill="x")
-    menu.pack(side="top")
-    footer.pack(fill="x", pady=(15, 0))
+    instr.pack(side="top",pady=(10,15))
+    bordeMenuPrincipal.pack(padx=110, pady=(0))
+    menu.pack(side="left")
+    footer.pack(fill="x")
 
 def ocultarInicio():
     nav.pack_forget()
     bordeInf.pack_forget()
     instr.pack_forget()
+    bordeMenuPrincipal.pack_forget()
     menu.pack_forget()
     footer.pack_forget()
 
@@ -186,11 +188,10 @@ vn.iconbitmap("ui\img\diccionarioimg.ico")
 
 nav = tk.Frame(vn, bg="#1B1259", width=600, height=42)
 
-lbnav = tk.Label(
+tk.Label(
     nav, text="Diccionario Del Programador",
     font=("Roboto", 22, "bold"), fg="#F2F2F2", bg="#1B1259"
-)
-lbnav.pack(side="top")
+).pack(side="top")
 
 # Borde inferior de la barra de navegación
 bordeInf = tk.Frame(vn, height=2, bg="#d91f2b")
@@ -199,43 +200,45 @@ bordeInf = tk.Frame(vn, height=2, bg="#d91f2b")
 # Sección de Instrucciones
 # ------------------------------------------------------
 
-instr = tk.Frame(vn, height=67)
+instr = tk.Frame(vn)
 
-lbInstr = tk.Label(
-    instr, text="Ingresa una Opción:", 
+tk.Label(
+    instr, text="Selecciona una opción:", 
     font=("Roboto", 16, "bold"), fg="#201161"
-)
-lbInstr.pack(side="top", anchor="s", pady=15)
+).pack(side="top", anchor="s")
 
 # ------------------------------------------------------
 # Menú principal
 # ------------------------------------------------------
 
-menu = tk.Frame(vn, width=270, height=270, bg="#1B1259")
+bordeMenuPrincipal = tk.Frame(vn, bg="#D92534", padx=4, pady=4)
+
+menu = tk.Frame(bordeMenuPrincipal, width=380, height=240, bg="#1B1259")
+menu.pack_propagate(False)
 
 btnAgregarT = tk.Button(
     menu, text="Agregar Término", bg="#F2B705", fg="#F2F2F2",
     font=("Roboto", 12, "bold"), command=seccionAgregarTermino
 )
-btnAgregarT.pack(fill="both", expand=True, padx=60, pady=10)
+btnAgregarT.pack(fill="both", expand=True, padx=110, pady=10)
 
 btnEliminarT = tk.Button(
     menu, text="Eliminar Término", bg="#F2B705", fg="#F2F2F2", 
-    font=("Roboto", 12, "bold"),command=seccionEliminarTermino
+    font=("Roboto", 12, "bold"), command=seccionEliminarTermino
 )
-btnEliminarT.pack(fill="both", expand=True, padx=60, pady=11)
+btnEliminarT.pack(fill="both", expand=True, padx=110, pady=11)
 
 btnBuscarT = tk.Button(
     menu, text="Buscar Término", bg="#F2B705", fg="#F2F2F2", 
-    font=("Roboto", 12, "bold"),command=seccionBuscarTermino
+    font=("Roboto", 12, "bold"), command=seccionBuscarTermino
 )
-btnBuscarT.pack(fill="both", expand=True, padx=60, pady=11)
+btnBuscarT.pack(fill="both", expand=True, padx=110, pady=11)
 
 btnListarT = tk.Button(
-    menu, text="Listar Término", bg="#F2B705", fg="#F2F2F2", 
-    font=("Roboto", 12, "bold"),command=seccionListarTermino
+    menu, text="Listar Términos", bg="#F2B705", fg="#F2F2F2", 
+    font=("Roboto", 12, "bold"), command=seccionListarTermino
 )
-btnListarT.pack(fill="both", expand=True, padx=60, pady=11)
+btnListarT.pack(fill="both", expand=True, padx=110, pady=11)
 
 # ------------------------------------------------------
 # Footer
@@ -244,8 +247,8 @@ btnListarT.pack(fill="both", expand=True, padx=60, pady=11)
 footer = tk.Frame(vn)
 
 btnAcercaDe = tk.Button(
-    footer, text="Acerca De", bg="#d91f2b", fg="#F2F2F2", 
-    font=("Roboto", 12, "bold"),command=seccionAcercaDe
+    footer, text="Acerca de", bg="#d91f2b", fg="#F2F2F2", 
+    font=("Roboto", 12, "bold"), command=seccionAcercaDe
 )
 btnAcercaDe.pack(pady=10, padx=15, side="right")
 
@@ -262,7 +265,7 @@ btnSalir.pack(pady=10, padx=15, side="left")
 nav2 = tk.Frame(vn, bg="#1B1259", width=600, height=42)
 
 lbnav2 = tk.Label(
-    nav2, text="Diccionario Del Programador", 
+    nav2, text="Diccionario del Programador", 
     font=("Roboto", 22, "bold"), fg="#F2F2F2", bg="#1B1259"
 )
 lbnav2.pack(side="left", padx=(40, 0))
@@ -300,7 +303,7 @@ menuIzquierdoAG = tk.Frame(menuAgregarTermino, bg="#1b1259", width=260, height=3
 menuIzquierdoAG.pack(side="left", anchor="nw")
 
 tk.Label(
-    menuIzquierdoAG, text="Nombre Termino: ",
+    menuIzquierdoAG, text="Nombre del Término: ",
     font=("Roboto",14,"bold"), fg="#F2F2F2",
     bg="#1B1259", justify="left", anchor="center"   
 ).pack(side="top", anchor="nw", padx=35, pady=(15,4))
@@ -312,7 +315,7 @@ txtConsole = tk.Text(menuIzquierdoAG, width=19, height=5, wrap="word")
 txtConsole.pack(side="top", anchor="nw", expand=False, fill=None, padx=39, pady=4)
 
 tk.Label(
-    menuIzquierdoAG, text="Categoria: ",
+    menuIzquierdoAG, text="Categoría: ",
     font=("Roboto",14,"bold"), fg="#F2F2F2",
     bg="#1B1259", justify="left", anchor="center"   
 ).pack(side="top", anchor="nw", padx=35, pady=(8))
@@ -330,7 +333,7 @@ menuDerechoAG.pack_propagate(False)
 menuDerechoAG.pack(side="right")
 
 tk.Label(
-    menuDerechoAG, text="Definicion: ",
+    menuDerechoAG, text="Definición: ",
     font=("Roboto",14,"bold"),fg="#F2F2F2",
     bg="#1B1259",justify="left", anchor="center"   
 ).pack(side="top",anchor="nw",padx=35,pady=(15,4))
@@ -339,15 +342,13 @@ txtDefinicion = tk.Text(menuDerechoAG,width=25,height=5,wrap="word")
 txtDefinicion.pack(side="top",anchor="nw",expand=False,fill=None,padx=39,pady=(4))
 
 tk.Label(
-    menuDerechoAG, text="Traduccion: ",
+    menuDerechoAG, text="Traducción: ",
     font=("Roboto",14,"bold"),fg="#F2F2F2",
     bg="#1B1259",justify="left", anchor="center"   
 ).pack(side="top",anchor="nw",padx=35,pady=(4))
 
 txtTraduccion = tk.Text(menuDerechoAG,width=25,height=5,wrap="word")
 txtTraduccion.pack(side="top",anchor="nw",expand=False,fill=None,padx=39,pady=(4))
-
-
 
 # ------------------------------------------------------
 # Sección "Eliminar Término"
@@ -356,28 +357,28 @@ txtTraduccion.pack(side="top",anchor="nw",expand=False,fill=None,padx=39,pady=(4
 eliminarTermino = tk.Frame(vn)
 
 tk.Label(
-    eliminarTermino, text="Eliminar Termino",
+    eliminarTermino, text="Eliminar Término",
     font=("Roboto",16,"bold"), fg="#1B1259"
 ).pack(side="top")
 
-entradaDatos = tk.Frame(eliminarTermino, width=270, height=270, bg="#1B1259")
-entradaDatos.pack_propagate(False)
-entradaDatos.pack(side="top", padx=35, pady=25)
+bordeEntradaDatos = tk.Frame(eliminarTermino, bg="#D92534", padx=4, pady=4)
+bordeEntradaDatos.pack(side="left", padx=(37), pady=(16,26))
+
+menuEliminarTermino = tk.Frame(bordeEntradaDatos,width=525, height=275, bg="#1B1259")
+menuEliminarTermino.pack_propagate(False)
+menuEliminarTermino.pack()
 
 tk.Label(
-    entradaDatos, text='''Ingresa el nombre del término: ''', font=("Roboto", 10, "bold"),
-    fg="white", bg="#1B1259", justify="center", anchor="center"   
-).pack(side="top", pady=15)
+    menuEliminarTermino, text="Nombre del Término: ",
+    font=("Roboto",14,"bold"),fg="#F2F2F2",
+    bg="#1B1259",justify="left", anchor="center"   
+).pack(side="top",anchor="nw",padx=35,pady=(15,4))
 
-enEliminarTermino = tk.Entry(entradaDatos)
-enEliminarTermino.bind("<Return>", FNbuscarTermino)
-enEliminarTermino.pack(side="top", padx=10, pady=10)
+enNombreET = tk.Entry(menuEliminarTermino)
+enNombreET.pack(side="top", anchor="nw", padx=39, pady=4)
 
-lbTerminoEliminado = tk.Label(
-    entradaDatos, font=("Roboto", 10, "bold"),
-    fg="white", bg="#1B1259", justify="center", anchor="center"   
-)
-lbTerminoEliminado.pack(side="top", pady=(10,5))
+txtConsoleE = tk.Text(menuEliminarTermino,width=75,height=10,wrap="word")
+txtConsoleE.pack(side="top",anchor="nw",expand=False,fill=None,padx=39,pady=(4))
 
 # ------------------------------------------------------
 # Sección "Bucar Término"
@@ -388,7 +389,7 @@ buscarTermino = tk.Frame(vn)
 
 # Título de la sección
 tk.Label(
-    buscarTermino, text="Buscar Termino",
+    buscarTermino, text="Buscar Términos",
     font=("Roboto",16,"bold"), fg="#1B1259"
 ).pack(side="top")
 
@@ -399,7 +400,6 @@ bordeEntradaDatos.pack(side="left", padx=(26,13), pady=(16,26))
 entradaDatos = tk.Frame(bordeEntradaDatos, width=160, height=270, bg="#1B1259", relief="solid")
 entradaDatos.pack_propagate(False)
 entradaDatos.pack()
-
 
 # Instrucción para ingresar término
 tk.Label(
@@ -443,7 +443,6 @@ muestraDeDatos.pack(side="left")
 txtTerminoEncontrado = tk.Text(muestraDeDatos, wrap="word", width=300, height=200, state="disable")
 txtTerminoEncontrado.pack(side="top", padx=10, pady=10)
 
-
 # ------------------------------------------------------
 # Sección "Listar Término"
 # ------------------------------------------------------
@@ -451,7 +450,7 @@ txtTerminoEncontrado.pack(side="top", padx=10, pady=10)
 listarTermino = tk.Frame(vn)
 
 tk.Label(
-    listarTermino, text="Listar Termino",
+    listarTermino, text="Listar Términos",
     font=("Roboto",16,"bold"), fg="#1B1259"
 ).pack(side="top")
 
@@ -471,7 +470,7 @@ menuFiltrar.propagate(False)
 menuFiltrar.pack(side="top",padx=25)
 
 tk.Label(
-    menuFiltrar, text="Ingresa al letra para filtrar: ",
+    menuFiltrar, text="Introduce una letra para filtrar: ",
     font=("Roboto",12,"bold"), fg="#f2f2f2",bg="#1b1259"
 ).pack(side="top")
 
@@ -492,18 +491,20 @@ btnFiltrar.pack(side="left",padx=10)
 # ------------------------------------------------------
 
 # Frame para la sección "Acerca de"
-acercaDe= tk.Frame(vn)
+acercaDe = tk.Frame(vn)
 
 # Título de la sección "Acerca de"
-lbTitulo = tk.Label(
+tk.Label(
     acercaDe, text="Diccionario del Programador, Inglés-Español",
     font=("Roboto", 12, "bold"), fg="#201161"
-)
-lbTitulo.pack(side="top", padx=(40), pady=10)
+).pack(side="top", padx=(40), pady=10)
+
+bordeAcercaDe = tk.Frame(acercaDe, bg="#D92534", padx=4, pady=4)
+bordeAcercaDe.pack(side="left", padx=(26,13), pady=(16,26))
 
 # Texto explicativo sobre el proyecto, en un campo de solo lectura
 txtAcecaDeP1 = tk.Text(
-    acercaDe, wrap="word", height=39,
+    bordeAcercaDe, wrap="word", height=39,
     font=("Roboto", 11)
 )
 
@@ -529,10 +530,11 @@ Para la creación del diccionario, empleamos la librería Tkinter, que permite u
 
 # Configuración de solo lectura y ubicación para el texto de información
 txtAcecaDeP1.configure(state="disabled")
-txtAcecaDeP1.pack(side="top", padx=(40), pady=10)
+txtAcecaDeP1.pack(side="top")
 
 # ------------------------------------------------------
 # Ejecutar la aplicación
 # ------------------------------------------------------
+
 Inicio()
 vn.mainloop()
