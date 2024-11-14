@@ -23,4 +23,4 @@ def verificarNombre(termino):
 #  Categoria: {diccionario[termino[0]][termino]["categoria"]}
         
 if __name__ == "__main__":
-     mostrarTermino()
+    print("a")
