@@ -1847,7 +1847,47 @@ diccionario = {
     "x": {},
 
     "y": {},
-
-    "z": {}
+    
+    "z" = {
+        "zscore": {
+                "categoria": ("Estadística",),
+                "definicion": "Función que calcula el valor z, que indica cuántas desviaciones estándar está un valor de la media.",
+                "traduccion": "Function that calculates the z-score, which indicates how many standard deviations a value is from the mean."},
+        "zoneinfo": {
+                "categoria": ("Manejo de tiempo",),
+                "definicion": "Módulo que proporciona soporte para zonas horarias en Python.",
+                "traduccion": "Module that provides support for time zones in Python."},
+        "zipfile": {
+                "categoria": ("Manejo de archivos",),
+                "definicion": "Módulo para crear, leer y modificar archivos ZIP.",
+                "traduccion": "Module for creating, reading, and modifying ZIP files."},
+        "zeta": {
+                "categoria": ("Matemáticas",),
+                "definicion": "Función matemática que involucra una serie infinita, generalmente utilizada en teoría de números.",
+                "traduccion": "Mathematical function involving an infinite series, often used in number theory."},
+        "zorder": {
+                "categoria": ("Gráficos",),
+                "definicion": "Propiedad que determina el orden de apilamiento de los objetos gráficos en un gráfico.",
+                "traduccion": "Property that determines the stacking order of graphical objects in a plot."},
+        "zfill": {
+                "categoria": ("Manipulación de texto",),
+                "definicion": "Método que completa una cadena con ceros hasta una longitud especificada.",
+                "traduccion": "Method that pads a string with zeros to a specified length."},
+        "zipapp": {
+                "categoria": ("Herramientas",),
+                "definicion": "Herramienta que permite empaquetar aplicaciones Python en archivos zip ejecutables.",
+                "traduccion": "Tool that allows packing Python applications into executable zip files."},
+        "zlib.decompress": {
+                "categoria": ("Compresión de datos",),
+                "definicion": "Función del módulo zlib que descomprime los datos previamente comprimidos.",
+                "traduccion": "Function from the zlib module that decompresses data previously compressed."},
+        "zlib.compress": {
+                "categoria": ("Compresión de datos",),
+                "definicion": "Función del módulo zlib que comprime datos en un formato específico.",
+                "traduccion": "Function from the zlib module that compresses data into a specific format."},
+        "zen_of_python": {
+                "categoria": ("Buenas prácticas",),
+                "definicion": "Conjunto de principios que guían el diseño y desarrollo de código Python claro y eficiente.",
+                "traduccion": "Set of principles that guide the design and development of clear and efficient Python code."}}
 
 }
