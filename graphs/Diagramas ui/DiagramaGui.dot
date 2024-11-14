@@ -1,0 +1,43 @@
+digraph DiccionarioProgramador {
+    // Definir colores y estilos de nodos
+    node [shape=box, style=filled, color="#1B1259", fontcolor=white];
+    edge [color="#F2B705"];
+
+    // Sección principal del menú
+    MenuPrincipal [label="Menú Principal\n- Agregar Término\n- Eliminar Término\n- Buscar Término\n- Mostrar Términos\n- Acerca De\n- Salir", color="#201161"];
+    
+    // Funcionalidades del menú
+    AgregarTermino [label="Agregar Término", color="#d91f2b"];
+    EliminarTermino [label="Eliminar Término", color="#d91f2b"];
+    BuscarTermino [label="Buscar Término", color="#d91f2b"];
+    MostrarTerminos [label="Mostrar Términos", color="#d91f2b"];
+    AcercaDe [label="Acerca De", color="#d91f2b"];
+
+    // Relaciones de Menú Principal
+    MenuPrincipal -> AgregarTermino;
+    MenuPrincipal -> EliminarTermino;
+    MenuPrincipal -> BuscarTermino;
+    MenuPrincipal -> MostrarTerminos;
+    MenuPrincipal -> AcercaDe;
+
+    // Agregar Término proceso
+    AgregarTermino -> ValidarUnicidad [label="Verificar unicidad"];
+    ValidarUnicidad -> AlmacenarTermino [label="Añadir en Diccionario"];
+    AlmacenarTermino -> MostrarConfirmacionAgregar [label="Confirmar"];
+
+    // Eliminar Término proceso
+    EliminarTermino -> VerificarExistencia [label="Verificar existencia"];
+    VerificarExistencia -> EliminarDelDiccionario [label="Eliminar"];
+    EliminarDelDiccionario -> MostrarConfirmacionEliminar [label="Confirmar"];
+
+    // Buscar Término proceso
+    BuscarTermino -> RecorrerDiccionario [label="Buscar término"];
+    RecorrerDiccionario -> MostrarTraduccion [label="Mostrar resultado"];
+
+    // Mostrar Términos proceso
+    MostrarTerminos -> RecorrerTodosLosTerminos [label="Recorrer todos"];
+    RecorrerTodosLosTerminos -> MostrarLista [label="Mostrar términos"];
+
+    // Acerca De
+    AcercaDe -> MostrarInformacion [label="Equipo y reseña"];
+}
