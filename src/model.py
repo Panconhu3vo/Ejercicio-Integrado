@@ -16,10 +16,11 @@ def verificarNombre(termino):
             break
     return False 
 
+
+#       f'''Termino: {termino}
+#  Definicion: {diccionario[termino[0]][termino]["definicion"]}
+# Traduccion: {diccionario[termino[0]][termino]["traduccion"]}
+#  Categoria: {diccionario[termino[0]][termino]["categoria"]}
         
-
-
-
-if __name__ == "__main__": 
-    print((diccionario["a"].keys()))
-    verificarNombre(input("> "))
+if __name__ == "__main__":
+     mostrarTermino()
