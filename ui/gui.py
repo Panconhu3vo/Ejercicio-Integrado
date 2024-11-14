@@ -25,15 +25,17 @@ nombreNT = tk.StringVar
 
 
 def FNlistarTerminos(event=None):
-        for i in "abcd":
-             print(i)
+    txtTerminosListados.configure(state="normal")
+    for i in "abcd":
+        txtTerminosListados.insert("1.0", f"{i}" )
+        for j in diccionario[i]:
+            txtTerminosListados.insert("1.0", f''' 
+  Termino: {j}
+  Definicion: {diccionario[i][j]["definicion"]}
+  Traduccion: {diccionario[i][j]["traduccion"]}
+  Categoria: {diccionario[i][j]["categoria"]}
+  ''')
 
-             for j in diccionario[i]:
-                 
-                 print(f"Termino: {j}")
-                 print(f"Definicion: {diccionario[i][j]["definicion"]}")
-                 print(f"Traduccion: {diccionario[i][j]["traduccion"]}")    
-                 print(f"Categoria: {diccionario[i][j]["categoria"]}") 
 
 # Funcion buscar termino
 def FNbuscarTermino(event=None):
@@ -504,7 +506,9 @@ fmTeminosListados = tk.Frame(menuListarTerminos)
 fmTeminosListados.pack(side="top",padx=5,pady=(0,5))
 
 txtTerminosListados = tk.Text(fmTeminosListados,width=80,height=25)
+txtTerminosListados.configure(state="disable")
 txtTerminosListados.pack()
+txtTerminosListados.bind("<Visibility>", FNlistarTerminos)
 # ------------------------------------------------------
 # Sección "Acerca De"
 # ------------------------------------------------------

@@ -1848,7 +1848,7 @@ diccionario = {
 
     "y": {},
     
-    "z" = {
+    "z": {
         "zscore": {
                 "categoria": ("Estadística",),
                 "definicion": "Función que calcula el valor z, que indica cuántas desviaciones estándar está un valor de la media.",
