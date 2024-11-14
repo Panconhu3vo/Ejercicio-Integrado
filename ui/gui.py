@@ -13,6 +13,8 @@ from diccionario import diccionario
 
 termino = tk.StringVar
 nombreNT = tk.StringVar
+
+
 # ------------------------------------------------------
 # Funciones:
 # ------------------------------------------------------
