@@ -12,7 +12,7 @@ from diccionario import diccionario
 # ------------------------------------------------------
 
 termino = tk.StringVar
-
+nombreNT = tk.StringVar
 # ------------------------------------------------------
 # Funciones:
 # ------------------------------------------------------
@@ -20,6 +20,12 @@ termino = tk.StringVar
 # ------------------------------------------------------
 # Funciones de Funcionalidades:
 # ------------------------------------------------------
+def FNAgregarTermino(event=None):
+    nombreNT = enNombreNT.get()
+
+    
+
+
 
 # Funcion buscar termino
 def FNbuscarTermino(event=None):
@@ -454,38 +460,35 @@ tk.Label(
     font=("Roboto",16,"bold"), fg="#1B1259"
 ).pack(side="top")
 
-terminosListados = tk.Frame(listarTermino,width=550,height=350,bg="#d91f2b")
-terminosListados.pack_propagate(False)
-terminosListados.pack(side="top",padx=25)
+bordeListarTerminos = tk.Frame(listarTermino, bg="#D92534", padx=4, pady=4)
+bordeListarTerminos.pack(side="left", padx=(26,13), pady=(16,26))
 
-mostrarTerminos = tk.Text(
-    terminosListados,width=550,
-    height=350,state="disable",wrap="word"
-)
+menuListarTerminos = tk.Frame(bordeListarTerminos ,bg="#1b1259",width=525, height=385)
+menuListarTerminos.pack_propagate(False)
+menuListarTerminos.pack(side="top")
 
-mostrarTerminos.pack(side="top",padx=5,pady=5)
-
-menuFiltrar = tk.Frame(listarTermino,width=550,height=70,bg="#1b1259")
-menuFiltrar.propagate(False)
-menuFiltrar.pack(side="top",padx=25)
+fmFiltroTerminos = tk.Frame(menuListarTerminos,bg="#1b1259")
+fmFiltroTerminos.pack(side="top",fill="x")
 
 tk.Label(
-    menuFiltrar, text="Introduce una letra para filtrar: ",
-    font=("Roboto",12,"bold"), fg="#f2f2f2",bg="#1b1259"
-).pack(side="top")
+    fmFiltroTerminos,text="Filtra por letra: ",
+    font=("Roboto",16,"bold"), fg="#f2f2f2",bg="#1b1259"
+).pack(side="left",padx=(5,0),pady=(13,16))
 
-filtro = tk.Frame(menuFiltrar, bg="#1b1259")
-filtro.pack(side="top")
-
-enLetra = tk.Entry(filtro,width=3)
-enLetra.pack(side="left",padx=10)
+enIndiceFiltro = tk.Entry(fmFiltroTerminos,width=2)
+enIndiceFiltro.pack(side="left",padx=(90,12))
 
 btnFiltrar = tk.Button(
-    filtro, text="Filtrar",
+    fmFiltroTerminos,text="Filtrar",
     bg="#FFCE00", fg="#F2F2F2", 
-    font=("Roboto", 10, "bold")
-)
-btnFiltrar.pack(side="left",padx=10)
+    font=("Roboto", 10, "bold"),)
+btnFiltrar.pack(side="left",padx=(12),pady=7)
+
+fmTeminosListados = tk.Frame(menuListarTerminos)
+fmTeminosListados.pack(side="top",padx=5,pady=(0,5))
+
+txtTerminosListados = tk.Text(fmTeminosListados,width=80,height=25)
+txtTerminosListados.pack()
 # ------------------------------------------------------
 # Sección "Acerca De"
 # ------------------------------------------------------

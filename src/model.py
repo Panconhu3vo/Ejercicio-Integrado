@@ -16,8 +16,7 @@ def verificarNombre(termino):
             break
     return False 
 
-        
-
+  
 
 
 if __name__ == "__main__": 
