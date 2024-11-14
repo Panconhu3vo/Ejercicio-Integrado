@@ -22,7 +22,21 @@ nombreNT = tk.StringVar
 # ------------------------------------------------------
 # Funciones de Funcionalidades:
 # ------------------------------------------------------
-def FNAgregarTermino(event=None):
+
+
+def FNlistarTerminos(event=None):
+        for i in "abcd":
+             print(i)
+
+             for j in diccionario[i]:
+                 
+                 print(f"Termino: {j}")
+                 print(f"Definicion: {diccionario[i][j]["definicion"]}")
+                 print(f"Traduccion: {diccionario[i][j]["traduccion"]}")    
+                 print(f"Categoria: {diccionario[i][j]["categoria"]}") 
+
+# Funcion buscar termino
+def FNbuscarTermino(event=None):
     nombreNT = enNombreNT.get()
 
     
