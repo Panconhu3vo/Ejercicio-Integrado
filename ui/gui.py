@@ -20,8 +20,30 @@ nombreNT = tk.StringVar
 # ------------------------------------------------------
 # Funciones de Funcionalidades:
 # ------------------------------------------------------
+
+def FNeliminarTermino():#enNombreET
+    termino = enNombreET.get()
+    if verificarNombre(termino) == True:
+        termino=diccionario[enNombreET]
+    if diccionario == termino :
+        del diccionario[enNombreET]
+        [termino]
+
+
+    else:
+        print('vuelve a intentar ')
+    
+       
+
+
+
+
+
+    
+
 def FNAgregarTermino(event=None):
     nombreNT = enNombreNT.get()
+   
 
     
 
