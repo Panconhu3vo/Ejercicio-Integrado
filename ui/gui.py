@@ -17,17 +17,16 @@ nombreNT = tk.StringVar
 
 # ------------------------------------------------------
 # Funciones:
-# ------------------------------------------------------
-
-# ------------------------------------------------------
 # Funciones de Funcionalidades:
 # ------------------------------------------------------
 
-
+# Funcion listar termino:
 def FNlistarTerminos(event=None):
     txtTerminosListados.configure(state="normal")
-    for i in "abcd":
-        txtTerminosListados.insert("1.0", f"{i}" )
+    # "zyxwvutsrqponmlkjihgfedcba" utiliza esta cadena de texto, esta inversa por que cada que agregas algo al txt este se pone arriba lo que hacia que se escribiera al revez
+
+    for i in "dcba":
+        txtTerminosListados.insert("1.0", f"""{i}""" )
         for j in diccionario[i]:
             txtTerminosListados.insert("1.0", f''' 
   Termino: {j}
@@ -35,15 +34,7 @@ def FNlistarTerminos(event=None):
   Traduccion: {diccionario[i][j]["traduccion"]}
   Categoria: {diccionario[i][j]["categoria"]}
   ''')
-
-
-# Funcion buscar termino
-def FNbuscarTermino(event=None):
-    nombreNT = enNombreNT.get()
-
-    
-
-
+    txtTerminosListados.configure(state="disable")
 
 # Funcion buscar termino
 def FNbuscarTermino(event=None):
@@ -509,6 +500,7 @@ txtTerminosListados = tk.Text(fmTeminosListados,width=80,height=25)
 txtTerminosListados.configure(state="disable")
 txtTerminosListados.pack()
 txtTerminosListados.bind("<Visibility>", FNlistarTerminos)
+
 # ------------------------------------------------------
 # Sección "Acerca De"
 # ------------------------------------------------------
