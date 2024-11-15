@@ -37,12 +37,16 @@ def FNlistarTerminos(event=None):
   ''')
 
 
-# Funcion buscar termino
-def FNbuscarTermino(event=None):
+# Funcion agregar termino
+def FNagregarTermino(event=None):
     nombreNT = enNombreNT.get()
+    definicion = txtDefinicion.get()
+    Traduccion = txtTraduccion.get()
+    categoria = menuCategoria.get()
+
+    verificarNombre 
 
     
-
 
 
 # Funcion buscar termino
