@@ -6,12 +6,31 @@ Diccionario del programador, Inglés-Español
 
 El proyecto es llevado a cabo por un equipo de estudiantes de programación. A continuación se enlistan los nombres de los integrantes junto con sus nombres de usuario en GitHub:
 
--   Juan Yañez - [@Panconhu3vo](https://github.com/Panconhu3vo)
--   Thiare Carvacho - [@thiareecart](https://github.com/thiareecart)
--   Jose Cheuquefilo - [@josecheuquefilo](https://github.com/josecheuquefilo)
--   Juan Alchao - [@Juan777ac](https://github.com/Juan777ac)
--   Feguens Louissaint - [@kanabuggi](https://github.com/kanabuggi)
--   Millaray Perez - (Usuario pendiente)
+### Colaboradores y Responsabilidades
+
+-   **Juan Yañez** - [@Panconhu3vo](https://github.com/Panconhu3vo) (Líder del grupo)
+
+    -   Diseño y creación de la interfaz gráfica.
+    -   Desarrollo de la función "Buscar Término".
+    -   Supervisión del código.
+
+-   **Thiare Carvacho** - [@thiareecart](https://github.com/thiareecart)
+
+    -   Implementación de la función "Mostrar Términos".
+
+-   **Jose Cheuquefilo** - [@josecheuquefilo](https://github.com/josecheuquefilo)
+
+    -   Implementación de la función "Agregar Término" (permite agregar términos, traducciones y categorías).
+
+-   **Juan Alchao** - [@Juan777ac](https://github.com/Juan777ac)
+
+    -   Agregó los términos base al diccionario.
+
+-   **Feguens Louissaint** - [@kanabuggi](https://github.com/kanabuggi)
+
+    -   Implementación de la función "Eliminar Término".
+
+-   **Millaray Perez** - Usuario pendiente
 
 ## Tecnologías Utilizadas
 
