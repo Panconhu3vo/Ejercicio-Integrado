@@ -44,8 +44,6 @@ def FNagregarTermino(event=None):
     Traduccion = txtTraduccion.get()
     categoria = menuCategoria.get()
 
-    verificarNombre 
-
     
 
 
