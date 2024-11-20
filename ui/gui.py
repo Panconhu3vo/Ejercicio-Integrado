@@ -7,6 +7,7 @@ sys.path.insert(0, ruta_src)
 
 from model import *
 from diccionario import diccionario
+from tkinter import messagebox
 # ------------------------------------------------------
 # Variables:
 # ------------------------------------------------------
@@ -40,7 +41,7 @@ def FNlistarTerminos(event=None):
         txtTerminosListados.insert("1.0", f"\n{i.upper()}:\n")
     txtTerminosListados.configure(state="disable")
 
-def FNFiltrar():
+def FNFiltrar(event=None):
     letraBuscar = enIndiceFiltro.get().upper() 
 
     if letraBuscar in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":  
@@ -55,39 +56,57 @@ def FNeliminarTermino(event=None):#enNombreET
     termino = enNombreET.get()
     if verificarNombre(termino) == True:
 
-        datos = diccionario[termino[0]][termino]
-        txtConsoleE.configure(state="normal")
-        txtConsoleE.insert('1.0',f"""Termino: {termino}
+        confirmacion = messagebox.askyesno(
+        "Confirmar Eliminación",  
+        "¿Estás seguro de que deseas eliminar este término?"  
+        )
+        if confirmacion:
+            
+            datos = diccionario[termino[0]][termino]
+            txtConsoleE.configure(state="normal")
+            txtConsoleE.insert('1.0',f"""Termino: {termino}
   Definicion: {diccionario[termino[0]][termino]["definicion"]}
   Traduccion: {diccionario[termino[0]][termino]["traduccion"]}
   Categoria: {diccionario[termino[0]][termino]["categoria"]}
-        el termino {termino} sera eliminado 
-
-        """)
-        txtConsoleE.configure(state='disabled')
-        del diccionario[termino[0]][termino]
+  
+        El término {termino} Fue Eliminado
+""")
+            txtConsoleE.configure(state='disabled')
+            del diccionario[termino[0]][termino]
+        else:
+            txtConsoleE.configure(state='normal')
+        txtConsoleE.insert('1.0',f'''
+    Confirmacion cancelada
+''')
+        txtConsoleE.configure(state='disable')
     else: 
         txtConsoleE.configure(state='normal')
-        txtConsoleE.insert('1.0',f'''termino ,{termino} no lo encontramos escribelo bien ''')
+        txtConsoleE.insert('1.0',f''' 
+    El Término ,{termino} no se encuentra, 
+    asegurate de escribirlo bien
+
+''')
         txtConsoleE.configure(state='disable')    
 
 def FNagregarTermino(event=None):
     nombreNT = enNombreNT.get()
-    definicion = txtDefinicion.get()
-    Traduccion = txtTraduccion.get()
-    categoria = menuCategoria.get()
+    definicion = txtDefinicion.get(1.0, tk.END)
+    Traduccion = txtTraduccion.get(1.0, tk.END)
+    categoria = categoriaSelect.get()
 
     if verificarNombre(nombreNT) == False:
         #Agregar los terminos al diccionario 
         diccionario[nombreNT[0]][nombreNT] = {
             "definicion" : definicion,
             "traduccion" : Traduccion,
-            "categoria"  : set(categoria),
+            "categoria"  : categoria,
         }
+        txtConsole.configure(state="normal")
+        txtConsole.insert("1.0",f"""\n ¡¡¡Témino agregado correctamente!!! \n""")
+        txtConsole.configure(state="disable")
     else:
         txtConsole.configure(state="normal")
-        txtConsole.insert("1.0",f"""termino existente""")
-        # escribir mensaje de termino incorrecto y volverlo a pedir hasta que verificarNombre sea == True
+        txtConsole.insert("1.0",f""" término existente, ingresa un término que no se encuentre dentro del diccionario \n""")
         txtConsole.configure(state="disable")
 
 # Funcion buscar termino
@@ -114,11 +133,30 @@ def FNbuscarTermino(event=None):
          
 # Funcion limpiar casillas
 def limpiarCasillas():
+    
+    # Limpiar Casillas Buscar Termino
     txtTerminoEncontrado.configure(state="normal")
     txtTerminoEncontrado.delete(1.0, tk.END)
     txtTerminoEncontrado.configure(state="disable")
     enBuscarTermino.delete(0, tk.END)
     
+    # Limpiar Casillas Agregar Termino
+    txtTraduccion.delete(1.0,tk.END)
+    txtDefinicion.delete(1.0,tk.END)
+    txtDefinicion.delete(1.0,tk.END)
+    enNombreNT.delete(0,tk.END)
+    
+    txtConsole.configure(state="normal")
+    txtConsole.delete(1.0, tk.END)
+    txtConsole.configure(state="disable")
+    categoriaSelect.set("Categoria")
+    
+    # Limpiar Casillas Eliminar Tërmino
+    enNombreET.delete(0, tk.END)
+    txtConsoleE.configure(state="normal")
+    txtConsoleE.delete(1.0, tk.END)
+    txtConsoleE.configure(state="disable")
+
 # ------------------------------------------------------
 # Funciones Interfaz:
 # ------------------------------------------------------
@@ -382,6 +420,7 @@ enNombreNT.pack(side="top", anchor="nw", padx=39, pady=4)
 
 txtConsole = tk.Text(menuIzquierdoAG, width=19, height=5, wrap="word")
 txtConsole.pack(side="top", anchor="nw", expand=False, fill=None, padx=39, pady=4)
+txtConsole.configure(state="disable")
 
 tk.Label(
     menuIzquierdoAG, text="Categoría: ",
@@ -390,7 +429,7 @@ tk.Label(
 ).pack(side="top", anchor="nw", padx=35, pady=(8))
 
 # Menú desplegable de categorías en el Frame izquierdo
-categoriasMenu = ('Estructuras de Datos', 'Funciones', 'Condicionales', 'Ciclos', 'General')
+categoriasMenu = ['Estructuras de Datos', 'Funciones', 'Condicionales', 'Ciclos', 'General']
 categoriaSelect = tk.StringVar()
 categoriaSelect.set("Categoria")
 menuCategoria = tk.OptionMenu(menuIzquierdoAG, categoriaSelect, *categoriasMenu)
@@ -400,6 +439,7 @@ btnAgregar= tk.Button(
     menuIzquierdoAG, text="Agregar",
     bg="#FFCE00", fg="#F2F2F2", 
     font=("Roboto", 10, "bold"),
+    command=FNagregarTermino
 )
 btnAgregar.pack(side="right")
 
@@ -444,11 +484,20 @@ menuEliminarTermino = tk.Frame(bordeEntradaDatos,width=525, height=275, bg="#1B1
 menuEliminarTermino.pack_propagate(False)
 menuEliminarTermino.pack()
 
+btnEliminar = tk.Button(
+    menuEliminarTermino, text="Eliminar",
+    bg="#FFCE00", fg="#F2F2F2", 
+    font=("Roboto", 10, "bold"),
+    command=FNeliminarTermino
+)
+btnEliminar.pack(side="right",anchor="ne",padx=(0, 39),pady=(15,4))
+
 tk.Label(
     menuEliminarTermino, text="Nombre del Término: ",
     font=("Roboto",14,"bold"),fg="#F2F2F2",
     bg="#1B1259",justify="left", anchor="center"   
 ).pack(side="top",anchor="nw",padx=35,pady=(15,4))
+
 
 enNombreET = tk.Entry(menuEliminarTermino)
 enNombreET.bind("<Return>",FNeliminarTermino)
@@ -456,8 +505,7 @@ enNombreET.pack(side="top", anchor="nw", padx=39, pady=4)
 
 txtConsoleE = tk.Text(menuEliminarTermino,width=75,height=10,wrap="word")
 txtConsoleE.configure(state="disabled")
-
-txtConsoleE.pack(side="top",anchor="nw",expand=False,fill=None,padx=39,pady=(4))
+txtConsoleE.pack(side="top",anchor="nw",expand=True,fill=None,padx=(39,0),pady=(4))
 
 # ------------------------------------------------------
 # Sección "Bucar Término"
@@ -550,11 +598,14 @@ tk.Label(
 
 enIndiceFiltro = tk.Entry(fmFiltroTerminos,width=2)
 enIndiceFiltro.pack(side="left",padx=(90,12))
+enIndiceFiltro.bind("<Return>",FNFiltrar)
 
 btnFiltrar = tk.Button(
     fmFiltroTerminos,text="Filtrar",
     bg="#FFCE00", fg="#F2F2F2", 
-    font=("Roboto", 10, "bold"),)
+    font=("Roboto", 10, "bold"),
+    command=FNFiltrar    
+)
 btnFiltrar.pack(side="left",padx=(12),pady=7)
 
 fmTeminosListados = tk.Frame(menuListarTerminos)
