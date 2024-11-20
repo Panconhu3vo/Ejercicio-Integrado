@@ -511,11 +511,11 @@ diccionario = {
             "traduccion": "Returns disk space usage of a directory or disk (in shutil)."},
        "datetime": {
             "categoria": ("Fecha",),
-            "traduccion": "Class for manipulating dates and times.",
+            "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."},
             "definicion": "Devuelve la diferencia entre dos o más conjuntos.",
         "difference": {
             "categoria": ("Método",),
-            "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."},
+            "traduccion": "Class for manipulating dates and times.",
             "traduccion": "Returns the difference between two or more sets."},
         "disk_cache": {
             "categoria": ("Caché",),
@@ -3132,8 +3132,8 @@ diccionario = {
         "numpy_mean": {
             "categoria": ("Bibliotecas",),
             "definicion": "Función de NumPy que calcula la media de los elementos de un array.",
-            "traduccion": "NumPy function that calculates the mean of the elements of an array."}
-        "o": {},
+            "traduccion": "NumPy function that calculates the mean of the elements of an array."}},
+    "o": {},
 
     "p": {"pop": {"definicion": "Elimina y devuelve el último elemento de una lista.", "traduccion": "Removes and returns the last element of a list."}},
 
