@@ -13,40 +13,49 @@ from diccionario import diccionario
 
 termino = tk.StringVar
 nombreNT = tk.StringVar
-print("A")
+
+
 # ------------------------------------------------------
 # Funciones:
+# ------------------------------------------------------
+
+# ------------------------------------------------------
 # Funciones de Funcionalidades:
 # ------------------------------------------------------
 
-# Funcion listar termino:
+
 def FNlistarTerminos(event=None):
     txtTerminosListados.configure(state="normal")
-    # "zyxwvutsrqponmlkjihgfedcba" utiliza esta cadena de texto, esta inversa por que cada que agregas algo al txt este se pone arriba lo que hacia que se escribiera al revez
-
-    for i in "dcba":
-        txtTerminosListados.insert("1.0", f"""{i}""" )
+    for i in "abcd":
+        txtTerminosListados.insert("1.0", f"{i}" )
         for j in diccionario[i]:
-            txtTerminosListados.configure(state="norma")
             txtTerminosListados.insert("1.0", f''' 
   Termino: {j}
   Definicion: {diccionario[i][j]["definicion"]}
   Traduccion: {diccionario[i][j]["traduccion"]}
   Categoria: {diccionario[i][j]["categoria"]}
-''')
-        
-        txtTerminosListados.insert("1.0", f"\n{i.upper()}:\n")
-    txtTerminosListados.configure(state="disable")
+  ''')
 
-def FNFiltrar():
-    letraBuscar = enIndiceFiltro.get().upper() 
+
+# Funcion agregar termino
+def FNagregarTermino(event=None):
+    nombreNT = enNombreNT.get()
+    definicion = txtDefinicion.get()
+    Traduccion = txtTraduccion.get()
+    categoria = menuCategoria.get()
+
+    if verificarNombre(nombreNt) == False:
+        #Agregar los terminos al diccionario 
+        print("Aas")
+    else:
+         txtConsole.configure(state="normal")
+         txtConsole.insert("1.0",f"""termino existente""")
+        # escribir mensaje de termino incorrecto y volverlo a pedir hasta que verificarNombre sea == True
+         txtConsole.configure(state="disable")
+
+
     
-    if letraBuscar in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":  
-        patronBusqueda = f"{letraBuscar}:"
-        idxInicio = "1.0"
-        idxLetra = txtTerminosListados.search(patronBusqueda, idxInicio, stopindex="end")
-        if idxLetra:
-            txtTerminosListados.see(idxLetra)
+
 
 # Funcion buscar termino
 def FNbuscarTermino(event=None):
@@ -352,14 +361,7 @@ categoriasMenu = ('Estructuras de Datos', 'Funciones', 'Condicionales', 'Ciclos'
 categoriaSelect = tk.StringVar()
 categoriaSelect.set("Categoria")
 menuCategoria = tk.OptionMenu(menuIzquierdoAG, categoriaSelect, *categoriasMenu)
-menuCategoria.pack(side="top", anchor="nw", padx=(39,0), pady=(4))
-
-btnAgregar= tk.Button(
-    menuIzquierdoAG, text="Agregar",
-    bg="#FFCE00", fg="#F2F2F2", 
-    font=("Roboto", 10, "bold"),
-)
-btnAgregar.pack(side="right")
+menuCategoria.pack(side="top", anchor="nw", padx=39, pady=(4))
 
 # Frame derecho (menuDerechoAG) configurado para el lado derecho
 menuDerechoAG = tk.Frame(menuAgregarTermino, bg="#1b1259", width=255, height=338)
@@ -504,14 +506,12 @@ tk.Label(
 ).pack(side="left",padx=(5,0),pady=(13,16))
 
 enIndiceFiltro = tk.Entry(fmFiltroTerminos,width=2)
-enIndiceFiltro.bind("<Return>",FNFiltrar)
 enIndiceFiltro.pack(side="left",padx=(90,12))
 
 btnFiltrar = tk.Button(
     fmFiltroTerminos,text="Filtrar",
     bg="#FFCE00", fg="#F2F2F2", 
-    font=("Roboto", 10, "bold"),command=FNFiltrar
-)
+    font=("Roboto", 10, "bold"),)
 btnFiltrar.pack(side="left",padx=(12),pady=7)
 
 fmTeminosListados = tk.Frame(menuListarTerminos)
@@ -521,7 +521,6 @@ txtTerminosListados = tk.Text(fmTeminosListados,width=80,height=25)
 txtTerminosListados.configure(state="disable")
 txtTerminosListados.pack()
 txtTerminosListados.bind("<Visibility>", FNlistarTerminos)
-
 # ------------------------------------------------------
 # Sección "Acerca De"
 # ------------------------------------------------------
