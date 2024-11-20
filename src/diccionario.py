@@ -1,7 +1,6 @@
 # Diccionario:
 # Cabe recalcar que todos esos términos pertenecen al ecosistema de Python. parte de la biblioteca estándar de Python y otros provienen de bibliotecas adicionales como Pandas y NumPy que sirven para el análisis de datos y operaciones numéricas.
 #J_J
-
 #Estructura del diccionario.
 diccionario = {
 "A":{"terminos,": {"categoría": "categoria en español", "traducción": "definicion en español"}},
