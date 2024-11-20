@@ -1,13 +1,10 @@
 # Diccionario:
 # Cabe recalcar que todos esos términos pertenecen al ecosistema de Python. parte de la biblioteca estándar de Python y otros provienen de bibliotecas adicionales como Pandas y NumPy que sirven para el análisis de datos y operaciones numéricas.
 #J_J
-'''
-
-Estructura del diccionario.
+#Estructura del diccionario.
 diccionario = {
 "A":{"terminos,": {"categoría": "categoria en español", "traducción": "definicion en español"}},
 }
-'''
 diccionario = {
     "a": {
         "abs": {
@@ -515,7 +512,7 @@ diccionario = {
        "datetime": {
            "categoria": ("Fecha",),
            "traduccion": "Class for manipulating dates and times.",
-           "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."},
+           "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."
         "difference": {
             "categoria": ("Método",),
             "definicion": "Devuelve la diferencia entre dos o más conjuntos.",
@@ -524,6 +521,7 @@ diccionario = {
             "categoria": ("Caché",),
             "definicion": "Caché que almacena temporalmente datos en el disco.",
             "traduccion": "Cache that temporarily stores data on disk."}},
+    
     "e":{
         "enumerate": {
             "categoria": ("Manipulación de iterables",),
@@ -1012,7 +1010,7 @@ diccionario = {
         "greatest_common_divisor": {
             "categoria": ("Matemáticas",),
             "definicion": "Devuelve el máximo común divisor de dos números.",
-            "traduccion": "Returns the greatest common divisor of two numbers."},
+            "traduccion": "Returns the greatest common divisor of two numbers."}
         "generate_token": {
             "categoria": ("Seguridad",),
             "definicion": "Genera un token de autenticación único.",
@@ -1169,6 +1167,7 @@ diccionario = {
             "categoria": ("Estructuras de datos",),
             "definicion": "Crea un esquema JSON para validar datos.",
             "traduccion": "Generates a JSON schema for data validation."}},
+    
     "h": {
         "hash": {
             "categoria": ("Matemáticas",),
@@ -1529,7 +1528,8 @@ diccionario = {
             "traduccion": "Set of signals that enable communication between a device and the system hardware."},
         "http_head": {
             "categoria": ("Redes",),
-            "definicion": "Método HTTP utilizado para obtener solo los encabezados de una respuesta.",}},
+            "definicion": "Método HTTP utilizado para obtener solo los encabezados de una respuesta.",
+
     "i": {
         "immutable": {
             "categoria": ("Python",),
@@ -1686,7 +1686,7 @@ diccionario = {
         "inbox": {
             "categoria": ("Redes",),
             "definicion": "Carpeta de entrada de un sistema de correo electrónico.",
-            "traduccion": "Inbox folder of an email system."},
+            "traduccion": "Inbox folder of an email system."}
         "invisible": {
             "categoria": ("Programación",),
             "definicion": "Propiedad de un objeto que no es visible en la interfaz del usuario.",
@@ -1843,12 +1843,636 @@ diccionario = {
             "categoria": ("Programación",),
             "definicion": "Variable asociada a una instancia específica de una clase.",
             "traduccion": "Variable associated with a specific instance of a class."}},
-    "j": {},
 
-    "k": {},
-
-    "l": {},
-
+    "j": {
+        "join": {
+            "categoria": ("Manipulación de texto",),
+            "definicion": "Método que une los elementos de un iterable en una cadena de texto.",
+            "traduccion": "Method that joins the elements of an iterable into a string."},
+        "json": {
+            "categoria": ("Librerías estándar",),
+            "definicion": "Librería para trabajar con el formato de intercambio de datos JSON.",
+            "traduccion": "Library for working with the JSON data exchange format."},
+        "jupyter_notebook": {
+            "categoria": ("Herramientas",),
+            "definicion": "Aplicación web que permite crear y compartir documentos interactivos con código y visualizaciones.",
+            "traduccion": "Web application that allows creating and sharing interactive documents with code and visualizations."},
+        "jump_table": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Estructura de datos que permite saltar rápidamente a diferentes puntos en el código.",
+            "traduccion": "Data structure that allows jumping quickly to different points in the code."},
+        "jvm": {
+            "categoria": ("Programación",),
+            "definicion": "Máquina virtual de Java que permite la ejecución de programas escritos en Java.",
+            "traduccion": "Java Virtual Machine that allows executing programs written in Java."},
+        "jshell": {
+            "categoria": ("Herramientas",),
+            "definicion": "Shell interactivo para ejecutar código Java de manera dinámica.",
+            "traduccion": "Interactive shell to run Java code dynamically."},
+            "jump": {
+            "categoria": ("Programación",),
+            "definicion": "Instrucción para saltar a una parte específica del código.",
+            "traduccion": "Instruction to jump to a specific part of the code."},
+        "jupyter": {
+            "categoria": ("Herramientas",),
+            "definicion": "Plataforma para crear y compartir documentos interactivos que contienen código y visualizaciones.",
+            "traduccion": "Platform to create and share interactive documents containing code and visualizations."},
+        "jupyter_lab": {
+            "categoria": ("Herramientas",),
+            "definicion": "Entorno interactivo de desarrollo de código con soporte para la visualización de datos y edición de documentos.",
+            "traduccion": "Interactive coding development environment with support for data visualization and document editing."},
+        "jupyter_widgets": {
+            "categoria": ("Herramientas",),
+            "definicion": "Biblioteca que proporciona widgets interactivos en Jupyter Notebooks.",
+            "traduccion": "Library providing interactive widgets in Jupyter Notebooks."},
+        "jsonschema": {
+            "categoria": ("Librerías",),
+            "definicion": "Librería que permite validar estructuras JSON mediante un esquema predefinido.",
+            "traduccion": "Library that allows validating JSON structures using a predefined schema."},
+        "jwt": {
+            "categoria": ("Seguridad",),
+            "definicion": "JSON Web Token, formato compacto y autónomo para transmitir información segura entre partes.",
+            "traduccion": "JSON Web Token, a compact and self-contained format for securely transmitting information between parties."},
+        "jupyterhub": {
+            "categoria": ("Herramientas",),
+            "definicion": "Plataforma para desplegar y gestionar Jupyter Notebooks en un servidor compartido.",
+            "traduccion": "Platform to deploy and manage Jupyter Notebooks on a shared server."},
+        "jython": {
+            "categoria": ("Programación",),
+            "definicion": "Implementación de Python en la máquina virtual de Java (JVM).",
+            "traduccion": "Python implementation on the Java Virtual Machine (JVM)."},
+        "jalview": {
+            "categoria": ("Biología computacional",),
+            "definicion": "Herramienta para visualización y análisis de secuencias de proteínas y ácidos nucleicos.",
+            "traduccion": "Tool for visualizing and analyzing protein and nucleic acid sequences."},
+        "jupyter_console": {
+            "categoria": ("Herramientas",),
+            "definicion": "Consola interactiva basada en el núcleo de Jupyter para ejecutar código en Python.",
+            "traduccion": "Interactive console based on the Jupyter kernel to execute Python code."},
+        "jsonpickle": {
+            "categoria": ("Librerías",),
+            "definicion": "Librería que permite serializar y deserializar objetos Python en formato JSON.",
+            "traduccion": "Library that allows serializing and deserializing Python objects in JSON format."},
+        "jose": {
+            "categoria": ("Seguridad",),
+            "definicion": "Librería de Python para trabajar con JSON Web Tokens y firmar datos.",
+            "traduccion": "Python library for working with JSON Web Tokens and signing data."},
+        "jupyter_client": {
+            "categoria": ("Herramientas",),
+            "definicion": "Biblioteca para gestionar la comunicación entre clientes y servidores Jupyter.",
+            "traduccion": "Library to manage communication between Jupyter clients and servers."},
+        "joblib": {
+            "categoria": ("Librerías",),
+            "definicion": "Librería para la serialización eficiente de objetos Python.",
+            "traduccion": "Library for efficient serialization of Python objects."},
+        "jupyter_notebook_extension": {
+            "categoria": ("Herramientas",),
+            "definicion": "Extensión para personalizar y mejorar el entorno de Jupyter Notebook.",
+            "traduccion": "Extension to customize and enhance the Jupyter Notebook environment."},
+        "json_response": {
+            "categoria": ("Redes",),
+            "definicion": "Formato de respuesta JSON utilizado en servicios web.",
+            "traduccion": "JSON response format used in web services."},
+        "jupyter_contrib_nbextensions": {
+            "categoria": ("Herramientas",),
+            "definicion": "Conjunto de extensiones para enriquecer la funcionalidad de Jupyter Notebooks.",
+            "traduccion": "Set of extensions to enrich the functionality of Jupyter Notebooks."},
+        "jupyter_novice": {
+            "categoria": ("Educación",),
+            "definicion": "Recursos educativos para principiantes en programación utilizando Jupyter Notebooks.",
+            "traduccion": "Educational resources for beginners in programming using Jupyter Notebooks."},
+        "jenkins": {
+            "categoria": ("Automatización",),
+            "definicion": "Herramienta de automatización de tareas y construcción continua de software.",
+            "traduccion": "Automation tool for continuous integration and software building."},
+        "jupyter_terminal": {
+            "categoria": ("Herramientas",),
+            "definicion": "Terminal interactiva basada en Jupyter para ejecutar comandos y scripts Python.",
+            "traduccion": "Interactive terminal based on Jupyter to execute Python commands and scripts."},
+        "jupyter_lab_extension": {
+            "categoria": ("Herramientas",),
+            "definicion": "Extensiones para agregar funcionalidades adicionales al entorno JupyterLab.",
+            "traduccion": "Extensions to add additional features to the JupyterLab environment."},
+        "jupyter_kernel": {
+            "categoria": ("Herramientas",),
+            "definicion": "Componente que ejecuta el código en un Jupyter Notebook.",
+            "traduccion": "Component that executes the code in a Jupyter Notebook."},
+        "jump_start": {
+            "categoria": ("Programación",),
+            "definicion": "Término usado para referirse a comenzar rápidamente un proyecto o tarea.",
+            "traduccion": "Term used to refer to quickly starting a project or task."},
+        "jupyter_tutorial": {
+            "categoria": ("Educación",),
+            "definicion": "Tutoriales para aprender a usar Jupyter Notebooks.",
+            "traduccion": "Tutorials to learn how to use Jupyter Notebooks."},
+        "jupyter_quickstart": {
+            "categoria": ("Educación",),
+            "definicion": "Guía rápida para empezar con Jupyter Notebooks.",
+            "traduccion": "Quick guide to get started with Jupyter Notebooks."},
+        "jupyter_magic": {
+            "categoria": ("Herramientas",),
+            "definicion": "Funciones especiales en Jupyter para facilitar la ejecución de código.",
+            "traduccion": "Special functions in Jupyter to facilitate code execution."},
+        "jinja2": {
+            "categoria": ("Librerías",),
+            "definicion": "Motor de plantillas para Python que permite generar archivos dinámicos.",
+            "traduccion": "Template engine for Python that allows generating dynamic files."},
+        "jax": {
+            "categoria": ("Librerías",),
+            "definicion": "Librería para la diferenciación automática y aceleración en hardware de Python.",
+            "traduccion": "Library for automatic differentiation and hardware acceleration in Python."},
+        "jupyter_config": {
+            "categoria": ("Herramientas",),
+            "definicion": "Configuración para personalizar y administrar entornos Jupyter.",
+            "traduccion": "Configuration to customize and manage Jupyter environments."},
+        "job_queue": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Cola de trabajo que gestiona tareas o trabajos a ser ejecutados.",
+            "traduccion": "Queue that manages tasks or jobs to be executed."},
+        "jinja2_templates": {
+            "categoria": ("Librerías",),
+            "definicion": "Uso de Jinja2 para crear plantillas dinámicas en Python.",
+            "traduccion": "Using Jinja2 to create dynamic templates in Python."},
+        "jupyter_dashboard": {
+            "categoria": ("Herramientas",),
+            "definicion": "Tablero de control interactivo en Jupyter Notebooks para visualizar y administrar datos.",
+            "traduccion": "Interactive dashboard in Jupyter Notebooks to view and manage data."},
+        "jq": {
+            "categoria": ("Herramientas",),
+            "definicion": "Herramienta de procesamiento de datos JSON.",
+            "traduccion": "Tool for processing JSON data."}},
+            
+    "k": {
+        "kde": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Estimación de densidad de kernel, usada para suavizar distribuciones de datos.",
+            "traduccion": "Kernel density estimation, used to smooth data distributions."},
+        "kmeans": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Algoritmo de agrupamiento basado en particiones que minimiza la varianza dentro de los grupos.",
+            "traduccion": "Clustering algorithm based on partitions that minimizes variance within groups."},
+        "knn": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Algoritmo de clasificación basado en la proximidad de los datos.",
+            "traduccion": "Classification algorithm based on proximity of the data."},
+        "key": {
+            "categoria": ("Programación",),
+            "definicion": "Elemento que se usa en diccionarios y mapas para acceder a los valores asociados.",
+            "traduccion": "Element used in dictionaries and maps to access associated values."},
+        "kivy": {
+            "categoria": ("Herramientas",),
+            "definicion": "Framework de Python para el desarrollo de aplicaciones multitáctiles.",
+            "traduccion": "Python framework for developing multitouch applications."},
+        "kiwisolver": {
+            "categoria": ("Librerías",),
+            "definicion": "Librería para resolver sistemas de ecuaciones lineales de manera eficiente.",
+            "traduccion": "Library for efficiently solving systems of linear equations."},
+        "keras": {
+            "categoria": ("Aprendizaje profundo",),
+            "definicion": "API de alto nivel para la creación y entrenamiento de redes neuronales en Python.",
+            "traduccion": "High-level API for building and training neural networks in Python."},
+        "kdb": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Base de datos en memoria utilizada para la gestión de datos históricos y de series temporales.",
+            "traduccion": "In-memory database used for managing historical and time-series data."},
+        "kivy_garden": {
+            "categoria": ("Herramientas",),
+            "definicion": "Colección de widgets y componentes adicionales para Kivy.",
+            "traduccion": "Collection of additional widgets and components for Kivy."},
+        "knapsack": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Problema de optimización que busca maximizar el valor de los objetos dentro de un contenedor con capacidad limitada.",
+            "traduccion": "Optimization problem that seeks to maximize the value of items within a container with limited capacity."},
+        "kalman_filter": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Filtro matemático usado para estimar el estado de un sistema dinámico con incertidumbre.",
+            "traduccion": "Mathematical filter used to estimate the state of a dynamic system with uncertainty."},
+        "kruskal": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Algoritmo utilizado para encontrar el árbol de expansión mínimo en un grafo no dirigido.",
+            "traduccion": "Algorithm used to find the minimum spanning tree in an undirected graph."},
+        "knime": {
+            "categoria": ("Herramientas",),
+            "definicion": "Plataforma para análisis de datos, minería de datos y aprendizaje automático.",
+            "traduccion": "Platform for data analysis, data mining, and machine learning."},
+        "kmer": {
+            "categoria": ("Biología computacional",),
+            "definicion": "Secuencias de longitud k extraídas de una secuencia biológica.",
+            "traduccion": "K-length sequences extracted from a biological sequence."},
+        "kivy_uix": {
+            "categoria": ("Herramientas",),
+            "definicion": "Componente de Kivy que permite crear interfaces de usuario.",
+            "traduccion": "Kivy component that allows creating user interfaces."},
+        "kalman_smooth": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Versión del filtro de Kalman utilizado para suavizar las estimaciones de estados en series temporales.",
+            "traduccion": "Version of the Kalman filter used to smooth state estimates in time series."},
+        "kurtosis": {
+            "categoria": ("Estadísticas",),
+            "definicion": "Medida de la forma de la distribución de probabilidad de una variable aleatoria.",
+            "traduccion": "Measure of the shape of the probability distribution of a random variable."},
+        "knn_classifier": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Clasificador basado en el algoritmo KNN (K-Nearest Neighbors).",
+            "traduccion": "Classifier based on the KNN algorithm (K-Nearest Neighbors)."},
+        "keylogger": {
+            "categoria": ("Seguridad",),
+            "definicion": "Software malicioso que graba las teclas pulsadas por un usuario.",
+            "traduccion": "Malicious software that records the keys pressed by a user."},
+        "kron": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Producto Kronecker, una operación matemática entre dos matrices.",
+            "traduccion": "Kronecker product, a mathematical operation between two matrices."},
+        "k-means++": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Versión optimizada del algoritmo K-means para seleccionar de forma inteligente los puntos iniciales de los clusters.",
+            "traduccion": "Optimized version of the K-means algorithm for intelligently selecting the initial cluster points."},
+        "kingfisher": {
+            "categoria": ("Web scraping",),
+            "definicion": "Librería para la recolección y análisis de datos desde fuentes web.",
+            "traduccion": "Library for collecting and analyzing data from web sources."},
+        "ksplit": {
+            "categoria": ("Programación",),
+            "definicion": "Método para dividir una cadena en partes basadas en un delimitador.",
+            "traduccion": "Method for splitting a string into parts based on a delimiter."},
+        "key_value_pair": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Estructura de datos que almacena pares de clave y valor.",
+            "traduccion": "Data structure that stores key-value pairs."},
+        "knn_regressor": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Regresor basado en el algoritmo KNN (K-Nearest Neighbors).",
+            "traduccion": "Regressor based on the KNN algorithm (K-Nearest Neighbors)."},
+        "kerberos": {
+            "categoria": ("Seguridad",),
+            "definicion": "Protocolo de autenticación basado en un sistema de claves compartidas.",
+            "traduccion": "Authentication protocol based on a shared key system."},
+        "keras_tuner": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Herramienta para la optimización automática de hiperparámetros en modelos de Keras.",
+            "traduccion": "Tool for automatic hyperparameter optimization in Keras models."},
+        "keystone": {
+            "categoria": ("Seguridad",),
+            "definicion": "Sistema de gestión de identidades y autenticación.",
+            "traduccion": "Identity and authentication management system."},
+        "kotlin": {
+            "categoria": ("Lenguajes de programación",),
+            "definicion": "Lenguaje de programación estáticamente tipado que corre en la JVM, interoperable con Java.",
+            "traduccion": "Statically typed programming language that runs on the JVM, interoperable with Java."},
+        "kivymd": {
+            "categoria": ("Herramientas",),
+            "definicion": "Extensión de Kivy que implementa Material Design para aplicaciones móviles.",
+            "traduccion": "Kivy extension that implements Material Design for mobile applications."},
+        "kmerscan": {
+            "categoria": ("Biología computacional",),
+            "definicion": "Herramienta para buscar k-mers en bases de datos genéticas.",
+            "traduccion": "Tool for searching k-mers in genetic databases."},
+        "knockoff": {
+            "categoria": ("Seguridad",),
+            "definicion": "Método de evasión de detección en el contexto de seguridad informática.",
+            "traduccion": "Evasion method in the context of cybersecurity."},
+        "keycloak": {
+            "categoria": ("Seguridad",),
+            "definicion": "Plataforma para la gestión de identidad y acceso.",
+            "traduccion": "Identity and access management platform."},
+        "kudl": {
+            "categoria": ("Librerías",),
+            "definicion": "Librería para el manejo de datos en Python en paralelo con uso de GPU.",
+            "traduccion": "Library for handling data in Python in parallel with GPU usage."},
+        "katib": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Sistema de optimización de hiperparámetros para Kubernetes.",
+            "traduccion": "Hyperparameter optimization system for Kubernetes."},
+        "kwarg": {
+            "categoria": ("Programación",),
+            "definicion": "Argumentos de palabra clave en funciones en Python.",
+            "traduccion": "Keyword arguments in functions in Python."},
+        "kwlist": {
+            "categoria": ("Programación",),
+            "definicion": "Lista de palabras clave reservadas en Python.",
+            "traduccion": "List of reserved keywords in Python."},
+        "kdb+": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Base de datos de alto rendimiento para análisis de datos masivos.",
+            "traduccion": "High-performance database for large-scale data analysis."},
+        "kexi": {
+            "categoria": ("Herramientas",),
+            "definicion": "Aplicación de base de datos para el escritorio con una interfaz gráfica.",
+            "traduccion": "Desktop database application with a graphical interface."},
+        "kaffeine": {
+            "categoria": ("Herramientas",),
+            "definicion": "Reproductor multimedia ligero basado en Qt.",
+            "traduccion": "Lightweight media player based on Qt."},
+        "kerosene": {
+            "categoria": ("Herramientas",),
+            "definicion": "Framework para la automatización de pruebas en aplicaciones web.",
+            "traduccion": "Framework for automating tests in web applications."},
+        "kotlinx": {
+            "categoria": ("Lenguajes de programación",),
+            "definicion": "Conjunto de herramientas adicionales para Kotlin.",
+            "traduccion": "Additional toolkit for Kotlin."},
+        "k3s": {
+            "categoria": ("Herramientas",),
+            "definicion": "Versión ligera de Kubernetes para su uso en entornos de recursos limitados.",
+            "traduccion": "Lightweight version of Kubernetes for use in resource-constrained environments."},
+        "kerb": {
+            "categoria": ("Seguridad",),
+            "definicion": "Método de autenticación y gestión de credenciales en sistemas distribuidos.",
+            "traduccion": "Method for authentication and credential management in distributed systems."},
+        "k3d": {
+            "categoria": ("Herramientas",),
+            "definicion": "Herramienta para ejecutar clústeres de Kubernetes en Docker.",
+            "traduccion": "Tool for running Kubernetes clusters in Docker."},
+        "kali": {
+            "categoria": ("Seguridad",),
+            "definicion": "Distribución de Linux orientada a la seguridad informática y pruebas de penetración.",
+            "traduccion": "Linux distribution focused on cybersecurity and penetration testing."},
+        "kd-tree": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Árbol de búsqueda para datos multidimensionales.",
+            "traduccion": "Search tree for multidimensional data."},
+        "kmeans_clustering": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Algoritmo de agrupamiento no supervisado que divide los datos en K grupos.",
+            "traduccion": "Unsupervised clustering algorithm that divides data into K groups."},
+        "kmeans_init": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Inicialización de centros de grupos en el algoritmo K-means.",
+            "traduccion": "Initialization of cluster centers in the K-means algorithm."},
+        "kafka": {
+            "categoria": ("Herramientas",),
+            "definicion": "Plataforma de mensajería distribuida para el manejo de grandes volúmenes de datos.",
+            "traduccion": "Distributed messaging platform for handling large volumes of data."},
+        "kubectl": {
+            "categoria": ("Herramientas",),
+            "definicion": "Herramienta de línea de comandos para interactuar con Kubernetes.",
+            "traduccion": "Command-line tool for interacting with Kubernetes."},
+        "k8s": {
+            "categoria": ("Herramientas",),
+            "definicion": "Abreviación de Kubernetes, un sistema para la orquestación de contenedores.",
+            "traduccion": "Abbreviation for Kubernetes, a system for container orchestration."},
+        "k-nearest_neighbors": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Algoritmo de clasificación que clasifica en función de la proximidad a los vecinos más cercanos.",
+            "traduccion": "Classification algorithm that classifies based on proximity to nearest neighbors."},
+        "k-nn_regressor": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Versión del algoritmo K-NN utilizada para tareas de regresión.",
+            "traduccion": "Version of the K-NN algorithm used for regression tasks."},
+        "keras_layers": {
+            "categoria": ("Aprendizaje profundo",),
+            "definicion": "Componentes modulares que se pueden apilar para crear redes neuronales profundas.",
+            "traduccion": "Modular components that can be stacked to create deep neural networks."},
+        "kivy_app": {
+            "categoria": ("Herramientas",),
+            "definicion": "Aplicación construida con el framework Kivy.",
+            "traduccion": "Application built using the Kivy framework."},
+        "key_error": {
+            "categoria": ("Excepciones",),
+            "definicion": "Error que ocurre cuando se accede a una clave inexistente en un diccionario.",
+            "traduccion": "Error that occurs when accessing a non-existent key in a dictionary."},
+        "kde_plot": {
+            "categoria": ("Visualización",),
+            "definicion": "Gráfico que representa una estimación de la densidad de probabilidad de un conjunto de datos.",
+            "traduccion": "Plot representing a probability density estimation of a dataset."},
+        "kerberos_authentication": {
+            "categoria": ("Seguridad",),
+            "definicion": "Protocolo de autenticación basado en un sistema de tickets para la comunicación segura.",
+            "traduccion": "Authentication protocol based on a ticketing system for secure communication."},
+        "kivy_garden_widgets": {
+            "categoria": ("Herramientas",),
+            "definicion": "Conjunto de widgets adicionales para mejorar las interfaces de usuario en Kivy.",
+            "traduccion": "Set of additional widgets to enhance user interfaces in Kivy."},
+        "kafka_consumer": {
+            "categoria": ("Herramientas",),
+            "definicion": "Componente que consume mensajes de un tópico de Kafka.",
+            "traduccion": "Component that consumes messages from a Kafka topic."},
+        "kafka_producer": {
+            "categoria": ("Herramientas",),
+            "definicion": "Componente que produce y envía mensajes a un tópico de Kafka.",
+            "traduccion": "Component that produces and sends messages to a Kafka topic."},
+        "keras_optimizer": {
+            "categoria": ("Aprendizaje profundo",),
+            "definicion": "Algoritmo para minimizar la función de pérdida de un modelo de Keras.",
+            "traduccion": "Algorithm to minimize the loss function of a Keras model."},
+        "kubernetes_deployment": {
+            "categoria": ("Herramientas",),
+            "definicion": "Proceso de implementación de contenedores en un clúster de Kubernetes.",
+            "traduccion": "Process of deploying containers in a Kubernetes cluster."},
+        "kubernetes_cluster": {
+            "categoria": ("Herramientas",),
+            "definicion": "Conjunto de máquinas que ejecutan aplicaciones en contenedores a través de Kubernetes.",
+            "traduccion": "Set of machines running applications in containers through Kubernetes."},
+        "k8s_pod": {
+            "categoria": ("Herramientas",),
+            "definicion": "Unidad básica de ejecución en Kubernetes, que contiene uno o más contenedores.",
+            "traduccion": "Basic unit of execution in Kubernetes, which contains one or more containers."},
+        "kalman_filtering": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Método de filtrado utilizado para estimar el estado de un sistema dinámico con ruido.",
+            "traduccion": "Filtering method used to estimate the state of a dynamic system with noise."},
+        "kafka_streams": {
+            "categoria": ("Herramientas",),
+            "definicion": "API de procesamiento de flujo de datos en tiempo real sobre Kafka.",
+            "traduccion": "Real-time data stream processing API over Kafka."},
+        "kotlin_coroutines": {
+            "categoria": ("Lenguajes de programación",),
+            "definicion": "Características de Kotlin para realizar operaciones asíncronas de forma eficiente.",
+            "traduccion": "Kotlin features for performing asynchronous operations efficiently."},
+        "kivy_screen_manager": {
+            "categoria": ("Herramientas",),
+            "definicion": "Módulo de Kivy que maneja la transición entre pantallas en una aplicación.",
+            "traduccion": "Kivy module that handles screen transitions in an application."},
+        "kafka_connect": {
+            "categoria": ("Herramientas",),
+            "definicion": "Herramienta que permite integrar Kafka con otros sistemas de manera sencilla.",
+            "traduccion": "Tool that allows easy integration of Kafka with other systems."},
+        "kerberos_ticket": {
+            "categoria": ("Seguridad",),
+            "definicion": "Paquete de datos usado en el protocolo Kerberos para autenticar usuarios.",
+            "traduccion": "Data package used in the Kerberos protocol to authenticate users."},
+        "knapsack_problem": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Problema de optimización en el que se seleccionan objetos para maximizar el valor sin exceder el peso.",
+            "traduccion": "Optimization problem where objects are selected to maximize value without exceeding weight."},
+        "kivy_listview": {
+            "categoria": ("Herramientas",),
+            "definicion": "Widget de Kivy para mostrar listas de elementos de manera eficiente.",
+            "traduccion": "Kivy widget for displaying lists of items efficiently."},
+        "kubernetes_service": {
+            "categoria": ("Herramientas",),
+            "definicion": "Abstracción que define cómo acceder a las aplicaciones que se ejecutan dentro de un clúster de Kubernetes.",
+            "traduccion": "Abstraction that defines how to access applications running inside a Kubernetes cluster."},
+        "kfold": {
+            "categoria": ("Estadísticas",),
+            "definicion": "Método de validación cruzada que divide los datos en K subconjuntos.",
+            "traduccion": "Cross-validation method that splits data into K subsets."},
+        "kernel": {
+            "categoria": ("Informática",),
+            "definicion": "Parte central de un sistema operativo que gestiona el hardware y los recursos.",
+            "traduccion": "Central part of an operating system that manages hardware and resources."},
+        "knapsack_algorithm": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Algoritmo que resuelve el problema de la mochila para maximizar el valor total de los objetos seleccionados.",
+            "traduccion": "Algorithm that solves the knapsack problem to maximize the total value of selected items."},
+        "k8s_namespace": {
+            "categoria": ("Herramientas",),
+            "definicion": "Espacio de nombres en Kubernetes para organizar los recursos de un clúster.",
+            "traduccion": "Namespace in Kubernetes for organizing resources within a cluster."},
+        "keras_model": {
+            "categoria": ("Aprendizaje profundo",),
+            "definicion": "Modelo de red neuronal creado y entrenado usando Keras.",
+            "traduccion": "Neural network model created and trained using Keras."},
+        "knn_search": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Búsqueda de los K elementos más cercanos en un conjunto de datos.",
+            "traduccion": "Search for the K closest elements in a dataset."},
+        "kaggle_kernel": {
+            "categoria": ("Datos",),
+            "definicion": "Entorno de ejecución de código en Kaggle para análisis de datos.",
+            "traduccion": "Code execution environment in Kaggle for data analysis."},
+        "keylogger": {
+            "categoria": ("Seguridad",),
+            "definicion": "Programa malicioso que registra las teclas presionadas por el usuario.",
+            "traduccion": "Malicious program that logs the keys pressed by the user."},
+        "kotlin_script": {
+            "categoria": ("Lenguajes de programación",),
+            "definicion": "Script de código escrito en Kotlin.",
+            "traduccion": "Code script written in Kotlin."},
+        "keyboard_interrupt": {
+            "categoria": ("Excepciones",),
+            "definicion": "Interrupción de un programa por una señal del teclado.",
+            "traduccion": "Interruption of a program by a keyboard signal."},
+        "kriging_interpolation": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Método de interpolación espacial utilizado para predecir valores desconocidos basados en valores conocidos.",
+            "traduccion": "Spatial interpolation method used to predict unknown values based on known values."},
+        "keypair": {
+            "categoria": ("Seguridad",),
+            "definicion": "Par de claves públicas y privadas utilizadas en criptografía.",
+            "traduccion": "Pair of public and private keys used in cryptography."},
+        "kinesis": {
+            "categoria": ("Herramientas",),
+            "definicion": "Plataforma de transmisión de datos en tiempo real de AWS.",
+            "traduccion": "Real-time data streaming platform from AWS."},
+        "kdb_query": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Consulta ejecutada en una base de datos Kdb+.",
+            "traduccion": "Query executed on a Kdb+ database."},
+        "kivy_gridlayout": {
+            "categoria": ("Herramientas",),
+            "definicion": "Widget de Kivy que organiza los elementos en una cuadrícula.",
+            "traduccion": "Kivy widget that arranges items in a grid."},
+        "kmeans_classifier": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Clasificador basado en el algoritmo de K-means.",
+            "traduccion": "Classifier based on the K-means algorithm."},
+        "key_error_exception": {
+            "categoria": ("Excepciones",),
+            "definicion": "Excepción lanzada cuando se intenta acceder a una clave inexistente en un diccionario.",
+            "traduccion": "Exception raised when attempting to access a non-existent key in a dictionary."},
+        "kafka_message": {
+            "categoria": ("Herramientas",),
+            "definicion": "Mensaje enviado dentro de Kafka.",
+            "traduccion": "Message sent within Kafka."},
+        "kde_estimation": {
+            "categoria": ("Estadísticas",),
+            "definicion": "Método de estimación de la densidad de probabilidad de un conjunto de datos.",
+            "traduccion": "Method for estimating the probability density of a dataset."},
+        "kotlin_function": {
+            "categoria": ("Lenguajes de programación",),
+            "definicion": "Definición de una función en el lenguaje de programación Kotlin.",
+            "traduccion": "Definition of a function in the Kotlin programming language."},
+        "k-means++": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Algoritmo de inicialización mejorado para K-means.",
+            "traduccion": "Improved initialization algorithm for K-means."},
+        "kubeflow": {
+            "categoria": ("Herramientas",),
+            "definicion": "Plataforma para gestionar flujos de trabajo de aprendizaje automático en Kubernetes.",
+            "traduccion": "Platform for managing machine learning workflows on Kubernetes."},
+        "knn_classifier": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Clasificador basado en el algoritmo de K-NN.",
+            "traduccion": "Classifier based on the K-NN algorithm."},
+        "keras_layer_dense": {
+            "categoria": ("Aprendizaje profundo",),
+            "definicion": "Capa densa de Keras utilizada en redes neuronales completamente conectadas.",
+            "traduccion": "Dense Keras layer used in fully connected neural networks."}},
+            
+    "l": {
+        "lambda_expression": {
+            "categoria": ("Lenguajes de programación",),
+            "definicion": "Expresión en programación que define una función anónima.",
+            "traduccion": "Expression in programming that defines an anonymous function."},
+        "load_balancer": {
+            "categoria": ("Redes",),
+            "definicion": "Sistema que distribuye el tráfico entre varios servidores para equilibrar la carga.",
+            "traduccion": "System that distributes traffic across multiple servers to balance the load."},
+        "linked_list": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Estructura de datos lineal en la que cada elemento apunta al siguiente.",
+            "traduccion": "Linear data structure in which each element points to the next."},
+        "learning_rate": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Tasa a la cual un modelo de aprendizaje ajusta sus parámetros en función de los errores.",
+            "traduccion": "Rate at which a learning model adjusts its parameters based on errors."},
+        "logger": {
+            "categoria": ("Herramientas",),
+            "definicion": "Componente que registra eventos o actividades en una aplicación.",
+            "traduccion": "Component that logs events or activities in an application."},
+        "load_data": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Proceso de carga de datos desde una fuente externa a una base de datos o sistema.",
+            "traduccion": "Process of loading data from an external source to a database or system."},
+        "line_chart": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Gráfico que representa datos en una secuencia de puntos conectados por líneas.",
+            "traduccion": "Graph that represents data in a sequence of points connected by lines."},
+        "list_comprehension": {
+            "categoria": ("Lenguajes de programación",),
+            "definicion": "Forma compacta de crear listas usando una expresión dentro de corchetes.",
+            "traduccion": "Compact way to create lists using an expression inside brackets."},
+        "local_variable": {
+            "categoria": ("Programación",),
+            "definicion": "Variable cuyo alcance está limitado a una función o bloque de código.",
+            "traduccion": "Variable whose scope is limited to a function or block of code."},
+        "long_integer": {
+            "categoria": ("Tipos de datos",),
+            "definicion": "Tipo de dato que representa un número entero de gran tamaño.",
+            "traduccion": "Data type representing a large integer."},
+        "library": {
+            "categoria": ("Programación",),
+            "definicion": "Conjunto de funciones o recursos preescritos disponibles para su reutilización.",
+            "traduccion": "Set of prewritten functions or resources available for reuse."},
+        "loop": {
+            "categoria": ("Programación",),
+            "definicion": "Estructura de control que repite un bloque de código varias veces.",
+            "traduccion": "Control structure that repeats a block of code multiple times."},
+        "load_file": {
+            "categoria": ("Manejo de archivos",),
+            "definicion": "Acción de cargar el contenido de un archivo a un sistema o programa.",
+            "traduccion": "Action of loading the content of a file into a system or program."},
+        "list": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Estructura de datos que almacena una colección ordenada de elementos.",
+            "traduccion": "Data structure that stores an ordered collection of elements."},
+        "lambda_function": {
+            "categoria": ("Lenguajes de programación",),
+            "definicion": "Función anónima en Python definida con la palabra clave lambda.",
+            "traduccion": "Anonymous function in Python defined using the lambda keyword."},
+        "lock": {
+            "categoria": ("Concurrente",),
+            "definicion": "Mecanismo utilizado para asegurar que un recurso sea utilizado por un solo hilo a la vez.",
+            "traduccion": "Mechanism used to ensure that a resource is used by only one thread at a time."},
+        "loss_function": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Función utilizada para medir la diferencia entre las predicciones de un modelo y los valores reales.",
+            "traduccion": "Function used to measure the difference between a model's predictions and the actual values."},
+        "linear_regression": {
+            "categoria": ("Estadísticas",),
+            "definicion": "Modelo matemático utilizado para predecir una variable dependiente continua basándose en una o más variables independientes.",
+            "traduccion": "Mathematical model used to predict a continuous dependent variable based on one or more independent variables."
     "m": {},
 
     "n": {},
