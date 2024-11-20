@@ -512,7 +512,7 @@ diccionario = {
        "datetime": {
            "categoria": ("Fecha",),
            "traduccion": "Class for manipulating dates and times.",
-           "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."
+           "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."},
         "difference": {
             "categoria": ("Método",),
             "definicion": "Devuelve la diferencia entre dos o más conjuntos.",
@@ -1010,7 +1010,7 @@ diccionario = {
         "greatest_common_divisor": {
             "categoria": ("Matemáticas",),
             "definicion": "Devuelve el máximo común divisor de dos números.",
-            "traduccion": "Returns the greatest common divisor of two numbers."}
+            "traduccion": "Returns the greatest common divisor of two numbers."},
         "generate_token": {
             "categoria": ("Seguridad",),
             "definicion": "Genera un token de autenticación único.",
@@ -1528,7 +1528,7 @@ diccionario = {
             "traduccion": "Set of signals that enable communication between a device and the system hardware."},
         "http_head": {
             "categoria": ("Redes",),
-            "definicion": "Método HTTP utilizado para obtener solo los encabezados de una respuesta.",
+            "definicion": "Método HTTP utilizado para obtener solo los encabezados de una respuesta."}},
 
     "i": {
         "immutable": {
@@ -1686,7 +1686,7 @@ diccionario = {
         "inbox": {
             "categoria": ("Redes",),
             "definicion": "Carpeta de entrada de un sistema de correo electrónico.",
-            "traduccion": "Inbox folder of an email system."}
+            "traduccion": "Inbox folder of an email system."},
         "invisible": {
             "categoria": ("Programación",),
             "definicion": "Propiedad de un objeto que no es visible en la interfaz del usuario.",
@@ -2398,8 +2398,7 @@ diccionario = {
         "keras_layer_dense": {
             "categoria": ("Aprendizaje profundo",),
             "definicion": "Capa densa de Keras utilizada en redes neuronales completamente conectadas.",
-            "traduccion": "Dense Keras layer used in fully connected neural networks."}},
-            
+            "traduccion": "Dense Keras layer used in fully connected neural networks."}},            
     "l": {
         "lambda_expression": {
             "categoria": ("Lenguajes de programación",),
@@ -2472,7 +2471,7 @@ diccionario = {
         "linear_regression": {
             "categoria": ("Estadísticas",),
             "definicion": "Modelo matemático utilizado para predecir una variable dependiente continua basándose en una o más variables independientes.",
-            "traduccion": "Mathematical model used to predict a continuous dependent variable based on one or more independent variables."
+            "traduccion": "Mathematical model used to predict a continuous dependent variable based on one or more independent variables."}},
     "m": {},
 
     "n": {},

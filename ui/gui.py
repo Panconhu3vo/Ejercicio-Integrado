@@ -89,6 +89,11 @@ def FNeliminarTermino(event=None):#enNombreET
         txtConsoleE.configure(state='disable')    
 
 def FNagregarTermino(event=None):
+    
+    txtConsole.configure(state="normal")
+    txtConsole.delete(1.0, tk.END)
+    txtConsole.configure(state="disable")
+    
     nombreNT = enNombreNT.get()
     definicion = txtDefinicion.get(1.0, tk.END)
     Traduccion = txtTraduccion.get(1.0, tk.END)
@@ -420,6 +425,10 @@ enNombreNT.pack(side="top", anchor="nw", padx=39, pady=4)
 
 txtConsole = tk.Text(menuIzquierdoAG, width=19, height=5, wrap="word")
 txtConsole.pack(side="top", anchor="nw", expand=False, fill=None, padx=39, pady=4)
+txtConsole.insert("1.0",""" 
+Ingresa los datos para agregar un nuevo término 
+                  
+""")
 txtConsole.configure(state="disable")
 
 tk.Label(
@@ -582,11 +591,10 @@ tk.Label(
 ).pack(side="top")
 
 bordeListarTerminos = tk.Frame(listarTermino, bg="#D92534", padx=4, pady=4)
-bordeListarTerminos.pack(side="left", padx=(26,13), pady=(16,26))
+bordeListarTerminos.pack(side="left", padx=26, pady=(16,26))
 
 menuListarTerminos = tk.Frame(bordeListarTerminos ,bg="#1b1259",width=525, height=385)
-menuListarTerminos.pack_propagate(False)
-menuListarTerminos.pack(side="top")
+menuListarTerminos.pack(side="top",fill="x")
 
 fmFiltroTerminos = tk.Frame(menuListarTerminos,bg="#1b1259")
 fmFiltroTerminos.pack(side="top",fill="x")
@@ -609,12 +617,16 @@ btnFiltrar = tk.Button(
 btnFiltrar.pack(side="left",padx=(12),pady=7)
 
 fmTeminosListados = tk.Frame(menuListarTerminos)
-fmTeminosListados.pack(side="top",padx=5,pady=(0,5))
+fmTeminosListados.pack()
 
-txtTerminosListados = tk.Text(fmTeminosListados,width=80,height=25)
+txtTerminosListados = tk.Text(fmTeminosListados,width=65,height=25)
 txtTerminosListados.configure(state="disable")
-txtTerminosListados.pack()
+txtTerminosListados.pack(side="left",fill="both")
 txtTerminosListados.bind("<Visibility>", FNlistarTerminos)
+
+scrollbar = tk.Scrollbar(fmTeminosListados, orient="vertical", command=txtTerminosListados.yview)
+scrollbar.pack(side="right", fill="y")
+txtTerminosListados.config(yscrollcommand=scrollbar.set)
 # ------------------------------------------------------
 # Sección "Acerca De"
 # ------------------------------------------------------
