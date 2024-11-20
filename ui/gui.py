@@ -13,6 +13,8 @@ from diccionario import diccionario
 
 termino = tk.StringVar
 nombreNT = tk.StringVar
+
+
 # ------------------------------------------------------
 # Funciones:
 # ------------------------------------------------------
@@ -51,10 +53,9 @@ def FNeliminarTermino(event=None):#enNombreET
 
 def FNAgregarTermino(event=None):
     nombreNT = enNombreNT.get()
-   
+
 
     
-
 
 
 # Funcion buscar termino
@@ -521,7 +522,9 @@ fmTeminosListados = tk.Frame(menuListarTerminos)
 fmTeminosListados.pack(side="top",padx=5,pady=(0,5))
 
 txtTerminosListados = tk.Text(fmTeminosListados,width=80,height=25)
+txtTerminosListados.configure(state="disable")
 txtTerminosListados.pack()
+txtTerminosListados.bind("<Visibility>", FNlistarTerminos)
 # ------------------------------------------------------
 # Sección "Acerca De"
 # ------------------------------------------------------

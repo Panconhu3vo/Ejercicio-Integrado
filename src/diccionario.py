@@ -404,67 +404,67 @@ diccionario = {
     
     "d": {
         "def": {
-            "categoria": "Función",
+            "categoria": ("Función",),
             "definicion": "Declara una función o método.",
             "traduccion": "Declares a function or method."},
         "delattr": {
-            "categoria": "Función",
+            "categoria": ("Función",),
             "definicion": "Elimina un atributo de un objeto.",
             "traduccion": "Deletes an attribute from an object."},
         "dataframe": {
-            "categoria": "Estructura de datos",
+            "categoria": ("Estructura de datos",),
             "definicion": "Estructura de datos de Pandas para manipulación de datos tabulares.",
             "traduccion": "Pandas data structure for manipulating tabular data."},
         "decode": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Convierte bytes en una cadena utilizando una codificación.",
             "traduccion": "Converts bytes into a string using an encoding."},
         "decimal": {
-            "categoria": "Módulo",
+            "categoria": ("Módulo",),
             "definicion": "Módulo para operaciones aritméticas con decimales de precisión exacta.",
             "traduccion": "Module for arithmetic operations with exact decimal precision."},
         "device": {
-            "categoria": "Atributo",
+            "categoria": ("Atributo",),
             "definicion": "Atributo en PyTorch para definir el dispositivo (CPU o GPU) donde se almacenan los tensores.",
             "traduccion": "Attribute in PyTorch to define the device (CPU or GPU) for tensor storage."},
         "dict.get": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Obtiene el valor de una clave en un diccionario o un valor predeterminado si la clave no existe.",
             "traduccion": "Gets the value of a dictionary key or a default if the key doesn't exist."},
         "dropna": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Elimina filas o columnas con valores nulos en un DataFrame de Pandas.",
             "traduccion": "Removes rows or columns with null values in a Pandas DataFrame."},
         "dtype": {
-            "categoria": "Atributo",
+            "categoria": ("Atributo",),
             "definicion": "Especifica el tipo de datos de un array en NumPy.",
             "traduccion": "Specifies the data type of a NumPy array."},
         "deque.appendleft": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Agrega un elemento al inicio de una deque.",
             "traduccion": "Adds an element to the beginning of a deque."},
         "dict.update": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Actualiza un diccionario con pares clave-valor de otro diccionario.",
             "traduccion": "Updates a dictionary with key-value pairs from another dictionary."},
         "del": {
-            "categoria": "Operador",
+            "categoria": ("Operador",),
             "definicion": "Elimina una variable, elemento o atributo.",
             "traduccion": "Deletes a variable, element, or attribute."},
         "dict": {
-            "categoria": "Tipo de dato",
+            "categoria": ("Tipo de dato",),
             "definicion": "Tipo de dato de diccionario que almacena pares clave-valor.",
             "traduccion": "Dictionary data type that stores key-value pairs."},
         "dir": {
-            "categoria": "Función",
+            "categoria": ("Función",),
             "definicion": "Devuelve una lista de atributos y métodos disponibles para un objeto.",
             "traduccion": "Returns a list of attributes and methods available for an object."},
         "divmod": {
-            "categoria": "Función",
+            "categoria": ("Función",),
             "definicion": "Devuelve el cociente y el residuo de una división.",
             "traduccion": "Returns the quotient and remainder of a division."},
         "deque": {
-            "categoria": "Clase",
+            "categoria": ("Clase",),
             "definicion": "Clase de collections para una cola de doble extremo.",
             "traduccion": "Class from collections for a double-ended queue."},
         "defaultdict": {
@@ -472,57 +472,58 @@ diccionario = {
             "definicion": "Diccionario que asigna un valor predeterminado a claves no existentes.",
             "traduccion": "Dictionary that assigns a default value to nonexistent keys."},
         "decode": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Convierte bytes a una cadena usando una codificación específica.",
             "traduccion": "Converts bytes to a string using a specific encoding."},
         "deflate": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Método de compresión para reducir el tamaño de archivos.",
             "traduccion": "Compression method to reduce file sizes."},
         "deepcopy": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Copia un objeto y todos sus objetos anidados.",
             "traduccion": "Copies an object and all its nested objects."},
         "detach": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Desconecta un buffer de un flujo (usado en IO).",
             "traduccion": "Disconnects a buffer from a stream (used in IO)."},
         "dump": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Serializa un objeto a un archivo en formato binario o JSON.",
             "traduccion": "Serializes an object to a file in binary or JSON format."},
         "dumps": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Serializa un objeto a una cadena en formato JSON.",
             "traduccion": "Serializes an object to a string in JSON format."},
         "difference": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Devuelve la diferencia entre conjuntos.",
             "traduccion": "Returns the difference between sets."},
         "difference_update": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Actualiza un conjunto, eliminando elementos encontrados en otro conjunto.",
             "traduccion": "Updates a set by removing elements found in another set."},
         "decode_header": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Decodifica un encabezado de correo electrónico.",
             "traduccion": "Decodes an email header."},
         "disk_usage": {
-            "categoria": "Función",
+            "categoria": ("Función",),
             "definicion": "Devuelve el uso de espacio en disco de un directorio o disco (en shutil).",
             "traduccion": "Returns disk space usage of a directory or disk (in shutil)."},
-        "datetime": {
-            "categoria": "Clase",
-            "definicion": "Clase para manipular fechas y horas.",
-            "traduccion": "Class for manipulating dates and times."},
+       "datetime": {
+           "categoria": ("Fecha",),
+           "traduccion": "Class for manipulating dates and times.",
+           "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."
         "difference": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Devuelve la diferencia entre dos o más conjuntos.",
             "traduccion": "Returns the difference between two or more sets."},
         "disk_cache": {
-            "categoria": "Caché",
+            "categoria": ("Caché",),
             "definicion": "Caché que almacena temporalmente datos en el disco.",
             "traduccion": "Cache that temporarily stores data on disk."}},
+    
     "e":{
         "enumerate": {
             "categoria": ("Manipulación de iterables",),
@@ -931,256 +932,14 @@ diccionario = {
             "definicion": "Combinación de la funcionalidad de filter y map en una operación.",
             "traduccion": "Combination of the functionality of filter and map in a single operation."}},
     
-    "g": {
-        "get": {
-            "definicion": "Devuelve el valor de una clave en un diccionario, o un valor predeterminado si la clave no existe.",
-            "traduccion": "Returns the value for a key in a dictionary, or a default value if the key is not present."},
-        "global": {
-            "definicion": "Palabra clave que declara una variable como global.",
-            "traduccion": "Keyword that declares a variable as global."},
-        "generator": {
-            "definicion": "Función que devuelve un iterador que genera valores uno a uno usando yield.",
-            "traduccion": "Function that returns an iterator generating values one by one using yield."},
-        "globals": {
-            "definicion": "Devuelve un diccionario de todas las variables globales actuales.",
-            "traduccion": "Returns a dictionary of all current global variables."},
-        "getattr": {
-            "definicion": "Obtiene el valor de un atributo de un objeto.",
-            "traduccion": "Gets the value of an object's attribute."},
-        "groupby": {
-            "definicion": "Agrupa datos en un iterable según una clave específica.",
-            "traduccion": "Groups data in an iterable by a specified key."},
-        "gc": {
-            "definicion": "Módulo para interactuar con el recolector de basura en Python.",
-            "traduccion": "Module to interact with the garbage collector in Python."},
-        "git": {
-            "definicion": "Sistema de control de versiones utilizado para el seguimiento de cambios en el código.",
-            "traduccion": "Version control system used for tracking code changes."},
-        "generator_expression": {
-            "definicion": "Expresión que genera un iterador de manera similar a una comprensión de listas.",
-            "traduccion": "Expression that generates an iterator similar to list comprehension."},
-        "gzip": {
-            "definicion": "Módulo para compresión y descompresión de archivos usando el formato gzip.",
-            "traduccion": "Module for compressing and decompressing files using the gzip format."},
-        "graph": {
-            "definicion": "Estructura de datos que representa nodos y aristas.",
-            "traduccion": "Data structure representing nodes and edges."},
-        "grid": {
-            "definicion": "Disposición bidimensional de elementos, común en interfaces gráficas.",
-            "traduccion": "Two-dimensional arrangement of elements, common in graphical interfaces."},
-        "getopt": {
-            "definicion": "Módulo para analizar opciones de línea de comandos.",
-            "traduccion": "Module to parse command-line options."},
-        "gcd": {
-            "definicion": "Calcula el máximo común divisor de dos números.",
-            "traduccion": "Calculates the greatest common divisor of two numbers."},
-        "getpass": {
-            "definicion": "Módulo para obtener contraseñas de manera segura en la consola.",
-            "traduccion": "Module for securely obtaining passwords in the console."},
-        "gradients": {
-            "definicion": "Mide la tasa de cambio, común en algoritmos de aprendizaje automático.",
-            "traduccion": "Measures rate of change, common in machine learning algorithms."},
-        "graphlib": {
-            "definicion": "Módulo que proporciona operaciones en grafos.",
-            "traduccion": "Module providing graph operations."},
-        "get_event_loop": {
-            "definicion": "Obtiene el bucle de eventos actual en programación asincrónica.",
-            "traduccion": "Gets the current event loop in asynchronous programming."},
-        "get_terminal_size": {
-            "definicion": "Devuelve el tamaño del terminal en caracteres.",
-            "traduccion": "Returns the terminal size in characters."},
-        "getsizeof": {
-            "definicion": "Devuelve el tamaño de un objeto en bytes.",
-            "traduccion": "Returns the size of an object in bytes."},
-        "google": {
-            "definicion": "API para interactuar con los servicios de Google desde Python.",
-            "traduccion": "API to interact with Google services from Python."},
-        "getdefaultencoding": {
-            "definicion": "Obtiene la codificación de caracteres predeterminada.",
-            "traduccion": "Gets the default character encoding."},
-        "geometry": {
-            "definicion": "Estudio de formas y sus propiedades.",
-            "traduccion": "Study of shapes and their properties."},
-        "greenlet": {
-            "definicion": "Librería que proporciona micro-hilos de ejecución en Python.",
-            "traduccion": "Library providing micro-threads of execution in Python."},
-        "gitignore": {
-            "definicion": "Archivo que especifica qué archivos o carpetas ignorar en un repositorio Git.",
-            "traduccion": "File that specifies files or folders to ignore in a Git repository."},
-        "grammar": {
-            "definicion": "Reglas que definen la estructura de un lenguaje de programación.",
-            "traduccion": "Rules defining the structure of a programming language."},
-        "gettext": {
-            "definicion": "Módulo para internacionalización y localización de aplicaciones.",
-            "traduccion": "Module for internationalization and localization of applications."},
-        "generate_tokens": {
-            "definicion": "Genera tokens de texto desde un archivo o cadena de entrada.",
-            "traduccion": "Generates text tokens from an input file or string."},
-        "gevent": {
-            "definicion": "Biblioteca para operaciones asincrónicas con microprocesos en Python.",
-            "traduccion": "Library for asynchronous operations with micro-threads in Python."},
-        "gui": {
-            "definicion": "Interfaz gráfica de usuario.",
-            "traduccion": "Graphical User Interface."},
-        "generator_function": {
-            "definicion": "Función que produce un iterador utilizando yield.",
-            "traduccion": "Function that produces an iterator using yield."},
-        "get_data": {
-            "definicion": "Obtiene datos de una fuente especificada.",
-            "traduccion": "Fetches data from a specified source."},
-        "git_branch": {
-            "definicion": "Rama en un repositorio Git.",
-            "traduccion": "Branch in a Git repository."},
-        "governance": {
-            "definicion": "Proceso de toma de decisiones y normas en el desarrollo de software.",
-            "traduccion": "Decision-making process and standards in software development."},
-        "gtts": {
-            "definicion": "Google Text-to-Speech, librería para convertir texto a voz usando Google.",
-            "traduccion": "Google Text-to-Speech, library to convert text to speech using Google."},
-        "get_identity": {
-            "definicion": "Devuelve la identidad o valor único de un objeto.",
-            "traduccion": "Returns the unique identity or value of an object."},
-        "get_status": {
-            "definicion": "Obtiene el estado de una operación o proceso.",
-            "traduccion": "Gets the status of an operation or process."},
-        "generator_instance": {
-            "definicion": "Instancia de una función generadora.",
-            "traduccion": "Instance of a generator function."},
-        "guess_encoding": {
-            "definicion": "Intenta determinar la codificación de un texto.",
-            "traduccion": "Attempts to guess the encoding of a text."},
-        "git_commit": {
-            "definicion": "Registra cambios en un repositorio Git.",
-            "traduccion": "Records changes in a Git repository."},
-        "gradient_descent": {
-            "definicion": "Algoritmo para minimizar funciones en aprendizaje automático.",
-            "traduccion": "Algorithm to minimize functions in machine learning."},
-        "get_referrers": {
-            "definicion": "Devuelve los objetos que hacen referencia a un objeto específico.",
-            "traduccion": "Returns the objects that reference a specific object."},
-        "get_window_extent": {
-            "definicion": "Obtiene el área de una ventana o figura en coordenadas.",
-            "traduccion": "Gets the extent of a window or figure in coordinates."},
-        "group": {
-            "definicion": "Agrupa elementos según una expresión regular.",
-            "traduccion": "Groups elements according to a regular expression."},
-        "get_history": {
-            "definicion": "Obtiene el historial de comandos ejecutados en el intérprete.",
-            "traduccion": "Retrieves the command history executed in the interpreter."},
-        "gradient": {
-            "definicion": "Calcula el gradiente de una función.",
-            "traduccion": "Calculates the gradient of a function."},
-        "getfqdn": {
-            "definicion": "Devuelve el nombre de dominio completo de un host.",
-            "traduccion": "Returns the fully qualified domain name of a host."},
-        "get_url": {
-            "definicion": "Obtiene el contenido de una URL.",
-            "traduccion": "Fetches the content of a URL."},
-        "get_line": {
-            "definicion": "Obtiene una línea de un archivo o entrada.",
-            "traduccion": "Gets a line from a file or input."},
-        "get_clock_info": {
-            "definicion": "Obtiene información sobre un reloj del sistema.",
-            "traduccion": "Gets information about a system clock."},
-        "getmtime": {
-            "definicion": "Devuelve la última modificación de un archivo en segundos.",
-            "traduccion": "Returns the last modification time of a file in seconds."},
-        "gettext_install": {
-            "definicion": "Instala el entorno para internacionalización usando gettext.",
-            "traduccion": "Sets up the environment for internationalization using gettext."},
-        "geometry_manager": {
-            "definicion": "Gestiona la geometría de widgets en interfaces gráficas.",
-            "traduccion": "Manages widget geometry in graphical interfaces."},
-        "gcd_algorithm": {
-            "definicion": "Algoritmo para calcular el máximo común divisor.",
-            "traduccion": "Algorithm to calculate the greatest common divisor."},
-        "googletrans": {
-            "definicion": "Librería para traducción de texto usando Google Translate.",
-            "traduccion": "Library for text translation using Google Translate."},
-        "get_dpi": {
-            "definicion": "Obtiene la densidad de puntos por pulgada en pantallas.",
-            "traduccion": "Gets the dots per inch (DPI) of screens."},
-        "geolocation": {
-            "definicion": "Obtiene la ubicación geográfica de un dispositivo.",
-            "traduccion": "Gets the geographic location of a device."},
-        "git_merge": {
-            "definicion": "Combina cambios de diferentes ramas en Git.",
-            "traduccion": "Merges changes from different branches in Git."},
-        "get_tick_params": {
-            "definicion": "Obtiene parámetros de los ticks de un gráfico.",
-            "traduccion": "Gets parameters of plot ticks."},
-        "getrandbits": {
-            "definicion": "Genera un número entero aleatorio de bits especificados.",
-            "traduccion": "Generates a random integer with specified bits."},
-        "gui_toolkit": {
-            "definicion": "Conjunto de herramientas para construir interfaces gráficas.",
-            "traduccion": "Toolkit for building graphical user interfaces."},
-        "getpid": {
-            "definicion": "Devuelve el ID de proceso del proceso actual.",
-            "traduccion": "Returns the process ID of the current process."},
-        "get_event": {
-            "definicion": "Obtiene un evento en la programación de interfaces.",
-            "traduccion": "Gets an event in interface programming."},
-        "gmm": {
-            "definicion": "Modelo de mezcla gaussiana utilizado en aprendizaje automático.",
-            "traduccion": "Gaussian Mixture Model used in machine learning."},
-        "gather": {
-            "definicion": "Agrupa varias tareas asincrónicas en una sola.",
-            "traduccion": "Groups multiple asynchronous tasks into one."},
-        "get_statistics": {
-            "definicion": "Devuelve estadísticas sobre un conjunto de datos.",
-            "traduccion": "Returns statistics on a dataset."},
-        "get_user": {
-            "definicion": "Obtiene el nombre de usuario actual del sistema.",
-            "traduccion": "Gets the current system's username."},
-        "get_unique": {
-            "definicion": "Obtiene valores únicos de un conjunto de datos.",
-            "traduccion": "Fetches unique values from a dataset."},
-        "git_rebase": {
-            "definicion": "Reaplica confirmaciones de una rama en Git.",
-            "traduccion": "Reapplies commits from a branch in Git."},
-        "get_score": {
-            "definicion": "Obtiene la puntuación de una operación o evaluación.",
-            "traduccion": "Gets the score of an operation or evaluation."},
-        "graph_data": {
-            "definicion": "Estructura para organizar y mostrar datos en forma de grafo.",
-            "traduccion": "Structure to organize and display data in graph form."},
-        "get_installed_distributions": {
-            "definicion": "Obtiene las distribuciones instaladas en el entorno de Python.",
-            "traduccion": "Gets installed distributions in the Python environment."},
-        "geocode": {
-            "definicion": "Convierte una dirección en coordenadas geográficas.",
-            "traduccion": "Converts an address into geographic coordinates."},
-        "get_type_hints": {
-            "definicion": "Obtiene sugerencias de tipo de una función o clase.",
-            "traduccion": "Gets type hints from a function or class."},
-        "genericpath": {
-            "definicion": "Módulo con operaciones comunes en rutas de archivos.",
-            "traduccion": "Module with common file path operations."},
-        "get_resource_path": {
-            "definicion": "Obtiene la ruta de un recurso empaquetado.",
-            "traduccion": "Gets the path of a packaged resource."},
-        "git_pull": {
-            "definicion": "Obtiene y fusiona cambios desde un repositorio remoto.",
-            "traduccion": "Fetches and merges changes from a remote repository."},
-        "get_cached_properties": {
-            "definicion": "Devuelve propiedades en caché de un objeto.",
-            "traduccion": "Returns cached properties of an object."},
-        "geopandas": {
-            "definicion": "Librería para análisis de datos geoespaciales en Python.",
-            "traduccion": "Library for geospatial data analysis in Python."},
-        "get_open_files": {
-            "definicion": "Devuelve una lista de archivos abiertos en el sistema.",
-            "traduccion": "Returns a list of open files in the system."},
-        "get_active_connections": {
-            "definicion": "Obtiene las conexiones activas en una red.",
-            "traduccion": "Gets active connections in a network."},
-        "guess_language": {
-            "definicion": "Intenta determinar el idioma de un texto.",
-            "traduccion": "Attempts to determine the language of a text."},
-        "get_doc": {
-            "definicion": "Obtiene la documentación de una función o módulo.",
-            "traduccion": "Fetches the documentation of a function or module."}},
+
+
+
+
+
+
+
+        
     
     "h": {
         "hash": {
