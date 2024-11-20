@@ -256,6 +256,7 @@ diccionario = {
             "categoria": ("Tipos de datos",),
             "definicion": "Tipo de dato booleano en bibliotecas como NumPy.",
             "traduccion": "Boolea"}},
+    
     "c": {
         "callable": {
             "categoria": ("Funciones",),
@@ -931,6 +932,7 @@ diccionario = {
             "categoria": ("Manipulación de datos",),
             "definicion": "Combinación de la funcionalidad de filter y map en una operación.",
             "traduccion": "Combination of the functionality of filter and map in a single operation."}},
+    
     "g": {
         "getattr": {
             "categoria": ("Manejo de objetos",),
@@ -1168,324 +1170,369 @@ diccionario = {
             "categoria": ("Estructuras de datos",),
             "definicion": "Crea un esquema JSON para validar datos.",
             "traduccion": "Generates a JSON schema for data validation."}},
-        
+    
     "h": {
         "hash": {
+            "categoria": ("Matemáticas",),
             "definicion": "Devuelve el valor hash de un objeto.",
             "traduccion": "Returns the hash value of an object."},
         "help": {
+            "categoria": ("Documentación",),
             "definicion": "Muestra la ayuda de un módulo, función o clase.",
             "traduccion": "Displays the help information of a module, function, or class."},
-        "hex": {
-            "definicion": "Convierte un número en su representación hexadecimal.",
-            "traduccion": "Converts a number to its hexadecimal representation."},
-        "head": {
-            "definicion": "Devuelve las primeras filas de un DataFrame en pandas.",
-            "traduccion": "Returns the first rows of a DataFrame in pandas."},
-        "heapq": {
-            "definicion": "Proporciona funciones para crear y manipular montículos.",
-            "traduccion": "Provides functions to create and manipulate heaps."},
-        "hstack": {
-            "definicion": "Apila arrays en secuencia horizontal.",
-            "traduccion": "Stacks arrays in a horizontal sequence."},
-        "hypot": {
-            "definicion": "Calcula la hipotenusa de un triángulo rectángulo.",
-            "traduccion": "Calculates the hypotenuse of a right triangle."},
-        "hist": {
-            "definicion": "Genera un histograma de datos en matplotlib.",
-            "traduccion": "Generates a histogram of data in matplotlib."},
-        "hostname": {
-            "definicion": "Devuelve o establece el nombre del host de la máquina.",
-            "traduccion": "Returns or sets the machine's hostname."},
-        "hashlib": {
-            "definicion": "Ofrece funciones de hashing seguras.",
-            "traduccion": "Provides secure hashing functions."},
-        "homedir": {
-            "definicion": "Devuelve el directorio de inicio del usuario.",
-            "traduccion": "Returns the user's home directory."},
-        "highlight": {
-            "definicion": "Resalta el código para mejorar la legibilidad.",
-            "traduccion": "Highlights code for readability."},
-        "histogram": {
-            "definicion": "Calcula la frecuencia de datos en rangos específicos.",
-            "traduccion": "Calculates data frequency in specific ranges."},
-        "hook": {
-            "definicion": "Define una función personalizada para extender una operación.",
-            "traduccion": "Defines a custom function to extend an operation."},
-        "http": {
-            "definicion": "Proporciona soporte para el protocolo HTTP en Python.",
-            "traduccion": "Provides support for the HTTP protocol in Python."},
-        "hist2d": {
-            "definicion": "Genera un histograma bidimensional en matplotlib.",
-            "traduccion": "Generates a two-dimensional histogram in matplotlib."},
-        "histc": {
-            "definicion": "Calcula la cuenta de histogramas en Numpy.",
-            "traduccion": "Calculates histogram counts in Numpy."},
-        "hamming": {
-            "definicion": "Calcula la distancia de Hamming entre dos secuencias.",
-            "traduccion": "Calculates the Hamming distance between two sequences."},
-        "heapify": {
-            "definicion": "Convierte una lista en un montículo.",
-            "traduccion": "Transforms a list into a heap."},
-        "hsv": {
-            "definicion": "Modelo de color basado en matiz, saturación y valor.",
-            "traduccion": "Color model based on hue, saturation, and value."},
-        "headless": {
-            "definicion": "Ejecuta aplicaciones gráficas sin entorno de visualización.",
-            "traduccion": "Runs graphical applications without a display environment."},
-        "histcounts": {
-            "definicion": "Cuenta elementos para rangos especificados en un histograma.",
-            "traduccion": "Counts elements for specified ranges in a histogram."},
-        "hexbin": {
-            "definicion": "Crea un gráfico de contenedores hexagonales.",
-            "traduccion": "Creates a hexbin plot."},
-        "http.client": {
-            "definicion": "Módulo para realizar peticiones HTTP.",
-            "traduccion": "Module for making HTTP requests."},
-        "hook_fn": {
-            "definicion": "Función personalizada que se llama en puntos específicos.",
-            "traduccion": "Custom function called at specific points."},
-        "hue": {
-            "definicion": "Ajusta el tono de color en gráficos de seaborn.",
-            "traduccion": "Adjusts the color hue in seaborn plots."},
-        "hashset": {
-            "definicion": "Estructura de datos para almacenar elementos únicos en hashing.",
-            "traduccion": "Data structure for storing unique items in hashing."},
-        "hdf5": {
-            "definicion": "Formato de archivo para almacenar datos de gran tamaño.",
-            "traduccion": "File format for storing large data."},
-        "hanning": {
-            "definicion": "Aplica la ventana de Hanning en procesamiento de señales.",
-            "traduccion": "Applies the Hanning window in signal processing."},
-        "help_module": {
-            "definicion": "Proporciona ayuda sobre un módulo específico.",
-            "traduccion": "Provides help on a specific module."},
-        "handle": {
-            "definicion": "Representa un recurso o elemento de sistema gestionado.",
-            "traduccion": "Represents a managed system resource or element."},
-        "hstack_block": {
-            "definicion": "Apila bloques en horizontal.",
-            "traduccion": "Stacks blocks horizontally."},
-        "hotspot": {
-            "definicion": "Punto de acceso para operaciones frecuentes en programación.",
-            "traduccion": "Access point for frequent operations in programming."},
-        "http.server": {
-            "definicion": "Módulo para iniciar un servidor HTTP básico.",
-            "traduccion": "Module to start a basic HTTP server."},
-        "haversine": {
-            "definicion": "Calcula la distancia entre dos puntos en una esfera.",
-            "traduccion": "Calculates the distance between two points on a sphere."},
-        "hspace": {
-            "definicion": "Controla el espacio horizontal entre elementos gráficos.",
-            "traduccion": "Controls horizontal spacing between graphical elements."},
-        "hex_color": {
-            "definicion": "Representación hexadecimal de un color.",
-            "traduccion": "Hexadecimal representation of a color."},
-        "handle_request": {
-            "definicion": "Gestión de una solicitud en un servidor.",
-            "traduccion": "Handling a request in a server."},
-        "html": {
-            "definicion": "Modulo que permite manejar y analizar código HTML.",
-            "traduccion": "Module that handles and parses HTML code."},
-        "hybrid": {
-            "definicion": "Método que combina características de dos o más algoritmos.",
-            "traduccion": "Method combining features of two or more algorithms."},
-        "hclust": {
-            "definicion": "Realiza el clustering jerárquico.",
-            "traduccion": "Performs hierarchical clustering."},
-        "harden": {
-            "definicion": "Refuerza la seguridad de un sistema.",
-            "traduccion": "Strengthens system security."},
-        "hist_equalize": {
-            "definicion": "Iguala el histograma de una imagen.",
-            "traduccion": "Equalizes the histogram of an image."},
-        "httpx": {
-            "definicion": "Cliente HTTP asíncrono para Python.",
-            "traduccion": "Asynchronous HTTP client for Python."},
-        "hdf": {
-            "definicion": "Formato de archivo para datos jerárquicos.",
-            "traduccion": "File format for hierarchical data."},
-        "histmatch": {
-            "definicion": "Iguala el histograma de una imagen con otra.",
-            "traduccion": "Matches the histogram of one image with another."},
-        "hasattr": {
-            "definicion": "Comprueba si un objeto tiene un atributo.",
-            "traduccion": "Checks if an object has an attribute."},
-        "httpx_session": {
-            "definicion": "Gestiona sesiones de solicitudes HTTP en httpx.",
-            "traduccion": "Manages HTTP request sessions in httpx."},
-        "hash_table": {
-            "definicion": "Estructura de datos que permite almacenar datos únicos.",
-            "traduccion": "Data structure that stores unique data."},
-        "hough_transform": {
-            "definicion": "Detecta líneas y formas en imágenes.",
-            "traduccion": "Detects lines and shapes in images."},
-        "hsv_to_rgb": {
-            "definicion": "Convierte un color de HSV a RGB.",
-            "traduccion": "Converts a color from HSV to RGB."},
-        "http_code": {
-            "definicion": "Código de respuesta HTTP.",
-            "traduccion": "HTTP response code."},
-        "http_status": {
-            "definicion": "Código que indica el estado de una solicitud HTTP.",
-            "traduccion": "Code that indicates the status of an HTTP request."},
-        "hessian": {
-            "definicion": "Matriz de segundas derivadas en optimización.",
-            "traduccion": "Matrix of second derivatives in optimization."},
-        "huber": {
-            "definicion": "Función de pérdida en estadística robusta.",
-            "traduccion": "Loss function in robust statistics."},
-        "hue_shift": {
-            "definicion": "Ajusta el matiz de una imagen o color.",
-            "traduccion": "Adjusts the hue of an image or color."},
-        "hard_limit": {
-            "definicion": "Límite rígido en una operación o parámetro.",
-            "traduccion": "Rigid limit in an operation or parameter."},
-        "highlight_text": {
-            "definicion": "Resalta texto para mejorar la legibilidad.",
-            "traduccion": "Highlights text for readability."},
-        "hierarchical": {
-            "definicion": "Relacionado con estructuras en niveles o jerarquías.",
-            "traduccion": "Related to structures in levels or hierarchies."},
-        "hash_code": {
-            "definicion": "Representación numérica de un objeto.",
-            "traduccion": "Numeric representation of an object."},
-        "hermite": {
-            "definicion": "Función ortogonal en procesamiento de señales.",
-            "traduccion": "Orthogonal function in signal processing."},
-        "handle_event": {
-            "definicion": "Gestiona un evento específico en un sistema.",
-            "traduccion": "Handles a specific event in a system."},
-        "homogeneous": {
-            "definicion": "Estructura consistente sin variaciones.",
-            "traduccion": "Consistent structure without variations."},
-        "hash_set": {
-            "definicion": "Conjunto de elementos únicos basado en hashing.",
-            "traduccion": "Set of unique elements based on hashing."},
-        "hough_line": {
-            "definicion": "Detecta líneas rectas en imágenes.",
-            "traduccion": "Detects straight lines in images."},
-        "http_methods": {
-            "definicion": "Métodos estándar para solicitudes HTTP.",
-            "traduccion": "Standard methods for HTTP requests."},
-        "http_response": {
-            "definicion": "Respuesta generada a una solicitud HTTP.",
-            "traduccion": "Response generated to an HTTP request."},
-        "hex_to_bin": {
-            "definicion": "Convierte de hexadecimal a binario.",
-            "traduccion": "Converts from hexadecimal to binary."},
-        "hist_interpolate": {
-            "definicion": "Interpolación en histogramas.",
-            "traduccion": "Interpolation in histograms."},
+        "header": {
+            "categoria": ("Redes",),
+            "definicion": "Parte inicial de un paquete de datos que contiene información sobre el mismo.",
+            "traduccion": "Initial part of a data packet that contains information about it."},
+        "host": {
+            "categoria": ("Redes",),
+            "definicion": "Computadora o dispositivo que se conecta a una red.",
+            "traduccion": "Computer or device that connects to a network."},
         "hyperlink": {
-            "definicion": "Vincula un recurso a través de URL.",
-            "traduccion": "Links a resource through a URL."},
-        "hypertune": {
-            "definicion": "Ajuste de parámetros para optimización.",
-            "traduccion": "Parameter tuning for optimization."},
-        "http_parser": {
-            "definicion": "Analizador de solicitudes HTTP.",
-            "traduccion": "HTTP request parser."},
-        "hover": {
-            "definicion": "Efecto al pasar el cursor sobre un elemento.",
-            "traduccion": "Effect when hovering over an element."},
-        "http_auth": {
-            "definicion": "Autenticación en protocolos HTTP.",
-            "traduccion": "Authentication in HTTP protocols."},
-        "heightmap": {
-            "definicion": "Mapa de alturas en gráficos 3D.",
-            "traduccion": "Height map in 3D graphics."},
-        "hstack_array": {
-            "definicion": "Apila arrays horizontalmente.",
-            "traduccion": "Stacks arrays horizontally."},
-        "high_frequency": {
-            "definicion": "Componentes de alta frecuencia en señales.",
-            "traduccion": "High-frequency components in signals."},
-        "hidden_state": {
-            "definicion": "Estado oculto en redes neuronales recurrentes.",
-            "traduccion": "Hidden state in recurrent neural networks."},
-        "hashmap": {
-            "definicion": "Mapa que almacena pares clave-valor mediante hashing.",
-            "traduccion": "Map storing key-value pairs using hashing."},
-        "hostfile": {
-            "definicion": "Archivo que mapea nombres de dominio a IPs.",
-            "traduccion": "File mapping domain names to IPs."},
-        "hit_rate": {
-            "definicion": "Proporción de aciertos en una predicción o búsqueda.",
-            "traduccion": "Success rate in a prediction or search."},
-        "horizontal_flip": {
-            "definicion": "Invierte una imagen horizontalmente.",
-            "traduccion": "Flips an image horizontally."},
+            "categoria": ("Internet",),
+            "definicion": "Vínculo en una página web que lleva a otra página o recurso.",
+            "traduccion": "Link in a webpage that leads to another page or resource."},
+        "hashlib": {
+            "categoria": ("Seguridad",),
+            "definicion": "Biblioteca de Python que proporciona algoritmos de hash.",
+            "traduccion": "Python library that provides hash algorithms."},
+        "hamming_distance": {
+            "categoria": ("Teoría de la información",),
+            "definicion": "Mide el número de posiciones en las que dos cadenas de texto difieren.",
+            "traduccion": "Measures the number of positions where two strings differ."},
+        "heap": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Estructura de datos basada en un árbol binario completo.",
+            "traduccion": "Data structure based on a complete binary tree."},
+        "hash_table": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Estructura que asocia claves con valores usando una función hash.",
+            "traduccion": "Structure that maps keys to values using a hash function."},
         "http_request": {
-            "definicion": "Solicitud enviada a un servidor HTTP.",
-            "traduccion": "Request sent to an HTTP server."},
-        "hysteresis": {
-            "definicion": "Efecto de retardo en un sistema ante cambios.",
-            "traduccion": "Delay effect in a system when changing states."},
-        "half_width": {
-            "definicion": "Mitad de la anchura de un elemento.",
-            "traduccion": "Half the width of an element."},
-        "hatch_fill": {
-            "definicion": "Patrón de relleno en gráficos.",
-            "traduccion": "Fill pattern in graphics."},
-        "http_proxy": {
-            "definicion": "Servidor intermediario para solicitudes HTTP.",
-            "traduccion": "Intermediary server for HTTP requests."},
-        "header_bytes": {
-            "definicion": "Bytes que componen el encabezado de una solicitud.",
-            "traduccion": "Bytes comprising a request header."},
-        "hexa_grid": {
-            "definicion": "Grilla hexagonal para visualización o cálculos.",
-            "traduccion": "Hexagonal grid for visualization or calculations."},
-        "http_cache": {
-            "definicion": "Almacén de respuestas HTTP para acceso rápido.",
-            "traduccion": "Store of HTTP responses for quick access."},
-        "hierarchy_tree": {
-            "definicion": "Estructura en forma de árbol jerárquico.",
-            "traduccion": "Structure in a hierarchical tree form."},
-        "hex_to_rgb": {
-            "definicion": "Convierte de hexadecimal a RGB.",
-            "traduccion": "Converts from hexadecimal to RGB."},
-        "highlight_color": {
-            "definicion": "Color de resaltado en gráficos o interfaces.",
-            "traduccion": "Highlight color in graphics or interfaces."},
-        "hyperbolic": {
-            "definicion": "Relativo a funciones hiperbólicas en matemáticas.",
-            "traduccion": "Related to hyperbolic functions in math."},
-        "http_headers": {
-            "definicion": "Encabezados de una solicitud o respuesta HTTP.",
-            "traduccion": "Headers of an HTTP request or response."},
-        "hist_norm": {
-            "definicion": "Normalización de un histograma.",
-            "traduccion": "Normalization of a histogram."},
-        "hover_text": {
-            "definicion": "Texto que aparece al pasar el cursor sobre un elemento.",
-            "traduccion": "Text displayed when hovering over an element."},
-        "http_status_code": {
-            "definicion": "Código de estado de una respuesta HTTP.",
-            "traduccion": "Status code of an HTTP response."},
-        "http_endpoint": {
-            "definicion": "Punto final de una API en un servidor.",
-            "traduccion": "API endpoint on a server."},
-        "holdout": {
-            "definicion": "Conjunto de datos separado para validación.",
-            "traduccion": "Data set held out for validation."},
-        "hypergraph": {
-            "definicion": "Grafo en el cual cada arista conecta múltiples nodos.",
-            "traduccion": "Graph where each edge connects multiple nodes."},
-        "hamming_window": {
-            "definicion": "Ventana de Hamming en análisis de señales.",
-            "traduccion": "Hamming window in signal analysis."},
-        "headless_mode": {
-            "definicion": "Modo sin entorno gráfico para pruebas o servidores.",
-            "traduccion": "Headless mode for testing or servers."},
+            "categoria": ("Redes",),
+            "definicion": "Solicitud realizada por un cliente a un servidor web.",
+            "traduccion": "Request made by a client to a web server."},
+        "http_response": {
+            "categoria": ("Redes",),
+            "definicion": "Respuesta del servidor a una solicitud HTTP.",
+            "traduccion": "Response from the server to an HTTP request."},
+        "host_name": {
+            "categoria": ("Redes",),
+            "definicion": "Nombre asignado a un dispositivo en una red.",
+            "traduccion": "Name assigned to a device in a network."},
+        "hash_map": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Estructura que asocia claves y valores, similar a un diccionario.",
+            "traduccion": "Structure that maps keys to values, similar to a dictionary."},
+        "hadoop": {
+            "categoria": ("Big Data",),
+            "definicion": "Framework de código abierto para el procesamiento distribuido de grandes conjuntos de datos.",
+            "traduccion": "Open-source framework for the distributed processing of large datasets."},
+        "http_method": {
+            "categoria": ("Redes",),
+            "definicion": "Método que define la acción solicitada en una petición HTTP.",
+            "traduccion": "Method that defines the action requested in an HTTP request."},
+        "hash_function": {
+            "categoria": ("Criptografía",),
+            "definicion": "Función que toma una entrada y devuelve un valor hash de longitud fija.",
+            "traduccion": "Function that takes an input and returns a fixed-length hash value."},
+        "hibernate": {
+            "categoria": ("Base de datos",),
+            "definicion": "Framework para mapeo objeto-relacional en Java.",
+            "traduccion": "Object-relational mapping framework in Java."},
+        "heuristic": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Método de resolución de problemas basado en la experiencia y la aproximación.",
+            "traduccion": "Problem-solving method based on experience and approximation."},
+        "http_code": {
+            "categoria": ("Redes",),
+            "definicion": "Código de estado devuelto por el servidor en una solicitud HTTP.",
+            "traduccion": "Status code returned by the server in an HTTP request."},
+        "host_ip": {
+            "categoria": ("Redes",),
+            "definicion": "Dirección IP asignada a un dispositivo en una red.",
+            "traduccion": "IP address assigned to a device in a network."},
+        "hashing_algorithm": {
+            "categoria": ("Criptografía",),
+            "definicion": "Algoritmo utilizado para convertir datos en un valor hash.",
+            "traduccion": "Algorithm used to convert data into a hash value."},
+        "header_field": {
+            "categoria": ("Redes",),
+            "definicion": "Campo en un encabezado de protocolo que contiene información adicional.",
+            "traduccion": "Field in a protocol header that contains additional information."},
+        "hosted_service": {
+            "categoria": ("Servicios en la nube",),
+            "definicion": "Servicio que se aloja en la nube y se accede a través de Internet.",
+            "traduccion": "Service hosted in the cloud and accessed via the internet."},
+
+        "hybrid_cloud": {
+            "categoria": ("Servicios en la nube",),
+            "definicion": "Modelo de computación en la nube que combina recursos privados y públicos.",
+            "traduccion": "Cloud computing model that combines private and public resources."},
+        "hexadecimal": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Sistema numérico en base 16.",
+            "traduccion": "Numerical system in base 16."},
+        "hash_set": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Conjunto que almacena elementos de forma no ordenada utilizando un hash.",
+            "traduccion": "Set that stores elements in an unordered fashion using a hash."},
+        "high_order_function": {
+            "categoria": ("Funciones",),
+            "definicion": "Función que toma una o más funciones como argumentos o devuelve una función.",
+            "traduccion": "Function that takes one or more functions as arguments or returns a function."},
+        "hmac": {
+            "categoria": ("Criptografía",),
+            "definicion": "Código de autenticación de mensaje basado en hash.",
+            "traduccion": "Hash-based message authentication code."},
+        "hashable": {
+            "categoria": ("Python",),
+            "definicion": "Propiedad de un objeto que permite su uso como clave en un diccionario.",
+            "traduccion": "Property of an object that allows it to be used as a key in a dictionary."},
+        "http_session": {
+            "categoria": ("Redes",),
+            "definicion": "Sesión que mantiene el estado entre las solicitudes HTTP de un cliente.",
+            "traduccion": "Session that maintains state between HTTP requests from a client."},
+        "hypertext": {
+            "categoria": ("Internet",),
+            "definicion": "Texto que contiene enlaces a otros textos o recursos.",
+            "traduccion": "Text that contains links to other texts or resources."},
+        "http_2": {
+            "categoria": ("Redes",),
+            "definicion": "Protocolo de red que mejora el rendimiento de HTTP.",
+            "traduccion": "Network protocol that improves HTTP performance."},
+        "hls": {
+            "categoria": ("Redes",),
+            "definicion": "Sistema de transmisión de video en tiempo real sobre HTTP.",
+            "traduccion": "Real-time video streaming system over HTTP."},
+        "hashmap": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Implementación de un mapa clave-valor utilizando una función hash.",
+            "traduccion": "Implementation of a key-value map using a hash function."},
+        "home_directory": {
+            "categoria": ("Sistemas operativos",),
+            "definicion": "Directorio principal del usuario en un sistema.",
+            "traduccion": "Main user directory in a system."},
         "http_redirect": {
-            "definicion": "Redirección HTTP a otra URL.",
-            "traduccion": "HTTP redirection to another URL."},
-        "highlighter": {
-            "definicion": "Resalta código en editores o IDEs.",
-            "traduccion": "Highlights code in editors or IDEs."}},
-    
+            "categoria": ("Redes",),
+            "definicion": "Redirección de una solicitud HTTP a una nueva URL.",
+            "traduccion": "Redirecting an HTTP request to a new URL."},
+        "html": {
+            "categoria": ("Internet",),
+            "definicion": "Lenguaje de marcado utilizado para crear páginas web.",
+            "traduccion": "Markup language used to create web pages."},
+        "header_file": {
+            "categoria": ("Programación",),
+            "definicion": "Archivo que contiene declaraciones de funciones y macros.",
+            "traduccion": "File that contains function declarations and macros."},
+        "hdfs": {
+            "categoria": ("Big Data",),
+            "definicion": "Sistema de archivos distribuido utilizado por Hadoop.",
+            "traduccion": "Distributed file system used by Hadoop."},
+        "hard_link": {
+            "categoria": ("Sistemas operativos",),
+            "definicion": "Enlace a un archivo que apunta directamente a los datos almacenados en disco.",
+            "traduccion": "Link to a file that points directly to the data stored on disk."},
+        "hashing": {
+            "categoria": ("Criptografía",),
+            "definicion": "Proceso de aplicar una función hash a los datos.",
+            "traduccion": "Process of applying a hash function to data."},
+        "http_404": {
+            "categoria": ("Redes",),
+            "definicion": "Código de estado HTTP que indica que la página no se encuentra.",
+            "traduccion": "HTTP status code indicating that the page is not found."},
+        "hypervisor": {
+            "categoria": ("Virtualización",),
+            "definicion": "Software que permite ejecutar máquinas virtuales en un sistema físico.",
+            "traduccion": "Software that allows running virtual machines on a physical system."},
+        "http_header": {
+            "categoria": ("Redes",),
+            "definicion": "Información adicional contenida en una solicitud o respuesta HTTP.",
+            "traduccion": "Additional information contained in an HTTP request or response."},
+        "http_client": {
+            "categoria": ("Redes",),
+            "definicion": "Software que realiza solicitudes HTTP a servidores web.",
+            "traduccion": "Software that makes HTTP requests to web servers."},
+        "hping": {
+            "categoria": ("Redes",),
+            "definicion": "Herramienta de red para pruebas de seguridad y auditoría.",
+            "traduccion": "Network tool for security testing and auditing."},
+        "hash_collision": {
+            "categoria": ("Criptografía",),
+            "definicion": "Situación donde dos entradas diferentes tienen el mismo valor hash.",
+            "traduccion": "Situation where two different inputs have the same hash value."},
+        "head": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Elemento que aparece primero en una lista enlazada.",
+            "traduccion": "First element in a linked list."},
+        "heap_sort": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Algoritmo de ordenamiento basado en la estructura de heap.",
+            "traduccion": "Sorting algorithm based on the heap data structure."},
+        "http_server": {
+            "categoria": ("Redes",),
+            "definicion": "Software que maneja solicitudes HTTP y las responde.",
+            "traduccion": "Software that handles HTTP requests and responds to them."},
+        "hashing_algorithm": {
+            "categoria": ("Criptografía",),
+            "definicion": "Algoritmo usado para calcular un valor hash a partir de datos.",
+            "traduccion": "Algorithm used to compute a hash value from data."},
+        "huffman_code": {
+            "categoria": ("Compresión",),
+            "definicion": "Algoritmo de compresión que asigna códigos más cortos a los caracteres más frecuentes.",
+            "traduccion": "Compression algorithm that assigns shorter codes to more frequent characters."},
+        "http_request_method": {
+            "categoria": ("Redes",),
+            "definicion": "Métodos HTTP usados para interactuar con un servidor.",
+            "traduccion": "HTTP methods used to interact with a server."},
+        "hash_table_collision": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Situación donde dos claves hash diferentes tienen el mismo índice en la tabla.",
+            "traduccion": "Situation where two different hash keys have the same index in the table."},
+        "hosted_application": {
+            "categoria": ("Servicios en la nube",),
+            "definicion": "Aplicación que se aloja en un servidor remoto y se accede vía Internet.",
+            "traduccion": "Application hosted on a remote server and accessed over the internet."},
+        "http_redirect_status": {
+            "categoria": ("Redes",),
+            "definicion": "Código HTTP que indica que la página ha sido movida a otra URL.",
+            "traduccion": "HTTP code indicating that the page has been moved to another URL."},
+        "hypervisor_type": {
+            "categoria": ("Virtualización",),
+            "definicion": "Tipo de software de virtualización, como tipo 1 o tipo 2.",
+            "traduccion": "Type of virtualization software, such as type 1 or type 2."},
+        "head_pointer": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Puntero que apunta al primer elemento en una estructura de datos.",
+            "traduccion": "Pointer that points to the first element in a data structure."},
+        "hash_function_collision": {
+            "categoria": ("Criptografía",),
+            "definicion": "Problema en que dos entradas diferentes generan el mismo valor hash.",
+            "traduccion": "Problem where two different inputs generate the same hash value."},
+        "http_response_code": {
+            "categoria": ("Redes",),
+            "definicion": "Código de respuesta enviado por el servidor en respuesta a una solicitud HTTP.",
+            "traduccion": "Response code sent by the server in reply to an HTTP request."},
+        "hardware_abstraction_layer": {
+            "categoria": ("Sistemas operativos",),
+            "definicion": "Capa de software que oculta detalles del hardware al sistema operativo.",
+            "traduccion": "Software layer that hides hardware details from the operating system."},
+        "hash_set_operation": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Operación que realiza una acción sobre un conjunto basado en hash.",
+            "traduccion": "Operation that performs an action on a hash-based set."},
+        "hostname_resolution": {
+            "categoria": ("Redes",),
+            "definicion": "Proceso de convertir un nombre de dominio en una dirección IP.",
+            "traduccion": "Process of converting a domain name into an IP address."},
+        "http_session_management": {
+            "categoria": ("Redes",),
+            "definicion": "Manejo de la información de sesión entre cliente y servidor.",
+            "traduccion": "Managing session information between client and server."},
+        "heap_memory": {
+            "categoria": ("Sistemas operativos",),
+            "definicion": "Memoria dinámica usada por las aplicaciones durante la ejecución.",
+            "traduccion": "Dynamic memory used by applications during execution."},
+        "hashing_attack": {
+            "categoria": ("Seguridad",),
+            "definicion": "Técnica que intenta encontrar colisiones de valores hash para vulnerar la seguridad.",
+            "traduccion": "Technique that attempts to find hash collisions to break security."},
+        "http_proxy": {
+            "categoria": ("Redes",),
+            "definicion": "Servidor que actúa como intermediario entre el cliente y el servidor real.",
+            "traduccion": "Server that acts as an intermediary between the client and the real server."},
+        "heartbeat_signal": {
+            "categoria": ("Redes",),
+            "definicion": "Señal periódica enviada para indicar que un sistema está activo y funcionando.",
+            "traduccion": "Periodic signal sent to indicate that a system is active and running."},
+        "http_verbs": {
+            "categoria": ("Redes",),
+            "definicion": "Acciones que define una solicitud HTTP, como GET, POST, PUT.",
+            "traduccion": "Actions defined by an HTTP request, such as GET, POST, PUT."},
+        "http_cookie": {
+            "categoria": ("Redes",),
+            "definicion": "Pequeño archivo que un servidor envía al navegador para almacenar información de usuario.",
+            "traduccion": "Small file sent by a server to the browser to store user information."},
+        "hash_algorithm": {
+            "categoria": ("Criptografía",),
+            "definicion": "Algoritmo usado para mapear datos de longitud variable a una longitud fija.",
+            "traduccion": "Algorithm used to map variable-length data to a fixed length."},
+        "hubs": {
+            "categoria": ("Redes",),
+            "definicion": "Dispositivo de red que conecta varios dispositivos en una red de área local.",
+            "traduccion": "Network device that connects multiple devices in a local area network."},
+        "http_timeout": {
+            "categoria": ("Redes",),
+            "definicion": "Tiempo de espera antes de que una solicitud HTTP sea considerada fallida.",
+            "traduccion": "Time limit before an HTTP request is considered to have failed."},
+        "hyperthreading": {
+            "categoria": ("Hardware",),
+            "definicion": "Tecnología que permite a un procesador ejecutar múltiples hilos simultáneamente.",
+            "traduccion": "Technology that allows a processor to run multiple threads simultaneously."},
+        "http_request_header": {
+            "categoria": ("Redes",),
+            "definicion": "Parte de una solicitud HTTP que contiene información adicional sobre la solicitud.",
+            "traduccion": "Part of an HTTP request that contains additional information about the request."},
+        "hashable_object": {
+            "categoria": ("Python",),
+            "definicion": "Objeto que puede ser usado como clave en un diccionario debido a su valor hash.",
+            "traduccion": "Object that can be used as a key in a dictionary due to its hash value."},
+        "http_error": {
+            "categoria": ("Redes",),
+            "definicion": "Error que ocurre durante la comunicación HTTP entre cliente y servidor.",
+            "traduccion": "Error that occurs during HTTP communication between client and server."},
+        "hard_drive": {
+            "categoria": ("Hardware",),
+            "definicion": "Dispositivo de almacenamiento de datos en formato magnético.",
+            "traduccion": "Data storage device in magnetic format."},
+        "hashmap_lookup": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Operación de búsqueda en una tabla hash.",
+            "traduccion": "Lookup operation in a hash table."},
+        "http_redirect_url": {
+            "categoria": ("Redes",),
+            "definicion": "URL a la que se redirige una solicitud HTTP.",
+            "traduccion": "URL to which an HTTP request is redirected."},
+        "http_response_status": {
+            "categoria": ("Redes",),
+            "definicion": "Código que indica el estado de una respuesta HTTP.",
+            "traduccion": "Code that indicates the status of an HTTP response."},
+        "hash_map_insert": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Operación para insertar una clave y un valor en una tabla hash.",
+            "traduccion": "Operation to insert a key and value into a hash table."},
+        "http_compression": {
+            "categoria": ("Redes",),
+            "definicion": "Técnica para reducir el tamaño de los datos transmitidos a través de HTTP.",
+            "traduccion": "Technique to reduce the size of data transmitted over HTTP."},
+        "http_method": {
+            "categoria": ("Redes",),
+            "definicion": "Método de solicitud en el protocolo HTTP, como GET, POST, PUT.",
+            "traduccion": "Request method in the HTTP protocol, such as GET, POST, PUT."},
+        "http_status_code": {
+            "categoria": ("Redes",),
+            "definicion": "Código que indica el resultado de una solicitud HTTP.",
+            "traduccion": "Code indicating the result of an HTTP request."},
+        "hash_function": {
+            "categoria": ("Criptografía",),
+            "definicion": "Función que mapea datos de entrada a un valor de longitud fija.",
+            "traduccion": "Function that maps input data to a fixed-length value."},
+        "http_resource": {
+            "categoria": ("Redes",),
+            "definicion": "Recurso al que se accede mediante HTTP, como una página web o archivo.",
+            "traduccion": "Resource accessed via HTTP, such as a webpage or file."},
+        "http_get": {
+            "categoria": ("Redes",),
+            "definicion": "Método HTTP usado para solicitar datos de un servidor.",
+            "traduccion": "HTTP method used to request data from a server."},
+        "hardware_interface": {
+            "categoria": ("Hardware",),
+            "definicion": "Conjunto de señales que permiten la comunicación entre un dispositivo y el hardware del sistema.",
+            "traduccion": "Set of signals that enable communication between a device and the system hardware."},
+        "http_head": {
+            "categoria": ("Redes",),
+            "definicion": "Método HTTP utilizado para obtener solo los encabezados de una respuesta.",
+            "traduccion": "HTTP method used to retrieve only the headers of a response."}},
     "i": {
         "import": {
             "definicion": "Incorpora un módulo externo al programa.",
