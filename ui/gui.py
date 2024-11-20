@@ -23,35 +23,36 @@ nombreNT = tk.StringVar
 # Funciones de Funcionalidades:
 # ------------------------------------------------------
 
+def FNeliminarTermino(event=None):#enNombreET
+    termino = enNombreET.get()
+    if verificarNombre(termino) == True:
 
-def FNlistarTerminos(event=None):
-    txtTerminosListados.configure(state="normal")
-    for i in "abcd":
-        txtTerminosListados.insert("1.0", f"{i}" )
-        for j in diccionario[i]:
-            txtTerminosListados.insert("1.0", f''' 
-  Termino: {j}
-  Definicion: {diccionario[i][j]["definicion"]}
-  Traduccion: {diccionario[i][j]["traduccion"]}
-  Categoria: {diccionario[i][j]["categoria"]}
-  ''')
+        datos = diccionario[termino[0]][termino]
+        txtConsoleE.configure(state="normal")
+        txtConsoleE.insert('1.0',f"""Termino: {termino}
+  Definicion: {diccionario[termino[0]][termino]["definicion"]}
+  Traduccion: {diccionario[termino[0]][termino]["traduccion"]}
+  Categoria: {diccionario[termino[0]][termino]["categoria"]}
+        el termino {termino} sera eliminado 
+
+        """)
+        txtConsoleE.configure(state='disabled')
+        del diccionario[termino[0]][termino]
+    else: 
+        txtConsoleE.configure(state='normal')
+        txtConsoleE.insert('1.0',f'''termino ,{termino} no lo encontramos escribelo bien ''')
+        txtConsoleE.configure(state='disable')    
+
+    
+    
 
 
-# Funcion agregar termino
-def FNagregarTermino(event=None):
+
+
+    
+
+def FNAgregarTermino(event=None):
     nombreNT = enNombreNT.get()
-    definicion = txtDefinicion.get()
-    Traduccion = txtTraduccion.get()
-    categoria = menuCategoria.get()
-
-    if verificarNombre(nombreNt) == False:
-        #Agregar los terminos al diccionario 
-        print("Aas")
-    else:
-         txtConsole.configure(state="normal")
-         txtConsole.insert("1.0",f"""termino existente""")
-        # escribir mensaje de termino incorrecto y volverlo a pedir hasta que verificarNombre sea == True
-         txtConsole.configure(state="disable")
 
 
     
@@ -411,9 +412,12 @@ tk.Label(
 ).pack(side="top",anchor="nw",padx=35,pady=(15,4))
 
 enNombreET = tk.Entry(menuEliminarTermino)
+enNombreET.bind("<Return>",FNeliminarTermino)
 enNombreET.pack(side="top", anchor="nw", padx=39, pady=4)
 
 txtConsoleE = tk.Text(menuEliminarTermino,width=75,height=10,wrap="word")
+txtConsoleE.configure(state="disabled")
+
 txtConsoleE.pack(side="top",anchor="nw",expand=False,fill=None,padx=39,pady=(4))
 
 # ------------------------------------------------------
