@@ -510,12 +510,12 @@ diccionario = {
             "definicion": "Devuelve el uso de espacio en disco de un directorio o disco (en shutil).",
             "traduccion": "Returns disk space usage of a directory or disk (in shutil)."},
        "datetime": {
-           "categoria": ("Fecha",),
-           "traduccion": "Class for manipulating dates and times.",
-           "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."
+            "categoria": ("Fecha",),
+            "traduccion": "Class for manipulating dates and times.",
+            "definicion": "Devuelve la diferencia entre dos o más conjuntos.",
         "difference": {
             "categoria": ("Método",),
-            "definicion": "Devuelve la diferencia entre dos o más conjuntos.",
+            "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."},
             "traduccion": "Returns the difference between two or more sets."},
         "disk_cache": {
             "categoria": ("Caché",),
@@ -2473,11 +2473,667 @@ diccionario = {
             "categoria": ("Estadísticas",),
             "definicion": "Modelo matemático utilizado para predecir una variable dependiente continua basándose en una o más variables independientes.",
             "traduccion": "Mathematical model used to predict a continuous dependent variable based on one or more independent variables."
-    "m": {},
 
-    "n": {},
+    "m": {
+        "map": {
+            "categoria": ("Programación",),
+            "definicion": "Función que aplica una operación a cada ítem de un iterable.",
+            "traduccion": "Function that applies an operation to each item of an iterable."},
+        "merge": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Operación que combina dos o más estructuras de datos.",
+            "traduccion": "Operation that combines two or more data structures."},
+        "memory_leak": {
+            "categoria": ("Optimización",),
+            "definicion": "Fallo en la gestión de memoria que provoca que un programa consuma más memoria de la necesaria.",
+            "traduccion": "Failure in memory management that causes a program to consume more memory than necessary."},
+        "mean": {
+            "categoria": ("Estadística",),
+            "definicion": "Promedio de un conjunto de números.",
+            "traduccion": "Average of a set of numbers."},
+        "machine_learning": {
+            "categoria": ("Inteligencia artificial",),
+            "definicion": "Subcampo de la inteligencia artificial que se enfoca en que las máquinas aprendan de los datos.",
+            "traduccion": "Subfield of artificial intelligence focused on machines learning from data."},
+        "model": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Representación matemática de un proceso basado en datos.",
+            "traduccion": "Mathematical representation of a process based on data."},
+        "momentum": {
+            "categoria": ("Física",),
+            "definicion": "Cantidad de movimiento de un objeto, producto de su masa y velocidad.",
+            "traduccion": "Quantity of motion of an object, product of its mass and velocity."},
+        "matrix": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Arreglo rectangular de números organizados en filas y columnas.",
+            "traduccion": "Rectangular arrangement of numbers organized into rows and columns."},
+        "merge_sort": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Algoritmo de ordenamiento basado en la técnica de divide y vencerás.",
+            "traduccion": "Sorting algorithm based on the divide and conquer technique."},
+        "modularization": {
+            "categoria": ("Desarrollo de software",),
+            "definicion": "División de un programa en módulos independientes para mejorar su mantenibilidad.",
+            "traduccion": "Division of a program into independent modules to improve maintainability."},
+        "multithreading": {
+            "categoria": ("Computación",),
+            "definicion": "Técnica de ejecución de múltiples hilos de ejecución simultáneamente.",
+            "traduccion": "Technique of executing multiple execution threads simultaneously."},
+        "mse": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Error cuadrático medio, medida de la diferencia entre los valores predichos y los valores reales.",
+            "traduccion": "Mean squared error, a measure of the difference between predicted and actual values."},
+        "minimax": {
+            "categoria": ("Teoría de juegos",),
+            "definicion": "Algoritmo utilizado en juegos para minimizar la posible ganancia del oponente.",
+            "traduccion": "Algorithm used in games to minimize the opponent's possible gain."},
+        "morphism": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Función matemática que preserva las estructuras entre dos objetos.",
+            "traduccion": "Mathematical function that preserves structures between two objects."},
+        "middleware": {
+            "categoria": ("Arquitectura de software",),
+            "definicion": "Capa de software que actúa como intermediaria entre aplicaciones y sistemas operativos.",
+            "traduccion": "Software layer that acts as an intermediary between applications and operating systems."},
+        "mean_absolute_error": {
+            "categoria": ("Estadística",),
+            "definicion": "Promedio de los valores absolutos de los errores de predicción.",
+            "traduccion": "Average of the absolute values of the prediction errors."},
+        "metric": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Función utilizada para medir la distancia entre dos puntos en un espacio métrico.",
+            "traduccion": "Function used to measure the distance between two points in a metric space."},
+        "monte_carlo_simulation": {
+            "categoria": ("Simulación",),
+            "definicion": "Método de simulación que utiliza la aleatorización para resolver problemas matemáticos.",
+            "traduccion": "Simulation method that uses randomization to solve mathematical problems."},
+        "minimum_spanning_tree": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Árbol con el menor peso que conecta todos los nodos de un grafo.",
+            "traduccion": "Tree with the least weight that connects all nodes in a graph."},
+        "maximum_likelihood": {
+            "categoria": ("Estadística",),
+            "definicion": "Método de estimación de parámetros que maximiza la probabilidad de observar los datos.",
+            "traduccion": "Parameter estimation method that maximizes the likelihood of observing the data."},
+        "model_accuracy": {
+            "categoria": ("Evaluación de modelos",),
+            "definicion": "Porcentaje de predicciones correctas realizadas por un modelo.",
+            "traduccion": "Percentage of correct predictions made by a model."},
+        "min": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Función que devuelve el valor mínimo de un conjunto de valores.",
+            "traduccion": "Function that returns the minimum value from a set of values."},
+        "multiprocessing": {
+            "categoria": ("Computación",),
+            "definicion": "Técnica que utiliza múltiples procesos en lugar de hilos para ejecutar tareas simultáneamente.",
+            "traduccion": "Technique that uses multiple processes instead of threads to execute tasks simultaneously."},
+        "modulus": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Operación matemática que devuelve el residuo de una división.",
+            "traduccion": "Mathematical operation that returns the remainder of a division."},
+        "machine_vision": {
+            "categoria": ("Visión artificial",),
+            "definicion": "Campo de la inteligencia artificial que permite a las máquinas interpretar imágenes y videos.",
+            "traduccion": "Field of artificial intelligence that enables machines to interpret images and videos."},
+        "monoid": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Estructura algebraica que tiene una operación binaria asociativa y un elemento neutro.",
+            "traduccion": "Algebraic structure with an associative binary operation and an identity element."},
+        "markov_chain": {
+            "categoria": ("Probabilidad",),
+            "definicion": "Modelo estocástico que describe sistemas cuya transición entre estados depende solo del estado anterior.",
+            "traduccion": "Stochastic model that describes systems where transitions between states depend only on the previous state."},
+        "mean_squared_error": {
+            "categoria": ("Evaluación de modelos",),
+            "definicion": "Promedio de los errores cuadráticos entre las predicciones y los valores reales.",
+            "traduccion": "Average of the squared errors between predictions and actual values."},
+        "memory_management": {
+            "categoria": ("Computación",),
+            "definicion": "Proceso de administrar el uso de la memoria en un sistema informático.",
+            "traduccion": "Process of managing the use of memory in a computer system."},
+        "matrix_multiplication": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Operación matemática que toma dos matrices y genera una nueva mediante el producto de sus elementos.",
+            "traduccion": "Mathematical operation that takes two matrices and produces a new one by multiplying their elements."},
+        "minimization": {
+            "categoria": ("Optimización",),
+            "definicion": "Proceso de encontrar el valor mínimo de una función o variable.",
+            "traduccion": "Process of finding the minimum value of a function or variable."},
+        "module": {
+            "categoria": ("Programación",),
+            "definicion": "Archivo de código que contiene definiciones y declaraciones de funciones y variables.",
+            "traduccion": "Code file that contains function and variable definitions and declarations."}
+        "mapping": {
+            "categoria": ("Programación",),
+            "definicion": "Proceso de asociar elementos de un conjunto con elementos de otro conjunto.",
+            "traduccion": "Process of associating elements from one set with elements from another set."},
+        "monadic": {
+            "categoria": ("Programación funcional",),
+            "definicion": "Tipo de estructura que permite la encapsulación de un valor junto con operaciones asociadas.",
+            "traduccion": "Type of structure that allows encapsulating a value along with associated operations."},
+        "mutability": {
+            "categoria": ("Programación",),
+            "definicion": "Propiedad de un objeto que permite cambiar su estado o contenido después de su creación.",
+            "traduccion": "Property of an object that allows changing its state or content after its creation."},
+        "manipulation": {
+            "categoria": ("Ciencias de la computación",),
+            "definicion": "Acción de alterar o modificar datos o estructuras de datos.",
+            "traduccion": "Action of altering or modifying data or data structures."},
+        "masking": {
+            "categoria": ("Seguridad",),
+            "definicion": "Técnica utilizada para ocultar información sensible mediante el reemplazo o cifrado.",
+            "traduccion": "Technique used to hide sensitive information through replacement or encryption."},
+        "multidimensional_array": {
+            "categoria": ("Programación",),
+            "definicion": "Estructura de datos que almacena elementos en más de una dimensión.",
+            "traduccion": "Data structure that stores elements in more than one dimension."},
+        "merge_sort": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Algoritmo de ordenación que divide la lista en dos mitades y las combina ordenadamente.",
+            "traduccion": "Sorting algorithm that divides the list into two halves and merges them in sorted order."},
+        "mapreduce": {
+            "categoria": ("Procesamiento de datos",),
+            "definicion": "Modelo de programación para procesar grandes cantidades de datos de manera paralela.",
+            "traduccion": "Programming model for processing large amounts of data in parallel."},
+        "monad": {
+            "categoria": ("Programación funcional",),
+            "definicion": "Abstracción para representar operaciones secuenciales.",
+            "traduccion": "Abstraction to represent sequential operations."},
+        "method_overloading": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Técnica que permite definir múltiples métodos con el mismo nombre pero con diferentes parámetros.",
+            "traduccion": "Technique that allows defining multiple methods with the same name but different parameters."},
+        "mutable": {
+            "categoria": ("Programación",),
+            "definicion": "Propiedad de un objeto que puede ser modificado después de su creación.",
+            "traduccion": "Property of an object that can be modified after its creation."},
+        "multithreaded": {
+            "categoria": ("Programación",),
+            "definicion": "Capacidad de un sistema para ejecutar múltiples hilos de ejecución de manera concurrente.",
+            "traduccion": "Ability of a system to execute multiple threads concurrently."},
+        "max_heap": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Tipo de estructura de árbol donde el valor de cada nodo es mayor o igual que el de sus hijos.",
+            "traduccion": "Type of tree structure where each node's value is greater than or equal to its children's values."},
+        "min_heap": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Estructura de árbol donde el valor de cada nodo es menor o igual que el de sus hijos.",
+            "traduccion": "Tree structure where each node's value is less than or equal to its children's values."},
+        "method": {
+            "categoria": ("Programación",),
+            "definicion": "Función definida dentro de una clase, que actúa sobre los objetos de esa clase.",
+            "traduccion": "Function defined inside a class, acting on objects of that class."},
+        "monoid": {
+            "categoria": ("Teoría de grupos",),
+            "definicion": "Estructura algebraica con una operación binaria asociativa y un elemento neutro.",
+            "traduccion": "Algebraic structure with an associative binary operation and an identity element."},
+        "memory_management_unit": {
+            "categoria": ("Computación",),
+            "definicion": "Componente de hardware que gestiona la memoria del sistema.",
+            "traduccion": "Hardware component that manages the system's memory."},
+        "mvp": {
+            "categoria": ("Desarrollo de software",),
+            "definicion": "Producto mínimo viable, versión inicial de un producto con características básicas.",
+            "traduccion": "Minimum viable product, initial version of a product with basic features."},
+        "map": {
+            "categoria": ("Programación",),
+            "definicion": "Función que aplica una operación a cada ítem de un iterable.",
+            "traduccion": "Function that applies an operation to each item of an iterable."},
+        "markup_language": {
+            "categoria": ("Lenguajes de programación",),
+            "definicion": "Lenguaje de programación utilizado para estructurar y presentar documentos.",
+            "traduccion": "Programming language used to structure and present documents."},
+        "monolithic": {
+            "categoria": ("Arquitectura de software",),
+            "definicion": "Estilo de arquitectura de software en el que todos los componentes están interrelacionados.",
+            "traduccion": "Software architecture style where all components are interrelated."},
+        "memory_block": {
+            "categoria": ("Gestión de memoria",),
+            "definicion": "Porción de memoria reservada para el almacenamiento de datos.",
+            "traduccion": "Portion of memory reserved for data storage."},
+        "multimodal": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Enfoque que utiliza múltiples tipos de datos o modalidades para mejorar el rendimiento de un modelo.",
+            "traduccion": "Approach that uses multiple types of data or modalities to improve model performance."},
+        "message_queue": {
+            "categoria": ("Sistemas distribuidos",),
+            "definicion": "Estructura de datos utilizada para almacenar y transmitir mensajes entre sistemas o procesos.",
+            "traduccion": "Data structure used to store and transmit messages between systems or processes."},
+        "mse": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Error cuadrático medio, medida de la diferencia entre los valores predichos y los valores reales.",
+            "traduccion": "Mean squared error, a measure of the difference between predicted and actual values."},
+        "mean_absolute_error": {
+            "categoria": ("Estadísticas",),
+            "definicion": "Promedio de los valores absolutos de los errores de predicción.",
+            "traduccion": "Average of the absolute values of the prediction errors."},
+        "matrix_factorization": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Método de descomposición de matrices utilizado para recomendar productos o servicios.",
+            "traduccion": "Matrix decomposition method used to recommend products or services."},
+        "multiprocessing": {
+            "categoria": ("Computación",),
+            "definicion": "Técnica que utiliza múltiples procesos en lugar de hilos para ejecutar tareas simultáneamente.",
+            "traduccion": "Technique that uses multiple processes instead of threads to execute tasks simultaneously."},
+        "maximum_likelihood_estimation": {
+            "categoria": ("Estadística",),
+            "definicion": "Método utilizado para estimar los parámetros de un modelo de probabilidades.",
+            "traduccion": "Method used to estimate the parameters of a probability model."},
+        "minimum_spanning_tree": {
+            "categoria": ("Teoría de grafos",),
+            "definicion": "Árbol de un grafo que conecta todos los nodos con el menor peso posible.",
+            "traduccion": "Tree of a graph that connects all nodes with the least possible weight."},
+        "markup": {
+            "categoria": ("Lenguajes de programación",),
+            "definicion": "Lenguaje que utiliza etiquetas para definir la estructura y presentación de los documentos.",
+            "traduccion": "Language that uses tags to define the structure and presentation of documents."},
+        "median": {
+            "categoria": ("Estadísticas",),
+            "definicion": "Valor que separa los datos en dos mitades iguales en un conjunto ordenado.",
+            "traduccion": "Value that separates data into two equal halves in an ordered set."},
+        "modular_programming": {
+            "categoria": ("Programación",),
+            "definicion": "Enfoque que divide un programa en módulos más pequeños y manejables.",
+            "traduccion": "Approach that divides a program into smaller, manageable modules."},
+        "model_training": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Proceso de enseñar a un modelo de máquina a realizar predicciones a partir de datos.",
+            "traduccion": "Process of teaching a machine model to make predictions from data."},
+        "monitor": {
+            "categoria": ("Hardware",),
+            "definicion": "Dispositivo de salida que muestra imágenes o información de una computadora.",
+            "traduccion": "Output device that displays images or information from a computer."},
+        "memory_leak": {
+            "categoria": ("Programación",),
+            "definicion": "Error en el que un programa no libera la memoria que ya no utiliza, causando un consumo excesivo.",
+            "traduccion": "Error in which a program does not release memory it no longer uses, causing excessive consumption."},
+        "markov_chain": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Modelo matemático que describe una secuencia de eventos en la que la probabilidad de cada evento depende solo del estado anterior.",
+
+    "n": {
+        "neural_network": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Modelo computacional inspirado en el cerebro humano, compuesto por neuronas artificiales interconectadas.",
+            "traduccion": "Computational model inspired by the human brain, consisting of interconnected artificial neurons."},
+        "naive_bayes": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Algoritmo de clasificación basado en el teorema de Bayes, que asume que las características son independientes.",
+            "traduccion": "Classification algorithm based on Bayes' theorem, assuming that features are independent."},
+        "numpy": {
+            "categoria": ("Programación",),
+            "definicion": "Biblioteca de Python para computación numérica, que soporta arreglos multidimensionales.",
+            "traduccion": "Python library for numerical computation, supporting multidimensional arrays."},
+        "node": {
+            "categoria": ("Redes",),
+            "definicion": "Unidad de procesamiento o comunicación dentro de una red.",
+            "traduccion": "Processing or communication unit within a network."},
+        "nms": {
+            "categoria": ("Visión por computadora",),
+            "definicion": "Método para reducir la cantidad de detecciones de objetos solapadas en imágenes.",
+            "traduccion": "Method for reducing overlapping object detections in images."},
+        "nearest_neighbor": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Método de clasificación que asigna una etiqueta basada en el vecino más cercano de un punto de datos.",
+            "traduccion": "Classification method that assigns a label based on the nearest neighbor of a data point."},
+        "network_topology": {
+            "categoria": ("Redes",),
+            "definicion": "Configuración física o lógica de los elementos de una red.",
+            "traduccion": "Physical or logical configuration of the elements in a network."},
+        "normalization": {
+            "categoria": ("Procesamiento de datos",),
+            "definicion": "Proceso de ajustar los valores de datos para que estén en un rango común.",
+            "traduccion": "Process of adjusting data values to be within a common range."},
+        "naive_bayes_classifier": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Clasificador probabilístico que aplica el teorema de Bayes con la suposición de independencia condicional entre las características.",
+            "traduccion": "Probabilistic classifier applying Bayes' theorem with the assumption of conditional independence among features."},
+        "newton_raphson_method": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Método iterativo para encontrar raíces de una función mediante aproximaciones sucesivas.",
+            "traduccion": "Iterative method for finding the roots of a function using successive approximations."},
+        "named_entity_recognition": {
+            "categoria": ("Procesamiento de lenguaje natural",),
+            "definicion": "Tarea de identificar entidades nombradas en un texto, como nombres de personas, lugares o fechas.",
+            "traduccion": "Task of identifying named entities in text, such as names of people, places, or dates."},
+        "neuron": {
+            "categoria": ("Redes neuronales",),
+            "definicion": "Unidad básica de una red neuronal artificial, que recibe entradas y produce salidas.",
+            "traduccion": "Basic unit of an artificial neural network, receiving inputs and producing outputs."},
+        "node_classification": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Tarea de asignar etiquetas a los nodos en un grafo según sus características o contexto.",
+            "traduccion": "Task of assigning labels to nodes in a graph based on their features or context."},
+        "natural_language_processing": {
+            "categoria": ("Inteligencia artificial",),
+            "definicion": "Campo de estudio que se ocupa de la interacción entre las computadoras y el lenguaje humano.",
+            "traduccion": "Field of study concerned with the interaction between computers and human language."},
+        "nearest_neighbors_algorithm": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Algoritmo que asigna una categoría a un punto basándose en los puntos más cercanos en el espacio de características.",
+            "traduccion": "Algorithm that assigns a category to a point based on the nearest points in the feature space."},
+        "null_hypothesis": {
+            "categoria": ("Estadística",),
+            "definicion": "Hipótesis que propone que no hay efecto o diferencia entre grupos en un experimento.",
+            "traduccion": "Hypothesis proposing that there is no effect or difference between groups in an experiment."},
+        "neural_network_training": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Proceso de ajustar los pesos de las neuronas de una red neuronal a través de un conjunto de datos de entrenamiento.",
+            "traduccion": "Process of adjusting the weights of neurons in a neural network through a training dataset."},
+        "norm": {
+            "categoria": ("Álgebra lineal",),
+            "definicion": "Medida de la magnitud o tamaño de un vector en el espacio.",
+            "traduccion": "Measure of the magnitude or size of a vector in space."},
+        "natural_gradient": {
+            "categoria": ("Optimización",),
+            "definicion": "Método de optimización que utiliza la información de la geometría del espacio de parámetros del modelo.",
+            "traduccion": "Optimization method that uses the information from the geometry of the model's parameter space."},
+        "negative_log_likelihood": {
+            "categoria": ("Estadística",),
+            "definicion": "Función de pérdida que se utiliza para medir la discrepancia entre un modelo probabilístico y los datos observados.",
+            "traduccion": "Loss function used to measure the discrepancy between a probabilistic model and observed data."},
+        "nearest_neighbor_search": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Técnica utilizada para encontrar el punto más cercano en un conjunto de datos dado.",
+            "traduccion": "Technique used to find the nearest point in a given dataset."},
+        "neural_network_model": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Modelo basado en redes neuronales que se utiliza para la clasificación o regresión de datos.",
+            "traduccion": "Model based on neural networks used for data classification or regression."},
+        "naive_bayes_classifier": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Clasificador probabilístico basado en el teorema de Bayes, que asume independencia entre las características.",
+            "traduccion": "Probabilistic classifier based on Bayes' theorem, assuming independence between features."},
+        "natural_language_understanding": {
+            "categoria": ("Procesamiento de lenguaje natural",),
+            "definicion": "Tecnología que permite a las máquinas comprender el significado del lenguaje humano.",
+            "traduccion": "Technology that enables machines to understand the meaning of human language."},
+        "naive_bayes_theorem": {
+            "categoria": ("Estadística",),
+            "definicion": "Teorema que establece que las características de un conjunto de datos pueden ser consideradas como independientes para la clasificación.",
+            "traduccion": "Theorem that states that the features of a dataset can be considered as independent for classification."},
+        "non_linear_regression": {
+            "categoria": ("Estadística",),
+            "definicion": "Técnica de regresión utilizada cuando la relación entre las variables independientes y dependientes no es lineal.",
+            "traduccion": "Regression technique used when the relationship between independent and dependent variables is non-linear."},
+        "neural_network_layer": {
+            "categoria": ("Redes neuronales",),
+            "definicion": "Conjunto de neuronas en una red neuronal que realiza una operación específica sobre las entradas.",
+            "traduccion": "Set of neurons in a neural network that performs a specific operation on the inputs."},
+        "numeric_integration": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Método para aproximar el valor de una integral mediante cálculos numéricos.",
+            "traduccion": "Method for approximating the value of an integral using numerical calculations."},
+        "network_security": {
+            "categoria": ("Seguridad informática",),
+            "definicion": "Prácticas y tecnologías para proteger una red de comunicaciones de accesos no autorizados o ataques.",
+            "traduccion": "Practices and technologies for protecting a communication network from unauthorized access or attacks."},
+        "neural_network_weights": {
+            "categoria": ("Redes neuronales",),
+            "definicion": "Parámetros ajustables en una red neuronal que determinan la importancia de las entradas.",
+            "traduccion": "Adjustable parameters in a neural network that determine the importance of inputs."},
+        "normal_distribution": {
+            "categoria": ("Estadística",),
+            "definicion": "Distribución de probabilidad que tiene una forma de campana, caracterizada por la media y la desviación estándar.",
+            "traduccion": "Probability distribution shaped like a bell, characterized by the mean and standard deviation."}
+        "nested_loops": {
+            "categoria": ("Programación",),
+            "definicion": "Estructura de control en la que se coloca un bucle dentro de otro.",
+            "traduccion": "Control structure in which one loop is placed inside another."},
+        "null_pointer": {
+            "categoria": ("Programación",),
+            "definicion": "Puntero que no apunta a ninguna dirección válida de memoria.",
+            "traduccion": "Pointer that does not point to any valid memory address."},
+        "negative_binomial_distribution": {
+            "categoria": ("Estadística",),
+            "definicion": "Distribución de probabilidad que describe el número de ensayos necesarios para obtener un número fijo de éxitos.",
+            "traduccion": "Probability distribution that describes the number of trials needed to achieve a fixed number of successes."},
+        "non_euclidean_geometry": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Geometría que se desvía de las postulaciones de la geometría euclidiana, como en la geometría hiperbólica.",
+            "traduccion": "Geometry that deviates from Euclidean geometry postulates, such as in hyperbolic geometry."},
+        "nash_equilibrium": {
+            "categoria": ("Teoría de juegos",),
+            "definicion": "Situación en la que ninguno de los jugadores puede mejorar su situación eligiendo una estrategia diferente.",
+            "traduccion": "Situation in which no player can improve their situation by choosing a different strategy."},
+        "natural_sort_order": {
+            "categoria": ("Computación",),
+            "definicion": "Método de ordenar cadenas que tiene en cuenta el valor numérico de los números dentro de las cadenas.",
+            "traduccion": "Method of sorting strings that takes into account the numeric value of numbers within the strings."},
+        "networks": {
+            "categoria": ("Redes",),
+            "definicion": "Conjunto de dispositivos conectados entre sí para compartir información o recursos.",
+            "traduccion": "Set of devices connected to each other to share information or resources."},
+        "node.js": {
+            "categoria": ("Programación",),
+            "definicion": "Entorno de ejecución para JavaScript en el servidor, basado en el motor V8 de Google.",
+            "traduccion": "Runtime environment for JavaScript on the server, based on Google's V8 engine."},
+        "normal_equation": {
+            "categoria": ("Estadística",),
+            "definicion": "Método utilizado para encontrar los coeficientes de un modelo de regresión lineal sin recurrir al algoritmo de optimización.",
+            "traduccion": "Method used to find the coefficients of a linear regression model without resorting to optimization algorithms."},
+        "nonlinear_activation_function": {
+            "categoria": ("Redes neuronales",),
+            "definicion": "Función utilizada en redes neuronales que introduce no linealidad, como la sigmoide o ReLU.",
+            "traduccion": "Function used in neural networks that introduces non-linearity, such as sigmoid or ReLU."},
+        "negative_logarithm": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Valor opuesto al logaritmo de un número, utilizado en diversas transformaciones matemáticas.",
+            "traduccion": "Opposite value of the logarithm of a number, used in various mathematical transformations."},
+        "naive_bayes_classifier": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Modelo probabilístico que se basa en el teorema de Bayes para la clasificación, asumiendo independencia entre características.",
+            "traduccion": "Probabilistic model based on Bayes' theorem for classification, assuming independence between features."},
+        "natural_language_understanding": {
+            "categoria": ("Inteligencia artificial",),
+            "definicion": "Capacidad de las máquinas para comprender y procesar el lenguaje humano en un contexto significativo.",
+            "traduccion": "The ability of machines to understand and process human language in a meaningful context."},
+        "neural_network_architecture": {
+            "categoria": ("Redes neuronales",),
+            "definicion": "Diseño de la estructura de una red neuronal, que incluye el número de capas y las conexiones entre ellas.",
+            "traduccion": "Design of a neural network structure, including the number of layers and the connections between them."},
+        "nested_function": {
+            "categoria": ("Programación",),
+            "definicion": "Función definida dentro de otra función.",
+            "traduccion": "Function defined within another function."},
+        "null_termination": {
+            "categoria": ("Programación",),
+            "definicion": "Técnica de programación que termina una cadena de texto con un valor nulo, como el carácter '\0' en C.",
+            "traduccion": "Programming technique that terminates a string with a null value, like the '\0' character in C."},
+        "network_latency": {
+            "categoria": ("Redes",),
+            "definicion": "Tiempo que tarda un paquete de datos en viajar desde su origen hasta su destino a través de una red.",
+            "traduccion": "Time it takes for a data packet to travel from its source to its destination across a network."},
+        "newton_method": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Método iterativo utilizado para aproximar las raíces de una función.",
+            "traduccion": "Iterative method used to approximate the roots of a function."},
+        "nondeterministic_algorithm": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Algoritmo cuyo comportamiento puede variar con el mismo conjunto de entradas debido a la aleatoriedad o el orden de ejecución.",
+            "traduccion": "Algorithm whose behavior can vary with the same input set due to randomness or execution order."},
+        "null_hypothesis": {
+            "categoria": ("Estadística",),
+            "definicion": "Hipótesis que establece que no existe ninguna relación o efecto en los datos estudiados.",
+            "traduccion": "Hypothesis stating that there is no relationship or effect in the studied data."},
+        "negative_feedback": {
+            "categoria": ("Control",),
+            "definicion": "Proceso en el que la salida de un sistema disminuye el impacto de la entrada para mantener la estabilidad.",
+            "traduccion": "Process in which the output of a system reduces the impact of the input to maintain stability."},
+        "non_parametric_statistic": {
+            "categoria": ("Estadística",),
+            "definicion": "Método estadístico que no asume una distribución específica para los datos.",
+            "traduccion": "Statistical method that does not assume a specific distribution for the data."},
+        "non_stationary_signal": {
+            "categoria": ("Procesamiento de señales",),
+            "definicion": "Señal cuyo comportamiento cambia con el tiempo y no tiene propiedades constantes.",
+            "traduccion": "Signal whose behavior changes over time and does not have constant properties."},
+        "numba": {
+            "categoria": ("Programación",),
+            "definicion": "Compilador JIT para Python que permite la aceleración de código numérico mediante el uso de la CPU.",
+            "traduccion": "JIT compiler for Python that allows acceleration of numerical code using the CPU."},
+        "naive_bayes_model": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Modelo que utiliza el teorema de Bayes para la clasificación de datos, considerando la independencia entre las características.",
+            "traduccion": "Model that uses Bayes' theorem for data classification, assuming independence among features."},
+        "neural_network_training": {
+            "categoria": ("Redes neuronales",),
+            "definicion": "Proceso de ajuste de los pesos de las conexiones en una red neuronal utilizando un conjunto de datos.",
+            "traduccion": "Process of adjusting the weights of connections in a neural network using a dataset."},
+        "numeric_integration": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Método para aproximar el valor de una integral mediante cálculos numéricos.",
+            "traduccion": "Method to approximate the value of an integral using numerical calculations."},
+        "neuron_network_weights": {
+            "categoria": ("Redes neuronales",),
+            "definicion": "Parámetros ajustables en una red neuronal que determinan la importancia de las entradas.",
+            "traduccion": "Adjustable parameters in a neural network that determine the importance of inputs."},
+        "naive_bayes_classifier": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Clasificador probabilístico basado en el teorema de Bayes, que asume independencia entre las características.",
+            "traduccion": "Probabilistic classifier based on Bayes' theorem, assuming independence between features."}
     
-    "o": {},
+        "numpy": {
+            "categoria": ("Programación",),
+            "definicion": "Biblioteca de Python para realizar cálculos numéricos y operaciones con matrices.",
+            "traduccion": "Python library for numerical calculations and operations with arrays."},
+        "nested_list": {
+            "categoria": ("Estructura de datos",),
+            "definicion": "Una lista que contiene otras listas como elementos.",
+            "traduccion": "A list that contains other lists as elements."},
+        "notebook": {
+            "categoria": ("Programación",),
+            "definicion": "Entorno interactivo que permite escribir y ejecutar código, visualizar resultados y documentar procesos.",
+            "traduccion": "Interactive environment that allows writing and running code, visualizing results, and documenting processes."},
+        "name_scope": {
+            "categoria": ("Programación",),
+            "definicion": "Especifica el contexto o el alcance en el que se definen las variables.",
+            "traduccion": "Specifies the context or scope in which variables are defined."},
+        "named_tuple": {
+            "categoria": ("Estructura de datos",),
+            "definicion": "Clase para crear objetos que son accesibles tanto por nombre como por índice.",
+            "traduccion": "Class to create objects that are accessible both by name and index."},
+        "netstat": {
+            "categoria": ("Redes",),
+            "definicion": "Herramienta de red que muestra las conexiones de red, las tablas de enrutamiento y las estadísticas de la interfaz.",
+            "traduccion": "Network tool that shows network connections, routing tables, and interface statistics."},
+        "null": {
+            "categoria": ("Tipos de datos",),
+            "definicion": "Valor especial que representa la ausencia de valor o un valor nulo.",
+            "traduccion": "Special value representing the absence of value or a null value."},
+        "normalize": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Ajuste de los valores de un conjunto de datos para que se ubiquen dentro de un rango específico.",
+            "traduccion": "Adjusting the values of a data set so that they fit within a specific range."},
+        "next": {
+            "categoria": ("Funciones",),
+            "definicion": "Devuelve el siguiente valor de un iterador.",
+            "traduccion": "Returns the next value of an iterator."},
+        "new": {
+            "categoria": ("Funciones",),
+            "definicion": "Crea un nuevo objeto de una clase en Python.",
+            "traduccion": "Creates a new object of a class in Python."},
+        "negation": {
+            "categoria": ("Operadores",),
+            "definicion": "Operador lógico que invierte el valor de una expresión booleana.",
+            "traduccion": "Logical operator that inverts the value of a boolean expression."},
+        "numpy_array": {
+            "categoria": ("Estructura de datos",),
+            "definicion": "Estructura de datos en forma de matriz multidimensional que permite realizar operaciones matemáticas eficientemente.",
+            "traduccion": "Data structure in the form of a multidimensional array that allows performing mathematical operations efficiently."},
+        "not": {
+            "categoria": ("Operadores",),
+            "definicion": "Operador lógico que invierte el valor de una expresión booleana.",
+            "traduccion": "Logical operator that inverts the value of a boolean expression."},
+        "none": {
+            "categoria": ("Tipos de datos",),
+            "definicion": "Valor especial que representa la ausencia de un valor o un valor nulo.",
+            "traduccion": "Special value representing the absence of a value or a null value."},
+        "numpy_dot": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Función de NumPy que calcula el producto escalar entre dos arrays.",
+            "traduccion": "NumPy function that computes the dot product between two arrays."},
+        "nmap": {
+            "categoria": ("Redes",),
+            "definicion": "Herramienta de análisis de redes utilizada para descubrir servicios y dispositivos en una red.",
+            "traduccion": "Network analysis tool used to discover services and devices on a network."},
+        "namedtuple": {
+            "categoria": ("Estructura de datos",),
+            "definicion": "Clase para crear tuplas con nombres para cada campo.",
+            "traduccion": "Class for creating tuples with names for each field."},
+        "naive_bayes": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Algoritmo de clasificación basado en el teorema de Bayes con independencia entre las características.",
+            "traduccion": "Classification algorithm based on Bayes' theorem with independence between features."},
+        "numpy_random": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Módulo de NumPy para generar números aleatorios en Python.",
+            "traduccion": "NumPy module for generating random numbers in Python."},
+        "networkx": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Biblioteca de Python para la creación, manipulación y estudio de estructuras de grafos y redes.",
+            "traduccion": "Python library for the creation, manipulation, and study of graph and network structures."},
+        "numexpr": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Biblioteca que permite la evaluación rápida de expresiones numéricas en Python.",
+            "traduccion": "Library that allows fast evaluation of numerical expressions in Python."},
+        "null_pointer": {
+            "categoria": ("Errores",),
+            "definicion": "Referencia a un valor nulo o inexistente en el código.",
+            "traduccion": "Reference to a null or nonexistent value in code."},
+        "nonlocal": {
+            "categoria": ("Funciones",),
+            "definicion": "Palabra clave que se utiliza para declarar una variable que no pertenece al ámbito local o global.",
+            "traduccion": "Keyword used to declare a variable that does not belong to the local or global scope."},
+        "numpy_shape": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Función de NumPy que devuelve las dimensiones de un array.",
+            "traduccion": "NumPy function that returns the dimensions of an array."},
+        "numpy_sort": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Función de NumPy para ordenar los elementos de un array.",
+            "traduccion": "NumPy function for sorting the elements of an array."},
+        "numpy_std": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Función de NumPy que calcula la desviación estándar de un array.",
+            "traduccion": "NumPy function that calculates the standard deviation of an array."},
+        "numpy_sum": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Función de NumPy que calcula la suma de los elementos de un array.",
+            "traduccion": "NumPy function that calculates the sum of the elements of an array."},
+        "numpy_t": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Función de NumPy que devuelve la transpuesta de una matriz.",
+            "traduccion": "NumPy function that returns the transpose of a matrix."},
+        "nltk": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Biblioteca de Python para el procesamiento del lenguaje natural.",
+            "traduccion": "Python library for natural language processing."},
+        "numba": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Biblioteca de Python para acelerar las funciones numéricas con compilación en tiempo de ejecución.",
+            "traduccion": "Python library to accelerate numerical functions with runtime compilation."},
+        "numpy_inner": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Función de NumPy que calcula el producto interno entre dos arrays.",
+            "traduccion": "NumPy function that calculates the inner product between two arrays."},
+        "network_configuration": {
+            "categoria": ("Redes",),
+            "definicion": "Proceso de configuración de dispositivos de red para permitir la comunicación entre ellos.",
+            "traduccion": "Process of configuring network devices to enable communication between them."},
+        "namespace": {
+            "categoria": ("Funciones",),
+            "definicion": "Contenedor que almacena un conjunto de identificadores para evitar conflictos de nombres en el código.",
+            "traduccion": "Container that stores a set of identifiers to prevent name conflicts in code."},
+        "neg_log_likelihood": {
+            "categoria": ("Estadística",),
+            "definicion": "Medida utilizada para evaluar la probabilidad de un conjunto de datos bajo un modelo.",
+            "traduccion": "Measure used to evaluate the likelihood of a data set under a model."},
+        "numpy_mean": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Función de NumPy que calcula la media de los elementos de un array.",
+            "traduccion": "NumPy function that calculates the mean of the elements of an array."}
+        "o": {},
 
     "p": {"pop": {"definicion": "Elimina y devuelve el último elemento de una lista.", "traduccion": "Removes and returns the last element of a list."}},
 
