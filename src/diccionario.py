@@ -515,7 +515,7 @@ diccionario = {
        "datetime": {
            "categoria": ("Fecha",),
            "traduccion": "Class for manipulating dates and times.",
-           "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."
+           "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."},
         "difference": {
             "categoria": ("Método",),
             "definicion": "Devuelve la diferencia entre dos o más conjuntos.",
@@ -524,7 +524,6 @@ diccionario = {
             "categoria": ("Caché",),
             "definicion": "Caché que almacena temporalmente datos en el disco.",
             "traduccion": "Cache that temporarily stores data on disk."}},
-    
     "e":{
         "enumerate": {
             "categoria": ("Manipulación de iterables",),
@@ -1013,7 +1012,7 @@ diccionario = {
         "greatest_common_divisor": {
             "categoria": ("Matemáticas",),
             "definicion": "Devuelve el máximo común divisor de dos números.",
-            "traduccion": "Returns the greatest common divisor of two numbers."}
+            "traduccion": "Returns the greatest common divisor of two numbers."},
         "generate_token": {
             "categoria": ("Seguridad",),
             "definicion": "Genera un token de autenticación único.",
@@ -1170,7 +1169,6 @@ diccionario = {
             "categoria": ("Estructuras de datos",),
             "definicion": "Crea un esquema JSON para validar datos.",
             "traduccion": "Generates a JSON schema for data validation."}},
-    
     "h": {
         "hash": {
             "categoria": ("Matemáticas",),
@@ -1531,8 +1529,7 @@ diccionario = {
             "traduccion": "Set of signals that enable communication between a device and the system hardware."},
         "http_head": {
             "categoria": ("Redes",),
-            "definicion": "Método HTTP utilizado para obtener solo los encabezados de una respuesta.",
-
+            "definicion": "Método HTTP utilizado para obtener solo los encabezados de una respuesta.",}},
     "i": {
         "immutable": {
             "categoria": ("Python",),
@@ -1689,7 +1686,7 @@ diccionario = {
         "inbox": {
             "categoria": ("Redes",),
             "definicion": "Carpeta de entrada de un sistema de correo electrónico.",
-            "traduccion": "Inbox folder of an email system."}
+            "traduccion": "Inbox folder of an email system."},
         "invisible": {
             "categoria": ("Programación",),
             "definicion": "Propiedad de un objeto que no es visible en la interfaz del usuario.",
