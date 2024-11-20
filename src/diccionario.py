@@ -1532,320 +1532,320 @@ diccionario = {
         "http_head": {
             "categoria": ("Redes",),
             "definicion": "Método HTTP utilizado para obtener solo los encabezados de una respuesta.",
-            "traduccion": "HTTP method used to retrieve only the headers of a response."}},
+
     "i": {
-        "import": {
-            "definicion": "Incorpora un módulo externo al programa.",
-            "traduccion": "Imports an external module into the program."},
-        "int": {
-            "definicion": "Convierte un valor en un número entero.",
-            "traduccion": "Converts a value to an integer."},
-        "input": {
-            "definicion": "Captura datos ingresados por el usuario.",
-            "traduccion": "Captures data entered by the user."},
-        "isinstance": {
-            "definicion": "Verifica si un objeto es instancia de una clase.",
-            "traduccion": "Checks if an object is an instance of a class."},
-        "issubclass": {
-            "definicion": "Comprueba si una clase es subclase de otra.",
-            "traduccion": "Checks if a class is a subclass of another."},
+        "immutable": {
+            "categoria": ("Python",),
+            "definicion": "Objeto cuya información no puede ser modificada después de ser creado.",
+            "traduccion": "Object whose information cannot be modified after creation."},
         "index": {
-            "definicion": "Obtiene el índice de un elemento en una lista.",
-            "traduccion": "Gets the index of an element in a list."},
-        "insert": {
-            "definicion": "Inserta un elemento en una posición específica en una lista.",
-            "traduccion": "Inserts an element at a specific position in a list."},
-        "isalpha": {
-            "definicion": "Comprueba si una cadena contiene solo letras.",
-            "traduccion": "Checks if a string contains only alphabetic characters."},
-        "isdigit": {
-            "definicion": "Verifica si una cadena contiene solo dígitos.",
-            "traduccion": "Checks if a string contains only digits."},
-        "isdecimal": {
-            "definicion": "Comprueba si una cadena contiene caracteres decimales.",
-            "traduccion": "Checks if a string contains decimal characters."},
-        "isnumeric": {
-            "definicion": "Determina si una cadena es numérica.",
-            "traduccion": "Determines if a string is numeric."},
-        "isidentifier": {
-            "definicion": "Verifica si una cadena es un identificador válido.",
-            "traduccion": "Checks if a string is a valid identifier."},
-        "isprintable": {
-            "definicion": "Comprueba si una cadena contiene caracteres imprimibles.",
-            "traduccion": "Checks if a string contains printable characters."},
-        "isspace": {
-            "definicion": "Verifica si una cadena contiene solo espacios en blanco.",
-            "traduccion": "Checks if a string contains only whitespace."},
-        "iter": {
-            "definicion": "Devuelve un iterador de un objeto.",
-            "traduccion": "Returns an iterator from an object."},
-        "isclose": {
-            "definicion": "Comprueba si dos números están cerca en valor.",
-            "traduccion": "Checks if two numbers are close in value."},
-        "isinf": {
-            "definicion": "Verifica si un número es infinito.",
-            "traduccion": "Checks if a number is infinite."},
-        "isnan": {
-            "definicion": "Determina si un valor es NaN (Not a Number).",
-            "traduccion": "Determines if a value is NaN (Not a Number)."},
-        "identity_matrix": {
-            "definicion": "Matriz con 1s en su diagonal principal y 0s en el resto.",
-            "traduccion": "Matrix with 1s on its main diagonal and 0s elsewhere."},
-        "invert": {
-            "definicion": "Invierte los valores o el orden de un objeto.",
-            "traduccion": "Inverts the values or order of an object."},
-        "islice": {
-            "definicion": "Permite cortar iterables de manera eficiente.",
-            "traduccion": "Efficiently slices iterables."},
-        "imag": {
-            "definicion": "Obtiene la parte imaginaria de un número complejo.",
-            "traduccion": "Gets the imaginary part of a complex number."},
-        "imap": {
-            "definicion": "Función para aplicar una función a cada elemento de un iterable.",
-            "traduccion": "Applies a function to each item in an iterable."},
-        "initial": {
-            "definicion": "Estado o valor inicial de una variable o proceso.",
-            "traduccion": "Initial state or value of a variable or process."},
-        "inverse_transform": {
-            "definicion": "Transformación inversa aplicada a datos.",
-            "traduccion": "Inverse transformation applied to data."},
-        "init_method": {
-            "definicion": "Método especial que inicializa instancias de una clase.",
-            "traduccion": "Special method that initializes class instances."},
-        "init_process": {
-            "definicion": "Proceso de inicialización en programación.",
-            "traduccion": "Initialization process in programming."},
-        "inf": {
-            "definicion": "Constante que representa el infinito.",
-            "traduccion": "Constant representing infinity."},
-        "inspect": {
-            "definicion": "Permite inspeccionar objetos en Python.",
-            "traduccion": "Allows inspection of Python objects."},
-        "integrate": {
-            "definicion": "Realiza la integración de una función.",
-            "traduccion": "Performs integration of a function."},
-        "inner": {
-            "definicion": "Producto interior o escalar de vectores.",
-            "traduccion": "Inner or dot product of vectors."},
-        "identity_function": {
-            "definicion": "Función que devuelve su entrada sin cambios.",
-            "traduccion": "Function that returns its input unchanged."},
-        "interval": {
-            "definicion": "Rango de valores entre dos límites.",
-            "traduccion": "Range of values between two limits."},
-        "iloc": {
-            "definicion": "Permite seleccionar datos por índice en Pandas.",
-            "traduccion": "Selects data by index in Pandas."},
-        "is_power_of_two": {
-            "definicion": "Determina si un número es una potencia de dos.",
-            "traduccion": "Determines if a number is a power of two."},
-        "identity_property": {
-            "definicion": "Propiedad en matemáticas que mantiene un valor sin alterarlo.",
-            "traduccion": "Mathematical property that retains a value unchanged."},
-        "integer_division": {
-            "definicion": "División que devuelve solo la parte entera.",
-            "traduccion": "Division that returns only the integer part."},
-        "independent_variable": {
-            "definicion": "Variable cuyo valor no depende de otras variables.",
-            "traduccion": "Variable whose value does not depend on others."},
-        "invalid_operation": {
-            "definicion": "Operación que no se puede realizar debido a restricciones.",
-            "traduccion": "Operation that cannot be performed due to restrictions."},
-        "iterable": {
-            "definicion": "Objeto que se puede iterar en un bucle.",
-            "traduccion": "Object that can be iterated in a loop."},
-        "identity_relation": {
-            "definicion": "Relación en matemáticas donde cada elemento se relaciona consigo mismo.",
-            "traduccion": "Relation in math where each element relates to itself."},
-        "info": {
-            "definicion": "Muestra información sobre el objeto o el entorno.",
-            "traduccion": "Displays information about the object or environment."},
-        "is_empty": {
-            "definicion": "Comprueba si una colección o estructura está vacía.",
-            "traduccion": "Checks if a collection or structure is empty."},
-        "intercept": {
-            "definicion": "Punto donde una función corta un eje en un gráfico.",
-            "traduccion": "Point where a function intersects an axis on a graph."},
-        "iso_date": {
-            "definicion": "Formato de fecha ISO, como 'YYYY-MM-DD'.",
-            "traduccion": "ISO date format, like 'YYYY-MM-DD'."},
-        "index_of": {
-            "definicion": "Encuentra la posición de un elemento en una lista.",
-            "traduccion": "Finds the position of an element in a list."},
-        "implicit_conversion": {
-            "definicion": "Conversión automática de tipos de datos.",
-            "traduccion": "Automatic data type conversion."},
-        "infinite_loop": {
-            "definicion": "Bucle que nunca termina.",
-            "traduccion": "Loop that never ends."},
-        "inplace": {
-            "definicion": "Realiza operaciones directamente en el objeto original.",
-            "traduccion": "Performs operations directly on the original object."},
-        "image_filter": {
-            "definicion": "Aplica un filtro a una imagen.",
-            "traduccion": "Applies a filter to an image."},
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Posición de un elemento en una lista o arreglo.",
+            "traduccion": "Position of an element in a list or array."},
+        "input": {
+            "categoria": ("Programación",),
+            "definicion": "Datos proporcionados por el usuario o un sistema.",
+            "traduccion": "Data provided by the user or a system."},
+        "instance": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Un objeto creado a partir de una clase.",
+            "traduccion": "An object created from a class."},
+        "inheritance": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Mecanismo que permite a una clase derivada heredar atributos y métodos de una clase base.",
+            "traduccion": "Mechanism that allows a derived class to inherit attributes and methods from a base class."},
+        "interface": {
+            "categoria": ("Programación",),
+            "definicion": "Conjunto de métodos que una clase debe implementar.",
+            "traduccion": "Set of methods that a class must implement."},
+        "instance_method": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Método que opera sobre una instancia de una clase.",
+            "traduccion": "Method that operates on an instance of a class."},
+        "immutable_set": {
+            "categoria": ("Python",),
+            "definicion": "Conjunto cuyo contenido no puede ser alterado una vez creado.",
+            "traduccion": "Set whose content cannot be altered once created."},
+        "increment": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Aumento en el valor de una variable en una unidad o cantidad específica.",
+            "traduccion": "Increase in the value of a variable by one unit or specific amount."},
+        "input_validation": {
+            "categoria": ("Seguridad",),
+            "definicion": "Proceso de verificar que los datos ingresados sean correctos y seguros.",
+            "traduccion": "Process of verifying that input data is correct and secure."},
         "indexing": {
-            "definicion": "Acceso a elementos de una estructura usando índices.",
-            "traduccion": "Accessing elements of a structure using indices."},
-        "infinity": {
-            "definicion": "Número sin límites o fin.",
-            "traduccion": "Number without bounds or end."},
-        "image_processing": {
-            "definicion": "Conjunto de técnicas para manipular imágenes.",
-            "traduccion": "Set of techniques for manipulating images."},
-        "indirect_reference": {
-            "definicion": "Referencia a un objeto a través de otro.",
-            "traduccion": "Reference to an object through another."},
-        "id_generator": {
-            "definicion": "Genera identificadores únicos.",
-            "traduccion": "Generates unique identifiers."},
-        "iterable_unpacking": {
-            "definicion": "Desempaqueta los elementos de un iterable en variables.",
-            "traduccion": "Unpacks elements of an iterable into variables."},
-        "isomorphic": {
-            "definicion": "Estructuras similares que se pueden mapear una en otra.",
-            "traduccion": "Similar structures that can be mapped onto each other."},
-        "input_sanitization": {
-            "definicion": "Proceso de limpieza de datos de entrada para evitar riesgos.",
-            "traduccion": "Cleansing input data to prevent risks."},
-        "iota": {
-            "definicion": "Notación para enumerar secuencias de enteros.",
-            "traduccion": "Notation for enumerating sequences of integers."},
-        "image_path": {
-            "definicion": "Ruta de acceso a un archivo de imagen.",
-            "traduccion": "Path to an image file."},
-        "integration_testing": {
-            "definicion": "Prueba de componentes combinados de un sistema.",
-            "traduccion": "Testing combined components of a system."},
-        "index_error": {
-            "definicion": "Error al intentar acceder a un índice fuera del rango.",
-            "traduccion": "Error when accessing an out-of-range index."},
-        "indented_code": {
-            "definicion": "Código estructurado con sangría para mejorar la lectura.",
-            "traduccion": "Code structured with indentation for readability."},
-        "inheritance_chain": {
-            "definicion": "Secuencia de clases derivadas en una jerarquía.",
-            "traduccion": "Sequence of derived classes in a hierarchy."},
-        "io_bound": {
-            "definicion": "Proceso limitado por operaciones de entrada/salida.",
-            "traduccion": "Process limited by input/output operations."},
-        "infinite_sequence": {
-            "definicion": "Secuencia que no tiene fin, como una sucesión infinita.",
-            "traduccion": "A sequence with no end, like an infinite succession."},
-        "is_prime": {
-            "definicion": "Determina si un número es primo.",
-            "traduccion": "Determines if a number is prime."},
-        "image_filtering": {
-            "definicion": "Aplicación de filtros para modificar una imagen.",
-            "traduccion": "Applying filters to modify an image."},
-        "instance_attribute": {
-            "definicion": "Atributo que pertenece a una instancia específica de una clase.",
-            "traduccion": "Attribute belonging to a specific class instance."},
-        "invalid_syntax": {
-            "definicion": "Error causado por código escrito incorrectamente.",
-            "traduccion": "Error caused by incorrectly written code."},
-        "index_range": {
-            "definicion": "Rango de índices en una colección o lista.",
-            "traduccion": "Range of indices in a collection or list."},
-        "inline_comment": {
-            "definicion": "Comentario en la misma línea de código.",
-            "traduccion": "Comment in the same line of code."},
-        "integer_conversion": {
-            "definicion": "Proceso de conversión de un valor a entero.",
-            "traduccion": "Process of converting a value to integer."},
-        "immediate_execution": {
-            "definicion": "Ejecución directa de instrucciones en un programa.",
-            "traduccion": "Direct execution of instructions in a program."},
-        "i18n": {
-            "definicion": "Abreviatura de internacionalización, adaptación a idiomas.",
-            "traduccion": "Abbreviation for internationalization, language adaptation."},
-        "integer_variable": {
-            "definicion": "Variable que almacena un número entero.",
-            "traduccion": "Variable that stores an integer."},
-        "item_assignment": {
-            "definicion": "Asignación de valor a un elemento específico.",
-            "traduccion": "Assigning a value to a specific element."},
-        "interactive_prompt": {
-            "definicion": "Interfaz que permite ejecutar comandos directamente.",
-            "traduccion": "Interface for executing commands directly."},
-        "io_operations": {
-            "definicion": "Operaciones de entrada/salida, como lectura y escritura.",
-            "traduccion": "Input/output operations like reading and writing."},
-        "isinstance_check": {
-            "definicion": "Verificación si un objeto es de una clase específica.",
-            "traduccion": "Checking if an object is of a specific class."},
-        "iso_format": {
-            "definicion": "Formato estándar ISO, por ejemplo en fechas.",
-            "traduccion": "Standard ISO format, for example, in dates."},
-        "import_error": {
-            "definicion": "Error al intentar importar un módulo inexistente.",
-            "traduccion": "Error when trying to import a non-existent module."},
-        "itemgetter": {
-            "definicion": "Función que obtiene un elemento de una colección.",
-            "traduccion": "Function that gets an item from a collection."},
-        "item_removal": {
-            "definicion": "Eliminación de un elemento de una colección.",
-            "traduccion": "Removal of an item from a collection."},
-        "inverse_function": {
-            "definicion": "Función que deshace el efecto de otra función.",
-            "traduccion": "Function that undoes the effect of another function."},
-        "inner_join": {
-            "definicion": "Operación para combinar datos basados en un criterio común.",
-            "traduccion": "Operation to combine data based on a common criterion."},
-        "inference_engine": {
-            "definicion": "Motor que deduce información a partir de reglas y datos.",
-            "traduccion": "Engine that infers information from rules and data."},
-        "index_retrieval": {
-            "definicion": "Recuperación de índice de un elemento en una estructura.",
-            "traduccion": "Retrieval of an element's index in a structure."},
-        "initial_condition": {
-            "definicion": "Condición inicial para comenzar un proceso.",
-            "traduccion": "Initial condition to start a process."},
-        "info_log": {
-            "definicion": "Registro de información relevante en el sistema.",
-            "traduccion": "Log of relevant information in the system."},
-        "identity_check": {
-            "definicion": "Verificación de si dos objetos son el mismo en memoria.",
-            "traduccion": "Checks if two objects are the same in memory."},
-        "iterator_protocol": {
-            "definicion": "Conjunto de métodos para hacer un objeto iterable.",
-            "traduccion": "Set of methods to make an object iterable."},
-        "internal_server_error": {
-            "definicion": "Error del servidor que impide ejecutar la solicitud.",
-            "traduccion": "Server error preventing request execution."},
-        "input_output_stream": {
-            "definicion": "Flujo de datos para entrada y salida.",
-            "traduccion": "Data stream for input and output."},
-        "immutable_data": {
-            "definicion": "Datos que no se pueden modificar después de su creación.",
-            "traduccion": "Data that cannot be modified after creation."},
-        "interpreter_loop": {
-            "definicion": "Bucle principal que ejecuta comandos en el intérprete.",
-            "traduccion": "Main loop executing commands in the interpreter."},
-        "insert_method": {
-            "definicion": "Método para agregar elementos en una posición específica.",
-            "traduccion": "Method for adding elements at a specific position."},
-        "index_error_handling": {
-            "definicion": "Manejo de errores al acceder fuera del rango de índices.",
-            "traduccion": "Handling errors when accessing out-of-range indices."},
-        "inheritance_hierarchy": {
-            "definicion": "Estructura jerárquica de clases heredadas.",
-            "traduccion": "Hierarchical structure of inherited classes."},
-        "image_processing_library": {
-            "definicion": "Biblioteca con funciones para manipulación de imágenes.",
-            "traduccion": "Library with functions for image manipulation."},
-        "increment_operator": {
-            "definicion": "Operador para aumentar el valor de una variable.",
-            "traduccion": "Operator for increasing a variable's value."},
-        "instance_checking": {
-            "definicion": "Comprobación de si un objeto pertenece a una clase.",
-            "traduccion": "Checking if an object belongs to a class."},
-        "in_memory_database": {
-            "definicion": "Base de datos que opera íntegramente en memoria.",
-            "traduccion": "Database operating entirely in memory."},
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Técnica para acceder a un elemento en una lista mediante su índice.",
+            "traduccion": "Technique for accessing an element in a list using its index."},
+        "insertion_sort": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Algoritmo de ordenamiento que construye la lista ordenada uno a uno.",
+            "traduccion": "Sorting algorithm that builds the sorted list one item at a time."},
+        "integer": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Número sin parte decimal.",
+            "traduccion": "Number without a decimal part."},
+        "iterable": {
+            "categoria": ("Python",),
+            "definicion": "Objeto que puede ser iterado en un ciclo.",
+            "traduccion": "Object that can be iterated over in a loop."},
+        "identifier": {
+            "categoria": ("Programación",),
+            "definicion": "Nombre que se usa para identificar variables, funciones y clases en el código.",
+            "traduccion": "Name used to identify variables, functions, and classes in code."},
+        "iteration": {
+            "categoria": ("Programación",),
+            "definicion": "Proceso de ejecutar un conjunto de instrucciones repetidamente.",
+            "traduccion": "Process of executing a set of instructions repeatedly."},
+        "IP_address": {
+            "categoria": ("Redes",),
+            "definicion": "Dirección única asignada a cada dispositivo en una red.",
+            "traduccion": "Unique address assigned to each device in a network."},
+        "if_statement": {
+            "categoria": ("Programación",),
+            "definicion": "Condicional que ejecuta un bloque de código solo si se cumple una condición.",
+            "traduccion": "Conditional that executes a block of code only if a condition is true."},
         "interface_class": {
-            "definicion": "Clase que define métodos comunes sin implementación.",
-            "traduccion": "Class defining common methods without implementation."}},
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Clase que define un conjunto de métodos sin implementación.",
+            "traduccion": "Class that defines a set of methods without implementation."},
+        "input_device": {
+            "categoria": ("Hardware",),
+            "definicion": "Dispositivo que permite a un usuario enviar datos a una computadora.",
+            "traduccion": "Device that allows a user to send data to a computer."},
+        "introspection": {
+            "categoria": ("Python",),
+            "definicion": "Proceso de examinar los atributos de un objeto en tiempo de ejecución.",
+            "traduccion": "Process of examining an object's attributes at runtime."},
+        "instance_variable": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Variable asociada a una instancia de una clase.",
+            "traduccion": "Variable associated with an instance of a class."},
+        "index_out_of_bounds": {
+            "categoria": ("Programación",),
+            "definicion": "Error que ocurre cuando se intenta acceder a un índice que no existe en una lista.",
+            "traduccion": "Error that occurs when trying to access an index that does not exist in a list."},
+        "input_output": {
+            "categoria": ("Sistemas operativos",),
+            "definicion": "Proceso de recibir datos de entrada y devolver resultados de salida.",
+            "traduccion": "Process of receiving input data and returning output results."},
+        "inplace": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Operación que se realiza directamente sobre los datos sin usar espacio adicional.",
+            "traduccion": "Operation performed directly on the data without using additional space."},
+        "inherit": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Acción de obtener propiedades y métodos de una clase base.",
+            "traduccion": "Action of inheriting properties and methods from a base class."},
+        "index_of": {
+            "categoria": ("Programación",),
+            "definicion": "Método que devuelve la posición de un elemento en una lista o arreglo.",
+            "traduccion": "Method that returns the position of an element in a list or array."},
+        "instruction_set": {
+            "categoria": ("Computación",),
+            "definicion": "Conjunto de instrucciones que una CPU puede ejecutar.",
+            "traduccion": "Set of instructions that a CPU can execute."},
+        "iterable_object": {
+            "categoria": ("Python",),
+            "definicion": "Objeto que puede ser recorrido utilizando un ciclo.",
+            "traduccion": "Object that can be iterated over using a loop."},
+        "image_processing": {
+            "categoria": ("Computación",),
+            "definicion": "Procesamiento de imágenes para mejorarlas o extraer información.",
+            "traduccion": "Processing of images to improve them or extract information."},
+        "indirect_addressing": {
+            "categoria": ("Redes",),
+            "definicion": "Técnica que usa una dirección intermedia para acceder a los datos.",
+            "traduccion": "Technique that uses an intermediate address to access data."},
+        "instruction_pointer": {
+            "categoria": ("Computación",),
+            "definicion": "Registro que almacena la dirección de la próxima instrucción a ejecutar.",
+            "traduccion": "Register that stores the address of the next instruction to be executed."},
+        "integrated_circuit": {
+            "categoria": ("Hardware",),
+            "definicion": "Circuito electrónico que contiene varios componentes en un solo chip.",
+            "traduccion": "Electronic circuit that contains multiple components on a single chip."},
+        "integer_overflow": {
+            "categoria": ("Seguridad",),
+            "definicion": "Error que ocurre cuando un número excede el límite de almacenamiento de una variable.",
+            "traduccion": "Error that occurs when a number exceeds the storage limit of a variable."},
+        "identifier_name": {
+            "categoria": ("Programación",),
+            "definicion": "Nombre que se asigna a un identificador, como una variable o función.",
+            "traduccion": "Name assigned to an identifier, such as a variable or function."},
+        "input_buffer": {
+            "categoria": ("Computación",),
+            "definicion": "Área de almacenamiento temporal de datos de entrada.",
+            "traduccion": "Temporary storage area for input data."},
+        "interactive_mode": {
+            "categoria": ("Programación",),
+            "definicion": "Modo en el que el usuario interactúa directamente con el sistema para ejecutar comandos.",
+            "traduccion": "Mode in which the user interacts directly with the system to execute commands."},
+        "inverse": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Operación que devuelve el recíproco de un número o función.",
+            "traduccion": "Operation that returns the reciprocal of a number or function."},
+        "inbox": {
+            "categoria": ("Redes",),
+            "definicion": "Carpeta de entrada de un sistema de correo electrónico.",
+            "traduccion": "Inbox folder of an email system."}
+        "invisible": {
+            "categoria": ("Programación",),
+            "definicion": "Propiedad de un objeto que no es visible en la interfaz del usuario.",
+            "traduccion": "Property of an object that is not visible in the user interface."},
+        "incremental_search": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Método de búsqueda que encuentra el objetivo al aumentar gradualmente la posición.",
+            "traduccion": "Search method that finds the target by gradually increasing the position."},
+        "instanceof": {
+            "categoria": ("Programación",),
+            "definicion": "Operador utilizado para verificar si un objeto es una instancia de una clase específica.",
+            "traduccion": "Operator used to check if an object is an instance of a specific class."},
+        "image": {
+            "categoria": ("Computación",),
+            "definicion": "Representación visual que se guarda en un formato digital.",
+            "traduccion": "Visual representation stored in a digital format."},
+        "idle": {
+            "categoria": ("Sistemas operativos",),
+            "definicion": "Estado de un sistema o proceso cuando está inactivo y esperando una tarea.",
+            "traduccion": "State of a system or process when it is inactive and waiting for a task."},
+        "input_stream": {
+            "categoria": ("Programación",),
+            "definicion": "Flujo de datos que entra a un programa o proceso.",
+            "traduccion": "Flow of data entering a program or process."},
+        "identity": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Relación entre dos elementos que siempre se cumplen en determinadas condiciones.",
+            "traduccion": "Relationship between two elements that always holds under certain conditions."},
+        "inbox": {
+            "categoria": ("Redes",),
+            "definicion": "Área donde se reciben mensajes o datos.",
+            "traduccion": "Area where messages or data are received."},
+        "inner_class": {
+            "categoria": ("Programación",),
+            "definicion": "Clase definida dentro de otra clase.",
+            "traduccion": "Class defined within another class."},
+        "initialization": {
+            "categoria": ("Programación",),
+            "definicion": "Proceso de asignar un valor inicial a una variable o estructura.",
+            "traduccion": "Process of assigning an initial value to a variable or structure."},
+        "index_error": {
+            "categoria": ("Programación",),
+            "definicion": "Error que ocurre cuando se intenta acceder a un índice fuera de los límites de una lista.",
+            "traduccion": "Error that occurs when trying to access an index out of bounds in a list."},
+        "inference": {
+            "categoria": ("Inteligencia artificial",),
+            "definicion": "Proceso de deducir información a partir de hechos conocidos.",
+            "traduccion": "Process of deducing information from known facts."},
+        "indexing_error": {
+            "categoria": ("Programación",),
+            "definicion": "Error que ocurre al usar un índice incorrecto en una estructura de datos.",
+            "traduccion": "Error that occurs when using an incorrect index in a data structure."},
+        "infinite_loop": {
+            "categoria": ("Programación",),
+            "definicion": "Bucle que se ejecuta indefinidamente sin una condición de terminación.",
+            "traduccion": "Loop that runs indefinitely without a termination condition."},
+        "instance_checking": {
+            "categoria": ("Programación",),
+            "definicion": "Verificación de si un objeto pertenece a una clase específica.",
+            "traduccion": "Checking if an object belongs to a specific class."},
+        "information_system": {
+            "categoria": ("Tecnología",),
+            "definicion": "Sistema que recopila, procesa, almacena y distribuye información.",
+            "traduccion": "System that collects, processes, stores, and distributes information."},
+        "interpreter": {
+            "categoria": ("Programación",),
+            "definicion": "Programa que ejecuta instrucciones de un lenguaje de programación de alto nivel.",
+            "traduccion": "Program that executes instructions from a high-level programming language."},
+        "insertion": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Operación que coloca un nuevo elemento en una estructura de datos.",
+            "traduccion": "Operation that places a new element in a data structure."},
+        "isolation": {
+            "categoria": ("Sistemas operativos",),
+            "definicion": "Proceso de mantener un entorno independiente y seguro en un sistema.",
+            "traduccion": "Process of keeping an environment isolated and secure within a system."},
+        "instance_variable": {
+            "categoria": ("Programación",),
+            "definicion": "Variable que pertenece a una instancia específica de una clase.",
+            "traduccion": "Variable that belongs to a specific instance of a class."},
+        "interrupt": {
+            "categoria": ("Sistemas operativos",),
+            "definicion": "Señal que interrumpe el flujo normal de un programa para atender un evento externo.",
+            "traduccion": "Signal that interrupts the normal flow of a program to address an external event."},
+        "input_validation": {
+            "categoria": ("Seguridad",),
+            "definicion": "Proceso de verificar que los datos ingresados sean correctos y seguros.",
+            "traduccion": "Process of verifying that input data is correct and secure."},
+        "instance_method": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Método que opera sobre una instancia de una clase.",
+            "traduccion": "Method that operates on an instance of a class."},
+        "idempotent": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Operación que no cambia el resultado cuando se aplica varias veces.",
+            "traduccion": "Operation that does not change the result when applied multiple times."},
+        "identity_function": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Función que devuelve su entrada sin alteraciones.",
+            "traduccion": "Function that returns its input without alterations."},
+        "input_output": {
+            "categoria": ("Sistemas operativos",),
+            "definicion": "Interacción entre un sistema y el mundo exterior a través de dispositivos de entrada y salida.",
+            "traduccion": "Interaction between a system and the outside world through input and output devices."},
+        "interface_class": {
+            "categoria": ("Programación",),
+            "definicion": "Clase que define un conjunto de métodos sin implementación.",
+            "traduccion": "Class that defines a set of methods without implementation."},
+        "incremental": {
+            "categoria": ("Programación",),
+            "definicion": "Proceso que se realiza de manera gradual o en pequeñas cantidades.",
+            "traduccion": "Process carried out gradually or in small amounts."},
+        "incompatible": {
+            "categoria": ("Computación",),
+            "definicion": "Descripción de dos elementos que no pueden funcionar juntos.",
+            "traduccion": "Description of two elements that cannot work together."},
+        "inline": {
+            "categoria": ("Programación",),
+            "definicion": "Código que se inserta directamente dentro de otro, en lugar de ser llamado desde una función externa.",
+            "traduccion": "Code that is inserted directly into another, instead of being called from an external function."},
+        "incremental_search": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Método que realiza búsquedas de manera progresiva.",
+            "traduccion": "Method that performs searches progressively."},
+        "instance_variable": {
+            "categoria": ("Programación",),
+            "definicion": "Variable que pertenece a una instancia específica de una clase.",
+            "traduccion": "Variable that belongs to a specific instance of a class."},
+        "input_error": {
+            "categoria": ("Programación",),
+            "definicion": "Error que ocurre cuando los datos de entrada no cumplen con los requisitos esperados.",
+            "traduccion": "Error that occurs when the input data does not meet the expected requirements."},
+        "input_device": {
+            "categoria": ("Hardware",),
+            "definicion": "Dispositivo que permite al usuario enviar información a una computadora.",
+            "traduccion": "Device that allows the user to send information to a computer."},
+        "isolation_level": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Nivel de control de acceso a datos en un sistema de base de datos.",
+            "traduccion": "Level of control over access to data in a database system."},
+        "introspection": {
+            "categoria": ("Programación",),
+            "definicion": "Proceso de inspección dinámica de las características de un objeto en tiempo de ejecución.",
+            "traduccion": "Process of dynamically inspecting the features of an object at runtime."},
+        "indirect_addressing": {
+            "categoria": ("Redes",),
+            "definicion": "Técnica que utiliza una dirección intermedia para llegar al destino final.",
+            "traduccion": "Technique that uses an intermediate address to reach the final destination."},
+        "i/o_buffer": {
+            "categoria": ("Hardware",),
+            "definicion": "Área de memoria utilizada para almacenar datos durante la transferencia entre dispositivos.",
+            "traduccion": "Memory area used to store data during the transfer between devices."},
+        "instance_variable": {
+            "categoria": ("Programación",),
+            "definicion": "Variable asociada a una instancia específica de una clase.",
+            "traduccion": "Variable associated with a specific instance of a class."}},
     "j": {},
 
     "k": {},
