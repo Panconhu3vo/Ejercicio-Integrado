@@ -24,7 +24,8 @@ nombreNT = tk.StringVar
 def FNeliminarTermino(event=None):#enNombreET
     termino = enNombreET.get()
     if verificarNombre(termino) == True:
-        del diccionario[termino[0]][termino]
+
+        datos = diccionario[termino[0]][termino]
         txtConsoleE.configure(state="normal")
         txtConsoleE.insert('1.0',f"""Termino: {termino}
   Definicion: {diccionario[termino[0]][termino]["definicion"]}
@@ -33,6 +34,12 @@ def FNeliminarTermino(event=None):#enNombreET
         el termino {termino} sera eliminado 
 
         """)
+        txtConsoleE.configure(state='disabled')
+        del diccionario[termino[0]][termino]
+    else: 
+        txtConsoleE.configure(state='normal')
+        txtConsoleE.insert('1.0',f'''termino ,{termino} no lo encontramos escribelo bien ''')
+        txtConsoleE.configure(state='disable')    
 
     
     
