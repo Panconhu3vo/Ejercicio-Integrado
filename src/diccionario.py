@@ -931,16 +931,244 @@ diccionario = {
             "categoria": ("Manipulación de datos",),
             "definicion": "Combinación de la funcionalidad de filter y map en una operación.",
             "traduccion": "Combination of the functionality of filter and map in a single operation."}},
-    
-
-
-
-
-
-
-
+    "g": {
+        "getattr": {
+            "categoria": ("Manejo de objetos",),
+            "definicion": "Devuelve el valor de un atributo de un objeto.",
+            "traduccion": "Returns the value of an object's attribute."},
+        "globals": {
+            "categoria": ("Espacios de nombres",),
+            "definicion": "Devuelve un diccionario con todas las variables globales del programa.",
+            "traduccion": "Returns a dictionary of all global variables in the program."},
+        "groupby": {
+            "categoria": ("Manipulación de datos",),
+            "definicion": "Agrupa datos basándose en una clave específica.",
+            "traduccion": "Groups data based on a specific key."},
+        "gc": {
+            "categoria": ("Gestión de memoria",),
+            "definicion": "Módulo que proporciona control sobre el recolector de basura.",
+            "traduccion": "Module that provides control over garbage collection."},
+        "ge": {
+            "categoria": ("Operadores",),
+            "definicion": "Devuelve True si el primer valor es mayor o igual que el segundo.",
+            "traduccion": "Returns True if the first value is greater than or equal to the second."},
+        "gzip": {
+            "categoria": ("Compresión de datos",),
+            "definicion": "Módulo para comprimir y descomprimir archivos en formato gzip.",
+            "traduccion": "Module for compressing and decompressing files in gzip format."},
+        "getpass": {
+            "categoria": ("Seguridad",),
+            "definicion": "Permite la entrada de contraseñas de manera segura.",
+            "traduccion": "Allows for secure password input."},
+        "getsizeof": {
+            "categoria": ("Gestión de memoria",),
+            "definicion": "Devuelve el tamaño en bytes de un objeto.",
+            "traduccion": "Returns the size in bytes of an object."},
+        "genericpath": {
+            "categoria": ("Manejo de archivos",),
+            "definicion": "Módulo que proporciona funciones comunes para la manipulación de rutas.",
+            "traduccion": "Module that provides common functions for path manipulation."},
+        "get": {
+            "categoria": ("Diccionarios",),
+            "definicion": "Obtiene el valor de una clave en un diccionario.",
+            "traduccion": "Gets the value of a key in a dictionary."},
+        "get_ipython": {
+            "categoria": ("Entornos interactivos",),
+            "definicion": "Devuelve la instancia actual de IPython activa.",
+            "traduccion": "Returns the current active IPython instance."},
+        "gettext": {
+            "categoria": ("Internacionalización",),
+            "definicion": "Módulo que facilita la traducción de textos en aplicaciones.",
+            "traduccion": "Module that facilitates text translation in applications."},
+        "get_event_loop": {
+            "categoria": ("Programación asíncrona",),
+            "definicion": "Devuelve el bucle de eventos actualmente en ejecución.",
+            "traduccion": "Returns the currently running event loop."},
+        "getcwd": {
+            "categoria": ("Sistema operativo",),
+            "definicion": "Devuelve el directorio de trabajo actual.",
+            "traduccion": "Returns the current working directory."},
+        "genfromtxt": {
+            "categoria": ("Procesamiento de datos",),
+            "definicion": "Carga datos desde un archivo de texto, con opciones avanzadas de control.",
+            "traduccion": "Loads data from a text file with advanced control options."},
+        "google_auth": {
+            "categoria": ("Autenticación",),
+            "definicion": "Biblioteca para manejar la autenticación de Google en aplicaciones.",
+            "traduccion": "Library for handling Google authentication in applications."},
+        "grayscale": {
+            "categoria": ("Procesamiento de imágenes",),
+            "definicion": "Convierte una imagen a escala de grises.",
+            "traduccion": "Converts an image to grayscale."},
+        "grid_search": {
+            "categoria": ("Optimización",),
+            "definicion": "Método para encontrar los mejores hiperparámetros de un modelo.",
+            "traduccion": "Method for finding the best hyperparameters for a model."},
+        "graphlib": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Módulo que proporciona herramientas para manipular grafos.",
+            "traduccion": "Module that provides tools for manipulating graphs."},
+        "greatest_common_divisor": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Devuelve el máximo común divisor de dos números.",
+            "traduccion": "Returns the greatest common divisor of two numbers."}
+        "generate_token": {
+            "categoria": ("Seguridad",),
+            "definicion": "Genera un token de autenticación único.",
+            "traduccion": "Generates a unique authentication token."},
+        "gradient": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Calcula el gradiente de una función.",
+            "traduccion": "Calculates the gradient of a function."},
+        "gzip_file": {
+            "categoria": ("Compresión de datos",),
+            "definicion": "Crea o lee un archivo comprimido en formato gzip.",
+            "traduccion": "Creates or reads a file compressed in gzip format."},
+        "gui_toolkit": {
+            "categoria": ("Interfaces gráficas",),
+            "definicion": "Conjunto de herramientas para crear interfaces gráficas.",
+            "traduccion": "Toolkit for creating graphical user interfaces."},
+        "gaussian_filter": {
+            "categoria": ("Procesamiento de imágenes",),
+            "definicion": "Aplica un filtro gaussiano para suavizar una imagen.",
+            "traduccion": "Applies a Gaussian filter to smooth an image."},
+        "get_config": {
+            "categoria": ("Configuraciones",),
+            "definicion": "Obtiene configuraciones del entorno o de una aplicación.",
+            "traduccion": "Gets environment or application configurations."},
+        "group_indices": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Devuelve los índices de elementos agrupados por una clave.",
+            "traduccion": "Returns the indices of elements grouped by a key."},
+        "generate_password": {
+            "categoria": ("Seguridad",),
+            "definicion": "Crea una contraseña aleatoria según criterios definidos.",
+            "traduccion": "Generates a random password based on defined criteria."},
+        "genetic_algorithm": {
+            "categoria": ("Inteligencia artificial",),
+            "definicion": "Algoritmo basado en la selección y evolución genética.",
+            "traduccion": "Algorithm based on genetic selection and evolution."},
+        "get_frame": {
+            "categoria": ("Depuración",),
+            "definicion": "Obtiene el marco actual de ejecución en una pila de llamadas.",
+            "traduccion": "Gets the current execution frame in a call stack."},
+        "get_headers": {
+            "categoria": ("Redes",),
+            "definicion": "Obtiene los encabezados de una solicitud HTTP.",
+            "traduccion": "Gets the headers of an HTTP request."},
+        "get_nodes": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Devuelve los nodos de un grafo.",
+            "traduccion": "Returns the nodes of a graph."},
+        "global_average": {
+            "categoria": ("Estadísticas",),
+            "definicion": "Calcula el promedio global de un conjunto de datos.",
+            "traduccion": "Calculates the global average of a dataset."},
+        "gradient_descent": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Método para minimizar funciones mediante gradientes.",
+            "traduccion": "Method for minimizing functions using gradients."},
+        "get_meta_data": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Obtiene los metadatos asociados a una base de datos.",
+            "traduccion": "Gets metadata associated with a database."},
+        "generate_keys": {
+            "categoria": ("Seguridad",),
+            "definicion": "Genera claves públicas y privadas para criptografía.",
+            "traduccion": "Generates public and private keys for cryptography."},
+        "get_prime_numbers": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Devuelve una lista de números primos en un rango dado.",
+            "traduccion": "Returns a list of prime numbers within a given range."},
+        "generate_report": {
+            "categoria": ("Automatización",),
+            "definicion": "Crea un informe basado en datos analizados.",
+            "traduccion": "Generates a report based on analyzed data."},
+        "graph_visualizer": {
+            "categoria": ("Visualización",),
+            "definicion": "Herramienta para crear representaciones gráficas de datos.",
+            "traduccion": "Tool for creating graphical data representations."},
+        "grid_display": {
+            "categoria": ("Interfaces gráficas",),
+            "definicion": "Crea una cuadrícula para organizar elementos visuales.",
+            "traduccion": "Creates a grid to organize visual elements."},
+        "get_local_time": {
+            "categoria": ("Fechas y horas",),
+            "definicion": "Obtiene la hora local del sistema.",
+            "traduccion": "Gets the local system time."},
+        "generate_uuid": {
+            "categoria": ("Identificadores",),
+            "definicion": "Crea un identificador único universal.",
+            "traduccion": "Generates a universally unique identifier."},
+        "get_timezone": {
+            "categoria": ("Fechas y horas",),
+            "definicion": "Devuelve la zona horaria actual.",
+            "traduccion": "Returns the current timezone."},
+        "get_subgraph": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Obtiene un subgrafo a partir de un grafo existente.",
+            "traduccion": "Gets a subgraph from an existing graph."},
+        "generate_pie_chart": {
+            "categoria": ("Visualización",),
+            "definicion": "Crea un gráfico de pastel basado en datos.",
+            "traduccion": "Generates a pie chart based on data."},
+        "get_histogram": {
+            "categoria": ("Estadísticas",),
+            "definicion": "Devuelve el histograma de un conjunto de datos.",
+            "traduccion": "Returns the histogram of a dataset."},
+        "gradient_boosting": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Técnica para mejorar modelos de predicción.",
+            "traduccion": "Technique for improving prediction models."},
+        "get_child_nodes": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Devuelve los nodos hijos de un nodo específico.",
+            "traduccion": "Returns the child nodes of a specific node."},
+        "generate_test_cases": {
+            "categoria": ("Pruebas",),
+            "definicion": "Genera casos de prueba para un programa o aplicación.",
+            "traduccion": "Generates test cases for a program or application."},
+        "get_unique_values": {
+            "categoria": ("Manipulación de datos",),
+            "definicion": "Devuelve los valores únicos de una lista o conjunto.",
+            "traduccion": "Returns the unique values of a list or set."},
+        "generate_bar_chart": {
+            "categoria": ("Visualización",),
+            "definicion": "Crea un gráfico de barras basado en datos.",
+            "traduccion": "Generates a bar chart based on data."},
+        "generate_heatmap": {
+            "categoria": ("Visualización",),
+            "definicion": "Crea un mapa de calor para representar datos.",
+            "traduccion": "Generates a heatmap to represent data."},
+        "generate_3d_plot": {
+            "categoria": ("Visualización",),
+            "definicion": "Crea una gráfica tridimensional de datos.",
+            "traduccion": "Generates a three-dimensional plot of data."},
+        "get_function_signature": {
+            "categoria": ("Depuración",),
+            "definicion": "Devuelve la firma de una función.",
+            "traduccion": "Returns the signature of a function."},
+        "global_variables": {
+            "categoria": ("Espacios de nombres",),
+            "definicion": "Lista todas las variables globales en el espacio actual.",
+            "traduccion": "Lists all global variables in the current space."},
+        "generate_random_seed": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Crea una semilla aleatoria para inicializar generadores.",
+            "traduccion": "Generates a random seed for initializing generators."},
+        "generate_latex_table": {
+            "categoria": ("Automatización",),
+            "definicion": "Crea una tabla formateada en LaTeX.",
+            "traduccion": "Generates a formatted table in LaTeX."},
+        "generate_hash": {
+            "categoria": ("Seguridad",),
+            "definicion": "Crea un hash seguro de un dato o archivo.",
+            "traduccion": "Generates a secure hash of data or a file."},
+        "generate_json_schema": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Crea un esquema JSON para validar datos.",
+            "traduccion": "Generates a JSON schema for data validation."}},
         
-    
     "h": {
         "hash": {
             "definicion": "Devuelve el valor hash de un objeto.",
