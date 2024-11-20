@@ -28,14 +28,26 @@ def FNlistarTerminos(event=None):
     for i in "dcba":
         
         for j in diccionario[i]:
+            txtTerminosListados.configure(state="norma")
             txtTerminosListados.insert("1.0", f''' 
   Termino: {j}
   Definicion: {diccionario[i][j]["definicion"]}
   Traduccion: {diccionario[i][j]["traduccion"]}
   Categoria: {diccionario[i][j]["categoria"]}
 ''')
-        txtTerminosListados.insert("1.0", f"""{i}:""" )
+        
+        txtTerminosListados.insert("1.0", f"\n{i.upper()}:\n")
     txtTerminosListados.configure(state="disable")
+
+def FNFiltrar():
+    letraBuscar = enIndiceFiltro.get().upper() 
+    
+    if letraBuscar in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":  
+        patronBusqueda = f"{letraBuscar}:"
+        idxInicio = "1.0"
+        idxLetra = txtTerminosListados.search(patronBusqueda, idxInicio, stopindex="end")
+        if idxLetra:
+            txtTerminosListados.see(idxLetra)
 
 # Funcion buscar termino
 def FNbuscarTermino(event=None):
@@ -486,12 +498,14 @@ tk.Label(
 ).pack(side="left",padx=(5,0),pady=(13,16))
 
 enIndiceFiltro = tk.Entry(fmFiltroTerminos,width=2)
+enIndiceFiltro.bind("<Return>",FNFiltrar)
 enIndiceFiltro.pack(side="left",padx=(90,12))
 
 btnFiltrar = tk.Button(
     fmFiltroTerminos,text="Filtrar",
     bg="#FFCE00", fg="#F2F2F2", 
-    font=("Roboto", 10, "bold"),)
+    font=("Roboto", 10, "bold"),command=FNFiltrar
+)
 btnFiltrar.pack(side="left",padx=(12),pady=7)
 
 fmTeminosListados = tk.Frame(menuListarTerminos)
