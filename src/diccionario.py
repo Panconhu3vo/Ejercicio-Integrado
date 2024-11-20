@@ -408,63 +408,63 @@ diccionario = {
             "definicion": "Declara una función o método.",
             "traduccion": "Declares a function or method."},
         "delattr": {
-            "categoria": "Función",
+            "categoria": ("Función",),
             "definicion": "Elimina un atributo de un objeto.",
             "traduccion": "Deletes an attribute from an object."},
         "dataframe": {
-            "categoria": "Estructura de datos",
+            "categoria": ("Estructura de datos",),
             "definicion": "Estructura de datos de Pandas para manipulación de datos tabulares.",
             "traduccion": "Pandas data structure for manipulating tabular data."},
         "decode": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Convierte bytes en una cadena utilizando una codificación.",
             "traduccion": "Converts bytes into a string using an encoding."},
         "decimal": {
-            "categoria": "Módulo",
+            "categoria": ("Módulo",),
             "definicion": "Módulo para operaciones aritméticas con decimales de precisión exacta.",
             "traduccion": "Module for arithmetic operations with exact decimal precision."},
         "device": {
-            "categoria": "Atributo",
+            "categoria": ("Atributo",),
             "definicion": "Atributo en PyTorch para definir el dispositivo (CPU o GPU) donde se almacenan los tensores.",
             "traduccion": "Attribute in PyTorch to define the device (CPU or GPU) for tensor storage."},
         "dict.get": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Obtiene el valor de una clave en un diccionario o un valor predeterminado si la clave no existe.",
             "traduccion": "Gets the value of a dictionary key or a default if the key doesn't exist."},
         "dropna": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Elimina filas o columnas con valores nulos en un DataFrame de Pandas.",
             "traduccion": "Removes rows or columns with null values in a Pandas DataFrame."},
         "dtype": {
-            "categoria": "Atributo",
+            "categoria": ("Atributo",),
             "definicion": "Especifica el tipo de datos de un array en NumPy.",
             "traduccion": "Specifies the data type of a NumPy array."},
         "deque.appendleft": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Agrega un elemento al inicio de una deque.",
             "traduccion": "Adds an element to the beginning of a deque."},
         "dict.update": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Actualiza un diccionario con pares clave-valor de otro diccionario.",
             "traduccion": "Updates a dictionary with key-value pairs from another dictionary."},
         "del": {
-            "categoria": "Operador",
+            "categoria": ("Operador",),
             "definicion": "Elimina una variable, elemento o atributo.",
             "traduccion": "Deletes a variable, element, or attribute."},
         "dict": {
-            "categoria": "Tipo de dato",
+            "categoria": ("Tipo de dato",),
             "definicion": "Tipo de dato de diccionario que almacena pares clave-valor.",
             "traduccion": "Dictionary data type that stores key-value pairs."},
         "dir": {
-            "categoria": "Función",
+            "categoria": ("Función",),
             "definicion": "Devuelve una lista de atributos y métodos disponibles para un objeto.",
             "traduccion": "Returns a list of attributes and methods available for an object."},
         "divmod": {
-            "categoria": "Función",
+            "categoria": ("Función",),
             "definicion": "Devuelve el cociente y el residuo de una división.",
             "traduccion": "Returns the quotient and remainder of a division."},
         "deque": {
-            "categoria": "Clase",
+            "categoria": ("Clase",),
             "definicion": "Clase de collections para una cola de doble extremo.",
             "traduccion": "Class from collections for a double-ended queue."},
         "defaultdict": {
@@ -472,57 +472,58 @@ diccionario = {
             "definicion": "Diccionario que asigna un valor predeterminado a claves no existentes.",
             "traduccion": "Dictionary that assigns a default value to nonexistent keys."},
         "decode": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Convierte bytes a una cadena usando una codificación específica.",
             "traduccion": "Converts bytes to a string using a specific encoding."},
         "deflate": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Método de compresión para reducir el tamaño de archivos.",
             "traduccion": "Compression method to reduce file sizes."},
         "deepcopy": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Copia un objeto y todos sus objetos anidados.",
             "traduccion": "Copies an object and all its nested objects."},
         "detach": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Desconecta un buffer de un flujo (usado en IO).",
             "traduccion": "Disconnects a buffer from a stream (used in IO)."},
         "dump": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Serializa un objeto a un archivo en formato binario o JSON.",
             "traduccion": "Serializes an object to a file in binary or JSON format."},
         "dumps": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Serializa un objeto a una cadena en formato JSON.",
             "traduccion": "Serializes an object to a string in JSON format."},
         "difference": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Devuelve la diferencia entre conjuntos.",
             "traduccion": "Returns the difference between sets."},
         "difference_update": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Actualiza un conjunto, eliminando elementos encontrados en otro conjunto.",
             "traduccion": "Updates a set by removing elements found in another set."},
         "decode_header": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Decodifica un encabezado de correo electrónico.",
             "traduccion": "Decodes an email header."},
         "disk_usage": {
-            "categoria": "Función",
+            "categoria": ("Función",),
             "definicion": "Devuelve el uso de espacio en disco de un directorio o disco (en shutil).",
             "traduccion": "Returns disk space usage of a directory or disk (in shutil)."},
-        "datetime": {
-            "categoria": "Clase",
-            "definicion": "Clase para manipular fechas y horas.",
-            "traduccion": "Class for manipulating dates and times."},
+       "datetime": {
+           "categoria": ("Fecha",),
+           "traduccion": "Class for manipulating dates and times.",
+           "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."
         "difference": {
-            "categoria": "Método",
+            "categoria": ("Método",),
             "definicion": "Devuelve la diferencia entre dos o más conjuntos.",
             "traduccion": "Returns the difference between two or more sets."},
         "disk_cache": {
-            "categoria": "Caché",
+            "categoria": ("Caché",),
             "definicion": "Caché que almacena temporalmente datos en el disco.",
             "traduccion": "Cache that temporarily stores data on disk."}},
+    
     "e":{
         "enumerate": {
             "categoria": ("Manipulación de iterables",),
