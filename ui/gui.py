@@ -46,12 +46,12 @@ def FNagregarTermino(event=None):
 
     if verificarNombre(nombreNt) == False:
         #Agregar los terminos al diccionario 
-        
-    # else:
-    #      txtConsole.configure(state="normal")
-    #      txtConsole.insert("1.0",f"""termino existente""")
-    #     # escribir mensaje de termino incorrecto y volverlo a pedir hasta que verificarNombre sea == True
-    #      txtConsole.configure(state="disable")
+        print("A")
+    else:
+         txtConsole.configure(state="normal")
+         txtConsole.insert("1.0",f"""termino existente""")
+        # escribir mensaje de termino incorrecto y volverlo a pedir hasta que verificarNombre sea == True
+         txtConsole.configure(state="disable")
 
 
     
