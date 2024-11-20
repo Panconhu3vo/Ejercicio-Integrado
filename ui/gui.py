@@ -22,6 +22,34 @@ nombreNT = tk.StringVar
 # ------------------------------------------------------
 # Funciones de Funcionalidades:
 # ------------------------------------------------------
+def FNlistarTerminos(event=None):
+    txtTerminosListados.configure(state="normal")
+    # "zyxwvutsrqponmlkjihgfedcba" utiliza esta cadena de texto, esta inversa por que cada que agregas algo al txt este se pone arriba lo que hacia que se escribiera al revez
+
+    for i in "dcba":
+        txtTerminosListados.insert("1.0", f"""{i}""" )
+        for j in diccionario[i]:
+            txtTerminosListados.configure(state="norma")
+            txtTerminosListados.insert("1.0", f''' 
+  Termino: {j}
+  Definicion: {diccionario[i][j]["definicion"]}
+  Traduccion: {diccionario[i][j]["traduccion"]}
+  Categoria: {diccionario[i][j]["categoria"]}
+''')
+
+        txtTerminosListados.insert("1.0", f"\n{i.upper()}:\n")
+    txtTerminosListados.configure(state="disable")
+
+def FNFiltrar():
+    letraBuscar = enIndiceFiltro.get().upper() 
+
+    if letraBuscar in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":  
+        patronBusqueda = f"{letraBuscar}:"
+        idxInicio = "1.0"
+        idxLetra = txtTerminosListados.search(patronBusqueda, idxInicio, stopindex="end")
+        if idxLetra:
+            txtTerminosListados.see(idxLetra)
+            
 
 def FNeliminarTermino(event=None):#enNombreET
     termino = enNombreET.get()
@@ -43,20 +71,8 @@ def FNeliminarTermino(event=None):#enNombreET
         txtConsoleE.insert('1.0',f'''termino ,{termino} no lo encontramos escribelo bien ''')
         txtConsoleE.configure(state='disable')    
 
-    
-    
-
-
-
-
-    
-
 def FNAgregarTermino(event=None):
     nombreNT = enNombreNT.get()
-
-
-    
-
 
 # Funcion buscar termino
 def FNbuscarTermino(event=None):
@@ -362,7 +378,14 @@ categoriasMenu = ('Estructuras de Datos', 'Funciones', 'Condicionales', 'Ciclos'
 categoriaSelect = tk.StringVar()
 categoriaSelect.set("Categoria")
 menuCategoria = tk.OptionMenu(menuIzquierdoAG, categoriaSelect, *categoriasMenu)
-menuCategoria.pack(side="top", anchor="nw", padx=39, pady=(4))
+
+menuCategoria.pack(side="top", anchor="nw", padx=(39,0), pady=(4))
+btnAgregar= tk.Button(
+    menuIzquierdoAG, text="Agregar",
+    bg="#FFCE00", fg="#F2F2F2", 
+    font=("Roboto", 10, "bold"),
+)
+btnAgregar.pack(side="right")
 
 # Frame derecho (menuDerechoAG) configurado para el lado derecho
 menuDerechoAG = tk.Frame(menuAgregarTermino, bg="#1b1259", width=255, height=338)
