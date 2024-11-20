@@ -8,13 +8,3 @@ def verificarNombre(termino):
             return True
             break
     return False 
-
-
-
-
-
-
-
-if __name__ == "__main__": 
-    print((diccionario["a"].keys()))
-    verificarNombre(input("> "))

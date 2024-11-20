@@ -23,7 +23,7 @@ nombreNT = tk.StringVar
 # ------------------------------------------------------
 # Funciones de Funcionalidades:
 # ------------------------------------------------------
-def FNlistarTerminos(event=None):
+def FNlistarTerminos(event=None): 
     txtTerminosListados.configure(state="normal")
     # "zyxwvutsrqponmlkjihgfedcba" utiliza esta cadena de texto, esta inversa por que cada que agregas algo al txt este se pone arriba lo que hacia que se escribiera al revez
 
@@ -161,6 +161,9 @@ def limpiarCasillas():
     txtConsoleE.configure(state="normal")
     txtConsoleE.delete(1.0, tk.END)
     txtConsoleE.configure(state="disable")
+
+    # Limpiar Casillas Listar Tërmino
+    enIndiceFiltro.delete(0, tk.END)
 
 # ------------------------------------------------------
 # Funciones Interfaz:
