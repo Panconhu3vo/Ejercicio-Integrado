@@ -404,7 +404,7 @@ diccionario = {
     
     "d": {
         "def": {
-            "categoria": "Función",
+            "categoria": ("Función",),
             "definicion": "Declara una función o método.",
             "traduccion": "Declares a function or method."},
         "delattr": {
