@@ -46,7 +46,7 @@ def FNagregarTermino(event=None):
 
     if verificarNombre(nombreNt) == False:
         #Agregar los terminos al diccionario 
-        print("A")
+        print("Aas")
     else:
          txtConsole.configure(state="normal")
          txtConsole.insert("1.0",f"""termino existente""")
