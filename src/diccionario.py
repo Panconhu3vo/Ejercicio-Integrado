@@ -2,9 +2,9 @@
 # Cabe recalcar que todos esos términos pertenecen al ecosistema de Python. parte de la biblioteca estándar de Python y otros provienen de bibliotecas adicionales como Pandas y NumPy que sirven para el análisis de datos y operaciones numéricas.
 #J_J
 #Estructura del diccionario.
-diccionario = {
-"A":{"terminos,": {"categoría": "categoria en español", "traducción": "definicion en español"}},
-}
+# diccionario = {
+# "A":{"terminos,": {"categoría": "categoria en español", "traducción": "definicion en español"}},
+# }
 diccionario = {
     "a": {
         "abs": {
@@ -511,12 +511,13 @@ diccionario = {
             "traduccion": "Returns disk space usage of a directory or disk (in shutil)."},
        "datetime": {
             "categoria": ("Fecha",),
-            "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python."},
-            "definicion": "Devuelve la diferencia entre dos o más conjuntos.",
+            "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python.",
+            "traduccion": "Class for manipulating dates and times."},
         "difference": {
-            "categoria": ("Método",),
-            "traduccion": "Class for manipulating dates and times.",
-            "traduccion": "Returns the difference between two or more sets."},
+            "categoria" : ("Método",),
+            "definicion" : "Devuelve la diferencia entre dos o más conjuntos.",
+            "traduccion" : "Returns the difference between two or more sets."},
+        
         "disk_cache": {
             "categoria": ("Caché",),
             "definicion": "Caché que almacena temporalmente datos en el disco.",
@@ -1528,8 +1529,8 @@ diccionario = {
             "traduccion": "Set of signals that enable communication between a device and the system hardware."},
         "http_head": {
             "categoria": ("Redes",),
-            "definicion": "Método HTTP utilizado para obtener solo los encabezados de una respuesta."}},
-
+            "definicion": "Método HTTP utilizado para obtener solo los encabezados de una respuesta.",
+            "traduccion": "HTTP method used to fetch only the headers of a response."}},
     "i": {
         "immutable": {
             "categoria": ("Python",),
@@ -2747,8 +2748,8 @@ diccionario = {
             "traduccion": "Error in which a program does not release memory it no longer uses, causing excessive consumption."},
         "markov_chain": {
             "categoria": ("Matemáticas",),
-            "definicion": "Modelo matemático que describe una secuencia de eventos en la que la probabilidad de cada evento depende solo del estado anterior."}},
-
+            "definicion": "Modelo matemático que describe una secuencia de eventos en la que la probabilidad de cada evento depende solo del estado anterior.",
+            "traduccion": "Mathematical model that describes a sequence of events where the probability of each event depends only on the previous state."}},
     "n": {
         "neural_network": {
             "categoria": ("Aprendizaje automático",),
