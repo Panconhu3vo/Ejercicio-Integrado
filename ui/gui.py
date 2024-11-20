@@ -352,7 +352,14 @@ categoriasMenu = ('Estructuras de Datos', 'Funciones', 'Condicionales', 'Ciclos'
 categoriaSelect = tk.StringVar()
 categoriaSelect.set("Categoria")
 menuCategoria = tk.OptionMenu(menuIzquierdoAG, categoriaSelect, *categoriasMenu)
-menuCategoria.pack(side="top", anchor="nw", padx=39, pady=(4))
+menuCategoria.pack(side="top", anchor="nw", padx=(39,0), pady=(4))
+
+btnAgregar= tk.Button(
+    menuIzquierdoAG, text="Agregar",
+    bg="#FFCE00", fg="#F2F2F2", 
+    font=("Roboto", 10, "bold"),
+)
+btnAgregar.pack(side="right")
 
 # Frame derecho (menuDerechoAG) configurado para el lado derecho
 menuDerechoAG = tk.Frame(menuAgregarTermino, bg="#1b1259", width=255, height=338)
