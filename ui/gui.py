@@ -26,7 +26,7 @@ def FNlistarTerminos(event=None):
     # "zyxwvutsrqponmlkjihgfedcba" utiliza esta cadena de texto, esta inversa por que cada que agregas algo al txt este se pone arriba lo que hacia que se escribiera al revez
 
     for i in "dcba":
-        
+        txtTerminosListados.insert("1.0", f"""{i}""" )
         for j in diccionario[i]:
             txtTerminosListados.configure(state="norma")
             txtTerminosListados.insert("1.0", f''' 
@@ -483,9 +483,9 @@ tk.Label(
 ).pack(side="top")
 
 bordeListarTerminos = tk.Frame(listarTermino, bg="#D92534", padx=4, pady=4)
-bordeListarTerminos.pack(side="left", padx=(17), pady=(16,26))
+bordeListarTerminos.pack(side="left", padx=(26,13), pady=(16,26))
 
-menuListarTerminos = tk.Frame(bordeListarTerminos ,bg="#1b1259",width=555, height=385)
+menuListarTerminos = tk.Frame(bordeListarTerminos ,bg="#1b1259",width=525, height=385)
 menuListarTerminos.pack_propagate(False)
 menuListarTerminos.pack(side="top")
 
