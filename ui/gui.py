@@ -71,8 +71,24 @@ def FNeliminarTermino(event=None):#enNombreET
         txtConsoleE.insert('1.0',f'''termino ,{termino} no lo encontramos escribelo bien ''')
         txtConsoleE.configure(state='disable')    
 
-def FNAgregarTermino(event=None):
+def FNagregarTermino(event=None):
     nombreNT = enNombreNT.get()
+    definicion = txtDefinicion.get()
+    Traduccion = txtTraduccion.get()
+    categoria = menuCategoria.get()
+
+    if verificarNombre(nombreNT) == False:
+        #Agregar los terminos al diccionario 
+        diccionario[nombreNT[0]][nombreNT] = {
+            "definicion" : definicion,
+            "traduccion" : Traduccion,
+            "categoria"  : set(categoria),
+        }
+    else:
+        txtConsole.configure(state="normal")
+        txtConsole.insert("1.0",f"""termino existente""")
+        # escribir mensaje de termino incorrecto y volverlo a pedir hasta que verificarNombre sea == True
+        txtConsole.configure(state="disable")
 
 # Funcion buscar termino
 def FNbuscarTermino(event=None):
