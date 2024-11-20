@@ -44,6 +44,16 @@ def FNagregarTermino(event=None):
     Traduccion = txtTraduccion.get()
     categoria = menuCategoria.get()
 
+    if verificarNombre(nombreNt) == False:
+        #Agregar los terminos al diccionario 
+        
+    # else:
+    #      txtConsole.configure(state="normal")
+    #      txtConsole.insert("1.0",f"""termino existente""")
+    #     # escribir mensaje de termino incorrecto y volverlo a pedir hasta que verificarNombre sea == True
+    #      txtConsole.configure(state="disable")
+
+
     
 
 
