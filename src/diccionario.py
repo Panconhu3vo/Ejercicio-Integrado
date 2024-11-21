@@ -4566,16 +4566,803 @@ diccionario = {
             "categoria": ("Matemáticas",),
             "definicion": "La variabilidad permitida en un valor o parámetro.",
             "traduccion": "The allowed variability in a value or parameter."}},
-    "u": {},
-
-    "v": {},
-
-    "w": {},
-
-    "x": {},
-
-    "y": {},
-    
+    "u": {
+        "update": {
+            "categoria": ("Base de datos",),
+            "definicion": "Modifica los registros existentes en una base de datos.",
+            "traduccion": "Modifies existing records in a database."},
+        "unique": {
+            "categoria": ("Colecciones",),
+            "definicion": "Elimina los valores duplicados de una lista.",
+            "traduccion": "Removes duplicate values from a list."},
+        "url": {
+            "categoria": ("Internet",),
+            "definicion": "Localizador uniforme de recursos, usado para identificar recursos en la web.",
+            "traduccion": "Uniform Resource Locator, used to identify resources on the web."},
+        "user": {
+            "categoria": ("Sistemas",),
+            "definicion": "Persona que interactúa con una aplicación o sistema.",
+            "traduccion": "Person who interacts with an application or system."},
+        "use": {
+            "categoria": ("Programación",),
+            "definicion": "Utiliza una librería o módulo dentro del código.",
+            "traduccion": "Uses a library or module within the code."},
+        "unpack": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Desempaqueta elementos de una secuencia.",
+            "traduccion": "Unpacks elements from a sequence."},
+        "underscore": {
+            "categoria": ("Símbolos",),
+            "definicion": "Carácter de subrayado utilizado en programación.",
+            "traduccion": "Underscore character used in programming."},
+        "unit": {
+            "categoria": ("Medición",),
+            "definicion": "Una cantidad estándar usada para medir algo.",
+            "traduccion": "A standard quantity used to measure something."},
+        "upload": {
+            "categoria": ("Redes",),
+            "definicion": "Envía datos desde un cliente a un servidor.",
+            "traduccion": "Sends data from a client to a server."},
+        "utmost": {
+            "categoria": ("Programación",),
+            "definicion": "El nivel más alto o máximo de importancia.",
+            "traduccion": "The highest or utmost level of importance."},
+        "utility": {
+            "categoria": ("Herramientas",),
+            "definicion": "Programa o función diseñada para realizar una tarea útil.",
+            "traduccion": "A program or function designed to perform a useful task."},
+        "uniform": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Distribución de probabilidad donde todos los resultados son igualmente probables.",
+            "traduccion": "Probability distribution where all outcomes are equally likely."},
+        "undo": {
+            "categoria": ("Acciones",),
+            "definicion": "Revierte la última acción realizada.",
+            "traduccion": "Reverts the last action performed."},
+        "upsert": {
+            "categoria": ("Base de datos",),
+            "definicion": "Combinación de insertar o actualizar un registro en una base de datos.",
+            "traduccion": "A combination of inserting or updating a record in a database."},
+        "usage": {
+            "categoria": ("Programación",),
+            "definicion": "El uso o consumo de un recurso o función.",
+            "traduccion": "The use or consumption of a resource or function."},
+        "understand": {
+            "categoria": ("Aprendizaje",),
+            "definicion": "Captar el significado o la lógica de algo.",
+            "traduccion": "Grasp the meaning or logic of something."},
+        "unify": {
+            "categoria": ("Programación",),
+            "definicion": "Combinación de varias estructuras o funciones en una sola.",
+            "traduccion": "Combining multiple structures or functions into one."},
+        "unlock": {
+            "categoria": ("Seguridad",),
+            "definicion": "Desbloquea el acceso a un recurso o función.",
+            "traduccion": "Unlocks access to a resource or function."},
+        "uniformity": {
+            "categoria": ("Estándares",),
+            "definicion": "Consistencia o similitud en un conjunto de elementos.",
+            "traduccion": "Consistency or similarity in a set of elements."},
+        "update": {
+            "categoria": ("Base de datos",),
+            "definicion": "Cambiar la información en un registro de una base de datos.",
+            "traduccion": "Change the information in a database record."},
+        "usability": {
+            "categoria": ("Interfaz de usuario",),
+            "definicion": "Facilidad con la que los usuarios pueden interactuar con un sistema.",
+            "traduccion": "Ease with which users can interact with a system."},
+        "user-friendly": {
+            "categoria": ("Interfaz de usuario",),
+            "definicion": "Diseñado para ser fácil de usar.",
+            "traduccion": "Designed to be easy to use."},
+        "uncommon": {
+            "categoria": ("Frecuencia",),
+            "definicion": "Algo que no es frecuente o habitual.",
+            "traduccion": "Something that is not frequent or common."},
+        "uppercase": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Convierte una cadena de texto a mayúsculas.",
+            "traduccion": "Converts a string of text to uppercase."},
+        "unitary": {
+            "categoria": ("Matrices",),
+            "definicion": "Matriz con unos en la diagonal y ceros en el resto.",
+            "traduccion": "Matrix with ones on the diagonal and zeros elsewhere."},
+        "usage": {
+            "categoria": ("Recursos",),
+            "definicion": "La cantidad de recurso utilizado en un sistema.",
+            "traduccion": "The amount of resource used in a system."},
+        "uptime": {
+            "categoria": ("Sistemas",),
+            "definicion": "El tiempo durante el cual un sistema está operativo.",
+            "traduccion": "The time during which a system is operational."},
+        "unittest": {
+            "categoria": ("Pruebas",),
+            "definicion": "Estructura para realizar pruebas unitarias de código.",
+            "traduccion": "Structure to perform unit tests of code."},
+        "uploading": {
+            "categoria": ("Redes",),
+            "definicion": "Proceso de enviar datos a un servidor o recurso en la web.",
+            "traduccion": "The process of sending data to a server or web resource."},
+        "unplug": {
+            "categoria": ("Hardware",),
+            "definicion": "Desconectar un dispositivo de su fuente de alimentación.",
+            "traduccion": "Disconnect a device from its power source."},
+        "unlimited": {
+            "categoria": ("Recursos",),
+            "definicion": "Sin restricciones o límites.",
+            "traduccion": "Without restrictions or limits."},
+        "useful": {
+            "categoria": ("Propósito",),
+            "definicion": "Algo que tiene un propósito práctico o funcional.",
+            "traduccion": "Something that has a practical or functional purpose."},
+        "untouched": {
+            "categoria": ("Datos",),
+            "definicion": "Datos que no han sido alterados o modificados.",
+            "traduccion": "Data that has not been altered or modified."},
+        "unified": {
+            "categoria": ("Sistemas",),
+            "definicion": "Vincular o combinar diferentes sistemas en uno solo.",
+            "traduccion": "Linking or combining different systems into one."},
+        "user-input": {
+            "categoria": ("Interfaz de usuario",),
+            "definicion": "La información proporcionada por el usuario a un sistema.",
+            "traduccion": "Information provided by the user to a system."},
+        "unresponsive": {
+            "categoria": ("Sistemas",),
+            "definicion": "Cuando un sistema o aplicación no responde a las acciones del usuario.",
+            "traduccion": "When a system or application does not respond to user actions."},
+        "underflow": {
+            "categoria": ("Programación",),
+            "definicion": "Cuando el valor de una variable es menor que el valor mínimo permitido.",
+            "traduccion": "When the value of a variable is lower than the allowed minimum value."},
+        "uniformity": {
+            "categoria": ("Estándares",),
+            "definicion": "Consistencia o similitud en un conjunto de elementos.",
+            "traduccion": "Consistency or similarity in a set of elements."},
+        "upgrade": {
+            "categoria": ("Hardware",),
+            "definicion": "Mejorar o actualizar un componente o sistema.",
+            "traduccion": "To enhance or update a component or system."},
+        "unavailable": {
+            "categoria": ("Recursos",),
+            "definicion": "Cuando un recurso no está disponible en ese momento.",
+            "traduccion": "When a resource is not available at that moment."},
+        "usecase": {
+            "categoria": ("Análisis",),
+            "definicion": "Descripción de cómo un usuario interactúa con un sistema.",
+            "traduccion": "Description of how a user interacts with a system."},
+        "underscore": {
+            "categoria": ("Sintaxis",),
+            "definicion": "Carácter bajo utilizado en nombres de variables o funciones.",
+            "traduccion": "Low character used in variable or function names."}},
+    "v": {
+        "validate": {
+            "categoria": ("Verificación",),
+            "definicion": "Comprueba si los datos cumplen con un formato o criterio específico.",
+            "traduccion": "Checks if the data meets a specific format or criterion."},
+        "variable": {
+            "categoria": ("Programación",),
+            "definicion": "Espacio de memoria donde se almacena un valor que puede cambiar.",
+            "traduccion": "Memory space where a value that can change is stored."},
+        "value": {
+            "categoria": ("Datos",),
+            "definicion": "El contenido o dato almacenado en una variable.",
+            "traduccion": "The content or data stored in a variable."},
+        "version": {
+            "categoria": ("Software",),
+            "definicion": "Número o nombre que indica la evolución de un programa o sistema.",
+            "traduccion": "Number or name indicating the evolution of a program or system."},
+        "vowel": {
+            "categoria": ("Lingüística",),
+            "definicion": "Letra que representa un sonido vocal, como a, e, i, o, u.",
+            "traduccion": "Letter that represents a vocal sound, such as a, e, i, o, u."},
+        "view": {
+            "categoria": ("Gráficos",),
+            "definicion": "Representación visual de los datos o información.",
+            "traduccion": "Visual representation of data or information."},
+        "virtual": {
+            "categoria": ("Redes",),
+            "definicion": "Relacionado con un entorno no físico o simulado.",
+            "traduccion": "Related to a non-physical or simulated environment."},
+        "volume": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Medida de la cantidad de espacio ocupado por un objeto.",
+            "traduccion": "Measure of the amount of space occupied by an object."},
+        "vector": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Entidad matemática que tiene magnitud y dirección.",
+            "traduccion": "Mathematical entity that has magnitude and direction."},
+        "verify": {
+            "categoria": ("Validación",),
+            "definicion": "Comprobar la exactitud o veracidad de los datos o la información.",
+            "traduccion": "Check the accuracy or truthfulness of data or information."},
+        "vibrate": {
+            "categoria": ("Física",),
+            "definicion": "Moverse rápidamente hacia adelante y hacia atrás.",
+            "traduccion": "Move rapidly back and forth."},
+        "volume": {
+            "categoria": ("Datos",),
+            "definicion": "Cantidad total de datos almacenados o procesados.",
+            "traduccion": "Total amount of data stored or processed."},
+        "validate": {
+            "categoria": ("Verificación",),
+            "definicion": "Comprobar que los datos o entradas cumplen con criterios establecidos.",
+            "traduccion": "Check that data or inputs meet established criteria."},
+        "virtualization": {
+            "categoria": ("Tecnología",),
+            "definicion": "Proceso de crear una versión virtual de algo, como un servidor o almacenamiento.",
+            "traduccion": "Process of creating a virtual version of something, like a server or storage."},
+        "vulnerability": {
+            "categoria": ("Seguridad",),
+            "definicion": "Debilidad en un sistema que puede ser explotada para causar daño.",
+            "traduccion": "Weakness in a system that can be exploited to cause harm."},
+        "valueOf": {
+            "categoria": ("Métodos",),
+            "definicion": "Devuelve el valor primitivo de un objeto en Java.",
+            "traduccion": "Returns the primitive value of an object in Java."},
+        "voltage": {
+            "categoria": ("Electricidad",),
+            "definicion": "Diferencia de potencial eléctrico entre dos puntos.",
+            "traduccion": "Electric potential difference between two points."},
+        "vhost": {
+            "categoria": ("Redes",),
+            "definicion": "Acrónimo de host virtual, un servidor que hospeda varios dominios.",
+            "traduccion": "Acronym for virtual host, a server hosting multiple domains."},
+        "vacuum": {
+            "categoria": ("Física",),
+            "definicion": "Espacio que está completamente vacío de materia.",
+            "traduccion": "Space that is completely empty of matter."},
+        "verifiable": {
+            "categoria": ("Datos",),
+            "definicion": "Que puede ser comprobado o validado.",
+            "traduccion": "That can be checked or validated."},
+        "vigor": {
+            "categoria": ("Física",),
+            "definicion": "Intensidad o fuerza con la que ocurre una acción.",
+            "traduccion": "Intensity or strength with which an action occurs."},
+        "volition": {
+            "categoria": ("Psicología",),
+            "definicion": "El poder de tomar decisiones o actuar.",
+            "traduccion": "The power to make decisions or act."},
+        "velocity": {
+            "categoria": ("Física",),
+            "definicion": "Tasa de cambio de la posición de un objeto en una dirección específica.",
+            "traduccion": "Rate of change of an object's position in a specific direction."},
+        "validate": {
+            "categoria": ("Verificación",),
+            "definicion": "Asegurar que la entrada de datos sea válida antes de ser procesada.",
+            "traduccion": "Ensure that data input is valid before processing."},
+        "vectorize": {
+            "categoria": ("Programación",),
+            "definicion": "Convertir operaciones matemáticas en operaciones vectoriales para mayor eficiencia.",
+            "traduccion": "Convert mathematical operations into vector operations for greater efficiency."},
+        "validate": {
+            "categoria": ("Validación",),
+            "definicion": "Verificar si una acción o entrada cumple con los criterios establecidos.",
+            "traduccion": "Verify if an action or input meets established criteria."},
+        "virtualBox": {
+            "categoria": ("Tecnología",),
+            "definicion": "Software de virtualización que permite crear máquinas virtuales.",
+            "traduccion": "Virtualization software that allows creating virtual machines."},
+        "verbosity": {
+            "categoria": ("Programación",),
+            "definicion": "Uso excesivo de palabras o instrucciones en el código.",
+            "traduccion": "Excessive use of words or instructions in code."},
+        "vectorial": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Relativo a vectores o a operaciones con ellos.",
+            "traduccion": "Related to vectors or operations with them."},
+        "vault": {
+            "categoria": ("Seguridad",),
+            "definicion": "Un lugar seguro o almacenamiento para guardar información sensible.",
+            "traduccion": "A secure place or storage for keeping sensitive information."},
+        "verify": {
+            "categoria": ("Validación",),
+            "definicion": "Comprobar si algo es correcto o cumple con un estándar.",
+            "traduccion": "Check if something is correct or meets a standard."},
+        "vendor": {
+            "categoria": ("Comercio",),
+            "definicion": "Proveedor de productos o servicios.",
+            "traduccion": "Supplier of products or services."},
+        "voluntary": {
+            "categoria": ("Decisión",),
+            "definicion": "Hecho por libre elección o deseo.",
+            "traduccion": "Done by free choice or desire."},
+        "visibility": {
+            "categoria": ("Visibilidad",),
+            "definicion": "Facilidad con la que algo puede ser visto o detectado.",
+            "traduccion": "Ease with which something can be seen or detected."},
+        "validate": {
+            "categoria": ("Verificación",),
+            "definicion": "Asegurar que los datos introducidos son correctos.",
+            "traduccion": "Ensure that the data entered is correct."},
+        "vulnerable": {
+            "categoria": ("Seguridad",),
+            "definicion": "Que es susceptible a ser atacado o explotado.",
+            "traduccion": "Susceptible to being attacked or exploited."},
+        "vortex": {
+            "categoria": ("Física",),
+            "definicion": "Movimiento giratorio en un fluido, como un tornado.",
+            "traduccion": "Rotational movement in a fluid, such as a tornado."},
+        "voltage": {
+            "categoria": ("Física",),
+            "definicion": "Diferencia de potencial eléctrico entre dos puntos.",
+            "traduccion": "Electric potential difference between two points."},
+        "vanguard": {
+            "categoria": ("Movimiento",),
+            "definicion": "Parte de un grupo que va por delante, liderando el cambio.",
+            "traduccion": "Part of a group that leads ahead, leading the change."},
+        "valueError": {
+            "categoria": ("Excepciones",),
+            "definicion": "Error que ocurre cuando se recibe un valor no esperado.",
+            "traduccion": "Error that occurs when an unexpected value is received."},
+        "vigenère": {
+            "categoria": ("Cifrado",),
+            "definicion": "Método de cifrado que utiliza una clave para encriptar texto.",
+            "traduccion": "Encryption method that uses a key to encrypt text."}},
+    "w": {
+        "while": {
+            "categoria": ("Ciclo",),
+            "definicion": "Crea un bucle que se ejecuta mientras una condición sea verdadera.",
+            "traduccion": "Creates a loop that runs while a condition is true."},
+        "window": {
+            "categoria": ("Interfaz gráfica",),
+            "definicion": "Área dentro de una interfaz gráfica donde se muestra contenido.",
+            "traduccion": "Area within a graphical interface where content is displayed."},
+        "wget": {
+            "categoria": ("Comandos",),
+            "definicion": "Comando de línea que permite descargar archivos desde la web.",
+            "traduccion": "Command-line tool that allows downloading files from the web."},
+        "width": {
+            "categoria": ("Dimensiones",),
+            "definicion": "Medida de la extensión en sentido horizontal de un objeto.",
+            "traduccion": "Measure of the horizontal extent of an object."},
+        "write": {
+            "categoria": ("Entrada",),
+            "definicion": "Permite escribir datos en un archivo o dispositivo.",
+            "traduccion": "Allows writing data to a file or device."},
+        "wavelength": {
+            "categoria": ("Física",),
+            "definicion": "Distancia entre dos puntos consecutivos en una onda.",
+            "traduccion": "Distance between two consecutive points in a wave."},
+        "wrapper": {
+            "categoria": ("Programación",),
+            "definicion": "Función o clase que envuelve a otro para extender su funcionalidad.",
+            "traduccion": "Function or class that wraps another to extend its functionality."},
+        "watch": {
+            "categoria": ("Observación",),
+            "definicion": "Monitorear el cambio de valores o eventos.",
+            "traduccion": "Monitor changes in values or events."},
+        "writable": {
+            "categoria": ("Permisos",),
+            "definicion": "Indica si un archivo puede ser modificado o escrito.",
+            "traduccion": "Indicates if a file can be modified or written to."},
+        "workflow": {
+            "categoria": ("Procesos",),
+            "definicion": "Secuencia de pasos a seguir en un proceso de trabajo.",
+            "traduccion": "Sequence of steps to follow in a workflow process."},
+        "weakness": {
+            "categoria": ("Seguridad",),
+            "definicion": "Vulnerabilidad en un sistema o componente.",
+            "traduccion": "Weakness in a system or component."},
+        "web": {
+            "categoria": ("Internet",),
+            "definicion": "Sistema de páginas interconectadas a través de la red.",
+            "traduccion": "System of interconnected web pages through the network."},
+        "websocket": {
+            "categoria": ("Redes",),
+            "definicion": "Protocolo que permite comunicación bidireccional entre cliente y servidor.",
+            "traduccion": "Protocol that enables bidirectional communication between client and server."},
+        "widget": {
+            "categoria": ("Interfaz gráfica",),
+            "definicion": "Componente gráfico interactivo dentro de una interfaz de usuario.",
+            "traduccion": "Interactive graphical component within a user interface."},
+        "wait": {
+            "categoria": ("Control de flujo",),
+            "definicion": "Pausa en la ejecución de un programa hasta que se cumpla una condición.",
+            "traduccion": "Pause in the execution of a program until a condition is met."},
+        "wrap": {
+            "categoria": ("Programación",),
+            "definicion": "Envolver un conjunto de instrucciones o datos dentro de una estructura.",
+            "traduccion": "Wrap a set of instructions or data within a structure."},
+        "wifi": {
+            "categoria": ("Conectividad",),
+            "definicion": "Tecnología de red inalámbrica para conectarse a internet.",
+            "traduccion": "Wireless network technology to connect to the internet."},
+        "word": {
+            "categoria": ("Texto",),
+            "definicion": "Unidad básica de un lenguaje o sistema de comunicación.",
+            "traduccion": "Basic unit of a language or communication system."},
+        "win": {
+            "categoria": ("Resultado",),
+            "definicion": "Lograr el objetivo o victoria en una competencia o tarea.",
+            "traduccion": "Achieve the goal or victory in a competition or task."},
+        "without": {
+            "categoria": ("Negación",),
+            "definicion": "Indica la ausencia de algo.",
+            "traduccion": "Indicates the absence of something."},
+        "whitespace": {
+            "categoria": ("Formato",),
+            "definicion": "Espacio en blanco utilizado en programación o texto.",
+            "traduccion": "Blank space used in programming or text."},
+        "widget": {
+            "categoria": ("Interfaz gráfica",),
+            "definicion": "Elemento de la interfaz que proporciona alguna funcionalidad.",
+            "traduccion": "Element of the interface that provides some functionality."},
+        "work": {
+            "categoria": ("Trabajo",),
+            "definicion": "Realización de una tarea o acción para obtener un resultado.",
+            "traduccion": "Carrying out a task or action to achieve a result."},
+        "writable": {
+            "categoria": ("Archivo",),
+            "definicion": "Indica si el archivo se puede modificar o escribir.",
+            "traduccion": "Indicates if the file can be modified or written."},
+        "widen": {
+            "categoria": ("Transformación",),
+            "definicion": "Aumentar el tamaño o la amplitud de algo.",
+            "traduccion": "Increase the size or width of something."},
+        "warning": {
+            "categoria": ("Alerta",),
+            "definicion": "Mensaje que avisa sobre un posible problema o error.",
+            "traduccion": "Message that warns about a possible problem or error."},
+        "whitelist": {
+            "categoria": ("Seguridad",),
+            "definicion": "Lista de elementos aprobados o permitidos, como direcciones IP o correos.",
+            "traduccion": "List of approved or allowed elements, such as IP addresses or emails."},
+        "where": {
+            "categoria": ("Condición",),
+            "definicion": "Palabra clave utilizada para especificar una condición en consultas.",
+            "traduccion": "Keyword used to specify a condition in queries."},
+        "wrap": {
+            "categoria": ("Programación",),
+            "definicion": "Envolver o proteger un bloque de código o datos.",
+            "traduccion": "Wrap or protect a block of code or data."},
+        "world": {
+            "categoria": ("Realidad",),
+            "definicion": "El entorno físico o espacio en el que vivimos.",
+            "traduccion": "The physical environment or space in which we live."},
+        "wordwrap": {
+            "categoria": ("Texto",),
+            "definicion": "Ajustar el texto para que se divida en líneas dentro de un espacio dado.",
+            "traduccion": "Adjust the text so that it breaks into lines within a given space."},
+        "weight": {
+            "categoria": ("Física",),
+            "definicion": "Medida de la fuerza gravitacional ejercida sobre un objeto.",
+            "traduccion": "Measure of the gravitational force exerted on an object."},
+        "windowing": {
+            "categoria": ("Interfaz gráfica",),
+            "definicion": "Técnica de visualización en la que múltiples ventanas pueden mostrarse a la vez.",
+            "traduccion": "Visualization technique where multiple windows can be shown at once."},
+        "watchdog": {
+            "categoria": ("Seguridad",),
+            "definicion": "Mecanismo de control que supervisa y detecta fallos en el sistema.",
+            "traduccion": "Control mechanism that monitors and detects system failures."},
+        "wget": {
+            "categoria": ("Comando",),
+            "definicion": "Herramienta de línea de comandos utilizada para descargar archivos desde la web.",
+            "traduccion": "Command-line tool used to download files from the web."},
+        "wide": {
+            "categoria": ("Dimensión",),
+            "definicion": "Amplitud o extensión en sentido horizontal.",
+            "traduccion": "Width or extent in the horizontal direction."},
+        "waitfor": {
+            "categoria": ("Comando",),
+            "definicion": "Esperar una condición o evento específico antes de continuar con la ejecución.",
+            "traduccion": "Wait for a specific condition or event before continuing execution."},
+        "watch": {
+            "categoria": ("Observación",),
+            "definicion": "Monitorear el estado de un objeto o proceso.",
+            "traduccion": "Monitor the state of an object or process."},
+        "week": {
+            "categoria": ("Tiempo",),
+            "definicion": "Período de siete días.",
+            "traduccion": "Period of seven days."},
+        "webhook": {
+            "categoria": ("Redes",),
+            "definicion": "Método para que una aplicación envíe información a otra automáticamente.",
+            "traduccion": "Method for one application to automatically send information to another."},
+        "worlds": {
+            "categoria": ("Mundo",),
+            "definicion": "Diversos entornos o mundos virtuales en un videojuego.",
+            "traduccion": "Various environments or virtual worlds in a video game."}},
+    "x": {
+        "x": {
+            "categoria": ("General",),
+            "definicion": "Una variable comúnmente utilizada en matemáticas y programación para representar una cantidad desconocida o un valor.",
+            "traduccion": "A variable commonly used in mathematics and programming to represent an unknown quantity or value."},
+        "xor": {
+            "categoria": ("Operadores",),
+            "definicion": "Operador lógico que devuelve verdadero si solo uno de los operandos es verdadero.",
+            "traduccion": "A logical operator that returns true if only one of the operands is true."},
+        "xml": {
+            "categoria": ("Formato de datos",),
+            "definicion": "Lenguaje de marcado utilizado para almacenar y transportar datos de forma estructurada.",
+            "traduccion": "Markup language used for storing and transporting structured data."},
+        "x-axis": {
+            "categoria": ("Gráficos",),
+            "definicion": "El eje horizontal en un gráfico, comúnmente utilizado para representar variables independientes.",
+            "traduccion": "The horizontal axis in a graph, commonly used to represent independent variables."},
+        "xcode": {
+            "categoria": ("Herramienta",),
+            "definicion": "Entorno de desarrollo integrado (IDE) de Apple para crear aplicaciones para sus sistemas operativos.",
+            "traduccion": "Apple's integrated development environment (IDE) for creating applications for its operating systems."},
+        "x11": {
+            "categoria": ("Sistema",),
+            "definicion": "Protocolo de red que permite la ejecución de aplicaciones gráficas de forma remota sobre redes.",
+            "traduccion": "A network protocol that allows the execution of graphical applications remotely over networks."},
+        "xen": {
+            "categoria": ("Virtualización",),
+            "definicion": "Sistema de virtualización de código abierto que permite la ejecución de múltiples sistemas operativos.",
+            "traduccion": "An open-source virtualization system that allows the execution of multiple operating systems."},
+        "xss": {
+            "categoria": ("Seguridad",),
+            "definicion": "Vulnerabilidad de seguridad que permite inyectar scripts maliciosos en sitios web.",
+            "traduccion": "A security vulnerability that allows malicious scripts to be injected into websites."},
+        "xaml": {
+            "categoria": ("Lenguaje",),
+            "definicion": "Lenguaje de marcado basado en XML utilizado para diseñar interfaces gráficas en aplicaciones de Windows.",
+            "traduccion": "XML-based markup language used to design graphical interfaces in Windows applications."},
+        "xdebug": {
+            "categoria": ("Depuración",),
+            "definicion": "Extensión para PHP que facilita el proceso de depuración mediante la visualización de información de ejecución.",
+            "traduccion": "Extension for PHP that facilitates the debugging process by displaying execution information."},
+        "xgboost": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Un algoritmo de machine learning que implementa boosting, muy utilizado en tareas de clasificación.",
+            "traduccion": "A machine learning algorithm that implements boosting, widely used in classification tasks."},
+        "xunit": {
+            "categoria": ("Pruebas",),
+            "definicion": "Marco de pruebas unitarias utilizado en varios lenguajes de programación como .NET y Java.",
+            "traduccion": "Unit testing framework used in various programming languages like .NET and Java."},
+        "x-input": {
+            "categoria": ("Entrada",),
+            "definicion": "Referencia a un tipo de entrada en sistemas informáticos o juegos, como teclados o ratones.",
+            "traduccion": "Reference to an input type in computer systems or games, like keyboards or mice."},
+        "xor_gate": {
+            "categoria": ("Circuitos lógicos",),
+            "definicion": "Puerta lógica que realiza una operación XOR entre dos entradas.",
+            "traduccion": "A logical gate that performs an XOR operation between two inputs."},
+        "xcache": {
+            "categoria": ("Caché",),
+            "definicion": "Sistema de caché de alto rendimiento para PHP.",
+            "traduccion": "High-performance caching system for PHP."},
+        "xmlrpc": {
+            "categoria": ("Protocolo",),
+            "definicion": "Protocolo de llamadas a procedimientos remotos utilizando XML para la codificación de datos.",
+            "traduccion": "Remote procedure call protocol using XML to encode data."},
+        "xdebugger": {
+            "categoria": ("Depuración",),
+            "definicion": "Herramienta de depuración para programas que permiten analizar el flujo de ejecución del código.",
+            "traduccion": "Debugging tool for programs that allows analyzing the flow of code execution."},
+        "xsd": {
+            "categoria": ("Esquema",),
+            "definicion": "Lenguaje basado en XML que describe la estructura de un documento XML.",
+            "traduccion": "XML-based language that describes the structure of an XML document."},
+        "x-input-handler": {
+            "categoria": ("Control",),
+            "definicion": "Manejador que procesa las entradas del usuario en sistemas interactivos.",
+            "traduccion": "Handler that processes user inputs in interactive systems."},
+        "xterm": {
+            "categoria": ("Terminal",),
+            "definicion": "Emulador de terminal basado en X Window System, comúnmente utilizado en Linux.",
+            "traduccion": "Terminal emulator based on X Window System, commonly used in Linux."},
+        "xchange": {
+            "categoria": ("Intercambio",),
+            "definicion": "Plataforma o herramienta para intercambiar información o datos entre diferentes sistemas.",
+            "traduccion": "Platform or tool for exchanging information or data between different systems."},
+        "xenserver": {
+            "categoria": ("Virtualización",),
+            "definicion": "Plataforma de virtualización de servidor basada en Xen, utilizada para la gestión de máquinas virtuales.",
+            "traduccion": "Xen-based server virtualization platform used for managing virtual machines."},
+        "xapi": {
+            "categoria": ("Interfaz",),
+            "definicion": "Interfaz de programación de aplicaciones utilizada para interactuar con servicios web.",
+            "traduccion": "Application programming interface used to interact with web services."},
+        "xact": {
+            "categoria": ("Base de datos",),
+            "definicion": "Sistema que maneja la transacción de datos en una base de datos.",
+            "traduccion": "System that manages data transactions in a database."},
+        "xscale": {
+            "categoria": ("Escalabilidad",),
+            "definicion": "Técnica utilizada para medir o modificar la escala de un sistema.",
+            "traduccion": "Technique used to measure or modify the scale of a system."},
+        "x-frame": {
+            "categoria": ("Seguridad",),
+            "definicion": "Mecanismo de seguridad que evita que un sitio web sea cargado en un marco de otro sitio.",
+            "traduccion": "Security mechanism that prevents a website from being loaded in a frame from another site."},
+        "xerror": {
+            "categoria": ("Error",),
+            "definicion": "Error que ocurre en un programa cuando se producen condiciones inesperadas durante la ejecución.",
+            "traduccion": "Error that occurs in a program when unexpected conditions arise during execution."},
+        "xdrive": {
+            "categoria": ("Almacenamiento",),
+            "definicion": "Sistema de almacenamiento en línea o en la nube.",
+            "traduccion": "Online or cloud-based storage system."},
+        "xfer": {
+            "categoria": ("Transferencia",),
+            "definicion": "Proceso de transferencia de datos entre dos sistemas o dispositivos.",
+            "traduccion": "Process of transferring data between two systems or devices."},
+        "xilinx": {
+            "categoria": ("Hardware",),
+            "definicion": "Empresa que fabrica dispositivos FPGA (Field-Programmable Gate Array).",
+            "traduccion": "Company that manufactures FPGA (Field-Programmable Gate Array) devices."},
+        "x86": {
+            "categoria": ("Arquitectura",),
+            "definicion": "Arquitectura de procesadores que utiliza un conjunto de instrucciones basadas en 32 bits.",
+            "traduccion": "Processor architecture that uses a 32-bit instruction set."},
+        "xmac": {
+            "categoria": ("Mac",),
+            "definicion": "Módulo utilizado en los sistemas MacOS para la gestión de dispositivos y redes.",
+            "traduccion": "Module used in MacOS systems for managing devices and networks."},
+        "xorg": {
+            "categoria": ("Gráfico",),
+            "definicion": "Servidor de ventanas para sistemas Unix y Linux que gestiona la entrada y salida de gráficos.",
+            "traduccion": "Window server for Unix and Linux systems that manages input and output of graphics."},
+        "xenial": {
+            "categoria": ("Distribución",),
+            "definicion": "Versión de Ubuntu LTS que proporciona estabilidad y soporte a largo plazo.",
+            "traduccion": "LTS version of Ubuntu providing stability and long-term support."},
+        "xmlns": {
+            "categoria": ("XML",),
+            "definicion": "Atributo utilizado en documentos XML para definir un espacio de nombres.",
+            "traduccion": "Attribute used in XML documents to define a namespace."},
+        "xprint": {
+            "categoria": ("Impresión",),
+            "definicion": "Mecanismo para la impresión de documentos desde aplicaciones o programas.",
+            "traduccion": "Mechanism for printing documents from applications or programs."},
+        "xos": {
+            "categoria": ("Sistema operativo",),
+            "definicion": "Sistema operativo experimental utilizado para aprender sobre el diseño de OS.",
+            "traduccion": "Experimental operating system used to learn about OS design."},
+        "xno": {
+            "categoria": ("Negación",),
+            "definicion": "Palabra utilizada para denotar una negación o respuesta negativa en programación.",
+            "traduccion": "Word used to denote a negation or negative response in programming."},
+        "xmirror": {
+            "categoria": ("Reflejo",),
+            "definicion": "Proceso de duplicar datos o información entre dos sistemas.",
+            "traduccion": "Process of duplicating data or information between two systems."}},
+    "y": {
+        "yaml": {
+            "categoria": ("Formato de datos",),
+            "definicion": "Lenguaje de serialización de datos legible por humanos utilizado para configurar aplicaciones.",
+            "traduccion": "Human-readable data serialization language used for configuring applications."},
+        "yield": {
+            "categoria": ("Python",),
+            "definicion": "Palabra clave en Python que permite pausar una función y devolver un valor, manteniendo su estado.",
+            "traduccion": "Keyword in Python that allows pausing a function and returning a value while maintaining its state."},
+        "yarn": {
+            "categoria": ("Herramienta",),
+            "definicion": "Administrador de paquetes para aplicaciones JavaScript, utilizado en proyectos web.",
+            "traduccion": "Package manager for JavaScript applications used in web projects."},
+        "y-axis": {
+            "categoria": ("Gráficos",),
+            "definicion": "El eje vertical en un gráfico, comúnmente utilizado para representar variables dependientes.",
+            "traduccion": "The vertical axis in a graph, commonly used to represent dependent variables."},
+        "yellow": {
+            "categoria": ("Color",),
+            "definicion": "Color primario en la teoría del color, utilizado en gráficos y diseño.",
+            "traduccion": "Primary color in color theory, used in graphics and design."},
+        "y2k": {
+            "categoria": ("Error",),
+            "definicion": "Problema relacionado con el cambio de año del milenio, que afectaba a los sistemas informáticos.",
+            "traduccion": "Problem related to the change of the millennium year, affecting computer systems."},
+        "yes": {
+            "categoria": ("Booleano",),
+            "definicion": "Valor booleano que representa la afirmación o la veracidad en la programación.",
+            "traduccion": "Boolean value representing affirmation or truth in programming."},
+        "yarn.lock": {
+            "categoria": ("Archivo",),
+            "definicion": "Archivo utilizado en proyectos de JavaScript que garantiza las dependencias correctas de paquetes.",
+            "traduccion": "File used in JavaScript projects that ensures correct package dependencies."},
+        "yelp": {
+            "categoria": ("API",),
+            "definicion": "API utilizada para obtener información sobre reseñas de negocios locales en la web.",
+            "traduccion": "API used to get information about reviews of local businesses on the web."},
+        "yellowbox": {
+            "categoria": ("Interfaz de usuario",),
+            "definicion": "Elemento visual en interfaces gráficas que resalta información importante.",
+            "traduccion": "Visual element in graphical interfaces that highlights important information."},
+        "yesno": {
+            "categoria": ("Entrada",),
+            "definicion": "Tipo de entrada que solo acepta respuestas afirmativas o negativas.",
+            "traduccion": "Type of input that only accepts yes or no answers."},
+        "youtube": {
+            "categoria": ("Plataforma",),
+            "definicion": "Plataforma de videos en línea donde los usuarios pueden cargar y ver videos.",
+            "traduccion": "Online video platform where users can upload and view videos."},
+        "yarnpkg": {
+            "categoria": ("Herramienta",),
+            "definicion": "Herramienta de línea de comandos para gestionar dependencias de proyectos de JavaScript.",
+            "traduccion": "Command-line tool for managing dependencies of JavaScript projects."},
+        "yew": {
+            "categoria": ("Framework",),
+            "definicion": "Framework para crear aplicaciones web modernas utilizando Rust.",
+            "traduccion": "Framework for creating modern web applications using Rust."},
+        "yellowhat": {
+            "categoria": ("Seguridad",),
+            "definicion": "Término utilizado para describir hackers éticos o de sombrero blanco.",
+            "traduccion": "Term used to describe ethical hackers or white-hat hackers."},
+        "yarn upgrade": {
+            "categoria": ("Comando",),
+            "definicion": "Comando que actualiza las dependencias de los paquetes en un proyecto de Yarn.",
+            "traduccion": "Command that upgrades the package dependencies in a Yarn project."},
+        "yottabyte": {
+            "categoria": ("Unidad de medida",),
+            "definicion": "Unidad de medida de almacenamiento de datos equivalente a 1 billón de gigabytes.",
+            "traduccion": "Data storage unit equal to one trillion gigabytes."},
+        "young": {
+            "categoria": ("Estado",),
+            "definicion": "Término que se refiere a una versión temprana o nueva de un producto o proyecto.",
+            "traduccion": "Term referring to an early or new version of a product or project."},
+        "yad": {
+            "categoria": ("Comando",),
+            "definicion": "Comando de Unix utilizado para mostrar un archivo o una secuencia de texto.",
+            "traduccion": "Unix command used to display a file or a sequence of text."},
+        "yosemite": {
+            "categoria": ("Sistema operativo",),
+            "definicion": "Versión de Mac OS X lanzada por Apple, conocida por su diseño y nuevas funciones.",
+            "traduccion": "Mac OS X version released by Apple, known for its design and new features."},
+        "yoga": {
+            "categoria": ("Software",),
+            "definicion": "Software de modelado 3D utilizado en animación y diseño gráfico.",
+            "traduccion": "3D modeling software used in animation and graphic design."},
+        "yellowback": {
+            "categoria": ("Biblioteca",),
+            "definicion": "Biblioteca de JavaScript utilizada para crear interfaces de usuario interactivas.",
+            "traduccion": "JavaScript library used to create interactive user interfaces."},
+        "yarn init": {
+            "categoria": ("Comando",),
+            "definicion": "Comando utilizado para iniciar un nuevo proyecto con Yarn.",
+            "traduccion": "Command used to initialize a new project with Yarn."},
+        "yesod": {
+            "categoria": ("Framework",),
+            "definicion": "Framework para el desarrollo de aplicaciones web utilizando Haskell.",
+            "traduccion": "Framework for developing web applications using Haskell."},
+        "yielding": {
+            "categoria": ("Python",),
+            "definicion": "Proceso de devolver un valor desde una función generadora en Python.",
+            "traduccion": "Process of returning a value from a generator function in Python."},
+        "yggdrasil": {
+            "categoria": ("Redes",),
+            "definicion": "Red de distribución de servicios de Internet basada en una topología descentralizada.",
+            "traduccion": "Decentralized Internet services distribution network based on a tree-like topology."},
+        "yarn.lock": {
+            "categoria": ("Gestión de dependencias",),
+            "definicion": "Archivo que asegura la integridad y versión de las dependencias del proyecto en Yarn.",
+            "traduccion": "File that ensures the integrity and version of dependencies in a Yarn project."},
+        "yellowbrick": {
+            "categoria": ("Software",),
+            "definicion": "Biblioteca de Python utilizada para la visualización de datos en modelos de machine learning.",
+            "traduccion": "Python library used for visualizing data in machine learning models."},
+        "yieldfrom": {
+            "categoria": ("Python",),
+            "definicion": "Palabra clave en Python que delega la ejecución de una función generadora a otra.",
+            "traduccion": "Keyword in Python that delegates the execution of a generator function to another."},
+        "youtrack": {
+            "categoria": ("Gestión de proyectos",),
+            "definicion": "Herramienta de gestión de proyectos y seguimiento de incidencias.",
+            "traduccion": "Project management and issue tracking tool."},
+        "yarn add": {
+            "categoria": ("Comando",),
+            "definicion": "Comando de Yarn utilizado para agregar dependencias a un proyecto.",
+            "traduccion": "Yarn command used to add dependencies to a project."},
+        "yaml.load": {
+            "categoria": ("Python",),
+            "definicion": "Método en Python que carga contenido desde un archivo YAML.",
+            "traduccion": "Method in Python that loads content from a YAML file."},
+        "yahoo": {
+            "categoria": ("Plataforma",),
+            "definicion": "Motor de búsqueda y portal web conocido por su contenido de noticias, deportes y finanzas.",
+            "traduccion": "Search engine and web portal known for its news, sports, and finance content."},
+        "yesno_button": {
+            "categoria": ("Interfaz",),
+            "definicion": "Botón en una interfaz gráfica que permite al usuario seleccionar 'sí' o 'no'.",
+            "traduccion": "Button in a graphical interface that allows the user to select 'yes' or 'no'."},
+        "yellowcolor": {
+            "categoria": ("Color",),
+            "definicion": "Color utilizado en diseño gráfico y desarrollo web.",
+            "traduccion": "Color used in graphic design and web development."}},
     "z": {
         "zscore": {
                 "categoria": ("Estadística",),
