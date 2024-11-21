@@ -24,7 +24,7 @@ El proyecto es llevado a cabo por un equipo de estudiantes de programación. A c
 
 -   **Juan Alchao** - [@Juan777ac](https://github.com/Juan777ac)
 
-    -   Agregó los términos base al diccionario.
+    -   Incorporó los términos básicos y esenciales al diccionario, estableciendo la base para su funcionalidad en Python.
 
 -   **Feguens Louissaint** - [@kanabuggi](https://github.com/kanabuggi)
 
