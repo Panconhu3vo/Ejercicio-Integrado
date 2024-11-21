@@ -5,6 +5,7 @@
 # diccionario = {
 # "A":{"terminos,": {"categoría": "categoria en español", "traducción": "definicion en español"}},
 # }
+
 diccionario = {
     "a": {
         "abs": {
@@ -2991,7 +2992,6 @@ diccionario = {
             "categoria": ("Aprendizaje automático",),
             "definicion": "Clasificador probabilístico basado en el teorema de Bayes, que asume independencia entre las características.",
             "traduccion": "Probabilistic classifier based on Bayes' theorem, assuming independence between features."},
-    
         "numpy": {
             "categoria": ("Programación",),
             "definicion": "Biblioteca de Python para realizar cálculos numéricos y operaciones con matrices.",
@@ -3132,19 +3132,684 @@ diccionario = {
             "categoria": ("Bibliotecas",),
             "definicion": "Función de NumPy que calcula la media de los elementos de un array.",
             "traduccion": "NumPy function that calculates the mean of the elements of an array."}},
-    "o": {},
-
-    "p": {"pop": {"definicion": "Elimina y devuelve el último elemento de una lista.", "traduccion": "Removes and returns the last element of a list."}},
-
-    "q": {},
-
+    "o": {
+        "open": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Abre un archivo y lo prepara para lectura, escritura o ambas.",
+            "traduccion": "Opens a file and prepares it for reading, writing, or both."},
+        "ord": {
+            "categoria": ("Funciones integradas",),
+            "definicion": "Devuelve el valor Unicode de un carácter dado.",
+            "traduccion": "Returns the Unicode value of a given character."},
+        "oct": {
+            "categoria": ("Conversión de datos",),
+            "definicion": "Convierte un número en su representación octal.",
+            "traduccion": "Converts a number to its octal representation."},
+        "os": {
+            "categoria": ("Módulos estándar",),
+            "definicion": "Proporciona funciones para interactuar con el sistema operativo.",
+            "traduccion": "Provides functions to interact with the operating system."},
+        "object": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Clase base de la que derivan todas las clases en Python.",
+            "traduccion": "Base class from which all classes in Python are derived."},
+        "output": {
+            "categoria": ("Entrada/Salida",),
+            "definicion": "Datos enviados desde un programa a un dispositivo o archivo.",
+            "traduccion": "Data sent from a program to a device or file."},
+        "operator": {
+            "categoria": ("Módulos estándar",),
+            "definicion": "Módulo que proporciona funciones para operaciones comunes como adición o comparación.",
+            "traduccion": "Module that provides functions for common operations like addition or comparison."},
+        "options": {
+            "categoria": ("Configuración",),
+            "definicion": "Parámetros que definen el comportamiento de un programa o función.",
+            "traduccion": "Parameters that define the behavior of a program or function."},
+        "optimize": {
+            "categoria": ("Rendimiento",),
+            "definicion": "Proceso de mejorar la eficiencia de un código o programa.",
+            "traduccion": "Process of improving the efficiency of code or a program."},
+        "overflow": {
+            "categoria": ("Errores",),
+            "definicion": "Ocurre cuando un cálculo excede la capacidad máxima de almacenamiento.",
+            "traduccion": "Occurs when a calculation exceeds the maximum storage capacity."},
+        "offset": {
+            "categoria": ("Manipulación de datos",),
+            "definicion": "Desplazamiento relativo a una posición base.",
+            "traduccion": "Relative shift from a base position."},
+        "outer": {
+            "categoria": ("Ámbitos",),
+            "definicion": "Se refiere al alcance externo en el que se encuentra un código.",
+            "traduccion": "Refers to the outer scope in which code resides."},
+        "or": {
+            "categoria": ("Operadores",),
+            "definicion": "Operador lógico que devuelve True si al menos una condición es verdadera.",
+            "traduccion": "Logical operator that returns True if at least one condition is true."},
+        "openpyxl": {
+            "categoria": ("Bibliotecas",),
+            "definicion": "Biblioteca de Python para leer y escribir archivos Excel.",
+            "traduccion": "Python library for reading and writing Excel files."},
+        "overload": {
+            "categoria": ("Programación",),
+            "definicion": "Método que permite redefinir operadores o funciones para diferentes tipos de datos.",
+            "traduccion": "Method that allows redefining operators or functions for different data types."},
+        "object_id": {
+            "categoria": ("Memoria",),
+            "definicion": "Identificador único asignado a un objeto en la memoria.",
+            "traduccion": "Unique identifier assigned to an object in memory."},
+        "on_click": {
+            "categoria": ("Interfaces gráficas",),
+            "definicion": "Evento que se activa cuando un usuario hace clic en un elemento.",
+            "traduccion": "Event triggered when a user clicks on an element."},
+        "openai": {
+            "categoria": ("Inteligencia artificial",),
+            "definicion": "Biblioteca utilizada para interactuar con modelos de IA desarrollados por OpenAI.",
+            "traduccion": "Library used to interact with AI models developed by OpenAI."},
+        "os_path": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Módulo que permite trabajar con rutas de archivos y directorios.",
+            "traduccion": "Module that allows working with file and directory paths."},
+        "overflow_error": {
+            "categoria": ("Errores",),
+            "definicion": "Excepción lanzada cuando un número es demasiado grande para ser representado.",
+            "traduccion": "Exception raised when a number is too large to be represented."},
+        "ordered_dict": {
+            "categoria": ("Colecciones",),
+            "definicion": "Clase en el módulo 'collections' que conserva el orden de los elementos añadidos.",
+            "traduccion": "Class in the 'collections' module that preserves the order of added elements."},
+        "override": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Redefinición de un método en una clase hija para modificar su comportamiento.",
+            "traduccion": "Redefinition of a method in a child class to modify its behavior."},
+        "output_stream": {
+            "categoria": ("Entrada/Salida",),
+            "definicion": "Flujo de datos que se envía desde un programa a un destino.",
+            "traduccion": "Data stream sent from a program to a destination."},
+        "os_walk": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Función que genera nombres de archivos en un árbol de directorios.",
+            "traduccion": "Function that generates file names in a directory tree."},
+        "os_remove": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Elimina un archivo del sistema de archivos.",
+            "traduccion": "Deletes a file from the filesystem."},
+        "option_parser": {
+            "categoria": ("Argumentos de línea de comandos",),
+            "definicion": "Clase para analizar opciones y argumentos pasados en la línea de comandos.",
+            "traduccion": "Class to parse options and arguments passed in the command line."},
+        "os_error": {
+            "categoria": ("Errores",),
+            "definicion": "Excepción base para errores específicos del sistema operativo.",
+            "traduccion": "Base exception for operating system-specific errors."},
+        "one_hot_encoding": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Representación de datos categóricos como vectores binarios.",
+            "traduccion": "Representation of categorical data as binary vectors."},
+        "ordered_set": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Conjunto que conserva el orden de inserción de los elementos.",
+            "traduccion": "Set that preserves the insertion order of elements."},
+        "on_error": {
+            "categoria": ("Manejo de errores",),
+            "definicion": "Evento o función que se activa al ocurrir un error.",
+            "traduccion": "Event or function triggered when an error occurs."},
+        "os_stat": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Devuelve información sobre un archivo o directorio.",
+            "traduccion": "Returns information about a file or directory."},
+        "os_mkdir": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Crea un nuevo directorio en el sistema de archivos.",
+            "traduccion": "Creates a new directory in the filesystem."},
+        "operator_overloading": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Técnica para redefinir el comportamiento de operadores estándar en clases personalizadas.",
+            "traduccion": "Technique to redefine the behavior of standard operators in custom classes."},
+        "offset_mapping": {
+            "categoria": ("Procesamiento de datos",),
+            "definicion": "Asociación entre posiciones de datos en diferentes formatos o estructuras.",
+            "traduccion": "Association between data positions in different formats or structures."},
+        "os_path_exists": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Comprueba si una ruta de archivo o directorio existe.",
+            "traduccion": "Checks if a file or directory path exists."},
+        "output_file": {
+            "categoria": ("Entrada/Salida",),
+            "definicion": "Archivo donde se escriben los datos procesados.",
+            "traduccion": "File where processed data is written."},
+        "optimization": {
+            "categoria": ("Rendimiento",),
+            "definicion": "Proceso de mejorar la eficiencia y velocidad de un programa.",
+            "traduccion": "Process of improving the efficiency and speed of a program."},
+        "os_getcwd": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Devuelve el directorio de trabajo actual.",
+            "traduccion": "Returns the current working directory."},
+        "os_rename": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Cambia el nombre de un archivo o directorio.",
+            "traduccion": "Renames a file or directory."},
+        "os_chmod": {
+            "categoria": ("Permisos",),
+            "definicion": "Cambia los permisos de un archivo o directorio.",
+            "traduccion": "Changes the permissions of a file or directory."},
+        "open_file_mode": {
+            "categoria": ("Entrada/Salida",),
+            "definicion": "Modo en el que se abre un archivo (lectura, escritura, etc.).",
+            "traduccion": "Mode in which a file is opened (read, write, etc.)."},
+        "open_source": {
+            "categoria": ("Desarrollo de software",),
+            "definicion": "Software con código accesible y modificable por la comunidad.",
+            "traduccion": "Software with code accessible and modifiable by the community."},
+        "output_format": {
+            "categoria": ("Configuración",),
+            "definicion": "Formato en el que se presentan los resultados o datos procesados.",
+            "traduccion": "Format in which processed data or results are presented."},
+        "one_time_pad": {
+            "categoria": ("Criptografía",),
+            "definicion": "Método de cifrado que utiliza una clave única y aleatoria.",
+            "traduccion": "Encryption method that uses a unique and random key."},
+        "override_property": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Permite redefinir propiedades en clases derivadas.",
+            "traduccion": "Allows redefining properties in derived classes."}},
+    "p": {
+        "print": {
+            "categoria": ("Funciones de salida",),
+            "definicion": "Imprime un mensaje en la consola o terminal.",
+            "traduccion": "Prints a message to the console or terminal."},
+        "pop": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Elimina y devuelve un elemento de una lista o diccionario.",
+            "traduccion": "Removes and returns an element from a list or dictionary."},
+        "property": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Crea métodos accesibles como atributos.",
+            "traduccion": "Creates methods accessible as attributes."},
+        "pow": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Devuelve el resultado de elevar un número a una potencia.",
+            "traduccion": "Returns the result of raising a number to a power."},
+        "pprint": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Imprime estructuras de datos en un formato legible.",
+            "traduccion": "Prints data structures in a readable format."},
+        "pass": {
+            "categoria": ("Control de flujo",),
+            "definicion": "Indica una operación nula, no realiza ninguna acción.",
+            "traduccion": "Indicates a null operation; does nothing."},
+        "pip": {
+            "categoria": ("Gestión de paquetes",),
+            "definicion": "Herramienta para instalar y gestionar paquetes Python.",
+            "traduccion": "Tool for installing and managing Python packages."},
+        "pickle": {
+            "categoria": ("Serialización",),
+            "definicion": "Módulo para serializar y deserializar objetos Python.",
+            "traduccion": "Module for serializing and deserializing Python objects."},
+        "partition": {
+            "categoria": ("Manipulación de cadenas",),
+            "definicion": "Divide una cadena en tres partes usando un separador.",
+            "traduccion": "Splits a string into three parts using a separator."},
+        "pathlib": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Módulo para trabajar con rutas de archivos de manera orientada a objetos.",
+            "traduccion": "Module for working with file paths in an object-oriented manner."},
+        "partial": {
+            "categoria": ("Programación funcional",),
+            "definicion": "Crea funciones con argumentos predefinidos.",
+            "traduccion": "Creates functions with predefined arguments."},
+        "popitem": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Elimina y devuelve el último par clave-valor de un diccionario.",
+            "traduccion": "Removes and returns the last key-value pair from a dictionary."},
+        "permutations": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Genera todas las permutaciones posibles de un iterable.",
+            "traduccion": "Generates all possible permutations of an iterable."},
+        "plt_plot": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Función para crear gráficos lineales en Matplotlib.",
+            "traduccion": "Function for creating line plots in Matplotlib."},
+        "paramiko": {
+            "categoria": ("Redes",),
+            "definicion": "Módulo para trabajar con SSH y SFTP en Python.",
+            "traduccion": "Module for working with SSH and SFTP in Python."},
+        "path": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Representa la ubicación de un archivo o directorio.",
+            "traduccion": "Represents the location of a file or directory."},
+        "pdf_merger": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Herramienta para combinar varios archivos PDF en uno solo.",
+            "traduccion": "Tool for merging multiple PDF files into one."},
+        "pandas": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Librería para manipulación y análisis de datos estructurados.",
+            "traduccion": "Library for handling and analyzing structured data."},
+        "parse": {
+            "categoria": ("Procesamiento de datos",),
+            "definicion": "Convierte cadenas en estructuras de datos específicas.",
+            "traduccion": "Converts strings into specific data structures."},
+        "pipe": {
+            "categoria": ("Programación funcional",),
+            "definicion": "Combina varias funciones para aplicar una tras otra.",
+            "traduccion": "Combines multiple functions to apply one after another."},
+        "print_function": {
+            "categoria": ("Funciones de salida",),
+            "definicion": "Importación que habilita la función print como en Python 3.",
+            "traduccion": "Import that enables the print function as in Python 3."},
+        "proxy": {
+            "categoria": ("Redes",),
+            "definicion": "Intermediario entre el cliente y el servidor para gestionar solicitudes.",
+            "traduccion": "Intermediary between client and server to handle requests."},
+        "profile": {
+            "categoria": ("Depuración",),
+            "definicion": "Módulo para analizar el rendimiento de un programa.",
+            "traduccion": "Module for profiling the performance of a program."},
+        "pool": {
+            "categoria": ("Multiprocesamiento",),
+            "definicion": "Clase para gestionar un grupo de procesos.",
+            "traduccion": "Class for managing a pool of processes."},
+        "pow_function": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Calcula potencias con un exponente opcional para un módulo.",
+            "traduccion": "Computes powers with an optional modulus."},
+        "proxy_server": {
+            "categoria": ("Redes",),
+            "definicion": "Servidor que actúa como intermediario en solicitudes HTTP/HTTPS.",
+            "traduccion": "Server acting as an intermediary for HTTP/HTTPS requests."},
+        "plotly": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Librería para crear gráficos interactivos en Python.",
+            "traduccion": "Library for creating interactive plots in Python."},
+        "pipeline": {
+            "categoria": ("Procesamiento de datos",),
+            "definicion": "Secuencia de pasos de procesamiento en aprendizaje automático.",
+            "traduccion": "Sequence of processing steps in machine learning."},
+        "partial_fit": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Ajusta modelos incrementales en lotes de datos.",
+            "traduccion": "Fits incremental models on data batches."},
+        "parquet": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Formato de archivo columnar eficiente para almacenamiento y procesamiento.",
+            "traduccion": "Efficient columnar file format for storage and processing."},
+        "pkg_resources": {
+            "categoria": ("Gestión de paquetes",),
+            "definicion": "Módulo para trabajar con recursos y dependencias de paquetes.",
+            "traduccion": "Module for working with package resources and dependencies."},
+        "plot": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Función básica para generar gráficos en Matplotlib.",
+            "traduccion": "Basic function for generating plots in Matplotlib."},
+        "path_exists": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Verifica si una ruta o archivo existe en el sistema.",
+            "traduccion": "Checks if a path or file exists on the system."},
+        "preprocess": {
+            "categoria": ("Procesamiento de datos",),
+            "definicion": "Etapa inicial para preparar datos antes de su análisis.",
+            "traduccion": "Initial stage for preparing data before analysis."},
+        "push": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Añade un elemento al final de una pila.",
+            "traduccion": "Adds an element to the end of a stack."},
+        "pop_stack": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Elimina y devuelve el último elemento de una pila.",
+            "traduccion": "Removes and returns the last element of a stack."},
+        "path": {
+            "categoria": ("Manipulación de archivos",),
+            "definicion": "Representa una ruta de archivo o directorio en Pathlib.",
+            "traduccion": "Represents a file or directory path in Pathlib."},
+        "polynomial_features": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Genera características polinómicas a partir de un conjunto de datos.",
+            "traduccion": "Generates polynomial features from a dataset."},
+        "plt_legend": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Añade una leyenda a un gráfico en Matplotlib.",
+            "traduccion": "Adds a legend to a plot in Matplotlib."},
+        "precision_score": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Métrica para evaluar la precisión de un modelo de clasificación.",
+            "traduccion": "Metric to evaluate the precision of a classification model."},
+        "pipe_operation": {
+            "categoria": ("Programación funcional",),
+            "definicion": "Conecta varias operaciones en secuencia en pandas.",
+            "traduccion": "Connects multiple operations in sequence in pandas."},
+        "plt_bar": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Crea gráficos de barras con Matplotlib.",
+            "traduccion": "Creates bar charts with Matplotlib."},
+        "proxy_handler": {
+            "categoria": ("Redes",),
+            "definicion": "Configura un manejador para solicitudes proxy en urllib.",
+            "traduccion": "Configures a handler for proxy requests in urllib."},
+        "print_exception": {
+            "categoria": ("Depuración",),
+            "definicion": "Imprime información detallada sobre una excepción.",
+            "traduccion": "Prints detailed information about an exception."},
+        "post_request": {
+            "categoria": ("Redes",),
+            "definicion": "Envía datos al servidor usando el método HTTP POST.",
+            "traduccion": "Sends data to the server using the HTTP POST method."},
+        "plt_pie": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Crea gráficos de pastel en Matplotlib.",
+            "traduccion": "Creates pie charts in Matplotlib."},
+        "proxy_object": {
+            "categoria": ("Redes",),
+            "definicion": "Objeto que actúa como intermediario entre cliente y servidor.",
+            "traduccion": "Object that acts as an intermediary between client and server."},
+        "pandas_series": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Estructura de datos unidimensional en pandas.",
+            "traduccion": "One-dimensional data structure in pandas."},
+        "plt_scatter": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Genera gráficos de dispersión en Matplotlib.",
+            "traduccion": "Generates scatter plots in Matplotlib."},
+        "plt_grid": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Añade una cuadrícula a un gráfico.",
+            "traduccion": "Adds a grid to a plot."},
+        "plt_hist": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Crea histogramas con Matplotlib.",
+            "traduccion": "Creates histograms with Matplotlib."},
+        "plt_savefig": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Guarda un gráfico en un archivo.",
+            "traduccion": "Saves a plot to a file."},
+        "plt_title": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Añade un título a un gráfico.",
+            "traduccion": "Adds a title to a plot."},
+        "plt_xlabel": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Añade una etiqueta al eje x de un gráfico.",
+            "traduccion": "Adds a label to the x-axis of a plot."},
+        "plt_ylabel": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Añade una etiqueta al eje y de un gráfico.",
+            "traduccion": "Adds a label to the y-axis of a plot."},
+        "plt_show": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Muestra un gráfico en la ventana gráfica.",
+            "traduccion": "Displays a plot in the graphical window."},
+        "plt_colorbar": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Añade una barra de colores a un gráfico.",
+            "traduccion": "Adds a colorbar to a plot."},
+        "plt_contour": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Crea gráficos de contorno en Matplotlib.",
+            "traduccion": "Creates contour plots in Matplotlib."},
+        "plt_fill_between": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Rellena el área entre dos curvas.",
+            "traduccion": "Fills the area between two curves."},
+        "plt_annotate": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Añade anotaciones a un gráfico.",
+            "traduccion": "Adds annotations to a plot."},
+        "plt_boxplot": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Genera diagramas de caja para visualizar distribución de datos.",
+            "traduccion": "Generates boxplots to visualize data distribution."},
+        "plt_stackplot": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Crea gráficos de área apilados.",
+            "traduccion": "Creates stacked area plots."},
+        "plt_quiver": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Dibuja gráficos de campos vectoriales.",
+            "traduccion": "Draws vector field plots."},
+        "plt_arrow": {
+            "categoria": ("Visualización de datos",),
+            "definicion": "Añade flechas a un gráfico.",
+            "traduccion": "Adds arrows to a plot."}},
+    "q": {
+        "queue": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Estructura de datos FIFO (Primero en entrar, primero en salir).",
+            "traduccion": "FIFO (First In, First Out) data structure."},
+        "queue.Queue": {
+            "categoria": ("Manejo de hilos",),
+            "definicion": "Clase para implementar colas seguras para hilos.",
+            "traduccion": "Class for implementing thread-safe queues."},
+        "qsize": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Devuelve el número de elementos en una cola.",
+            "traduccion": "Returns the number of items in a queue."},
+        "quit": {
+            "categoria": ("Interacción",),
+            "definicion": "Sale del intérprete interactivo de Python.",
+            "traduccion": "Exits the Python interactive interpreter."},
+        "quantile": {
+            "categoria": ("Estadísticas",),
+            "definicion": "Calcula el percentil especificado en un conjunto de datos.",
+            "traduccion": "Calculates the specified percentile in a dataset."},
+        "query": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Consulta realizada para obtener datos de una base de datos.",
+            "traduccion": "Query performed to retrieve data from a database."},
+        "quick_sort": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Algoritmo de ordenación rápido basado en particiones.",
+            "traduccion": "Fast sorting algorithm based on partitioning."},
+        "quaternion": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Estructura matemática para representar rotaciones en el espacio tridimensional.",
+            "traduccion": "Mathematical structure to represent rotations in 3D space."},
+        "qrcode": {
+            "categoria": ("Generación de códigos",),
+            "definicion": "Librería para generar códigos QR.",
+            "traduccion": "Library for generating QR codes."},
+        "quantization": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Proceso de reducir la precisión de los números para optimizar modelos.",
+            "traduccion": "Process of reducing numerical precision to optimize models."},
+        "queue.PriorityQueue": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Cola que asigna prioridad a los elementos.",
+            "traduccion": "Queue that assigns priority to elements."},
+        "queue.LifoQueue": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Cola basada en el principio LIFO (Último en entrar, primero en salir).",
+            "traduccion": "Queue based on LIFO (Last In, First Out) principle."},
+        "quad": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Función de SciPy para integrar numéricamente.",
+            "traduccion": "SciPy function for numerical integration."},
+        "quantize": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Ajusta un número decimal a un valor fijo de dígitos significativos.",
+            "traduccion": "Adjusts a decimal number to a fixed significant digits value"},
+        "queue.Empty": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Excepción lanzada cuando se intenta acceder a una cola vacía.",
+            "traduccion": "Exception raised when attempting to access an empty queue."},
+        "queue.Full": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Excepción lanzada cuando se intenta agregar a una cola llena.",
+            "traduccion": "Exception raised when attempting to add to a full queue."},
+        "quadprog": {
+            "categoria": ("Optimización",),
+            "definicion": "Librería para resolver problemas de programación cuadrática.",
+            "traduccion": "Library for solving quadratic programming problems."},
+        "queue.SimpleQueue": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Implementación simple de una cola FIFO.",
+            "traduccion": "Simple implementation of a FIFO queue."},
+        "quantum_computing": {
+            "categoria": ("Computación avanzada",),
+            "definicion": "Campo que utiliza la mecánica cuántica para resolver problemas computacionales.",
+            "traduccion": "Field using quantum mechanics to solve computational problems."},
+        "queue_handler": {
+            "categoria": ("Registros",),
+            "definicion": "Manejador de registro que utiliza una cola para procesar mensajes.",
+            "traduccion": "Logging handler that uses a queue to process messages."},
+        "qcut": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Divide datos en intervalos basados en cuantiles.",
+            "traduccion": "Divides data into intervals based on quantiles."},
+        "query_parameters": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Parámetros que se usan para personalizar consultas SQL.",
+            "traduccion": "Parameters used to customize SQL queries."},
+        "quantum_state": {
+            "categoria": ("Computación avanzada",),
+            "definicion": "Representación matemática del estado de un sistema cuántico.",
+            "traduccion": "Mathematical representation of a quantum system's state."},
+        "queue_module": {
+            "categoria": ("Manejo de hilos",),
+            "definicion": "Módulo de Python que ofrece colas seguras para múltiples hilos.",
+            "traduccion": "Python module providing thread-safe queues."},
+        "quadrature": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Técnica para calcular áreas bajo curvas usando integración.",
+            "traduccion": "Technique to calculate areas under curves using integration."},
+        "quantum_circuit": {
+            "categoria": ("Computación avanzada",),
+            "definicion": "Modelo matemático para representar operaciones en computación cuántica.",
+            "traduccion": "Mathematical model for representing operations in quantum computing."},
+        "queue_time": {
+            "categoria": ("Análisis de rendimiento",),
+            "definicion": "Tiempo que un elemento pasa en espera en una cola.",
+            "traduccion": "Time an item spends waiting in a queue."},
+        "quantile_transform": {
+            "categoria": ("Preprocesamiento de datos",),
+            "definicion": "Transforma datos para que sigan una distribución uniforme.",
+            "traduccion": "Transforms data to follow a uniform distribution."},
+        "queryset": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Conjunto de datos devueltos por una consulta en Django ORM.",
+            "traduccion": "Set of data returned by a query in Django ORM."},
+        "quicktest": {
+            "categoria": ("Pruebas de software",),
+            "definicion": "Método para realizar pruebas rápidas de funcionalidad.",
+            "traduccion": "Method for performing quick functionality tests."},
+        "queue_timeout": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Tiempo máximo que un elemento puede permanecer en una cola.",
+            "traduccion": "Maximum time an item can remain in a queue."},
+        "quantum_noise": {
+            "categoria": ("Computación avanzada",),
+            "definicion": "Ruido inherente en sistemas cuánticos que afecta la precisión.",
+            "traduccion": "Inherent noise in quantum systems affecting accuracy."},
+        "qimage": {
+            "categoria": ("Procesamiento de imágenes",),
+            "definicion": "Clase para manipular imágenes en PyQt.",
+            "traduccion": "Class for manipulating images in PyQt."},
+        "qfont": {
+            "categoria": ("Interfaz gráfica",),
+            "definicion": "Clase para trabajar con fuentes en PyQt.",
+            "traduccion": "Class for working with fonts in PyQt."},
+        "qmainwindow": {
+            "categoria": ("Interfaz gráfica",),
+            "definicion": "Clase principal para crear ventanas en PyQt.",
+            "traduccion": "Main class for creating windows in PyQt."},
+        "quickstart": {
+            "categoria": ("Documentación",),
+            "definicion": "Guía inicial para configurar y ejecutar proyectos.",
+            "traduccion": "Initial guide for setting up and running projects."},
+        "quantum_computer": {
+            "categoria": ("Computación avanzada",),
+            "definicion": "Máquina basada en principios cuánticos para resolver problemas complejos.",
+            "traduccion": "Machine based on quantum principles to solve complex problems."},
+        "qos": {
+            "categoria": ("Redes",),
+            "definicion": "Calidad de servicio, utilizada para gestionar recursos en redes.",
+            "traduccion": "Quality of Service, used to manage resources in networks."},
+        "qsplitter": {
+            "categoria": ("Interfaz gráfica",),
+            "definicion": "Widget para dividir áreas de una ventana en PyQt.",
+            "traduccion": "Widget for dividing areas of a window in PyQt."},
+        "quantile_normalization": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Método para igualar distribuciones de datos entre muestras.",
+            "traduccion": "Method to equalize data distributions across samples."},
+        "quad_tree": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Estructura jerárquica usada para dividir el espacio en áreas cuadradas.",
+            "traduccion": "Hierarchical structure used to divide space into square areas."},
+        "query_tool": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Herramienta para construir y ejecutar consultas SQL.",
+            "traduccion": "Tool for building and executing SQL queries."},
+        "qwidget": {
+            "categoria": ("Interfaz gráfica",),
+            "definicion": "Clase base para crear elementos de interfaz en PyQt.",
+            "traduccion": "Base class for creating interface elements in PyQt."},
+        "quiver": {
+            "categoria": ("Visualización",),
+            "definicion": "Función de Matplotlib para trazar campos vectoriales.",
+            "traduccion": "Matplotlib function to plot vector fields."},
+        "queue_manager": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Módulo que gestiona colas distribuidas en multiprocessing.",
+            "traduccion": "Module that manages distributed queues in multiprocessing."},
+        "qapplication": {
+            "categoria": ("Interfaz gráfica",),
+            "definicion": "Clase principal para inicializar aplicaciones en PyQt.",
+            "traduccion": "Main class for initializing applications in PyQt."},
+        "quantum_gate": {
+            "categoria": ("Computación avanzada",),
+            "definicion": "Operación básica en circuitos de computación cuántica.",
+            "traduccion": "Basic operation in quantum computing circuits."},
+        "quickselect": {
+            "categoria": ("Algoritmos",),
+            "definicion": "Algoritmo para encontrar el k-ésimo elemento más pequeño.",
+            "traduccion": "Algorithm to find the k-th smallest element."},
+        "query_optimizer": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Componente que mejora el rendimiento de consultas SQL.",
+            "traduccion": "Component that improves SQL query performance."},
+        "qubit": {
+            "categoria": ("Computación avanzada",),
+            "definicion": "Unidad básica de información en computación cuántica.",
+            "traduccion": "Basic unit of information in quantum computing."},
+        "quantum_entanglement": {
+            "categoria": ("Computación avanzada",),
+            "definicion": "Propiedad de partículas cuánticas que comparten estados.",
+            "traduccion": "Property of quantum particles that share states."},
+        "qpoint": {
+            "categoria": ("Interfaz gráfica",),
+            "definicion": "Clase para representar puntos en un sistema de coordenadas en PyQt.",
+            "traduccion": "Class to represent points in a coordinate system in PyQt."},
+        "quantum_tensor": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Representación matemática usada en operaciones cuánticas.",
+            "traduccion": "Mathematical representation used in quantum operations."},
+        "query_cursor": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Objeto que permite ejecutar consultas y recorrer resultados.",
+            "traduccion": "Object that allows executing queries and iterating over results."},
+        "quaternion_rotation": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Uso de cuaterniones para representar rotaciones en 3D.",
+            "traduccion": "Use of quaternions to represent rotations in 3D."},
+        "queue_size": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Propiedad que devuelve el tamaño de una cola.",
+            "traduccion": "Property that returns the size of a queue."},
+        "quantum_key_distribution": {
+            "categoria": ("Seguridad",),
+            "definicion": "Método para distribuir claves usando propiedades cuánticas.",
+            "traduccion": "Method for key distribution using quantum properties."},
+        "quick_fix": {
+            "categoria": ("Depuración",),
+            "definicion": "Solución temporal para corregir errores en código.",
+            "traduccion": "Temporary solution to fix errors in code."},
+        "queue_put": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Método para agregar un elemento a una cola.",
+            "traduccion": "Method to add an item to a queue."}},
     "r": {"reverse": {"definicion": "Invierte el orden de los elementos en una lista.", "traduccion": "Reverses the order of elements in a list."}},
 
-    "s": {
-        "sort": {"definicion": "Ordena los elementos de una lista en orden ascendente o descendente.", 
-                 "traduccion": "Sorts the elements of a list in ascending or descending order."}, 
-        "split": {"definicion": "Divide una cadena en una lista de subcadenas según un delimitador.", 
-                  "traduccion": "Splits a string into a list of substrings based on a delimiter."}},
+    "s": {}
 
     "t": {},
 
