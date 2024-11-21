@@ -4385,8 +4385,187 @@ diccionario = {
             "categoria": ("Programación orientada a objetos",),
             "definicion": "Establece el valor de un atributo en un objeto.",
             "traduccion": "Sets the value of an attribute in an object."}},
-    "t": {},
-
+    "t": {
+        "try": {
+            "categoria": ("Control de flujo",),
+            "definicion": "Inicia un bloque de código donde se puede capturar una excepción.",
+            "traduccion": "Starts a block of code where an exception can be caught."},
+        "tuple": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Una colección ordenada e inmutable de elementos.",
+            "traduccion": "An ordered, immutable collection of elements."},
+        "text": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Un tipo de dato que representa texto.",
+            "traduccion": "A data type that represents text."},
+        "type": {
+            "categoria": ("Tipos de datos",),
+            "definicion": "Devuelve el tipo de un objeto.",
+            "traduccion": "Returns the type of an object."},
+        "try-except": {
+            "categoria": ("Control de flujo",),
+            "definicion": "Estructura que maneja excepciones durante la ejecución.",
+            "traduccion": "Structure that handles exceptions during execution."},
+        "textfile": {
+            "categoria": ("Archivos",),
+            "definicion": "Archivo que contiene texto plano.",
+            "traduccion": "A file that contains plain text."},
+        "threshold": {
+            "categoria": ("Matemáticas",),
+            "definicion": "El valor límite que determina el cambio de estado en un sistema.",
+            "traduccion": "The threshold value that determines a change in a system's state."},
+        "table": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Conjunto de datos organizados en filas y columnas.",
+            "traduccion": "A set of data organized into rows and columns."},
+        "time": {
+            "categoria": ("Manejo de tiempo",),
+            "definicion": "Función que devuelve el tiempo actual.",
+            "traduccion": "Function that returns the current time."},
+        "trim": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Elimina los espacios en blanco al inicio y final de una cadena.",
+            "traduccion": "Removes leading and trailing whitespace from a string."},
+        "to": {
+            "categoria": ("Operadores",),
+            "definicion": "Operador que denota un valor de destino en una asignación o función.",
+            "traduccion": "Operator that denotes a destination value in an assignment or function."},
+        "timeout": {
+            "categoria": ("Sistemas",),
+            "definicion": "Tiempo máximo de espera para que se complete una operación.",
+            "traduccion": "The maximum time to wait for an operation to complete."},
+        "thread": {
+            "categoria": ("Concurrencia",),
+            "definicion": "Unidad básica de ejecución dentro de un proceso.",
+            "traduccion": "The basic unit of execution within a process."},
+        "tempfile": {
+            "categoria": ("Archivos",),
+            "definicion": "Archivo temporal utilizado por el sistema o la aplicación.",
+            "traduccion": "Temporary file used by the system or application."},
+        "test": {
+            "categoria": ("Pruebas",),
+            "definicion": "Función o rutina que valida el comportamiento del código.",
+            "traduccion": "Function or routine that validates the behavior of the code."},
+        "try-finally": {
+            "categoria": ("Control de flujo",),
+            "definicion": "Bloque de código que asegura la ejecución de una sección final.",
+            "traduccion": "Code block that ensures the execution of a final section."},
+        "turtle": {
+            "categoria": ("Gráficos",),
+            "definicion": "Biblioteca que permite dibujar gráficos en Python.",
+            "traduccion": "A library that allows drawing graphics in Python."},
+        "target": {
+            "categoria": ("Redes",),
+            "definicion": "El objeto o dirección al que se dirige una solicitud o tráfico.",
+            "traduccion": "The object or address to which a request or traffic is directed."},
+        "token": {
+            "categoria": ("Seguridad",),
+            "definicion": "Un valor utilizado en autenticación o validación.",
+            "traduccion": "A value used in authentication or validation."},
+        "total": {
+            "categoria": ("Matemáticas",),
+            "definicion": "La suma completa de todos los elementos de un conjunto.",
+            "traduccion": "The complete sum of all elements in a set."},
+        "transmit": {
+            "categoria": ("Redes",),
+            "definicion": "Enviar datos de un lugar a otro a través de una red.",
+            "traduccion": "Send data from one place to another through a network."},
+        "terminate": {
+            "categoria": ("Sistemas",),
+            "definicion": "Finaliza un proceso o ejecución.",
+            "traduccion": "Ends a process or execution."},
+        "translate": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Convierte un texto de un idioma a otro.",
+            "traduccion": "Converts text from one language to another."},
+        "testcase": {
+            "categoria": ("Pruebas",),
+            "definicion": "Un conjunto de condiciones para probar una función o aplicación.",
+            "traduccion": "A set of conditions to test a function or application."},
+        "targeted": {
+            "categoria": ("Marketing",),
+            "definicion": "Dirigido a un grupo o público específico.",
+            "traduccion": "Directed at a specific group or audience."},
+        "transpose": {
+            "categoria": ("Matrices",),
+            "definicion": "Cambia las filas por las columnas en una matriz.",
+            "traduccion": "Swaps rows and columns in a matrix."},
+        "trunc": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Elimina la parte decimal de un número.",
+            "traduccion": "Removes the decimal part of a number."},
+        "typecast": {
+            "categoria": ("Conversión de datos",),
+            "definicion": "Convierte un tipo de dato a otro.",
+            "traduccion": "Converts one data type to another."},
+        "trigger": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Un evento que ejecuta una acción en una base de datos.",
+            "traduccion": "An event that triggers an action in a database."},
+        "term": {
+            "categoria": ("Definición",),
+            "definicion": "Palabra o conjunto de palabras que tiene un significado específico.",
+            "traduccion": "A word or set of words that has a specific meaning."},
+        "textwrap": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Ajusta el texto a un ancho específico.",
+            "traduccion": "Wraps text to a specific width."},
+        "tail": {
+            "categoria": ("Archivos",),
+            "definicion": "Muestra las últimas líneas de un archivo.",
+            "traduccion": "Shows the last lines of a file."},
+        "thresholding": {
+            "categoria": ("Imágenes",),
+            "definicion": "Técnica de procesamiento de imágenes que convierte los valores a blanco o negro.",
+            "traduccion": "Image processing technique that converts values to black or white."},
+        "tune": {
+            "categoria": ("Sonido",),
+            "definicion": "Ajustar un parámetro o configuración para mejorar el rendimiento.",
+            "traduccion": "Adjust a parameter or setting to improve performance."},
+        "transaction": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Una unidad de trabajo que se realiza en una base de datos.",
+            "traduccion": "A unit of work done in a database."},
+        "terminate": {
+            "categoria": ("Sistemas",),
+            "definicion": "Detiene un proceso o una función.",
+            "traduccion": "Stops a process or function."},
+        "tokenize": {
+            "categoria": ("Lenguajes de programación",),
+            "definicion": "Dividir un texto en unidades básicas o tokens.",
+            "traduccion": "Divides a text into basic units or tokens."},
+        "tuple": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Una colección ordenada de elementos inmutables.",
+            "traduccion": "An ordered collection of immutable elements."},
+        "take": {
+            "categoria": ("Listas",),
+            "definicion": "Toma un número específico de elementos de una lista.",
+            "traduccion": "Takes a specific number of elements from a list."},
+        "translate": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Convierte un texto de un idioma a otro.",
+            "traduccion": "Converts text from one language to another."},
+        "tag": {
+            "categoria": ("HTML",),
+            "definicion": "Una etiqueta que define el contenido en una página web.",
+            "traduccion": "A tag that defines content on a web page."},
+        "terminals": {
+            "categoria": ("Sistemas",),
+            "definicion": "Dispositivos de entrada y salida de datos.",
+            "traduccion": "Input and output data devices."},
+        "tool": {
+            "categoria": ("Programación",),
+            "definicion": "Software o utilitario que ayuda en una tarea específica.",
+            "traduccion": "Software or utility that assists in a specific task."},
+        "translate": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Convierte un texto de un idioma a otro.",
+            "traduccion": "Converts text from one language to another."},
+        "tolerance": {
+            "categoria": ("Matemáticas",),
+            "definicion": "La variabilidad permitida en un valor o parámetro.",
+            "traduccion": "The allowed variability in a value or parameter."}},
     "u": {},
 
     "v": {},
