@@ -3807,10 +3807,584 @@ diccionario = {
             "categoria": ("Estructuras de datos",),
             "definicion": "Método para agregar un elemento a una cola.",
             "traduccion": "Method to add an item to a queue."}},
-    "r": {"reverse": {"definicion": "Invierte el orden de los elementos en una lista.", "traduccion": "Reverses the order of elements in a list."}},
-
-    "s": {}
-
+    "r": {
+        "range": {
+            "categoria": ("Funciones de secuencia",),
+            "definicion": "Crea una secuencia inmutable de números dentro de un rango especificado.",
+            "traduccion": "Creates an immutable sequence of numbers within a specified range."},
+        "read": {
+            "categoria": ("Archivos",),
+            "definicion": "Método para leer el contenido de un archivo.",
+            "traduccion": "Method to read the contents of a file."},
+        "replace": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Método que reemplaza partes de una cadena con otra.",
+            "traduccion": "Method that replaces parts of a string with another."},
+        "reverse": {
+            "categoria": ("Listas",),
+            "definicion": "Método que invierte el orden de los elementos de una lista.",
+            "traduccion": "Method that reverses the order of elements in a list."},
+        "readlines": {
+            "categoria": ("Archivos",),
+            "definicion": "Lee todas las líneas de un archivo y las devuelve como una lista.",
+            "traduccion": "Reads all lines of a file and returns them as a list."},
+        "remove": {
+            "categoria": ("Listas",),
+            "definicion": "Elimina la primera aparición de un elemento en una lista.",
+            "traduccion": "Removes the first occurrence of an element in a list."},
+        "random": {
+            "categoria": ("Generación de números",),
+            "definicion": "Módulo para generar números pseudoaleatorios.",
+            "traduccion": "Module for generating pseudorandom numbers."},
+        "read_csv": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Función de pandas para leer archivos CSV.",
+            "traduccion": "Pandas function to read CSV files."},
+        "rename": {
+            "categoria": ("Archivos",),
+            "definicion": "Cambiar el nombre de un archivo o directorio.",
+            "traduccion": "Change the name of a file or directory."},
+        "raise": {
+            "categoria": ("Excepciones",),
+            "definicion": "Lanza una excepción especificada en el código.",
+            "traduccion": "Raises a specified exception in the code."},
+        "round": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Redondea un número al número de decimales especificado.",
+            "traduccion": "Rounds a number to the specified number of decimals."},
+        "reduce": {
+            "categoria": ("Programación funcional",),
+            "definicion": "Aplica una función acumulativa a los elementos de un iterable.",
+            "traduccion": "Applies a cumulative function to the elements of an iterable."},
+        "read_excel": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Función de pandas para leer archivos Excel.",
+            "traduccion": "Pandas function to read Excel files."},
+        "reversed": {
+            "categoria": ("Funciones de secuencia",),
+            "definicion": "Devuelve un iterador que invierte una secuencia.",
+            "traduccion": "Returns an iterator that reverses a sequence."},
+        "radians": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Convierte un ángulo de grados a radianes.",
+            "traduccion": "Converts an angle from degrees to radians."},
+        "randint": {
+            "categoria": ("Generación de números",),
+            "definicion": "Devuelve un número entero aleatorio dentro de un rango.",
+            "traduccion": "Returns a random integer within a range."},
+        "regex": {
+            "categoria": ("Manipulación de texto",),
+            "definicion": "Expresiones regulares para buscar y manipular texto.",
+            "traduccion": "Regular expressions for searching and manipulating text."},
+        "reset_index": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Restablece el índice de un DataFrame en pandas.",
+            "traduccion": "Resets the index of a DataFrame in pandas."},
+        "read_json": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Función de pandas para leer archivos JSON.",
+            "traduccion": "Pandas function to read JSON files."},
+        "request": {
+            "categoria": ("Redes",),
+            "definicion": "Módulo para realizar solicitudes HTTP.",
+            "traduccion": "Module for making HTTP requests."},
+        "row": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Representa una fila en un conjunto de datos.",
+            "traduccion": "Represents a row in a dataset."},
+        "resize": {
+            "categoria": ("Procesamiento de imágenes",),
+            "definicion": "Cambia las dimensiones de una imagen.",
+            "traduccion": "Changes the dimensions of an image."},
+        "randrange": {
+            "categoria": ("Generación de números",),
+            "definicion": "Devuelve un número aleatorio dentro de un rango.",
+            "traduccion": "Returns a random number within a range."},
+        "roll": {
+            "categoria": ("Manipulación de matrices",),
+            "definicion": "Desplaza elementos de un array a lo largo de un eje.",
+            "traduccion": "Shifts elements of an array along an axis."},
+        "rand": {
+            "categoria": ("Generación de números",),
+            "definicion": "Genera números aleatorios en un intervalo continuo.",
+            "traduccion": "Generates random numbers in a continuous interval."},
+        "row_stack": {
+            "categoria": ("Manipulación de matrices",),
+            "definicion": "Apila matrices en filas.",
+            "traduccion": "Stacks arrays in rows."},
+        "result": {
+            "categoria": ("Programación concurrente",),
+            "definicion": "Método para obtener el resultado de una tarea en multiprocessing.",
+            "traduccion": "Method to get the result of a task in multiprocessing."},
+        "read_pickle": {
+            "categoria": ("Serialización",),
+            "definicion": "Lee un archivo serializado en formato pickle.",
+            "traduccion": "Reads a serialized file in pickle format."},
+        "resolve": {
+            "categoria": ("Redes",),
+            "definicion": "Resuelve un dominio en su dirección IP.",
+            "traduccion": "Resolves a domain to its IP address."},
+        "reset": {
+            "categoria": ("Programación",),
+            "definicion": "Restablece el estado inicial de un objeto o variable.",
+            "traduccion": "Resets the initial state of an object or variable."},
+        "read_sql": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Función de pandas para ejecutar consultas SQL y obtener resultados.",
+            "traduccion": "Pandas function to execute SQL queries and get results."},
+        "root": {
+            "categoria": ("Árboles",),
+            "definicion": "Nodo principal en una estructura de árbol.",
+            "traduccion": "Main node in a tree structure."},
+        "recursion": {
+            "categoria": ("Programación",),
+            "definicion": "Técnica donde una función se llama a sí misma para resolver problemas.",
+            "traduccion": "Technique where a function calls itself to solve problems."},
+        "readline": {
+            "categoria": ("Archivos",),
+            "definicion": "Método que lee una línea específica de un archivo.",
+            "traduccion": "Method that reads a specific line from a file."},
+        "round": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Redondea un número al entero más cercano o a un número de decimales especificado.",
+            "traduccion": "Rounds a number to the nearest integer or specified decimals."},
+        "rjust": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Devuelve una cadena justificada a la derecha.",
+            "traduccion": "Returns a right-justified string."},
+        "rowcount": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Atributo que devuelve el número de filas afectadas por una consulta.",
+            "traduccion": "Attribute that returns the number of rows affected by a query."},
+        "read_table": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Función de pandas para leer archivos delimitados por tabulaciones.",
+            "traduccion": "Pandas function to read tab-delimited files."},
+        "rank": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Asigna rangos a los elementos en un DataFrame o Serie.",
+            "traduccion": "Assigns ranks to elements in a DataFrame or Series."},
+        "reshape": {
+            "categoria": ("Manipulación de matrices",),
+            "definicion": "Cambia la forma de una matriz sin alterar sus datos.",
+            "traduccion": "Changes the shape of an array without altering its data."},
+        "read_sql_table": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Lee una tabla directamente desde una base de datos SQL en un DataFrame.",
+            "traduccion": "Reads a table directly from an SQL database into a DataFrame."},
+        "rpartition": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Divide una cadena en tres partes usando el separador más a la derecha.",
+            "traduccion": "Splits a string into three parts using the rightmost separator."},
+        "random_sample": {
+            "categoria": ("Generación de números",),
+            "definicion": "Genera una muestra aleatoria de una distribución dada.",
+            "traduccion": "Generates a random sample from a given distribution."},
+        "real": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Atributo que devuelve la parte real de un número complejo.",
+            "traduccion": "Attribute that returns the real part of a complex number."},
+        "reset_states": {
+            "categoria": ("Machine Learning",),
+            "definicion": "Restaura el estado inicial de una capa o modelo de aprendizaje automático.",
+            "traduccion": "Restores the initial state of a machine learning layer or model."},
+        "rich_comparison": {
+            "categoria": ("Programación",),
+            "definicion": "Métodos mágicos para realizar comparaciones personalizadas en clases.",
+            "traduccion": "Magic methods for performing custom comparisons in classes."},
+        "retry": {
+            "categoria": ("Redes",),
+            "definicion": "Intento adicional para ejecutar una operación fallida.",
+            "traduccion": "Additional attempt to execute a failed operation."},
+        "random_state": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Parámetro utilizado para establecer la semilla de generación aleatoria.",
+            "traduccion": "Parameter used to set the seed for random generation."},
+        "rotate": {
+            "categoria": ("Procesamiento de imágenes",),
+            "definicion": "Gira una imagen en un ángulo especificado.",
+            "traduccion": "Rotates an image by a specified angle."},
+        "rpc": {
+            "categoria": ("Redes",),
+            "definicion": "Llamada a procedimiento remoto para ejecutar funciones en otra máquina.",
+            "traduccion": "Remote procedure call to execute functions on another machine."},
+        "read_sql_query": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Ejecuta una consulta SQL y devuelve el resultado como un DataFrame.",
+            "traduccion": "Executes an SQL query and returns the result as a DataFrame."},
+        "retry_on_failure": {
+            "categoria": ("Redes",),
+            "definicion": "Intento automático de una operación cuando ocurre un fallo.",
+            "traduccion": "Automatic retry of an operation when a failure occurs."},
+        "repeat": {
+            "categoria": ("Itertools",),
+            "definicion": "Genera un iterador que repite un valor un número de veces.",
+            "traduccion": "Generates an iterator that repeats a value a specified number of times."},
+        "require": {
+            "categoria": ("Seguridad",),
+            "definicion": "Verifica que se cumplan ciertas condiciones en el código.",
+            "traduccion": "Ensures that certain conditions in the code are met."},
+        "replace_nan": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Reemplaza valores NaN en un DataFrame o Serie con un valor especificado.",
+            "traduccion": "Replaces NaN values in a DataFrame or Series with a specified value."},
+        "record": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Representa una entrada individual en una tabla de base de datos.",
+            "traduccion": "Represents an individual entry in a database table."},
+        "randomized_search": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Método para seleccionar hiperparámetros de forma aleatoria.",
+            "traduccion": "Method to randomly select hyperparameters."},
+        "rollaxis": {
+            "categoria": ("Manipulación de matrices",),
+            "definicion": "Desplaza un eje de una matriz a una nueva posición.",
+            "traduccion": "Moves an axis of an array to a new position."},
+        "resource": {
+            "categoria": ("Sistemas",),
+            "definicion": "Clase o módulo que representa un recurso del sistema.",
+            "traduccion": "Class or module representing a system resource."},
+        "return": {
+            "categoria": ("Funciones",),
+            "definicion": "Palabra clave para devolver un valor de una función.",
+            "traduccion": "Keyword to return a value from a function."},
+        "robust_scaler": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Transformador que escala datos utilizando la mediana y el rango intercuartil.",
+            "traduccion": "Transformer that scales data using the median and interquartile range."},
+        "row_iter": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Iterador que permite recorrer filas de una consulta de base de datos.",
+            "traduccion": "Iterator that allows traversing rows of a database query."},
+        "route": {
+            "categoria": ("Redes",),
+            "definicion": "Define una ruta en una aplicación web.",
+            "traduccion": "Defines a route in a web application."},
+        "refresh": {
+            "categoria": ("Sistemas",),
+            "definicion": "Actualiza el estado de un recurso o componente.",
+            "traduccion": "Updates the state of a resource or component."},
+        "random_permutation": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Genera una permutación aleatoria de un array o lista.",
+            "traduccion": "Generates a random permutation of an array or list."},
+        "register": {
+            "categoria": ("Programación",),
+            "definicion": "Registra una función o clase para un propósito específico.",
+            "traduccion": "Registers a function or class for a specific purpose."}},
+    "s": {
+        "split": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Divide una cadena en una lista usando un delimitador especificado.",
+            "traduccion": "Splits a string into a list using a specified delimiter."},
+        "sort": {
+            "categoria": ("Listas",),
+            "definicion": "Ordena los elementos de una lista en orden ascendente o descendente.",
+            "traduccion": "Sorts the elements of a list in ascending or descending order."},
+        "str": {
+            "categoria": ("Conversión de datos",),
+            "definicion": "Convierte un objeto a su representación en cadena.",
+            "traduccion": "Converts an object to its string representation."},
+        "sqrt": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Devuelve la raíz cuadrada de un número.",
+            "traduccion": "Returns the square root of a number."},
+        "set": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Crea un conjunto, una colección no ordenada de elementos únicos.",
+            "traduccion": "Creates a set, an unordered collection of unique elements."},
+        "slice": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Crea un objeto de segmento para indexación avanzada.",
+            "traduccion": "Creates a slice object for advanced indexing."},
+        "startswith": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Verifica si una cadena comienza con un prefijo especificado.",
+            "traduccion": "Checks if a string starts with a specified prefix."},
+        "sum": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Devuelve la suma de un iterable.",
+            "traduccion": "Returns the sum of an iterable."},
+        "sorted": {
+            "categoria": ("Listas",),
+            "definicion": "Devuelve una lista ordenada de los elementos de un iterable.",
+            "traduccion": "Returns a sorted list of the elements in an iterable."},
+        "subprocess": {
+            "categoria": ("Sistemas",),
+            "definicion": "Módulo para ejecutar procesos externos y comunicarse con ellos.",
+            "traduccion": "Module to run external processes and communicate with them."},
+        "setdefault": {
+            "categoria": ("Diccionarios",),
+            "definicion": "Devuelve el valor de una clave y, si no existe, la agrega con un valor predeterminado.",
+            "traduccion": "Returns the value of a key and, if it doesn't exist, adds it with a default value."},
+        "sample": {
+            "categoria": ("Aleatoriedad",),
+            "definicion": "Selecciona una muestra aleatoria de un iterable.",
+            "traduccion": "Selects a random sample from an iterable."},
+        "seek": {
+            "categoria": ("Archivos",),
+            "definicion": "Cambia la posición del puntero de lectura/escritura en un archivo.",
+            "traduccion": "Changes the position of the read/write pointer in a file."},
+        "symmetric_difference": {
+            "categoria": ("Conjuntos",),
+            "definicion": "Devuelve los elementos que están en uno de los conjuntos pero no en ambos.",
+            "traduccion": "Returns elements that are in one of the sets but not in both."},
+        "shutil": {
+            "categoria": ("Sistemas",),
+            "definicion": "Módulo para operaciones de archivo de alto nivel, como copiar o mover archivos.",
+            "traduccion": "Module for high-level file operations, like copying or moving files."},
+        "strip": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Elimina los caracteres iniciales y finales especificados de una cadena.",
+            "traduccion": "Removes specified leading and trailing characters from a string."},
+        "splitlines": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Divide una cadena en una lista en cada salto de línea.",
+            "traduccion": "Splits a string into a list at each newline."},
+        "shape": {
+            "categoria": ("Manipulación de matrices",),
+            "definicion": "Devuelve las dimensiones de un array o matriz.",
+            "traduccion": "Returns the dimensions of an array or matrix."},
+        "scatter": {
+            "categoria": ("Visualización",),
+            "definicion": "Crea un gráfico de dispersión utilizando Matplotlib.",
+            "traduccion": "Creates a scatter plot using Matplotlib."},
+        "series": {
+            "categoria": ("Análisis de datos",),
+            "definicion": "Objeto unidimensional en pandas, similar a una lista o un array.",
+            "traduccion": "One-dimensional object in pandas, similar to a list or an array."},
+        "serialize": {
+            "categoria": ("Datos",),
+            "definicion": "Convierte un objeto en un formato que se puede almacenar o transmitir.",
+            "traduccion": "Converts an object into a storable or transmittable format."},
+        "sin": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Devuelve el seno de un ángulo dado en radianes.",
+            "traduccion": "Returns the sine of a given angle in radians."},
+        "sortedcontainers": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Biblioteca para trabajar con contenedores ordenados.",
+            "traduccion": "Library for working with sorted containers."},
+        "sklearn": {
+            "categoria": ("Aprendizaje automático",),
+            "definicion": "Biblioteca para realizar tareas de machine learning en Python.",
+            "traduccion": "Library for performing machine learning tasks in Python."},
+        "style": {
+            "categoria": ("Visualización",),
+            "definicion": "Método en pandas para personalizar la apariencia de un DataFrame.",
+            "traduccion": "Method in pandas to customize the appearance of a DataFrame."},
+        "savefig": {
+            "categoria": ("Visualización",),
+            "definicion": "Guarda un gráfico en un archivo utilizando Matplotlib.",
+            "traduccion": "Saves a plot to a file using Matplotlib."},
+        "searchsorted": {
+            "categoria": ("Manipulación de matrices",),
+            "definicion": "Encuentra los índices donde insertar valores para mantener el orden.",
+            "traduccion": "Finds indices to insert values to maintain order."},
+        "select": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Consulta SQL para recuperar datos de una tabla.",
+            "traduccion": "SQL query to retrieve data from a table."},
+        "show": {
+            "categoria": ("Visualización",),
+            "definicion": "Muestra un gráfico en la ventana activa utilizando Matplotlib.",
+            "traduccion": "Displays a plot in the active window using Matplotlib."},
+        "step": {
+            "categoria": ("Ciclo for",),
+            "definicion": "Define el incremento entre iteraciones en un rango.",
+            "traduccion": "Defines the increment between iterations in a range."},
+        "save": {
+            "categoria": ("Archivos",),
+            "definicion": "Guarda un archivo con los datos actuales.",
+            "traduccion": "Saves a file with the current data."},
+        "seek": {
+            "categoria": ("Archivos",),
+            "definicion": "Posiciona el puntero en una posición específica en un archivo.",
+            "traduccion": "Positions the pointer at a specific position in a file."},
+        "shelve": {
+            "categoria": ("Base de datos",),
+            "definicion": "Permite almacenar objetos de Python de manera persistente.",
+            "traduccion": "Allows storing Python objects persistently."},
+        "slice": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Extrae una subsecuencia de una cadena de texto.",
+            "traduccion": "Extracts a subsequence from a string."},
+        "split": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Divide una cadena en una lista usando un delimitador.",
+            "traduccion": "Splits a string into a list using a delimiter."},
+        "sorted": {
+            "categoria": ("Listas",),
+            "definicion": "Devuelve una lista ordenada de los elementos de un iterable.",
+            "traduccion": "Returns a sorted list of the elements in an iterable."},
+        "sum": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Devuelve la suma de los elementos de un iterable.",
+            "traduccion": "Returns the sum of the elements in an iterable."},
+        "set": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Crea un conjunto, una colección no ordenada de elementos únicos.",
+            "traduccion": "Creates a set, an unordered collection of unique elements."},
+        "str": {
+            "categoria": ("Conversión de datos",),
+            "definicion": "Convierte un objeto en su representación en cadena.",
+            "traduccion": "Converts an object to its string representation."},
+        "slice": {
+            "categoria": ("Estructuras de datos",),
+            "definicion": "Permite extraer porciones de secuencias como listas o cadenas.",
+            "traduccion": "Allows extracting portions of sequences like lists or strings."},
+        "subclass": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Una clase que hereda atributos y métodos de una clase base.",
+            "traduccion": "A class that inherits attributes and methods from a base class."},
+        "setdefault": {
+            "categoria": ("Diccionarios",),
+            "definicion": "Devuelve el valor de una clave, y si no existe, la agrega con un valor predeterminado.",
+            "traduccion": "Returns the value of a key, and if it doesn't exist, adds it with a default value."},
+        "symmetric_difference": {
+            "categoria": ("Conjuntos",),
+            "definicion": "Devuelve los elementos que están en uno de los conjuntos, pero no en ambos.",
+            "traduccion": "Returns elements that are in one of the sets, but not in both."},
+        "show": {
+            "categoria": ("Visualización",),
+            "definicion": "Muestra un gráfico en la ventana activa utilizando Matplotlib.",
+            "traduccion": "Displays a plot in the active window using Matplotlib."},
+        "step": {
+            "categoria": ("Ciclo for",),
+            "definicion": "Define el incremento entre iteraciones en un rango.",
+            "traduccion": "Defines the increment between iterations in a range."},
+        "subprocess": {
+            "categoria": ("Sistemas",),
+            "definicion": "Permite ejecutar procesos externos y comunicarse con ellos.",
+            "traduccion": "Allows running external processes and communicating with them."},
+        "slice": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Obtiene una subcadena a partir de índices específicos.",
+            "traduccion": "Gets a substring from specific indices."},
+        "splitlines": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Divide una cadena en una lista usando los saltos de línea.",
+            "traduccion": "Splits a string into a list using newlines."},
+        "super": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Se usa para llamar a un método de la clase base en una subclase.",
+            "traduccion": "Used to call a method from the base class in a subclass."},
+        "setattr": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Establece el valor de un atributo en un objeto.",
+            "traduccion": "Sets the value of an attribute in an object."},
+        "savetxt": {
+            "categoria": ("Manejo de archivos",),
+            "definicion": "Guarda un array en un archivo de texto.",
+            "traduccion": "Saves an array to a text file."},
+        "subclassing": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "El proceso de crear una subclase a partir de una clase base.",
+            "traduccion": "The process of creating a subclass from a base class."},
+        "scanf": {
+            "categoria": ("Entradas",),
+            "definicion": "Permite leer entradas desde la consola con un formato específico.",
+            "traduccion": "Allows reading input from the console with a specific format."},
+        "search": {
+            "categoria": ("Búsqueda",),
+            "definicion": "Realiza una búsqueda dentro de un objeto iterable.",
+            "traduccion": "Performs a search within an iterable object."},
+        "splitext": {
+            "categoria": ("Archivos",),
+            "definicion": "Divide la ruta del archivo en la ruta y la extensión.",
+            "traduccion": "Splits the file path into the path and the extension."},
+        "sample": {
+            "categoria": ("Aleatoriedad",),
+            "definicion": "Devuelve una muestra aleatoria de un iterable.",
+            "traduccion": "Returns a random sample from an iterable."},
+        "setattr": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Define el valor de un atributo en un objeto.",
+            "traduccion": "Sets the value of an attribute in an object."},
+        "sleep": {
+            "categoria": ("Sistemas",),
+            "definicion": "Pone en pausa la ejecución del programa durante un tiempo determinado.",
+            "traduccion": "Pauses the execution of the program for a specified time."},
+        "slice": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Permite extraer un segmento de una cadena.",
+            "traduccion": "Allows extracting a segment from a string."},
+        "syntax": {
+            "categoria": ("Programación",),
+            "definicion": "El conjunto de reglas que definen la estructura de los programas.",
+            "traduccion": "The set of rules that define the structure of programs."},
+        "sublist": {
+            "categoria": ("Listas",),
+            "definicion": "Extrae una sublista de una lista original.",
+            "traduccion": "Extracts a sublist from an original list."},
+        "strptime": {
+            "categoria": ("Fechas",),
+            "definicion": "Convierte una cadena a un objeto datetime usando un formato específico.",
+            "traduccion": "Converts a string to a datetime object using a specific format."},
+        "setdefault": {
+            "categoria": ("Diccionarios",),
+            "definicion": "Establece un valor predeterminado para una clave en el diccionario.",
+            "traduccion": "Sets a default value for a key in the dictionary."},
+        "sorted": {
+            "categoria": ("Listas",),
+            "definicion": "Devuelve una lista ordenada de los elementos de un iterable.",
+            "traduccion": "Returns a sorted list of the elements in an iterable."},
+        "show": {
+            "categoria": ("Visualización",),
+            "definicion": "Muestra un gráfico en la ventana activa utilizando Matplotlib.",
+            "traduccion": "Displays a plot in the active window using Matplotlib."},
+        "subprocess": {
+            "categoria": ("Sistemas",),
+            "definicion": "Permite ejecutar un proceso externo y gestionar su entrada/salida.",
+            "traduccion": "Allows running an external process and managing its input/output."},
+        "script": {
+            "categoria": ("Programación",),
+            "definicion": "Un archivo que contiene instrucciones de código que se ejecutan en un lenguaje específico.",
+            "traduccion": "A file containing code instructions executed in a specific language."},
+        "split": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Divide una cadena en una lista usando un delimitador.",
+            "traduccion": "Splits a string into a list using a delimiter."},
+        "select": {
+            "categoria": ("Bases de datos",),
+            "definicion": "Selecciona datos de una base de datos según una condición.",
+            "traduccion": "Selects data from a database based on a condition."},
+        "sympy": {
+            "categoria": ("Matemáticas",),
+            "definicion": "Una biblioteca para matemáticas simbólicas en Python.",
+            "traduccion": "A library for symbolic mathematics in Python."},
+        "sublist": {
+            "categoria": ("Listas",),
+            "definicion": "Extrae una sublista de una lista original.",
+            "traduccion": "Extracts a sublist from an original list."},
+        "self": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Hace referencia al objeto actual en la definición de una clase.",
+            "traduccion": "Refers to the current object in a class definition."},
+        "sleep": {
+            "categoria": ("Sistemas",),
+            "definicion": "Pone en pausa la ejecución del programa durante un tiempo determinado.",
+            "traduccion": "Pauses the execution of the program for a specified time."},
+        "static": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Un método o atributo que pertenece a la clase, no a la instancia.",
+            "traduccion": "A method or attribute that belongs to the class, not the instance."},
+        "shuffle": {
+            "categoria": ("Aleatoriedad",),
+            "definicion": "Reorganiza aleatoriamente los elementos de una lista.",
+            "traduccion": "Randomly rearranges the elements of a list."},
+        "saveas": {
+            "categoria": ("Archivos",),
+            "definicion": "Guarda un archivo con un nuevo nombre o formato.",
+            "traduccion": "Saves a file with a new name or format."},
+        "suffix": {
+            "categoria": ("Cadenas de texto",),
+            "definicion": "Devuelve una cadena con un sufijo añadido.",
+            "traduccion": "Returns a string with a suffix added."},
+        "setattr": {
+            "categoria": ("Programación orientada a objetos",),
+            "definicion": "Establece el valor de un atributo en un objeto.",
+            "traduccion": "Sets the value of an attribute in an object."}},
     "t": {},
 
     "u": {},
