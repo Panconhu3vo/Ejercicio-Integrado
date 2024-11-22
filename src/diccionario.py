@@ -5404,5 +5404,4 @@ diccionario = {
                 "categoria": ("Buenas prácticas",),
                 "definicion": "Conjunto de principios que guían el diseño y desarrollo de código Python claro y eficiente.",
                 "traduccion": "Set of principles that guide the design and development of clear and efficient Python code."}}
-
 }

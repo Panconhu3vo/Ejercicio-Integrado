@@ -25,7 +25,6 @@ nombreNT = tk.StringVar
 # ------------------------------------------------------
 def FNlistarTerminos(event=None): 
     txtTerminosListados.configure(state="normal")
-    # "zyxwvutsrqponmlkjihgfedcba" utiliza esta cadena de texto, esta inversa por que cada que agregas algo al txt este se pone arriba lo que hacia que se escribiera al revez
 
     for i in "zyxwvutsrqponmlkjihgfedcba":
         txtTerminosListados.insert("1.0", f"""{i}""" )
@@ -37,7 +36,6 @@ def FNlistarTerminos(event=None):
   Traduccion: {diccionario[i][j]["traduccion"]}
   Categoria: {diccionario[i][j]["categoria"]}
 ''')
-
         txtTerminosListados.insert("1.0", f"\n{i.upper()}:\n")
     txtTerminosListados.configure(state="disable")
 
@@ -51,7 +49,6 @@ def FNFiltrar(event=None):
         if idxLetra:
             txtTerminosListados.see(idxLetra)
             
-
 def FNeliminarTermino(event=None):#enNombreET
     termino = enNombreET.get()
     if verificarNombre(termino) == True:
