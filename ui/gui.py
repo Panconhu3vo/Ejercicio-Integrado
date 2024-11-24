@@ -86,30 +86,73 @@ def FNeliminarTermino(event=None):#enNombreET
         txtConsoleE.configure(state='disable')    
 
 def FNagregarTermino(event=None):
-    
     txtConsole.configure(state="normal")
     txtConsole.delete(1.0, tk.END)
     txtConsole.configure(state="disable")
     
-    nombreNT = enNombreNT.get()
-    definicion = txtDefinicion.get(1.0, tk.END)
-    Traduccion = txtTraduccion.get(1.0, tk.END)
-    categoria = categoriaSelect.get()
+    # Obtener valores del formulario
+    nombreTermino = enNombreNT.get()
+    definicionTermino = txtDefinicion.get(1.0, tk.END).strip()
+    traduccionTermino = txtTraduccion.get(1.0, tk.END).strip()
+    categoriaTermino = categoriaSelect.get()
 
-    if verificarNombre(nombreNT) == False:
-        #Agregar los terminos al diccionario 
-        diccionario[nombreNT[0]][nombreNT] = {
-            "definicion" : definicion,
-            "traduccion" : Traduccion,
-            "categoria"  : categoria,
+    # Verificar si el término ya existe
+    if verificarNombre(nombreTermino) == False:
+        # Agregar el término al diccionario
+        letraInicial = nombreTermino[0].lower()  # Categorizar por la primera letra
+        if letraInicial not in diccionario:
+            diccionario[letraInicial] = {}
+        diccionario[letraInicial][nombreTermino] = {
+            "definicion": definicionTermino,
+            "traduccion": traduccionTermino,
+            "categoria": categoriaTermino,
         }
+
+        # Guardar el diccionario actualizado en el archivo
+        guardarDiccionario()
+
+        # Confirmar la acción
         txtConsole.configure(state="normal")
-        txtConsole.insert("1.0",f"""\n ¡¡¡Témino agregado correctamente!!! \n""")
+        txtConsole.insert("1.0", "\n ¡¡¡Término agregado correctamente!!! \n")
         txtConsole.configure(state="disable")
     else:
+        # Mensaje de término existente
         txtConsole.configure(state="normal")
-        txtConsole.insert("1.0",f""" término existente, ingresa un término que no se encuentre dentro del diccionario \n""")
+        txtConsole.insert("1.0", "Término existente, ingresa uno nuevo.\n")
         txtConsole.configure(state="disable")
+
+# Función para guardar el diccionario en el archivo
+def guardarDiccionario():
+    rutaArchivo = r"src\diccionario.py"
+    with open(rutaArchivo, "w", encoding="utf-8") as archivo:
+        # Escribir el encabezado del diccionario
+        archivo.write("diccionario = {\n")
+        
+        # Obtener el total de letras
+        totalLetras = len(diccionario)
+        for j, (letra, terminos) in enumerate(diccionario.items(), start=1):
+            archivo.write(f"    \"{letra}\": {{\n")
+            
+            # Escribir cada término dentro de la letra
+            totalTerminos = len(terminos)
+            for i, (termino, detalles) in enumerate(terminos.items(), start=1):
+                archivo.write(f"        \"{termino}\": {{\n")
+                archivo.write(f"            \"categoria\": {repr(detalles['categoria'])},\n")
+                archivo.write(f"            \"definicion\": \"{detalles['definicion'].strip()}\",\n")
+                archivo.write(f"            \"traduccion\": \"{detalles['traduccion'].strip()}\"\n")
+                # Si no es el último término, agrega una coma
+                if i < totalTerminos:
+                    archivo.write("        },\n")
+                else:
+                    archivo.write("        }\n")  # Sin coma para el último término
+            
+            # Si no es la última letra, agrega una coma
+            if j < totalLetras:
+                archivo.write("    },\n")
+            else:
+                archivo.write("    }\n")  # Sin coma para la última letra
+        
+        archivo.write("}\n")
 
 # Funcion buscar termino
 def FNbuscarTermino(event=None):
