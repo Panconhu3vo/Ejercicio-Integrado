@@ -2,7 +2,18 @@ import tkinter as tk
 import sys
 import os
 
-ruta_src = os.path.abspath(os.path.join(os.path.dirname(__file__), '../src'))
+def limpiarDiccionario():
+    rutaArchivo = os.path.abspath(os.path.join(os.path.dirname(__file__), "../src/diccionario.py"))
+    with open(rutaArchivo, "rb") as file:
+        contenido = file.read()
+    if b"\x00" in contenido:
+        contenido = contenido.replace(b"\x00", b"")
+        with open(rutaArchivo, "wb") as file:
+            file.write(contenido)
+
+limpiarDiccionario()
+
+ruta_src = os.path.abspath(os.path.join(os.path.dirname(__file__), "../src"))
 sys.path.insert(0, ruta_src)
 
 from model import *
@@ -110,7 +121,7 @@ def FNagregarTermino(event=None):
 
         # Guardar el diccionario actualizado en el archivo
         guardarDiccionario()
-
+        limpiarDiccionario()
         # Confirmar la acción
         txtConsole.configure(state="normal")
         txtConsole.insert("1.0", "\n ¡¡¡Término agregado correctamente!!! \n")
@@ -120,6 +131,7 @@ def FNagregarTermino(event=None):
         txtConsole.configure(state="normal")
         txtConsole.insert("1.0", "Término existente, ingresa uno nuevo.\n")
         txtConsole.configure(state="disable")
+    
 
 # Función para guardar el diccionario en el archivo
 def guardarDiccionario():
@@ -210,7 +222,6 @@ def limpiarCasillas():
 # ------------------------------------------------------
 
 def cerrarVentana():
-    """Cierra la ventana principal."""
     vn.destroy()
 
 # ------------------------------------------------------
