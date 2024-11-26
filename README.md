@@ -42,4 +42,4 @@ El diseño de la interfaz gráfica fue realizado en Figma. Pueden acceder al arc
 
 El diseño del diagrama de flujos de nuestro codigo fue realizado con Lucidchart. Pueden acceder al archivo de diseño mediante el siguiente enlace:
 
-[Acceder al diseño en Lucidchart]([https://www.figma.com/design/QWwA5YvvIpjYAkdwO4Esn7/UI-Design---Diccionario-Programador?node-id=0-1&node-type=canvas&t=oDf3zcZmJAxFtRCG-0](https://lucid.app/lucidchart/4ab6f47f-bb76-47dc-aaf4-d33fa835ff4e/edit?page=0_0&invitationId=inv_5b01b03a-961c-4e13-9488-9e8cda11e1ca#))
+[Acceder al diseño en Lucidchart](https://lucid.app/lucidchart/4ab6f47f-bb76-47dc-aaf4-d33fa835ff4e/edit?page=0_0&invitationId=inv_5b01b03a-961c-4e13-9488-9e8cda11e1ca#)
