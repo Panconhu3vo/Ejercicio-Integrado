@@ -16,7 +16,22 @@ limpiarDiccionario()
 ruta_src = os.path.abspath(os.path.join(os.path.dirname(__file__), "../src"))
 sys.path.insert(0, ruta_src)
 
-from model import *
+def obtenerRutaRecurso(rutaRelativa):
+    """
+    Obtiene la ruta del recurso en cualquier entorno (desarrollo o ejecutable).
+    """
+    if hasattr(sys, '_MEIPASS'):
+        # Si está empaquetado con PyInstaller
+        return os.path.join(sys._MEIPASS, rutaRelativa)
+    else:
+        # Durante el desarrollo
+        return os.path.abspath(rutaRelativa)
+
+# Usar la función para configurar rutas
+rutaDiccionario = obtenerRutaRecurso("src/diccionario.py")
+rutaIcono = obtenerRutaRecurso("ui/img/diccionarioimg.ico")
+
+from model import verificarNombre
 from diccionario import diccionario
 from tkinter import messagebox
 # ------------------------------------------------------
@@ -25,7 +40,6 @@ from tkinter import messagebox
 
 termino = tk.StringVar
 nombreNT = tk.StringVar
-
 
 # ------------------------------------------------------
 # Funciones:
@@ -113,7 +127,6 @@ def FNeliminarTermino(event=None):
         txtConsoleE.delete(1.0, tk.END)
         txtConsoleE.insert("1.0", f"El término '{termino}' no se encuentra en el diccionario.\n")
         txtConsoleE.configure(state="disabled")
-
 
 def FNagregarTermino(event=None):
     txtConsole.configure(state="normal")
@@ -364,7 +377,7 @@ vn.configure(bg="#F2F2F2")
 vn.geometry("600x420")
 vn.resizable(False, False)
 vn.title("Diccionario del Programador")
-vn.iconbitmap("ui\img\diccionarioimg.ico")
+vn.iconbitmap(rutaIcono)
 
 # ------------------------------------------------------
 # Barra de navegación Inicio
