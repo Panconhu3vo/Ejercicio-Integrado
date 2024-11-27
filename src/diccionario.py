@@ -1,5407 +1,6299 @@
-# Diccionario:
-# Cabe recalcar que todos esos términos pertenecen al ecosistema de Python. parte de la biblioteca estándar de Python y otros provienen de bibliotecas adicionales como Pandas y NumPy que sirven para el análisis de datos y operaciones numéricas.
-#J_J
-#Estructura del diccionario.
-# diccionario = {
-# "A":{"terminos,": {"categoría": "categoria en español", "traducción": "definicion en español"}},
-# }
-
 diccionario = {
     "a": {
         "abs": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Devuelve el valor absoluto de un número.",
-            "traduccion": "Returns the absolute value of a number."},
+            "traduccion": "Returns the absolute value of a number."
+        },
         "all": {
-            "categoria": ("Funciones de lista",),
+            "categoria": ('Funciones de lista',),
             "definicion": "Devuelve True si todos los elementos en un iterable son verdaderos.",
-            "traduccion": "Returns True if all elements in an iterable are true."},
+            "traduccion": "Returns True if all elements in an iterable are true."
+        },
         "any": {
-            "categoria": ("Funciones de lista",),
+            "categoria": ('Funciones de lista',),
             "definicion": "Devuelve True si algún elemento en un iterable es verdadero.",
-            "traduccion": "Returns True if any element in an iterable is true."},
+            "traduccion": "Returns True if any element in an iterable is true."
+        },
         "ascii": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Devuelve la versión ASCII de un objeto, eliminando caracteres especiales.",
-            "traduccion": "Returns the ASCII version of an object, escaping non-ASCII characters."},
+            "traduccion": "Returns the ASCII version of an object, escaping non-ASCII characters."
+        },
         "append": {
-            "categoria": ("Listas",),
+            "categoria": ('Listas',),
             "definicion": "Agrega un elemento al final de una lista.",
-            "traduccion": "Adds an element to the end of a list."},
+            "traduccion": "Adds an element to the end of a list."
+        },
         "argmax": {
-            "categoria": ("Funciones NumPy",),
+            "categoria": ('Funciones NumPy',),
             "definicion": "Devuelve el índice del elemento máximo en una lista o array.",
-            "traduccion": "Returns the index of the maximum element in a list or array."},
+            "traduccion": "Returns the index of the maximum element in a list or array."
+        },
         "argmin": {
-            "categoria": ("Funciones NumPy",),
+            "categoria": ('Funciones NumPy',),
             "definicion": "Devuelve el índice del elemento mínimo en una lista o array.",
-            "traduccion": "Returns the index of the minimum element in a list or array."},
+            "traduccion": "Returns the index of the minimum element in a list or array."
+        },
         "array": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Estructura de datos que puede almacenar múltiples valores del mismo tipo.",
-            "traduccion": "Data structure that can store multiple values of the same type."},
+            "traduccion": "Data structure that can store multiple values of the same type."
+        },
         "as": {
-            "categoria": ("Sintaxis de lenguaje",),
+            "categoria": ('Sintaxis de lenguaje',),
             "definicion": "Usado para crear un alias en una importación.",
-            "traduccion": "Used to create an alias in an import."},
+            "traduccion": "Used to create an alias in an import."
+        },
         "assert": {
-            "categoria": ("Depuración",),
+            "categoria": ('Depuración',),
             "definicion": "Usado para declarar una condición que debe ser verdadera en el programa.",
-            "traduccion": "Used to declare a condition that must be true in the program."},
+            "traduccion": "Used to declare a condition that must be true in the program."
+        },
         "async": {
-            "categoria": ("Programación asincrónica",),
+            "categoria": ('Programación asincrónica',),
             "definicion": "Declara una función como asincrónica.",
-            "traduccion": "Declares a function as asynchronous."},
+            "traduccion": "Declares a function as asynchronous."
+        },
         "await": {
-            "categoria": ("Programación asincrónica",),
+            "categoria": ('Programación asincrónica',),
             "definicion": "Usado para esperar una coroutine en un entorno asincrónico.",
-            "traduccion": "Used to wait for a coroutine in an asynchronous context."},
+            "traduccion": "Used to wait for a coroutine in an asynchronous context."
+        },
         "attribute": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación orientada a objetos',),
             "definicion": "Una propiedad o método de un objeto.",
-            "traduccion": "A property or method of an object."},
+            "traduccion": "A property or method of an object."
+        },
         "at": {
-            "categoria": ("Indexación",),
+            "categoria": ('Indexación',),
             "definicion": "Usado para acceder a un índice específico en una lista o array.",
-            "traduccion": "Used to access a specific index in a list or array."},
+            "traduccion": "Used to access a specific index in a list or array."
+        },
         "args": {
-            "categoria": ("Funciones",),
+            "categoria": ('Funciones',),
             "definicion": "Argumentos posicionales pasados a una función.",
-            "traduccion": "Positional arguments passed to a function."},
+            "traduccion": "Positional arguments passed to a function."
+        },
         "kwargs": {
-            "categoria": ("Funciones",),
+            "categoria": ('Funciones',),
             "definicion": "Argumentos con nombre pasados a una función.",
-            "traduccion": "Keyword arguments passed to a function."},
+            "traduccion": "Keyword arguments passed to a function."
+        },
         "apply": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Usado para aplicar una función a un iterable.",
-            "traduccion": "Used to apply a function to an iterable."},
+            "traduccion": "Used to apply a function to an iterable."
+        },
         "assertEqual": {
-            "categoria": ("Pruebas unitarias",),
+            "categoria": ('Pruebas unitarias',),
             "definicion": "Verifica que dos valores son iguales.",
-            "traduccion": "Checks that two values are equal."},
+            "traduccion": "Checks that two values are equal."
+        },
         "assertIsNone": {
-            "categoria": ("Pruebas unitarias",),
+            "categoria": ('Pruebas unitarias',),
             "definicion": "Verifica que el valor sea None.",
-            "traduccion": "Checks that the value is None."},
+            "traduccion": "Checks that the value is None."
+        },
         "attributeError": {
-            "categoria": ("Manejo de excepciones",),
+            "categoria": ('Manejo de excepciones',),
             "definicion": "Excepción lanzada cuando un atributo de un objeto no se encuentra.",
-            "traduccion": "Exception raised when an attribute of an object is not found."},
+            "traduccion": "Exception raised when an attribute of an object is not found."
+        },
         "add": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Devuelve la suma de dos números.",
-            "traduccion": "Returns the sum of two numbers."},
+            "traduccion": "Returns the sum of two numbers."
+        },
         "allclose": {
-            "categoria": ("Funciones NumPy",),
+            "categoria": ('Funciones NumPy',),
             "definicion": "Verifica si dos arrays son iguales dentro de una tolerancia específica.",
-            "traduccion": "Checks if two arrays are equal within a specific tolerance."},
+            "traduccion": "Checks if two arrays are equal within a specific tolerance."
+        },
         "average": {
-            "categoria": ("Estadística",),
+            "categoria": ('Estadística',),
             "definicion": "Calcula el promedio de una lista de números.",
-            "traduccion": "Calculates the average of a list of numbers."},
+            "traduccion": "Calculates the average of a list of numbers."
+        },
         "assertAlmostEqual": {
-            "categoria": ("Pruebas unitarias",),
+            "categoria": ('Pruebas unitarias',),
             "definicion": "Verifica que dos números son aproximadamente iguales.",
-            "traduccion": "Checks that two numbers are approximately equal."},
+            "traduccion": "Checks that two numbers are approximately equal."
+        },
         "absolute_import": {
-            "categoria": ("Importación de módulos",),
+            "categoria": ('Importación de módulos',),
             "definicion": "Importación que se refiere a un módulo desde la raíz del paquete.",
-            "traduccion": "Import that refers to a module from the root of the package."},
+            "traduccion": "Import that refers to a module from the root of the package."
+        },
         "allexcept": {
-            "categoria": ("Manejo de excepciones",),
+            "categoria": ('Manejo de excepciones',),
             "definicion": "Usado para capturar todas las excepciones excepto una específica.",
-            "traduccion": "Used to catch all exceptions except for a specific one."},
+            "traduccion": "Used to catch all exceptions except for a specific one."
+        },
         "as_tuple": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Devuelve los resultados como una tupla.",
-            "traduccion": "Returns the results as a tuple."},
+            "traduccion": "Returns the results as a tuple."
+        },
         "atleast_1d": {
-            "categoria": ("Funciones NumPy",),
+            "categoria": ('Funciones NumPy',),
             "definicion": "Convierte una entrada en un array de al menos una dimensión.",
-            "traduccion": "Converts input to an array of at least one dimension."},
+            "traduccion": "Converts input to an array of at least one dimension."
+        },
         "atleast_2d": {
-            "categoria": ("Funciones NumPy",),
+            "categoria": ('Funciones NumPy',),
             "definicion": "Convierte una entrada en un array de al menos dos dimensiones.",
-            "traduccion": "Converts input to an array of at least two dimensions."},
+            "traduccion": "Converts input to an array of at least two dimensions."
+        },
         "arange": {
-            "categoria": ("Funciones NumPy",),
+            "categoria": ('Funciones NumPy',),
             "definicion": "Crea un array con valores espaciados uniformemente en un rango específico.",
-            "traduccion": "Creates an array with evenly spaced values within a specified range."},
+            "traduccion": "Creates an array with evenly spaced values within a specified range."
+        },
         "arccos": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Devuelve el arco coseno de un número.",
-            "traduccion": "Returns the arc cosine of a number."},
+            "traduccion": "Returns the arc cosine of a number."
+        },
         "arcsin": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Devuelve el arco seno de un número.",
-            "traduccion": "Returns the arc sine of a number."},
+            "traduccion": "Returns the arc sine of a number."
+        },
         "arctan": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Devuelve el arco tangente de un número.",
-            "traduccion": "Returns the arc tangent of a number."},
+            "traduccion": "Returns the arc tangent of a number."
+        },
         "argparse": {
-            "categoria": ("Análisis de argumentos",),
+            "categoria": ('Análisis de argumentos',),
             "definicion": "Módulo para analizar argumentos de línea de comandos.",
-            "traduccion": "Module for parsing command-line arguments."},
+            "traduccion": "Module for parsing command-line arguments."
+        },
         "array_like": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Cualquier objeto que pueda ser convertido a un array.",
-            "traduccion": "Any object that can be converted to an array."}},
-    
+            "traduccion": "Any object that can be converted to an array."
+        }
+    },
     "b": {
         "bin": {
-            "categoria": ("Conversión de datos",),
+            "categoria": ('Conversión de datos',),
             "definicion": "Convierte un número en su representación binaria.",
-            "traduccion": "Converts a number to its binary representation."},
+            "traduccion": "Converts a number to its binary representation."
+        },
         "bool": {
-            "categoria": ("Tipos de datos",),
+            "categoria": ('Tipos de datos',),
             "definicion": "Convierte un valor en su equivalente booleano (True o False).",
-            "traduccion": "Converts a value to its boolean equivalent (True or False)."},
+            "traduccion": "Converts a value to its boolean equivalent (True or False)."
+        },
         "break": {
-            "categoria": ("Control de flujo",),
+            "categoria": ('Control de flujo',),
             "definicion": "Termina el ciclo en el que se encuentra.",
-            "traduccion": "Terminates the loop it is in."},
+            "traduccion": "Terminates the loop it is in."
+        },
         "bytes": {
-            "categoria": ("Tipos de datos",),
+            "categoria": ('Tipos de datos',),
             "definicion": "Convierte a una secuencia inmutable de bytes.",
-            "traduccion": "Converts to an immutable sequence of bytes."},
+            "traduccion": "Converts to an immutable sequence of bytes."
+        },
         "bytearray": {
-            "categoria": ("Tipos de datos",),
+            "categoria": ('Tipos de datos',),
             "definicion": "Crea una secuencia mutable de bytes.",
-            "traduccion": "Creates a mutable sequence of bytes."},
+            "traduccion": "Creates a mutable sequence of bytes."
+        },
         "byteswap": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Invierte el orden de los bytes en una estructura de datos.",
-            "traduccion": "Swaps the byte order in a data structure."},
+            "traduccion": "Swaps the byte order in a data structure."
+        },
         "buffer": {
-            "categoria": ("Memoria",),
-            "definicion": "Interfaz para acceder a los datos sin copiarlos.",
-            "traduccion": "Interface to access data without copying it."},
-        "base64": {
-            "categoria": ("Codificación y decodificación",),
-            "definicion": "Codifica y decodifica datos en el formato base64.",
-            "traduccion": "Encodes and decodes data in base64 format."},
-        "bitwise_and": {
-            "categoria": ("Operadores bit a bit",),
-            "definicion": "Operador AND bit a bit entre dos números.",
-            "traduccion": "Performs a bitwise AND operation between two numbers."},
-        "bitwise_or": {
-            "categoria": ("Operadores bit a bit",),
-            "definicion": "Operador OR bit a bit entre dos números.",
-            "traduccion": "Performs a bitwise OR operation between two numbers."},
-        "bitwise_xor": {
-            "categoria": ("Operadores bit a bit",),
-            "definicion": "Operador XOR bit a bit entre dos números.",
-            "traduccion": "Performs a bitwise XOR operation between two numbers."},
-        "bitwise_not": {
-            "categoria": ("Operadores bit a bit",),
-            "definicion": "Operador NOT bit a bit que invierte los bits de un número.",
-            "traduccion": "Performs a bitwise NOT operation, inverting bits of a number."},
-        "binomial": {
-            "categoria": ("Estadística",),
-            "definicion": "Distribución binomial en estadística.",
-            "traduccion": "Binomial distribution in statistics."},
-        "binascii": {
-            "categoria": ("Conversión de datos",),
-            "definicion": "Módulo para conversiones entre datos binarios y representaciones ASCII.",
-            "traduccion": "Module for conversions between binary data and ASCII representations."},
-        "byteorder": {
-            "categoria": ("Memoria",),
-            "definicion": "Propiedad que determina el orden de los bytes en un sistema ('big' o 'little').",
-            "traduccion": "Property determining byte order in a system ('big' or 'little')."},
-        "bit_length": {
-            "categoria": ("Operaciones numéricas",),
-            "definicion": "Devuelve el número de bits necesarios para representar un número en binario.",
-            "traduccion": "Returns the number of bits required to represent a number in binary."},
-        "breakpoint": {
-            "categoria": ("Depuración",),
-            "definicion": "Punto de interrupción para depurar el código.",
-            "traduccion": "Breakpoint for debugging code."},
-        "binhex": {
-            "categoria": ("Conversión de datos",),
-            "definicion": "Convierte datos binarios en formato hexadecimal.",
-            "traduccion": "Converts binary data to hexadecimal format."},
-        "bitset": {
-            "categoria": ("Estructura de datos",),
-            "definicion": "Conjunto de bits para operaciones bit a bit.",
-            "traduccion": "Set of bits for bitwise operations."},
-        "broadcast": {
-            "categoria": ("Manipulación de arrays",),
-            "definicion": "Extiende dimensiones para operaciones en arrays.",
-            "traduccion": "Extends dimensions for operations on arrays."},
-        "bitarray": {
-            "categoria": ("Estructura de datos",),
-            "definicion": "Estructura de datos que representa una secuencia de bits.",
-            "traduccion": "Data structure representing a sequence of bits."},
-        "buffer": {
-            "categoria": ("Memoria",),
+            "categoria": ('Memoria',),
             "definicion": "Interfaz para manejar objetos de memoria sin copiarlos.",
-            "traduccion": "Interface for handling memory objects without copying them."},
+            "traduccion": "Interface for handling memory objects without copying them."
+        },
+        "base64": {
+            "categoria": ('Codificación y decodificación',),
+            "definicion": "Codifica y decodifica datos en el formato base64.",
+            "traduccion": "Encodes and decodes data in base64 format."
+        },
+        "bitwise_and": {
+            "categoria": ('Operadores bit a bit',),
+            "definicion": "Operador AND bit a bit entre dos números.",
+            "traduccion": "Performs a bitwise AND operation between two numbers."
+        },
+        "bitwise_or": {
+            "categoria": ('Operadores bit a bit',),
+            "definicion": "Operador OR bit a bit entre dos números.",
+            "traduccion": "Performs a bitwise OR operation between two numbers."
+        },
+        "bitwise_xor": {
+            "categoria": ('Operadores bit a bit',),
+            "definicion": "Operador XOR bit a bit entre dos números.",
+            "traduccion": "Performs a bitwise XOR operation between two numbers."
+        },
+        "bitwise_not": {
+            "categoria": ('Operadores bit a bit',),
+            "definicion": "Operador NOT bit a bit que invierte los bits de un número.",
+            "traduccion": "Performs a bitwise NOT operation, inverting bits of a number."
+        },
+        "binomial": {
+            "categoria": ('Estadística',),
+            "definicion": "Distribución binomial en estadística.",
+            "traduccion": "Binomial distribution in statistics."
+        },
+        "binascii": {
+            "categoria": ('Conversión de datos',),
+            "definicion": "Módulo para conversiones entre datos binarios y representaciones ASCII.",
+            "traduccion": "Module for conversions between binary data and ASCII representations."
+        },
+        "byteorder": {
+            "categoria": ('Memoria',),
+            "definicion": "Propiedad que determina el orden de los bytes en un sistema ('big' o 'little').",
+            "traduccion": "Property determining byte order in a system ('big' or 'little')."
+        },
+        "bit_length": {
+            "categoria": ('Operaciones numéricas',),
+            "definicion": "Devuelve el número de bits necesarios para representar un número en binario.",
+            "traduccion": "Returns the number of bits required to represent a number in binary."
+        },
+        "breakpoint": {
+            "categoria": ('Depuración',),
+            "definicion": "Punto de interrupción para depurar el código.",
+            "traduccion": "Breakpoint for debugging code."
+        },
+        "binhex": {
+            "categoria": ('Conversión de datos',),
+            "definicion": "Convierte datos binarios en formato hexadecimal.",
+            "traduccion": "Converts binary data to hexadecimal format."
+        },
+        "bitset": {
+            "categoria": ('Estructura de datos',),
+            "definicion": "Conjunto de bits para operaciones bit a bit.",
+            "traduccion": "Set of bits for bitwise operations."
+        },
+        "broadcast": {
+            "categoria": ('Manipulación de arrays',),
+            "definicion": "Extiende dimensiones para operaciones en arrays.",
+            "traduccion": "Extends dimensions for operations on arrays."
+        },
+        "bitarray": {
+            "categoria": ('Estructura de datos',),
+            "definicion": "Estructura de datos que representa una secuencia de bits.",
+            "traduccion": "Data structure representing a sequence of bits."
+        },
         "bitwise_left_shift": {
-            "categoria": ("Operadores bit a bit",),
+            "categoria": ('Operadores bit a bit',),
             "definicion": "Desplaza los bits de un número a la izquierda, equivalente a multiplicación por potencias de dos.",
-            "traduccion": "Shifts the bits of a number to the left, equivalent to multiplication by powers of two."},
+            "traduccion": "Shifts the bits of a number to the left, equivalent to multiplication by powers of two."
+        },
         "bitwise_right_shift": {
-            "categoria": ("Operadores bit a bit",),
+            "categoria": ('Operadores bit a bit',),
             "definicion": "Desplaza los bits de un número a la derecha, equivalente a división por potencias de dos.",
-            "traduccion": "Shifts the bits of a number to the right, equivalent to division by powers of two."},
+            "traduccion": "Shifts the bits of a number to the right, equivalent to division by powers of two."
+        },
         "bz2": {
-            "categoria": ("Compresión de datos",),
+            "categoria": ('Compresión de datos',),
             "definicion": "Módulo para compresión y descompresión de archivos en formato bzip2.",
-            "traduccion": "Module for compressing and decompressing files in bzip2 format."},
+            "traduccion": "Module for compressing and decompressing files in bzip2 format."
+        },
         "bool_": {
-            "categoria": ("Tipos de datos",),
+            "categoria": ('Tipos de datos',),
             "definicion": "Tipo de dato booleano en bibliotecas como NumPy.",
-            "traduccion": "Boolea"}},
-    
+            "traduccion": "Boolea"
+        }
+    },
     "c": {
         "callable": {
-            "categoria": ("Funciones",),
+            "categoria": ('Funciones',),
             "definicion": "Devuelve True si el objeto es llamable (función, método, etc.).",
-            "traduccion": "Returns True if the object is callable (function, method, etc.)."},
+            "traduccion": "Returns True if the object is callable (function, method, etc.)."
+        },
         "chr": {
-            "categoria": ("Conversión de datos",),
+            "categoria": ('Conversión de datos',),
             "definicion": "Convierte un código ASCII en su carácter correspondiente.",
-            "traduccion": "Converts an ASCII code to its corresponding character."},
+            "traduccion": "Converts an ASCII code to its corresponding character."
+        },
         "class": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación orientada a objetos',),
             "definicion": "Define una nueva clase para crear objetos personalizados.",
-            "traduccion": "Defines a new class to create custom objects."},
+            "traduccion": "Defines a new class to create custom objects."
+        },
         "classmethod": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación orientada a objetos',),
             "definicion": "Convierte un método en un método de clase, accesible desde la clase sin instanciarla.",
-            "traduccion": "Converts a method to a class method, accessible from the class without instantiating it."},
+            "traduccion": "Converts a method to a class method, accessible from the class without instantiating it."
+        },
         "compile": {
-            "categoria": ("Compilación",),
+            "categoria": ('Compilación',),
             "definicion": "Compila una cadena de texto en código ejecutable de Python.",
-            "traduccion": "Compiles a text string into executable Python code."},
+            "traduccion": "Compiles a text string into executable Python code."
+        },
         "complex": {
-            "categoria": ("Tipos de datos",),
+            "categoria": ('Tipos de datos',),
             "definicion": "Crea un número complejo a partir de dos valores (real e imaginario).",
-            "traduccion": "Creates a complex number from two values (real and imaginary)."},
+            "traduccion": "Creates a complex number from two values (real and imaginary)."
+        },
         "continue": {
-            "categoria": ("Control de flujo",),
+            "categoria": ('Control de flujo',),
             "definicion": "Salta la iteración actual de un bucle y pasa a la siguiente.",
-            "traduccion": "Skips the current iteration of a loop and moves to the next one."},
+            "traduccion": "Skips the current iteration of a loop and moves to the next one."
+        },
         "copy": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Crea una copia superficial de una lista, diccionario u otro objeto mutable.",
-            "traduccion": "Creates a shallow copy of a list, dictionary, or other mutable object."},
+            "traduccion": "Creates a shallow copy of a list, dictionary, or other mutable object."
+        },
         "coroutine": {
-            "categoria": ("Programación asincrónica",),
+            "categoria": ('Programación asincrónica',),
             "definicion": "Define una función especial que puede pausarse y reanudarse (asincrónica).",
-            "traduccion": "Defines a special function that can be paused and resumed (asynchronous)."},
+            "traduccion": "Defines a special function that can be paused and resumed (asynchronous)."
+        },
         "count": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Cuenta la cantidad de ocurrencias de un valor en una lista o cadena.",
-            "traduccion": "Counts the occurrences of a value in a list or string."},
+            "traduccion": "Counts the occurrences of a value in a list or string."
+        },
         "clear": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Elimina todos los elementos de una lista o diccionario.",
-            "traduccion": "Removes all elements from a list or dictionary."},
+            "traduccion": "Removes all elements from a list or dictionary."
+        },
         "cmath": {
-            "categoria": ("Matemáticas complejas",),
+            "categoria": ('Matemáticas complejas',),
             "definicion": "Módulo para operaciones matemáticas complejas.",
-            "traduccion": "Module for complex mathematical operations."},
+            "traduccion": "Module for complex mathematical operations."
+        },
         "chain": {
-            "categoria": ("Manipulación de iterables",),
+            "categoria": ('Manipulación de iterables',),
             "definicion": "Función del módulo itertools que concatena múltiples iterables.",
-            "traduccion": "Function from itertools module that concatenates multiple iterables."},
+            "traduccion": "Function from itertools module that concatenates multiple iterables."
+        },
         "csv": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Módulo para manipular archivos CSV (valores separados por comas).",
-            "traduccion": "Module for handling CSV (comma-separated values) files."},
+            "traduccion": "Module for handling CSV (comma-separated values) files."
+        },
         "copyreg": {
-            "categoria": ("Serialización",),
+            "categoria": ('Serialización',),
             "definicion": "Módulo que registra funciones para serialización de objetos.",
-            "traduccion": "Module that registers functions for object serialization."},
+            "traduccion": "Module that registers functions for object serialization."
+        },
         "counter": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Clase de collections para contar elementos en un iterable.",
-            "traduccion": "Class from collections to count elements in an iterable."},
+            "traduccion": "Class from collections to count elements in an iterable."
+        },
         "cProfile": {
-            "categoria": ("Depuración y optimización",),
+            "categoria": ('Depuración y optimización',),
             "definicion": "Herramienta para realizar un perfil de rendimiento de código Python.",
-            "traduccion": "Tool for profiling Python code performance."},
+            "traduccion": "Tool for profiling Python code performance."
+        },
         "capitalize": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Devuelve una copia de la cadena con la primera letra en mayúscula.",
-            "traduccion": "Returns a copy of the string with the first letter capitalized."},
+            "traduccion": "Returns a copy of the string with the first letter capitalized."
+        },
         "center": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Devuelve una cadena centrada, con ancho especificado y relleno opcional.",
-            "traduccion": "Returns a centered string with specified width and optional fill character."},
+            "traduccion": "Returns a centered string with specified width and optional fill character."
+        },
         "ceil": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Redondea un número al entero más próximo hacia arriba.",
-            "traduccion": "Rounds a number up to the nearest integer."},
+            "traduccion": "Rounds a number up to the nearest integer."
+        },
         "call": {
-            "categoria": ("Funciones",),
+            "categoria": ('Funciones',),
             "definicion": "Ejecuta una función o método específico en un objeto.",
-            "traduccion": "Executes a specific function or method on an object."},
+            "traduccion": "Executes a specific function or method on an object."
+        },
         "clamp": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Restringe un valor dentro de un rango especificado (no en la biblioteca estándar).",
-            "traduccion": "Restricts a value within a specified range (not in standard library)."},
+            "traduccion": "Restricts a value within a specified range (not in standard library)."
+        },
         "choice": {
-            "categoria": ("Generación de datos aleatorios",),
+            "categoria": ('Generación de datos aleatorios',),
             "definicion": "Selecciona un elemento aleatorio de una secuencia.",
-            "traduccion": "Selects a random element from a sequence."},
+            "traduccion": "Selects a random element from a sequence."
+        },
         "collections": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Módulo que proporciona estructuras de datos especializadas.",
-            "traduccion": "Module providing specialized data structures."},
+            "traduccion": "Module providing specialized data structures."
+        },
         "compress": {
-            "categoria": ("Manipulación de iterables",),
+            "categoria": ('Manipulación de iterables',),
             "definicion": "Filtra elementos de un iterable según un selector booleano.",
-            "traduccion": "Filters elements in an iterable according to a boolean selector."},
+            "traduccion": "Filters elements in an iterable according to a boolean selector."
+        },
         "complex_conjugate": {
-            "categoria": ("Matemáticas complejas",),
+            "categoria": ('Matemáticas complejas',),
             "definicion": "Devuelve el conjugado de un número complejo.",
-            "traduccion": "Returns the conjugate of a complex number."},
+            "traduccion": "Returns the conjugate of a complex number."
+        },
         "ctypes": {
-            "categoria": ("Interoperabilidad",),
+            "categoria": ('Interoperabilidad',),
             "definicion": "Módulo para manipular datos en bibliotecas compartidas en C.",
-            "traduccion": "Module for handling data in C shared libraries."},
-        "clear_screen": { 
-            "categoria": ("Interacción con el sistema",),
+            "traduccion": "Module for handling data in C shared libraries."
+        },
+        "clear_screen": {
+            "categoria": ('Interacción con el sistema',),
             "definicion": "Limpia la pantalla en algunos entornos de terminal (no es una función estándar).",
-            "traduccion": "Clears the screen in some terminal environments (not a standard function)."},
+            "traduccion": "Clears the screen in some terminal environments (not a standard function)."
+        },
         "call_later": {
-            "categoria": ("Programación asincrónica",),
+            "categoria": ('Programación asincrónica',),
             "definicion": "Programa la ejecución de una función después de un tiempo en asyncio.",
-            "traduccion": "Schedules the execution of a function after a delay in asyncio."},
+            "traduccion": "Schedules the execution of a function after a delay in asyncio."
+        },
         "chunk": {
-            "categoria": ("Manipulación de iterables",),
+            "categoria": ('Manipulación de iterables',),
             "definicion": "Divide un iterable en partes de tamaño fijo (disponible en itertools y otras bibliotecas).",
-            "traduccion": "Splits an iterable into fixed-size chunks (available in itertools and other libraries)."},
+            "traduccion": "Splits an iterable into fixed-size chunks (available in itertools and other libraries)."
+        },
         "cycle": {
-            "categoria": ("Manipulación de iterables",),
+            "categoria": ('Manipulación de iterables',),
             "definicion": "Itertools: Cicla infinitamente a través de un iterable.",
-            "traduccion": "Itertools: Cycles infinitely through an iterable."},
+            "traduccion": "Itertools: Cycles infinitely through an iterable."
+        },
         "coerce": {
-            "categoria": ("Conversión de datos",),
+            "categoria": ('Conversión de datos',),
             "definicion": "Convierte parámetros a un tipo común (obsoleto en Python 3).",
-            "traduccion": "Converts parameters to a common type (obsolete in Python 3)."},
+            "traduccion": "Converts parameters to a common type (obsolete in Python 3)."
+        },
         "current_thread": {
-            "categoria": ("Hilos",),
+            "categoria": ('Hilos',),
             "definicion": "Obtiene el hilo actual de ejecución en threading.",
-            "traduccion": "Gets the current thread in threading."},
+            "traduccion": "Gets the current thread in threading."
+        },
         "configparser": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Módulo para manipular archivos de configuración estilo INI.",
-            "traduccion": "Module for handling INI-style configuration files."},
+            "traduccion": "Module for handling INI-style configuration files."
+        },
         "compileall": {
-            "categoria": ("Compilación",),
+            "categoria": ('Compilación',),
             "definicion": "Compila recursivamente archivos .py en bytecode.",
-            "traduccion": "Recursively compiles .py files to bytecode."},
+            "traduccion": "Recursively compiles .py files to bytecode."
+        },
         "copytree": {
-            "categoria": ("Manipulación de archivos",),
+            "categoria": ('Manipulación de archivos',),
             "definicion": "Copia recursivamente un directorio completo.",
-            "traduccion": "Recursively copies an entire directory."}},
-    
+            "traduccion": "Recursively copies an entire directory."
+        }
+    },
     "d": {
         "def": {
-            "categoria": ("Función",),
+            "categoria": ('Función',),
             "definicion": "Declara una función o método.",
-            "traduccion": "Declares a function or method."},
+            "traduccion": "Declares a function or method."
+        },
         "delattr": {
-            "categoria": ("Función",),
+            "categoria": ('Función',),
             "definicion": "Elimina un atributo de un objeto.",
-            "traduccion": "Deletes an attribute from an object."},
+            "traduccion": "Deletes an attribute from an object."
+        },
         "dataframe": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Estructura de datos de Pandas para manipulación de datos tabulares.",
-            "traduccion": "Pandas data structure for manipulating tabular data."},
+            "traduccion": "Pandas data structure for manipulating tabular data."
+        },
         "decode": {
-            "categoria": ("Método",),
-            "definicion": "Convierte bytes en una cadena utilizando una codificación.",
-            "traduccion": "Converts bytes into a string using an encoding."},
-        "decimal": {
-            "categoria": ("Módulo",),
-            "definicion": "Módulo para operaciones aritméticas con decimales de precisión exacta.",
-            "traduccion": "Module for arithmetic operations with exact decimal precision."},
-        "device": {
-            "categoria": ("Atributo",),
-            "definicion": "Atributo en PyTorch para definir el dispositivo (CPU o GPU) donde se almacenan los tensores.",
-            "traduccion": "Attribute in PyTorch to define the device (CPU or GPU) for tensor storage."},
-        "dict.get": {
-            "categoria": ("Método",),
-            "definicion": "Obtiene el valor de una clave en un diccionario o un valor predeterminado si la clave no existe.",
-            "traduccion": "Gets the value of a dictionary key or a default if the key doesn't exist."},
-        "dropna": {
-            "categoria": ("Método",),
-            "definicion": "Elimina filas o columnas con valores nulos en un DataFrame de Pandas.",
-            "traduccion": "Removes rows or columns with null values in a Pandas DataFrame."},
-        "dtype": {
-            "categoria": ("Atributo",),
-            "definicion": "Especifica el tipo de datos de un array en NumPy.",
-            "traduccion": "Specifies the data type of a NumPy array."},
-        "deque.appendleft": {
-            "categoria": ("Método",),
-            "definicion": "Agrega un elemento al inicio de una deque.",
-            "traduccion": "Adds an element to the beginning of a deque."},
-        "dict.update": {
-            "categoria": ("Método",),
-            "definicion": "Actualiza un diccionario con pares clave-valor de otro diccionario.",
-            "traduccion": "Updates a dictionary with key-value pairs from another dictionary."},
-        "del": {
-            "categoria": ("Operador",),
-            "definicion": "Elimina una variable, elemento o atributo.",
-            "traduccion": "Deletes a variable, element, or attribute."},
-        "dict": {
-            "categoria": ("Tipo de dato",),
-            "definicion": "Tipo de dato de diccionario que almacena pares clave-valor.",
-            "traduccion": "Dictionary data type that stores key-value pairs."},
-        "dir": {
-            "categoria": ("Función",),
-            "definicion": "Devuelve una lista de atributos y métodos disponibles para un objeto.",
-            "traduccion": "Returns a list of attributes and methods available for an object."},
-        "divmod": {
-            "categoria": ("Función",),
-            "definicion": "Devuelve el cociente y el residuo de una división.",
-            "traduccion": "Returns the quotient and remainder of a division."},
-        "deque": {
-            "categoria": ("Clase",),
-            "definicion": "Clase de collections para una cola de doble extremo.",
-            "traduccion": "Class from collections for a double-ended queue."},
-        "defaultdict": {
-            "categoria": "Tipo de dato",
-            "definicion": "Diccionario que asigna un valor predeterminado a claves no existentes.",
-            "traduccion": "Dictionary that assigns a default value to nonexistent keys."},
-        "decode": {
-            "categoria": ("Método",),
+            "categoria": ('Método',),
             "definicion": "Convierte bytes a una cadena usando una codificación específica.",
-            "traduccion": "Converts bytes to a string using a specific encoding."},
+            "traduccion": "Converts bytes to a string using a specific encoding."
+        },
+        "decimal": {
+            "categoria": ('Módulo',),
+            "definicion": "Módulo para operaciones aritméticas con decimales de precisión exacta.",
+            "traduccion": "Module for arithmetic operations with exact decimal precision."
+        },
+        "device": {
+            "categoria": ('Atributo',),
+            "definicion": "Atributo en PyTorch para definir el dispositivo (CPU o GPU) donde se almacenan los tensores.",
+            "traduccion": "Attribute in PyTorch to define the device (CPU or GPU) for tensor storage."
+        },
+        "dict.get": {
+            "categoria": ('Método',),
+            "definicion": "Obtiene el valor de una clave en un diccionario o un valor predeterminado si la clave no existe.",
+            "traduccion": "Gets the value of a dictionary key or a default if the key doesn't exist."
+        },
+        "dropna": {
+            "categoria": ('Método',),
+            "definicion": "Elimina filas o columnas con valores nulos en un DataFrame de Pandas.",
+            "traduccion": "Removes rows or columns with null values in a Pandas DataFrame."
+        },
+        "dtype": {
+            "categoria": ('Atributo',),
+            "definicion": "Especifica el tipo de datos de un array en NumPy.",
+            "traduccion": "Specifies the data type of a NumPy array."
+        },
+        "deque.appendleft": {
+            "categoria": ('Método',),
+            "definicion": "Agrega un elemento al inicio de una deque.",
+            "traduccion": "Adds an element to the beginning of a deque."
+        },
+        "dict.update": {
+            "categoria": ('Método',),
+            "definicion": "Actualiza un diccionario con pares clave-valor de otro diccionario.",
+            "traduccion": "Updates a dictionary with key-value pairs from another dictionary."
+        },
+        "del": {
+            "categoria": ('Operador',),
+            "definicion": "Elimina una variable, elemento o atributo.",
+            "traduccion": "Deletes a variable, element, or attribute."
+        },
+        "dict": {
+            "categoria": ('Tipo de dato',),
+            "definicion": "Tipo de dato de diccionario que almacena pares clave-valor.",
+            "traduccion": "Dictionary data type that stores key-value pairs."
+        },
+        "dir": {
+            "categoria": ('Función',),
+            "definicion": "Devuelve una lista de atributos y métodos disponibles para un objeto.",
+            "traduccion": "Returns a list of attributes and methods available for an object."
+        },
+        "divmod": {
+            "categoria": ('Función',),
+            "definicion": "Devuelve el cociente y el residuo de una división.",
+            "traduccion": "Returns the quotient and remainder of a division."
+        },
+        "deque": {
+            "categoria": ('Clase',),
+            "definicion": "Clase de collections para una cola de doble extremo.",
+            "traduccion": "Class from collections for a double-ended queue."
+        },
+        "defaultdict": {
+            "categoria": 'Tipo de dato',
+            "definicion": "Diccionario que asigna un valor predeterminado a claves no existentes.",
+            "traduccion": "Dictionary that assigns a default value to nonexistent keys."
+        },
         "deflate": {
-            "categoria": ("Método",),
+            "categoria": ('Método',),
             "definicion": "Método de compresión para reducir el tamaño de archivos.",
-            "traduccion": "Compression method to reduce file sizes."},
+            "traduccion": "Compression method to reduce file sizes."
+        },
         "deepcopy": {
-            "categoria": ("Método",),
+            "categoria": ('Método',),
             "definicion": "Copia un objeto y todos sus objetos anidados.",
-            "traduccion": "Copies an object and all its nested objects."},
+            "traduccion": "Copies an object and all its nested objects."
+        },
         "detach": {
-            "categoria": ("Método",),
+            "categoria": ('Método',),
             "definicion": "Desconecta un buffer de un flujo (usado en IO).",
-            "traduccion": "Disconnects a buffer from a stream (used in IO)."},
+            "traduccion": "Disconnects a buffer from a stream (used in IO)."
+        },
         "dump": {
-            "categoria": ("Método",),
+            "categoria": ('Método',),
             "definicion": "Serializa un objeto a un archivo en formato binario o JSON.",
-            "traduccion": "Serializes an object to a file in binary or JSON format."},
+            "traduccion": "Serializes an object to a file in binary or JSON format."
+        },
         "dumps": {
-            "categoria": ("Método",),
+            "categoria": ('Método',),
             "definicion": "Serializa un objeto a una cadena en formato JSON.",
-            "traduccion": "Serializes an object to a string in JSON format."},
+            "traduccion": "Serializes an object to a string in JSON format."
+        },
         "difference": {
-            "categoria": ("Método",),
-            "definicion": "Devuelve la diferencia entre conjuntos.",
-            "traduccion": "Returns the difference between sets."},
+            "categoria": ('Método',),
+            "definicion": "Devuelve la diferencia entre dos o más conjuntos.",
+            "traduccion": "Returns the difference between two or more sets."
+        },
         "difference_update": {
-            "categoria": ("Método",),
+            "categoria": ('Método',),
             "definicion": "Actualiza un conjunto, eliminando elementos encontrados en otro conjunto.",
-            "traduccion": "Updates a set by removing elements found in another set."},
+            "traduccion": "Updates a set by removing elements found in another set."
+        },
         "decode_header": {
-            "categoria": ("Método",),
+            "categoria": ('Método',),
             "definicion": "Decodifica un encabezado de correo electrónico.",
-            "traduccion": "Decodes an email header."},
+            "traduccion": "Decodes an email header."
+        },
         "disk_usage": {
-            "categoria": ("Función",),
+            "categoria": ('Función',),
             "definicion": "Devuelve el uso de espacio en disco de un directorio o disco (en shutil).",
-            "traduccion": "Returns disk space usage of a directory or disk (in shutil)."},
-       "datetime": {
-            "categoria": ("Fecha",),
+            "traduccion": "Returns disk space usage of a directory or disk (in shutil)."
+        },
+        "datetime": {
+            "categoria": ('Fecha',),
             "definicion": "Proporciona funciones y objetos para trabajar con fechas y horas en Python.",
-            "traduccion": "Class for manipulating dates and times."},
-        "difference": {
-            "categoria" : ("Método",),
-            "definicion" : "Devuelve la diferencia entre dos o más conjuntos.",
-            "traduccion" : "Returns the difference between two or more sets."},
-        
+            "traduccion": "Class for manipulating dates and times."
+        },
         "disk_cache": {
-            "categoria": ("Caché",),
+            "categoria": ('Caché',),
             "definicion": "Caché que almacena temporalmente datos en el disco.",
-            "traduccion": "Cache that temporarily stores data on disk."}},
-    
-    "e":{
+            "traduccion": "Cache that temporarily stores data on disk."
+        }
+    },
+    "e": {
         "enumerate": {
-            "categoria": ("Manipulación de iterables",),
+            "categoria": ('Manipulación de iterables',),
             "definicion": "Agrega un contador a un iterable y lo devuelve como un objeto enumerado.",
-            "traduccion": "Adds a counter to an iterable and returns it as an enumerated object."},
+            "traduccion": "Adds a counter to an iterable and returns it as an enumerated object."
+        },
         "eval": {
-            "categoria": ("Evaluación de expresiones",),
+            "categoria": ('Evaluación de expresiones',),
             "definicion": "Ejecuta una expresión Python desde una cadena dada.",
-            "traduccion": "Executes a Python expression from a given string."},
+            "traduccion": "Executes a Python expression from a given string."
+        },
         "exec": {
-            "categoria": ("Ejecución de código",),
+            "categoria": ('Ejecución de código',),
             "definicion": "Ejecuta un código Python dinámico en el entorno actual.",
-            "traduccion": "Executes dynamic Python code in the current environment."},
+            "traduccion": "Executes dynamic Python code in the current environment."
+        },
         "except": {
-            "categoria": ("Manejo de excepciones",),
+            "categoria": ('Manejo de excepciones',),
             "definicion": "Bloque que captura excepciones en el manejo de errores.",
-            "traduccion": "Block that catches exceptions in error handling."},
+            "traduccion": "Block that catches exceptions in error handling."
+        },
         "else": {
-            "categoria": ("Control de flujo",),
+            "categoria": ('Control de flujo',),
             "definicion": "Bloque que se ejecuta cuando no se cumple una condición if.",
-            "traduccion": "Block that runs when an if condition is not met."},
+            "traduccion": "Block that runs when an if condition is not met."
+        },
         "elif": {
-            "categoria": ("Control de flujo",),
+            "categoria": ('Control de flujo',),
             "definicion": "Condición alternativa en una declaración if.",
-            "traduccion": "Alternative condition in an if statement."},
+            "traduccion": "Alternative condition in an if statement."
+        },
         "exit": {
-            "categoria": ("Control de programa",),
+            "categoria": ('Control de programa',),
             "definicion": "Finaliza el programa actual.",
-            "traduccion": "Terminates the current program."},
+            "traduccion": "Terminates the current program."
+        },
         "end": {
-            "categoria": ("Impresión",),
+            "categoria": ('Impresión',),
             "definicion": "Argumento en print() que especifica el carácter final en la salida.",
-            "traduccion": "Argument in print() specifying the end character in output."},
+            "traduccion": "Argument in print() specifying the end character in output."
+        },
         "expandtabs": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Convierte tabulaciones en espacios en una cadena.",
-            "traduccion": "Converts tabs to spaces in a string."},
+            "traduccion": "Converts tabs to spaces in a string."
+        },
         "encode": {
-            "categoria": ("Codificación",),
+            "categoria": ('Codificación',),
             "definicion": "Convierte una cadena en bytes usando una codificación específica.",
-            "traduccion": "Converts a string to bytes using a specified encoding."},
+            "traduccion": "Converts a string to bytes using a specified encoding."
+        },
         "element": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Un item en una colección como listas o conjuntos.",
-            "traduccion": "An item in a collection such as lists or sets."},
+            "traduccion": "An item in a collection such as lists or sets."
+        },
         "error": {
-            "categoria": ("Manejo de errores",),
+            "categoria": ('Manejo de errores',),
             "definicion": "Indica que ha ocurrido un problema en el programa.",
-            "traduccion": "Indicates that an issue has occurred in the program."},
+            "traduccion": "Indicates that an issue has occurred in the program."
+        },
         "exception": {
-            "categoria": ("Manejo de excepciones",),
+            "categoria": ('Manejo de excepciones',),
             "definicion": "Un error que ocurre durante la ejecución del programa.",
-            "traduccion": "An error that occurs during program execution."},
+            "traduccion": "An error that occurs during program execution."
+        },
         "evaluate": {
-            "categoria": ("Evaluación de expresiones",),
+            "categoria": ('Evaluación de expresiones',),
             "definicion": "Determina el valor de una expresión o variable.",
-            "traduccion": "Determines the value of an expression or variable."},
+            "traduccion": "Determines the value of an expression or variable."
+        },
         "elements": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Conjunto de items en una colección.",
-            "traduccion": "Set of items in a collection."},
+            "traduccion": "Set of items in a collection."
+        },
         "exponential": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Función que calcula la potencia de un número.",
-            "traduccion": "Function that calculates the power of a number."},
+            "traduccion": "Function that calculates the power of a number."
+        },
         "enumerations": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Tipo de dato que permite definir conjuntos de constantes.",
-            "traduccion": "Data type that allows defining sets of constants."},
+            "traduccion": "Data type that allows defining sets of constants."
+        },
         "encode_utf8": {
-            "categoria": ("Codificación",),
+            "categoria": ('Codificación',),
             "definicion": "Convierte una cadena a bytes usando la codificación UTF-8.",
-            "traduccion": "Converts a string to bytes using UTF-8 encoding."},
+            "traduccion": "Converts a string to bytes using UTF-8 encoding."
+        },
         "execfile": {
-            "categoria": ("Ejecución de código",),
+            "categoria": ('Ejecución de código',),
             "definicion": "Ejecuta un archivo Python como si fuera un script.",
-            "traduccion": "Executes a Python file as if it were a script."},
+            "traduccion": "Executes a Python file as if it were a script."
+        },
         "edit_distance": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Número mínimo de operaciones necesarias para transformar una cadena en otra.",
-            "traduccion": "Minimum number of operations needed to transform one string into another."},
+            "traduccion": "Minimum number of operations needed to transform one string into another."
+        },
         "eval_input": {
-            "categoria": ("Evaluación de expresiones",),
+            "categoria": ('Evaluación de expresiones',),
             "definicion": "Evalúa una expresión ingresada por el usuario.",
-            "traduccion": "Evaluates an expression entered by the user."},
+            "traduccion": "Evaluates an expression entered by the user."
+        },
         "exceed": {
-            "categoria": ("Comparación",),
+            "categoria": ('Comparación',),
             "definicion": "Sobrepasar un límite o cantidad.",
-            "traduccion": "To go beyond a limit or amount."},
+            "traduccion": "To go beyond a limit or amount."
+        },
         "expected": {
-            "categoria": ("Comparación",),
+            "categoria": ('Comparación',),
             "definicion": "El resultado que se prevé en una operación.",
-            "traduccion": "The outcome that is anticipated in an operation."},
+            "traduccion": "The outcome that is anticipated in an operation."
+        },
         "encode_base64": {
-            "categoria": ("Codificación",),
+            "categoria": ('Codificación',),
             "definicion": "Convierte datos en una representación Base64.",
-            "traduccion": "Converts data into a Base64 representation."},
+            "traduccion": "Converts data into a Base64 representation."
+        },
         "execute": {
-            "categoria": ("Ejecución de código",),
+            "categoria": ('Ejecución de código',),
             "definicion": "Llevar a cabo un comando o instrucción.",
-            "traduccion": "Carry out a command or instruction."},
+            "traduccion": "Carry out a command or instruction."
+        },
         "exit_code": {
-            "categoria": ("Control de programa",),
+            "categoria": ('Control de programa',),
             "definicion": "Valor devuelto al finalizar un programa.",
-            "traduccion": "Value returned when a program finishes."},
+            "traduccion": "Value returned when a program finishes."
+        },
         "evaluate_expression": {
-            "categoria": ("Evaluación de expresiones",),
+            "categoria": ('Evaluación de expresiones',),
             "definicion": "Evalúa una expresión para determinar su valor.",
-            "traduccion": "Evaluates an expression to determine its value."},
+            "traduccion": "Evaluates an expression to determine its value."
+        },
         "environment": {
-            "categoria": ("Configuración",),
+            "categoria": ('Configuración',),
             "definicion": "Conjunto de variables que afectan la ejecución de un programa.",
-            "traduccion": "Set of variables that affect the execution of a program."},
+            "traduccion": "Set of variables that affect the execution of a program."
+        },
         "environment_variable": {
-            "categoria": ("Configuración",),
+            "categoria": ('Configuración',),
             "definicion": "Variable que define el comportamiento de procesos en el sistema.",
-            "traduccion": "Variable that defines the behavior of processes in the system."},
+            "traduccion": "Variable that defines the behavior of processes in the system."
+        },
         "exp": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Función que devuelve el valor de e elevado a la potencia especificada.",
-            "traduccion": "Function that returns the value of e raised to the specified power."},
+            "traduccion": "Function that returns the value of e raised to the specified power."
+        },
         "exception_handling": {
-            "categoria": ("Manejo de excepciones",),
+            "categoria": ('Manejo de excepciones',),
             "definicion": "Mecanismo para manejar errores y excepciones en el código.",
-            "traduccion": "Mechanism to handle errors and exceptions in code."},
+            "traduccion": "Mechanism to handle errors and exceptions in code."
+        },
         "expand": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Desarrolla variables o estructuras de datos.",
-            "traduccion": "Expands variables or data structures."},
+            "traduccion": "Expands variables or data structures."
+        },
         "environment_config": {
-            "categoria": ("Configuración",),
+            "categoria": ('Configuración',),
             "definicion": "Configuraciones que definen el entorno de ejecución.",
-            "traduccion": "Configurations that define the runtime environment."},
+            "traduccion": "Configurations that define the runtime environment."
+        },
         "equal": {
-            "categoria": ("Comparación",),
+            "categoria": ('Comparación',),
             "definicion": "Operador que verifica la igualdad entre dos valores.",
-            "traduccion": "Operator that checks equality between two values."},
+            "traduccion": "Operator that checks equality between two values."
+        },
         "error_handling": {
-            "categoria": ("Manejo de errores",),
+            "categoria": ('Manejo de errores',),
             "definicion": "Proceso de gestionar errores en el código.",
-            "traduccion": "Process of managing errors in code."},
+            "traduccion": "Process of managing errors in code."
+        },
         "event": {
-            "categoria": ("Eventos",),
+            "categoria": ('Eventos',),
             "definicion": "Acción que ocurre en un programa, como un clic de ratón.",
-            "traduccion": "An action that occurs in a program, such as a mouse click."},
+            "traduccion": "An action that occurs in a program, such as a mouse click."
+        },
         "event_loop": {
-            "categoria": ("Programación asincrónica",),
+            "categoria": ('Programación asincrónica',),
             "definicion": "Ciclo que espera y despacha eventos o mensajes.",
-            "traduccion": "Loop that waits for and dispatches events or messages."},
+            "traduccion": "Loop that waits for and dispatches events or messages."
+        },
         "exception_type": {
-            "categoria": ("Manejo de excepciones",),
+            "categoria": ('Manejo de excepciones',),
             "definicion": "Tipo de error que se puede manejar en Python.",
-            "traduccion": "Type of error that can be handled in Python."},
+            "traduccion": "Type of error that can be handled in Python."
+        },
         "error_message": {
-            "categoria": ("Manejo de errores",),
+            "categoria": ('Manejo de errores',),
             "definicion": "Mensaje que describe el error ocurrido.",
-            "traduccion": "Message describing the error that occurred."},
+            "traduccion": "Message describing the error that occurred."
+        },
         "extract": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Obtiene un valor específico de una colección.",
-            "traduccion": "Retrieves a specific value from a collection."},
+            "traduccion": "Retrieves a specific value from a collection."
+        },
         "exit_status": {
-            "categoria": ("Control de programa",),
+            "categoria": ('Control de programa',),
             "definicion": "Estado de salida que indica si un programa finalizó con éxito.",
-            "traduccion": "Exit status indicating whether a program finished successfully."}},
-    
+            "traduccion": "Exit status indicating whether a program finished successfully."
+        }
+    },
     "f": {
         "filemode": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Modo en el que se abre un archivo, como lectura o escritura.",
-            "traduccion": "Mode in which a file is opened, such as read or write."},
+            "traduccion": "Mode in which a file is opened, such as read or write."
+        },
         "frozen_set": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Colección inmutable de elementos únicos.",
-            "traduccion": "Immutable collection of unique elements."},
+            "traduccion": "Immutable collection of unique elements."
+        },
         "format_map": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Devuelve una cadena formateada usando un diccionario.",
-            "traduccion": "Returns a formatted string using a dictionary."},
+            "traduccion": "Returns a formatted string using a dictionary."
+        },
         "find": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Busca una subcadena dentro de una cadena y devuelve su índice.",
-            "traduccion": "Searches for a substring within a string and returns its index."},
+            "traduccion": "Searches for a substring within a string and returns its index."
+        },
         "float32": {
-            "categoria": ("Tipos de datos",),
+            "categoria": ('Tipos de datos',),
             "definicion": "Tipo de dato que representa un número en punto flotante de 32 bits.",
-            "traduccion": "Data type representing a 32-bit floating-point number."},
+            "traduccion": "Data type representing a 32-bit floating-point number."
+        },
         "float64": {
-            "categoria": ("Tipos de datos",),
+            "categoria": ('Tipos de datos',),
             "definicion": "Tipo de dato que representa un número en punto flotante de 64 bits.",
-            "traduccion": "Data type representing a 64-bit floating-point number."},
+            "traduccion": "Data type representing a 64-bit floating-point number."
+        },
         "formatting": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Proceso de dar formato a la salida de texto.",
-            "traduccion": "Process of formatting the output of text."},
+            "traduccion": "Process of formatting the output of text."
+        },
         "flush_output": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Forza la escritura de datos en la salida estándar.",
-            "traduccion": "Forces the writing of data to standard output."},
+            "traduccion": "Forces the writing of data to standard output."
+        },
         "function_definition": {
-            "categoria": ("Funciones",),
+            "categoria": ('Funciones',),
             "definicion": "La forma en que se define una función en Python.",
-            "traduccion": "The way a function is defined in Python."},
+            "traduccion": "The way a function is defined in Python."
+        },
         "filepath": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Ruta que especifica la ubicación de un archivo en el sistema de archivos.",
-            "traduccion": "Path that specifies the location of a file in the file system."},
+            "traduccion": "Path that specifies the location of a file in the file system."
+        },
         "flask": {
-            "categoria": ("Frameworks",),
+            "categoria": ('Frameworks',),
             "definicion": "Microframework para desarrollar aplicaciones web en Python.",
-            "traduccion": "Microframework for developing web applications in Python."},
+            "traduccion": "Microframework for developing web applications in Python."
+        },
         "filtering": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Proceso de eliminar elementos no deseados de una colección.",
-            "traduccion": "Process of removing unwanted elements from a collection."},
+            "traduccion": "Process of removing unwanted elements from a collection."
+        },
         "futures": {
-            "categoria": ("Programación asincrónica",),
+            "categoria": ('Programación asincrónica',),
             "definicion": "Una forma de trabajar con programación asíncrona en Python.",
-            "traduccion": "A way to work with asynchronous programming in Python."},
+            "traduccion": "A way to work with asynchronous programming in Python."
+        },
         "fold": {
-            "categoria": ("Funciones",),
+            "categoria": ('Funciones',),
             "definicion": "Función que aplica una operación acumulativa sobre un iterable.",
-            "traduccion": "Function that applies an accumulating operation over an iterable."},
+            "traduccion": "Function that applies an accumulating operation over an iterable."
+        },
         "fromkeys": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Método de diccionario que crea un nuevo diccionario con claves y un valor por defecto.",
-            "traduccion": "Dictionary method that creates a new dictionary with keys and a default value."},
+            "traduccion": "Dictionary method that creates a new dictionary with keys and a default value."
+        },
         "flask_restful": {
-            "categoria": ("Frameworks",),
+            "categoria": ('Frameworks',),
             "definicion": "Extensión de Flask para construir APIs RESTful de manera sencilla.",
-            "traduccion": "Flask extension for building RESTful APIs easily."},
+            "traduccion": "Flask extension for building RESTful APIs easily."
+        },
         "fix": {
-            "categoria": ("Depuración",),
+            "categoria": ('Depuración',),
             "definicion": "Corregir o ajustar errores en el código.",
-            "traduccion": "To correct or adjust bugs in code."},
+            "traduccion": "To correct or adjust bugs in code."
+        },
         "float_conversion": {
-            "categoria": ("Conversión de datos",),
+            "categoria": ('Conversión de datos',),
             "definicion": "Proceso de convertir un número a su representación en punto flotante.",
-            "traduccion": "Process of converting a number to its floating-point representation."},
+            "traduccion": "Process of converting a number to its floating-point representation."
+        },
         "full_path": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Ruta completa a un archivo, incluyendo el nombre del archivo y su directorio.",
-            "traduccion": "Complete path to a file, including the filename and its directory."},
+            "traduccion": "Complete path to a file, including the filename and its directory."
+        },
         "filter": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Crea una lista de elementos para los cuales una función devuelve True.",
-            "traduccion": "Creates a list of elements for which a function returns True."},
+            "traduccion": "Creates a list of elements for which a function returns True."
+        },
         "float": {
-            "categoria": ("Tipos de datos",),
+            "categoria": ('Tipos de datos',),
             "definicion": "Tipo de dato que representa un número en punto flotante.",
-            "traduccion": "Data type that represents a floating-point number."},
+            "traduccion": "Data type that represents a floating-point number."
+        },
         "for": {
-            "categoria": ("Control de flujo",),
+            "categoria": ('Control de flujo',),
             "definicion": "Crea un bucle que itera sobre un iterable.",
-            "traduccion": "Creates a loop that iterates over an iterable."},
+            "traduccion": "Creates a loop that iterates over an iterable."
+        },
         "format": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Devuelve una cadena formateada.",
-            "traduccion": "Returns a formatted string."},
+            "traduccion": "Returns a formatted string."
+        },
         "from": {
-            "categoria": ("Importación de módulos",),
+            "categoria": ('Importación de módulos',),
             "definicion": "Utilizado para importar módulos o partes de un módulo.",
-            "traduccion": "Used to import modules or parts of a module."},
+            "traduccion": "Used to import modules or parts of a module."
+        },
         "function": {
-            "categoria": ("Funciones",),
+            "categoria": ('Funciones',),
             "definicion": "Bloque de código reutilizable que realiza una tarea específica.",
-            "traduccion": "Reusable block of code that performs a specific task."},
+            "traduccion": "Reusable block of code that performs a specific task."
+        },
         "fibonacci": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Secuencia de números donde cada número es la suma de los dos anteriores.",
-            "traduccion": "Sequence of numbers where each number is the sum of the two preceding ones."},
+            "traduccion": "Sequence of numbers where each number is the sum of the two preceding ones."
+        },
         "file": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Objeto que representa un archivo en el sistema de archivos.",
-            "traduccion": "Object that represents a file in the file system."},
+            "traduccion": "Object that represents a file in the file system."
+        },
         "fwrite": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Escribe datos en un archivo abierto.",
-            "traduccion": "Writes data to an open file."},
+            "traduccion": "Writes data to an open file."
+        },
         "fread": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Lee datos de un archivo abierto.",
-            "traduccion": "Reads data from an open file."},
+            "traduccion": "Reads data from an open file."
+        },
         "finally": {
-            "categoria": ("Manejo de excepciones",),
+            "categoria": ('Manejo de excepciones',),
             "definicion": "Bloque que se ejecuta después de un try/except, sin importar si se produjo un error.",
-            "traduccion": "Block that executes after a try/except, regardless of whether an error occurred."},
+            "traduccion": "Block that executes after a try/except, regardless of whether an error occurred."
+        },
         "freeze": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Convierte un objeto en un formato inmutable.",
-            "traduccion": "Converts an object into an immutable format."},
+            "traduccion": "Converts an object into an immutable format."
+        },
         "flush": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Vacía el búfer de un archivo para asegurar que todos los datos se escriban.",
-            "traduccion": "Flushes the file buffer to ensure all data is written."},
+            "traduccion": "Flushes the file buffer to ensure all data is written."
+        },
         "fstring": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Cadena formateada literal, que permite incrustar expresiones.",
-            "traduccion": "Formatted string literal, allowing embedded expressions."},
+            "traduccion": "Formatted string literal, allowing embedded expressions."
+        },
         "factorial": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Producto de todos los números enteros positivos hasta un número dado.",
-            "traduccion": "Product of all positive integers up to a given number."},
+            "traduccion": "Product of all positive integers up to a given number."
+        },
         "frozen": {
-            "categoria": ("Estructura de datos",),
+            "categoria": ('Estructura de datos',),
             "definicion": "Un tipo de conjunto inmutable.",
-            "traduccion": "An immutable set type."},
+            "traduccion": "An immutable set type."
+        },
         "filterfalse": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Devuelve un iterador que filtra elementos de una secuencia para los cuales la función es False.",
-            "traduccion": "Returns an iterator filtering elements from a sequence for which the function is False."},
+            "traduccion": "Returns an iterator filtering elements from a sequence for which the function is False."
+        },
         "fuzzy": {
-            "categoria": ("Manejo de datos",),
+            "categoria": ('Manejo de datos',),
             "definicion": "Método que permite trabajar con datos inexactos o imprecisos.",
-            "traduccion": "Method that allows working with inaccurate or imprecise data."},
+            "traduccion": "Method that allows working with inaccurate or imprecise data."
+        },
         "fibonacci_sequence": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Genera la secuencia de Fibonacci hasta un número específico.",
-            "traduccion": "Generates the Fibonacci sequence up to a specific number."},
+            "traduccion": "Generates the Fibonacci sequence up to a specific number."
+        },
         "format_spec": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Especificación que define cómo se debe formatear un valor.",
-            "traduccion": "Specification that defines how a value should be formatted."},
+            "traduccion": "Specification that defines how a value should be formatted."
+        },
         "fork": {
-            "categoria": ("Procesos del sistema",),
+            "categoria": ('Procesos del sistema',),
             "definicion": "Crea un nuevo proceso en sistemas operativos basados en Unix.",
-            "traduccion": "Creates a new process in Unix-based operating systems."},
+            "traduccion": "Creates a new process in Unix-based operating systems."
+        },
         "forking": {
-            "categoria": ("Procesos del sistema",),
+            "categoria": ('Procesos del sistema',),
             "definicion": "Proceso de dividir un programa en varios procesos para ejecutar tareas en paralelo.",
-            "traduccion": "Process of dividing a program into multiple processes to run tasks in parallel."},
+            "traduccion": "Process of dividing a program into multiple processes to run tasks in parallel."
+        },
         "first": {
-            "categoria": ("Manipulación de iterables",),
+            "categoria": ('Manipulación de iterables',),
             "definicion": "Método para obtener el primer elemento de una secuencia.",
-            "traduccion": "Method to get the first element of a sequence."},
+            "traduccion": "Method to get the first element of a sequence."
+        },
         "float_format": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Especificación de formato para representar números en punto flotante.",
-            "traduccion": "Format specification for representing floating-point numbers."},
+            "traduccion": "Format specification for representing floating-point numbers."
+        },
         "filter_none": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Devuelve un iterador que filtra elementos que no son None.",
-            "traduccion": "Returns an iterator filtering elements that are not None."},
+            "traduccion": "Returns an iterator filtering elements that are not None."
+        },
         "func_code": {
-            "categoria": ("Funciones",),
+            "categoria": ('Funciones',),
             "definicion": "Código byte que representa el cuerpo de una función.",
-            "traduccion": "Bytecode representing the body of a function."},
+            "traduccion": "Bytecode representing the body of a function."
+        },
         "float_power": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Función que eleva un número a la potencia de otro número en punto flotante.",
-            "traduccion": "Function that raises a number to the power of another floating-point number."},
+            "traduccion": "Function that raises a number to the power of another floating-point number."
+        },
         "format_string": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Cadena que especifica cómo se deben formatear los valores en Python.",
-            "traduccion": "String that specifies how values should be formatted in Python."},
+            "traduccion": "String that specifies how values should be formatted in Python."
+        },
         "filename": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Nombre de un archivo, que puede incluir su extensión.",
-            "traduccion": "Name of a file, which may include its extension."},
+            "traduccion": "Name of a file, which may include its extension."
+        },
         "file_object": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Objeto que permite interactuar con un archivo abierto en Python.",
-            "traduccion": "Object that allows interaction with an open file in Python."},
+            "traduccion": "Object that allows interaction with an open file in Python."
+        },
         "finally_clause": {
-            "categoria": ("Manejo de excepciones",),
+            "categoria": ('Manejo de excepciones',),
             "definicion": "Parte de una estructura try/except que se ejecuta siempre, independientemente de los errores.",
-            "traduccion": "Part of a try/except structure that always executes, regardless of errors."},
+            "traduccion": "Part of a try/except structure that always executes, regardless of errors."
+        },
         "file_read": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Operación que lee el contenido de un archivo.",
-            "traduccion": "Operation that reads the content of a file."},
+            "traduccion": "Operation that reads the content of a file."
+        },
         "form": {
-            "categoria": ("Web",),
+            "categoria": ('Web',),
             "definicion": "Representación de datos en un formato estructurado, a menudo utilizado en aplicaciones web.",
-            "traduccion": "Representation of data in a structured format, often used in web applications."},
+            "traduccion": "Representation of data in a structured format, often used in web applications."
+        },
         "function_call": {
-            "categoria": ("Funciones",),
+            "categoria": ('Funciones',),
             "definicion": "Invocación de una función para ejecutar su código.",
-            "traduccion": "Invocation of a function to execute its code."},
+            "traduccion": "Invocation of a function to execute its code."
+        },
         "force": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Método para forzar la ejecución de un proceso o función.",
-            "traduccion": "Method to force the execution of a process or function."},
+            "traduccion": "Method to force the execution of a process or function."
+        },
         "function_pointer": {
-            "categoria": ("Funciones",),
+            "categoria": ('Funciones',),
             "definicion": "Referencia a una función que puede ser pasada como argumento.",
-            "traduccion": "Reference to a function that can be passed as an argument."},
+            "traduccion": "Reference to a function that can be passed as an argument."
+        },
         "float_precision": {
-            "categoria": ("Tipos de datos",),
+            "categoria": ('Tipos de datos',),
             "definicion": "Precisión de un número en punto flotante, que afecta la exactitud de los cálculos.",
-            "traduccion": "Precision of a floating-point number, affecting the accuracy of calculations."},
+            "traduccion": "Precision of a floating-point number, affecting the accuracy of calculations."
+        },
         "format_error": {
-            "categoria": ("Manejo de errores",),
+            "categoria": ('Manejo de errores',),
             "definicion": "Error que ocurre al formatear datos de manera incorrecta.",
-            "traduccion": "Error that occurs when formatting data incorrectly."},
+            "traduccion": "Error that occurs when formatting data incorrectly."
+        },
         "file_write": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Operación que escribe datos en un archivo.",
-            "traduccion": "Operation that writes data to a file."},
+            "traduccion": "Operation that writes data to a file."
+        },
         "fibonacci_search": {
-            "categoria": ("Algoritmos de búsqueda",),
+            "categoria": ('Algoritmos de búsqueda',),
             "definicion": "Algoritmo de búsqueda que utiliza la secuencia de Fibonacci para encontrar elementos.",
-            "traduccion": "Search algorithm that uses the Fibonacci sequence to find elements."},
+            "traduccion": "Search algorithm that uses the Fibonacci sequence to find elements."
+        },
         "filter_map": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Combinación de la funcionalidad de filter y map en una operación.",
-            "traduccion": "Combination of the functionality of filter and map in a single operation."}},
-    
+            "traduccion": "Combination of the functionality of filter and map in a single operation."
+        }
+    },
     "g": {
         "getattr": {
-            "categoria": ("Manejo de objetos",),
+            "categoria": ('Manejo de objetos',),
             "definicion": "Devuelve el valor de un atributo de un objeto.",
-            "traduccion": "Returns the value of an object's attribute."},
+            "traduccion": "Returns the value of an object's attribute."
+        },
         "globals": {
-            "categoria": ("Espacios de nombres",),
+            "categoria": ('Espacios de nombres',),
             "definicion": "Devuelve un diccionario con todas las variables globales del programa.",
-            "traduccion": "Returns a dictionary of all global variables in the program."},
+            "traduccion": "Returns a dictionary of all global variables in the program."
+        },
         "groupby": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Agrupa datos basándose en una clave específica.",
-            "traduccion": "Groups data based on a specific key."},
+            "traduccion": "Groups data based on a specific key."
+        },
         "gc": {
-            "categoria": ("Gestión de memoria",),
+            "categoria": ('Gestión de memoria',),
             "definicion": "Módulo que proporciona control sobre el recolector de basura.",
-            "traduccion": "Module that provides control over garbage collection."},
+            "traduccion": "Module that provides control over garbage collection."
+        },
         "ge": {
-            "categoria": ("Operadores",),
+            "categoria": ('Operadores',),
             "definicion": "Devuelve True si el primer valor es mayor o igual que el segundo.",
-            "traduccion": "Returns True if the first value is greater than or equal to the second."},
+            "traduccion": "Returns True if the first value is greater than or equal to the second."
+        },
         "gzip": {
-            "categoria": ("Compresión de datos",),
+            "categoria": ('Compresión de datos',),
             "definicion": "Módulo para comprimir y descomprimir archivos en formato gzip.",
-            "traduccion": "Module for compressing and decompressing files in gzip format."},
+            "traduccion": "Module for compressing and decompressing files in gzip format."
+        },
         "getpass": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "Permite la entrada de contraseñas de manera segura.",
-            "traduccion": "Allows for secure password input."},
+            "traduccion": "Allows for secure password input."
+        },
         "getsizeof": {
-            "categoria": ("Gestión de memoria",),
+            "categoria": ('Gestión de memoria',),
             "definicion": "Devuelve el tamaño en bytes de un objeto.",
-            "traduccion": "Returns the size in bytes of an object."},
+            "traduccion": "Returns the size in bytes of an object."
+        },
         "genericpath": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Módulo que proporciona funciones comunes para la manipulación de rutas.",
-            "traduccion": "Module that provides common functions for path manipulation."},
+            "traduccion": "Module that provides common functions for path manipulation."
+        },
         "get": {
-            "categoria": ("Diccionarios",),
+            "categoria": ('Diccionarios',),
             "definicion": "Obtiene el valor de una clave en un diccionario.",
-            "traduccion": "Gets the value of a key in a dictionary."},
+            "traduccion": "Gets the value of a key in a dictionary."
+        },
         "get_ipython": {
-            "categoria": ("Entornos interactivos",),
+            "categoria": ('Entornos interactivos',),
             "definicion": "Devuelve la instancia actual de IPython activa.",
-            "traduccion": "Returns the current active IPython instance."},
+            "traduccion": "Returns the current active IPython instance."
+        },
         "gettext": {
-            "categoria": ("Internacionalización",),
+            "categoria": ('Internacionalización',),
             "definicion": "Módulo que facilita la traducción de textos en aplicaciones.",
-            "traduccion": "Module that facilitates text translation in applications."},
+            "traduccion": "Module that facilitates text translation in applications."
+        },
         "get_event_loop": {
-            "categoria": ("Programación asíncrona",),
+            "categoria": ('Programación asíncrona',),
             "definicion": "Devuelve el bucle de eventos actualmente en ejecución.",
-            "traduccion": "Returns the currently running event loop."},
+            "traduccion": "Returns the currently running event loop."
+        },
         "getcwd": {
-            "categoria": ("Sistema operativo",),
+            "categoria": ('Sistema operativo',),
             "definicion": "Devuelve el directorio de trabajo actual.",
-            "traduccion": "Returns the current working directory."},
+            "traduccion": "Returns the current working directory."
+        },
         "genfromtxt": {
-            "categoria": ("Procesamiento de datos",),
+            "categoria": ('Procesamiento de datos',),
             "definicion": "Carga datos desde un archivo de texto, con opciones avanzadas de control.",
-            "traduccion": "Loads data from a text file with advanced control options."},
+            "traduccion": "Loads data from a text file with advanced control options."
+        },
         "google_auth": {
-            "categoria": ("Autenticación",),
+            "categoria": ('Autenticación',),
             "definicion": "Biblioteca para manejar la autenticación de Google en aplicaciones.",
-            "traduccion": "Library for handling Google authentication in applications."},
+            "traduccion": "Library for handling Google authentication in applications."
+        },
         "grayscale": {
-            "categoria": ("Procesamiento de imágenes",),
+            "categoria": ('Procesamiento de imágenes',),
             "definicion": "Convierte una imagen a escala de grises.",
-            "traduccion": "Converts an image to grayscale."},
+            "traduccion": "Converts an image to grayscale."
+        },
         "grid_search": {
-            "categoria": ("Optimización",),
+            "categoria": ('Optimización',),
             "definicion": "Método para encontrar los mejores hiperparámetros de un modelo.",
-            "traduccion": "Method for finding the best hyperparameters for a model."},
+            "traduccion": "Method for finding the best hyperparameters for a model."
+        },
         "graphlib": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Módulo que proporciona herramientas para manipular grafos.",
-            "traduccion": "Module that provides tools for manipulating graphs."},
+            "traduccion": "Module that provides tools for manipulating graphs."
+        },
         "greatest_common_divisor": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Devuelve el máximo común divisor de dos números.",
-            "traduccion": "Returns the greatest common divisor of two numbers."},
+            "traduccion": "Returns the greatest common divisor of two numbers."
+        },
         "generate_token": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "Genera un token de autenticación único.",
-            "traduccion": "Generates a unique authentication token."},
+            "traduccion": "Generates a unique authentication token."
+        },
         "gradient": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Calcula el gradiente de una función.",
-            "traduccion": "Calculates the gradient of a function."},
+            "traduccion": "Calculates the gradient of a function."
+        },
         "gzip_file": {
-            "categoria": ("Compresión de datos",),
+            "categoria": ('Compresión de datos',),
             "definicion": "Crea o lee un archivo comprimido en formato gzip.",
-            "traduccion": "Creates or reads a file compressed in gzip format."},
+            "traduccion": "Creates or reads a file compressed in gzip format."
+        },
         "gui_toolkit": {
-            "categoria": ("Interfaces gráficas",),
+            "categoria": ('Interfaces gráficas',),
             "definicion": "Conjunto de herramientas para crear interfaces gráficas.",
-            "traduccion": "Toolkit for creating graphical user interfaces."},
+            "traduccion": "Toolkit for creating graphical user interfaces."
+        },
         "gaussian_filter": {
-            "categoria": ("Procesamiento de imágenes",),
+            "categoria": ('Procesamiento de imágenes',),
             "definicion": "Aplica un filtro gaussiano para suavizar una imagen.",
-            "traduccion": "Applies a Gaussian filter to smooth an image."},
+            "traduccion": "Applies a Gaussian filter to smooth an image."
+        },
         "get_config": {
-            "categoria": ("Configuraciones",),
+            "categoria": ('Configuraciones',),
             "definicion": "Obtiene configuraciones del entorno o de una aplicación.",
-            "traduccion": "Gets environment or application configurations."},
+            "traduccion": "Gets environment or application configurations."
+        },
         "group_indices": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Devuelve los índices de elementos agrupados por una clave.",
-            "traduccion": "Returns the indices of elements grouped by a key."},
+            "traduccion": "Returns the indices of elements grouped by a key."
+        },
         "generate_password": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "Crea una contraseña aleatoria según criterios definidos.",
-            "traduccion": "Generates a random password based on defined criteria."},
+            "traduccion": "Generates a random password based on defined criteria."
+        },
         "genetic_algorithm": {
-            "categoria": ("Inteligencia artificial",),
+            "categoria": ('Inteligencia artificial',),
             "definicion": "Algoritmo basado en la selección y evolución genética.",
-            "traduccion": "Algorithm based on genetic selection and evolution."},
+            "traduccion": "Algorithm based on genetic selection and evolution."
+        },
         "get_frame": {
-            "categoria": ("Depuración",),
+            "categoria": ('Depuración',),
             "definicion": "Obtiene el marco actual de ejecución en una pila de llamadas.",
-            "traduccion": "Gets the current execution frame in a call stack."},
+            "traduccion": "Gets the current execution frame in a call stack."
+        },
         "get_headers": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Obtiene los encabezados de una solicitud HTTP.",
-            "traduccion": "Gets the headers of an HTTP request."},
+            "traduccion": "Gets the headers of an HTTP request."
+        },
         "get_nodes": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Devuelve los nodos de un grafo.",
-            "traduccion": "Returns the nodes of a graph."},
+            "traduccion": "Returns the nodes of a graph."
+        },
         "global_average": {
-            "categoria": ("Estadísticas",),
+            "categoria": ('Estadísticas',),
             "definicion": "Calcula el promedio global de un conjunto de datos.",
-            "traduccion": "Calculates the global average of a dataset."},
+            "traduccion": "Calculates the global average of a dataset."
+        },
         "gradient_descent": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Método para minimizar funciones mediante gradientes.",
-            "traduccion": "Method for minimizing functions using gradients."},
+            "traduccion": "Method for minimizing functions using gradients."
+        },
         "get_meta_data": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Obtiene los metadatos asociados a una base de datos.",
-            "traduccion": "Gets metadata associated with a database."},
+            "traduccion": "Gets metadata associated with a database."
+        },
         "generate_keys": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "Genera claves públicas y privadas para criptografía.",
-            "traduccion": "Generates public and private keys for cryptography."},
+            "traduccion": "Generates public and private keys for cryptography."
+        },
         "get_prime_numbers": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Devuelve una lista de números primos en un rango dado.",
-            "traduccion": "Returns a list of prime numbers within a given range."},
+            "traduccion": "Returns a list of prime numbers within a given range."
+        },
         "generate_report": {
-            "categoria": ("Automatización",),
+            "categoria": ('Automatización',),
             "definicion": "Crea un informe basado en datos analizados.",
-            "traduccion": "Generates a report based on analyzed data."},
+            "traduccion": "Generates a report based on analyzed data."
+        },
         "graph_visualizer": {
-            "categoria": ("Visualización",),
+            "categoria": ('Visualización',),
             "definicion": "Herramienta para crear representaciones gráficas de datos.",
-            "traduccion": "Tool for creating graphical data representations."},
+            "traduccion": "Tool for creating graphical data representations."
+        },
         "grid_display": {
-            "categoria": ("Interfaces gráficas",),
+            "categoria": ('Interfaces gráficas',),
             "definicion": "Crea una cuadrícula para organizar elementos visuales.",
-            "traduccion": "Creates a grid to organize visual elements."},
+            "traduccion": "Creates a grid to organize visual elements."
+        },
         "get_local_time": {
-            "categoria": ("Fechas y horas",),
+            "categoria": ('Fechas y horas',),
             "definicion": "Obtiene la hora local del sistema.",
-            "traduccion": "Gets the local system time."},
+            "traduccion": "Gets the local system time."
+        },
         "generate_uuid": {
-            "categoria": ("Identificadores",),
+            "categoria": ('Identificadores',),
             "definicion": "Crea un identificador único universal.",
-            "traduccion": "Generates a universally unique identifier."},
+            "traduccion": "Generates a universally unique identifier."
+        },
         "get_timezone": {
-            "categoria": ("Fechas y horas",),
+            "categoria": ('Fechas y horas',),
             "definicion": "Devuelve la zona horaria actual.",
-            "traduccion": "Returns the current timezone."},
+            "traduccion": "Returns the current timezone."
+        },
         "get_subgraph": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Obtiene un subgrafo a partir de un grafo existente.",
-            "traduccion": "Gets a subgraph from an existing graph."},
+            "traduccion": "Gets a subgraph from an existing graph."
+        },
         "generate_pie_chart": {
-            "categoria": ("Visualización",),
+            "categoria": ('Visualización',),
             "definicion": "Crea un gráfico de pastel basado en datos.",
-            "traduccion": "Generates a pie chart based on data."},
+            "traduccion": "Generates a pie chart based on data."
+        },
         "get_histogram": {
-            "categoria": ("Estadísticas",),
+            "categoria": ('Estadísticas',),
             "definicion": "Devuelve el histograma de un conjunto de datos.",
-            "traduccion": "Returns the histogram of a dataset."},
+            "traduccion": "Returns the histogram of a dataset."
+        },
         "gradient_boosting": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Técnica para mejorar modelos de predicción.",
-            "traduccion": "Technique for improving prediction models."},
+            "traduccion": "Technique for improving prediction models."
+        },
         "get_child_nodes": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Devuelve los nodos hijos de un nodo específico.",
-            "traduccion": "Returns the child nodes of a specific node."},
+            "traduccion": "Returns the child nodes of a specific node."
+        },
         "generate_test_cases": {
-            "categoria": ("Pruebas",),
+            "categoria": ('Pruebas',),
             "definicion": "Genera casos de prueba para un programa o aplicación.",
-            "traduccion": "Generates test cases for a program or application."},
+            "traduccion": "Generates test cases for a program or application."
+        },
         "get_unique_values": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Devuelve los valores únicos de una lista o conjunto.",
-            "traduccion": "Returns the unique values of a list or set."},
+            "traduccion": "Returns the unique values of a list or set."
+        },
         "generate_bar_chart": {
-            "categoria": ("Visualización",),
+            "categoria": ('Visualización',),
             "definicion": "Crea un gráfico de barras basado en datos.",
-            "traduccion": "Generates a bar chart based on data."},
+            "traduccion": "Generates a bar chart based on data."
+        },
         "generate_heatmap": {
-            "categoria": ("Visualización",),
+            "categoria": ('Visualización',),
             "definicion": "Crea un mapa de calor para representar datos.",
-            "traduccion": "Generates a heatmap to represent data."},
+            "traduccion": "Generates a heatmap to represent data."
+        },
         "generate_3d_plot": {
-            "categoria": ("Visualización",),
+            "categoria": ('Visualización',),
             "definicion": "Crea una gráfica tridimensional de datos.",
-            "traduccion": "Generates a three-dimensional plot of data."},
+            "traduccion": "Generates a three-dimensional plot of data."
+        },
         "get_function_signature": {
-            "categoria": ("Depuración",),
+            "categoria": ('Depuración',),
             "definicion": "Devuelve la firma de una función.",
-            "traduccion": "Returns the signature of a function."},
+            "traduccion": "Returns the signature of a function."
+        },
         "global_variables": {
-            "categoria": ("Espacios de nombres",),
+            "categoria": ('Espacios de nombres',),
             "definicion": "Lista todas las variables globales en el espacio actual.",
-            "traduccion": "Lists all global variables in the current space."},
+            "traduccion": "Lists all global variables in the current space."
+        },
         "generate_random_seed": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Crea una semilla aleatoria para inicializar generadores.",
-            "traduccion": "Generates a random seed for initializing generators."},
+            "traduccion": "Generates a random seed for initializing generators."
+        },
         "generate_latex_table": {
-            "categoria": ("Automatización",),
+            "categoria": ('Automatización',),
             "definicion": "Crea una tabla formateada en LaTeX.",
-            "traduccion": "Generates a formatted table in LaTeX."},
+            "traduccion": "Generates a formatted table in LaTeX."
+        },
         "generate_hash": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "Crea un hash seguro de un dato o archivo.",
-            "traduccion": "Generates a secure hash of data or a file."},
+            "traduccion": "Generates a secure hash of data or a file."
+        },
         "generate_json_schema": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Crea un esquema JSON para validar datos.",
-            "traduccion": "Generates a JSON schema for data validation."}},
-    
+            "traduccion": "Generates a JSON schema for data validation."
+        }
+    },
     "h": {
         "hash": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Devuelve el valor hash de un objeto.",
-            "traduccion": "Returns the hash value of an object."},
+            "traduccion": "Returns the hash value of an object."
+        },
         "help": {
-            "categoria": ("Documentación",),
+            "categoria": ('Documentación',),
             "definicion": "Muestra la ayuda de un módulo, función o clase.",
-            "traduccion": "Displays the help information of a module, function, or class."},
+            "traduccion": "Displays the help information of a module, function, or class."
+        },
         "header": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Parte inicial de un paquete de datos que contiene información sobre el mismo.",
-            "traduccion": "Initial part of a data packet that contains information about it."},
+            "traduccion": "Initial part of a data packet that contains information about it."
+        },
         "host": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Computadora o dispositivo que se conecta a una red.",
-            "traduccion": "Computer or device that connects to a network."},
+            "traduccion": "Computer or device that connects to a network."
+        },
         "hyperlink": {
-            "categoria": ("Internet",),
+            "categoria": ('Internet',),
             "definicion": "Vínculo en una página web que lleva a otra página o recurso.",
-            "traduccion": "Link in a webpage that leads to another page or resource."},
+            "traduccion": "Link in a webpage that leads to another page or resource."
+        },
         "hashlib": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "Biblioteca de Python que proporciona algoritmos de hash.",
-            "traduccion": "Python library that provides hash algorithms."},
+            "traduccion": "Python library that provides hash algorithms."
+        },
         "hamming_distance": {
-            "categoria": ("Teoría de la información",),
+            "categoria": ('Teoría de la información',),
             "definicion": "Mide el número de posiciones en las que dos cadenas de texto difieren.",
-            "traduccion": "Measures the number of positions where two strings differ."},
+            "traduccion": "Measures the number of positions where two strings differ."
+        },
         "heap": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Estructura de datos basada en un árbol binario completo.",
-            "traduccion": "Data structure based on a complete binary tree."},
+            "traduccion": "Data structure based on a complete binary tree."
+        },
         "hash_table": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Estructura que asocia claves con valores usando una función hash.",
-            "traduccion": "Structure that maps keys to values using a hash function."},
+            "traduccion": "Structure that maps keys to values using a hash function."
+        },
         "http_request": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Solicitud realizada por un cliente a un servidor web.",
-            "traduccion": "Request made by a client to a web server."},
+            "traduccion": "Request made by a client to a web server."
+        },
         "http_response": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Respuesta del servidor a una solicitud HTTP.",
-            "traduccion": "Response from the server to an HTTP request."},
+            "traduccion": "Response from the server to an HTTP request."
+        },
         "host_name": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Nombre asignado a un dispositivo en una red.",
-            "traduccion": "Name assigned to a device in a network."},
+            "traduccion": "Name assigned to a device in a network."
+        },
         "hash_map": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Estructura que asocia claves y valores, similar a un diccionario.",
-            "traduccion": "Structure that maps keys to values, similar to a dictionary."},
+            "traduccion": "Structure that maps keys to values, similar to a dictionary."
+        },
         "hadoop": {
-            "categoria": ("Big Data",),
+            "categoria": ('Big Data',),
             "definicion": "Framework de código abierto para el procesamiento distribuido de grandes conjuntos de datos.",
-            "traduccion": "Open-source framework for the distributed processing of large datasets."},
+            "traduccion": "Open-source framework for the distributed processing of large datasets."
+        },
         "http_method": {
-            "categoria": ("Redes",),
-            "definicion": "Método que define la acción solicitada en una petición HTTP.",
-            "traduccion": "Method that defines the action requested in an HTTP request."},
-        "hash_function": {
-            "categoria": ("Criptografía",),
-            "definicion": "Función que toma una entrada y devuelve un valor hash de longitud fija.",
-            "traduccion": "Function that takes an input and returns a fixed-length hash value."},
-        "hibernate": {
-            "categoria": ("Base de datos",),
-            "definicion": "Framework para mapeo objeto-relacional en Java.",
-            "traduccion": "Object-relational mapping framework in Java."},
-        "heuristic": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Método de resolución de problemas basado en la experiencia y la aproximación.",
-            "traduccion": "Problem-solving method based on experience and approximation."},
-        "http_code": {
-            "categoria": ("Redes",),
-            "definicion": "Código de estado devuelto por el servidor en una solicitud HTTP.",
-            "traduccion": "Status code returned by the server in an HTTP request."},
-        "host_ip": {
-            "categoria": ("Redes",),
-            "definicion": "Dirección IP asignada a un dispositivo en una red.",
-            "traduccion": "IP address assigned to a device in a network."},
-        "hashing_algorithm": {
-            "categoria": ("Criptografía",),
-            "definicion": "Algoritmo utilizado para convertir datos en un valor hash.",
-            "traduccion": "Algorithm used to convert data into a hash value."},
-        "header_field": {
-            "categoria": ("Redes",),
-            "definicion": "Campo en un encabezado de protocolo que contiene información adicional.",
-            "traduccion": "Field in a protocol header that contains additional information."},
-        "hosted_service": {
-            "categoria": ("Servicios en la nube",),
-            "definicion": "Servicio que se aloja en la nube y se accede a través de Internet.",
-            "traduccion": "Service hosted in the cloud and accessed via the internet."},
-
-        "hybrid_cloud": {
-            "categoria": ("Servicios en la nube",),
-            "definicion": "Modelo de computación en la nube que combina recursos privados y públicos.",
-            "traduccion": "Cloud computing model that combines private and public resources."},
-        "hexadecimal": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Sistema numérico en base 16.",
-            "traduccion": "Numerical system in base 16."},
-        "hash_set": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Conjunto que almacena elementos de forma no ordenada utilizando un hash.",
-            "traduccion": "Set that stores elements in an unordered fashion using a hash."},
-        "high_order_function": {
-            "categoria": ("Funciones",),
-            "definicion": "Función que toma una o más funciones como argumentos o devuelve una función.",
-            "traduccion": "Function that takes one or more functions as arguments or returns a function."},
-        "hmac": {
-            "categoria": ("Criptografía",),
-            "definicion": "Código de autenticación de mensaje basado en hash.",
-            "traduccion": "Hash-based message authentication code."},
-        "hashable": {
-            "categoria": ("Python",),
-            "definicion": "Propiedad de un objeto que permite su uso como clave en un diccionario.",
-            "traduccion": "Property of an object that allows it to be used as a key in a dictionary."},
-        "http_session": {
-            "categoria": ("Redes",),
-            "definicion": "Sesión que mantiene el estado entre las solicitudes HTTP de un cliente.",
-            "traduccion": "Session that maintains state between HTTP requests from a client."},
-        "hypertext": {
-            "categoria": ("Internet",),
-            "definicion": "Texto que contiene enlaces a otros textos o recursos.",
-            "traduccion": "Text that contains links to other texts or resources."},
-        "http_2": {
-            "categoria": ("Redes",),
-            "definicion": "Protocolo de red que mejora el rendimiento de HTTP.",
-            "traduccion": "Network protocol that improves HTTP performance."},
-        "hls": {
-            "categoria": ("Redes",),
-            "definicion": "Sistema de transmisión de video en tiempo real sobre HTTP.",
-            "traduccion": "Real-time video streaming system over HTTP."},
-        "hashmap": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Implementación de un mapa clave-valor utilizando una función hash.",
-            "traduccion": "Implementation of a key-value map using a hash function."},
-        "home_directory": {
-            "categoria": ("Sistemas operativos",),
-            "definicion": "Directorio principal del usuario en un sistema.",
-            "traduccion": "Main user directory in a system."},
-        "http_redirect": {
-            "categoria": ("Redes",),
-            "definicion": "Redirección de una solicitud HTTP a una nueva URL.",
-            "traduccion": "Redirecting an HTTP request to a new URL."},
-        "html": {
-            "categoria": ("Internet",),
-            "definicion": "Lenguaje de marcado utilizado para crear páginas web.",
-            "traduccion": "Markup language used to create web pages."},
-        "header_file": {
-            "categoria": ("Programación",),
-            "definicion": "Archivo que contiene declaraciones de funciones y macros.",
-            "traduccion": "File that contains function declarations and macros."},
-        "hdfs": {
-            "categoria": ("Big Data",),
-            "definicion": "Sistema de archivos distribuido utilizado por Hadoop.",
-            "traduccion": "Distributed file system used by Hadoop."},
-        "hard_link": {
-            "categoria": ("Sistemas operativos",),
-            "definicion": "Enlace a un archivo que apunta directamente a los datos almacenados en disco.",
-            "traduccion": "Link to a file that points directly to the data stored on disk."},
-        "hashing": {
-            "categoria": ("Criptografía",),
-            "definicion": "Proceso de aplicar una función hash a los datos.",
-            "traduccion": "Process of applying a hash function to data."},
-        "http_404": {
-            "categoria": ("Redes",),
-            "definicion": "Código de estado HTTP que indica que la página no se encuentra.",
-            "traduccion": "HTTP status code indicating that the page is not found."},
-        "hypervisor": {
-            "categoria": ("Virtualización",),
-            "definicion": "Software que permite ejecutar máquinas virtuales en un sistema físico.",
-            "traduccion": "Software that allows running virtual machines on a physical system."},
-        "http_header": {
-            "categoria": ("Redes",),
-            "definicion": "Información adicional contenida en una solicitud o respuesta HTTP.",
-            "traduccion": "Additional information contained in an HTTP request or response."},
-        "http_client": {
-            "categoria": ("Redes",),
-            "definicion": "Software que realiza solicitudes HTTP a servidores web.",
-            "traduccion": "Software that makes HTTP requests to web servers."},
-        "hping": {
-            "categoria": ("Redes",),
-            "definicion": "Herramienta de red para pruebas de seguridad y auditoría.",
-            "traduccion": "Network tool for security testing and auditing."},
-        "hash_collision": {
-            "categoria": ("Criptografía",),
-            "definicion": "Situación donde dos entradas diferentes tienen el mismo valor hash.",
-            "traduccion": "Situation where two different inputs have the same hash value."},
-        "head": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Elemento que aparece primero en una lista enlazada.",
-            "traduccion": "First element in a linked list."},
-        "heap_sort": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Algoritmo de ordenamiento basado en la estructura de heap.",
-            "traduccion": "Sorting algorithm based on the heap data structure."},
-        "http_server": {
-            "categoria": ("Redes",),
-            "definicion": "Software que maneja solicitudes HTTP y las responde.",
-            "traduccion": "Software that handles HTTP requests and responds to them."},
-        "hashing_algorithm": {
-            "categoria": ("Criptografía",),
-            "definicion": "Algoritmo usado para calcular un valor hash a partir de datos.",
-            "traduccion": "Algorithm used to compute a hash value from data."},
-        "huffman_code": {
-            "categoria": ("Compresión",),
-            "definicion": "Algoritmo de compresión que asigna códigos más cortos a los caracteres más frecuentes.",
-            "traduccion": "Compression algorithm that assigns shorter codes to more frequent characters."},
-        "http_request_method": {
-            "categoria": ("Redes",),
-            "definicion": "Métodos HTTP usados para interactuar con un servidor.",
-            "traduccion": "HTTP methods used to interact with a server."},
-        "hash_table_collision": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Situación donde dos claves hash diferentes tienen el mismo índice en la tabla.",
-            "traduccion": "Situation where two different hash keys have the same index in the table."},
-        "hosted_application": {
-            "categoria": ("Servicios en la nube",),
-            "definicion": "Aplicación que se aloja en un servidor remoto y se accede vía Internet.",
-            "traduccion": "Application hosted on a remote server and accessed over the internet."},
-        "http_redirect_status": {
-            "categoria": ("Redes",),
-            "definicion": "Código HTTP que indica que la página ha sido movida a otra URL.",
-            "traduccion": "HTTP code indicating that the page has been moved to another URL."},
-        "hypervisor_type": {
-            "categoria": ("Virtualización",),
-            "definicion": "Tipo de software de virtualización, como tipo 1 o tipo 2.",
-            "traduccion": "Type of virtualization software, such as type 1 or type 2."},
-        "head_pointer": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Puntero que apunta al primer elemento en una estructura de datos.",
-            "traduccion": "Pointer that points to the first element in a data structure."},
-        "hash_function_collision": {
-            "categoria": ("Criptografía",),
-            "definicion": "Problema en que dos entradas diferentes generan el mismo valor hash.",
-            "traduccion": "Problem where two different inputs generate the same hash value."},
-        "http_response_code": {
-            "categoria": ("Redes",),
-            "definicion": "Código de respuesta enviado por el servidor en respuesta a una solicitud HTTP.",
-            "traduccion": "Response code sent by the server in reply to an HTTP request."},
-        "hardware_abstraction_layer": {
-            "categoria": ("Sistemas operativos",),
-            "definicion": "Capa de software que oculta detalles del hardware al sistema operativo.",
-            "traduccion": "Software layer that hides hardware details from the operating system."},
-        "hash_set_operation": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Operación que realiza una acción sobre un conjunto basado en hash.",
-            "traduccion": "Operation that performs an action on a hash-based set."},
-        "hostname_resolution": {
-            "categoria": ("Redes",),
-            "definicion": "Proceso de convertir un nombre de dominio en una dirección IP.",
-            "traduccion": "Process of converting a domain name into an IP address."},
-        "http_session_management": {
-            "categoria": ("Redes",),
-            "definicion": "Manejo de la información de sesión entre cliente y servidor.",
-            "traduccion": "Managing session information between client and server."},
-        "heap_memory": {
-            "categoria": ("Sistemas operativos",),
-            "definicion": "Memoria dinámica usada por las aplicaciones durante la ejecución.",
-            "traduccion": "Dynamic memory used by applications during execution."},
-        "hashing_attack": {
-            "categoria": ("Seguridad",),
-            "definicion": "Técnica que intenta encontrar colisiones de valores hash para vulnerar la seguridad.",
-            "traduccion": "Technique that attempts to find hash collisions to break security."},
-        "http_proxy": {
-            "categoria": ("Redes",),
-            "definicion": "Servidor que actúa como intermediario entre el cliente y el servidor real.",
-            "traduccion": "Server that acts as an intermediary between the client and the real server."},
-        "heartbeat_signal": {
-            "categoria": ("Redes",),
-            "definicion": "Señal periódica enviada para indicar que un sistema está activo y funcionando.",
-            "traduccion": "Periodic signal sent to indicate that a system is active and running."},
-        "http_verbs": {
-            "categoria": ("Redes",),
-            "definicion": "Acciones que define una solicitud HTTP, como GET, POST, PUT.",
-            "traduccion": "Actions defined by an HTTP request, such as GET, POST, PUT."},
-        "http_cookie": {
-            "categoria": ("Redes",),
-            "definicion": "Pequeño archivo que un servidor envía al navegador para almacenar información de usuario.",
-            "traduccion": "Small file sent by a server to the browser to store user information."},
-        "hash_algorithm": {
-            "categoria": ("Criptografía",),
-            "definicion": "Algoritmo usado para mapear datos de longitud variable a una longitud fija.",
-            "traduccion": "Algorithm used to map variable-length data to a fixed length."},
-        "hubs": {
-            "categoria": ("Redes",),
-            "definicion": "Dispositivo de red que conecta varios dispositivos en una red de área local.",
-            "traduccion": "Network device that connects multiple devices in a local area network."},
-        "http_timeout": {
-            "categoria": ("Redes",),
-            "definicion": "Tiempo de espera antes de que una solicitud HTTP sea considerada fallida.",
-            "traduccion": "Time limit before an HTTP request is considered to have failed."},
-        "hyperthreading": {
-            "categoria": ("Hardware",),
-            "definicion": "Tecnología que permite a un procesador ejecutar múltiples hilos simultáneamente.",
-            "traduccion": "Technology that allows a processor to run multiple threads simultaneously."},
-        "http_request_header": {
-            "categoria": ("Redes",),
-            "definicion": "Parte de una solicitud HTTP que contiene información adicional sobre la solicitud.",
-            "traduccion": "Part of an HTTP request that contains additional information about the request."},
-        "hashable_object": {
-            "categoria": ("Python",),
-            "definicion": "Objeto que puede ser usado como clave en un diccionario debido a su valor hash.",
-            "traduccion": "Object that can be used as a key in a dictionary due to its hash value."},
-        "http_error": {
-            "categoria": ("Redes",),
-            "definicion": "Error que ocurre durante la comunicación HTTP entre cliente y servidor.",
-            "traduccion": "Error that occurs during HTTP communication between client and server."},
-        "hard_drive": {
-            "categoria": ("Hardware",),
-            "definicion": "Dispositivo de almacenamiento de datos en formato magnético.",
-            "traduccion": "Data storage device in magnetic format."},
-        "hashmap_lookup": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Operación de búsqueda en una tabla hash.",
-            "traduccion": "Lookup operation in a hash table."},
-        "http_redirect_url": {
-            "categoria": ("Redes",),
-            "definicion": "URL a la que se redirige una solicitud HTTP.",
-            "traduccion": "URL to which an HTTP request is redirected."},
-        "http_response_status": {
-            "categoria": ("Redes",),
-            "definicion": "Código que indica el estado de una respuesta HTTP.",
-            "traduccion": "Code that indicates the status of an HTTP response."},
-        "hash_map_insert": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Operación para insertar una clave y un valor en una tabla hash.",
-            "traduccion": "Operation to insert a key and value into a hash table."},
-        "http_compression": {
-            "categoria": ("Redes",),
-            "definicion": "Técnica para reducir el tamaño de los datos transmitidos a través de HTTP.",
-            "traduccion": "Technique to reduce the size of data transmitted over HTTP."},
-        "http_method": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Método de solicitud en el protocolo HTTP, como GET, POST, PUT.",
-            "traduccion": "Request method in the HTTP protocol, such as GET, POST, PUT."},
-        "http_status_code": {
-            "categoria": ("Redes",),
-            "definicion": "Código que indica el resultado de una solicitud HTTP.",
-            "traduccion": "Code indicating the result of an HTTP request."},
+            "traduccion": "Request method in the HTTP protocol, such as GET, POST, PUT."
+        },
         "hash_function": {
-            "categoria": ("Criptografía",),
+            "categoria": ('Criptografía',),
             "definicion": "Función que mapea datos de entrada a un valor de longitud fija.",
-            "traduccion": "Function that maps input data to a fixed-length value."},
+            "traduccion": "Function that maps input data to a fixed-length value."
+        },
+        "hibernate": {
+            "categoria": ('Base de datos',),
+            "definicion": "Framework para mapeo objeto-relacional en Java.",
+            "traduccion": "Object-relational mapping framework in Java."
+        },
+        "heuristic": {
+            "categoria": ('Algoritmos',),
+            "definicion": "Método de resolución de problemas basado en la experiencia y la aproximación.",
+            "traduccion": "Problem-solving method based on experience and approximation."
+        },
+        "http_code": {
+            "categoria": ('Redes',),
+            "definicion": "Código de estado devuelto por el servidor en una solicitud HTTP.",
+            "traduccion": "Status code returned by the server in an HTTP request."
+        },
+        "host_ip": {
+            "categoria": ('Redes',),
+            "definicion": "Dirección IP asignada a un dispositivo en una red.",
+            "traduccion": "IP address assigned to a device in a network."
+        },
+        "hashing_algorithm": {
+            "categoria": ('Criptografía',),
+            "definicion": "Algoritmo usado para calcular un valor hash a partir de datos.",
+            "traduccion": "Algorithm used to compute a hash value from data."
+        },
+        "header_field": {
+            "categoria": ('Redes',),
+            "definicion": "Campo en un encabezado de protocolo que contiene información adicional.",
+            "traduccion": "Field in a protocol header that contains additional information."
+        },
+        "hosted_service": {
+            "categoria": ('Servicios en la nube',),
+            "definicion": "Servicio que se aloja en la nube y se accede a través de Internet.",
+            "traduccion": "Service hosted in the cloud and accessed via the internet."
+        },
+        "hybrid_cloud": {
+            "categoria": ('Servicios en la nube',),
+            "definicion": "Modelo de computación en la nube que combina recursos privados y públicos.",
+            "traduccion": "Cloud computing model that combines private and public resources."
+        },
+        "hexadecimal": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Sistema numérico en base 16.",
+            "traduccion": "Numerical system in base 16."
+        },
+        "hash_set": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Conjunto que almacena elementos de forma no ordenada utilizando un hash.",
+            "traduccion": "Set that stores elements in an unordered fashion using a hash."
+        },
+        "high_order_function": {
+            "categoria": ('Funciones',),
+            "definicion": "Función que toma una o más funciones como argumentos o devuelve una función.",
+            "traduccion": "Function that takes one or more functions as arguments or returns a function."
+        },
+        "hmac": {
+            "categoria": ('Criptografía',),
+            "definicion": "Código de autenticación de mensaje basado en hash.",
+            "traduccion": "Hash-based message authentication code."
+        },
+        "hashable": {
+            "categoria": ('Python',),
+            "definicion": "Propiedad de un objeto que permite su uso como clave en un diccionario.",
+            "traduccion": "Property of an object that allows it to be used as a key in a dictionary."
+        },
+        "http_session": {
+            "categoria": ('Redes',),
+            "definicion": "Sesión que mantiene el estado entre las solicitudes HTTP de un cliente.",
+            "traduccion": "Session that maintains state between HTTP requests from a client."
+        },
+        "hypertext": {
+            "categoria": ('Internet',),
+            "definicion": "Texto que contiene enlaces a otros textos o recursos.",
+            "traduccion": "Text that contains links to other texts or resources."
+        },
+        "http_2": {
+            "categoria": ('Redes',),
+            "definicion": "Protocolo de red que mejora el rendimiento de HTTP.",
+            "traduccion": "Network protocol that improves HTTP performance."
+        },
+        "hls": {
+            "categoria": ('Redes',),
+            "definicion": "Sistema de transmisión de video en tiempo real sobre HTTP.",
+            "traduccion": "Real-time video streaming system over HTTP."
+        },
+        "hashmap": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Implementación de un mapa clave-valor utilizando una función hash.",
+            "traduccion": "Implementation of a key-value map using a hash function."
+        },
+        "home_directory": {
+            "categoria": ('Sistemas operativos',),
+            "definicion": "Directorio principal del usuario en un sistema.",
+            "traduccion": "Main user directory in a system."
+        },
+        "http_redirect": {
+            "categoria": ('Redes',),
+            "definicion": "Redirección de una solicitud HTTP a una nueva URL.",
+            "traduccion": "Redirecting an HTTP request to a new URL."
+        },
+        "html": {
+            "categoria": ('Internet',),
+            "definicion": "Lenguaje de marcado utilizado para crear páginas web.",
+            "traduccion": "Markup language used to create web pages."
+        },
+        "header_file": {
+            "categoria": ('Programación',),
+            "definicion": "Archivo que contiene declaraciones de funciones y macros.",
+            "traduccion": "File that contains function declarations and macros."
+        },
+        "hdfs": {
+            "categoria": ('Big Data',),
+            "definicion": "Sistema de archivos distribuido utilizado por Hadoop.",
+            "traduccion": "Distributed file system used by Hadoop."
+        },
+        "hard_link": {
+            "categoria": ('Sistemas operativos',),
+            "definicion": "Enlace a un archivo que apunta directamente a los datos almacenados en disco.",
+            "traduccion": "Link to a file that points directly to the data stored on disk."
+        },
+        "hashing": {
+            "categoria": ('Criptografía',),
+            "definicion": "Proceso de aplicar una función hash a los datos.",
+            "traduccion": "Process of applying a hash function to data."
+        },
+        "http_404": {
+            "categoria": ('Redes',),
+            "definicion": "Código de estado HTTP que indica que la página no se encuentra.",
+            "traduccion": "HTTP status code indicating that the page is not found."
+        },
+        "hypervisor": {
+            "categoria": ('Virtualización',),
+            "definicion": "Software que permite ejecutar máquinas virtuales en un sistema físico.",
+            "traduccion": "Software that allows running virtual machines on a physical system."
+        },
+        "http_header": {
+            "categoria": ('Redes',),
+            "definicion": "Información adicional contenida en una solicitud o respuesta HTTP.",
+            "traduccion": "Additional information contained in an HTTP request or response."
+        },
+        "http_client": {
+            "categoria": ('Redes',),
+            "definicion": "Software que realiza solicitudes HTTP a servidores web.",
+            "traduccion": "Software that makes HTTP requests to web servers."
+        },
+        "hping": {
+            "categoria": ('Redes',),
+            "definicion": "Herramienta de red para pruebas de seguridad y auditoría.",
+            "traduccion": "Network tool for security testing and auditing."
+        },
+        "hash_collision": {
+            "categoria": ('Criptografía',),
+            "definicion": "Situación donde dos entradas diferentes tienen el mismo valor hash.",
+            "traduccion": "Situation where two different inputs have the same hash value."
+        },
+        "head": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Elemento que aparece primero en una lista enlazada.",
+            "traduccion": "First element in a linked list."
+        },
+        "heap_sort": {
+            "categoria": ('Algoritmos',),
+            "definicion": "Algoritmo de ordenamiento basado en la estructura de heap.",
+            "traduccion": "Sorting algorithm based on the heap data structure."
+        },
+        "http_server": {
+            "categoria": ('Redes',),
+            "definicion": "Software que maneja solicitudes HTTP y las responde.",
+            "traduccion": "Software that handles HTTP requests and responds to them."
+        },
+        "huffman_code": {
+            "categoria": ('Compresión',),
+            "definicion": "Algoritmo de compresión que asigna códigos más cortos a los caracteres más frecuentes.",
+            "traduccion": "Compression algorithm that assigns shorter codes to more frequent characters."
+        },
+        "http_request_method": {
+            "categoria": ('Redes',),
+            "definicion": "Métodos HTTP usados para interactuar con un servidor.",
+            "traduccion": "HTTP methods used to interact with a server."
+        },
+        "hash_table_collision": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Situación donde dos claves hash diferentes tienen el mismo índice en la tabla.",
+            "traduccion": "Situation where two different hash keys have the same index in the table."
+        },
+        "hosted_application": {
+            "categoria": ('Servicios en la nube',),
+            "definicion": "Aplicación que se aloja en un servidor remoto y se accede vía Internet.",
+            "traduccion": "Application hosted on a remote server and accessed over the internet."
+        },
+        "http_redirect_status": {
+            "categoria": ('Redes',),
+            "definicion": "Código HTTP que indica que la página ha sido movida a otra URL.",
+            "traduccion": "HTTP code indicating that the page has been moved to another URL."
+        },
+        "hypervisor_type": {
+            "categoria": ('Virtualización',),
+            "definicion": "Tipo de software de virtualización, como tipo 1 o tipo 2.",
+            "traduccion": "Type of virtualization software, such as type 1 or type 2."
+        },
+        "head_pointer": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Puntero que apunta al primer elemento en una estructura de datos.",
+            "traduccion": "Pointer that points to the first element in a data structure."
+        },
+        "hash_function_collision": {
+            "categoria": ('Criptografía',),
+            "definicion": "Problema en que dos entradas diferentes generan el mismo valor hash.",
+            "traduccion": "Problem where two different inputs generate the same hash value."
+        },
+        "http_response_code": {
+            "categoria": ('Redes',),
+            "definicion": "Código de respuesta enviado por el servidor en respuesta a una solicitud HTTP.",
+            "traduccion": "Response code sent by the server in reply to an HTTP request."
+        },
+        "hardware_abstraction_layer": {
+            "categoria": ('Sistemas operativos',),
+            "definicion": "Capa de software que oculta detalles del hardware al sistema operativo.",
+            "traduccion": "Software layer that hides hardware details from the operating system."
+        },
+        "hash_set_operation": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Operación que realiza una acción sobre un conjunto basado en hash.",
+            "traduccion": "Operation that performs an action on a hash-based set."
+        },
+        "hostname_resolution": {
+            "categoria": ('Redes',),
+            "definicion": "Proceso de convertir un nombre de dominio en una dirección IP.",
+            "traduccion": "Process of converting a domain name into an IP address."
+        },
+        "http_session_management": {
+            "categoria": ('Redes',),
+            "definicion": "Manejo de la información de sesión entre cliente y servidor.",
+            "traduccion": "Managing session information between client and server."
+        },
+        "heap_memory": {
+            "categoria": ('Sistemas operativos',),
+            "definicion": "Memoria dinámica usada por las aplicaciones durante la ejecución.",
+            "traduccion": "Dynamic memory used by applications during execution."
+        },
+        "hashing_attack": {
+            "categoria": ('Seguridad',),
+            "definicion": "Técnica que intenta encontrar colisiones de valores hash para vulnerar la seguridad.",
+            "traduccion": "Technique that attempts to find hash collisions to break security."
+        },
+        "http_proxy": {
+            "categoria": ('Redes',),
+            "definicion": "Servidor que actúa como intermediario entre el cliente y el servidor real.",
+            "traduccion": "Server that acts as an intermediary between the client and the real server."
+        },
+        "heartbeat_signal": {
+            "categoria": ('Redes',),
+            "definicion": "Señal periódica enviada para indicar que un sistema está activo y funcionando.",
+            "traduccion": "Periodic signal sent to indicate that a system is active and running."
+        },
+        "http_verbs": {
+            "categoria": ('Redes',),
+            "definicion": "Acciones que define una solicitud HTTP, como GET, POST, PUT.",
+            "traduccion": "Actions defined by an HTTP request, such as GET, POST, PUT."
+        },
+        "http_cookie": {
+            "categoria": ('Redes',),
+            "definicion": "Pequeño archivo que un servidor envía al navegador para almacenar información de usuario.",
+            "traduccion": "Small file sent by a server to the browser to store user information."
+        },
+        "hash_algorithm": {
+            "categoria": ('Criptografía',),
+            "definicion": "Algoritmo usado para mapear datos de longitud variable a una longitud fija.",
+            "traduccion": "Algorithm used to map variable-length data to a fixed length."
+        },
+        "hubs": {
+            "categoria": ('Redes',),
+            "definicion": "Dispositivo de red que conecta varios dispositivos en una red de área local.",
+            "traduccion": "Network device that connects multiple devices in a local area network."
+        },
+        "http_timeout": {
+            "categoria": ('Redes',),
+            "definicion": "Tiempo de espera antes de que una solicitud HTTP sea considerada fallida.",
+            "traduccion": "Time limit before an HTTP request is considered to have failed."
+        },
+        "hyperthreading": {
+            "categoria": ('Hardware',),
+            "definicion": "Tecnología que permite a un procesador ejecutar múltiples hilos simultáneamente.",
+            "traduccion": "Technology that allows a processor to run multiple threads simultaneously."
+        },
+        "http_request_header": {
+            "categoria": ('Redes',),
+            "definicion": "Parte de una solicitud HTTP que contiene información adicional sobre la solicitud.",
+            "traduccion": "Part of an HTTP request that contains additional information about the request."
+        },
+        "hashable_object": {
+            "categoria": ('Python',),
+            "definicion": "Objeto que puede ser usado como clave en un diccionario debido a su valor hash.",
+            "traduccion": "Object that can be used as a key in a dictionary due to its hash value."
+        },
+        "http_error": {
+            "categoria": ('Redes',),
+            "definicion": "Error que ocurre durante la comunicación HTTP entre cliente y servidor.",
+            "traduccion": "Error that occurs during HTTP communication between client and server."
+        },
+        "hard_drive": {
+            "categoria": ('Hardware',),
+            "definicion": "Dispositivo de almacenamiento de datos en formato magnético.",
+            "traduccion": "Data storage device in magnetic format."
+        },
+        "hashmap_lookup": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Operación de búsqueda en una tabla hash.",
+            "traduccion": "Lookup operation in a hash table."
+        },
+        "http_redirect_url": {
+            "categoria": ('Redes',),
+            "definicion": "URL a la que se redirige una solicitud HTTP.",
+            "traduccion": "URL to which an HTTP request is redirected."
+        },
+        "http_response_status": {
+            "categoria": ('Redes',),
+            "definicion": "Código que indica el estado de una respuesta HTTP.",
+            "traduccion": "Code that indicates the status of an HTTP response."
+        },
+        "hash_map_insert": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Operación para insertar una clave y un valor en una tabla hash.",
+            "traduccion": "Operation to insert a key and value into a hash table."
+        },
+        "http_compression": {
+            "categoria": ('Redes',),
+            "definicion": "Técnica para reducir el tamaño de los datos transmitidos a través de HTTP.",
+            "traduccion": "Technique to reduce the size of data transmitted over HTTP."
+        },
+        "http_status_code": {
+            "categoria": ('Redes',),
+            "definicion": "Código que indica el resultado de una solicitud HTTP.",
+            "traduccion": "Code indicating the result of an HTTP request."
+        },
         "http_resource": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Recurso al que se accede mediante HTTP, como una página web o archivo.",
-            "traduccion": "Resource accessed via HTTP, such as a webpage or file."},
+            "traduccion": "Resource accessed via HTTP, such as a webpage or file."
+        },
         "http_get": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Método HTTP usado para solicitar datos de un servidor.",
-            "traduccion": "HTTP method used to request data from a server."},
+            "traduccion": "HTTP method used to request data from a server."
+        },
         "hardware_interface": {
-            "categoria": ("Hardware",),
+            "categoria": ('Hardware',),
             "definicion": "Conjunto de señales que permiten la comunicación entre un dispositivo y el hardware del sistema.",
-            "traduccion": "Set of signals that enable communication between a device and the system hardware."},
+            "traduccion": "Set of signals that enable communication between a device and the system hardware."
+        },
         "http_head": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Método HTTP utilizado para obtener solo los encabezados de una respuesta.",
-            "traduccion": "HTTP method used to fetch only the headers of a response."}},
+            "traduccion": "HTTP method used to fetch only the headers of a response."
+        }
+    },
     "i": {
         "immutable": {
-            "categoria": ("Python",),
+            "categoria": ('Python',),
             "definicion": "Objeto cuya información no puede ser modificada después de ser creado.",
-            "traduccion": "Object whose information cannot be modified after creation."},
+            "traduccion": "Object whose information cannot be modified after creation."
+        },
         "index": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Posición de un elemento en una lista o arreglo.",
-            "traduccion": "Position of an element in a list or array."},
+            "traduccion": "Position of an element in a list or array."
+        },
         "input": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Datos proporcionados por el usuario o un sistema.",
-            "traduccion": "Data provided by the user or a system."},
+            "traduccion": "Data provided by the user or a system."
+        },
         "instance": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación orientada a objetos',),
             "definicion": "Un objeto creado a partir de una clase.",
-            "traduccion": "An object created from a class."},
+            "traduccion": "An object created from a class."
+        },
         "inheritance": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación orientada a objetos',),
             "definicion": "Mecanismo que permite a una clase derivada heredar atributos y métodos de una clase base.",
-            "traduccion": "Mechanism that allows a derived class to inherit attributes and methods from a base class."},
+            "traduccion": "Mechanism that allows a derived class to inherit attributes and methods from a base class."
+        },
         "interface": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Conjunto de métodos que una clase debe implementar.",
-            "traduccion": "Set of methods that a class must implement."},
+            "traduccion": "Set of methods that a class must implement."
+        },
         "instance_method": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación orientada a objetos',),
             "definicion": "Método que opera sobre una instancia de una clase.",
-            "traduccion": "Method that operates on an instance of a class."},
+            "traduccion": "Method that operates on an instance of a class."
+        },
         "immutable_set": {
-            "categoria": ("Python",),
+            "categoria": ('Python',),
             "definicion": "Conjunto cuyo contenido no puede ser alterado una vez creado.",
-            "traduccion": "Set whose content cannot be altered once created."},
+            "traduccion": "Set whose content cannot be altered once created."
+        },
         "increment": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Aumento en el valor de una variable en una unidad o cantidad específica.",
-            "traduccion": "Increase in the value of a variable by one unit or specific amount."},
+            "traduccion": "Increase in the value of a variable by one unit or specific amount."
+        },
         "input_validation": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "Proceso de verificar que los datos ingresados sean correctos y seguros.",
-            "traduccion": "Process of verifying that input data is correct and secure."},
+            "traduccion": "Process of verifying that input data is correct and secure."
+        },
         "indexing": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Técnica para acceder a un elemento en una lista mediante su índice.",
-            "traduccion": "Technique for accessing an element in a list using its index."},
+            "traduccion": "Technique for accessing an element in a list using its index."
+        },
         "insertion_sort": {
-            "categoria": ("Algoritmos",),
+            "categoria": ('Algoritmos',),
             "definicion": "Algoritmo de ordenamiento que construye la lista ordenada uno a uno.",
-            "traduccion": "Sorting algorithm that builds the sorted list one item at a time."},
+            "traduccion": "Sorting algorithm that builds the sorted list one item at a time."
+        },
         "integer": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Número sin parte decimal.",
-            "traduccion": "Number without a decimal part."},
+            "traduccion": "Number without a decimal part."
+        },
         "iterable": {
-            "categoria": ("Python",),
+            "categoria": ('Python',),
             "definicion": "Objeto que puede ser iterado en un ciclo.",
-            "traduccion": "Object that can be iterated over in a loop."},
+            "traduccion": "Object that can be iterated over in a loop."
+        },
         "identifier": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Nombre que se usa para identificar variables, funciones y clases en el código.",
-            "traduccion": "Name used to identify variables, functions, and classes in code."},
+            "traduccion": "Name used to identify variables, functions, and classes in code."
+        },
         "iteration": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Proceso de ejecutar un conjunto de instrucciones repetidamente.",
-            "traduccion": "Process of executing a set of instructions repeatedly."},
+            "traduccion": "Process of executing a set of instructions repeatedly."
+        },
         "IP_address": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Dirección única asignada a cada dispositivo en una red.",
-            "traduccion": "Unique address assigned to each device in a network."},
+            "traduccion": "Unique address assigned to each device in a network."
+        },
         "if_statement": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Condicional que ejecuta un bloque de código solo si se cumple una condición.",
-            "traduccion": "Conditional that executes a block of code only if a condition is true."},
+            "traduccion": "Conditional that executes a block of code only if a condition is true."
+        },
         "interface_class": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación',),
             "definicion": "Clase que define un conjunto de métodos sin implementación.",
-            "traduccion": "Class that defines a set of methods without implementation."},
+            "traduccion": "Class that defines a set of methods without implementation."
+        },
         "input_device": {
-            "categoria": ("Hardware",),
-            "definicion": "Dispositivo que permite a un usuario enviar datos a una computadora.",
-            "traduccion": "Device that allows a user to send data to a computer."},
-        "introspection": {
-            "categoria": ("Python",),
-            "definicion": "Proceso de examinar los atributos de un objeto en tiempo de ejecución.",
-            "traduccion": "Process of examining an object's attributes at runtime."},
-        "instance_variable": {
-            "categoria": ("Programación orientada a objetos",),
-            "definicion": "Variable asociada a una instancia de una clase.",
-            "traduccion": "Variable associated with an instance of a class."},
-        "index_out_of_bounds": {
-            "categoria": ("Programación",),
-            "definicion": "Error que ocurre cuando se intenta acceder a un índice que no existe en una lista.",
-            "traduccion": "Error that occurs when trying to access an index that does not exist in a list."},
-        "input_output": {
-            "categoria": ("Sistemas operativos",),
-            "definicion": "Proceso de recibir datos de entrada y devolver resultados de salida.",
-            "traduccion": "Process of receiving input data and returning output results."},
-        "inplace": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Operación que se realiza directamente sobre los datos sin usar espacio adicional.",
-            "traduccion": "Operation performed directly on the data without using additional space."},
-        "inherit": {
-            "categoria": ("Programación orientada a objetos",),
-            "definicion": "Acción de obtener propiedades y métodos de una clase base.",
-            "traduccion": "Action of inheriting properties and methods from a base class."},
-        "index_of": {
-            "categoria": ("Programación",),
-            "definicion": "Método que devuelve la posición de un elemento en una lista o arreglo.",
-            "traduccion": "Method that returns the position of an element in a list or array."},
-        "instruction_set": {
-            "categoria": ("Computación",),
-            "definicion": "Conjunto de instrucciones que una CPU puede ejecutar.",
-            "traduccion": "Set of instructions that a CPU can execute."},
-        "iterable_object": {
-            "categoria": ("Python",),
-            "definicion": "Objeto que puede ser recorrido utilizando un ciclo.",
-            "traduccion": "Object that can be iterated over using a loop."},
-        "image_processing": {
-            "categoria": ("Computación",),
-            "definicion": "Procesamiento de imágenes para mejorarlas o extraer información.",
-            "traduccion": "Processing of images to improve them or extract information."},
-        "indirect_addressing": {
-            "categoria": ("Redes",),
-            "definicion": "Técnica que usa una dirección intermedia para acceder a los datos.",
-            "traduccion": "Technique that uses an intermediate address to access data."},
-        "instruction_pointer": {
-            "categoria": ("Computación",),
-            "definicion": "Registro que almacena la dirección de la próxima instrucción a ejecutar.",
-            "traduccion": "Register that stores the address of the next instruction to be executed."},
-        "integrated_circuit": {
-            "categoria": ("Hardware",),
-            "definicion": "Circuito electrónico que contiene varios componentes en un solo chip.",
-            "traduccion": "Electronic circuit that contains multiple components on a single chip."},
-        "integer_overflow": {
-            "categoria": ("Seguridad",),
-            "definicion": "Error que ocurre cuando un número excede el límite de almacenamiento de una variable.",
-            "traduccion": "Error that occurs when a number exceeds the storage limit of a variable."},
-        "identifier_name": {
-            "categoria": ("Programación",),
-            "definicion": "Nombre que se asigna a un identificador, como una variable o función.",
-            "traduccion": "Name assigned to an identifier, such as a variable or function."},
-        "input_buffer": {
-            "categoria": ("Computación",),
-            "definicion": "Área de almacenamiento temporal de datos de entrada.",
-            "traduccion": "Temporary storage area for input data."},
-        "interactive_mode": {
-            "categoria": ("Programación",),
-            "definicion": "Modo en el que el usuario interactúa directamente con el sistema para ejecutar comandos.",
-            "traduccion": "Mode in which the user interacts directly with the system to execute commands."},
-        "inverse": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Operación que devuelve el recíproco de un número o función.",
-            "traduccion": "Operation that returns the reciprocal of a number or function."},
-        "inbox": {
-            "categoria": ("Redes",),
-            "definicion": "Carpeta de entrada de un sistema de correo electrónico.",
-            "traduccion": "Inbox folder of an email system."},
-        "invisible": {
-            "categoria": ("Programación",),
-            "definicion": "Propiedad de un objeto que no es visible en la interfaz del usuario.",
-            "traduccion": "Property of an object that is not visible in the user interface."},
-        "incremental_search": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Método de búsqueda que encuentra el objetivo al aumentar gradualmente la posición.",
-            "traduccion": "Search method that finds the target by gradually increasing the position."},
-        "instanceof": {
-            "categoria": ("Programación",),
-            "definicion": "Operador utilizado para verificar si un objeto es una instancia de una clase específica.",
-            "traduccion": "Operator used to check if an object is an instance of a specific class."},
-        "image": {
-            "categoria": ("Computación",),
-            "definicion": "Representación visual que se guarda en un formato digital.",
-            "traduccion": "Visual representation stored in a digital format."},
-        "idle": {
-            "categoria": ("Sistemas operativos",),
-            "definicion": "Estado de un sistema o proceso cuando está inactivo y esperando una tarea.",
-            "traduccion": "State of a system or process when it is inactive and waiting for a task."},
-        "input_stream": {
-            "categoria": ("Programación",),
-            "definicion": "Flujo de datos que entra a un programa o proceso.",
-            "traduccion": "Flow of data entering a program or process."},
-        "identity": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Relación entre dos elementos que siempre se cumplen en determinadas condiciones.",
-            "traduccion": "Relationship between two elements that always holds under certain conditions."},
-        "inbox": {
-            "categoria": ("Redes",),
-            "definicion": "Área donde se reciben mensajes o datos.",
-            "traduccion": "Area where messages or data are received."},
-        "inner_class": {
-            "categoria": ("Programación",),
-            "definicion": "Clase definida dentro de otra clase.",
-            "traduccion": "Class defined within another class."},
-        "initialization": {
-            "categoria": ("Programación",),
-            "definicion": "Proceso de asignar un valor inicial a una variable o estructura.",
-            "traduccion": "Process of assigning an initial value to a variable or structure."},
-        "index_error": {
-            "categoria": ("Programación",),
-            "definicion": "Error que ocurre cuando se intenta acceder a un índice fuera de los límites de una lista.",
-            "traduccion": "Error that occurs when trying to access an index out of bounds in a list."},
-        "inference": {
-            "categoria": ("Inteligencia artificial",),
-            "definicion": "Proceso de deducir información a partir de hechos conocidos.",
-            "traduccion": "Process of deducing information from known facts."},
-        "indexing_error": {
-            "categoria": ("Programación",),
-            "definicion": "Error que ocurre al usar un índice incorrecto en una estructura de datos.",
-            "traduccion": "Error that occurs when using an incorrect index in a data structure."},
-        "infinite_loop": {
-            "categoria": ("Programación",),
-            "definicion": "Bucle que se ejecuta indefinidamente sin una condición de terminación.",
-            "traduccion": "Loop that runs indefinitely without a termination condition."},
-        "instance_checking": {
-            "categoria": ("Programación",),
-            "definicion": "Verificación de si un objeto pertenece a una clase específica.",
-            "traduccion": "Checking if an object belongs to a specific class."},
-        "information_system": {
-            "categoria": ("Tecnología",),
-            "definicion": "Sistema que recopila, procesa, almacena y distribuye información.",
-            "traduccion": "System that collects, processes, stores, and distributes information."},
-        "interpreter": {
-            "categoria": ("Programación",),
-            "definicion": "Programa que ejecuta instrucciones de un lenguaje de programación de alto nivel.",
-            "traduccion": "Program that executes instructions from a high-level programming language."},
-        "insertion": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Operación que coloca un nuevo elemento en una estructura de datos.",
-            "traduccion": "Operation that places a new element in a data structure."},
-        "isolation": {
-            "categoria": ("Sistemas operativos",),
-            "definicion": "Proceso de mantener un entorno independiente y seguro en un sistema.",
-            "traduccion": "Process of keeping an environment isolated and secure within a system."},
-        "instance_variable": {
-            "categoria": ("Programación",),
-            "definicion": "Variable que pertenece a una instancia específica de una clase.",
-            "traduccion": "Variable that belongs to a specific instance of a class."},
-        "interrupt": {
-            "categoria": ("Sistemas operativos",),
-            "definicion": "Señal que interrumpe el flujo normal de un programa para atender un evento externo.",
-            "traduccion": "Signal that interrupts the normal flow of a program to address an external event."},
-        "input_validation": {
-            "categoria": ("Seguridad",),
-            "definicion": "Proceso de verificar que los datos ingresados sean correctos y seguros.",
-            "traduccion": "Process of verifying that input data is correct and secure."},
-        "instance_method": {
-            "categoria": ("Programación orientada a objetos",),
-            "definicion": "Método que opera sobre una instancia de una clase.",
-            "traduccion": "Method that operates on an instance of a class."},
-        "idempotent": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Operación que no cambia el resultado cuando se aplica varias veces.",
-            "traduccion": "Operation that does not change the result when applied multiple times."},
-        "identity_function": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Función que devuelve su entrada sin alteraciones.",
-            "traduccion": "Function that returns its input without alterations."},
-        "input_output": {
-            "categoria": ("Sistemas operativos",),
-            "definicion": "Interacción entre un sistema y el mundo exterior a través de dispositivos de entrada y salida.",
-            "traduccion": "Interaction between a system and the outside world through input and output devices."},
-        "interface_class": {
-            "categoria": ("Programación",),
-            "definicion": "Clase que define un conjunto de métodos sin implementación.",
-            "traduccion": "Class that defines a set of methods without implementation."},
-        "incremental": {
-            "categoria": ("Programación",),
-            "definicion": "Proceso que se realiza de manera gradual o en pequeñas cantidades.",
-            "traduccion": "Process carried out gradually or in small amounts."},
-        "incompatible": {
-            "categoria": ("Computación",),
-            "definicion": "Descripción de dos elementos que no pueden funcionar juntos.",
-            "traduccion": "Description of two elements that cannot work together."},
-        "inline": {
-            "categoria": ("Programación",),
-            "definicion": "Código que se inserta directamente dentro de otro, en lugar de ser llamado desde una función externa.",
-            "traduccion": "Code that is inserted directly into another, instead of being called from an external function."},
-        "incremental_search": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Método que realiza búsquedas de manera progresiva.",
-            "traduccion": "Method that performs searches progressively."},
-        "instance_variable": {
-            "categoria": ("Programación",),
-            "definicion": "Variable que pertenece a una instancia específica de una clase.",
-            "traduccion": "Variable that belongs to a specific instance of a class."},
-        "input_error": {
-            "categoria": ("Programación",),
-            "definicion": "Error que ocurre cuando los datos de entrada no cumplen con los requisitos esperados.",
-            "traduccion": "Error that occurs when the input data does not meet the expected requirements."},
-        "input_device": {
-            "categoria": ("Hardware",),
+            "categoria": ('Hardware',),
             "definicion": "Dispositivo que permite al usuario enviar información a una computadora.",
-            "traduccion": "Device that allows the user to send information to a computer."},
-        "isolation_level": {
-            "categoria": ("Bases de datos",),
-            "definicion": "Nivel de control de acceso a datos en un sistema de base de datos.",
-            "traduccion": "Level of control over access to data in a database system."},
+            "traduccion": "Device that allows the user to send information to a computer."
+        },
         "introspection": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Proceso de inspección dinámica de las características de un objeto en tiempo de ejecución.",
-            "traduccion": "Process of dynamically inspecting the features of an object at runtime."},
-        "indirect_addressing": {
-            "categoria": ("Redes",),
-            "definicion": "Técnica que utiliza una dirección intermedia para llegar al destino final.",
-            "traduccion": "Technique that uses an intermediate address to reach the final destination."},
-        "i/o_buffer": {
-            "categoria": ("Hardware",),
-            "definicion": "Área de memoria utilizada para almacenar datos durante la transferencia entre dispositivos.",
-            "traduccion": "Memory area used to store data during the transfer between devices."},
+            "traduccion": "Process of dynamically inspecting the features of an object at runtime."
+        },
         "instance_variable": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Variable asociada a una instancia específica de una clase.",
-            "traduccion": "Variable associated with a specific instance of a class."}},
-
+            "traduccion": "Variable associated with a specific instance of a class."
+        },
+        "index_out_of_bounds": {
+            "categoria": ('Programación',),
+            "definicion": "Error que ocurre cuando se intenta acceder a un índice que no existe en una lista.",
+            "traduccion": "Error that occurs when trying to access an index that does not exist in a list."
+        },
+        "input_output": {
+            "categoria": ('Sistemas operativos',),
+            "definicion": "Interacción entre un sistema y el mundo exterior a través de dispositivos de entrada y salida.",
+            "traduccion": "Interaction between a system and the outside world through input and output devices."
+        },
+        "inplace": {
+            "categoria": ('Algoritmos',),
+            "definicion": "Operación que se realiza directamente sobre los datos sin usar espacio adicional.",
+            "traduccion": "Operation performed directly on the data without using additional space."
+        },
+        "inherit": {
+            "categoria": ('Programación orientada a objetos',),
+            "definicion": "Acción de obtener propiedades y métodos de una clase base.",
+            "traduccion": "Action of inheriting properties and methods from a base class."
+        },
+        "index_of": {
+            "categoria": ('Programación',),
+            "definicion": "Método que devuelve la posición de un elemento en una lista o arreglo.",
+            "traduccion": "Method that returns the position of an element in a list or array."
+        },
+        "instruction_set": {
+            "categoria": ('Computación',),
+            "definicion": "Conjunto de instrucciones que una CPU puede ejecutar.",
+            "traduccion": "Set of instructions that a CPU can execute."
+        },
+        "iterable_object": {
+            "categoria": ('Python',),
+            "definicion": "Objeto que puede ser recorrido utilizando un ciclo.",
+            "traduccion": "Object that can be iterated over using a loop."
+        },
+        "image_processing": {
+            "categoria": ('Computación',),
+            "definicion": "Procesamiento de imágenes para mejorarlas o extraer información.",
+            "traduccion": "Processing of images to improve them or extract information."
+        },
+        "indirect_addressing": {
+            "categoria": ('Redes',),
+            "definicion": "Técnica que utiliza una dirección intermedia para llegar al destino final.",
+            "traduccion": "Technique that uses an intermediate address to reach the final destination."
+        },
+        "instruction_pointer": {
+            "categoria": ('Computación',),
+            "definicion": "Registro que almacena la dirección de la próxima instrucción a ejecutar.",
+            "traduccion": "Register that stores the address of the next instruction to be executed."
+        },
+        "integrated_circuit": {
+            "categoria": ('Hardware',),
+            "definicion": "Circuito electrónico que contiene varios componentes en un solo chip.",
+            "traduccion": "Electronic circuit that contains multiple components on a single chip."
+        },
+        "integer_overflow": {
+            "categoria": ('Seguridad',),
+            "definicion": "Error que ocurre cuando un número excede el límite de almacenamiento de una variable.",
+            "traduccion": "Error that occurs when a number exceeds the storage limit of a variable."
+        },
+        "identifier_name": {
+            "categoria": ('Programación',),
+            "definicion": "Nombre que se asigna a un identificador, como una variable o función.",
+            "traduccion": "Name assigned to an identifier, such as a variable or function."
+        },
+        "input_buffer": {
+            "categoria": ('Computación',),
+            "definicion": "Área de almacenamiento temporal de datos de entrada.",
+            "traduccion": "Temporary storage area for input data."
+        },
+        "interactive_mode": {
+            "categoria": ('Programación',),
+            "definicion": "Modo en el que el usuario interactúa directamente con el sistema para ejecutar comandos.",
+            "traduccion": "Mode in which the user interacts directly with the system to execute commands."
+        },
+        "inverse": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Operación que devuelve el recíproco de un número o función.",
+            "traduccion": "Operation that returns the reciprocal of a number or function."
+        },
+        "inbox": {
+            "categoria": ('Redes',),
+            "definicion": "Área donde se reciben mensajes o datos.",
+            "traduccion": "Area where messages or data are received."
+        },
+        "invisible": {
+            "categoria": ('Programación',),
+            "definicion": "Propiedad de un objeto que no es visible en la interfaz del usuario.",
+            "traduccion": "Property of an object that is not visible in the user interface."
+        },
+        "incremental_search": {
+            "categoria": ('Algoritmos',),
+            "definicion": "Método que realiza búsquedas de manera progresiva.",
+            "traduccion": "Method that performs searches progressively."
+        },
+        "instanceof": {
+            "categoria": ('Programación',),
+            "definicion": "Operador utilizado para verificar si un objeto es una instancia de una clase específica.",
+            "traduccion": "Operator used to check if an object is an instance of a specific class."
+        },
+        "image": {
+            "categoria": ('Computación',),
+            "definicion": "Representación visual que se guarda en un formato digital.",
+            "traduccion": "Visual representation stored in a digital format."
+        },
+        "idle": {
+            "categoria": ('Sistemas operativos',),
+            "definicion": "Estado de un sistema o proceso cuando está inactivo y esperando una tarea.",
+            "traduccion": "State of a system or process when it is inactive and waiting for a task."
+        },
+        "input_stream": {
+            "categoria": ('Programación',),
+            "definicion": "Flujo de datos que entra a un programa o proceso.",
+            "traduccion": "Flow of data entering a program or process."
+        },
+        "identity": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Relación entre dos elementos que siempre se cumplen en determinadas condiciones.",
+            "traduccion": "Relationship between two elements that always holds under certain conditions."
+        },
+        "inner_class": {
+            "categoria": ('Programación',),
+            "definicion": "Clase definida dentro de otra clase.",
+            "traduccion": "Class defined within another class."
+        },
+        "initialization": {
+            "categoria": ('Programación',),
+            "definicion": "Proceso de asignar un valor inicial a una variable o estructura.",
+            "traduccion": "Process of assigning an initial value to a variable or structure."
+        },
+        "index_error": {
+            "categoria": ('Programación',),
+            "definicion": "Error que ocurre cuando se intenta acceder a un índice fuera de los límites de una lista.",
+            "traduccion": "Error that occurs when trying to access an index out of bounds in a list."
+        },
+        "inference": {
+            "categoria": ('Inteligencia artificial',),
+            "definicion": "Proceso de deducir información a partir de hechos conocidos.",
+            "traduccion": "Process of deducing information from known facts."
+        },
+        "indexing_error": {
+            "categoria": ('Programación',),
+            "definicion": "Error que ocurre al usar un índice incorrecto en una estructura de datos.",
+            "traduccion": "Error that occurs when using an incorrect index in a data structure."
+        },
+        "infinite_loop": {
+            "categoria": ('Programación',),
+            "definicion": "Bucle que se ejecuta indefinidamente sin una condición de terminación.",
+            "traduccion": "Loop that runs indefinitely without a termination condition."
+        },
+        "instance_checking": {
+            "categoria": ('Programación',),
+            "definicion": "Verificación de si un objeto pertenece a una clase específica.",
+            "traduccion": "Checking if an object belongs to a specific class."
+        },
+        "information_system": {
+            "categoria": ('Tecnología',),
+            "definicion": "Sistema que recopila, procesa, almacena y distribuye información.",
+            "traduccion": "System that collects, processes, stores, and distributes information."
+        },
+        "interpreter": {
+            "categoria": ('Programación',),
+            "definicion": "Programa que ejecuta instrucciones de un lenguaje de programación de alto nivel.",
+            "traduccion": "Program that executes instructions from a high-level programming language."
+        },
+        "insertion": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Operación que coloca un nuevo elemento en una estructura de datos.",
+            "traduccion": "Operation that places a new element in a data structure."
+        },
+        "isolation": {
+            "categoria": ('Sistemas operativos',),
+            "definicion": "Proceso de mantener un entorno independiente y seguro en un sistema.",
+            "traduccion": "Process of keeping an environment isolated and secure within a system."
+        },
+        "interrupt": {
+            "categoria": ('Sistemas operativos',),
+            "definicion": "Señal que interrumpe el flujo normal de un programa para atender un evento externo.",
+            "traduccion": "Signal that interrupts the normal flow of a program to address an external event."
+        },
+        "idempotent": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Operación que no cambia el resultado cuando se aplica varias veces.",
+            "traduccion": "Operation that does not change the result when applied multiple times."
+        },
+        "identity_function": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Función que devuelve su entrada sin alteraciones.",
+            "traduccion": "Function that returns its input without alterations."
+        },
+        "incremental": {
+            "categoria": ('Programación',),
+            "definicion": "Proceso que se realiza de manera gradual o en pequeñas cantidades.",
+            "traduccion": "Process carried out gradually or in small amounts."
+        },
+        "incompatible": {
+            "categoria": ('Computación',),
+            "definicion": "Descripción de dos elementos que no pueden funcionar juntos.",
+            "traduccion": "Description of two elements that cannot work together."
+        },
+        "inline": {
+            "categoria": ('Programación',),
+            "definicion": "Código que se inserta directamente dentro de otro, en lugar de ser llamado desde una función externa.",
+            "traduccion": "Code that is inserted directly into another, instead of being called from an external function."
+        },
+        "input_error": {
+            "categoria": ('Programación',),
+            "definicion": "Error que ocurre cuando los datos de entrada no cumplen con los requisitos esperados.",
+            "traduccion": "Error that occurs when the input data does not meet the expected requirements."
+        },
+        "isolation_level": {
+            "categoria": ('Bases de datos',),
+            "definicion": "Nivel de control de acceso a datos en un sistema de base de datos.",
+            "traduccion": "Level of control over access to data in a database system."
+        },
+        "i/o_buffer": {
+            "categoria": ('Hardware',),
+            "definicion": "Área de memoria utilizada para almacenar datos durante la transferencia entre dispositivos.",
+            "traduccion": "Memory area used to store data during the transfer between devices."
+        }
+    },
     "j": {
         "join": {
-            "categoria": ("Manipulación de texto",),
+            "categoria": ('Manipulación de texto',),
             "definicion": "Método que une los elementos de un iterable en una cadena de texto.",
-            "traduccion": "Method that joins the elements of an iterable into a string."},
+            "traduccion": "Method that joins the elements of an iterable into a string."
+        },
         "json": {
-            "categoria": ("Librerías estándar",),
+            "categoria": ('Librerías estándar',),
             "definicion": "Librería para trabajar con el formato de intercambio de datos JSON.",
-            "traduccion": "Library for working with the JSON data exchange format."},
+            "traduccion": "Library for working with the JSON data exchange format."
+        },
         "jupyter_notebook": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Aplicación web que permite crear y compartir documentos interactivos con código y visualizaciones.",
-            "traduccion": "Web application that allows creating and sharing interactive documents with code and visualizations."},
+            "traduccion": "Web application that allows creating and sharing interactive documents with code and visualizations."
+        },
         "jump_table": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Estructura de datos que permite saltar rápidamente a diferentes puntos en el código.",
-            "traduccion": "Data structure that allows jumping quickly to different points in the code."},
+            "traduccion": "Data structure that allows jumping quickly to different points in the code."
+        },
         "jvm": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Máquina virtual de Java que permite la ejecución de programas escritos en Java.",
-            "traduccion": "Java Virtual Machine that allows executing programs written in Java."},
+            "traduccion": "Java Virtual Machine that allows executing programs written in Java."
+        },
         "jshell": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Shell interactivo para ejecutar código Java de manera dinámica.",
-            "traduccion": "Interactive shell to run Java code dynamically."},
-            "jump": {
-            "categoria": ("Programación",),
+            "traduccion": "Interactive shell to run Java code dynamically."
+        },
+        "jump": {
+            "categoria": ('Programación',),
             "definicion": "Instrucción para saltar a una parte específica del código.",
-            "traduccion": "Instruction to jump to a specific part of the code."},
+            "traduccion": "Instruction to jump to a specific part of the code."
+        },
         "jupyter": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Plataforma para crear y compartir documentos interactivos que contienen código y visualizaciones.",
-            "traduccion": "Platform to create and share interactive documents containing code and visualizations."},
+            "traduccion": "Platform to create and share interactive documents containing code and visualizations."
+        },
         "jupyter_lab": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Entorno interactivo de desarrollo de código con soporte para la visualización de datos y edición de documentos.",
-            "traduccion": "Interactive coding development environment with support for data visualization and document editing."},
+            "traduccion": "Interactive coding development environment with support for data visualization and document editing."
+        },
         "jupyter_widgets": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Biblioteca que proporciona widgets interactivos en Jupyter Notebooks.",
-            "traduccion": "Library providing interactive widgets in Jupyter Notebooks."},
+            "traduccion": "Library providing interactive widgets in Jupyter Notebooks."
+        },
         "jsonschema": {
-            "categoria": ("Librerías",),
+            "categoria": ('Librerías',),
             "definicion": "Librería que permite validar estructuras JSON mediante un esquema predefinido.",
-            "traduccion": "Library that allows validating JSON structures using a predefined schema."},
+            "traduccion": "Library that allows validating JSON structures using a predefined schema."
+        },
         "jwt": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "JSON Web Token, formato compacto y autónomo para transmitir información segura entre partes.",
-            "traduccion": "JSON Web Token, a compact and self-contained format for securely transmitting information between parties."},
+            "traduccion": "JSON Web Token, a compact and self-contained format for securely transmitting information between parties."
+        },
         "jupyterhub": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Plataforma para desplegar y gestionar Jupyter Notebooks en un servidor compartido.",
-            "traduccion": "Platform to deploy and manage Jupyter Notebooks on a shared server."},
+            "traduccion": "Platform to deploy and manage Jupyter Notebooks on a shared server."
+        },
         "jython": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Implementación de Python en la máquina virtual de Java (JVM).",
-            "traduccion": "Python implementation on the Java Virtual Machine (JVM)."},
+            "traduccion": "Python implementation on the Java Virtual Machine (JVM)."
+        },
         "jalview": {
-            "categoria": ("Biología computacional",),
+            "categoria": ('Biología computacional',),
             "definicion": "Herramienta para visualización y análisis de secuencias de proteínas y ácidos nucleicos.",
-            "traduccion": "Tool for visualizing and analyzing protein and nucleic acid sequences."},
+            "traduccion": "Tool for visualizing and analyzing protein and nucleic acid sequences."
+        },
         "jupyter_console": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Consola interactiva basada en el núcleo de Jupyter para ejecutar código en Python.",
-            "traduccion": "Interactive console based on the Jupyter kernel to execute Python code."},
+            "traduccion": "Interactive console based on the Jupyter kernel to execute Python code."
+        },
         "jsonpickle": {
-            "categoria": ("Librerías",),
+            "categoria": ('Librerías',),
             "definicion": "Librería que permite serializar y deserializar objetos Python en formato JSON.",
-            "traduccion": "Library that allows serializing and deserializing Python objects in JSON format."},
+            "traduccion": "Library that allows serializing and deserializing Python objects in JSON format."
+        },
         "jose": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "Librería de Python para trabajar con JSON Web Tokens y firmar datos.",
-            "traduccion": "Python library for working with JSON Web Tokens and signing data."},
+            "traduccion": "Python library for working with JSON Web Tokens and signing data."
+        },
         "jupyter_client": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Biblioteca para gestionar la comunicación entre clientes y servidores Jupyter.",
-            "traduccion": "Library to manage communication between Jupyter clients and servers."},
+            "traduccion": "Library to manage communication between Jupyter clients and servers."
+        },
         "joblib": {
-            "categoria": ("Librerías",),
+            "categoria": ('Librerías',),
             "definicion": "Librería para la serialización eficiente de objetos Python.",
-            "traduccion": "Library for efficient serialization of Python objects."},
+            "traduccion": "Library for efficient serialization of Python objects."
+        },
         "jupyter_notebook_extension": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Extensión para personalizar y mejorar el entorno de Jupyter Notebook.",
-            "traduccion": "Extension to customize and enhance the Jupyter Notebook environment."},
+            "traduccion": "Extension to customize and enhance the Jupyter Notebook environment."
+        },
         "json_response": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Formato de respuesta JSON utilizado en servicios web.",
-            "traduccion": "JSON response format used in web services."},
+            "traduccion": "JSON response format used in web services."
+        },
         "jupyter_contrib_nbextensions": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Conjunto de extensiones para enriquecer la funcionalidad de Jupyter Notebooks.",
-            "traduccion": "Set of extensions to enrich the functionality of Jupyter Notebooks."},
+            "traduccion": "Set of extensions to enrich the functionality of Jupyter Notebooks."
+        },
         "jupyter_novice": {
-            "categoria": ("Educación",),
+            "categoria": ('Educación',),
             "definicion": "Recursos educativos para principiantes en programación utilizando Jupyter Notebooks.",
-            "traduccion": "Educational resources for beginners in programming using Jupyter Notebooks."},
+            "traduccion": "Educational resources for beginners in programming using Jupyter Notebooks."
+        },
         "jenkins": {
-            "categoria": ("Automatización",),
+            "categoria": ('Automatización',),
             "definicion": "Herramienta de automatización de tareas y construcción continua de software.",
-            "traduccion": "Automation tool for continuous integration and software building."},
+            "traduccion": "Automation tool for continuous integration and software building."
+        },
         "jupyter_terminal": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Terminal interactiva basada en Jupyter para ejecutar comandos y scripts Python.",
-            "traduccion": "Interactive terminal based on Jupyter to execute Python commands and scripts."},
+            "traduccion": "Interactive terminal based on Jupyter to execute Python commands and scripts."
+        },
         "jupyter_lab_extension": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Extensiones para agregar funcionalidades adicionales al entorno JupyterLab.",
-            "traduccion": "Extensions to add additional features to the JupyterLab environment."},
+            "traduccion": "Extensions to add additional features to the JupyterLab environment."
+        },
         "jupyter_kernel": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Componente que ejecuta el código en un Jupyter Notebook.",
-            "traduccion": "Component that executes the code in a Jupyter Notebook."},
+            "traduccion": "Component that executes the code in a Jupyter Notebook."
+        },
         "jump_start": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Término usado para referirse a comenzar rápidamente un proyecto o tarea.",
-            "traduccion": "Term used to refer to quickly starting a project or task."},
+            "traduccion": "Term used to refer to quickly starting a project or task."
+        },
         "jupyter_tutorial": {
-            "categoria": ("Educación",),
+            "categoria": ('Educación',),
             "definicion": "Tutoriales para aprender a usar Jupyter Notebooks.",
-            "traduccion": "Tutorials to learn how to use Jupyter Notebooks."},
+            "traduccion": "Tutorials to learn how to use Jupyter Notebooks."
+        },
         "jupyter_quickstart": {
-            "categoria": ("Educación",),
+            "categoria": ('Educación',),
             "definicion": "Guía rápida para empezar con Jupyter Notebooks.",
-            "traduccion": "Quick guide to get started with Jupyter Notebooks."},
+            "traduccion": "Quick guide to get started with Jupyter Notebooks."
+        },
         "jupyter_magic": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Funciones especiales en Jupyter para facilitar la ejecución de código.",
-            "traduccion": "Special functions in Jupyter to facilitate code execution."},
+            "traduccion": "Special functions in Jupyter to facilitate code execution."
+        },
         "jinja2": {
-            "categoria": ("Librerías",),
+            "categoria": ('Librerías',),
             "definicion": "Motor de plantillas para Python que permite generar archivos dinámicos.",
-            "traduccion": "Template engine for Python that allows generating dynamic files."},
+            "traduccion": "Template engine for Python that allows generating dynamic files."
+        },
         "jax": {
-            "categoria": ("Librerías",),
+            "categoria": ('Librerías',),
             "definicion": "Librería para la diferenciación automática y aceleración en hardware de Python.",
-            "traduccion": "Library for automatic differentiation and hardware acceleration in Python."},
+            "traduccion": "Library for automatic differentiation and hardware acceleration in Python."
+        },
         "jupyter_config": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Configuración para personalizar y administrar entornos Jupyter.",
-            "traduccion": "Configuration to customize and manage Jupyter environments."},
+            "traduccion": "Configuration to customize and manage Jupyter environments."
+        },
         "job_queue": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Cola de trabajo que gestiona tareas o trabajos a ser ejecutados.",
-            "traduccion": "Queue that manages tasks or jobs to be executed."},
+            "traduccion": "Queue that manages tasks or jobs to be executed."
+        },
         "jinja2_templates": {
-            "categoria": ("Librerías",),
+            "categoria": ('Librerías',),
             "definicion": "Uso de Jinja2 para crear plantillas dinámicas en Python.",
-            "traduccion": "Using Jinja2 to create dynamic templates in Python."},
+            "traduccion": "Using Jinja2 to create dynamic templates in Python."
+        },
         "jupyter_dashboard": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Tablero de control interactivo en Jupyter Notebooks para visualizar y administrar datos.",
-            "traduccion": "Interactive dashboard in Jupyter Notebooks to view and manage data."},
+            "traduccion": "Interactive dashboard in Jupyter Notebooks to view and manage data."
+        },
         "jq": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Herramienta de procesamiento de datos JSON.",
-            "traduccion": "Tool for processing JSON data."}},
-            
+            "traduccion": "Tool for processing JSON data."
+        }
+    },
     "k": {
         "kde": {
-            "categoria": ("Análisis de datos",),
+            "categoria": ('Análisis de datos',),
             "definicion": "Estimación de densidad de kernel, usada para suavizar distribuciones de datos.",
-            "traduccion": "Kernel density estimation, used to smooth data distributions."},
+            "traduccion": "Kernel density estimation, used to smooth data distributions."
+        },
         "kmeans": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Algoritmo de agrupamiento basado en particiones que minimiza la varianza dentro de los grupos.",
-            "traduccion": "Clustering algorithm based on partitions that minimizes variance within groups."},
+            "traduccion": "Clustering algorithm based on partitions that minimizes variance within groups."
+        },
         "knn": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Algoritmo de clasificación basado en la proximidad de los datos.",
-            "traduccion": "Classification algorithm based on proximity of the data."},
+            "traduccion": "Classification algorithm based on proximity of the data."
+        },
         "key": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Elemento que se usa en diccionarios y mapas para acceder a los valores asociados.",
-            "traduccion": "Element used in dictionaries and maps to access associated values."},
+            "traduccion": "Element used in dictionaries and maps to access associated values."
+        },
         "kivy": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Framework de Python para el desarrollo de aplicaciones multitáctiles.",
-            "traduccion": "Python framework for developing multitouch applications."},
+            "traduccion": "Python framework for developing multitouch applications."
+        },
         "kiwisolver": {
-            "categoria": ("Librerías",),
+            "categoria": ('Librerías',),
             "definicion": "Librería para resolver sistemas de ecuaciones lineales de manera eficiente.",
-            "traduccion": "Library for efficiently solving systems of linear equations."},
+            "traduccion": "Library for efficiently solving systems of linear equations."
+        },
         "keras": {
-            "categoria": ("Aprendizaje profundo",),
+            "categoria": ('Aprendizaje profundo',),
             "definicion": "API de alto nivel para la creación y entrenamiento de redes neuronales en Python.",
-            "traduccion": "High-level API for building and training neural networks in Python."},
+            "traduccion": "High-level API for building and training neural networks in Python."
+        },
         "kdb": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Base de datos en memoria utilizada para la gestión de datos históricos y de series temporales.",
-            "traduccion": "In-memory database used for managing historical and time-series data."},
+            "traduccion": "In-memory database used for managing historical and time-series data."
+        },
         "kivy_garden": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Colección de widgets y componentes adicionales para Kivy.",
-            "traduccion": "Collection of additional widgets and components for Kivy."},
+            "traduccion": "Collection of additional widgets and components for Kivy."
+        },
         "knapsack": {
-            "categoria": ("Algoritmos",),
+            "categoria": ('Algoritmos',),
             "definicion": "Problema de optimización que busca maximizar el valor de los objetos dentro de un contenedor con capacidad limitada.",
-            "traduccion": "Optimization problem that seeks to maximize the value of items within a container with limited capacity."},
+            "traduccion": "Optimization problem that seeks to maximize the value of items within a container with limited capacity."
+        },
         "kalman_filter": {
-            "categoria": ("Algoritmos",),
+            "categoria": ('Algoritmos',),
             "definicion": "Filtro matemático usado para estimar el estado de un sistema dinámico con incertidumbre.",
-            "traduccion": "Mathematical filter used to estimate the state of a dynamic system with uncertainty."},
+            "traduccion": "Mathematical filter used to estimate the state of a dynamic system with uncertainty."
+        },
         "kruskal": {
-            "categoria": ("Algoritmos",),
+            "categoria": ('Algoritmos',),
             "definicion": "Algoritmo utilizado para encontrar el árbol de expansión mínimo en un grafo no dirigido.",
-            "traduccion": "Algorithm used to find the minimum spanning tree in an undirected graph."},
+            "traduccion": "Algorithm used to find the minimum spanning tree in an undirected graph."
+        },
         "knime": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Plataforma para análisis de datos, minería de datos y aprendizaje automático.",
-            "traduccion": "Platform for data analysis, data mining, and machine learning."},
+            "traduccion": "Platform for data analysis, data mining, and machine learning."
+        },
         "kmer": {
-            "categoria": ("Biología computacional",),
+            "categoria": ('Biología computacional',),
             "definicion": "Secuencias de longitud k extraídas de una secuencia biológica.",
-            "traduccion": "K-length sequences extracted from a biological sequence."},
+            "traduccion": "K-length sequences extracted from a biological sequence."
+        },
         "kivy_uix": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Componente de Kivy que permite crear interfaces de usuario.",
-            "traduccion": "Kivy component that allows creating user interfaces."},
+            "traduccion": "Kivy component that allows creating user interfaces."
+        },
         "kalman_smooth": {
-            "categoria": ("Algoritmos",),
+            "categoria": ('Algoritmos',),
             "definicion": "Versión del filtro de Kalman utilizado para suavizar las estimaciones de estados en series temporales.",
-            "traduccion": "Version of the Kalman filter used to smooth state estimates in time series."},
+            "traduccion": "Version of the Kalman filter used to smooth state estimates in time series."
+        },
         "kurtosis": {
-            "categoria": ("Estadísticas",),
+            "categoria": ('Estadísticas',),
             "definicion": "Medida de la forma de la distribución de probabilidad de una variable aleatoria.",
-            "traduccion": "Measure of the shape of the probability distribution of a random variable."},
+            "traduccion": "Measure of the shape of the probability distribution of a random variable."
+        },
         "knn_classifier": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Clasificador basado en el algoritmo KNN (K-Nearest Neighbors).",
-            "traduccion": "Classifier based on the KNN algorithm (K-Nearest Neighbors)."},
-        "keylogger": {
-            "categoria": ("Seguridad",),
-            "definicion": "Software malicioso que graba las teclas pulsadas por un usuario.",
-            "traduccion": "Malicious software that records the keys pressed by a user."},
-        "kron": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Producto Kronecker, una operación matemática entre dos matrices.",
-            "traduccion": "Kronecker product, a mathematical operation between two matrices."},
-        "k-means++": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Versión optimizada del algoritmo K-means para seleccionar de forma inteligente los puntos iniciales de los clusters.",
-            "traduccion": "Optimized version of the K-means algorithm for intelligently selecting the initial cluster points."},
-        "kingfisher": {
-            "categoria": ("Web scraping",),
-            "definicion": "Librería para la recolección y análisis de datos desde fuentes web.",
-            "traduccion": "Library for collecting and analyzing data from web sources."},
-        "ksplit": {
-            "categoria": ("Programación",),
-            "definicion": "Método para dividir una cadena en partes basadas en un delimitador.",
-            "traduccion": "Method for splitting a string into parts based on a delimiter."},
-        "key_value_pair": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Estructura de datos que almacena pares de clave y valor.",
-            "traduccion": "Data structure that stores key-value pairs."},
-        "knn_regressor": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Regresor basado en el algoritmo KNN (K-Nearest Neighbors).",
-            "traduccion": "Regressor based on the KNN algorithm (K-Nearest Neighbors)."},
-        "kerberos": {
-            "categoria": ("Seguridad",),
-            "definicion": "Protocolo de autenticación basado en un sistema de claves compartidas.",
-            "traduccion": "Authentication protocol based on a shared key system."},
-        "keras_tuner": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Herramienta para la optimización automática de hiperparámetros en modelos de Keras.",
-            "traduccion": "Tool for automatic hyperparameter optimization in Keras models."},
-        "keystone": {
-            "categoria": ("Seguridad",),
-            "definicion": "Sistema de gestión de identidades y autenticación.",
-            "traduccion": "Identity and authentication management system."},
-        "kotlin": {
-            "categoria": ("Lenguajes de programación",),
-            "definicion": "Lenguaje de programación estáticamente tipado que corre en la JVM, interoperable con Java.",
-            "traduccion": "Statically typed programming language that runs on the JVM, interoperable with Java."},
-        "kivymd": {
-            "categoria": ("Herramientas",),
-            "definicion": "Extensión de Kivy que implementa Material Design para aplicaciones móviles.",
-            "traduccion": "Kivy extension that implements Material Design for mobile applications."},
-        "kmerscan": {
-            "categoria": ("Biología computacional",),
-            "definicion": "Herramienta para buscar k-mers en bases de datos genéticas.",
-            "traduccion": "Tool for searching k-mers in genetic databases."},
-        "knockoff": {
-            "categoria": ("Seguridad",),
-            "definicion": "Método de evasión de detección en el contexto de seguridad informática.",
-            "traduccion": "Evasion method in the context of cybersecurity."},
-        "keycloak": {
-            "categoria": ("Seguridad",),
-            "definicion": "Plataforma para la gestión de identidad y acceso.",
-            "traduccion": "Identity and access management platform."},
-        "kudl": {
-            "categoria": ("Librerías",),
-            "definicion": "Librería para el manejo de datos en Python en paralelo con uso de GPU.",
-            "traduccion": "Library for handling data in Python in parallel with GPU usage."},
-        "katib": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Sistema de optimización de hiperparámetros para Kubernetes.",
-            "traduccion": "Hyperparameter optimization system for Kubernetes."},
-        "kwarg": {
-            "categoria": ("Programación",),
-            "definicion": "Argumentos de palabra clave en funciones en Python.",
-            "traduccion": "Keyword arguments in functions in Python."},
-        "kwlist": {
-            "categoria": ("Programación",),
-            "definicion": "Lista de palabras clave reservadas en Python.",
-            "traduccion": "List of reserved keywords in Python."},
-        "kdb+": {
-            "categoria": ("Bases de datos",),
-            "definicion": "Base de datos de alto rendimiento para análisis de datos masivos.",
-            "traduccion": "High-performance database for large-scale data analysis."},
-        "kexi": {
-            "categoria": ("Herramientas",),
-            "definicion": "Aplicación de base de datos para el escritorio con una interfaz gráfica.",
-            "traduccion": "Desktop database application with a graphical interface."},
-        "kaffeine": {
-            "categoria": ("Herramientas",),
-            "definicion": "Reproductor multimedia ligero basado en Qt.",
-            "traduccion": "Lightweight media player based on Qt."},
-        "kerosene": {
-            "categoria": ("Herramientas",),
-            "definicion": "Framework para la automatización de pruebas en aplicaciones web.",
-            "traduccion": "Framework for automating tests in web applications."},
-        "kotlinx": {
-            "categoria": ("Lenguajes de programación",),
-            "definicion": "Conjunto de herramientas adicionales para Kotlin.",
-            "traduccion": "Additional toolkit for Kotlin."},
-        "k3s": {
-            "categoria": ("Herramientas",),
-            "definicion": "Versión ligera de Kubernetes para su uso en entornos de recursos limitados.",
-            "traduccion": "Lightweight version of Kubernetes for use in resource-constrained environments."},
-        "kerb": {
-            "categoria": ("Seguridad",),
-            "definicion": "Método de autenticación y gestión de credenciales en sistemas distribuidos.",
-            "traduccion": "Method for authentication and credential management in distributed systems."},
-        "k3d": {
-            "categoria": ("Herramientas",),
-            "definicion": "Herramienta para ejecutar clústeres de Kubernetes en Docker.",
-            "traduccion": "Tool for running Kubernetes clusters in Docker."},
-        "kali": {
-            "categoria": ("Seguridad",),
-            "definicion": "Distribución de Linux orientada a la seguridad informática y pruebas de penetración.",
-            "traduccion": "Linux distribution focused on cybersecurity and penetration testing."},
-        "kd-tree": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Árbol de búsqueda para datos multidimensionales.",
-            "traduccion": "Search tree for multidimensional data."},
-        "kmeans_clustering": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Algoritmo de agrupamiento no supervisado que divide los datos en K grupos.",
-            "traduccion": "Unsupervised clustering algorithm that divides data into K groups."},
-        "kmeans_init": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Inicialización de centros de grupos en el algoritmo K-means.",
-            "traduccion": "Initialization of cluster centers in the K-means algorithm."},
-        "kafka": {
-            "categoria": ("Herramientas",),
-            "definicion": "Plataforma de mensajería distribuida para el manejo de grandes volúmenes de datos.",
-            "traduccion": "Distributed messaging platform for handling large volumes of data."},
-        "kubectl": {
-            "categoria": ("Herramientas",),
-            "definicion": "Herramienta de línea de comandos para interactuar con Kubernetes.",
-            "traduccion": "Command-line tool for interacting with Kubernetes."},
-        "k8s": {
-            "categoria": ("Herramientas",),
-            "definicion": "Abreviación de Kubernetes, un sistema para la orquestación de contenedores.",
-            "traduccion": "Abbreviation for Kubernetes, a system for container orchestration."},
-        "k-nearest_neighbors": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Algoritmo de clasificación que clasifica en función de la proximidad a los vecinos más cercanos.",
-            "traduccion": "Classification algorithm that classifies based on proximity to nearest neighbors."},
-        "k-nn_regressor": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Versión del algoritmo K-NN utilizada para tareas de regresión.",
-            "traduccion": "Version of the K-NN algorithm used for regression tasks."},
-        "keras_layers": {
-            "categoria": ("Aprendizaje profundo",),
-            "definicion": "Componentes modulares que se pueden apilar para crear redes neuronales profundas.",
-            "traduccion": "Modular components that can be stacked to create deep neural networks."},
-        "kivy_app": {
-            "categoria": ("Herramientas",),
-            "definicion": "Aplicación construida con el framework Kivy.",
-            "traduccion": "Application built using the Kivy framework."},
-        "key_error": {
-            "categoria": ("Excepciones",),
-            "definicion": "Error que ocurre cuando se accede a una clave inexistente en un diccionario.",
-            "traduccion": "Error that occurs when accessing a non-existent key in a dictionary."},
-        "kde_plot": {
-            "categoria": ("Visualización",),
-            "definicion": "Gráfico que representa una estimación de la densidad de probabilidad de un conjunto de datos.",
-            "traduccion": "Plot representing a probability density estimation of a dataset."},
-        "kerberos_authentication": {
-            "categoria": ("Seguridad",),
-            "definicion": "Protocolo de autenticación basado en un sistema de tickets para la comunicación segura.",
-            "traduccion": "Authentication protocol based on a ticketing system for secure communication."},
-        "kivy_garden_widgets": {
-            "categoria": ("Herramientas",),
-            "definicion": "Conjunto de widgets adicionales para mejorar las interfaces de usuario en Kivy.",
-            "traduccion": "Set of additional widgets to enhance user interfaces in Kivy."},
-        "kafka_consumer": {
-            "categoria": ("Herramientas",),
-            "definicion": "Componente que consume mensajes de un tópico de Kafka.",
-            "traduccion": "Component that consumes messages from a Kafka topic."},
-        "kafka_producer": {
-            "categoria": ("Herramientas",),
-            "definicion": "Componente que produce y envía mensajes a un tópico de Kafka.",
-            "traduccion": "Component that produces and sends messages to a Kafka topic."},
-        "keras_optimizer": {
-            "categoria": ("Aprendizaje profundo",),
-            "definicion": "Algoritmo para minimizar la función de pérdida de un modelo de Keras.",
-            "traduccion": "Algorithm to minimize the loss function of a Keras model."},
-        "kubernetes_deployment": {
-            "categoria": ("Herramientas",),
-            "definicion": "Proceso de implementación de contenedores en un clúster de Kubernetes.",
-            "traduccion": "Process of deploying containers in a Kubernetes cluster."},
-        "kubernetes_cluster": {
-            "categoria": ("Herramientas",),
-            "definicion": "Conjunto de máquinas que ejecutan aplicaciones en contenedores a través de Kubernetes.",
-            "traduccion": "Set of machines running applications in containers through Kubernetes."},
-        "k8s_pod": {
-            "categoria": ("Herramientas",),
-            "definicion": "Unidad básica de ejecución en Kubernetes, que contiene uno o más contenedores.",
-            "traduccion": "Basic unit of execution in Kubernetes, which contains one or more containers."},
-        "kalman_filtering": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Método de filtrado utilizado para estimar el estado de un sistema dinámico con ruido.",
-            "traduccion": "Filtering method used to estimate the state of a dynamic system with noise."},
-        "kafka_streams": {
-            "categoria": ("Herramientas",),
-            "definicion": "API de procesamiento de flujo de datos en tiempo real sobre Kafka.",
-            "traduccion": "Real-time data stream processing API over Kafka."},
-        "kotlin_coroutines": {
-            "categoria": ("Lenguajes de programación",),
-            "definicion": "Características de Kotlin para realizar operaciones asíncronas de forma eficiente.",
-            "traduccion": "Kotlin features for performing asynchronous operations efficiently."},
-        "kivy_screen_manager": {
-            "categoria": ("Herramientas",),
-            "definicion": "Módulo de Kivy que maneja la transición entre pantallas en una aplicación.",
-            "traduccion": "Kivy module that handles screen transitions in an application."},
-        "kafka_connect": {
-            "categoria": ("Herramientas",),
-            "definicion": "Herramienta que permite integrar Kafka con otros sistemas de manera sencilla.",
-            "traduccion": "Tool that allows easy integration of Kafka with other systems."},
-        "kerberos_ticket": {
-            "categoria": ("Seguridad",),
-            "definicion": "Paquete de datos usado en el protocolo Kerberos para autenticar usuarios.",
-            "traduccion": "Data package used in the Kerberos protocol to authenticate users."},
-        "knapsack_problem": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Problema de optimización en el que se seleccionan objetos para maximizar el valor sin exceder el peso.",
-            "traduccion": "Optimization problem where objects are selected to maximize value without exceeding weight."},
-        "kivy_listview": {
-            "categoria": ("Herramientas",),
-            "definicion": "Widget de Kivy para mostrar listas de elementos de manera eficiente.",
-            "traduccion": "Kivy widget for displaying lists of items efficiently."},
-        "kubernetes_service": {
-            "categoria": ("Herramientas",),
-            "definicion": "Abstracción que define cómo acceder a las aplicaciones que se ejecutan dentro de un clúster de Kubernetes.",
-            "traduccion": "Abstraction that defines how to access applications running inside a Kubernetes cluster."},
-        "kfold": {
-            "categoria": ("Estadísticas",),
-            "definicion": "Método de validación cruzada que divide los datos en K subconjuntos.",
-            "traduccion": "Cross-validation method that splits data into K subsets."},
-        "kernel": {
-            "categoria": ("Informática",),
-            "definicion": "Parte central de un sistema operativo que gestiona el hardware y los recursos.",
-            "traduccion": "Central part of an operating system that manages hardware and resources."},
-        "knapsack_algorithm": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Algoritmo que resuelve el problema de la mochila para maximizar el valor total de los objetos seleccionados.",
-            "traduccion": "Algorithm that solves the knapsack problem to maximize the total value of selected items."},
-        "k8s_namespace": {
-            "categoria": ("Herramientas",),
-            "definicion": "Espacio de nombres en Kubernetes para organizar los recursos de un clúster.",
-            "traduccion": "Namespace in Kubernetes for organizing resources within a cluster."},
-        "keras_model": {
-            "categoria": ("Aprendizaje profundo",),
-            "definicion": "Modelo de red neuronal creado y entrenado usando Keras.",
-            "traduccion": "Neural network model created and trained using Keras."},
-        "knn_search": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Búsqueda de los K elementos más cercanos en un conjunto de datos.",
-            "traduccion": "Search for the K closest elements in a dataset."},
-        "kaggle_kernel": {
-            "categoria": ("Datos",),
-            "definicion": "Entorno de ejecución de código en Kaggle para análisis de datos.",
-            "traduccion": "Code execution environment in Kaggle for data analysis."},
-        "keylogger": {
-            "categoria": ("Seguridad",),
-            "definicion": "Programa malicioso que registra las teclas presionadas por el usuario.",
-            "traduccion": "Malicious program that logs the keys pressed by the user."},
-        "kotlin_script": {
-            "categoria": ("Lenguajes de programación",),
-            "definicion": "Script de código escrito en Kotlin.",
-            "traduccion": "Code script written in Kotlin."},
-        "keyboard_interrupt": {
-            "categoria": ("Excepciones",),
-            "definicion": "Interrupción de un programa por una señal del teclado.",
-            "traduccion": "Interruption of a program by a keyboard signal."},
-        "kriging_interpolation": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Método de interpolación espacial utilizado para predecir valores desconocidos basados en valores conocidos.",
-            "traduccion": "Spatial interpolation method used to predict unknown values based on known values."},
-        "keypair": {
-            "categoria": ("Seguridad",),
-            "definicion": "Par de claves públicas y privadas utilizadas en criptografía.",
-            "traduccion": "Pair of public and private keys used in cryptography."},
-        "kinesis": {
-            "categoria": ("Herramientas",),
-            "definicion": "Plataforma de transmisión de datos en tiempo real de AWS.",
-            "traduccion": "Real-time data streaming platform from AWS."},
-        "kdb_query": {
-            "categoria": ("Bases de datos",),
-            "definicion": "Consulta ejecutada en una base de datos Kdb+.",
-            "traduccion": "Query executed on a Kdb+ database."},
-        "kivy_gridlayout": {
-            "categoria": ("Herramientas",),
-            "definicion": "Widget de Kivy que organiza los elementos en una cuadrícula.",
-            "traduccion": "Kivy widget that arranges items in a grid."},
-        "kmeans_classifier": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Clasificador basado en el algoritmo de K-means.",
-            "traduccion": "Classifier based on the K-means algorithm."},
-        "key_error_exception": {
-            "categoria": ("Excepciones",),
-            "definicion": "Excepción lanzada cuando se intenta acceder a una clave inexistente en un diccionario.",
-            "traduccion": "Exception raised when attempting to access a non-existent key in a dictionary."},
-        "kafka_message": {
-            "categoria": ("Herramientas",),
-            "definicion": "Mensaje enviado dentro de Kafka.",
-            "traduccion": "Message sent within Kafka."},
-        "kde_estimation": {
-            "categoria": ("Estadísticas",),
-            "definicion": "Método de estimación de la densidad de probabilidad de un conjunto de datos.",
-            "traduccion": "Method for estimating the probability density of a dataset."},
-        "kotlin_function": {
-            "categoria": ("Lenguajes de programación",),
-            "definicion": "Definición de una función en el lenguaje de programación Kotlin.",
-            "traduccion": "Definition of a function in the Kotlin programming language."},
-        "k-means++": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Algoritmo de inicialización mejorado para K-means.",
-            "traduccion": "Improved initialization algorithm for K-means."},
-        "kubeflow": {
-            "categoria": ("Herramientas",),
-            "definicion": "Plataforma para gestionar flujos de trabajo de aprendizaje automático en Kubernetes.",
-            "traduccion": "Platform for managing machine learning workflows on Kubernetes."},
-        "knn_classifier": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Clasificador basado en el algoritmo de K-NN.",
-            "traduccion": "Classifier based on the K-NN algorithm."},
+            "traduccion": "Classifier based on the K-NN algorithm."
+        },
+        "keylogger": {
+            "categoria": ('Seguridad',),
+            "definicion": "Programa malicioso que registra las teclas presionadas por el usuario.",
+            "traduccion": "Malicious program that logs the keys pressed by the user."
+        },
+        "kron": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Producto Kronecker, una operación matemática entre dos matrices.",
+            "traduccion": "Kronecker product, a mathematical operation between two matrices."
+        },
+        "k-means++": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Algoritmo de inicialización mejorado para K-means.",
+            "traduccion": "Improved initialization algorithm for K-means."
+        },
+        "kingfisher": {
+            "categoria": ('Web scraping',),
+            "definicion": "Librería para la recolección y análisis de datos desde fuentes web.",
+            "traduccion": "Library for collecting and analyzing data from web sources."
+        },
+        "ksplit": {
+            "categoria": ('Programación',),
+            "definicion": "Método para dividir una cadena en partes basadas en un delimitador.",
+            "traduccion": "Method for splitting a string into parts based on a delimiter."
+        },
+        "key_value_pair": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Estructura de datos que almacena pares de clave y valor.",
+            "traduccion": "Data structure that stores key-value pairs."
+        },
+        "knn_regressor": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Regresor basado en el algoritmo KNN (K-Nearest Neighbors).",
+            "traduccion": "Regressor based on the KNN algorithm (K-Nearest Neighbors)."
+        },
+        "kerberos": {
+            "categoria": ('Seguridad',),
+            "definicion": "Protocolo de autenticación basado en un sistema de claves compartidas.",
+            "traduccion": "Authentication protocol based on a shared key system."
+        },
+        "keras_tuner": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Herramienta para la optimización automática de hiperparámetros en modelos de Keras.",
+            "traduccion": "Tool for automatic hyperparameter optimization in Keras models."
+        },
+        "keystone": {
+            "categoria": ('Seguridad',),
+            "definicion": "Sistema de gestión de identidades y autenticación.",
+            "traduccion": "Identity and authentication management system."
+        },
+        "kotlin": {
+            "categoria": ('Lenguajes de programación',),
+            "definicion": "Lenguaje de programación estáticamente tipado que corre en la JVM, interoperable con Java.",
+            "traduccion": "Statically typed programming language that runs on the JVM, interoperable with Java."
+        },
+        "kivymd": {
+            "categoria": ('Herramientas',),
+            "definicion": "Extensión de Kivy que implementa Material Design para aplicaciones móviles.",
+            "traduccion": "Kivy extension that implements Material Design for mobile applications."
+        },
+        "kmerscan": {
+            "categoria": ('Biología computacional',),
+            "definicion": "Herramienta para buscar k-mers en bases de datos genéticas.",
+            "traduccion": "Tool for searching k-mers in genetic databases."
+        },
+        "knockoff": {
+            "categoria": ('Seguridad',),
+            "definicion": "Método de evasión de detección en el contexto de seguridad informática.",
+            "traduccion": "Evasion method in the context of cybersecurity."
+        },
+        "keycloak": {
+            "categoria": ('Seguridad',),
+            "definicion": "Plataforma para la gestión de identidad y acceso.",
+            "traduccion": "Identity and access management platform."
+        },
+        "kudl": {
+            "categoria": ('Librerías',),
+            "definicion": "Librería para el manejo de datos en Python en paralelo con uso de GPU.",
+            "traduccion": "Library for handling data in Python in parallel with GPU usage."
+        },
+        "katib": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Sistema de optimización de hiperparámetros para Kubernetes.",
+            "traduccion": "Hyperparameter optimization system for Kubernetes."
+        },
+        "kwarg": {
+            "categoria": ('Programación',),
+            "definicion": "Argumentos de palabra clave en funciones en Python.",
+            "traduccion": "Keyword arguments in functions in Python."
+        },
+        "kwlist": {
+            "categoria": ('Programación',),
+            "definicion": "Lista de palabras clave reservadas en Python.",
+            "traduccion": "List of reserved keywords in Python."
+        },
+        "kdb+": {
+            "categoria": ('Bases de datos',),
+            "definicion": "Base de datos de alto rendimiento para análisis de datos masivos.",
+            "traduccion": "High-performance database for large-scale data analysis."
+        },
+        "kexi": {
+            "categoria": ('Herramientas',),
+            "definicion": "Aplicación de base de datos para el escritorio con una interfaz gráfica.",
+            "traduccion": "Desktop database application with a graphical interface."
+        },
+        "kaffeine": {
+            "categoria": ('Herramientas',),
+            "definicion": "Reproductor multimedia ligero basado en Qt.",
+            "traduccion": "Lightweight media player based on Qt."
+        },
+        "kerosene": {
+            "categoria": ('Herramientas',),
+            "definicion": "Framework para la automatización de pruebas en aplicaciones web.",
+            "traduccion": "Framework for automating tests in web applications."
+        },
+        "kotlinx": {
+            "categoria": ('Lenguajes de programación',),
+            "definicion": "Conjunto de herramientas adicionales para Kotlin.",
+            "traduccion": "Additional toolkit for Kotlin."
+        },
+        "k3s": {
+            "categoria": ('Herramientas',),
+            "definicion": "Versión ligera de Kubernetes para su uso en entornos de recursos limitados.",
+            "traduccion": "Lightweight version of Kubernetes for use in resource-constrained environments."
+        },
+        "kerb": {
+            "categoria": ('Seguridad',),
+            "definicion": "Método de autenticación y gestión de credenciales en sistemas distribuidos.",
+            "traduccion": "Method for authentication and credential management in distributed systems."
+        },
+        "k3d": {
+            "categoria": ('Herramientas',),
+            "definicion": "Herramienta para ejecutar clústeres de Kubernetes en Docker.",
+            "traduccion": "Tool for running Kubernetes clusters in Docker."
+        },
+        "kali": {
+            "categoria": ('Seguridad',),
+            "definicion": "Distribución de Linux orientada a la seguridad informática y pruebas de penetración.",
+            "traduccion": "Linux distribution focused on cybersecurity and penetration testing."
+        },
+        "kd-tree": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Árbol de búsqueda para datos multidimensionales.",
+            "traduccion": "Search tree for multidimensional data."
+        },
+        "kmeans_clustering": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Algoritmo de agrupamiento no supervisado que divide los datos en K grupos.",
+            "traduccion": "Unsupervised clustering algorithm that divides data into K groups."
+        },
+        "kmeans_init": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Inicialización de centros de grupos en el algoritmo K-means.",
+            "traduccion": "Initialization of cluster centers in the K-means algorithm."
+        },
+        "kafka": {
+            "categoria": ('Herramientas',),
+            "definicion": "Plataforma de mensajería distribuida para el manejo de grandes volúmenes de datos.",
+            "traduccion": "Distributed messaging platform for handling large volumes of data."
+        },
+        "kubectl": {
+            "categoria": ('Herramientas',),
+            "definicion": "Herramienta de línea de comandos para interactuar con Kubernetes.",
+            "traduccion": "Command-line tool for interacting with Kubernetes."
+        },
+        "k8s": {
+            "categoria": ('Herramientas',),
+            "definicion": "Abreviación de Kubernetes, un sistema para la orquestación de contenedores.",
+            "traduccion": "Abbreviation for Kubernetes, a system for container orchestration."
+        },
+        "k-nearest_neighbors": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Algoritmo de clasificación que clasifica en función de la proximidad a los vecinos más cercanos.",
+            "traduccion": "Classification algorithm that classifies based on proximity to nearest neighbors."
+        },
+        "k-nn_regressor": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Versión del algoritmo K-NN utilizada para tareas de regresión.",
+            "traduccion": "Version of the K-NN algorithm used for regression tasks."
+        },
+        "keras_layers": {
+            "categoria": ('Aprendizaje profundo',),
+            "definicion": "Componentes modulares que se pueden apilar para crear redes neuronales profundas.",
+            "traduccion": "Modular components that can be stacked to create deep neural networks."
+        },
+        "kivy_app": {
+            "categoria": ('Herramientas',),
+            "definicion": "Aplicación construida con el framework Kivy.",
+            "traduccion": "Application built using the Kivy framework."
+        },
+        "key_error": {
+            "categoria": ('Excepciones',),
+            "definicion": "Error que ocurre cuando se accede a una clave inexistente en un diccionario.",
+            "traduccion": "Error that occurs when accessing a non-existent key in a dictionary."
+        },
+        "kde_plot": {
+            "categoria": ('Visualización',),
+            "definicion": "Gráfico que representa una estimación de la densidad de probabilidad de un conjunto de datos.",
+            "traduccion": "Plot representing a probability density estimation of a dataset."
+        },
+        "kerberos_authentication": {
+            "categoria": ('Seguridad',),
+            "definicion": "Protocolo de autenticación basado en un sistema de tickets para la comunicación segura.",
+            "traduccion": "Authentication protocol based on a ticketing system for secure communication."
+        },
+        "kivy_garden_widgets": {
+            "categoria": ('Herramientas',),
+            "definicion": "Conjunto de widgets adicionales para mejorar las interfaces de usuario en Kivy.",
+            "traduccion": "Set of additional widgets to enhance user interfaces in Kivy."
+        },
+        "kafka_consumer": {
+            "categoria": ('Herramientas',),
+            "definicion": "Componente que consume mensajes de un tópico de Kafka.",
+            "traduccion": "Component that consumes messages from a Kafka topic."
+        },
+        "kafka_producer": {
+            "categoria": ('Herramientas',),
+            "definicion": "Componente que produce y envía mensajes a un tópico de Kafka.",
+            "traduccion": "Component that produces and sends messages to a Kafka topic."
+        },
+        "keras_optimizer": {
+            "categoria": ('Aprendizaje profundo',),
+            "definicion": "Algoritmo para minimizar la función de pérdida de un modelo de Keras.",
+            "traduccion": "Algorithm to minimize the loss function of a Keras model."
+        },
+        "kubernetes_deployment": {
+            "categoria": ('Herramientas',),
+            "definicion": "Proceso de implementación de contenedores en un clúster de Kubernetes.",
+            "traduccion": "Process of deploying containers in a Kubernetes cluster."
+        },
+        "kubernetes_cluster": {
+            "categoria": ('Herramientas',),
+            "definicion": "Conjunto de máquinas que ejecutan aplicaciones en contenedores a través de Kubernetes.",
+            "traduccion": "Set of machines running applications in containers through Kubernetes."
+        },
+        "k8s_pod": {
+            "categoria": ('Herramientas',),
+            "definicion": "Unidad básica de ejecución en Kubernetes, que contiene uno o más contenedores.",
+            "traduccion": "Basic unit of execution in Kubernetes, which contains one or more containers."
+        },
+        "kalman_filtering": {
+            "categoria": ('Algoritmos',),
+            "definicion": "Método de filtrado utilizado para estimar el estado de un sistema dinámico con ruido.",
+            "traduccion": "Filtering method used to estimate the state of a dynamic system with noise."
+        },
+        "kafka_streams": {
+            "categoria": ('Herramientas',),
+            "definicion": "API de procesamiento de flujo de datos en tiempo real sobre Kafka.",
+            "traduccion": "Real-time data stream processing API over Kafka."
+        },
+        "kotlin_coroutines": {
+            "categoria": ('Lenguajes de programación',),
+            "definicion": "Características de Kotlin para realizar operaciones asíncronas de forma eficiente.",
+            "traduccion": "Kotlin features for performing asynchronous operations efficiently."
+        },
+        "kivy_screen_manager": {
+            "categoria": ('Herramientas',),
+            "definicion": "Módulo de Kivy que maneja la transición entre pantallas en una aplicación.",
+            "traduccion": "Kivy module that handles screen transitions in an application."
+        },
+        "kafka_connect": {
+            "categoria": ('Herramientas',),
+            "definicion": "Herramienta que permite integrar Kafka con otros sistemas de manera sencilla.",
+            "traduccion": "Tool that allows easy integration of Kafka with other systems."
+        },
+        "kerberos_ticket": {
+            "categoria": ('Seguridad',),
+            "definicion": "Paquete de datos usado en el protocolo Kerberos para autenticar usuarios.",
+            "traduccion": "Data package used in the Kerberos protocol to authenticate users."
+        },
+        "knapsack_problem": {
+            "categoria": ('Algoritmos',),
+            "definicion": "Problema de optimización en el que se seleccionan objetos para maximizar el valor sin exceder el peso.",
+            "traduccion": "Optimization problem where objects are selected to maximize value without exceeding weight."
+        },
+        "kivy_listview": {
+            "categoria": ('Herramientas',),
+            "definicion": "Widget de Kivy para mostrar listas de elementos de manera eficiente.",
+            "traduccion": "Kivy widget for displaying lists of items efficiently."
+        },
+        "kubernetes_service": {
+            "categoria": ('Herramientas',),
+            "definicion": "Abstracción que define cómo acceder a las aplicaciones que se ejecutan dentro de un clúster de Kubernetes.",
+            "traduccion": "Abstraction that defines how to access applications running inside a Kubernetes cluster."
+        },
+        "kfold": {
+            "categoria": ('Estadísticas',),
+            "definicion": "Método de validación cruzada que divide los datos en K subconjuntos.",
+            "traduccion": "Cross-validation method that splits data into K subsets."
+        },
+        "kernel": {
+            "categoria": ('Informática',),
+            "definicion": "Parte central de un sistema operativo que gestiona el hardware y los recursos.",
+            "traduccion": "Central part of an operating system that manages hardware and resources."
+        },
+        "knapsack_algorithm": {
+            "categoria": ('Algoritmos',),
+            "definicion": "Algoritmo que resuelve el problema de la mochila para maximizar el valor total de los objetos seleccionados.",
+            "traduccion": "Algorithm that solves the knapsack problem to maximize the total value of selected items."
+        },
+        "k8s_namespace": {
+            "categoria": ('Herramientas',),
+            "definicion": "Espacio de nombres en Kubernetes para organizar los recursos de un clúster.",
+            "traduccion": "Namespace in Kubernetes for organizing resources within a cluster."
+        },
+        "keras_model": {
+            "categoria": ('Aprendizaje profundo',),
+            "definicion": "Modelo de red neuronal creado y entrenado usando Keras.",
+            "traduccion": "Neural network model created and trained using Keras."
+        },
+        "knn_search": {
+            "categoria": ('Algoritmos',),
+            "definicion": "Búsqueda de los K elementos más cercanos en un conjunto de datos.",
+            "traduccion": "Search for the K closest elements in a dataset."
+        },
+        "kaggle_kernel": {
+            "categoria": ('Datos',),
+            "definicion": "Entorno de ejecución de código en Kaggle para análisis de datos.",
+            "traduccion": "Code execution environment in Kaggle for data analysis."
+        },
+        "kotlin_script": {
+            "categoria": ('Lenguajes de programación',),
+            "definicion": "Script de código escrito en Kotlin.",
+            "traduccion": "Code script written in Kotlin."
+        },
+        "keyboard_interrupt": {
+            "categoria": ('Excepciones',),
+            "definicion": "Interrupción de un programa por una señal del teclado.",
+            "traduccion": "Interruption of a program by a keyboard signal."
+        },
+        "kriging_interpolation": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Método de interpolación espacial utilizado para predecir valores desconocidos basados en valores conocidos.",
+            "traduccion": "Spatial interpolation method used to predict unknown values based on known values."
+        },
+        "keypair": {
+            "categoria": ('Seguridad',),
+            "definicion": "Par de claves públicas y privadas utilizadas en criptografía.",
+            "traduccion": "Pair of public and private keys used in cryptography."
+        },
+        "kinesis": {
+            "categoria": ('Herramientas',),
+            "definicion": "Plataforma de transmisión de datos en tiempo real de AWS.",
+            "traduccion": "Real-time data streaming platform from AWS."
+        },
+        "kdb_query": {
+            "categoria": ('Bases de datos',),
+            "definicion": "Consulta ejecutada en una base de datos Kdb+.",
+            "traduccion": "Query executed on a Kdb+ database."
+        },
+        "kivy_gridlayout": {
+            "categoria": ('Herramientas',),
+            "definicion": "Widget de Kivy que organiza los elementos en una cuadrícula.",
+            "traduccion": "Kivy widget that arranges items in a grid."
+        },
+        "kmeans_classifier": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Clasificador basado en el algoritmo de K-means.",
+            "traduccion": "Classifier based on the K-means algorithm."
+        },
+        "key_error_exception": {
+            "categoria": ('Excepciones',),
+            "definicion": "Excepción lanzada cuando se intenta acceder a una clave inexistente en un diccionario.",
+            "traduccion": "Exception raised when attempting to access a non-existent key in a dictionary."
+        },
+        "kafka_message": {
+            "categoria": ('Herramientas',),
+            "definicion": "Mensaje enviado dentro de Kafka.",
+            "traduccion": "Message sent within Kafka."
+        },
+        "kde_estimation": {
+            "categoria": ('Estadísticas',),
+            "definicion": "Método de estimación de la densidad de probabilidad de un conjunto de datos.",
+            "traduccion": "Method for estimating the probability density of a dataset."
+        },
+        "kotlin_function": {
+            "categoria": ('Lenguajes de programación',),
+            "definicion": "Definición de una función en el lenguaje de programación Kotlin.",
+            "traduccion": "Definition of a function in the Kotlin programming language."
+        },
+        "kubeflow": {
+            "categoria": ('Herramientas',),
+            "definicion": "Plataforma para gestionar flujos de trabajo de aprendizaje automático en Kubernetes.",
+            "traduccion": "Platform for managing machine learning workflows on Kubernetes."
+        },
         "keras_layer_dense": {
-            "categoria": ("Aprendizaje profundo",),
+            "categoria": ('Aprendizaje profundo',),
             "definicion": "Capa densa de Keras utilizada en redes neuronales completamente conectadas.",
-            "traduccion": "Dense Keras layer used in fully connected neural networks."}},            
+            "traduccion": "Dense Keras layer used in fully connected neural networks."
+        }
+    },
     "l": {
         "lambda_expression": {
-            "categoria": ("Lenguajes de programación",),
+            "categoria": ('Lenguajes de programación',),
             "definicion": "Expresión en programación que define una función anónima.",
-            "traduccion": "Expression in programming that defines an anonymous function."},
+            "traduccion": "Expression in programming that defines an anonymous function."
+        },
         "load_balancer": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Sistema que distribuye el tráfico entre varios servidores para equilibrar la carga.",
-            "traduccion": "System that distributes traffic across multiple servers to balance the load."},
+            "traduccion": "System that distributes traffic across multiple servers to balance the load."
+        },
         "linked_list": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Estructura de datos lineal en la que cada elemento apunta al siguiente.",
-            "traduccion": "Linear data structure in which each element points to the next."},
+            "traduccion": "Linear data structure in which each element points to the next."
+        },
         "learning_rate": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Tasa a la cual un modelo de aprendizaje ajusta sus parámetros en función de los errores.",
-            "traduccion": "Rate at which a learning model adjusts its parameters based on errors."},
+            "traduccion": "Rate at which a learning model adjusts its parameters based on errors."
+        },
         "logger": {
-            "categoria": ("Herramientas",),
+            "categoria": ('Herramientas',),
             "definicion": "Componente que registra eventos o actividades en una aplicación.",
-            "traduccion": "Component that logs events or activities in an application."},
+            "traduccion": "Component that logs events or activities in an application."
+        },
         "load_data": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Proceso de carga de datos desde una fuente externa a una base de datos o sistema.",
-            "traduccion": "Process of loading data from an external source to a database or system."},
+            "traduccion": "Process of loading data from an external source to a database or system."
+        },
         "line_chart": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Gráfico que representa datos en una secuencia de puntos conectados por líneas.",
-            "traduccion": "Graph that represents data in a sequence of points connected by lines."},
+            "traduccion": "Graph that represents data in a sequence of points connected by lines."
+        },
         "list_comprehension": {
-            "categoria": ("Lenguajes de programación",),
+            "categoria": ('Lenguajes de programación',),
             "definicion": "Forma compacta de crear listas usando una expresión dentro de corchetes.",
-            "traduccion": "Compact way to create lists using an expression inside brackets."},
+            "traduccion": "Compact way to create lists using an expression inside brackets."
+        },
         "local_variable": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Variable cuyo alcance está limitado a una función o bloque de código.",
-            "traduccion": "Variable whose scope is limited to a function or block of code."},
+            "traduccion": "Variable whose scope is limited to a function or block of code."
+        },
         "long_integer": {
-            "categoria": ("Tipos de datos",),
+            "categoria": ('Tipos de datos',),
             "definicion": "Tipo de dato que representa un número entero de gran tamaño.",
-            "traduccion": "Data type representing a large integer."},
+            "traduccion": "Data type representing a large integer."
+        },
         "library": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Conjunto de funciones o recursos preescritos disponibles para su reutilización.",
-            "traduccion": "Set of prewritten functions or resources available for reuse."},
+            "traduccion": "Set of prewritten functions or resources available for reuse."
+        },
         "loop": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Estructura de control que repite un bloque de código varias veces.",
-            "traduccion": "Control structure that repeats a block of code multiple times."},
+            "traduccion": "Control structure that repeats a block of code multiple times."
+        },
         "load_file": {
-            "categoria": ("Manejo de archivos",),
+            "categoria": ('Manejo de archivos',),
             "definicion": "Acción de cargar el contenido de un archivo a un sistema o programa.",
-            "traduccion": "Action of loading the content of a file into a system or program."},
+            "traduccion": "Action of loading the content of a file into a system or program."
+        },
         "list": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Estructura de datos que almacena una colección ordenada de elementos.",
-            "traduccion": "Data structure that stores an ordered collection of elements."},
+            "traduccion": "Data structure that stores an ordered collection of elements."
+        },
         "lambda_function": {
-            "categoria": ("Lenguajes de programación",),
+            "categoria": ('Lenguajes de programación',),
             "definicion": "Función anónima en Python definida con la palabra clave lambda.",
-            "traduccion": "Anonymous function in Python defined using the lambda keyword."},
+            "traduccion": "Anonymous function in Python defined using the lambda keyword."
+        },
         "lock": {
-            "categoria": ("Concurrente",),
+            "categoria": ('Concurrente',),
             "definicion": "Mecanismo utilizado para asegurar que un recurso sea utilizado por un solo hilo a la vez.",
-            "traduccion": "Mechanism used to ensure that a resource is used by only one thread at a time."},
+            "traduccion": "Mechanism used to ensure that a resource is used by only one thread at a time."
+        },
         "loss_function": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Función utilizada para medir la diferencia entre las predicciones de un modelo y los valores reales.",
-            "traduccion": "Function used to measure the difference between a model's predictions and the actual values."},
+            "traduccion": "Function used to measure the difference between a model's predictions and the actual values."
+        },
         "linear_regression": {
-            "categoria": ("Estadísticas",),
+            "categoria": ('Estadísticas',),
             "definicion": "Modelo matemático utilizado para predecir una variable dependiente continua basándose en una o más variables independientes.",
-            "traduccion": "Mathematical model used to predict a continuous dependent variable based on one or more independent variables."}},
+            "traduccion": "Mathematical model used to predict a continuous dependent variable based on one or more independent variables."
+        }
+    },
     "m": {
         "map": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Función que aplica una operación a cada ítem de un iterable.",
-            "traduccion": "Function that applies an operation to each item of an iterable."},
+            "traduccion": "Function that applies an operation to each item of an iterable."
+        },
         "merge": {
-            "categoria": ("Algoritmos",),
+            "categoria": ('Algoritmos',),
             "definicion": "Operación que combina dos o más estructuras de datos.",
-            "traduccion": "Operation that combines two or more data structures."},
+            "traduccion": "Operation that combines two or more data structures."
+        },
         "memory_leak": {
-            "categoria": ("Optimización",),
-            "definicion": "Fallo en la gestión de memoria que provoca que un programa consuma más memoria de la necesaria.",
-            "traduccion": "Failure in memory management that causes a program to consume more memory than necessary."},
-        "mean": {
-            "categoria": ("Estadística",),
-            "definicion": "Promedio de un conjunto de números.",
-            "traduccion": "Average of a set of numbers."},
-        "machine_learning": {
-            "categoria": ("Inteligencia artificial",),
-            "definicion": "Subcampo de la inteligencia artificial que se enfoca en que las máquinas aprendan de los datos.",
-            "traduccion": "Subfield of artificial intelligence focused on machines learning from data."},
-        "model": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Representación matemática de un proceso basado en datos.",
-            "traduccion": "Mathematical representation of a process based on data."},
-        "momentum": {
-            "categoria": ("Física",),
-            "definicion": "Cantidad de movimiento de un objeto, producto de su masa y velocidad.",
-            "traduccion": "Quantity of motion of an object, product of its mass and velocity."},
-        "matrix": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Arreglo rectangular de números organizados en filas y columnas.",
-            "traduccion": "Rectangular arrangement of numbers organized into rows and columns."},
-        "merge_sort": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Algoritmo de ordenamiento basado en la técnica de divide y vencerás.",
-            "traduccion": "Sorting algorithm based on the divide and conquer technique."},
-        "modularization": {
-            "categoria": ("Desarrollo de software",),
-            "definicion": "División de un programa en módulos independientes para mejorar su mantenibilidad.",
-            "traduccion": "Division of a program into independent modules to improve maintainability."},
-        "multithreading": {
-            "categoria": ("Computación",),
-            "definicion": "Técnica de ejecución de múltiples hilos de ejecución simultáneamente.",
-            "traduccion": "Technique of executing multiple execution threads simultaneously."},
-        "mse": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Error cuadrático medio, medida de la diferencia entre los valores predichos y los valores reales.",
-            "traduccion": "Mean squared error, a measure of the difference between predicted and actual values."},
-        "minimax": {
-            "categoria": ("Teoría de juegos",),
-            "definicion": "Algoritmo utilizado en juegos para minimizar la posible ganancia del oponente.",
-            "traduccion": "Algorithm used in games to minimize the opponent's possible gain."},
-        "morphism": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Función matemática que preserva las estructuras entre dos objetos.",
-            "traduccion": "Mathematical function that preserves structures between two objects."},
-        "middleware": {
-            "categoria": ("Arquitectura de software",),
-            "definicion": "Capa de software que actúa como intermediaria entre aplicaciones y sistemas operativos.",
-            "traduccion": "Software layer that acts as an intermediary between applications and operating systems."},
-        "mean_absolute_error": {
-            "categoria": ("Estadística",),
-            "definicion": "Promedio de los valores absolutos de los errores de predicción.",
-            "traduccion": "Average of the absolute values of the prediction errors."},
-        "metric": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Función utilizada para medir la distancia entre dos puntos en un espacio métrico.",
-            "traduccion": "Function used to measure the distance between two points in a metric space."},
-        "monte_carlo_simulation": {
-            "categoria": ("Simulación",),
-            "definicion": "Método de simulación que utiliza la aleatorización para resolver problemas matemáticos.",
-            "traduccion": "Simulation method that uses randomization to solve mathematical problems."},
-        "minimum_spanning_tree": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Árbol con el menor peso que conecta todos los nodos de un grafo.",
-            "traduccion": "Tree with the least weight that connects all nodes in a graph."},
-        "maximum_likelihood": {
-            "categoria": ("Estadística",),
-            "definicion": "Método de estimación de parámetros que maximiza la probabilidad de observar los datos.",
-            "traduccion": "Parameter estimation method that maximizes the likelihood of observing the data."},
-        "model_accuracy": {
-            "categoria": ("Evaluación de modelos",),
-            "definicion": "Porcentaje de predicciones correctas realizadas por un modelo.",
-            "traduccion": "Percentage of correct predictions made by a model."},
-        "min": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Función que devuelve el valor mínimo de un conjunto de valores.",
-            "traduccion": "Function that returns the minimum value from a set of values."},
-        "multiprocessing": {
-            "categoria": ("Computación",),
-            "definicion": "Técnica que utiliza múltiples procesos en lugar de hilos para ejecutar tareas simultáneamente.",
-            "traduccion": "Technique that uses multiple processes instead of threads to execute tasks simultaneously."},
-        "modulus": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Operación matemática que devuelve el residuo de una división.",
-            "traduccion": "Mathematical operation that returns the remainder of a division."},
-        "machine_vision": {
-            "categoria": ("Visión artificial",),
-            "definicion": "Campo de la inteligencia artificial que permite a las máquinas interpretar imágenes y videos.",
-            "traduccion": "Field of artificial intelligence that enables machines to interpret images and videos."},
-        "monoid": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Estructura algebraica que tiene una operación binaria asociativa y un elemento neutro.",
-            "traduccion": "Algebraic structure with an associative binary operation and an identity element."},
-        "markov_chain": {
-            "categoria": ("Probabilidad",),
-            "definicion": "Modelo estocástico que describe sistemas cuya transición entre estados depende solo del estado anterior.",
-            "traduccion": "Stochastic model that describes systems where transitions between states depend only on the previous state."},
-        "mean_squared_error": {
-            "categoria": ("Evaluación de modelos",),
-            "definicion": "Promedio de los errores cuadráticos entre las predicciones y los valores reales.",
-            "traduccion": "Average of the squared errors between predictions and actual values."},
-        "memory_management": {
-            "categoria": ("Computación",),
-            "definicion": "Proceso de administrar el uso de la memoria en un sistema informático.",
-            "traduccion": "Process of managing the use of memory in a computer system."},
-        "matrix_multiplication": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Operación matemática que toma dos matrices y genera una nueva mediante el producto de sus elementos.",
-            "traduccion": "Mathematical operation that takes two matrices and produces a new one by multiplying their elements."},
-        "minimization": {
-            "categoria": ("Optimización",),
-            "definicion": "Proceso de encontrar el valor mínimo de una función o variable.",
-            "traduccion": "Process of finding the minimum value of a function or variable."},
-        "module": {
-            "categoria": ("Programación",),
-            "definicion": "Archivo de código que contiene definiciones y declaraciones de funciones y variables.",
-            "traduccion": "Code file that contains function and variable definitions and declarations."},
-        "mapping": {
-            "categoria": ("Programación",),
-            "definicion": "Proceso de asociar elementos de un conjunto con elementos de otro conjunto.",
-            "traduccion": "Process of associating elements from one set with elements from another set."},
-        "monadic": {
-            "categoria": ("Programación funcional",),
-            "definicion": "Tipo de estructura que permite la encapsulación de un valor junto con operaciones asociadas.",
-            "traduccion": "Type of structure that allows encapsulating a value along with associated operations."},
-        "mutability": {
-            "categoria": ("Programación",),
-            "definicion": "Propiedad de un objeto que permite cambiar su estado o contenido después de su creación.",
-            "traduccion": "Property of an object that allows changing its state or content after its creation."},
-        "manipulation": {
-            "categoria": ("Ciencias de la computación",),
-            "definicion": "Acción de alterar o modificar datos o estructuras de datos.",
-            "traduccion": "Action of altering or modifying data or data structures."},
-        "masking": {
-            "categoria": ("Seguridad",),
-            "definicion": "Técnica utilizada para ocultar información sensible mediante el reemplazo o cifrado.",
-            "traduccion": "Technique used to hide sensitive information through replacement or encryption."},
-        "multidimensional_array": {
-            "categoria": ("Programación",),
-            "definicion": "Estructura de datos que almacena elementos en más de una dimensión.",
-            "traduccion": "Data structure that stores elements in more than one dimension."},
-        "merge_sort": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Algoritmo de ordenación que divide la lista en dos mitades y las combina ordenadamente.",
-            "traduccion": "Sorting algorithm that divides the list into two halves and merges them in sorted order."},
-        "mapreduce": {
-            "categoria": ("Procesamiento de datos",),
-            "definicion": "Modelo de programación para procesar grandes cantidades de datos de manera paralela.",
-            "traduccion": "Programming model for processing large amounts of data in parallel."},
-        "monad": {
-            "categoria": ("Programación funcional",),
-            "definicion": "Abstracción para representar operaciones secuenciales.",
-            "traduccion": "Abstraction to represent sequential operations."},
-        "method_overloading": {
-            "categoria": ("Programación orientada a objetos",),
-            "definicion": "Técnica que permite definir múltiples métodos con el mismo nombre pero con diferentes parámetros.",
-            "traduccion": "Technique that allows defining multiple methods with the same name but different parameters."},
-        "mutable": {
-            "categoria": ("Programación",),
-            "definicion": "Propiedad de un objeto que puede ser modificado después de su creación.",
-            "traduccion": "Property of an object that can be modified after its creation."},
-        "multithreaded": {
-            "categoria": ("Programación",),
-            "definicion": "Capacidad de un sistema para ejecutar múltiples hilos de ejecución de manera concurrente.",
-            "traduccion": "Ability of a system to execute multiple threads concurrently."},
-        "max_heap": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Tipo de estructura de árbol donde el valor de cada nodo es mayor o igual que el de sus hijos.",
-            "traduccion": "Type of tree structure where each node's value is greater than or equal to its children's values."},
-        "min_heap": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Estructura de árbol donde el valor de cada nodo es menor o igual que el de sus hijos.",
-            "traduccion": "Tree structure where each node's value is less than or equal to its children's values."},
-        "method": {
-            "categoria": ("Programación",),
-            "definicion": "Función definida dentro de una clase, que actúa sobre los objetos de esa clase.",
-            "traduccion": "Function defined inside a class, acting on objects of that class."},
-        "monoid": {
-            "categoria": ("Teoría de grupos",),
-            "definicion": "Estructura algebraica con una operación binaria asociativa y un elemento neutro.",
-            "traduccion": "Algebraic structure with an associative binary operation and an identity element."},
-        "memory_management_unit": {
-            "categoria": ("Computación",),
-            "definicion": "Componente de hardware que gestiona la memoria del sistema.",
-            "traduccion": "Hardware component that manages the system's memory."},
-        "mvp": {
-            "categoria": ("Desarrollo de software",),
-            "definicion": "Producto mínimo viable, versión inicial de un producto con características básicas.",
-            "traduccion": "Minimum viable product, initial version of a product with basic features."},
-        "map": {
-            "categoria": ("Programación",),
-            "definicion": "Función que aplica una operación a cada ítem de un iterable.",
-            "traduccion": "Function that applies an operation to each item of an iterable."},
-        "markup_language": {
-            "categoria": ("Lenguajes de programación",),
-            "definicion": "Lenguaje de programación utilizado para estructurar y presentar documentos.",
-            "traduccion": "Programming language used to structure and present documents."},
-        "monolithic": {
-            "categoria": ("Arquitectura de software",),
-            "definicion": "Estilo de arquitectura de software en el que todos los componentes están interrelacionados.",
-            "traduccion": "Software architecture style where all components are interrelated."},
-        "memory_block": {
-            "categoria": ("Gestión de memoria",),
-            "definicion": "Porción de memoria reservada para el almacenamiento de datos.",
-            "traduccion": "Portion of memory reserved for data storage."},
-        "multimodal": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Enfoque que utiliza múltiples tipos de datos o modalidades para mejorar el rendimiento de un modelo.",
-            "traduccion": "Approach that uses multiple types of data or modalities to improve model performance."},
-        "message_queue": {
-            "categoria": ("Sistemas distribuidos",),
-            "definicion": "Estructura de datos utilizada para almacenar y transmitir mensajes entre sistemas o procesos.",
-            "traduccion": "Data structure used to store and transmit messages between systems or processes."},
-        "mse": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Error cuadrático medio, medida de la diferencia entre los valores predichos y los valores reales.",
-            "traduccion": "Mean squared error, a measure of the difference between predicted and actual values."},
-        "mean_absolute_error": {
-            "categoria": ("Estadísticas",),
-            "definicion": "Promedio de los valores absolutos de los errores de predicción.",
-            "traduccion": "Average of the absolute values of the prediction errors."},
-        "matrix_factorization": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Método de descomposición de matrices utilizado para recomendar productos o servicios.",
-            "traduccion": "Matrix decomposition method used to recommend products or services."},
-        "multiprocessing": {
-            "categoria": ("Computación",),
-            "definicion": "Técnica que utiliza múltiples procesos en lugar de hilos para ejecutar tareas simultáneamente.",
-            "traduccion": "Technique that uses multiple processes instead of threads to execute tasks simultaneously."},
-        "maximum_likelihood_estimation": {
-            "categoria": ("Estadística",),
-            "definicion": "Método utilizado para estimar los parámetros de un modelo de probabilidades.",
-            "traduccion": "Method used to estimate the parameters of a probability model."},
-        "minimum_spanning_tree": {
-            "categoria": ("Teoría de grafos",),
-            "definicion": "Árbol de un grafo que conecta todos los nodos con el menor peso posible.",
-            "traduccion": "Tree of a graph that connects all nodes with the least possible weight."},
-        "markup": {
-            "categoria": ("Lenguajes de programación",),
-            "definicion": "Lenguaje que utiliza etiquetas para definir la estructura y presentación de los documentos.",
-            "traduccion": "Language that uses tags to define the structure and presentation of documents."},
-        "median": {
-            "categoria": ("Estadísticas",),
-            "definicion": "Valor que separa los datos en dos mitades iguales en un conjunto ordenado.",
-            "traduccion": "Value that separates data into two equal halves in an ordered set."},
-        "modular_programming": {
-            "categoria": ("Programación",),
-            "definicion": "Enfoque que divide un programa en módulos más pequeños y manejables.",
-            "traduccion": "Approach that divides a program into smaller, manageable modules."},
-        "model_training": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Proceso de enseñar a un modelo de máquina a realizar predicciones a partir de datos.",
-            "traduccion": "Process of teaching a machine model to make predictions from data."},
-        "monitor": {
-            "categoria": ("Hardware",),
-            "definicion": "Dispositivo de salida que muestra imágenes o información de una computadora.",
-            "traduccion": "Output device that displays images or information from a computer."},
-        "memory_leak": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Error en el que un programa no libera la memoria que ya no utiliza, causando un consumo excesivo.",
-            "traduccion": "Error in which a program does not release memory it no longer uses, causing excessive consumption."},
+            "traduccion": "Error in which a program does not release memory it no longer uses, causing excessive consumption."
+        },
+        "mean": {
+            "categoria": ('Estadística',),
+            "definicion": "Promedio de un conjunto de números.",
+            "traduccion": "Average of a set of numbers."
+        },
+        "machine_learning": {
+            "categoria": ('Inteligencia artificial',),
+            "definicion": "Subcampo de la inteligencia artificial que se enfoca en que las máquinas aprendan de los datos.",
+            "traduccion": "Subfield of artificial intelligence focused on machines learning from data."
+        },
+        "model": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Representación matemática de un proceso basado en datos.",
+            "traduccion": "Mathematical representation of a process based on data."
+        },
+        "momentum": {
+            "categoria": ('Física',),
+            "definicion": "Cantidad de movimiento de un objeto, producto de su masa y velocidad.",
+            "traduccion": "Quantity of motion of an object, product of its mass and velocity."
+        },
+        "matrix": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Arreglo rectangular de números organizados en filas y columnas.",
+            "traduccion": "Rectangular arrangement of numbers organized into rows and columns."
+        },
+        "merge_sort": {
+            "categoria": ('Algoritmos',),
+            "definicion": "Algoritmo de ordenación que divide la lista en dos mitades y las combina ordenadamente.",
+            "traduccion": "Sorting algorithm that divides the list into two halves and merges them in sorted order."
+        },
+        "modularization": {
+            "categoria": ('Desarrollo de software',),
+            "definicion": "División de un programa en módulos independientes para mejorar su mantenibilidad.",
+            "traduccion": "Division of a program into independent modules to improve maintainability."
+        },
+        "multithreading": {
+            "categoria": ('Computación',),
+            "definicion": "Técnica de ejecución de múltiples hilos de ejecución simultáneamente.",
+            "traduccion": "Technique of executing multiple execution threads simultaneously."
+        },
+        "mse": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Error cuadrático medio, medida de la diferencia entre los valores predichos y los valores reales.",
+            "traduccion": "Mean squared error, a measure of the difference between predicted and actual values."
+        },
+        "minimax": {
+            "categoria": ('Teoría de juegos',),
+            "definicion": "Algoritmo utilizado en juegos para minimizar la posible ganancia del oponente.",
+            "traduccion": "Algorithm used in games to minimize the opponent's possible gain."
+        },
+        "morphism": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Función matemática que preserva las estructuras entre dos objetos.",
+            "traduccion": "Mathematical function that preserves structures between two objects."
+        },
+        "middleware": {
+            "categoria": ('Arquitectura de software',),
+            "definicion": "Capa de software que actúa como intermediaria entre aplicaciones y sistemas operativos.",
+            "traduccion": "Software layer that acts as an intermediary between applications and operating systems."
+        },
+        "mean_absolute_error": {
+            "categoria": ('Estadísticas',),
+            "definicion": "Promedio de los valores absolutos de los errores de predicción.",
+            "traduccion": "Average of the absolute values of the prediction errors."
+        },
+        "metric": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Función utilizada para medir la distancia entre dos puntos en un espacio métrico.",
+            "traduccion": "Function used to measure the distance between two points in a metric space."
+        },
+        "monte_carlo_simulation": {
+            "categoria": ('Simulación',),
+            "definicion": "Método de simulación que utiliza la aleatorización para resolver problemas matemáticos.",
+            "traduccion": "Simulation method that uses randomization to solve mathematical problems."
+        },
+        "minimum_spanning_tree": {
+            "categoria": ('Teoría de grafos',),
+            "definicion": "Árbol de un grafo que conecta todos los nodos con el menor peso posible.",
+            "traduccion": "Tree of a graph that connects all nodes with the least possible weight."
+        },
+        "maximum_likelihood": {
+            "categoria": ('Estadística',),
+            "definicion": "Método de estimación de parámetros que maximiza la probabilidad de observar los datos.",
+            "traduccion": "Parameter estimation method that maximizes the likelihood of observing the data."
+        },
+        "model_accuracy": {
+            "categoria": ('Evaluación de modelos',),
+            "definicion": "Porcentaje de predicciones correctas realizadas por un modelo.",
+            "traduccion": "Percentage of correct predictions made by a model."
+        },
+        "min": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Función que devuelve el valor mínimo de un conjunto de valores.",
+            "traduccion": "Function that returns the minimum value from a set of values."
+        },
+        "multiprocessing": {
+            "categoria": ('Computación',),
+            "definicion": "Técnica que utiliza múltiples procesos en lugar de hilos para ejecutar tareas simultáneamente.",
+            "traduccion": "Technique that uses multiple processes instead of threads to execute tasks simultaneously."
+        },
+        "modulus": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Operación matemática que devuelve el residuo de una división.",
+            "traduccion": "Mathematical operation that returns the remainder of a division."
+        },
+        "machine_vision": {
+            "categoria": ('Visión artificial',),
+            "definicion": "Campo de la inteligencia artificial que permite a las máquinas interpretar imágenes y videos.",
+            "traduccion": "Field of artificial intelligence that enables machines to interpret images and videos."
+        },
+        "monoid": {
+            "categoria": ('Teoría de grupos',),
+            "definicion": "Estructura algebraica con una operación binaria asociativa y un elemento neutro.",
+            "traduccion": "Algebraic structure with an associative binary operation and an identity element."
+        },
         "markov_chain": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Modelo matemático que describe una secuencia de eventos en la que la probabilidad de cada evento depende solo del estado anterior.",
-            "traduccion": "Mathematical model that describes a sequence of events where the probability of each event depends only on the previous state."}},
+            "traduccion": "Mathematical model that describes a sequence of events where the probability of each event depends only on the previous state."
+        },
+        "mean_squared_error": {
+            "categoria": ('Evaluación de modelos',),
+            "definicion": "Promedio de los errores cuadráticos entre las predicciones y los valores reales.",
+            "traduccion": "Average of the squared errors between predictions and actual values."
+        },
+        "memory_management": {
+            "categoria": ('Computación',),
+            "definicion": "Proceso de administrar el uso de la memoria en un sistema informático.",
+            "traduccion": "Process of managing the use of memory in a computer system."
+        },
+        "matrix_multiplication": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Operación matemática que toma dos matrices y genera una nueva mediante el producto de sus elementos.",
+            "traduccion": "Mathematical operation that takes two matrices and produces a new one by multiplying their elements."
+        },
+        "minimization": {
+            "categoria": ('Optimización',),
+            "definicion": "Proceso de encontrar el valor mínimo de una función o variable.",
+            "traduccion": "Process of finding the minimum value of a function or variable."
+        },
+        "module": {
+            "categoria": ('Programación',),
+            "definicion": "Archivo de código que contiene definiciones y declaraciones de funciones y variables.",
+            "traduccion": "Code file that contains function and variable definitions and declarations."
+        },
+        "mapping": {
+            "categoria": ('Programación',),
+            "definicion": "Proceso de asociar elementos de un conjunto con elementos de otro conjunto.",
+            "traduccion": "Process of associating elements from one set with elements from another set."
+        },
+        "monadic": {
+            "categoria": ('Programación funcional',),
+            "definicion": "Tipo de estructura que permite la encapsulación de un valor junto con operaciones asociadas.",
+            "traduccion": "Type of structure that allows encapsulating a value along with associated operations."
+        },
+        "mutability": {
+            "categoria": ('Programación',),
+            "definicion": "Propiedad de un objeto que permite cambiar su estado o contenido después de su creación.",
+            "traduccion": "Property of an object that allows changing its state or content after its creation."
+        },
+        "manipulation": {
+            "categoria": ('Ciencias de la computación',),
+            "definicion": "Acción de alterar o modificar datos o estructuras de datos.",
+            "traduccion": "Action of altering or modifying data or data structures."
+        },
+        "masking": {
+            "categoria": ('Seguridad',),
+            "definicion": "Técnica utilizada para ocultar información sensible mediante el reemplazo o cifrado.",
+            "traduccion": "Technique used to hide sensitive information through replacement or encryption."
+        },
+        "multidimensional_array": {
+            "categoria": ('Programación',),
+            "definicion": "Estructura de datos que almacena elementos en más de una dimensión.",
+            "traduccion": "Data structure that stores elements in more than one dimension."
+        },
+        "mapreduce": {
+            "categoria": ('Procesamiento de datos',),
+            "definicion": "Modelo de programación para procesar grandes cantidades de datos de manera paralela.",
+            "traduccion": "Programming model for processing large amounts of data in parallel."
+        },
+        "monad": {
+            "categoria": ('Programación funcional',),
+            "definicion": "Abstracción para representar operaciones secuenciales.",
+            "traduccion": "Abstraction to represent sequential operations."
+        },
+        "method_overloading": {
+            "categoria": ('Programación orientada a objetos',),
+            "definicion": "Técnica que permite definir múltiples métodos con el mismo nombre pero con diferentes parámetros.",
+            "traduccion": "Technique that allows defining multiple methods with the same name but different parameters."
+        },
+        "mutable": {
+            "categoria": ('Programación',),
+            "definicion": "Propiedad de un objeto que puede ser modificado después de su creación.",
+            "traduccion": "Property of an object that can be modified after its creation."
+        },
+        "multithreaded": {
+            "categoria": ('Programación',),
+            "definicion": "Capacidad de un sistema para ejecutar múltiples hilos de ejecución de manera concurrente.",
+            "traduccion": "Ability of a system to execute multiple threads concurrently."
+        },
+        "max_heap": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Tipo de estructura de árbol donde el valor de cada nodo es mayor o igual que el de sus hijos.",
+            "traduccion": "Type of tree structure where each node's value is greater than or equal to its children's values."
+        },
+        "min_heap": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Estructura de árbol donde el valor de cada nodo es menor o igual que el de sus hijos.",
+            "traduccion": "Tree structure where each node's value is less than or equal to its children's values."
+        },
+        "method": {
+            "categoria": ('Programación',),
+            "definicion": "Función definida dentro de una clase, que actúa sobre los objetos de esa clase.",
+            "traduccion": "Function defined inside a class, acting on objects of that class."
+        },
+        "memory_management_unit": {
+            "categoria": ('Computación',),
+            "definicion": "Componente de hardware que gestiona la memoria del sistema.",
+            "traduccion": "Hardware component that manages the system's memory."
+        },
+        "mvp": {
+            "categoria": ('Desarrollo de software',),
+            "definicion": "Producto mínimo viable, versión inicial de un producto con características básicas.",
+            "traduccion": "Minimum viable product, initial version of a product with basic features."
+        },
+        "markup_language": {
+            "categoria": ('Lenguajes de programación',),
+            "definicion": "Lenguaje de programación utilizado para estructurar y presentar documentos.",
+            "traduccion": "Programming language used to structure and present documents."
+        },
+        "monolithic": {
+            "categoria": ('Arquitectura de software',),
+            "definicion": "Estilo de arquitectura de software en el que todos los componentes están interrelacionados.",
+            "traduccion": "Software architecture style where all components are interrelated."
+        },
+        "memory_block": {
+            "categoria": ('Gestión de memoria',),
+            "definicion": "Porción de memoria reservada para el almacenamiento de datos.",
+            "traduccion": "Portion of memory reserved for data storage."
+        },
+        "multimodal": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Enfoque que utiliza múltiples tipos de datos o modalidades para mejorar el rendimiento de un modelo.",
+            "traduccion": "Approach that uses multiple types of data or modalities to improve model performance."
+        },
+        "message_queue": {
+            "categoria": ('Sistemas distribuidos',),
+            "definicion": "Estructura de datos utilizada para almacenar y transmitir mensajes entre sistemas o procesos.",
+            "traduccion": "Data structure used to store and transmit messages between systems or processes."
+        },
+        "matrix_factorization": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Método de descomposición de matrices utilizado para recomendar productos o servicios.",
+            "traduccion": "Matrix decomposition method used to recommend products or services."
+        },
+        "maximum_likelihood_estimation": {
+            "categoria": ('Estadística',),
+            "definicion": "Método utilizado para estimar los parámetros de un modelo de probabilidades.",
+            "traduccion": "Method used to estimate the parameters of a probability model."
+        },
+        "markup": {
+            "categoria": ('Lenguajes de programación',),
+            "definicion": "Lenguaje que utiliza etiquetas para definir la estructura y presentación de los documentos.",
+            "traduccion": "Language that uses tags to define the structure and presentation of documents."
+        },
+        "median": {
+            "categoria": ('Estadísticas',),
+            "definicion": "Valor que separa los datos en dos mitades iguales en un conjunto ordenado.",
+            "traduccion": "Value that separates data into two equal halves in an ordered set."
+        },
+        "modular_programming": {
+            "categoria": ('Programación',),
+            "definicion": "Enfoque que divide un programa en módulos más pequeños y manejables.",
+            "traduccion": "Approach that divides a program into smaller, manageable modules."
+        },
+        "model_training": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Proceso de enseñar a un modelo de máquina a realizar predicciones a partir de datos.",
+            "traduccion": "Process of teaching a machine model to make predictions from data."
+        },
+        "monitor": {
+            "categoria": ('Hardware',),
+            "definicion": "Dispositivo de salida que muestra imágenes o información de una computadora.",
+            "traduccion": "Output device that displays images or information from a computer."
+        }
+    },
     "n": {
         "neural_network": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Modelo computacional inspirado en el cerebro humano, compuesto por neuronas artificiales interconectadas.",
-            "traduccion": "Computational model inspired by the human brain, consisting of interconnected artificial neurons."},
+            "traduccion": "Computational model inspired by the human brain, consisting of interconnected artificial neurons."
+        },
         "naive_bayes": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Algoritmo de clasificación basado en el teorema de Bayes, que asume que las características son independientes.",
-            "traduccion": "Classification algorithm based on Bayes' theorem, assuming that features are independent."},
-        "numpy": {
-            "categoria": ("Programación",),
-            "definicion": "Biblioteca de Python para computación numérica, que soporta arreglos multidimensionales.",
-            "traduccion": "Python library for numerical computation, supporting multidimensional arrays."},
-        "node": {
-            "categoria": ("Redes",),
-            "definicion": "Unidad de procesamiento o comunicación dentro de una red.",
-            "traduccion": "Processing or communication unit within a network."},
-        "nms": {
-            "categoria": ("Visión por computadora",),
-            "definicion": "Método para reducir la cantidad de detecciones de objetos solapadas en imágenes.",
-            "traduccion": "Method for reducing overlapping object detections in images."},
-        "nearest_neighbor": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Método de clasificación que asigna una etiqueta basada en el vecino más cercano de un punto de datos.",
-            "traduccion": "Classification method that assigns a label based on the nearest neighbor of a data point."},
-        "network_topology": {
-            "categoria": ("Redes",),
-            "definicion": "Configuración física o lógica de los elementos de una red.",
-            "traduccion": "Physical or logical configuration of the elements in a network."},
-        "normalization": {
-            "categoria": ("Procesamiento de datos",),
-            "definicion": "Proceso de ajustar los valores de datos para que estén en un rango común.",
-            "traduccion": "Process of adjusting data values to be within a common range."},
-        "naive_bayes_classifier": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Clasificador probabilístico que aplica el teorema de Bayes con la suposición de independencia condicional entre las características.",
-            "traduccion": "Probabilistic classifier applying Bayes' theorem with the assumption of conditional independence among features."},
-        "newton_raphson_method": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Método iterativo para encontrar raíces de una función mediante aproximaciones sucesivas.",
-            "traduccion": "Iterative method for finding the roots of a function using successive approximations."},
-        "named_entity_recognition": {
-            "categoria": ("Procesamiento de lenguaje natural",),
-            "definicion": "Tarea de identificar entidades nombradas en un texto, como nombres de personas, lugares o fechas.",
-            "traduccion": "Task of identifying named entities in text, such as names of people, places, or dates."},
-        "neuron": {
-            "categoria": ("Redes neuronales",),
-            "definicion": "Unidad básica de una red neuronal artificial, que recibe entradas y produce salidas.",
-            "traduccion": "Basic unit of an artificial neural network, receiving inputs and producing outputs."},
-        "node_classification": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Tarea de asignar etiquetas a los nodos en un grafo según sus características o contexto.",
-            "traduccion": "Task of assigning labels to nodes in a graph based on their features or context."},
-        "natural_language_processing": {
-            "categoria": ("Inteligencia artificial",),
-            "definicion": "Campo de estudio que se ocupa de la interacción entre las computadoras y el lenguaje humano.",
-            "traduccion": "Field of study concerned with the interaction between computers and human language."},
-        "nearest_neighbors_algorithm": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Algoritmo que asigna una categoría a un punto basándose en los puntos más cercanos en el espacio de características.",
-            "traduccion": "Algorithm that assigns a category to a point based on the nearest points in the feature space."},
-        "null_hypothesis": {
-            "categoria": ("Estadística",),
-            "definicion": "Hipótesis que propone que no hay efecto o diferencia entre grupos en un experimento.",
-            "traduccion": "Hypothesis proposing that there is no effect or difference between groups in an experiment."},
-        "neural_network_training": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Proceso de ajustar los pesos de las neuronas de una red neuronal a través de un conjunto de datos de entrenamiento.",
-            "traduccion": "Process of adjusting the weights of neurons in a neural network through a training dataset."},
-        "norm": {
-            "categoria": ("Álgebra lineal",),
-            "definicion": "Medida de la magnitud o tamaño de un vector en el espacio.",
-            "traduccion": "Measure of the magnitude or size of a vector in space."},
-        "natural_gradient": {
-            "categoria": ("Optimización",),
-            "definicion": "Método de optimización que utiliza la información de la geometría del espacio de parámetros del modelo.",
-            "traduccion": "Optimization method that uses the information from the geometry of the model's parameter space."},
-        "negative_log_likelihood": {
-            "categoria": ("Estadística",),
-            "definicion": "Función de pérdida que se utiliza para medir la discrepancia entre un modelo probabilístico y los datos observados.",
-            "traduccion": "Loss function used to measure the discrepancy between a probabilistic model and observed data."},
-        "nearest_neighbor_search": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Técnica utilizada para encontrar el punto más cercano en un conjunto de datos dado.",
-            "traduccion": "Technique used to find the nearest point in a given dataset."},
-        "neural_network_model": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Modelo basado en redes neuronales que se utiliza para la clasificación o regresión de datos.",
-            "traduccion": "Model based on neural networks used for data classification or regression."},
-        "naive_bayes_classifier": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Clasificador probabilístico basado en el teorema de Bayes, que asume independencia entre las características.",
-            "traduccion": "Probabilistic classifier based on Bayes' theorem, assuming independence between features."},
-        "natural_language_understanding": {
-            "categoria": ("Procesamiento de lenguaje natural",),
-            "definicion": "Tecnología que permite a las máquinas comprender el significado del lenguaje humano.",
-            "traduccion": "Technology that enables machines to understand the meaning of human language."},
-        "naive_bayes_theorem": {
-            "categoria": ("Estadística",),
-            "definicion": "Teorema que establece que las características de un conjunto de datos pueden ser consideradas como independientes para la clasificación.",
-            "traduccion": "Theorem that states that the features of a dataset can be considered as independent for classification."},
-        "non_linear_regression": {
-            "categoria": ("Estadística",),
-            "definicion": "Técnica de regresión utilizada cuando la relación entre las variables independientes y dependientes no es lineal.",
-            "traduccion": "Regression technique used when the relationship between independent and dependent variables is non-linear."},
-        "neural_network_layer": {
-            "categoria": ("Redes neuronales",),
-            "definicion": "Conjunto de neuronas en una red neuronal que realiza una operación específica sobre las entradas.",
-            "traduccion": "Set of neurons in a neural network that performs a specific operation on the inputs."},
-        "numeric_integration": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Método para aproximar el valor de una integral mediante cálculos numéricos.",
-            "traduccion": "Method for approximating the value of an integral using numerical calculations."},
-        "network_security": {
-            "categoria": ("Seguridad informática",),
-            "definicion": "Prácticas y tecnologías para proteger una red de comunicaciones de accesos no autorizados o ataques.",
-            "traduccion": "Practices and technologies for protecting a communication network from unauthorized access or attacks."},
-        "neural_network_weights": {
-            "categoria": ("Redes neuronales",),
-            "definicion": "Parámetros ajustables en una red neuronal que determinan la importancia de las entradas.",
-            "traduccion": "Adjustable parameters in a neural network that determine the importance of inputs."},
-        "normal_distribution": {
-            "categoria": ("Estadística",),
-            "definicion": "Distribución de probabilidad que tiene una forma de campana, caracterizada por la media y la desviación estándar.",
-            "traduccion": "Probability distribution shaped like a bell, characterized by the mean and standard deviation."},
-        "nested_loops": {
-            "categoria": ("Programación",),
-            "definicion": "Estructura de control en la que se coloca un bucle dentro de otro.",
-            "traduccion": "Control structure in which one loop is placed inside another."},
-        "null_pointer": {
-            "categoria": ("Programación",),
-            "definicion": "Puntero que no apunta a ninguna dirección válida de memoria.",
-            "traduccion": "Pointer that does not point to any valid memory address."},
-        "negative_binomial_distribution": {
-            "categoria": ("Estadística",),
-            "definicion": "Distribución de probabilidad que describe el número de ensayos necesarios para obtener un número fijo de éxitos.",
-            "traduccion": "Probability distribution that describes the number of trials needed to achieve a fixed number of successes."},
-        "non_euclidean_geometry": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Geometría que se desvía de las postulaciones de la geometría euclidiana, como en la geometría hiperbólica.",
-            "traduccion": "Geometry that deviates from Euclidean geometry postulates, such as in hyperbolic geometry."},
-        "nash_equilibrium": {
-            "categoria": ("Teoría de juegos",),
-            "definicion": "Situación en la que ninguno de los jugadores puede mejorar su situación eligiendo una estrategia diferente.",
-            "traduccion": "Situation in which no player can improve their situation by choosing a different strategy."},
-        "natural_sort_order": {
-            "categoria": ("Computación",),
-            "definicion": "Método de ordenar cadenas que tiene en cuenta el valor numérico de los números dentro de las cadenas.",
-            "traduccion": "Method of sorting strings that takes into account the numeric value of numbers within the strings."},
-        "networks": {
-            "categoria": ("Redes",),
-            "definicion": "Conjunto de dispositivos conectados entre sí para compartir información o recursos.",
-            "traduccion": "Set of devices connected to each other to share information or resources."},
-        "node.js": {
-            "categoria": ("Programación",),
-            "definicion": "Entorno de ejecución para JavaScript en el servidor, basado en el motor V8 de Google.",
-            "traduccion": "Runtime environment for JavaScript on the server, based on Google's V8 engine."},
-        "normal_equation": {
-            "categoria": ("Estadística",),
-            "definicion": "Método utilizado para encontrar los coeficientes de un modelo de regresión lineal sin recurrir al algoritmo de optimización.",
-            "traduccion": "Method used to find the coefficients of a linear regression model without resorting to optimization algorithms."},
-        "nonlinear_activation_function": {
-            "categoria": ("Redes neuronales",),
-            "definicion": "Función utilizada en redes neuronales que introduce no linealidad, como la sigmoide o ReLU.",
-            "traduccion": "Function used in neural networks that introduces non-linearity, such as sigmoid or ReLU."},
-        "negative_logarithm": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Valor opuesto al logaritmo de un número, utilizado en diversas transformaciones matemáticas.",
-            "traduccion": "Opposite value of the logarithm of a number, used in various mathematical transformations."},
-        "naive_bayes_classifier": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Modelo probabilístico que se basa en el teorema de Bayes para la clasificación, asumiendo independencia entre características.",
-            "traduccion": "Probabilistic model based on Bayes' theorem for classification, assuming independence between features."},
-        "natural_language_understanding": {
-            "categoria": ("Inteligencia artificial",),
-            "definicion": "Capacidad de las máquinas para comprender y procesar el lenguaje humano en un contexto significativo.",
-            "traduccion": "The ability of machines to understand and process human language in a meaningful context."},
-        "neural_network_architecture": {
-            "categoria": ("Redes neuronales",),
-            "definicion": "Diseño de la estructura de una red neuronal, que incluye el número de capas y las conexiones entre ellas.",
-            "traduccion": "Design of a neural network structure, including the number of layers and the connections between them."},
-        "nested_function": {
-            "categoria": ("Programación",),
-            "definicion": "Función definida dentro de otra función.",
-            "traduccion": "Function defined within another function."},
-        "null_termination": {
-            "categoria": ("Programación",),
-            "definicion": "Técnica de programación que termina una cadena de texto con un valor nulo, como el carácter '\0' en C.",
-            "traduccion": "Programming technique that terminates a string with a null value, like the '\0' character in C."},
-        "network_latency": {
-            "categoria": ("Redes",),
-            "definicion": "Tiempo que tarda un paquete de datos en viajar desde su origen hasta su destino a través de una red.",
-            "traduccion": "Time it takes for a data packet to travel from its source to its destination across a network."},
-        "newton_method": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Método iterativo utilizado para aproximar las raíces de una función.",
-            "traduccion": "Iterative method used to approximate the roots of a function."},
-        "nondeterministic_algorithm": {
-            "categoria": ("Algoritmos",),
-            "definicion": "Algoritmo cuyo comportamiento puede variar con el mismo conjunto de entradas debido a la aleatoriedad o el orden de ejecución.",
-            "traduccion": "Algorithm whose behavior can vary with the same input set due to randomness or execution order."},
-        "null_hypothesis": {
-            "categoria": ("Estadística",),
-            "definicion": "Hipótesis que establece que no existe ninguna relación o efecto en los datos estudiados.",
-            "traduccion": "Hypothesis stating that there is no relationship or effect in the studied data."},
-        "negative_feedback": {
-            "categoria": ("Control",),
-            "definicion": "Proceso en el que la salida de un sistema disminuye el impacto de la entrada para mantener la estabilidad.",
-            "traduccion": "Process in which the output of a system reduces the impact of the input to maintain stability."},
-        "non_parametric_statistic": {
-            "categoria": ("Estadística",),
-            "definicion": "Método estadístico que no asume una distribución específica para los datos.",
-            "traduccion": "Statistical method that does not assume a specific distribution for the data."},
-        "non_stationary_signal": {
-            "categoria": ("Procesamiento de señales",),
-            "definicion": "Señal cuyo comportamiento cambia con el tiempo y no tiene propiedades constantes.",
-            "traduccion": "Signal whose behavior changes over time and does not have constant properties."},
-        "numba": {
-            "categoria": ("Programación",),
-            "definicion": "Compilador JIT para Python que permite la aceleración de código numérico mediante el uso de la CPU.",
-            "traduccion": "JIT compiler for Python that allows acceleration of numerical code using the CPU."},
-        "naive_bayes_model": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Modelo que utiliza el teorema de Bayes para la clasificación de datos, considerando la independencia entre las características.",
-            "traduccion": "Model that uses Bayes' theorem for data classification, assuming independence among features."},
-        "neural_network_training": {
-            "categoria": ("Redes neuronales",),
-            "definicion": "Proceso de ajuste de los pesos de las conexiones en una red neuronal utilizando un conjunto de datos.",
-            "traduccion": "Process of adjusting the weights of connections in a neural network using a dataset."},
-        "numeric_integration": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Método para aproximar el valor de una integral mediante cálculos numéricos.",
-            "traduccion": "Method to approximate the value of an integral using numerical calculations."},
-        "neuron_network_weights": {
-            "categoria": ("Redes neuronales",),
-            "definicion": "Parámetros ajustables en una red neuronal que determinan la importancia de las entradas.",
-            "traduccion": "Adjustable parameters in a neural network that determine the importance of inputs."},
-        "naive_bayes_classifier": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Clasificador probabilístico basado en el teorema de Bayes, que asume independencia entre las características.",
-            "traduccion": "Probabilistic classifier based on Bayes' theorem, assuming independence between features."},
-        "numpy": {
-            "categoria": ("Programación",),
-            "definicion": "Biblioteca de Python para realizar cálculos numéricos y operaciones con matrices.",
-            "traduccion": "Python library for numerical calculations and operations with arrays."},
-        "nested_list": {
-            "categoria": ("Estructura de datos",),
-            "definicion": "Una lista que contiene otras listas como elementos.",
-            "traduccion": "A list that contains other lists as elements."},
-        "notebook": {
-            "categoria": ("Programación",),
-            "definicion": "Entorno interactivo que permite escribir y ejecutar código, visualizar resultados y documentar procesos.",
-            "traduccion": "Interactive environment that allows writing and running code, visualizing results, and documenting processes."},
-        "name_scope": {
-            "categoria": ("Programación",),
-            "definicion": "Especifica el contexto o el alcance en el que se definen las variables.",
-            "traduccion": "Specifies the context or scope in which variables are defined."},
-        "named_tuple": {
-            "categoria": ("Estructura de datos",),
-            "definicion": "Clase para crear objetos que son accesibles tanto por nombre como por índice.",
-            "traduccion": "Class to create objects that are accessible both by name and index."},
-        "netstat": {
-            "categoria": ("Redes",),
-            "definicion": "Herramienta de red que muestra las conexiones de red, las tablas de enrutamiento y las estadísticas de la interfaz.",
-            "traduccion": "Network tool that shows network connections, routing tables, and interface statistics."},
-        "null": {
-            "categoria": ("Tipos de datos",),
-            "definicion": "Valor especial que representa la ausencia de valor o un valor nulo.",
-            "traduccion": "Special value representing the absence of value or a null value."},
-        "normalize": {
-            "categoria": ("Bibliotecas",),
-            "definicion": "Ajuste de los valores de un conjunto de datos para que se ubiquen dentro de un rango específico.",
-            "traduccion": "Adjusting the values of a data set so that they fit within a specific range."},
-        "next": {
-            "categoria": ("Funciones",),
-            "definicion": "Devuelve el siguiente valor de un iterador.",
-            "traduccion": "Returns the next value of an iterator."},
-        "new": {
-            "categoria": ("Funciones",),
-            "definicion": "Crea un nuevo objeto de una clase en Python.",
-            "traduccion": "Creates a new object of a class in Python."},
-        "negation": {
-            "categoria": ("Operadores",),
-            "definicion": "Operador lógico que invierte el valor de una expresión booleana.",
-            "traduccion": "Logical operator that inverts the value of a boolean expression."},
-        "numpy_array": {
-            "categoria": ("Estructura de datos",),
-            "definicion": "Estructura de datos en forma de matriz multidimensional que permite realizar operaciones matemáticas eficientemente.",
-            "traduccion": "Data structure in the form of a multidimensional array that allows performing mathematical operations efficiently."},
-        "not": {
-            "categoria": ("Operadores",),
-            "definicion": "Operador lógico que invierte el valor de una expresión booleana.",
-            "traduccion": "Logical operator that inverts the value of a boolean expression."},
-        "none": {
-            "categoria": ("Tipos de datos",),
-            "definicion": "Valor especial que representa la ausencia de un valor o un valor nulo.",
-            "traduccion": "Special value representing the absence of a value or a null value."},
-        "numpy_dot": {
-            "categoria": ("Bibliotecas",),
-            "definicion": "Función de NumPy que calcula el producto escalar entre dos arrays.",
-            "traduccion": "NumPy function that computes the dot product between two arrays."},
-        "nmap": {
-            "categoria": ("Redes",),
-            "definicion": "Herramienta de análisis de redes utilizada para descubrir servicios y dispositivos en una red.",
-            "traduccion": "Network analysis tool used to discover services and devices on a network."},
-        "namedtuple": {
-            "categoria": ("Estructura de datos",),
-            "definicion": "Clase para crear tuplas con nombres para cada campo.",
-            "traduccion": "Class for creating tuples with names for each field."},
-        "naive_bayes": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Algoritmo de clasificación basado en el teorema de Bayes con independencia entre las características.",
-            "traduccion": "Classification algorithm based on Bayes' theorem with independence between features."},
-        "numpy_random": {
-            "categoria": ("Bibliotecas",),
-            "definicion": "Módulo de NumPy para generar números aleatorios en Python.",
-            "traduccion": "NumPy module for generating random numbers in Python."},
-        "networkx": {
-            "categoria": ("Bibliotecas",),
-            "definicion": "Biblioteca de Python para la creación, manipulación y estudio de estructuras de grafos y redes.",
-            "traduccion": "Python library for the creation, manipulation, and study of graph and network structures."},
-        "numexpr": {
-            "categoria": ("Bibliotecas",),
-            "definicion": "Biblioteca que permite la evaluación rápida de expresiones numéricas en Python.",
-            "traduccion": "Library that allows fast evaluation of numerical expressions in Python."},
+            "traduccion": "Classification algorithm based on Bayes' theorem with independence between features."
+        },
+        "numpy": {
+            "categoria": ('Programación',),
+            "definicion": "Biblioteca de Python para realizar cálculos numéricos y operaciones con matrices.",
+            "traduccion": "Python library for numerical calculations and operations with arrays."
+        },
+        "node": {
+            "categoria": ('Redes',),
+            "definicion": "Unidad de procesamiento o comunicación dentro de una red.",
+            "traduccion": "Processing or communication unit within a network."
+        },
+        "nms": {
+            "categoria": ('Visión por computadora',),
+            "definicion": "Método para reducir la cantidad de detecciones de objetos solapadas en imágenes.",
+            "traduccion": "Method for reducing overlapping object detections in images."
+        },
+        "nearest_neighbor": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Método de clasificación que asigna una etiqueta basada en el vecino más cercano de un punto de datos.",
+            "traduccion": "Classification method that assigns a label based on the nearest neighbor of a data point."
+        },
+        "network_topology": {
+            "categoria": ('Redes',),
+            "definicion": "Configuración física o lógica de los elementos de una red.",
+            "traduccion": "Physical or logical configuration of the elements in a network."
+        },
+        "normalization": {
+            "categoria": ('Procesamiento de datos',),
+            "definicion": "Proceso de ajustar los valores de datos para que estén en un rango común.",
+            "traduccion": "Process of adjusting data values to be within a common range."
+        },
+        "naive_bayes_classifier": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Clasificador probabilístico basado en el teorema de Bayes, que asume independencia entre las características.",
+            "traduccion": "Probabilistic classifier based on Bayes' theorem, assuming independence between features."
+        },
+        "newton_raphson_method": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Método iterativo para encontrar raíces de una función mediante aproximaciones sucesivas.",
+            "traduccion": "Iterative method for finding the roots of a function using successive approximations."
+        },
+        "named_entity_recognition": {
+            "categoria": ('Procesamiento de lenguaje natural',),
+            "definicion": "Tarea de identificar entidades nombradas en un texto, como nombres de personas, lugares o fechas.",
+            "traduccion": "Task of identifying named entities in text, such as names of people, places, or dates."
+        },
+        "neuron": {
+            "categoria": ('Redes neuronales',),
+            "definicion": "Unidad básica de una red neuronal artificial, que recibe entradas y produce salidas.",
+            "traduccion": "Basic unit of an artificial neural network, receiving inputs and producing outputs."
+        },
+        "node_classification": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Tarea de asignar etiquetas a los nodos en un grafo según sus características o contexto.",
+            "traduccion": "Task of assigning labels to nodes in a graph based on their features or context."
+        },
+        "natural_language_processing": {
+            "categoria": ('Inteligencia artificial',),
+            "definicion": "Campo de estudio que se ocupa de la interacción entre las computadoras y el lenguaje humano.",
+            "traduccion": "Field of study concerned with the interaction between computers and human language."
+        },
+        "nearest_neighbors_algorithm": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Algoritmo que asigna una categoría a un punto basándose en los puntos más cercanos en el espacio de características.",
+            "traduccion": "Algorithm that assigns a category to a point based on the nearest points in the feature space."
+        },
+        "null_hypothesis": {
+            "categoria": ('Estadística',),
+            "definicion": "Hipótesis que establece que no existe ninguna relación o efecto en los datos estudiados.",
+            "traduccion": "Hypothesis stating that there is no relationship or effect in the studied data."
+        },
+        "neural_network_training": {
+            "categoria": ('Redes neuronales',),
+            "definicion": "Proceso de ajuste de los pesos de las conexiones en una red neuronal utilizando un conjunto de datos.",
+            "traduccion": "Process of adjusting the weights of connections in a neural network using a dataset."
+        },
+        "norm": {
+            "categoria": ('Álgebra lineal',),
+            "definicion": "Medida de la magnitud o tamaño de un vector en el espacio.",
+            "traduccion": "Measure of the magnitude or size of a vector in space."
+        },
+        "natural_gradient": {
+            "categoria": ('Optimización',),
+            "definicion": "Método de optimización que utiliza la información de la geometría del espacio de parámetros del modelo.",
+            "traduccion": "Optimization method that uses the information from the geometry of the model's parameter space."
+        },
+        "negative_log_likelihood": {
+            "categoria": ('Estadística',),
+            "definicion": "Función de pérdida que se utiliza para medir la discrepancia entre un modelo probabilístico y los datos observados.",
+            "traduccion": "Loss function used to measure the discrepancy between a probabilistic model and observed data."
+        },
+        "nearest_neighbor_search": {
+            "categoria": ('Algoritmos',),
+            "definicion": "Técnica utilizada para encontrar el punto más cercano en un conjunto de datos dado.",
+            "traduccion": "Technique used to find the nearest point in a given dataset."
+        },
+        "neural_network_model": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Modelo basado en redes neuronales que se utiliza para la clasificación o regresión de datos.",
+            "traduccion": "Model based on neural networks used for data classification or regression."
+        },
+        "natural_language_understanding": {
+            "categoria": ('Inteligencia artificial',),
+            "definicion": "Capacidad de las máquinas para comprender y procesar el lenguaje humano en un contexto significativo.",
+            "traduccion": "The ability of machines to understand and process human language in a meaningful context."
+        },
+        "naive_bayes_theorem": {
+            "categoria": ('Estadística',),
+            "definicion": "Teorema que establece que las características de un conjunto de datos pueden ser consideradas como independientes para la clasificación.",
+            "traduccion": "Theorem that states that the features of a dataset can be considered as independent for classification."
+        },
+        "non_linear_regression": {
+            "categoria": ('Estadística',),
+            "definicion": "Técnica de regresión utilizada cuando la relación entre las variables independientes y dependientes no es lineal.",
+            "traduccion": "Regression technique used when the relationship between independent and dependent variables is non-linear."
+        },
+        "neural_network_layer": {
+            "categoria": ('Redes neuronales',),
+            "definicion": "Conjunto de neuronas en una red neuronal que realiza una operación específica sobre las entradas.",
+            "traduccion": "Set of neurons in a neural network that performs a specific operation on the inputs."
+        },
+        "numeric_integration": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Método para aproximar el valor de una integral mediante cálculos numéricos.",
+            "traduccion": "Method to approximate the value of an integral using numerical calculations."
+        },
+        "network_security": {
+            "categoria": ('Seguridad informática',),
+            "definicion": "Prácticas y tecnologías para proteger una red de comunicaciones de accesos no autorizados o ataques.",
+            "traduccion": "Practices and technologies for protecting a communication network from unauthorized access or attacks."
+        },
+        "neural_network_weights": {
+            "categoria": ('Redes neuronales',),
+            "definicion": "Parámetros ajustables en una red neuronal que determinan la importancia de las entradas.",
+            "traduccion": "Adjustable parameters in a neural network that determine the importance of inputs."
+        },
+        "normal_distribution": {
+            "categoria": ('Estadística',),
+            "definicion": "Distribución de probabilidad que tiene una forma de campana, caracterizada por la media y la desviación estándar.",
+            "traduccion": "Probability distribution shaped like a bell, characterized by the mean and standard deviation."
+        },
+        "nested_loops": {
+            "categoria": ('Programación',),
+            "definicion": "Estructura de control en la que se coloca un bucle dentro de otro.",
+            "traduccion": "Control structure in which one loop is placed inside another."
+        },
         "null_pointer": {
-            "categoria": ("Errores",),
+            "categoria": ('Errores',),
             "definicion": "Referencia a un valor nulo o inexistente en el código.",
-            "traduccion": "Reference to a null or nonexistent value in code."},
-        "nonlocal": {
-            "categoria": ("Funciones",),
-            "definicion": "Palabra clave que se utiliza para declarar una variable que no pertenece al ámbito local o global.",
-            "traduccion": "Keyword used to declare a variable that does not belong to the local or global scope."},
-        "numpy_shape": {
-            "categoria": ("Bibliotecas",),
-            "definicion": "Función de NumPy que devuelve las dimensiones de un array.",
-            "traduccion": "NumPy function that returns the dimensions of an array."},
-        "numpy_sort": {
-            "categoria": ("Bibliotecas",),
-            "definicion": "Función de NumPy para ordenar los elementos de un array.",
-            "traduccion": "NumPy function for sorting the elements of an array."},
-        "numpy_std": {
-            "categoria": ("Bibliotecas",),
-            "definicion": "Función de NumPy que calcula la desviación estándar de un array.",
-            "traduccion": "NumPy function that calculates the standard deviation of an array."},
-        "numpy_sum": {
-            "categoria": ("Bibliotecas",),
-            "definicion": "Función de NumPy que calcula la suma de los elementos de un array.",
-            "traduccion": "NumPy function that calculates the sum of the elements of an array."},
-        "numpy_t": {
-            "categoria": ("Bibliotecas",),
-            "definicion": "Función de NumPy que devuelve la transpuesta de una matriz.",
-            "traduccion": "NumPy function that returns the transpose of a matrix."},
-        "nltk": {
-            "categoria": ("Bibliotecas",),
-            "definicion": "Biblioteca de Python para el procesamiento del lenguaje natural.",
-            "traduccion": "Python library for natural language processing."},
+            "traduccion": "Reference to a null or nonexistent value in code."
+        },
+        "negative_binomial_distribution": {
+            "categoria": ('Estadística',),
+            "definicion": "Distribución de probabilidad que describe el número de ensayos necesarios para obtener un número fijo de éxitos.",
+            "traduccion": "Probability distribution that describes the number of trials needed to achieve a fixed number of successes."
+        },
+        "non_euclidean_geometry": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Geometría que se desvía de las postulaciones de la geometría euclidiana, como en la geometría hiperbólica.",
+            "traduccion": "Geometry that deviates from Euclidean geometry postulates, such as in hyperbolic geometry."
+        },
+        "nash_equilibrium": {
+            "categoria": ('Teoría de juegos',),
+            "definicion": "Situación en la que ninguno de los jugadores puede mejorar su situación eligiendo una estrategia diferente.",
+            "traduccion": "Situation in which no player can improve their situation by choosing a different strategy."
+        },
+        "natural_sort_order": {
+            "categoria": ('Computación',),
+            "definicion": "Método de ordenar cadenas que tiene en cuenta el valor numérico de los números dentro de las cadenas.",
+            "traduccion": "Method of sorting strings that takes into account the numeric value of numbers within the strings."
+        },
+        "networks": {
+            "categoria": ('Redes',),
+            "definicion": "Conjunto de dispositivos conectados entre sí para compartir información o recursos.",
+            "traduccion": "Set of devices connected to each other to share information or resources."
+        },
+        "node.js": {
+            "categoria": ('Programación',),
+            "definicion": "Entorno de ejecución para JavaScript en el servidor, basado en el motor V8 de Google.",
+            "traduccion": "Runtime environment for JavaScript on the server, based on Google's V8 engine."
+        },
+        "normal_equation": {
+            "categoria": ('Estadística',),
+            "definicion": "Método utilizado para encontrar los coeficientes de un modelo de regresión lineal sin recurrir al algoritmo de optimización.",
+            "traduccion": "Method used to find the coefficients of a linear regression model without resorting to optimization algorithms."
+        },
+        "nonlinear_activation_function": {
+            "categoria": ('Redes neuronales',),
+            "definicion": "Función utilizada en redes neuronales que introduce no linealidad, como la sigmoide o ReLU.",
+            "traduccion": "Function used in neural networks that introduces non-linearity, such as sigmoid or ReLU."
+        },
+        "negative_logarithm": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Valor opuesto al logaritmo de un número, utilizado en diversas transformaciones matemáticas.",
+            "traduccion": "Opposite value of the logarithm of a number, used in various mathematical transformations."
+        },
+        "neural_network_architecture": {
+            "categoria": ('Redes neuronales',),
+            "definicion": "Diseño de la estructura de una red neuronal, que incluye el número de capas y las conexiones entre ellas.",
+            "traduccion": "Design of a neural network structure, including the number of layers and the connections between them."
+        },
+        "nested_function": {
+            "categoria": ('Programación',),
+            "definicion": "Función definida dentro de otra función.",
+            "traduccion": "Function defined within another function."
+        },
+        "null_termination": {
+            "categoria": ('Programación',),
+            "definicion": "Técnica de programación que termina una cadena de texto con un valor nulo, como el carácter '' en C.",
+            "traduccion": "Programming technique that terminates a string with a null value, like the '' character in C."
+        },
+        "network_latency": {
+            "categoria": ('Redes',),
+            "definicion": "Tiempo que tarda un paquete de datos en viajar desde su origen hasta su destino a través de una red.",
+            "traduccion": "Time it takes for a data packet to travel from its source to its destination across a network."
+        },
+        "newton_method": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Método iterativo utilizado para aproximar las raíces de una función.",
+            "traduccion": "Iterative method used to approximate the roots of a function."
+        },
+        "nondeterministic_algorithm": {
+            "categoria": ('Algoritmos',),
+            "definicion": "Algoritmo cuyo comportamiento puede variar con el mismo conjunto de entradas debido a la aleatoriedad o el orden de ejecución.",
+            "traduccion": "Algorithm whose behavior can vary with the same input set due to randomness or execution order."
+        },
+        "negative_feedback": {
+            "categoria": ('Control',),
+            "definicion": "Proceso en el que la salida de un sistema disminuye el impacto de la entrada para mantener la estabilidad.",
+            "traduccion": "Process in which the output of a system reduces the impact of the input to maintain stability."
+        },
+        "non_parametric_statistic": {
+            "categoria": ('Estadística',),
+            "definicion": "Método estadístico que no asume una distribución específica para los datos.",
+            "traduccion": "Statistical method that does not assume a specific distribution for the data."
+        },
+        "non_stationary_signal": {
+            "categoria": ('Procesamiento de señales',),
+            "definicion": "Señal cuyo comportamiento cambia con el tiempo y no tiene propiedades constantes.",
+            "traduccion": "Signal whose behavior changes over time and does not have constant properties."
+        },
         "numba": {
-            "categoria": ("Bibliotecas",),
+            "categoria": ('Bibliotecas',),
             "definicion": "Biblioteca de Python para acelerar las funciones numéricas con compilación en tiempo de ejecución.",
-            "traduccion": "Python library to accelerate numerical functions with runtime compilation."},
+            "traduccion": "Python library to accelerate numerical functions with runtime compilation."
+        },
+        "naive_bayes_model": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Modelo que utiliza el teorema de Bayes para la clasificación de datos, considerando la independencia entre las características.",
+            "traduccion": "Model that uses Bayes' theorem for data classification, assuming independence among features."
+        },
+        "neuron_network_weights": {
+            "categoria": ('Redes neuronales',),
+            "definicion": "Parámetros ajustables en una red neuronal que determinan la importancia de las entradas.",
+            "traduccion": "Adjustable parameters in a neural network that determine the importance of inputs."
+        },
+        "nested_list": {
+            "categoria": ('Estructura de datos',),
+            "definicion": "Una lista que contiene otras listas como elementos.",
+            "traduccion": "A list that contains other lists as elements."
+        },
+        "notebook": {
+            "categoria": ('Programación',),
+            "definicion": "Entorno interactivo que permite escribir y ejecutar código, visualizar resultados y documentar procesos.",
+            "traduccion": "Interactive environment that allows writing and running code, visualizing results, and documenting processes."
+        },
+        "name_scope": {
+            "categoria": ('Programación',),
+            "definicion": "Especifica el contexto o el alcance en el que se definen las variables.",
+            "traduccion": "Specifies the context or scope in which variables are defined."
+        },
+        "named_tuple": {
+            "categoria": ('Estructura de datos',),
+            "definicion": "Clase para crear objetos que son accesibles tanto por nombre como por índice.",
+            "traduccion": "Class to create objects that are accessible both by name and index."
+        },
+        "netstat": {
+            "categoria": ('Redes',),
+            "definicion": "Herramienta de red que muestra las conexiones de red, las tablas de enrutamiento y las estadísticas de la interfaz.",
+            "traduccion": "Network tool that shows network connections, routing tables, and interface statistics."
+        },
+        "null": {
+            "categoria": ('Tipos de datos',),
+            "definicion": "Valor especial que representa la ausencia de valor o un valor nulo.",
+            "traduccion": "Special value representing the absence of value or a null value."
+        },
+        "normalize": {
+            "categoria": ('Bibliotecas',),
+            "definicion": "Ajuste de los valores de un conjunto de datos para que se ubiquen dentro de un rango específico.",
+            "traduccion": "Adjusting the values of a data set so that they fit within a specific range."
+        },
+        "next": {
+            "categoria": ('Funciones',),
+            "definicion": "Devuelve el siguiente valor de un iterador.",
+            "traduccion": "Returns the next value of an iterator."
+        },
+        "new": {
+            "categoria": ('Funciones',),
+            "definicion": "Crea un nuevo objeto de una clase en Python.",
+            "traduccion": "Creates a new object of a class in Python."
+        },
+        "negation": {
+            "categoria": ('Operadores',),
+            "definicion": "Operador lógico que invierte el valor de una expresión booleana.",
+            "traduccion": "Logical operator that inverts the value of a boolean expression."
+        },
+        "numpy_array": {
+            "categoria": ('Estructura de datos',),
+            "definicion": "Estructura de datos en forma de matriz multidimensional que permite realizar operaciones matemáticas eficientemente.",
+            "traduccion": "Data structure in the form of a multidimensional array that allows performing mathematical operations efficiently."
+        },
+        "not": {
+            "categoria": ('Operadores',),
+            "definicion": "Operador lógico que invierte el valor de una expresión booleana.",
+            "traduccion": "Logical operator that inverts the value of a boolean expression."
+        },
+        "none": {
+            "categoria": ('Tipos de datos',),
+            "definicion": "Valor especial que representa la ausencia de un valor o un valor nulo.",
+            "traduccion": "Special value representing the absence of a value or a null value."
+        },
+        "numpy_dot": {
+            "categoria": ('Bibliotecas',),
+            "definicion": "Función de NumPy que calcula el producto escalar entre dos arrays.",
+            "traduccion": "NumPy function that computes the dot product between two arrays."
+        },
+        "nmap": {
+            "categoria": ('Redes',),
+            "definicion": "Herramienta de análisis de redes utilizada para descubrir servicios y dispositivos en una red.",
+            "traduccion": "Network analysis tool used to discover services and devices on a network."
+        },
+        "namedtuple": {
+            "categoria": ('Estructura de datos',),
+            "definicion": "Clase para crear tuplas con nombres para cada campo.",
+            "traduccion": "Class for creating tuples with names for each field."
+        },
+        "numpy_random": {
+            "categoria": ('Bibliotecas',),
+            "definicion": "Módulo de NumPy para generar números aleatorios en Python.",
+            "traduccion": "NumPy module for generating random numbers in Python."
+        },
+        "networkx": {
+            "categoria": ('Bibliotecas',),
+            "definicion": "Biblioteca de Python para la creación, manipulación y estudio de estructuras de grafos y redes.",
+            "traduccion": "Python library for the creation, manipulation, and study of graph and network structures."
+        },
+        "numexpr": {
+            "categoria": ('Bibliotecas',),
+            "definicion": "Biblioteca que permite la evaluación rápida de expresiones numéricas en Python.",
+            "traduccion": "Library that allows fast evaluation of numerical expressions in Python."
+        },
+        "nonlocal": {
+            "categoria": ('Funciones',),
+            "definicion": "Palabra clave que se utiliza para declarar una variable que no pertenece al ámbito local o global.",
+            "traduccion": "Keyword used to declare a variable that does not belong to the local or global scope."
+        },
+        "numpy_shape": {
+            "categoria": ('Bibliotecas',),
+            "definicion": "Función de NumPy que devuelve las dimensiones de un array.",
+            "traduccion": "NumPy function that returns the dimensions of an array."
+        },
+        "numpy_sort": {
+            "categoria": ('Bibliotecas',),
+            "definicion": "Función de NumPy para ordenar los elementos de un array.",
+            "traduccion": "NumPy function for sorting the elements of an array."
+        },
+        "numpy_std": {
+            "categoria": ('Bibliotecas',),
+            "definicion": "Función de NumPy que calcula la desviación estándar de un array.",
+            "traduccion": "NumPy function that calculates the standard deviation of an array."
+        },
+        "numpy_sum": {
+            "categoria": ('Bibliotecas',),
+            "definicion": "Función de NumPy que calcula la suma de los elementos de un array.",
+            "traduccion": "NumPy function that calculates the sum of the elements of an array."
+        },
+        "numpy_t": {
+            "categoria": ('Bibliotecas',),
+            "definicion": "Función de NumPy que devuelve la transpuesta de una matriz.",
+            "traduccion": "NumPy function that returns the transpose of a matrix."
+        },
+        "nltk": {
+            "categoria": ('Bibliotecas',),
+            "definicion": "Biblioteca de Python para el procesamiento del lenguaje natural.",
+            "traduccion": "Python library for natural language processing."
+        },
         "numpy_inner": {
-            "categoria": ("Bibliotecas",),
+            "categoria": ('Bibliotecas',),
             "definicion": "Función de NumPy que calcula el producto interno entre dos arrays.",
-            "traduccion": "NumPy function that calculates the inner product between two arrays."},
+            "traduccion": "NumPy function that calculates the inner product between two arrays."
+        },
         "network_configuration": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Proceso de configuración de dispositivos de red para permitir la comunicación entre ellos.",
-            "traduccion": "Process of configuring network devices to enable communication between them."},
+            "traduccion": "Process of configuring network devices to enable communication between them."
+        },
         "namespace": {
-            "categoria": ("Funciones",),
+            "categoria": ('Funciones',),
             "definicion": "Contenedor que almacena un conjunto de identificadores para evitar conflictos de nombres en el código.",
-            "traduccion": "Container that stores a set of identifiers to prevent name conflicts in code."},
+            "traduccion": "Container that stores a set of identifiers to prevent name conflicts in code."
+        },
         "neg_log_likelihood": {
-            "categoria": ("Estadística",),
+            "categoria": ('Estadística',),
             "definicion": "Medida utilizada para evaluar la probabilidad de un conjunto de datos bajo un modelo.",
-            "traduccion": "Measure used to evaluate the likelihood of a data set under a model."},
+            "traduccion": "Measure used to evaluate the likelihood of a data set under a model."
+        },
         "numpy_mean": {
-            "categoria": ("Bibliotecas",),
+            "categoria": ('Bibliotecas',),
             "definicion": "Función de NumPy que calcula la media de los elementos de un array.",
-            "traduccion": "NumPy function that calculates the mean of the elements of an array."}},
+            "traduccion": "NumPy function that calculates the mean of the elements of an array."
+        }
+    },
     "o": {
         "open": {
-            "categoria": ("Manipulación de archivos",),
+            "categoria": ('Manipulación de archivos',),
             "definicion": "Abre un archivo y lo prepara para lectura, escritura o ambas.",
-            "traduccion": "Opens a file and prepares it for reading, writing, or both."},
+            "traduccion": "Opens a file and prepares it for reading, writing, or both."
+        },
         "ord": {
-            "categoria": ("Funciones integradas",),
+            "categoria": ('Funciones integradas',),
             "definicion": "Devuelve el valor Unicode de un carácter dado.",
-            "traduccion": "Returns the Unicode value of a given character."},
+            "traduccion": "Returns the Unicode value of a given character."
+        },
         "oct": {
-            "categoria": ("Conversión de datos",),
+            "categoria": ('Conversión de datos',),
             "definicion": "Convierte un número en su representación octal.",
-            "traduccion": "Converts a number to its octal representation."},
+            "traduccion": "Converts a number to its octal representation."
+        },
         "os": {
-            "categoria": ("Módulos estándar",),
+            "categoria": ('Módulos estándar',),
             "definicion": "Proporciona funciones para interactuar con el sistema operativo.",
-            "traduccion": "Provides functions to interact with the operating system."},
+            "traduccion": "Provides functions to interact with the operating system."
+        },
         "object": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación orientada a objetos',),
             "definicion": "Clase base de la que derivan todas las clases en Python.",
-            "traduccion": "Base class from which all classes in Python are derived."},
+            "traduccion": "Base class from which all classes in Python are derived."
+        },
         "output": {
-            "categoria": ("Entrada/Salida",),
+            "categoria": ('Entrada/Salida',),
             "definicion": "Datos enviados desde un programa a un dispositivo o archivo.",
-            "traduccion": "Data sent from a program to a device or file."},
+            "traduccion": "Data sent from a program to a device or file."
+        },
         "operator": {
-            "categoria": ("Módulos estándar",),
+            "categoria": ('Módulos estándar',),
             "definicion": "Módulo que proporciona funciones para operaciones comunes como adición o comparación.",
-            "traduccion": "Module that provides functions for common operations like addition or comparison."},
+            "traduccion": "Module that provides functions for common operations like addition or comparison."
+        },
         "options": {
-            "categoria": ("Configuración",),
+            "categoria": ('Configuración',),
             "definicion": "Parámetros que definen el comportamiento de un programa o función.",
-            "traduccion": "Parameters that define the behavior of a program or function."},
+            "traduccion": "Parameters that define the behavior of a program or function."
+        },
         "optimize": {
-            "categoria": ("Rendimiento",),
+            "categoria": ('Rendimiento',),
             "definicion": "Proceso de mejorar la eficiencia de un código o programa.",
-            "traduccion": "Process of improving the efficiency of code or a program."},
+            "traduccion": "Process of improving the efficiency of code or a program."
+        },
         "overflow": {
-            "categoria": ("Errores",),
+            "categoria": ('Errores',),
             "definicion": "Ocurre cuando un cálculo excede la capacidad máxima de almacenamiento.",
-            "traduccion": "Occurs when a calculation exceeds the maximum storage capacity."},
+            "traduccion": "Occurs when a calculation exceeds the maximum storage capacity."
+        },
         "offset": {
-            "categoria": ("Manipulación de datos",),
+            "categoria": ('Manipulación de datos',),
             "definicion": "Desplazamiento relativo a una posición base.",
-            "traduccion": "Relative shift from a base position."},
+            "traduccion": "Relative shift from a base position."
+        },
         "outer": {
-            "categoria": ("Ámbitos",),
+            "categoria": ('Ámbitos',),
             "definicion": "Se refiere al alcance externo en el que se encuentra un código.",
-            "traduccion": "Refers to the outer scope in which code resides."},
+            "traduccion": "Refers to the outer scope in which code resides."
+        },
         "or": {
-            "categoria": ("Operadores",),
+            "categoria": ('Operadores',),
             "definicion": "Operador lógico que devuelve True si al menos una condición es verdadera.",
-            "traduccion": "Logical operator that returns True if at least one condition is true."},
+            "traduccion": "Logical operator that returns True if at least one condition is true."
+        },
         "openpyxl": {
-            "categoria": ("Bibliotecas",),
+            "categoria": ('Bibliotecas',),
             "definicion": "Biblioteca de Python para leer y escribir archivos Excel.",
-            "traduccion": "Python library for reading and writing Excel files."},
+            "traduccion": "Python library for reading and writing Excel files."
+        },
         "overload": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Método que permite redefinir operadores o funciones para diferentes tipos de datos.",
-            "traduccion": "Method that allows redefining operators or functions for different data types."},
+            "traduccion": "Method that allows redefining operators or functions for different data types."
+        },
         "object_id": {
-            "categoria": ("Memoria",),
+            "categoria": ('Memoria',),
             "definicion": "Identificador único asignado a un objeto en la memoria.",
-            "traduccion": "Unique identifier assigned to an object in memory."},
+            "traduccion": "Unique identifier assigned to an object in memory."
+        },
         "on_click": {
-            "categoria": ("Interfaces gráficas",),
+            "categoria": ('Interfaces gráficas',),
             "definicion": "Evento que se activa cuando un usuario hace clic en un elemento.",
-            "traduccion": "Event triggered when a user clicks on an element."},
+            "traduccion": "Event triggered when a user clicks on an element."
+        },
         "openai": {
-            "categoria": ("Inteligencia artificial",),
+            "categoria": ('Inteligencia artificial',),
             "definicion": "Biblioteca utilizada para interactuar con modelos de IA desarrollados por OpenAI.",
-            "traduccion": "Library used to interact with AI models developed by OpenAI."},
+            "traduccion": "Library used to interact with AI models developed by OpenAI."
+        },
         "os_path": {
-            "categoria": ("Manipulación de archivos",),
+            "categoria": ('Manipulación de archivos',),
             "definicion": "Módulo que permite trabajar con rutas de archivos y directorios.",
-            "traduccion": "Module that allows working with file and directory paths."},
+            "traduccion": "Module that allows working with file and directory paths."
+        },
         "overflow_error": {
-            "categoria": ("Errores",),
+            "categoria": ('Errores',),
             "definicion": "Excepción lanzada cuando un número es demasiado grande para ser representado.",
-            "traduccion": "Exception raised when a number is too large to be represented."},
+            "traduccion": "Exception raised when a number is too large to be represented."
+        },
         "ordered_dict": {
-            "categoria": ("Colecciones",),
+            "categoria": ('Colecciones',),
             "definicion": "Clase en el módulo 'collections' que conserva el orden de los elementos añadidos.",
-            "traduccion": "Class in the 'collections' module that preserves the order of added elements."},
+            "traduccion": "Class in the 'collections' module that preserves the order of added elements."
+        },
         "override": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación orientada a objetos',),
             "definicion": "Redefinición de un método en una clase hija para modificar su comportamiento.",
-            "traduccion": "Redefinition of a method in a child class to modify its behavior."},
+            "traduccion": "Redefinition of a method in a child class to modify its behavior."
+        },
         "output_stream": {
-            "categoria": ("Entrada/Salida",),
+            "categoria": ('Entrada/Salida',),
             "definicion": "Flujo de datos que se envía desde un programa a un destino.",
-            "traduccion": "Data stream sent from a program to a destination."},
+            "traduccion": "Data stream sent from a program to a destination."
+        },
         "os_walk": {
-            "categoria": ("Manipulación de archivos",),
+            "categoria": ('Manipulación de archivos',),
             "definicion": "Función que genera nombres de archivos en un árbol de directorios.",
-            "traduccion": "Function that generates file names in a directory tree."},
+            "traduccion": "Function that generates file names in a directory tree."
+        },
         "os_remove": {
-            "categoria": ("Manipulación de archivos",),
+            "categoria": ('Manipulación de archivos',),
             "definicion": "Elimina un archivo del sistema de archivos.",
-            "traduccion": "Deletes a file from the filesystem."},
+            "traduccion": "Deletes a file from the filesystem."
+        },
         "option_parser": {
-            "categoria": ("Argumentos de línea de comandos",),
+            "categoria": ('Argumentos de línea de comandos',),
             "definicion": "Clase para analizar opciones y argumentos pasados en la línea de comandos.",
-            "traduccion": "Class to parse options and arguments passed in the command line."},
+            "traduccion": "Class to parse options and arguments passed in the command line."
+        },
         "os_error": {
-            "categoria": ("Errores",),
+            "categoria": ('Errores',),
             "definicion": "Excepción base para errores específicos del sistema operativo.",
-            "traduccion": "Base exception for operating system-specific errors."},
+            "traduccion": "Base exception for operating system-specific errors."
+        },
         "one_hot_encoding": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Representación de datos categóricos como vectores binarios.",
-            "traduccion": "Representation of categorical data as binary vectors."},
+            "traduccion": "Representation of categorical data as binary vectors."
+        },
         "ordered_set": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Conjunto que conserva el orden de inserción de los elementos.",
-            "traduccion": "Set that preserves the insertion order of elements."},
+            "traduccion": "Set that preserves the insertion order of elements."
+        },
         "on_error": {
-            "categoria": ("Manejo de errores",),
+            "categoria": ('Manejo de errores',),
             "definicion": "Evento o función que se activa al ocurrir un error.",
-            "traduccion": "Event or function triggered when an error occurs."},
+            "traduccion": "Event or function triggered when an error occurs."
+        },
         "os_stat": {
-            "categoria": ("Manipulación de archivos",),
+            "categoria": ('Manipulación de archivos',),
             "definicion": "Devuelve información sobre un archivo o directorio.",
-            "traduccion": "Returns information about a file or directory."},
+            "traduccion": "Returns information about a file or directory."
+        },
         "os_mkdir": {
-            "categoria": ("Manipulación de archivos",),
+            "categoria": ('Manipulación de archivos',),
             "definicion": "Crea un nuevo directorio en el sistema de archivos.",
-            "traduccion": "Creates a new directory in the filesystem."},
+            "traduccion": "Creates a new directory in the filesystem."
+        },
         "operator_overloading": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación orientada a objetos',),
             "definicion": "Técnica para redefinir el comportamiento de operadores estándar en clases personalizadas.",
-            "traduccion": "Technique to redefine the behavior of standard operators in custom classes."},
+            "traduccion": "Technique to redefine the behavior of standard operators in custom classes."
+        },
         "offset_mapping": {
-            "categoria": ("Procesamiento de datos",),
+            "categoria": ('Procesamiento de datos',),
             "definicion": "Asociación entre posiciones de datos en diferentes formatos o estructuras.",
-            "traduccion": "Association between data positions in different formats or structures."},
+            "traduccion": "Association between data positions in different formats or structures."
+        },
         "os_path_exists": {
-            "categoria": ("Manipulación de archivos",),
+            "categoria": ('Manipulación de archivos',),
             "definicion": "Comprueba si una ruta de archivo o directorio existe.",
-            "traduccion": "Checks if a file or directory path exists."},
+            "traduccion": "Checks if a file or directory path exists."
+        },
         "output_file": {
-            "categoria": ("Entrada/Salida",),
+            "categoria": ('Entrada/Salida',),
             "definicion": "Archivo donde se escriben los datos procesados.",
-            "traduccion": "File where processed data is written."},
+            "traduccion": "File where processed data is written."
+        },
         "optimization": {
-            "categoria": ("Rendimiento",),
+            "categoria": ('Rendimiento',),
             "definicion": "Proceso de mejorar la eficiencia y velocidad de un programa.",
-            "traduccion": "Process of improving the efficiency and speed of a program."},
+            "traduccion": "Process of improving the efficiency and speed of a program."
+        },
         "os_getcwd": {
-            "categoria": ("Manipulación de archivos",),
+            "categoria": ('Manipulación de archivos',),
             "definicion": "Devuelve el directorio de trabajo actual.",
-            "traduccion": "Returns the current working directory."},
+            "traduccion": "Returns the current working directory."
+        },
         "os_rename": {
-            "categoria": ("Manipulación de archivos",),
+            "categoria": ('Manipulación de archivos',),
             "definicion": "Cambia el nombre de un archivo o directorio.",
-            "traduccion": "Renames a file or directory."},
+            "traduccion": "Renames a file or directory."
+        },
         "os_chmod": {
-            "categoria": ("Permisos",),
+            "categoria": ('Permisos',),
             "definicion": "Cambia los permisos de un archivo o directorio.",
-            "traduccion": "Changes the permissions of a file or directory."},
+            "traduccion": "Changes the permissions of a file or directory."
+        },
         "open_file_mode": {
-            "categoria": ("Entrada/Salida",),
+            "categoria": ('Entrada/Salida',),
             "definicion": "Modo en el que se abre un archivo (lectura, escritura, etc.).",
-            "traduccion": "Mode in which a file is opened (read, write, etc.)."},
+            "traduccion": "Mode in which a file is opened (read, write, etc.)."
+        },
         "open_source": {
-            "categoria": ("Desarrollo de software",),
+            "categoria": ('Desarrollo de software',),
             "definicion": "Software con código accesible y modificable por la comunidad.",
-            "traduccion": "Software with code accessible and modifiable by the community."},
+            "traduccion": "Software with code accessible and modifiable by the community."
+        },
         "output_format": {
-            "categoria": ("Configuración",),
+            "categoria": ('Configuración',),
             "definicion": "Formato en el que se presentan los resultados o datos procesados.",
-            "traduccion": "Format in which processed data or results are presented."},
+            "traduccion": "Format in which processed data or results are presented."
+        },
         "one_time_pad": {
-            "categoria": ("Criptografía",),
+            "categoria": ('Criptografía',),
             "definicion": "Método de cifrado que utiliza una clave única y aleatoria.",
-            "traduccion": "Encryption method that uses a unique and random key."},
+            "traduccion": "Encryption method that uses a unique and random key."
+        },
         "override_property": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación orientada a objetos',),
             "definicion": "Permite redefinir propiedades en clases derivadas.",
-            "traduccion": "Allows redefining properties in derived classes."}},
+            "traduccion": "Allows redefining properties in derived classes."
+        }
+    },
     "p": {
         "print": {
-            "categoria": ("Funciones de salida",),
+            "categoria": ('Funciones de salida',),
             "definicion": "Imprime un mensaje en la consola o terminal.",
-            "traduccion": "Prints a message to the console or terminal."},
+            "traduccion": "Prints a message to the console or terminal."
+        },
         "pop": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Elimina y devuelve un elemento de una lista o diccionario.",
-            "traduccion": "Removes and returns an element from a list or dictionary."},
+            "traduccion": "Removes and returns an element from a list or dictionary."
+        },
         "property": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación orientada a objetos',),
             "definicion": "Crea métodos accesibles como atributos.",
-            "traduccion": "Creates methods accessible as attributes."},
+            "traduccion": "Creates methods accessible as attributes."
+        },
         "pow": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Devuelve el resultado de elevar un número a una potencia.",
-            "traduccion": "Returns the result of raising a number to a power."},
+            "traduccion": "Returns the result of raising a number to a power."
+        },
         "pprint": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Imprime estructuras de datos en un formato legible.",
-            "traduccion": "Prints data structures in a readable format."},
+            "traduccion": "Prints data structures in a readable format."
+        },
         "pass": {
-            "categoria": ("Control de flujo",),
+            "categoria": ('Control de flujo',),
             "definicion": "Indica una operación nula, no realiza ninguna acción.",
-            "traduccion": "Indicates a null operation; does nothing."},
+            "traduccion": "Indicates a null operation; does nothing."
+        },
         "pip": {
-            "categoria": ("Gestión de paquetes",),
+            "categoria": ('Gestión de paquetes',),
             "definicion": "Herramienta para instalar y gestionar paquetes Python.",
-            "traduccion": "Tool for installing and managing Python packages."},
+            "traduccion": "Tool for installing and managing Python packages."
+        },
         "pickle": {
-            "categoria": ("Serialización",),
+            "categoria": ('Serialización',),
             "definicion": "Módulo para serializar y deserializar objetos Python.",
-            "traduccion": "Module for serializing and deserializing Python objects."},
+            "traduccion": "Module for serializing and deserializing Python objects."
+        },
         "partition": {
-            "categoria": ("Manipulación de cadenas",),
+            "categoria": ('Manipulación de cadenas',),
             "definicion": "Divide una cadena en tres partes usando un separador.",
-            "traduccion": "Splits a string into three parts using a separator."},
+            "traduccion": "Splits a string into three parts using a separator."
+        },
         "pathlib": {
-            "categoria": ("Manipulación de archivos",),
+            "categoria": ('Manipulación de archivos',),
             "definicion": "Módulo para trabajar con rutas de archivos de manera orientada a objetos.",
-            "traduccion": "Module for working with file paths in an object-oriented manner."},
+            "traduccion": "Module for working with file paths in an object-oriented manner."
+        },
         "partial": {
-            "categoria": ("Programación funcional",),
+            "categoria": ('Programación funcional',),
             "definicion": "Crea funciones con argumentos predefinidos.",
-            "traduccion": "Creates functions with predefined arguments."},
+            "traduccion": "Creates functions with predefined arguments."
+        },
         "popitem": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Elimina y devuelve el último par clave-valor de un diccionario.",
-            "traduccion": "Removes and returns the last key-value pair from a dictionary."},
+            "traduccion": "Removes and returns the last key-value pair from a dictionary."
+        },
         "permutations": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Genera todas las permutaciones posibles de un iterable.",
-            "traduccion": "Generates all possible permutations of an iterable."},
+            "traduccion": "Generates all possible permutations of an iterable."
+        },
         "plt_plot": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Función para crear gráficos lineales en Matplotlib.",
-            "traduccion": "Function for creating line plots in Matplotlib."},
+            "traduccion": "Function for creating line plots in Matplotlib."
+        },
         "paramiko": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Módulo para trabajar con SSH y SFTP en Python.",
-            "traduccion": "Module for working with SSH and SFTP in Python."},
+            "traduccion": "Module for working with SSH and SFTP in Python."
+        },
         "path": {
-            "categoria": ("Manipulación de archivos",),
-            "definicion": "Representa la ubicación de un archivo o directorio.",
-            "traduccion": "Represents the location of a file or directory."},
-        "pdf_merger": {
-            "categoria": ("Manipulación de archivos",),
-            "definicion": "Herramienta para combinar varios archivos PDF en uno solo.",
-            "traduccion": "Tool for merging multiple PDF files into one."},
-        "pandas": {
-            "categoria": ("Análisis de datos",),
-            "definicion": "Librería para manipulación y análisis de datos estructurados.",
-            "traduccion": "Library for handling and analyzing structured data."},
-        "parse": {
-            "categoria": ("Procesamiento de datos",),
-            "definicion": "Convierte cadenas en estructuras de datos específicas.",
-            "traduccion": "Converts strings into specific data structures."},
-        "pipe": {
-            "categoria": ("Programación funcional",),
-            "definicion": "Combina varias funciones para aplicar una tras otra.",
-            "traduccion": "Combines multiple functions to apply one after another."},
-        "print_function": {
-            "categoria": ("Funciones de salida",),
-            "definicion": "Importación que habilita la función print como en Python 3.",
-            "traduccion": "Import that enables the print function as in Python 3."},
-        "proxy": {
-            "categoria": ("Redes",),
-            "definicion": "Intermediario entre el cliente y el servidor para gestionar solicitudes.",
-            "traduccion": "Intermediary between client and server to handle requests."},
-        "profile": {
-            "categoria": ("Depuración",),
-            "definicion": "Módulo para analizar el rendimiento de un programa.",
-            "traduccion": "Module for profiling the performance of a program."},
-        "pool": {
-            "categoria": ("Multiprocesamiento",),
-            "definicion": "Clase para gestionar un grupo de procesos.",
-            "traduccion": "Class for managing a pool of processes."},
-        "pow_function": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Calcula potencias con un exponente opcional para un módulo.",
-            "traduccion": "Computes powers with an optional modulus."},
-        "proxy_server": {
-            "categoria": ("Redes",),
-            "definicion": "Servidor que actúa como intermediario en solicitudes HTTP/HTTPS.",
-            "traduccion": "Server acting as an intermediary for HTTP/HTTPS requests."},
-        "plotly": {
-            "categoria": ("Visualización de datos",),
-            "definicion": "Librería para crear gráficos interactivos en Python.",
-            "traduccion": "Library for creating interactive plots in Python."},
-        "pipeline": {
-            "categoria": ("Procesamiento de datos",),
-            "definicion": "Secuencia de pasos de procesamiento en aprendizaje automático.",
-            "traduccion": "Sequence of processing steps in machine learning."},
-        "partial_fit": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Ajusta modelos incrementales en lotes de datos.",
-            "traduccion": "Fits incremental models on data batches."},
-        "parquet": {
-            "categoria": ("Análisis de datos",),
-            "definicion": "Formato de archivo columnar eficiente para almacenamiento y procesamiento.",
-            "traduccion": "Efficient columnar file format for storage and processing."},
-        "pkg_resources": {
-            "categoria": ("Gestión de paquetes",),
-            "definicion": "Módulo para trabajar con recursos y dependencias de paquetes.",
-            "traduccion": "Module for working with package resources and dependencies."},
-        "plot": {
-            "categoria": ("Visualización de datos",),
-            "definicion": "Función básica para generar gráficos en Matplotlib.",
-            "traduccion": "Basic function for generating plots in Matplotlib."},
-        "path_exists": {
-            "categoria": ("Manipulación de archivos",),
-            "definicion": "Verifica si una ruta o archivo existe en el sistema.",
-            "traduccion": "Checks if a path or file exists on the system."},
-        "preprocess": {
-            "categoria": ("Procesamiento de datos",),
-            "definicion": "Etapa inicial para preparar datos antes de su análisis.",
-            "traduccion": "Initial stage for preparing data before analysis."},
-        "push": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Añade un elemento al final de una pila.",
-            "traduccion": "Adds an element to the end of a stack."},
-        "pop_stack": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Elimina y devuelve el último elemento de una pila.",
-            "traduccion": "Removes and returns the last element of a stack."},
-        "path": {
-            "categoria": ("Manipulación de archivos",),
+            "categoria": ('Manipulación de archivos',),
             "definicion": "Representa una ruta de archivo o directorio en Pathlib.",
-            "traduccion": "Represents a file or directory path in Pathlib."},
+            "traduccion": "Represents a file or directory path in Pathlib."
+        },
+        "pdf_merger": {
+            "categoria": ('Manipulación de archivos',),
+            "definicion": "Herramienta para combinar varios archivos PDF en uno solo.",
+            "traduccion": "Tool for merging multiple PDF files into one."
+        },
+        "pandas": {
+            "categoria": ('Análisis de datos',),
+            "definicion": "Librería para manipulación y análisis de datos estructurados.",
+            "traduccion": "Library for handling and analyzing structured data."
+        },
+        "parse": {
+            "categoria": ('Procesamiento de datos',),
+            "definicion": "Convierte cadenas en estructuras de datos específicas.",
+            "traduccion": "Converts strings into specific data structures."
+        },
+        "pipe": {
+            "categoria": ('Programación funcional',),
+            "definicion": "Combina varias funciones para aplicar una tras otra.",
+            "traduccion": "Combines multiple functions to apply one after another."
+        },
+        "print_function": {
+            "categoria": ('Funciones de salida',),
+            "definicion": "Importación que habilita la función print como en Python 3.",
+            "traduccion": "Import that enables the print function as in Python 3."
+        },
+        "proxy": {
+            "categoria": ('Redes',),
+            "definicion": "Intermediario entre el cliente y el servidor para gestionar solicitudes.",
+            "traduccion": "Intermediary between client and server to handle requests."
+        },
+        "profile": {
+            "categoria": ('Depuración',),
+            "definicion": "Módulo para analizar el rendimiento de un programa.",
+            "traduccion": "Module for profiling the performance of a program."
+        },
+        "pool": {
+            "categoria": ('Multiprocesamiento',),
+            "definicion": "Clase para gestionar un grupo de procesos.",
+            "traduccion": "Class for managing a pool of processes."
+        },
+        "pow_function": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Calcula potencias con un exponente opcional para un módulo.",
+            "traduccion": "Computes powers with an optional modulus."
+        },
+        "proxy_server": {
+            "categoria": ('Redes',),
+            "definicion": "Servidor que actúa como intermediario en solicitudes HTTP/HTTPS.",
+            "traduccion": "Server acting as an intermediary for HTTP/HTTPS requests."
+        },
+        "plotly": {
+            "categoria": ('Visualización de datos',),
+            "definicion": "Librería para crear gráficos interactivos en Python.",
+            "traduccion": "Library for creating interactive plots in Python."
+        },
+        "pipeline": {
+            "categoria": ('Procesamiento de datos',),
+            "definicion": "Secuencia de pasos de procesamiento en aprendizaje automático.",
+            "traduccion": "Sequence of processing steps in machine learning."
+        },
+        "partial_fit": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Ajusta modelos incrementales en lotes de datos.",
+            "traduccion": "Fits incremental models on data batches."
+        },
+        "parquet": {
+            "categoria": ('Análisis de datos',),
+            "definicion": "Formato de archivo columnar eficiente para almacenamiento y procesamiento.",
+            "traduccion": "Efficient columnar file format for storage and processing."
+        },
+        "pkg_resources": {
+            "categoria": ('Gestión de paquetes',),
+            "definicion": "Módulo para trabajar con recursos y dependencias de paquetes.",
+            "traduccion": "Module for working with package resources and dependencies."
+        },
+        "plot": {
+            "categoria": ('Visualización de datos',),
+            "definicion": "Función básica para generar gráficos en Matplotlib.",
+            "traduccion": "Basic function for generating plots in Matplotlib."
+        },
+        "path_exists": {
+            "categoria": ('Manipulación de archivos',),
+            "definicion": "Verifica si una ruta o archivo existe en el sistema.",
+            "traduccion": "Checks if a path or file exists on the system."
+        },
+        "preprocess": {
+            "categoria": ('Procesamiento de datos',),
+            "definicion": "Etapa inicial para preparar datos antes de su análisis.",
+            "traduccion": "Initial stage for preparing data before analysis."
+        },
+        "push": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Añade un elemento al final de una pila.",
+            "traduccion": "Adds an element to the end of a stack."
+        },
+        "pop_stack": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Elimina y devuelve el último elemento de una pila.",
+            "traduccion": "Removes and returns the last element of a stack."
+        },
         "polynomial_features": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Genera características polinómicas a partir de un conjunto de datos.",
-            "traduccion": "Generates polynomial features from a dataset."},
+            "traduccion": "Generates polynomial features from a dataset."
+        },
         "plt_legend": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Añade una leyenda a un gráfico en Matplotlib.",
-            "traduccion": "Adds a legend to a plot in Matplotlib."},
+            "traduccion": "Adds a legend to a plot in Matplotlib."
+        },
         "precision_score": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Métrica para evaluar la precisión de un modelo de clasificación.",
-            "traduccion": "Metric to evaluate the precision of a classification model."},
+            "traduccion": "Metric to evaluate the precision of a classification model."
+        },
         "pipe_operation": {
-            "categoria": ("Programación funcional",),
+            "categoria": ('Programación funcional',),
             "definicion": "Conecta varias operaciones en secuencia en pandas.",
-            "traduccion": "Connects multiple operations in sequence in pandas."},
+            "traduccion": "Connects multiple operations in sequence in pandas."
+        },
         "plt_bar": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Crea gráficos de barras con Matplotlib.",
-            "traduccion": "Creates bar charts with Matplotlib."},
+            "traduccion": "Creates bar charts with Matplotlib."
+        },
         "proxy_handler": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Configura un manejador para solicitudes proxy en urllib.",
-            "traduccion": "Configures a handler for proxy requests in urllib."},
+            "traduccion": "Configures a handler for proxy requests in urllib."
+        },
         "print_exception": {
-            "categoria": ("Depuración",),
+            "categoria": ('Depuración',),
             "definicion": "Imprime información detallada sobre una excepción.",
-            "traduccion": "Prints detailed information about an exception."},
+            "traduccion": "Prints detailed information about an exception."
+        },
         "post_request": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Envía datos al servidor usando el método HTTP POST.",
-            "traduccion": "Sends data to the server using the HTTP POST method."},
+            "traduccion": "Sends data to the server using the HTTP POST method."
+        },
         "plt_pie": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Crea gráficos de pastel en Matplotlib.",
-            "traduccion": "Creates pie charts in Matplotlib."},
+            "traduccion": "Creates pie charts in Matplotlib."
+        },
         "proxy_object": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Objeto que actúa como intermediario entre cliente y servidor.",
-            "traduccion": "Object that acts as an intermediary between client and server."},
+            "traduccion": "Object that acts as an intermediary between client and server."
+        },
         "pandas_series": {
-            "categoria": ("Análisis de datos",),
+            "categoria": ('Análisis de datos',),
             "definicion": "Estructura de datos unidimensional en pandas.",
-            "traduccion": "One-dimensional data structure in pandas."},
+            "traduccion": "One-dimensional data structure in pandas."
+        },
         "plt_scatter": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Genera gráficos de dispersión en Matplotlib.",
-            "traduccion": "Generates scatter plots in Matplotlib."},
+            "traduccion": "Generates scatter plots in Matplotlib."
+        },
         "plt_grid": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Añade una cuadrícula a un gráfico.",
-            "traduccion": "Adds a grid to a plot."},
+            "traduccion": "Adds a grid to a plot."
+        },
         "plt_hist": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Crea histogramas con Matplotlib.",
-            "traduccion": "Creates histograms with Matplotlib."},
+            "traduccion": "Creates histograms with Matplotlib."
+        },
         "plt_savefig": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Guarda un gráfico en un archivo.",
-            "traduccion": "Saves a plot to a file."},
+            "traduccion": "Saves a plot to a file."
+        },
         "plt_title": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Añade un título a un gráfico.",
-            "traduccion": "Adds a title to a plot."},
+            "traduccion": "Adds a title to a plot."
+        },
         "plt_xlabel": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Añade una etiqueta al eje x de un gráfico.",
-            "traduccion": "Adds a label to the x-axis of a plot."},
+            "traduccion": "Adds a label to the x-axis of a plot."
+        },
         "plt_ylabel": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Añade una etiqueta al eje y de un gráfico.",
-            "traduccion": "Adds a label to the y-axis of a plot."},
+            "traduccion": "Adds a label to the y-axis of a plot."
+        },
         "plt_show": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Muestra un gráfico en la ventana gráfica.",
-            "traduccion": "Displays a plot in the graphical window."},
+            "traduccion": "Displays a plot in the graphical window."
+        },
         "plt_colorbar": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Añade una barra de colores a un gráfico.",
-            "traduccion": "Adds a colorbar to a plot."},
+            "traduccion": "Adds a colorbar to a plot."
+        },
         "plt_contour": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Crea gráficos de contorno en Matplotlib.",
-            "traduccion": "Creates contour plots in Matplotlib."},
+            "traduccion": "Creates contour plots in Matplotlib."
+        },
         "plt_fill_between": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Rellena el área entre dos curvas.",
-            "traduccion": "Fills the area between two curves."},
+            "traduccion": "Fills the area between two curves."
+        },
         "plt_annotate": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Añade anotaciones a un gráfico.",
-            "traduccion": "Adds annotations to a plot."},
+            "traduccion": "Adds annotations to a plot."
+        },
         "plt_boxplot": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Genera diagramas de caja para visualizar distribución de datos.",
-            "traduccion": "Generates boxplots to visualize data distribution."},
+            "traduccion": "Generates boxplots to visualize data distribution."
+        },
         "plt_stackplot": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Crea gráficos de área apilados.",
-            "traduccion": "Creates stacked area plots."},
+            "traduccion": "Creates stacked area plots."
+        },
         "plt_quiver": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Dibuja gráficos de campos vectoriales.",
-            "traduccion": "Draws vector field plots."},
+            "traduccion": "Draws vector field plots."
+        },
         "plt_arrow": {
-            "categoria": ("Visualización de datos",),
+            "categoria": ('Visualización de datos',),
             "definicion": "Añade flechas a un gráfico.",
-            "traduccion": "Adds arrows to a plot."}},
+            "traduccion": "Adds arrows to a plot."
+        }
+    },
     "q": {
         "queue": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Estructura de datos FIFO (Primero en entrar, primero en salir).",
-            "traduccion": "FIFO (First In, First Out) data structure."},
+            "traduccion": "FIFO (First In, First Out) data structure."
+        },
         "queue.Queue": {
-            "categoria": ("Manejo de hilos",),
+            "categoria": ('Manejo de hilos',),
             "definicion": "Clase para implementar colas seguras para hilos.",
-            "traduccion": "Class for implementing thread-safe queues."},
+            "traduccion": "Class for implementing thread-safe queues."
+        },
         "qsize": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Devuelve el número de elementos en una cola.",
-            "traduccion": "Returns the number of items in a queue."},
+            "traduccion": "Returns the number of items in a queue."
+        },
         "quit": {
-            "categoria": ("Interacción",),
+            "categoria": ('Interacción',),
             "definicion": "Sale del intérprete interactivo de Python.",
-            "traduccion": "Exits the Python interactive interpreter."},
+            "traduccion": "Exits the Python interactive interpreter."
+        },
         "quantile": {
-            "categoria": ("Estadísticas",),
+            "categoria": ('Estadísticas',),
             "definicion": "Calcula el percentil especificado en un conjunto de datos.",
-            "traduccion": "Calculates the specified percentile in a dataset."},
+            "traduccion": "Calculates the specified percentile in a dataset."
+        },
         "query": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Consulta realizada para obtener datos de una base de datos.",
-            "traduccion": "Query performed to retrieve data from a database."},
+            "traduccion": "Query performed to retrieve data from a database."
+        },
         "quick_sort": {
-            "categoria": ("Algoritmos",),
+            "categoria": ('Algoritmos',),
             "definicion": "Algoritmo de ordenación rápido basado en particiones.",
-            "traduccion": "Fast sorting algorithm based on partitioning."},
+            "traduccion": "Fast sorting algorithm based on partitioning."
+        },
         "quaternion": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Estructura matemática para representar rotaciones en el espacio tridimensional.",
-            "traduccion": "Mathematical structure to represent rotations in 3D space."},
+            "traduccion": "Mathematical structure to represent rotations in 3D space."
+        },
         "qrcode": {
-            "categoria": ("Generación de códigos",),
+            "categoria": ('Generación de códigos',),
             "definicion": "Librería para generar códigos QR.",
-            "traduccion": "Library for generating QR codes."},
+            "traduccion": "Library for generating QR codes."
+        },
         "quantization": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Proceso de reducir la precisión de los números para optimizar modelos.",
-            "traduccion": "Process of reducing numerical precision to optimize models."},
+            "traduccion": "Process of reducing numerical precision to optimize models."
+        },
         "queue.PriorityQueue": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Cola que asigna prioridad a los elementos.",
-            "traduccion": "Queue that assigns priority to elements."},
+            "traduccion": "Queue that assigns priority to elements."
+        },
         "queue.LifoQueue": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Cola basada en el principio LIFO (Último en entrar, primero en salir).",
-            "traduccion": "Queue based on LIFO (Last In, First Out) principle."},
+            "traduccion": "Queue based on LIFO (Last In, First Out) principle."
+        },
         "quad": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Función de SciPy para integrar numéricamente.",
-            "traduccion": "SciPy function for numerical integration."},
+            "traduccion": "SciPy function for numerical integration."
+        },
         "quantize": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Ajusta un número decimal a un valor fijo de dígitos significativos.",
-            "traduccion": "Adjusts a decimal number to a fixed significant digits value"},
+            "traduccion": "Adjusts a decimal number to a fixed significant digits value"
+        },
         "queue.Empty": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Excepción lanzada cuando se intenta acceder a una cola vacía.",
-            "traduccion": "Exception raised when attempting to access an empty queue."},
+            "traduccion": "Exception raised when attempting to access an empty queue."
+        },
         "queue.Full": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Excepción lanzada cuando se intenta agregar a una cola llena.",
-            "traduccion": "Exception raised when attempting to add to a full queue."},
+            "traduccion": "Exception raised when attempting to add to a full queue."
+        },
         "quadprog": {
-            "categoria": ("Optimización",),
+            "categoria": ('Optimización',),
             "definicion": "Librería para resolver problemas de programación cuadrática.",
-            "traduccion": "Library for solving quadratic programming problems."},
+            "traduccion": "Library for solving quadratic programming problems."
+        },
         "queue.SimpleQueue": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Implementación simple de una cola FIFO.",
-            "traduccion": "Simple implementation of a FIFO queue."},
+            "traduccion": "Simple implementation of a FIFO queue."
+        },
         "quantum_computing": {
-            "categoria": ("Computación avanzada",),
+            "categoria": ('Computación avanzada',),
             "definicion": "Campo que utiliza la mecánica cuántica para resolver problemas computacionales.",
-            "traduccion": "Field using quantum mechanics to solve computational problems."},
+            "traduccion": "Field using quantum mechanics to solve computational problems."
+        },
         "queue_handler": {
-            "categoria": ("Registros",),
+            "categoria": ('Registros',),
             "definicion": "Manejador de registro que utiliza una cola para procesar mensajes.",
-            "traduccion": "Logging handler that uses a queue to process messages."},
+            "traduccion": "Logging handler that uses a queue to process messages."
+        },
         "qcut": {
-            "categoria": ("Análisis de datos",),
+            "categoria": ('Análisis de datos',),
             "definicion": "Divide datos en intervalos basados en cuantiles.",
-            "traduccion": "Divides data into intervals based on quantiles."},
+            "traduccion": "Divides data into intervals based on quantiles."
+        },
         "query_parameters": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Parámetros que se usan para personalizar consultas SQL.",
-            "traduccion": "Parameters used to customize SQL queries."},
+            "traduccion": "Parameters used to customize SQL queries."
+        },
         "quantum_state": {
-            "categoria": ("Computación avanzada",),
+            "categoria": ('Computación avanzada',),
             "definicion": "Representación matemática del estado de un sistema cuántico.",
-            "traduccion": "Mathematical representation of a quantum system's state."},
+            "traduccion": "Mathematical representation of a quantum system's state."
+        },
         "queue_module": {
-            "categoria": ("Manejo de hilos",),
+            "categoria": ('Manejo de hilos',),
             "definicion": "Módulo de Python que ofrece colas seguras para múltiples hilos.",
-            "traduccion": "Python module providing thread-safe queues."},
+            "traduccion": "Python module providing thread-safe queues."
+        },
         "quadrature": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Técnica para calcular áreas bajo curvas usando integración.",
-            "traduccion": "Technique to calculate areas under curves using integration."},
+            "traduccion": "Technique to calculate areas under curves using integration."
+        },
         "quantum_circuit": {
-            "categoria": ("Computación avanzada",),
+            "categoria": ('Computación avanzada',),
             "definicion": "Modelo matemático para representar operaciones en computación cuántica.",
-            "traduccion": "Mathematical model for representing operations in quantum computing."},
+            "traduccion": "Mathematical model for representing operations in quantum computing."
+        },
         "queue_time": {
-            "categoria": ("Análisis de rendimiento",),
+            "categoria": ('Análisis de rendimiento',),
             "definicion": "Tiempo que un elemento pasa en espera en una cola.",
-            "traduccion": "Time an item spends waiting in a queue."},
+            "traduccion": "Time an item spends waiting in a queue."
+        },
         "quantile_transform": {
-            "categoria": ("Preprocesamiento de datos",),
+            "categoria": ('Preprocesamiento de datos',),
             "definicion": "Transforma datos para que sigan una distribución uniforme.",
-            "traduccion": "Transforms data to follow a uniform distribution."},
+            "traduccion": "Transforms data to follow a uniform distribution."
+        },
         "queryset": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Conjunto de datos devueltos por una consulta en Django ORM.",
-            "traduccion": "Set of data returned by a query in Django ORM."},
+            "traduccion": "Set of data returned by a query in Django ORM."
+        },
         "quicktest": {
-            "categoria": ("Pruebas de software",),
+            "categoria": ('Pruebas de software',),
             "definicion": "Método para realizar pruebas rápidas de funcionalidad.",
-            "traduccion": "Method for performing quick functionality tests."},
+            "traduccion": "Method for performing quick functionality tests."
+        },
         "queue_timeout": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Tiempo máximo que un elemento puede permanecer en una cola.",
-            "traduccion": "Maximum time an item can remain in a queue."},
+            "traduccion": "Maximum time an item can remain in a queue."
+        },
         "quantum_noise": {
-            "categoria": ("Computación avanzada",),
+            "categoria": ('Computación avanzada',),
             "definicion": "Ruido inherente en sistemas cuánticos que afecta la precisión.",
-            "traduccion": "Inherent noise in quantum systems affecting accuracy."},
+            "traduccion": "Inherent noise in quantum systems affecting accuracy."
+        },
         "qimage": {
-            "categoria": ("Procesamiento de imágenes",),
+            "categoria": ('Procesamiento de imágenes',),
             "definicion": "Clase para manipular imágenes en PyQt.",
-            "traduccion": "Class for manipulating images in PyQt."},
+            "traduccion": "Class for manipulating images in PyQt."
+        },
         "qfont": {
-            "categoria": ("Interfaz gráfica",),
+            "categoria": ('Interfaz gráfica',),
             "definicion": "Clase para trabajar con fuentes en PyQt.",
-            "traduccion": "Class for working with fonts in PyQt."},
+            "traduccion": "Class for working with fonts in PyQt."
+        },
         "qmainwindow": {
-            "categoria": ("Interfaz gráfica",),
+            "categoria": ('Interfaz gráfica',),
             "definicion": "Clase principal para crear ventanas en PyQt.",
-            "traduccion": "Main class for creating windows in PyQt."},
+            "traduccion": "Main class for creating windows in PyQt."
+        },
         "quickstart": {
-            "categoria": ("Documentación",),
+            "categoria": ('Documentación',),
             "definicion": "Guía inicial para configurar y ejecutar proyectos.",
-            "traduccion": "Initial guide for setting up and running projects."},
+            "traduccion": "Initial guide for setting up and running projects."
+        },
         "quantum_computer": {
-            "categoria": ("Computación avanzada",),
+            "categoria": ('Computación avanzada',),
             "definicion": "Máquina basada en principios cuánticos para resolver problemas complejos.",
-            "traduccion": "Machine based on quantum principles to solve complex problems."},
+            "traduccion": "Machine based on quantum principles to solve complex problems."
+        },
         "qos": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Calidad de servicio, utilizada para gestionar recursos en redes.",
-            "traduccion": "Quality of Service, used to manage resources in networks."},
+            "traduccion": "Quality of Service, used to manage resources in networks."
+        },
         "qsplitter": {
-            "categoria": ("Interfaz gráfica",),
+            "categoria": ('Interfaz gráfica',),
             "definicion": "Widget para dividir áreas de una ventana en PyQt.",
-            "traduccion": "Widget for dividing areas of a window in PyQt."},
+            "traduccion": "Widget for dividing areas of a window in PyQt."
+        },
         "quantile_normalization": {
-            "categoria": ("Análisis de datos",),
+            "categoria": ('Análisis de datos',),
             "definicion": "Método para igualar distribuciones de datos entre muestras.",
-            "traduccion": "Method to equalize data distributions across samples."},
+            "traduccion": "Method to equalize data distributions across samples."
+        },
         "quad_tree": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Estructura jerárquica usada para dividir el espacio en áreas cuadradas.",
-            "traduccion": "Hierarchical structure used to divide space into square areas."},
+            "traduccion": "Hierarchical structure used to divide space into square areas."
+        },
         "query_tool": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Herramienta para construir y ejecutar consultas SQL.",
-            "traduccion": "Tool for building and executing SQL queries."},
+            "traduccion": "Tool for building and executing SQL queries."
+        },
         "qwidget": {
-            "categoria": ("Interfaz gráfica",),
+            "categoria": ('Interfaz gráfica',),
             "definicion": "Clase base para crear elementos de interfaz en PyQt.",
-            "traduccion": "Base class for creating interface elements in PyQt."},
+            "traduccion": "Base class for creating interface elements in PyQt."
+        },
         "quiver": {
-            "categoria": ("Visualización",),
+            "categoria": ('Visualización',),
             "definicion": "Función de Matplotlib para trazar campos vectoriales.",
-            "traduccion": "Matplotlib function to plot vector fields."},
+            "traduccion": "Matplotlib function to plot vector fields."
+        },
         "queue_manager": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Módulo que gestiona colas distribuidas en multiprocessing.",
-            "traduccion": "Module that manages distributed queues in multiprocessing."},
+            "traduccion": "Module that manages distributed queues in multiprocessing."
+        },
         "qapplication": {
-            "categoria": ("Interfaz gráfica",),
+            "categoria": ('Interfaz gráfica',),
             "definicion": "Clase principal para inicializar aplicaciones en PyQt.",
-            "traduccion": "Main class for initializing applications in PyQt."},
+            "traduccion": "Main class for initializing applications in PyQt."
+        },
         "quantum_gate": {
-            "categoria": ("Computación avanzada",),
+            "categoria": ('Computación avanzada',),
             "definicion": "Operación básica en circuitos de computación cuántica.",
-            "traduccion": "Basic operation in quantum computing circuits."},
+            "traduccion": "Basic operation in quantum computing circuits."
+        },
         "quickselect": {
-            "categoria": ("Algoritmos",),
+            "categoria": ('Algoritmos',),
             "definicion": "Algoritmo para encontrar el k-ésimo elemento más pequeño.",
-            "traduccion": "Algorithm to find the k-th smallest element."},
+            "traduccion": "Algorithm to find the k-th smallest element."
+        },
         "query_optimizer": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Componente que mejora el rendimiento de consultas SQL.",
-            "traduccion": "Component that improves SQL query performance."},
+            "traduccion": "Component that improves SQL query performance."
+        },
         "qubit": {
-            "categoria": ("Computación avanzada",),
+            "categoria": ('Computación avanzada',),
             "definicion": "Unidad básica de información en computación cuántica.",
-            "traduccion": "Basic unit of information in quantum computing."},
+            "traduccion": "Basic unit of information in quantum computing."
+        },
         "quantum_entanglement": {
-            "categoria": ("Computación avanzada",),
+            "categoria": ('Computación avanzada',),
             "definicion": "Propiedad de partículas cuánticas que comparten estados.",
-            "traduccion": "Property of quantum particles that share states."},
+            "traduccion": "Property of quantum particles that share states."
+        },
         "qpoint": {
-            "categoria": ("Interfaz gráfica",),
+            "categoria": ('Interfaz gráfica',),
             "definicion": "Clase para representar puntos en un sistema de coordenadas en PyQt.",
-            "traduccion": "Class to represent points in a coordinate system in PyQt."},
+            "traduccion": "Class to represent points in a coordinate system in PyQt."
+        },
         "quantum_tensor": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Representación matemática usada en operaciones cuánticas.",
-            "traduccion": "Mathematical representation used in quantum operations."},
+            "traduccion": "Mathematical representation used in quantum operations."
+        },
         "query_cursor": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Objeto que permite ejecutar consultas y recorrer resultados.",
-            "traduccion": "Object that allows executing queries and iterating over results."},
+            "traduccion": "Object that allows executing queries and iterating over results."
+        },
         "quaternion_rotation": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Uso de cuaterniones para representar rotaciones en 3D.",
-            "traduccion": "Use of quaternions to represent rotations in 3D."},
+            "traduccion": "Use of quaternions to represent rotations in 3D."
+        },
         "queue_size": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Propiedad que devuelve el tamaño de una cola.",
-            "traduccion": "Property that returns the size of a queue."},
+            "traduccion": "Property that returns the size of a queue."
+        },
         "quantum_key_distribution": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "Método para distribuir claves usando propiedades cuánticas.",
-            "traduccion": "Method for key distribution using quantum properties."},
+            "traduccion": "Method for key distribution using quantum properties."
+        },
         "quick_fix": {
-            "categoria": ("Depuración",),
+            "categoria": ('Depuración',),
             "definicion": "Solución temporal para corregir errores en código.",
-            "traduccion": "Temporary solution to fix errors in code."},
+            "traduccion": "Temporary solution to fix errors in code."
+        },
         "queue_put": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Método para agregar un elemento a una cola.",
-            "traduccion": "Method to add an item to a queue."}},
+            "traduccion": "Method to add an item to a queue."
+        }
+    },
     "r": {
         "range": {
-            "categoria": ("Funciones de secuencia",),
+            "categoria": ('Funciones de secuencia',),
             "definicion": "Crea una secuencia inmutable de números dentro de un rango especificado.",
-            "traduccion": "Creates an immutable sequence of numbers within a specified range."},
+            "traduccion": "Creates an immutable sequence of numbers within a specified range."
+        },
         "read": {
-            "categoria": ("Archivos",),
+            "categoria": ('Archivos',),
             "definicion": "Método para leer el contenido de un archivo.",
-            "traduccion": "Method to read the contents of a file."},
+            "traduccion": "Method to read the contents of a file."
+        },
         "replace": {
-            "categoria": ("Cadenas de texto",),
+            "categoria": ('Cadenas de texto',),
             "definicion": "Método que reemplaza partes de una cadena con otra.",
-            "traduccion": "Method that replaces parts of a string with another."},
+            "traduccion": "Method that replaces parts of a string with another."
+        },
         "reverse": {
-            "categoria": ("Listas",),
+            "categoria": ('Listas',),
             "definicion": "Método que invierte el orden de los elementos de una lista.",
-            "traduccion": "Method that reverses the order of elements in a list."},
+            "traduccion": "Method that reverses the order of elements in a list."
+        },
         "readlines": {
-            "categoria": ("Archivos",),
+            "categoria": ('Archivos',),
             "definicion": "Lee todas las líneas de un archivo y las devuelve como una lista.",
-            "traduccion": "Reads all lines of a file and returns them as a list."},
+            "traduccion": "Reads all lines of a file and returns them as a list."
+        },
         "remove": {
-            "categoria": ("Listas",),
+            "categoria": ('Listas',),
             "definicion": "Elimina la primera aparición de un elemento en una lista.",
-            "traduccion": "Removes the first occurrence of an element in a list."},
+            "traduccion": "Removes the first occurrence of an element in a list."
+        },
         "random": {
-            "categoria": ("Generación de números",),
+            "categoria": ('Generación de números',),
             "definicion": "Módulo para generar números pseudoaleatorios.",
-            "traduccion": "Module for generating pseudorandom numbers."},
+            "traduccion": "Module for generating pseudorandom numbers."
+        },
         "read_csv": {
-            "categoria": ("Análisis de datos",),
+            "categoria": ('Análisis de datos',),
             "definicion": "Función de pandas para leer archivos CSV.",
-            "traduccion": "Pandas function to read CSV files."},
+            "traduccion": "Pandas function to read CSV files."
+        },
         "rename": {
-            "categoria": ("Archivos",),
+            "categoria": ('Archivos',),
             "definicion": "Cambiar el nombre de un archivo o directorio.",
-            "traduccion": "Change the name of a file or directory."},
+            "traduccion": "Change the name of a file or directory."
+        },
         "raise": {
-            "categoria": ("Excepciones",),
+            "categoria": ('Excepciones',),
             "definicion": "Lanza una excepción especificada en el código.",
-            "traduccion": "Raises a specified exception in the code."},
+            "traduccion": "Raises a specified exception in the code."
+        },
         "round": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Redondea un número al número de decimales especificado.",
-            "traduccion": "Rounds a number to the specified number of decimals."},
-        "reduce": {
-            "categoria": ("Programación funcional",),
-            "definicion": "Aplica una función acumulativa a los elementos de un iterable.",
-            "traduccion": "Applies a cumulative function to the elements of an iterable."},
-        "read_excel": {
-            "categoria": ("Análisis de datos",),
-            "definicion": "Función de pandas para leer archivos Excel.",
-            "traduccion": "Pandas function to read Excel files."},
-        "reversed": {
-            "categoria": ("Funciones de secuencia",),
-            "definicion": "Devuelve un iterador que invierte una secuencia.",
-            "traduccion": "Returns an iterator that reverses a sequence."},
-        "radians": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Convierte un ángulo de grados a radianes.",
-            "traduccion": "Converts an angle from degrees to radians."},
-        "randint": {
-            "categoria": ("Generación de números",),
-            "definicion": "Devuelve un número entero aleatorio dentro de un rango.",
-            "traduccion": "Returns a random integer within a range."},
-        "regex": {
-            "categoria": ("Manipulación de texto",),
-            "definicion": "Expresiones regulares para buscar y manipular texto.",
-            "traduccion": "Regular expressions for searching and manipulating text."},
-        "reset_index": {
-            "categoria": ("Análisis de datos",),
-            "definicion": "Restablece el índice de un DataFrame en pandas.",
-            "traduccion": "Resets the index of a DataFrame in pandas."},
-        "read_json": {
-            "categoria": ("Análisis de datos",),
-            "definicion": "Función de pandas para leer archivos JSON.",
-            "traduccion": "Pandas function to read JSON files."},
-        "request": {
-            "categoria": ("Redes",),
-            "definicion": "Módulo para realizar solicitudes HTTP.",
-            "traduccion": "Module for making HTTP requests."},
-        "row": {
-            "categoria": ("Bases de datos",),
-            "definicion": "Representa una fila en un conjunto de datos.",
-            "traduccion": "Represents a row in a dataset."},
-        "resize": {
-            "categoria": ("Procesamiento de imágenes",),
-            "definicion": "Cambia las dimensiones de una imagen.",
-            "traduccion": "Changes the dimensions of an image."},
-        "randrange": {
-            "categoria": ("Generación de números",),
-            "definicion": "Devuelve un número aleatorio dentro de un rango.",
-            "traduccion": "Returns a random number within a range."},
-        "roll": {
-            "categoria": ("Manipulación de matrices",),
-            "definicion": "Desplaza elementos de un array a lo largo de un eje.",
-            "traduccion": "Shifts elements of an array along an axis."},
-        "rand": {
-            "categoria": ("Generación de números",),
-            "definicion": "Genera números aleatorios en un intervalo continuo.",
-            "traduccion": "Generates random numbers in a continuous interval."},
-        "row_stack": {
-            "categoria": ("Manipulación de matrices",),
-            "definicion": "Apila matrices en filas.",
-            "traduccion": "Stacks arrays in rows."},
-        "result": {
-            "categoria": ("Programación concurrente",),
-            "definicion": "Método para obtener el resultado de una tarea en multiprocessing.",
-            "traduccion": "Method to get the result of a task in multiprocessing."},
-        "read_pickle": {
-            "categoria": ("Serialización",),
-            "definicion": "Lee un archivo serializado en formato pickle.",
-            "traduccion": "Reads a serialized file in pickle format."},
-        "resolve": {
-            "categoria": ("Redes",),
-            "definicion": "Resuelve un dominio en su dirección IP.",
-            "traduccion": "Resolves a domain to its IP address."},
-        "reset": {
-            "categoria": ("Programación",),
-            "definicion": "Restablece el estado inicial de un objeto o variable.",
-            "traduccion": "Resets the initial state of an object or variable."},
-        "read_sql": {
-            "categoria": ("Análisis de datos",),
-            "definicion": "Función de pandas para ejecutar consultas SQL y obtener resultados.",
-            "traduccion": "Pandas function to execute SQL queries and get results."},
-        "root": {
-            "categoria": ("Árboles",),
-            "definicion": "Nodo principal en una estructura de árbol.",
-            "traduccion": "Main node in a tree structure."},
-        "recursion": {
-            "categoria": ("Programación",),
-            "definicion": "Técnica donde una función se llama a sí misma para resolver problemas.",
-            "traduccion": "Technique where a function calls itself to solve problems."},
-        "readline": {
-            "categoria": ("Archivos",),
-            "definicion": "Método que lee una línea específica de un archivo.",
-            "traduccion": "Method that reads a specific line from a file."},
-        "round": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Redondea un número al entero más cercano o a un número de decimales especificado.",
-            "traduccion": "Rounds a number to the nearest integer or specified decimals."},
+            "traduccion": "Rounds a number to the nearest integer or specified decimals."
+        },
+        "reduce": {
+            "categoria": ('Programación funcional',),
+            "definicion": "Aplica una función acumulativa a los elementos de un iterable.",
+            "traduccion": "Applies a cumulative function to the elements of an iterable."
+        },
+        "read_excel": {
+            "categoria": ('Análisis de datos',),
+            "definicion": "Función de pandas para leer archivos Excel.",
+            "traduccion": "Pandas function to read Excel files."
+        },
+        "reversed": {
+            "categoria": ('Funciones de secuencia',),
+            "definicion": "Devuelve un iterador que invierte una secuencia.",
+            "traduccion": "Returns an iterator that reverses a sequence."
+        },
+        "radians": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Convierte un ángulo de grados a radianes.",
+            "traduccion": "Converts an angle from degrees to radians."
+        },
+        "randint": {
+            "categoria": ('Generación de números',),
+            "definicion": "Devuelve un número entero aleatorio dentro de un rango.",
+            "traduccion": "Returns a random integer within a range."
+        },
+        "regex": {
+            "categoria": ('Manipulación de texto',),
+            "definicion": "Expresiones regulares para buscar y manipular texto.",
+            "traduccion": "Regular expressions for searching and manipulating text."
+        },
+        "reset_index": {
+            "categoria": ('Análisis de datos',),
+            "definicion": "Restablece el índice de un DataFrame en pandas.",
+            "traduccion": "Resets the index of a DataFrame in pandas."
+        },
+        "read_json": {
+            "categoria": ('Análisis de datos',),
+            "definicion": "Función de pandas para leer archivos JSON.",
+            "traduccion": "Pandas function to read JSON files."
+        },
+        "request": {
+            "categoria": ('Redes',),
+            "definicion": "Módulo para realizar solicitudes HTTP.",
+            "traduccion": "Module for making HTTP requests."
+        },
+        "row": {
+            "categoria": ('Bases de datos',),
+            "definicion": "Representa una fila en un conjunto de datos.",
+            "traduccion": "Represents a row in a dataset."
+        },
+        "resize": {
+            "categoria": ('Procesamiento de imágenes',),
+            "definicion": "Cambia las dimensiones de una imagen.",
+            "traduccion": "Changes the dimensions of an image."
+        },
+        "randrange": {
+            "categoria": ('Generación de números',),
+            "definicion": "Devuelve un número aleatorio dentro de un rango.",
+            "traduccion": "Returns a random number within a range."
+        },
+        "roll": {
+            "categoria": ('Manipulación de matrices',),
+            "definicion": "Desplaza elementos de un array a lo largo de un eje.",
+            "traduccion": "Shifts elements of an array along an axis."
+        },
+        "rand": {
+            "categoria": ('Generación de números',),
+            "definicion": "Genera números aleatorios en un intervalo continuo.",
+            "traduccion": "Generates random numbers in a continuous interval."
+        },
+        "row_stack": {
+            "categoria": ('Manipulación de matrices',),
+            "definicion": "Apila matrices en filas.",
+            "traduccion": "Stacks arrays in rows."
+        },
+        "result": {
+            "categoria": ('Programación concurrente',),
+            "definicion": "Método para obtener el resultado de una tarea en multiprocessing.",
+            "traduccion": "Method to get the result of a task in multiprocessing."
+        },
+        "read_pickle": {
+            "categoria": ('Serialización',),
+            "definicion": "Lee un archivo serializado en formato pickle.",
+            "traduccion": "Reads a serialized file in pickle format."
+        },
+        "resolve": {
+            "categoria": ('Redes',),
+            "definicion": "Resuelve un dominio en su dirección IP.",
+            "traduccion": "Resolves a domain to its IP address."
+        },
+        "reset": {
+            "categoria": ('Programación',),
+            "definicion": "Restablece el estado inicial de un objeto o variable.",
+            "traduccion": "Resets the initial state of an object or variable."
+        },
+        "read_sql": {
+            "categoria": ('Análisis de datos',),
+            "definicion": "Función de pandas para ejecutar consultas SQL y obtener resultados.",
+            "traduccion": "Pandas function to execute SQL queries and get results."
+        },
+        "root": {
+            "categoria": ('Árboles',),
+            "definicion": "Nodo principal en una estructura de árbol.",
+            "traduccion": "Main node in a tree structure."
+        },
+        "recursion": {
+            "categoria": ('Programación',),
+            "definicion": "Técnica donde una función se llama a sí misma para resolver problemas.",
+            "traduccion": "Technique where a function calls itself to solve problems."
+        },
+        "readline": {
+            "categoria": ('Archivos',),
+            "definicion": "Método que lee una línea específica de un archivo.",
+            "traduccion": "Method that reads a specific line from a file."
+        },
         "rjust": {
-            "categoria": ("Cadenas de texto",),
+            "categoria": ('Cadenas de texto',),
             "definicion": "Devuelve una cadena justificada a la derecha.",
-            "traduccion": "Returns a right-justified string."},
+            "traduccion": "Returns a right-justified string."
+        },
         "rowcount": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Atributo que devuelve el número de filas afectadas por una consulta.",
-            "traduccion": "Attribute that returns the number of rows affected by a query."},
+            "traduccion": "Attribute that returns the number of rows affected by a query."
+        },
         "read_table": {
-            "categoria": ("Análisis de datos",),
+            "categoria": ('Análisis de datos',),
             "definicion": "Función de pandas para leer archivos delimitados por tabulaciones.",
-            "traduccion": "Pandas function to read tab-delimited files."},
+            "traduccion": "Pandas function to read tab-delimited files."
+        },
         "rank": {
-            "categoria": ("Análisis de datos",),
+            "categoria": ('Análisis de datos',),
             "definicion": "Asigna rangos a los elementos en un DataFrame o Serie.",
-            "traduccion": "Assigns ranks to elements in a DataFrame or Series."},
+            "traduccion": "Assigns ranks to elements in a DataFrame or Series."
+        },
         "reshape": {
-            "categoria": ("Manipulación de matrices",),
+            "categoria": ('Manipulación de matrices',),
             "definicion": "Cambia la forma de una matriz sin alterar sus datos.",
-            "traduccion": "Changes the shape of an array without altering its data."},
+            "traduccion": "Changes the shape of an array without altering its data."
+        },
         "read_sql_table": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Lee una tabla directamente desde una base de datos SQL en un DataFrame.",
-            "traduccion": "Reads a table directly from an SQL database into a DataFrame."},
+            "traduccion": "Reads a table directly from an SQL database into a DataFrame."
+        },
         "rpartition": {
-            "categoria": ("Cadenas de texto",),
+            "categoria": ('Cadenas de texto',),
             "definicion": "Divide una cadena en tres partes usando el separador más a la derecha.",
-            "traduccion": "Splits a string into three parts using the rightmost separator."},
+            "traduccion": "Splits a string into three parts using the rightmost separator."
+        },
         "random_sample": {
-            "categoria": ("Generación de números",),
+            "categoria": ('Generación de números',),
             "definicion": "Genera una muestra aleatoria de una distribución dada.",
-            "traduccion": "Generates a random sample from a given distribution."},
+            "traduccion": "Generates a random sample from a given distribution."
+        },
         "real": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Atributo que devuelve la parte real de un número complejo.",
-            "traduccion": "Attribute that returns the real part of a complex number."},
+            "traduccion": "Attribute that returns the real part of a complex number."
+        },
         "reset_states": {
-            "categoria": ("Machine Learning",),
+            "categoria": ('Machine Learning',),
             "definicion": "Restaura el estado inicial de una capa o modelo de aprendizaje automático.",
-            "traduccion": "Restores the initial state of a machine learning layer or model."},
+            "traduccion": "Restores the initial state of a machine learning layer or model."
+        },
         "rich_comparison": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Métodos mágicos para realizar comparaciones personalizadas en clases.",
-            "traduccion": "Magic methods for performing custom comparisons in classes."},
+            "traduccion": "Magic methods for performing custom comparisons in classes."
+        },
         "retry": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Intento adicional para ejecutar una operación fallida.",
-            "traduccion": "Additional attempt to execute a failed operation."},
+            "traduccion": "Additional attempt to execute a failed operation."
+        },
         "random_state": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Parámetro utilizado para establecer la semilla de generación aleatoria.",
-            "traduccion": "Parameter used to set the seed for random generation."},
+            "traduccion": "Parameter used to set the seed for random generation."
+        },
         "rotate": {
-            "categoria": ("Procesamiento de imágenes",),
+            "categoria": ('Procesamiento de imágenes',),
             "definicion": "Gira una imagen en un ángulo especificado.",
-            "traduccion": "Rotates an image by a specified angle."},
+            "traduccion": "Rotates an image by a specified angle."
+        },
         "rpc": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Llamada a procedimiento remoto para ejecutar funciones en otra máquina.",
-            "traduccion": "Remote procedure call to execute functions on another machine."},
+            "traduccion": "Remote procedure call to execute functions on another machine."
+        },
         "read_sql_query": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Ejecuta una consulta SQL y devuelve el resultado como un DataFrame.",
-            "traduccion": "Executes an SQL query and returns the result as a DataFrame."},
+            "traduccion": "Executes an SQL query and returns the result as a DataFrame."
+        },
         "retry_on_failure": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Intento automático de una operación cuando ocurre un fallo.",
-            "traduccion": "Automatic retry of an operation when a failure occurs."},
+            "traduccion": "Automatic retry of an operation when a failure occurs."
+        },
         "repeat": {
-            "categoria": ("Itertools",),
+            "categoria": ('Itertools',),
             "definicion": "Genera un iterador que repite un valor un número de veces.",
-            "traduccion": "Generates an iterator that repeats a value a specified number of times."},
+            "traduccion": "Generates an iterator that repeats a value a specified number of times."
+        },
         "require": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "Verifica que se cumplan ciertas condiciones en el código.",
-            "traduccion": "Ensures that certain conditions in the code are met."},
+            "traduccion": "Ensures that certain conditions in the code are met."
+        },
         "replace_nan": {
-            "categoria": ("Análisis de datos",),
+            "categoria": ('Análisis de datos',),
             "definicion": "Reemplaza valores NaN en un DataFrame o Serie con un valor especificado.",
-            "traduccion": "Replaces NaN values in a DataFrame or Series with a specified value."},
+            "traduccion": "Replaces NaN values in a DataFrame or Series with a specified value."
+        },
         "record": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Representa una entrada individual en una tabla de base de datos.",
-            "traduccion": "Represents an individual entry in a database table."},
+            "traduccion": "Represents an individual entry in a database table."
+        },
         "randomized_search": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Método para seleccionar hiperparámetros de forma aleatoria.",
-            "traduccion": "Method to randomly select hyperparameters."},
+            "traduccion": "Method to randomly select hyperparameters."
+        },
         "rollaxis": {
-            "categoria": ("Manipulación de matrices",),
+            "categoria": ('Manipulación de matrices',),
             "definicion": "Desplaza un eje de una matriz a una nueva posición.",
-            "traduccion": "Moves an axis of an array to a new position."},
+            "traduccion": "Moves an axis of an array to a new position."
+        },
         "resource": {
-            "categoria": ("Sistemas",),
+            "categoria": ('Sistemas',),
             "definicion": "Clase o módulo que representa un recurso del sistema.",
-            "traduccion": "Class or module representing a system resource."},
+            "traduccion": "Class or module representing a system resource."
+        },
         "return": {
-            "categoria": ("Funciones",),
+            "categoria": ('Funciones',),
             "definicion": "Palabra clave para devolver un valor de una función.",
-            "traduccion": "Keyword to return a value from a function."},
+            "traduccion": "Keyword to return a value from a function."
+        },
         "robust_scaler": {
-            "categoria": ("Aprendizaje automático",),
+            "categoria": ('Aprendizaje automático',),
             "definicion": "Transformador que escala datos utilizando la mediana y el rango intercuartil.",
-            "traduccion": "Transformer that scales data using the median and interquartile range."},
+            "traduccion": "Transformer that scales data using the median and interquartile range."
+        },
         "row_iter": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Iterador que permite recorrer filas de una consulta de base de datos.",
-            "traduccion": "Iterator that allows traversing rows of a database query."},
+            "traduccion": "Iterator that allows traversing rows of a database query."
+        },
         "route": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Define una ruta en una aplicación web.",
-            "traduccion": "Defines a route in a web application."},
+            "traduccion": "Defines a route in a web application."
+        },
         "refresh": {
-            "categoria": ("Sistemas",),
+            "categoria": ('Sistemas',),
             "definicion": "Actualiza el estado de un recurso o componente.",
-            "traduccion": "Updates the state of a resource or component."},
+            "traduccion": "Updates the state of a resource or component."
+        },
         "random_permutation": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "Genera una permutación aleatoria de un array o lista.",
-            "traduccion": "Generates a random permutation of an array or list."},
+            "traduccion": "Generates a random permutation of an array or list."
+        },
         "register": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Registra una función o clase para un propósito específico.",
-            "traduccion": "Registers a function or class for a specific purpose."}},
+            "traduccion": "Registers a function or class for a specific purpose."
+        }
+    },
     "s": {
         "split": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Divide una cadena en una lista usando un delimitador especificado.",
-            "traduccion": "Splits a string into a list using a specified delimiter."},
+            "categoria": ('Cadenas de texto',),
+            "definicion": "Divide una cadena en una lista usando un delimitador.",
+            "traduccion": "Splits a string into a list using a delimiter."
+        },
         "sort": {
-            "categoria": ("Listas",),
+            "categoria": ('Listas',),
             "definicion": "Ordena los elementos de una lista en orden ascendente o descendente.",
-            "traduccion": "Sorts the elements of a list in ascending or descending order."},
+            "traduccion": "Sorts the elements of a list in ascending or descending order."
+        },
         "str": {
-            "categoria": ("Conversión de datos",),
-            "definicion": "Convierte un objeto a su representación en cadena.",
-            "traduccion": "Converts an object to its string representation."},
-        "sqrt": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Devuelve la raíz cuadrada de un número.",
-            "traduccion": "Returns the square root of a number."},
-        "set": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Crea un conjunto, una colección no ordenada de elementos únicos.",
-            "traduccion": "Creates a set, an unordered collection of unique elements."},
-        "slice": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Crea un objeto de segmento para indexación avanzada.",
-            "traduccion": "Creates a slice object for advanced indexing."},
-        "startswith": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Verifica si una cadena comienza con un prefijo especificado.",
-            "traduccion": "Checks if a string starts with a specified prefix."},
-        "sum": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Devuelve la suma de un iterable.",
-            "traduccion": "Returns the sum of an iterable."},
-        "sorted": {
-            "categoria": ("Listas",),
-            "definicion": "Devuelve una lista ordenada de los elementos de un iterable.",
-            "traduccion": "Returns a sorted list of the elements in an iterable."},
-        "subprocess": {
-            "categoria": ("Sistemas",),
-            "definicion": "Módulo para ejecutar procesos externos y comunicarse con ellos.",
-            "traduccion": "Module to run external processes and communicate with them."},
-        "setdefault": {
-            "categoria": ("Diccionarios",),
-            "definicion": "Devuelve el valor de una clave y, si no existe, la agrega con un valor predeterminado.",
-            "traduccion": "Returns the value of a key and, if it doesn't exist, adds it with a default value."},
-        "sample": {
-            "categoria": ("Aleatoriedad",),
-            "definicion": "Selecciona una muestra aleatoria de un iterable.",
-            "traduccion": "Selects a random sample from an iterable."},
-        "seek": {
-            "categoria": ("Archivos",),
-            "definicion": "Cambia la posición del puntero de lectura/escritura en un archivo.",
-            "traduccion": "Changes the position of the read/write pointer in a file."},
-        "symmetric_difference": {
-            "categoria": ("Conjuntos",),
-            "definicion": "Devuelve los elementos que están en uno de los conjuntos pero no en ambos.",
-            "traduccion": "Returns elements that are in one of the sets but not in both."},
-        "shutil": {
-            "categoria": ("Sistemas",),
-            "definicion": "Módulo para operaciones de archivo de alto nivel, como copiar o mover archivos.",
-            "traduccion": "Module for high-level file operations, like copying or moving files."},
-        "strip": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Elimina los caracteres iniciales y finales especificados de una cadena.",
-            "traduccion": "Removes specified leading and trailing characters from a string."},
-        "splitlines": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Divide una cadena en una lista en cada salto de línea.",
-            "traduccion": "Splits a string into a list at each newline."},
-        "shape": {
-            "categoria": ("Manipulación de matrices",),
-            "definicion": "Devuelve las dimensiones de un array o matriz.",
-            "traduccion": "Returns the dimensions of an array or matrix."},
-        "scatter": {
-            "categoria": ("Visualización",),
-            "definicion": "Crea un gráfico de dispersión utilizando Matplotlib.",
-            "traduccion": "Creates a scatter plot using Matplotlib."},
-        "series": {
-            "categoria": ("Análisis de datos",),
-            "definicion": "Objeto unidimensional en pandas, similar a una lista o un array.",
-            "traduccion": "One-dimensional object in pandas, similar to a list or an array."},
-        "serialize": {
-            "categoria": ("Datos",),
-            "definicion": "Convierte un objeto en un formato que se puede almacenar o transmitir.",
-            "traduccion": "Converts an object into a storable or transmittable format."},
-        "sin": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Devuelve el seno de un ángulo dado en radianes.",
-            "traduccion": "Returns the sine of a given angle in radians."},
-        "sortedcontainers": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Biblioteca para trabajar con contenedores ordenados.",
-            "traduccion": "Library for working with sorted containers."},
-        "sklearn": {
-            "categoria": ("Aprendizaje automático",),
-            "definicion": "Biblioteca para realizar tareas de machine learning en Python.",
-            "traduccion": "Library for performing machine learning tasks in Python."},
-        "style": {
-            "categoria": ("Visualización",),
-            "definicion": "Método en pandas para personalizar la apariencia de un DataFrame.",
-            "traduccion": "Method in pandas to customize the appearance of a DataFrame."},
-        "savefig": {
-            "categoria": ("Visualización",),
-            "definicion": "Guarda un gráfico en un archivo utilizando Matplotlib.",
-            "traduccion": "Saves a plot to a file using Matplotlib."},
-        "searchsorted": {
-            "categoria": ("Manipulación de matrices",),
-            "definicion": "Encuentra los índices donde insertar valores para mantener el orden.",
-            "traduccion": "Finds indices to insert values to maintain order."},
-        "select": {
-            "categoria": ("Bases de datos",),
-            "definicion": "Consulta SQL para recuperar datos de una tabla.",
-            "traduccion": "SQL query to retrieve data from a table."},
-        "show": {
-            "categoria": ("Visualización",),
-            "definicion": "Muestra un gráfico en la ventana activa utilizando Matplotlib.",
-            "traduccion": "Displays a plot in the active window using Matplotlib."},
-        "step": {
-            "categoria": ("Ciclo for",),
-            "definicion": "Define el incremento entre iteraciones en un rango.",
-            "traduccion": "Defines the increment between iterations in a range."},
-        "save": {
-            "categoria": ("Archivos",),
-            "definicion": "Guarda un archivo con los datos actuales.",
-            "traduccion": "Saves a file with the current data."},
-        "seek": {
-            "categoria": ("Archivos",),
-            "definicion": "Posiciona el puntero en una posición específica en un archivo.",
-            "traduccion": "Positions the pointer at a specific position in a file."},
-        "shelve": {
-            "categoria": ("Base de datos",),
-            "definicion": "Permite almacenar objetos de Python de manera persistente.",
-            "traduccion": "Allows storing Python objects persistently."},
-        "slice": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Extrae una subsecuencia de una cadena de texto.",
-            "traduccion": "Extracts a subsequence from a string."},
-        "split": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Divide una cadena en una lista usando un delimitador.",
-            "traduccion": "Splits a string into a list using a delimiter."},
-        "sorted": {
-            "categoria": ("Listas",),
-            "definicion": "Devuelve una lista ordenada de los elementos de un iterable.",
-            "traduccion": "Returns a sorted list of the elements in an iterable."},
-        "sum": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Devuelve la suma de los elementos de un iterable.",
-            "traduccion": "Returns the sum of the elements in an iterable."},
-        "set": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Crea un conjunto, una colección no ordenada de elementos únicos.",
-            "traduccion": "Creates a set, an unordered collection of unique elements."},
-        "str": {
-            "categoria": ("Conversión de datos",),
+            "categoria": ('Conversión de datos',),
             "definicion": "Convierte un objeto en su representación en cadena.",
-            "traduccion": "Converts an object to its string representation."},
+            "traduccion": "Converts an object to its string representation."
+        },
+        "sqrt": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Devuelve la raíz cuadrada de un número.",
+            "traduccion": "Returns the square root of a number."
+        },
+        "set": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Crea un conjunto, una colección no ordenada de elementos únicos.",
+            "traduccion": "Creates a set, an unordered collection of unique elements."
+        },
         "slice": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Permite extraer porciones de secuencias como listas o cadenas.",
-            "traduccion": "Allows extracting portions of sequences like lists or strings."},
-        "subclass": {
-            "categoria": ("Programación orientada a objetos",),
-            "definicion": "Una clase que hereda atributos y métodos de una clase base.",
-            "traduccion": "A class that inherits attributes and methods from a base class."},
-        "setdefault": {
-            "categoria": ("Diccionarios",),
-            "definicion": "Devuelve el valor de una clave, y si no existe, la agrega con un valor predeterminado.",
-            "traduccion": "Returns the value of a key, and if it doesn't exist, adds it with a default value."},
-        "symmetric_difference": {
-            "categoria": ("Conjuntos",),
-            "definicion": "Devuelve los elementos que están en uno de los conjuntos, pero no en ambos.",
-            "traduccion": "Returns elements that are in one of the sets, but not in both."},
-        "show": {
-            "categoria": ("Visualización",),
-            "definicion": "Muestra un gráfico en la ventana activa utilizando Matplotlib.",
-            "traduccion": "Displays a plot in the active window using Matplotlib."},
-        "step": {
-            "categoria": ("Ciclo for",),
-            "definicion": "Define el incremento entre iteraciones en un rango.",
-            "traduccion": "Defines the increment between iterations in a range."},
-        "subprocess": {
-            "categoria": ("Sistemas",),
-            "definicion": "Permite ejecutar procesos externos y comunicarse con ellos.",
-            "traduccion": "Allows running external processes and communicating with them."},
-        "slice": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Obtiene una subcadena a partir de índices específicos.",
-            "traduccion": "Gets a substring from specific indices."},
-        "splitlines": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Divide una cadena en una lista usando los saltos de línea.",
-            "traduccion": "Splits a string into a list using newlines."},
-        "super": {
-            "categoria": ("Programación orientada a objetos",),
-            "definicion": "Se usa para llamar a un método de la clase base en una subclase.",
-            "traduccion": "Used to call a method from the base class in a subclass."},
-        "setattr": {
-            "categoria": ("Programación orientada a objetos",),
-            "definicion": "Establece el valor de un atributo en un objeto.",
-            "traduccion": "Sets the value of an attribute in an object."},
-        "savetxt": {
-            "categoria": ("Manejo de archivos",),
-            "definicion": "Guarda un array en un archivo de texto.",
-            "traduccion": "Saves an array to a text file."},
-        "subclassing": {
-            "categoria": ("Programación orientada a objetos",),
-            "definicion": "El proceso de crear una subclase a partir de una clase base.",
-            "traduccion": "The process of creating a subclass from a base class."},
-        "scanf": {
-            "categoria": ("Entradas",),
-            "definicion": "Permite leer entradas desde la consola con un formato específico.",
-            "traduccion": "Allows reading input from the console with a specific format."},
-        "search": {
-            "categoria": ("Búsqueda",),
-            "definicion": "Realiza una búsqueda dentro de un objeto iterable.",
-            "traduccion": "Performs a search within an iterable object."},
-        "splitext": {
-            "categoria": ("Archivos",),
-            "definicion": "Divide la ruta del archivo en la ruta y la extensión.",
-            "traduccion": "Splits the file path into the path and the extension."},
-        "sample": {
-            "categoria": ("Aleatoriedad",),
-            "definicion": "Devuelve una muestra aleatoria de un iterable.",
-            "traduccion": "Returns a random sample from an iterable."},
-        "setattr": {
-            "categoria": ("Programación orientada a objetos",),
-            "definicion": "Define el valor de un atributo en un objeto.",
-            "traduccion": "Sets the value of an attribute in an object."},
-        "sleep": {
-            "categoria": ("Sistemas",),
-            "definicion": "Pone en pausa la ejecución del programa durante un tiempo determinado.",
-            "traduccion": "Pauses the execution of the program for a specified time."},
-        "slice": {
-            "categoria": ("Cadenas de texto",),
+            "categoria": ('Cadenas de texto',),
             "definicion": "Permite extraer un segmento de una cadena.",
-            "traduccion": "Allows extracting a segment from a string."},
-        "syntax": {
-            "categoria": ("Programación",),
-            "definicion": "El conjunto de reglas que definen la estructura de los programas.",
-            "traduccion": "The set of rules that define the structure of programs."},
-        "sublist": {
-            "categoria": ("Listas",),
-            "definicion": "Extrae una sublista de una lista original.",
-            "traduccion": "Extracts a sublist from an original list."},
-        "strptime": {
-            "categoria": ("Fechas",),
-            "definicion": "Convierte una cadena a un objeto datetime usando un formato específico.",
-            "traduccion": "Converts a string to a datetime object using a specific format."},
-        "setdefault": {
-            "categoria": ("Diccionarios",),
-            "definicion": "Establece un valor predeterminado para una clave en el diccionario.",
-            "traduccion": "Sets a default value for a key in the dictionary."},
+            "traduccion": "Allows extracting a segment from a string."
+        },
+        "startswith": {
+            "categoria": ('Cadenas de texto',),
+            "definicion": "Verifica si una cadena comienza con un prefijo especificado.",
+            "traduccion": "Checks if a string starts with a specified prefix."
+        },
+        "sum": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Devuelve la suma de los elementos de un iterable.",
+            "traduccion": "Returns the sum of the elements in an iterable."
+        },
         "sorted": {
-            "categoria": ("Listas",),
+            "categoria": ('Listas',),
             "definicion": "Devuelve una lista ordenada de los elementos de un iterable.",
-            "traduccion": "Returns a sorted list of the elements in an iterable."},
-        "show": {
-            "categoria": ("Visualización",),
-            "definicion": "Muestra un gráfico en la ventana activa utilizando Matplotlib.",
-            "traduccion": "Displays a plot in the active window using Matplotlib."},
+            "traduccion": "Returns a sorted list of the elements in an iterable."
+        },
         "subprocess": {
-            "categoria": ("Sistemas",),
+            "categoria": ('Sistemas',),
             "definicion": "Permite ejecutar un proceso externo y gestionar su entrada/salida.",
-            "traduccion": "Allows running an external process and managing its input/output."},
-        "script": {
-            "categoria": ("Programación",),
-            "definicion": "Un archivo que contiene instrucciones de código que se ejecutan en un lenguaje específico.",
-            "traduccion": "A file containing code instructions executed in a specific language."},
-        "split": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Divide una cadena en una lista usando un delimitador.",
-            "traduccion": "Splits a string into a list using a delimiter."},
+            "traduccion": "Allows running an external process and managing its input/output."
+        },
+        "setdefault": {
+            "categoria": ('Diccionarios',),
+            "definicion": "Establece un valor predeterminado para una clave en el diccionario.",
+            "traduccion": "Sets a default value for a key in the dictionary."
+        },
+        "sample": {
+            "categoria": ('Aleatoriedad',),
+            "definicion": "Devuelve una muestra aleatoria de un iterable.",
+            "traduccion": "Returns a random sample from an iterable."
+        },
+        "seek": {
+            "categoria": ('Archivos',),
+            "definicion": "Posiciona el puntero en una posición específica en un archivo.",
+            "traduccion": "Positions the pointer at a specific position in a file."
+        },
+        "symmetric_difference": {
+            "categoria": ('Conjuntos',),
+            "definicion": "Devuelve los elementos que están en uno de los conjuntos, pero no en ambos.",
+            "traduccion": "Returns elements that are in one of the sets, but not in both."
+        },
+        "shutil": {
+            "categoria": ('Sistemas',),
+            "definicion": "Módulo para operaciones de archivo de alto nivel, como copiar o mover archivos.",
+            "traduccion": "Module for high-level file operations, like copying or moving files."
+        },
+        "strip": {
+            "categoria": ('Cadenas de texto',),
+            "definicion": "Elimina los caracteres iniciales y finales especificados de una cadena.",
+            "traduccion": "Removes specified leading and trailing characters from a string."
+        },
+        "splitlines": {
+            "categoria": ('Cadenas de texto',),
+            "definicion": "Divide una cadena en una lista usando los saltos de línea.",
+            "traduccion": "Splits a string into a list using newlines."
+        },
+        "shape": {
+            "categoria": ('Manipulación de matrices',),
+            "definicion": "Devuelve las dimensiones de un array o matriz.",
+            "traduccion": "Returns the dimensions of an array or matrix."
+        },
+        "scatter": {
+            "categoria": ('Visualización',),
+            "definicion": "Crea un gráfico de dispersión utilizando Matplotlib.",
+            "traduccion": "Creates a scatter plot using Matplotlib."
+        },
+        "series": {
+            "categoria": ('Análisis de datos',),
+            "definicion": "Objeto unidimensional en pandas, similar a una lista o un array.",
+            "traduccion": "One-dimensional object in pandas, similar to a list or an array."
+        },
+        "serialize": {
+            "categoria": ('Datos',),
+            "definicion": "Convierte un objeto en un formato que se puede almacenar o transmitir.",
+            "traduccion": "Converts an object into a storable or transmittable format."
+        },
+        "sin": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Devuelve el seno de un ángulo dado en radianes.",
+            "traduccion": "Returns the sine of a given angle in radians."
+        },
+        "sortedcontainers": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Biblioteca para trabajar con contenedores ordenados.",
+            "traduccion": "Library for working with sorted containers."
+        },
+        "sklearn": {
+            "categoria": ('Aprendizaje automático',),
+            "definicion": "Biblioteca para realizar tareas de machine learning en Python.",
+            "traduccion": "Library for performing machine learning tasks in Python."
+        },
+        "style": {
+            "categoria": ('Visualización',),
+            "definicion": "Método en pandas para personalizar la apariencia de un DataFrame.",
+            "traduccion": "Method in pandas to customize the appearance of a DataFrame."
+        },
+        "savefig": {
+            "categoria": ('Visualización',),
+            "definicion": "Guarda un gráfico en un archivo utilizando Matplotlib.",
+            "traduccion": "Saves a plot to a file using Matplotlib."
+        },
+        "searchsorted": {
+            "categoria": ('Manipulación de matrices',),
+            "definicion": "Encuentra los índices donde insertar valores para mantener el orden.",
+            "traduccion": "Finds indices to insert values to maintain order."
+        },
         "select": {
-            "categoria": ("Bases de datos",),
+            "categoria": ('Bases de datos',),
             "definicion": "Selecciona datos de una base de datos según una condición.",
-            "traduccion": "Selects data from a database based on a condition."},
-        "sympy": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Una biblioteca para matemáticas simbólicas en Python.",
-            "traduccion": "A library for symbolic mathematics in Python."},
-        "sublist": {
-            "categoria": ("Listas",),
-            "definicion": "Extrae una sublista de una lista original.",
-            "traduccion": "Extracts a sublist from an original list."},
-        "self": {
-            "categoria": ("Programación orientada a objetos",),
-            "definicion": "Hace referencia al objeto actual en la definición de una clase.",
-            "traduccion": "Refers to the current object in a class definition."},
-        "sleep": {
-            "categoria": ("Sistemas",),
-            "definicion": "Pone en pausa la ejecución del programa durante un tiempo determinado.",
-            "traduccion": "Pauses the execution of the program for a specified time."},
-        "static": {
-            "categoria": ("Programación orientada a objetos",),
-            "definicion": "Un método o atributo que pertenece a la clase, no a la instancia.",
-            "traduccion": "A method or attribute that belongs to the class, not the instance."},
-        "shuffle": {
-            "categoria": ("Aleatoriedad",),
-            "definicion": "Reorganiza aleatoriamente los elementos de una lista.",
-            "traduccion": "Randomly rearranges the elements of a list."},
-        "saveas": {
-            "categoria": ("Archivos",),
-            "definicion": "Guarda un archivo con un nuevo nombre o formato.",
-            "traduccion": "Saves a file with a new name or format."},
-        "suffix": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Devuelve una cadena con un sufijo añadido.",
-            "traduccion": "Returns a string with a suffix added."},
+            "traduccion": "Selects data from a database based on a condition."
+        },
+        "show": {
+            "categoria": ('Visualización',),
+            "definicion": "Muestra un gráfico en la ventana activa utilizando Matplotlib.",
+            "traduccion": "Displays a plot in the active window using Matplotlib."
+        },
+        "step": {
+            "categoria": ('Ciclo for',),
+            "definicion": "Define el incremento entre iteraciones en un rango.",
+            "traduccion": "Defines the increment between iterations in a range."
+        },
+        "save": {
+            "categoria": ('Archivos',),
+            "definicion": "Guarda un archivo con los datos actuales.",
+            "traduccion": "Saves a file with the current data."
+        },
+        "shelve": {
+            "categoria": ('Base de datos',),
+            "definicion": "Permite almacenar objetos de Python de manera persistente.",
+            "traduccion": "Allows storing Python objects persistently."
+        },
+        "subclass": {
+            "categoria": ('Programación orientada a objetos',),
+            "definicion": "Una clase que hereda atributos y métodos de una clase base.",
+            "traduccion": "A class that inherits attributes and methods from a base class."
+        },
+        "super": {
+            "categoria": ('Programación orientada a objetos',),
+            "definicion": "Se usa para llamar a un método de la clase base en una subclase.",
+            "traduccion": "Used to call a method from the base class in a subclass."
+        },
         "setattr": {
-            "categoria": ("Programación orientada a objetos",),
+            "categoria": ('Programación orientada a objetos',),
             "definicion": "Establece el valor de un atributo en un objeto.",
-            "traduccion": "Sets the value of an attribute in an object."}},
+            "traduccion": "Sets the value of an attribute in an object."
+        },
+        "savetxt": {
+            "categoria": ('Manejo de archivos',),
+            "definicion": "Guarda un array en un archivo de texto.",
+            "traduccion": "Saves an array to a text file."
+        },
+        "subclassing": {
+            "categoria": ('Programación orientada a objetos',),
+            "definicion": "El proceso de crear una subclase a partir de una clase base.",
+            "traduccion": "The process of creating a subclass from a base class."
+        },
+        "scanf": {
+            "categoria": ('Entradas',),
+            "definicion": "Permite leer entradas desde la consola con un formato específico.",
+            "traduccion": "Allows reading input from the console with a specific format."
+        },
+        "search": {
+            "categoria": ('Búsqueda',),
+            "definicion": "Realiza una búsqueda dentro de un objeto iterable.",
+            "traduccion": "Performs a search within an iterable object."
+        },
+        "splitext": {
+            "categoria": ('Archivos',),
+            "definicion": "Divide la ruta del archivo en la ruta y la extensión.",
+            "traduccion": "Splits the file path into the path and the extension."
+        },
+        "sleep": {
+            "categoria": ('Sistemas',),
+            "definicion": "Pone en pausa la ejecución del programa durante un tiempo determinado.",
+            "traduccion": "Pauses the execution of the program for a specified time."
+        },
+        "syntax": {
+            "categoria": ('Programación',),
+            "definicion": "El conjunto de reglas que definen la estructura de los programas.",
+            "traduccion": "The set of rules that define the structure of programs."
+        },
+        "sublist": {
+            "categoria": ('Listas',),
+            "definicion": "Extrae una sublista de una lista original.",
+            "traduccion": "Extracts a sublist from an original list."
+        },
+        "strptime": {
+            "categoria": ('Fechas',),
+            "definicion": "Convierte una cadena a un objeto datetime usando un formato específico.",
+            "traduccion": "Converts a string to a datetime object using a specific format."
+        },
+        "script": {
+            "categoria": ('Programación',),
+            "definicion": "Un archivo que contiene instrucciones de código que se ejecutan en un lenguaje específico.",
+            "traduccion": "A file containing code instructions executed in a specific language."
+        },
+        "sympy": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Una biblioteca para matemáticas simbólicas en Python.",
+            "traduccion": "A library for symbolic mathematics in Python."
+        },
+        "self": {
+            "categoria": ('Programación orientada a objetos',),
+            "definicion": "Hace referencia al objeto actual en la definición de una clase.",
+            "traduccion": "Refers to the current object in a class definition."
+        },
+        "static": {
+            "categoria": ('Programación orientada a objetos',),
+            "definicion": "Un método o atributo que pertenece a la clase, no a la instancia.",
+            "traduccion": "A method or attribute that belongs to the class, not the instance."
+        },
+        "shuffle": {
+            "categoria": ('Aleatoriedad',),
+            "definicion": "Reorganiza aleatoriamente los elementos de una lista.",
+            "traduccion": "Randomly rearranges the elements of a list."
+        },
+        "saveas": {
+            "categoria": ('Archivos',),
+            "definicion": "Guarda un archivo con un nuevo nombre o formato.",
+            "traduccion": "Saves a file with a new name or format."
+        },
+        "suffix": {
+            "categoria": ('Cadenas de texto',),
+            "definicion": "Devuelve una cadena con un sufijo añadido.",
+            "traduccion": "Returns a string with a suffix added."
+        }
+    },
     "t": {
         "try": {
-            "categoria": ("Control de flujo",),
+            "categoria": ('Control de flujo',),
             "definicion": "Inicia un bloque de código donde se puede capturar una excepción.",
-            "traduccion": "Starts a block of code where an exception can be caught."},
+            "traduccion": "Starts a block of code where an exception can be caught."
+        },
         "tuple": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Una colección ordenada e inmutable de elementos.",
-            "traduccion": "An ordered, immutable collection of elements."},
-        "text": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Un tipo de dato que representa texto.",
-            "traduccion": "A data type that represents text."},
-        "type": {
-            "categoria": ("Tipos de datos",),
-            "definicion": "Devuelve el tipo de un objeto.",
-            "traduccion": "Returns the type of an object."},
-        "try-except": {
-            "categoria": ("Control de flujo",),
-            "definicion": "Estructura que maneja excepciones durante la ejecución.",
-            "traduccion": "Structure that handles exceptions during execution."},
-        "textfile": {
-            "categoria": ("Archivos",),
-            "definicion": "Archivo que contiene texto plano.",
-            "traduccion": "A file that contains plain text."},
-        "threshold": {
-            "categoria": ("Matemáticas",),
-            "definicion": "El valor límite que determina el cambio de estado en un sistema.",
-            "traduccion": "The threshold value that determines a change in a system's state."},
-        "table": {
-            "categoria": ("Bases de datos",),
-            "definicion": "Conjunto de datos organizados en filas y columnas.",
-            "traduccion": "A set of data organized into rows and columns."},
-        "time": {
-            "categoria": ("Manejo de tiempo",),
-            "definicion": "Función que devuelve el tiempo actual.",
-            "traduccion": "Function that returns the current time."},
-        "trim": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Elimina los espacios en blanco al inicio y final de una cadena.",
-            "traduccion": "Removes leading and trailing whitespace from a string."},
-        "to": {
-            "categoria": ("Operadores",),
-            "definicion": "Operador que denota un valor de destino en una asignación o función.",
-            "traduccion": "Operator that denotes a destination value in an assignment or function."},
-        "timeout": {
-            "categoria": ("Sistemas",),
-            "definicion": "Tiempo máximo de espera para que se complete una operación.",
-            "traduccion": "The maximum time to wait for an operation to complete."},
-        "thread": {
-            "categoria": ("Concurrencia",),
-            "definicion": "Unidad básica de ejecución dentro de un proceso.",
-            "traduccion": "The basic unit of execution within a process."},
-        "tempfile": {
-            "categoria": ("Archivos",),
-            "definicion": "Archivo temporal utilizado por el sistema o la aplicación.",
-            "traduccion": "Temporary file used by the system or application."},
-        "test": {
-            "categoria": ("Pruebas",),
-            "definicion": "Función o rutina que valida el comportamiento del código.",
-            "traduccion": "Function or routine that validates the behavior of the code."},
-        "try-finally": {
-            "categoria": ("Control de flujo",),
-            "definicion": "Bloque de código que asegura la ejecución de una sección final.",
-            "traduccion": "Code block that ensures the execution of a final section."},
-        "turtle": {
-            "categoria": ("Gráficos",),
-            "definicion": "Biblioteca que permite dibujar gráficos en Python.",
-            "traduccion": "A library that allows drawing graphics in Python."},
-        "target": {
-            "categoria": ("Redes",),
-            "definicion": "El objeto o dirección al que se dirige una solicitud o tráfico.",
-            "traduccion": "The object or address to which a request or traffic is directed."},
-        "token": {
-            "categoria": ("Seguridad",),
-            "definicion": "Un valor utilizado en autenticación o validación.",
-            "traduccion": "A value used in authentication or validation."},
-        "total": {
-            "categoria": ("Matemáticas",),
-            "definicion": "La suma completa de todos los elementos de un conjunto.",
-            "traduccion": "The complete sum of all elements in a set."},
-        "transmit": {
-            "categoria": ("Redes",),
-            "definicion": "Enviar datos de un lugar a otro a través de una red.",
-            "traduccion": "Send data from one place to another through a network."},
-        "terminate": {
-            "categoria": ("Sistemas",),
-            "definicion": "Finaliza un proceso o ejecución.",
-            "traduccion": "Ends a process or execution."},
-        "translate": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Convierte un texto de un idioma a otro.",
-            "traduccion": "Converts text from one language to another."},
-        "testcase": {
-            "categoria": ("Pruebas",),
-            "definicion": "Un conjunto de condiciones para probar una función o aplicación.",
-            "traduccion": "A set of conditions to test a function or application."},
-        "targeted": {
-            "categoria": ("Marketing",),
-            "definicion": "Dirigido a un grupo o público específico.",
-            "traduccion": "Directed at a specific group or audience."},
-        "transpose": {
-            "categoria": ("Matrices",),
-            "definicion": "Cambia las filas por las columnas en una matriz.",
-            "traduccion": "Swaps rows and columns in a matrix."},
-        "trunc": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Elimina la parte decimal de un número.",
-            "traduccion": "Removes the decimal part of a number."},
-        "typecast": {
-            "categoria": ("Conversión de datos",),
-            "definicion": "Convierte un tipo de dato a otro.",
-            "traduccion": "Converts one data type to another."},
-        "trigger": {
-            "categoria": ("Bases de datos",),
-            "definicion": "Un evento que ejecuta una acción en una base de datos.",
-            "traduccion": "An event that triggers an action in a database."},
-        "term": {
-            "categoria": ("Definición",),
-            "definicion": "Palabra o conjunto de palabras que tiene un significado específico.",
-            "traduccion": "A word or set of words that has a specific meaning."},
-        "textwrap": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Ajusta el texto a un ancho específico.",
-            "traduccion": "Wraps text to a specific width."},
-        "tail": {
-            "categoria": ("Archivos",),
-            "definicion": "Muestra las últimas líneas de un archivo.",
-            "traduccion": "Shows the last lines of a file."},
-        "thresholding": {
-            "categoria": ("Imágenes",),
-            "definicion": "Técnica de procesamiento de imágenes que convierte los valores a blanco o negro.",
-            "traduccion": "Image processing technique that converts values to black or white."},
-        "tune": {
-            "categoria": ("Sonido",),
-            "definicion": "Ajustar un parámetro o configuración para mejorar el rendimiento.",
-            "traduccion": "Adjust a parameter or setting to improve performance."},
-        "transaction": {
-            "categoria": ("Bases de datos",),
-            "definicion": "Una unidad de trabajo que se realiza en una base de datos.",
-            "traduccion": "A unit of work done in a database."},
-        "terminate": {
-            "categoria": ("Sistemas",),
-            "definicion": "Detiene un proceso o una función.",
-            "traduccion": "Stops a process or function."},
-        "tokenize": {
-            "categoria": ("Lenguajes de programación",),
-            "definicion": "Dividir un texto en unidades básicas o tokens.",
-            "traduccion": "Divides a text into basic units or tokens."},
-        "tuple": {
-            "categoria": ("Estructuras de datos",),
+            "categoria": ('Estructuras de datos',),
             "definicion": "Una colección ordenada de elementos inmutables.",
-            "traduccion": "An ordered collection of immutable elements."},
+            "traduccion": "An ordered collection of immutable elements."
+        },
+        "text": {
+            "categoria": ('Cadenas de texto',),
+            "definicion": "Un tipo de dato que representa texto.",
+            "traduccion": "A data type that represents text."
+        },
+        "type": {
+            "categoria": ('Tipos de datos',),
+            "definicion": "Devuelve el tipo de un objeto.",
+            "traduccion": "Returns the type of an object."
+        },
+        "try-except": {
+            "categoria": ('Control de flujo',),
+            "definicion": "Estructura que maneja excepciones durante la ejecución.",
+            "traduccion": "Structure that handles exceptions during execution."
+        },
+        "textfile": {
+            "categoria": ('Archivos',),
+            "definicion": "Archivo que contiene texto plano.",
+            "traduccion": "A file that contains plain text."
+        },
+        "threshold": {
+            "categoria": ('Matemáticas',),
+            "definicion": "El valor límite que determina el cambio de estado en un sistema.",
+            "traduccion": "The threshold value that determines a change in a system's state."
+        },
+        "table": {
+            "categoria": ('Bases de datos',),
+            "definicion": "Conjunto de datos organizados en filas y columnas.",
+            "traduccion": "A set of data organized into rows and columns."
+        },
+        "time": {
+            "categoria": ('Manejo de tiempo',),
+            "definicion": "Función que devuelve el tiempo actual.",
+            "traduccion": "Function that returns the current time."
+        },
+        "trim": {
+            "categoria": ('Cadenas de texto',),
+            "definicion": "Elimina los espacios en blanco al inicio y final de una cadena.",
+            "traduccion": "Removes leading and trailing whitespace from a string."
+        },
+        "to": {
+            "categoria": ('Operadores',),
+            "definicion": "Operador que denota un valor de destino en una asignación o función.",
+            "traduccion": "Operator that denotes a destination value in an assignment or function."
+        },
+        "timeout": {
+            "categoria": ('Sistemas',),
+            "definicion": "Tiempo máximo de espera para que se complete una operación.",
+            "traduccion": "The maximum time to wait for an operation to complete."
+        },
+        "thread": {
+            "categoria": ('Concurrencia',),
+            "definicion": "Unidad básica de ejecución dentro de un proceso.",
+            "traduccion": "The basic unit of execution within a process."
+        },
+        "tempfile": {
+            "categoria": ('Archivos',),
+            "definicion": "Archivo temporal utilizado por el sistema o la aplicación.",
+            "traduccion": "Temporary file used by the system or application."
+        },
+        "test": {
+            "categoria": ('Pruebas',),
+            "definicion": "Función o rutina que valida el comportamiento del código.",
+            "traduccion": "Function or routine that validates the behavior of the code."
+        },
+        "try-finally": {
+            "categoria": ('Control de flujo',),
+            "definicion": "Bloque de código que asegura la ejecución de una sección final.",
+            "traduccion": "Code block that ensures the execution of a final section."
+        },
+        "turtle": {
+            "categoria": ('Gráficos',),
+            "definicion": "Biblioteca que permite dibujar gráficos en Python.",
+            "traduccion": "A library that allows drawing graphics in Python."
+        },
+        "target": {
+            "categoria": ('Redes',),
+            "definicion": "El objeto o dirección al que se dirige una solicitud o tráfico.",
+            "traduccion": "The object or address to which a request or traffic is directed."
+        },
+        "token": {
+            "categoria": ('Seguridad',),
+            "definicion": "Un valor utilizado en autenticación o validación.",
+            "traduccion": "A value used in authentication or validation."
+        },
+        "total": {
+            "categoria": ('Matemáticas',),
+            "definicion": "La suma completa de todos los elementos de un conjunto.",
+            "traduccion": "The complete sum of all elements in a set."
+        },
+        "transmit": {
+            "categoria": ('Redes',),
+            "definicion": "Enviar datos de un lugar a otro a través de una red.",
+            "traduccion": "Send data from one place to another through a network."
+        },
+        "terminate": {
+            "categoria": ('Sistemas',),
+            "definicion": "Detiene un proceso o una función.",
+            "traduccion": "Stops a process or function."
+        },
+        "translate": {
+            "categoria": ('Cadenas de texto',),
+            "definicion": "Convierte un texto de un idioma a otro.",
+            "traduccion": "Converts text from one language to another."
+        },
+        "testcase": {
+            "categoria": ('Pruebas',),
+            "definicion": "Un conjunto de condiciones para probar una función o aplicación.",
+            "traduccion": "A set of conditions to test a function or application."
+        },
+        "targeted": {
+            "categoria": ('Marketing',),
+            "definicion": "Dirigido a un grupo o público específico.",
+            "traduccion": "Directed at a specific group or audience."
+        },
+        "transpose": {
+            "categoria": ('Matrices',),
+            "definicion": "Cambia las filas por las columnas en una matriz.",
+            "traduccion": "Swaps rows and columns in a matrix."
+        },
+        "trunc": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Elimina la parte decimal de un número.",
+            "traduccion": "Removes the decimal part of a number."
+        },
+        "typecast": {
+            "categoria": ('Conversión de datos',),
+            "definicion": "Convierte un tipo de dato a otro.",
+            "traduccion": "Converts one data type to another."
+        },
+        "trigger": {
+            "categoria": ('Bases de datos',),
+            "definicion": "Un evento que ejecuta una acción en una base de datos.",
+            "traduccion": "An event that triggers an action in a database."
+        },
+        "term": {
+            "categoria": ('Definición',),
+            "definicion": "Palabra o conjunto de palabras que tiene un significado específico.",
+            "traduccion": "A word or set of words that has a specific meaning."
+        },
+        "textwrap": {
+            "categoria": ('Cadenas de texto',),
+            "definicion": "Ajusta el texto a un ancho específico.",
+            "traduccion": "Wraps text to a specific width."
+        },
+        "tail": {
+            "categoria": ('Archivos',),
+            "definicion": "Muestra las últimas líneas de un archivo.",
+            "traduccion": "Shows the last lines of a file."
+        },
+        "thresholding": {
+            "categoria": ('Imágenes',),
+            "definicion": "Técnica de procesamiento de imágenes que convierte los valores a blanco o negro.",
+            "traduccion": "Image processing technique that converts values to black or white."
+        },
+        "tune": {
+            "categoria": ('Sonido',),
+            "definicion": "Ajustar un parámetro o configuración para mejorar el rendimiento.",
+            "traduccion": "Adjust a parameter or setting to improve performance."
+        },
+        "transaction": {
+            "categoria": ('Bases de datos',),
+            "definicion": "Una unidad de trabajo que se realiza en una base de datos.",
+            "traduccion": "A unit of work done in a database."
+        },
+        "tokenize": {
+            "categoria": ('Lenguajes de programación',),
+            "definicion": "Dividir un texto en unidades básicas o tokens.",
+            "traduccion": "Divides a text into basic units or tokens."
+        },
         "take": {
-            "categoria": ("Listas",),
+            "categoria": ('Listas',),
             "definicion": "Toma un número específico de elementos de una lista.",
-            "traduccion": "Takes a specific number of elements from a list."},
-        "translate": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Convierte un texto de un idioma a otro.",
-            "traduccion": "Converts text from one language to another."},
+            "traduccion": "Takes a specific number of elements from a list."
+        },
         "tag": {
-            "categoria": ("HTML",),
+            "categoria": ('HTML',),
             "definicion": "Una etiqueta que define el contenido en una página web.",
-            "traduccion": "A tag that defines content on a web page."},
+            "traduccion": "A tag that defines content on a web page."
+        },
         "terminals": {
-            "categoria": ("Sistemas",),
+            "categoria": ('Sistemas',),
             "definicion": "Dispositivos de entrada y salida de datos.",
-            "traduccion": "Input and output data devices."},
+            "traduccion": "Input and output data devices."
+        },
         "tool": {
-            "categoria": ("Programación",),
+            "categoria": ('Programación',),
             "definicion": "Software o utilitario que ayuda en una tarea específica.",
-            "traduccion": "Software or utility that assists in a specific task."},
-        "translate": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Convierte un texto de un idioma a otro.",
-            "traduccion": "Converts text from one language to another."},
+            "traduccion": "Software or utility that assists in a specific task."
+        },
         "tolerance": {
-            "categoria": ("Matemáticas",),
+            "categoria": ('Matemáticas',),
             "definicion": "La variabilidad permitida en un valor o parámetro.",
-            "traduccion": "The allowed variability in a value or parameter."}},
+            "traduccion": "The allowed variability in a value or parameter."
+        }
+    },
     "u": {
         "update": {
-            "categoria": ("Base de datos",),
-            "definicion": "Modifica los registros existentes en una base de datos.",
-            "traduccion": "Modifies existing records in a database."},
-        "unique": {
-            "categoria": ("Colecciones",),
-            "definicion": "Elimina los valores duplicados de una lista.",
-            "traduccion": "Removes duplicate values from a list."},
-        "url": {
-            "categoria": ("Internet",),
-            "definicion": "Localizador uniforme de recursos, usado para identificar recursos en la web.",
-            "traduccion": "Uniform Resource Locator, used to identify resources on the web."},
-        "user": {
-            "categoria": ("Sistemas",),
-            "definicion": "Persona que interactúa con una aplicación o sistema.",
-            "traduccion": "Person who interacts with an application or system."},
-        "use": {
-            "categoria": ("Programación",),
-            "definicion": "Utiliza una librería o módulo dentro del código.",
-            "traduccion": "Uses a library or module within the code."},
-        "unpack": {
-            "categoria": ("Estructuras de datos",),
-            "definicion": "Desempaqueta elementos de una secuencia.",
-            "traduccion": "Unpacks elements from a sequence."},
-        "underscore": {
-            "categoria": ("Símbolos",),
-            "definicion": "Carácter de subrayado utilizado en programación.",
-            "traduccion": "Underscore character used in programming."},
-        "unit": {
-            "categoria": ("Medición",),
-            "definicion": "Una cantidad estándar usada para medir algo.",
-            "traduccion": "A standard quantity used to measure something."},
-        "upload": {
-            "categoria": ("Redes",),
-            "definicion": "Envía datos desde un cliente a un servidor.",
-            "traduccion": "Sends data from a client to a server."},
-        "utmost": {
-            "categoria": ("Programación",),
-            "definicion": "El nivel más alto o máximo de importancia.",
-            "traduccion": "The highest or utmost level of importance."},
-        "utility": {
-            "categoria": ("Herramientas",),
-            "definicion": "Programa o función diseñada para realizar una tarea útil.",
-            "traduccion": "A program or function designed to perform a useful task."},
-        "uniform": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Distribución de probabilidad donde todos los resultados son igualmente probables.",
-            "traduccion": "Probability distribution where all outcomes are equally likely."},
-        "undo": {
-            "categoria": ("Acciones",),
-            "definicion": "Revierte la última acción realizada.",
-            "traduccion": "Reverts the last action performed."},
-        "upsert": {
-            "categoria": ("Base de datos",),
-            "definicion": "Combinación de insertar o actualizar un registro en una base de datos.",
-            "traduccion": "A combination of inserting or updating a record in a database."},
-        "usage": {
-            "categoria": ("Programación",),
-            "definicion": "El uso o consumo de un recurso o función.",
-            "traduccion": "The use or consumption of a resource or function."},
-        "understand": {
-            "categoria": ("Aprendizaje",),
-            "definicion": "Captar el significado o la lógica de algo.",
-            "traduccion": "Grasp the meaning or logic of something."},
-        "unify": {
-            "categoria": ("Programación",),
-            "definicion": "Combinación de varias estructuras o funciones en una sola.",
-            "traduccion": "Combining multiple structures or functions into one."},
-        "unlock": {
-            "categoria": ("Seguridad",),
-            "definicion": "Desbloquea el acceso a un recurso o función.",
-            "traduccion": "Unlocks access to a resource or function."},
-        "uniformity": {
-            "categoria": ("Estándares",),
-            "definicion": "Consistencia o similitud en un conjunto de elementos.",
-            "traduccion": "Consistency or similarity in a set of elements."},
-        "update": {
-            "categoria": ("Base de datos",),
+            "categoria": ('Base de datos',),
             "definicion": "Cambiar la información en un registro de una base de datos.",
-            "traduccion": "Change the information in a database record."},
-        "usability": {
-            "categoria": ("Interfaz de usuario",),
-            "definicion": "Facilidad con la que los usuarios pueden interactuar con un sistema.",
-            "traduccion": "Ease with which users can interact with a system."},
-        "user-friendly": {
-            "categoria": ("Interfaz de usuario",),
-            "definicion": "Diseñado para ser fácil de usar.",
-            "traduccion": "Designed to be easy to use."},
-        "uncommon": {
-            "categoria": ("Frecuencia",),
-            "definicion": "Algo que no es frecuente o habitual.",
-            "traduccion": "Something that is not frequent or common."},
-        "uppercase": {
-            "categoria": ("Cadenas de texto",),
-            "definicion": "Convierte una cadena de texto a mayúsculas.",
-            "traduccion": "Converts a string of text to uppercase."},
-        "unitary": {
-            "categoria": ("Matrices",),
-            "definicion": "Matriz con unos en la diagonal y ceros en el resto.",
-            "traduccion": "Matrix with ones on the diagonal and zeros elsewhere."},
-        "usage": {
-            "categoria": ("Recursos",),
-            "definicion": "La cantidad de recurso utilizado en un sistema.",
-            "traduccion": "The amount of resource used in a system."},
-        "uptime": {
-            "categoria": ("Sistemas",),
-            "definicion": "El tiempo durante el cual un sistema está operativo.",
-            "traduccion": "The time during which a system is operational."},
-        "unittest": {
-            "categoria": ("Pruebas",),
-            "definicion": "Estructura para realizar pruebas unitarias de código.",
-            "traduccion": "Structure to perform unit tests of code."},
-        "uploading": {
-            "categoria": ("Redes",),
-            "definicion": "Proceso de enviar datos a un servidor o recurso en la web.",
-            "traduccion": "The process of sending data to a server or web resource."},
-        "unplug": {
-            "categoria": ("Hardware",),
-            "definicion": "Desconectar un dispositivo de su fuente de alimentación.",
-            "traduccion": "Disconnect a device from its power source."},
-        "unlimited": {
-            "categoria": ("Recursos",),
-            "definicion": "Sin restricciones o límites.",
-            "traduccion": "Without restrictions or limits."},
-        "useful": {
-            "categoria": ("Propósito",),
-            "definicion": "Algo que tiene un propósito práctico o funcional.",
-            "traduccion": "Something that has a practical or functional purpose."},
-        "untouched": {
-            "categoria": ("Datos",),
-            "definicion": "Datos que no han sido alterados o modificados.",
-            "traduccion": "Data that has not been altered or modified."},
-        "unified": {
-            "categoria": ("Sistemas",),
-            "definicion": "Vincular o combinar diferentes sistemas en uno solo.",
-            "traduccion": "Linking or combining different systems into one."},
-        "user-input": {
-            "categoria": ("Interfaz de usuario",),
-            "definicion": "La información proporcionada por el usuario a un sistema.",
-            "traduccion": "Information provided by the user to a system."},
-        "unresponsive": {
-            "categoria": ("Sistemas",),
-            "definicion": "Cuando un sistema o aplicación no responde a las acciones del usuario.",
-            "traduccion": "When a system or application does not respond to user actions."},
-        "underflow": {
-            "categoria": ("Programación",),
-            "definicion": "Cuando el valor de una variable es menor que el valor mínimo permitido.",
-            "traduccion": "When the value of a variable is lower than the allowed minimum value."},
-        "uniformity": {
-            "categoria": ("Estándares",),
-            "definicion": "Consistencia o similitud en un conjunto de elementos.",
-            "traduccion": "Consistency or similarity in a set of elements."},
-        "upgrade": {
-            "categoria": ("Hardware",),
-            "definicion": "Mejorar o actualizar un componente o sistema.",
-            "traduccion": "To enhance or update a component or system."},
-        "unavailable": {
-            "categoria": ("Recursos",),
-            "definicion": "Cuando un recurso no está disponible en ese momento.",
-            "traduccion": "When a resource is not available at that moment."},
-        "usecase": {
-            "categoria": ("Análisis",),
-            "definicion": "Descripción de cómo un usuario interactúa con un sistema.",
-            "traduccion": "Description of how a user interacts with a system."},
+            "traduccion": "Change the information in a database record."
+        },
+        "unique": {
+            "categoria": ('Colecciones',),
+            "definicion": "Elimina los valores duplicados de una lista.",
+            "traduccion": "Removes duplicate values from a list."
+        },
+        "url": {
+            "categoria": ('Internet',),
+            "definicion": "Localizador uniforme de recursos, usado para identificar recursos en la web.",
+            "traduccion": "Uniform Resource Locator, used to identify resources on the web."
+        },
+        "user": {
+            "categoria": ('Sistemas',),
+            "definicion": "Persona que interactúa con una aplicación o sistema.",
+            "traduccion": "Person who interacts with an application or system."
+        },
+        "use": {
+            "categoria": ('Programación',),
+            "definicion": "Utiliza una librería o módulo dentro del código.",
+            "traduccion": "Uses a library or module within the code."
+        },
+        "unpack": {
+            "categoria": ('Estructuras de datos',),
+            "definicion": "Desempaqueta elementos de una secuencia.",
+            "traduccion": "Unpacks elements from a sequence."
+        },
         "underscore": {
-            "categoria": ("Sintaxis",),
+            "categoria": ('Sintaxis',),
             "definicion": "Carácter bajo utilizado en nombres de variables o funciones.",
-            "traduccion": "Low character used in variable or function names."}},
+            "traduccion": "Low character used in variable or function names."
+        },
+        "unit": {
+            "categoria": ('Medición',),
+            "definicion": "Una cantidad estándar usada para medir algo.",
+            "traduccion": "A standard quantity used to measure something."
+        },
+        "upload": {
+            "categoria": ('Redes',),
+            "definicion": "Envía datos desde un cliente a un servidor.",
+            "traduccion": "Sends data from a client to a server."
+        },
+        "utmost": {
+            "categoria": ('Programación',),
+            "definicion": "El nivel más alto o máximo de importancia.",
+            "traduccion": "The highest or utmost level of importance."
+        },
+        "utility": {
+            "categoria": ('Herramientas',),
+            "definicion": "Programa o función diseñada para realizar una tarea útil.",
+            "traduccion": "A program or function designed to perform a useful task."
+        },
+        "uniform": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Distribución de probabilidad donde todos los resultados son igualmente probables.",
+            "traduccion": "Probability distribution where all outcomes are equally likely."
+        },
+        "undo": {
+            "categoria": ('Acciones',),
+            "definicion": "Revierte la última acción realizada.",
+            "traduccion": "Reverts the last action performed."
+        },
+        "upsert": {
+            "categoria": ('Base de datos',),
+            "definicion": "Combinación de insertar o actualizar un registro en una base de datos.",
+            "traduccion": "A combination of inserting or updating a record in a database."
+        },
+        "usage": {
+            "categoria": ('Recursos',),
+            "definicion": "La cantidad de recurso utilizado en un sistema.",
+            "traduccion": "The amount of resource used in a system."
+        },
+        "understand": {
+            "categoria": ('Aprendizaje',),
+            "definicion": "Captar el significado o la lógica de algo.",
+            "traduccion": "Grasp the meaning or logic of something."
+        },
+        "unify": {
+            "categoria": ('Programación',),
+            "definicion": "Combinación de varias estructuras o funciones en una sola.",
+            "traduccion": "Combining multiple structures or functions into one."
+        },
+        "unlock": {
+            "categoria": ('Seguridad',),
+            "definicion": "Desbloquea el acceso a un recurso o función.",
+            "traduccion": "Unlocks access to a resource or function."
+        },
+        "uniformity": {
+            "categoria": ('Estándares',),
+            "definicion": "Consistencia o similitud en un conjunto de elementos.",
+            "traduccion": "Consistency or similarity in a set of elements."
+        },
+        "usability": {
+            "categoria": ('Interfaz de usuario',),
+            "definicion": "Facilidad con la que los usuarios pueden interactuar con un sistema.",
+            "traduccion": "Ease with which users can interact with a system."
+        },
+        "user-friendly": {
+            "categoria": ('Interfaz de usuario',),
+            "definicion": "Diseñado para ser fácil de usar.",
+            "traduccion": "Designed to be easy to use."
+        },
+        "uncommon": {
+            "categoria": ('Frecuencia',),
+            "definicion": "Algo que no es frecuente o habitual.",
+            "traduccion": "Something that is not frequent or common."
+        },
+        "uppercase": {
+            "categoria": ('Cadenas de texto',),
+            "definicion": "Convierte una cadena de texto a mayúsculas.",
+            "traduccion": "Converts a string of text to uppercase."
+        },
+        "unitary": {
+            "categoria": ('Matrices',),
+            "definicion": "Matriz con unos en la diagonal y ceros en el resto.",
+            "traduccion": "Matrix with ones on the diagonal and zeros elsewhere."
+        },
+        "uptime": {
+            "categoria": ('Sistemas',),
+            "definicion": "El tiempo durante el cual un sistema está operativo.",
+            "traduccion": "The time during which a system is operational."
+        },
+        "unittest": {
+            "categoria": ('Pruebas',),
+            "definicion": "Estructura para realizar pruebas unitarias de código.",
+            "traduccion": "Structure to perform unit tests of code."
+        },
+        "uploading": {
+            "categoria": ('Redes',),
+            "definicion": "Proceso de enviar datos a un servidor o recurso en la web.",
+            "traduccion": "The process of sending data to a server or web resource."
+        },
+        "unplug": {
+            "categoria": ('Hardware',),
+            "definicion": "Desconectar un dispositivo de su fuente de alimentación.",
+            "traduccion": "Disconnect a device from its power source."
+        },
+        "unlimited": {
+            "categoria": ('Recursos',),
+            "definicion": "Sin restricciones o límites.",
+            "traduccion": "Without restrictions or limits."
+        },
+        "useful": {
+            "categoria": ('Propósito',),
+            "definicion": "Algo que tiene un propósito práctico o funcional.",
+            "traduccion": "Something that has a practical or functional purpose."
+        },
+        "untouched": {
+            "categoria": ('Datos',),
+            "definicion": "Datos que no han sido alterados o modificados.",
+            "traduccion": "Data that has not been altered or modified."
+        },
+        "unified": {
+            "categoria": ('Sistemas',),
+            "definicion": "Vincular o combinar diferentes sistemas en uno solo.",
+            "traduccion": "Linking or combining different systems into one."
+        },
+        "user-input": {
+            "categoria": ('Interfaz de usuario',),
+            "definicion": "La información proporcionada por el usuario a un sistema.",
+            "traduccion": "Information provided by the user to a system."
+        },
+        "unresponsive": {
+            "categoria": ('Sistemas',),
+            "definicion": "Cuando un sistema o aplicación no responde a las acciones del usuario.",
+            "traduccion": "When a system or application does not respond to user actions."
+        },
+        "underflow": {
+            "categoria": ('Programación',),
+            "definicion": "Cuando el valor de una variable es menor que el valor mínimo permitido.",
+            "traduccion": "When the value of a variable is lower than the allowed minimum value."
+        },
+        "upgrade": {
+            "categoria": ('Hardware',),
+            "definicion": "Mejorar o actualizar un componente o sistema.",
+            "traduccion": "To enhance or update a component or system."
+        },
+        "unavailable": {
+            "categoria": ('Recursos',),
+            "definicion": "Cuando un recurso no está disponible en ese momento.",
+            "traduccion": "When a resource is not available at that moment."
+        },
+        "usecase": {
+            "categoria": ('Análisis',),
+            "definicion": "Descripción de cómo un usuario interactúa con un sistema.",
+            "traduccion": "Description of how a user interacts with a system."
+        }
+    },
     "v": {
         "validate": {
-            "categoria": ("Verificación",),
-            "definicion": "Comprueba si los datos cumplen con un formato o criterio específico.",
-            "traduccion": "Checks if the data meets a specific format or criterion."},
-        "variable": {
-            "categoria": ("Programación",),
-            "definicion": "Espacio de memoria donde se almacena un valor que puede cambiar.",
-            "traduccion": "Memory space where a value that can change is stored."},
-        "value": {
-            "categoria": ("Datos",),
-            "definicion": "El contenido o dato almacenado en una variable.",
-            "traduccion": "The content or data stored in a variable."},
-        "version": {
-            "categoria": ("Software",),
-            "definicion": "Número o nombre que indica la evolución de un programa o sistema.",
-            "traduccion": "Number or name indicating the evolution of a program or system."},
-        "vowel": {
-            "categoria": ("Lingüística",),
-            "definicion": "Letra que representa un sonido vocal, como a, e, i, o, u.",
-            "traduccion": "Letter that represents a vocal sound, such as a, e, i, o, u."},
-        "view": {
-            "categoria": ("Gráficos",),
-            "definicion": "Representación visual de los datos o información.",
-            "traduccion": "Visual representation of data or information."},
-        "virtual": {
-            "categoria": ("Redes",),
-            "definicion": "Relacionado con un entorno no físico o simulado.",
-            "traduccion": "Related to a non-physical or simulated environment."},
-        "volume": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Medida de la cantidad de espacio ocupado por un objeto.",
-            "traduccion": "Measure of the amount of space occupied by an object."},
-        "vector": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Entidad matemática que tiene magnitud y dirección.",
-            "traduccion": "Mathematical entity that has magnitude and direction."},
-        "verify": {
-            "categoria": ("Validación",),
-            "definicion": "Comprobar la exactitud o veracidad de los datos o la información.",
-            "traduccion": "Check the accuracy or truthfulness of data or information."},
-        "vibrate": {
-            "categoria": ("Física",),
-            "definicion": "Moverse rápidamente hacia adelante y hacia atrás.",
-            "traduccion": "Move rapidly back and forth."},
-        "volume": {
-            "categoria": ("Datos",),
-            "definicion": "Cantidad total de datos almacenados o procesados.",
-            "traduccion": "Total amount of data stored or processed."},
-        "validate": {
-            "categoria": ("Verificación",),
-            "definicion": "Comprobar que los datos o entradas cumplen con criterios establecidos.",
-            "traduccion": "Check that data or inputs meet established criteria."},
-        "virtualization": {
-            "categoria": ("Tecnología",),
-            "definicion": "Proceso de crear una versión virtual de algo, como un servidor o almacenamiento.",
-            "traduccion": "Process of creating a virtual version of something, like a server or storage."},
-        "vulnerability": {
-            "categoria": ("Seguridad",),
-            "definicion": "Debilidad en un sistema que puede ser explotada para causar daño.",
-            "traduccion": "Weakness in a system that can be exploited to cause harm."},
-        "valueOf": {
-            "categoria": ("Métodos",),
-            "definicion": "Devuelve el valor primitivo de un objeto en Java.",
-            "traduccion": "Returns the primitive value of an object in Java."},
-        "voltage": {
-            "categoria": ("Electricidad",),
-            "definicion": "Diferencia de potencial eléctrico entre dos puntos.",
-            "traduccion": "Electric potential difference between two points."},
-        "vhost": {
-            "categoria": ("Redes",),
-            "definicion": "Acrónimo de host virtual, un servidor que hospeda varios dominios.",
-            "traduccion": "Acronym for virtual host, a server hosting multiple domains."},
-        "vacuum": {
-            "categoria": ("Física",),
-            "definicion": "Espacio que está completamente vacío de materia.",
-            "traduccion": "Space that is completely empty of matter."},
-        "verifiable": {
-            "categoria": ("Datos",),
-            "definicion": "Que puede ser comprobado o validado.",
-            "traduccion": "That can be checked or validated."},
-        "vigor": {
-            "categoria": ("Física",),
-            "definicion": "Intensidad o fuerza con la que ocurre una acción.",
-            "traduccion": "Intensity or strength with which an action occurs."},
-        "volition": {
-            "categoria": ("Psicología",),
-            "definicion": "El poder de tomar decisiones o actuar.",
-            "traduccion": "The power to make decisions or act."},
-        "velocity": {
-            "categoria": ("Física",),
-            "definicion": "Tasa de cambio de la posición de un objeto en una dirección específica.",
-            "traduccion": "Rate of change of an object's position in a specific direction."},
-        "validate": {
-            "categoria": ("Verificación",),
-            "definicion": "Asegurar que la entrada de datos sea válida antes de ser procesada.",
-            "traduccion": "Ensure that data input is valid before processing."},
-        "vectorize": {
-            "categoria": ("Programación",),
-            "definicion": "Convertir operaciones matemáticas en operaciones vectoriales para mayor eficiencia.",
-            "traduccion": "Convert mathematical operations into vector operations for greater efficiency."},
-        "validate": {
-            "categoria": ("Validación",),
-            "definicion": "Verificar si una acción o entrada cumple con los criterios establecidos.",
-            "traduccion": "Verify if an action or input meets established criteria."},
-        "virtualBox": {
-            "categoria": ("Tecnología",),
-            "definicion": "Software de virtualización que permite crear máquinas virtuales.",
-            "traduccion": "Virtualization software that allows creating virtual machines."},
-        "verbosity": {
-            "categoria": ("Programación",),
-            "definicion": "Uso excesivo de palabras o instrucciones en el código.",
-            "traduccion": "Excessive use of words or instructions in code."},
-        "vectorial": {
-            "categoria": ("Matemáticas",),
-            "definicion": "Relativo a vectores o a operaciones con ellos.",
-            "traduccion": "Related to vectors or operations with them."},
-        "vault": {
-            "categoria": ("Seguridad",),
-            "definicion": "Un lugar seguro o almacenamiento para guardar información sensible.",
-            "traduccion": "A secure place or storage for keeping sensitive information."},
-        "verify": {
-            "categoria": ("Validación",),
-            "definicion": "Comprobar si algo es correcto o cumple con un estándar.",
-            "traduccion": "Check if something is correct or meets a standard."},
-        "vendor": {
-            "categoria": ("Comercio",),
-            "definicion": "Proveedor de productos o servicios.",
-            "traduccion": "Supplier of products or services."},
-        "voluntary": {
-            "categoria": ("Decisión",),
-            "definicion": "Hecho por libre elección o deseo.",
-            "traduccion": "Done by free choice or desire."},
-        "visibility": {
-            "categoria": ("Visibilidad",),
-            "definicion": "Facilidad con la que algo puede ser visto o detectado.",
-            "traduccion": "Ease with which something can be seen or detected."},
-        "validate": {
-            "categoria": ("Verificación",),
+            "categoria": ('Verificación',),
             "definicion": "Asegurar que los datos introducidos son correctos.",
-            "traduccion": "Ensure that the data entered is correct."},
-        "vulnerable": {
-            "categoria": ("Seguridad",),
-            "definicion": "Que es susceptible a ser atacado o explotado.",
-            "traduccion": "Susceptible to being attacked or exploited."},
-        "vortex": {
-            "categoria": ("Física",),
-            "definicion": "Movimiento giratorio en un fluido, como un tornado.",
-            "traduccion": "Rotational movement in a fluid, such as a tornado."},
+            "traduccion": "Ensure that the data entered is correct."
+        },
+        "variable": {
+            "categoria": ('Programación',),
+            "definicion": "Espacio de memoria donde se almacena un valor que puede cambiar.",
+            "traduccion": "Memory space where a value that can change is stored."
+        },
+        "value": {
+            "categoria": ('Datos',),
+            "definicion": "El contenido o dato almacenado en una variable.",
+            "traduccion": "The content or data stored in a variable."
+        },
+        "version": {
+            "categoria": ('Software',),
+            "definicion": "Número o nombre que indica la evolución de un programa o sistema.",
+            "traduccion": "Number or name indicating the evolution of a program or system."
+        },
+        "vowel": {
+            "categoria": ('Lingüística',),
+            "definicion": "Letra que representa un sonido vocal, como a, e, i, o, u.",
+            "traduccion": "Letter that represents a vocal sound, such as a, e, i, o, u."
+        },
+        "view": {
+            "categoria": ('Gráficos',),
+            "definicion": "Representación visual de los datos o información.",
+            "traduccion": "Visual representation of data or information."
+        },
+        "virtual": {
+            "categoria": ('Redes',),
+            "definicion": "Relacionado con un entorno no físico o simulado.",
+            "traduccion": "Related to a non-physical or simulated environment."
+        },
+        "volume": {
+            "categoria": ('Datos',),
+            "definicion": "Cantidad total de datos almacenados o procesados.",
+            "traduccion": "Total amount of data stored or processed."
+        },
+        "vector": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Entidad matemática que tiene magnitud y dirección.",
+            "traduccion": "Mathematical entity that has magnitude and direction."
+        },
+        "verify": {
+            "categoria": ('Validación',),
+            "definicion": "Comprobar si algo es correcto o cumple con un estándar.",
+            "traduccion": "Check if something is correct or meets a standard."
+        },
+        "vibrate": {
+            "categoria": ('Física',),
+            "definicion": "Moverse rápidamente hacia adelante y hacia atrás.",
+            "traduccion": "Move rapidly back and forth."
+        },
+        "virtualization": {
+            "categoria": ('Tecnología',),
+            "definicion": "Proceso de crear una versión virtual de algo, como un servidor o almacenamiento.",
+            "traduccion": "Process of creating a virtual version of something, like a server or storage."
+        },
+        "vulnerability": {
+            "categoria": ('Seguridad',),
+            "definicion": "Debilidad en un sistema que puede ser explotada para causar daño.",
+            "traduccion": "Weakness in a system that can be exploited to cause harm."
+        },
+        "valueOf": {
+            "categoria": ('Métodos',),
+            "definicion": "Devuelve el valor primitivo de un objeto en Java.",
+            "traduccion": "Returns the primitive value of an object in Java."
+        },
         "voltage": {
-            "categoria": ("Física",),
+            "categoria": ('Física',),
             "definicion": "Diferencia de potencial eléctrico entre dos puntos.",
-            "traduccion": "Electric potential difference between two points."},
+            "traduccion": "Electric potential difference between two points."
+        },
+        "vhost": {
+            "categoria": ('Redes',),
+            "definicion": "Acrónimo de host virtual, un servidor que hospeda varios dominios.",
+            "traduccion": "Acronym for virtual host, a server hosting multiple domains."
+        },
+        "vacuum": {
+            "categoria": ('Física',),
+            "definicion": "Espacio que está completamente vacío de materia.",
+            "traduccion": "Space that is completely empty of matter."
+        },
+        "verifiable": {
+            "categoria": ('Datos',),
+            "definicion": "Que puede ser comprobado o validado.",
+            "traduccion": "That can be checked or validated."
+        },
+        "vigor": {
+            "categoria": ('Física',),
+            "definicion": "Intensidad o fuerza con la que ocurre una acción.",
+            "traduccion": "Intensity or strength with which an action occurs."
+        },
+        "volition": {
+            "categoria": ('Psicología',),
+            "definicion": "El poder de tomar decisiones o actuar.",
+            "traduccion": "The power to make decisions or act."
+        },
+        "velocity": {
+            "categoria": ('Física',),
+            "definicion": "Tasa de cambio de la posición de un objeto en una dirección específica.",
+            "traduccion": "Rate of change of an object's position in a specific direction."
+        },
+        "vectorize": {
+            "categoria": ('Programación',),
+            "definicion": "Convertir operaciones matemáticas en operaciones vectoriales para mayor eficiencia.",
+            "traduccion": "Convert mathematical operations into vector operations for greater efficiency."
+        },
+        "virtualBox": {
+            "categoria": ('Tecnología',),
+            "definicion": "Software de virtualización que permite crear máquinas virtuales.",
+            "traduccion": "Virtualization software that allows creating virtual machines."
+        },
+        "verbosity": {
+            "categoria": ('Programación',),
+            "definicion": "Uso excesivo de palabras o instrucciones en el código.",
+            "traduccion": "Excessive use of words or instructions in code."
+        },
+        "vectorial": {
+            "categoria": ('Matemáticas',),
+            "definicion": "Relativo a vectores o a operaciones con ellos.",
+            "traduccion": "Related to vectors or operations with them."
+        },
+        "vault": {
+            "categoria": ('Seguridad',),
+            "definicion": "Un lugar seguro o almacenamiento para guardar información sensible.",
+            "traduccion": "A secure place or storage for keeping sensitive information."
+        },
+        "vendor": {
+            "categoria": ('Comercio',),
+            "definicion": "Proveedor de productos o servicios.",
+            "traduccion": "Supplier of products or services."
+        },
+        "voluntary": {
+            "categoria": ('Decisión',),
+            "definicion": "Hecho por libre elección o deseo.",
+            "traduccion": "Done by free choice or desire."
+        },
+        "visibility": {
+            "categoria": ('Visibilidad',),
+            "definicion": "Facilidad con la que algo puede ser visto o detectado.",
+            "traduccion": "Ease with which something can be seen or detected."
+        },
+        "vulnerable": {
+            "categoria": ('Seguridad',),
+            "definicion": "Que es susceptible a ser atacado o explotado.",
+            "traduccion": "Susceptible to being attacked or exploited."
+        },
+        "vortex": {
+            "categoria": ('Física',),
+            "definicion": "Movimiento giratorio en un fluido, como un tornado.",
+            "traduccion": "Rotational movement in a fluid, such as a tornado."
+        },
         "vanguard": {
-            "categoria": ("Movimiento",),
+            "categoria": ('Movimiento',),
             "definicion": "Parte de un grupo que va por delante, liderando el cambio.",
-            "traduccion": "Part of a group that leads ahead, leading the change."},
+            "traduccion": "Part of a group that leads ahead, leading the change."
+        },
         "valueError": {
-            "categoria": ("Excepciones",),
+            "categoria": ('Excepciones',),
             "definicion": "Error que ocurre cuando se recibe un valor no esperado.",
-            "traduccion": "Error that occurs when an unexpected value is received."},
+            "traduccion": "Error that occurs when an unexpected value is received."
+        },
         "vigenère": {
-            "categoria": ("Cifrado",),
+            "categoria": ('Cifrado',),
             "definicion": "Método de cifrado que utiliza una clave para encriptar texto.",
-            "traduccion": "Encryption method that uses a key to encrypt text."}},
+            "traduccion": "Encryption method that uses a key to encrypt text."
+        }
+    },
     "w": {
         "while": {
-            "categoria": ("Ciclo",),
+            "categoria": ('Ciclo',),
             "definicion": "Crea un bucle que se ejecuta mientras una condición sea verdadera.",
-            "traduccion": "Creates a loop that runs while a condition is true."},
+            "traduccion": "Creates a loop that runs while a condition is true."
+        },
         "window": {
-            "categoria": ("Interfaz gráfica",),
+            "categoria": ('Interfaz gráfica',),
             "definicion": "Área dentro de una interfaz gráfica donde se muestra contenido.",
-            "traduccion": "Area within a graphical interface where content is displayed."},
+            "traduccion": "Area within a graphical interface where content is displayed."
+        },
         "wget": {
-            "categoria": ("Comandos",),
-            "definicion": "Comando de línea que permite descargar archivos desde la web.",
-            "traduccion": "Command-line tool that allows downloading files from the web."},
-        "width": {
-            "categoria": ("Dimensiones",),
-            "definicion": "Medida de la extensión en sentido horizontal de un objeto.",
-            "traduccion": "Measure of the horizontal extent of an object."},
-        "write": {
-            "categoria": ("Entrada",),
-            "definicion": "Permite escribir datos en un archivo o dispositivo.",
-            "traduccion": "Allows writing data to a file or device."},
-        "wavelength": {
-            "categoria": ("Física",),
-            "definicion": "Distancia entre dos puntos consecutivos en una onda.",
-            "traduccion": "Distance between two consecutive points in a wave."},
-        "wrapper": {
-            "categoria": ("Programación",),
-            "definicion": "Función o clase que envuelve a otro para extender su funcionalidad.",
-            "traduccion": "Function or class that wraps another to extend its functionality."},
-        "watch": {
-            "categoria": ("Observación",),
-            "definicion": "Monitorear el cambio de valores o eventos.",
-            "traduccion": "Monitor changes in values or events."},
-        "writable": {
-            "categoria": ("Permisos",),
-            "definicion": "Indica si un archivo puede ser modificado o escrito.",
-            "traduccion": "Indicates if a file can be modified or written to."},
-        "workflow": {
-            "categoria": ("Procesos",),
-            "definicion": "Secuencia de pasos a seguir en un proceso de trabajo.",
-            "traduccion": "Sequence of steps to follow in a workflow process."},
-        "weakness": {
-            "categoria": ("Seguridad",),
-            "definicion": "Vulnerabilidad en un sistema o componente.",
-            "traduccion": "Weakness in a system or component."},
-        "web": {
-            "categoria": ("Internet",),
-            "definicion": "Sistema de páginas interconectadas a través de la red.",
-            "traduccion": "System of interconnected web pages through the network."},
-        "websocket": {
-            "categoria": ("Redes",),
-            "definicion": "Protocolo que permite comunicación bidireccional entre cliente y servidor.",
-            "traduccion": "Protocol that enables bidirectional communication between client and server."},
-        "widget": {
-            "categoria": ("Interfaz gráfica",),
-            "definicion": "Componente gráfico interactivo dentro de una interfaz de usuario.",
-            "traduccion": "Interactive graphical component within a user interface."},
-        "wait": {
-            "categoria": ("Control de flujo",),
-            "definicion": "Pausa en la ejecución de un programa hasta que se cumpla una condición.",
-            "traduccion": "Pause in the execution of a program until a condition is met."},
-        "wrap": {
-            "categoria": ("Programación",),
-            "definicion": "Envolver un conjunto de instrucciones o datos dentro de una estructura.",
-            "traduccion": "Wrap a set of instructions or data within a structure."},
-        "wifi": {
-            "categoria": ("Conectividad",),
-            "definicion": "Tecnología de red inalámbrica para conectarse a internet.",
-            "traduccion": "Wireless network technology to connect to the internet."},
-        "word": {
-            "categoria": ("Texto",),
-            "definicion": "Unidad básica de un lenguaje o sistema de comunicación.",
-            "traduccion": "Basic unit of a language or communication system."},
-        "win": {
-            "categoria": ("Resultado",),
-            "definicion": "Lograr el objetivo o victoria en una competencia o tarea.",
-            "traduccion": "Achieve the goal or victory in a competition or task."},
-        "without": {
-            "categoria": ("Negación",),
-            "definicion": "Indica la ausencia de algo.",
-            "traduccion": "Indicates the absence of something."},
-        "whitespace": {
-            "categoria": ("Formato",),
-            "definicion": "Espacio en blanco utilizado en programación o texto.",
-            "traduccion": "Blank space used in programming or text."},
-        "widget": {
-            "categoria": ("Interfaz gráfica",),
-            "definicion": "Elemento de la interfaz que proporciona alguna funcionalidad.",
-            "traduccion": "Element of the interface that provides some functionality."},
-        "work": {
-            "categoria": ("Trabajo",),
-            "definicion": "Realización de una tarea o acción para obtener un resultado.",
-            "traduccion": "Carrying out a task or action to achieve a result."},
-        "writable": {
-            "categoria": ("Archivo",),
-            "definicion": "Indica si el archivo se puede modificar o escribir.",
-            "traduccion": "Indicates if the file can be modified or written."},
-        "widen": {
-            "categoria": ("Transformación",),
-            "definicion": "Aumentar el tamaño o la amplitud de algo.",
-            "traduccion": "Increase the size or width of something."},
-        "warning": {
-            "categoria": ("Alerta",),
-            "definicion": "Mensaje que avisa sobre un posible problema o error.",
-            "traduccion": "Message that warns about a possible problem or error."},
-        "whitelist": {
-            "categoria": ("Seguridad",),
-            "definicion": "Lista de elementos aprobados o permitidos, como direcciones IP o correos.",
-            "traduccion": "List of approved or allowed elements, such as IP addresses or emails."},
-        "where": {
-            "categoria": ("Condición",),
-            "definicion": "Palabra clave utilizada para especificar una condición en consultas.",
-            "traduccion": "Keyword used to specify a condition in queries."},
-        "wrap": {
-            "categoria": ("Programación",),
-            "definicion": "Envolver o proteger un bloque de código o datos.",
-            "traduccion": "Wrap or protect a block of code or data."},
-        "world": {
-            "categoria": ("Realidad",),
-            "definicion": "El entorno físico o espacio en el que vivimos.",
-            "traduccion": "The physical environment or space in which we live."},
-        "wordwrap": {
-            "categoria": ("Texto",),
-            "definicion": "Ajustar el texto para que se divida en líneas dentro de un espacio dado.",
-            "traduccion": "Adjust the text so that it breaks into lines within a given space."},
-        "weight": {
-            "categoria": ("Física",),
-            "definicion": "Medida de la fuerza gravitacional ejercida sobre un objeto.",
-            "traduccion": "Measure of the gravitational force exerted on an object."},
-        "windowing": {
-            "categoria": ("Interfaz gráfica",),
-            "definicion": "Técnica de visualización en la que múltiples ventanas pueden mostrarse a la vez.",
-            "traduccion": "Visualization technique where multiple windows can be shown at once."},
-        "watchdog": {
-            "categoria": ("Seguridad",),
-            "definicion": "Mecanismo de control que supervisa y detecta fallos en el sistema.",
-            "traduccion": "Control mechanism that monitors and detects system failures."},
-        "wget": {
-            "categoria": ("Comando",),
+            "categoria": ('Comando',),
             "definicion": "Herramienta de línea de comandos utilizada para descargar archivos desde la web.",
-            "traduccion": "Command-line tool used to download files from the web."},
-        "wide": {
-            "categoria": ("Dimensión",),
-            "definicion": "Amplitud o extensión en sentido horizontal.",
-            "traduccion": "Width or extent in the horizontal direction."},
-        "waitfor": {
-            "categoria": ("Comando",),
-            "definicion": "Esperar una condición o evento específico antes de continuar con la ejecución.",
-            "traduccion": "Wait for a specific condition or event before continuing execution."},
+            "traduccion": "Command-line tool used to download files from the web."
+        },
+        "width": {
+            "categoria": ('Dimensiones',),
+            "definicion": "Medida de la extensión en sentido horizontal de un objeto.",
+            "traduccion": "Measure of the horizontal extent of an object."
+        },
+        "write": {
+            "categoria": ('Entrada',),
+            "definicion": "Permite escribir datos en un archivo o dispositivo.",
+            "traduccion": "Allows writing data to a file or device."
+        },
+        "wavelength": {
+            "categoria": ('Física',),
+            "definicion": "Distancia entre dos puntos consecutivos en una onda.",
+            "traduccion": "Distance between two consecutive points in a wave."
+        },
+        "wrapper": {
+            "categoria": ('Programación',),
+            "definicion": "Función o clase que envuelve a otro para extender su funcionalidad.",
+            "traduccion": "Function or class that wraps another to extend its functionality."
+        },
         "watch": {
-            "categoria": ("Observación",),
+            "categoria": ('Observación',),
             "definicion": "Monitorear el estado de un objeto o proceso.",
-            "traduccion": "Monitor the state of an object or process."},
+            "traduccion": "Monitor the state of an object or process."
+        },
+        "writable": {
+            "categoria": ('Archivo',),
+            "definicion": "Indica si el archivo se puede modificar o escribir.",
+            "traduccion": "Indicates if the file can be modified or written."
+        },
+        "workflow": {
+            "categoria": ('Procesos',),
+            "definicion": "Secuencia de pasos a seguir en un proceso de trabajo.",
+            "traduccion": "Sequence of steps to follow in a workflow process."
+        },
+        "weakness": {
+            "categoria": ('Seguridad',),
+            "definicion": "Vulnerabilidad en un sistema o componente.",
+            "traduccion": "Weakness in a system or component."
+        },
+        "web": {
+            "categoria": ('Internet',),
+            "definicion": "Sistema de páginas interconectadas a través de la red.",
+            "traduccion": "System of interconnected web pages through the network."
+        },
+        "websocket": {
+            "categoria": ('Redes',),
+            "definicion": "Protocolo que permite comunicación bidireccional entre cliente y servidor.",
+            "traduccion": "Protocol that enables bidirectional communication between client and server."
+        },
+        "widget": {
+            "categoria": ('Interfaz gráfica',),
+            "definicion": "Elemento de la interfaz que proporciona alguna funcionalidad.",
+            "traduccion": "Element of the interface that provides some functionality."
+        },
+        "wait": {
+            "categoria": ('Control de flujo',),
+            "definicion": "Pausa en la ejecución de un programa hasta que se cumpla una condición.",
+            "traduccion": "Pause in the execution of a program until a condition is met."
+        },
+        "wrap": {
+            "categoria": ('Programación',),
+            "definicion": "Envolver o proteger un bloque de código o datos.",
+            "traduccion": "Wrap or protect a block of code or data."
+        },
+        "wifi": {
+            "categoria": ('Conectividad',),
+            "definicion": "Tecnología de red inalámbrica para conectarse a internet.",
+            "traduccion": "Wireless network technology to connect to the internet."
+        },
+        "word": {
+            "categoria": ('Texto',),
+            "definicion": "Unidad básica de un lenguaje o sistema de comunicación.",
+            "traduccion": "Basic unit of a language or communication system."
+        },
+        "win": {
+            "categoria": ('Resultado',),
+            "definicion": "Lograr el objetivo o victoria en una competencia o tarea.",
+            "traduccion": "Achieve the goal or victory in a competition or task."
+        },
+        "without": {
+            "categoria": ('Negación',),
+            "definicion": "Indica la ausencia de algo.",
+            "traduccion": "Indicates the absence of something."
+        },
+        "whitespace": {
+            "categoria": ('Formato',),
+            "definicion": "Espacio en blanco utilizado en programación o texto.",
+            "traduccion": "Blank space used in programming or text."
+        },
+        "work": {
+            "categoria": ('Trabajo',),
+            "definicion": "Realización de una tarea o acción para obtener un resultado.",
+            "traduccion": "Carrying out a task or action to achieve a result."
+        },
+        "widen": {
+            "categoria": ('Transformación',),
+            "definicion": "Aumentar el tamaño o la amplitud de algo.",
+            "traduccion": "Increase the size or width of something."
+        },
+        "warning": {
+            "categoria": ('Alerta',),
+            "definicion": "Mensaje que avisa sobre un posible problema o error.",
+            "traduccion": "Message that warns about a possible problem or error."
+        },
+        "whitelist": {
+            "categoria": ('Seguridad',),
+            "definicion": "Lista de elementos aprobados o permitidos, como direcciones IP o correos.",
+            "traduccion": "List of approved or allowed elements, such as IP addresses or emails."
+        },
+        "where": {
+            "categoria": ('Condición',),
+            "definicion": "Palabra clave utilizada para especificar una condición en consultas.",
+            "traduccion": "Keyword used to specify a condition in queries."
+        },
+        "world": {
+            "categoria": ('Realidad',),
+            "definicion": "El entorno físico o espacio en el que vivimos.",
+            "traduccion": "The physical environment or space in which we live."
+        },
+        "wordwrap": {
+            "categoria": ('Texto',),
+            "definicion": "Ajustar el texto para que se divida en líneas dentro de un espacio dado.",
+            "traduccion": "Adjust the text so that it breaks into lines within a given space."
+        },
+        "weight": {
+            "categoria": ('Física',),
+            "definicion": "Medida de la fuerza gravitacional ejercida sobre un objeto.",
+            "traduccion": "Measure of the gravitational force exerted on an object."
+        },
+        "windowing": {
+            "categoria": ('Interfaz gráfica',),
+            "definicion": "Técnica de visualización en la que múltiples ventanas pueden mostrarse a la vez.",
+            "traduccion": "Visualization technique where multiple windows can be shown at once."
+        },
+        "watchdog": {
+            "categoria": ('Seguridad',),
+            "definicion": "Mecanismo de control que supervisa y detecta fallos en el sistema.",
+            "traduccion": "Control mechanism that monitors and detects system failures."
+        },
+        "wide": {
+            "categoria": ('Dimensión',),
+            "definicion": "Amplitud o extensión en sentido horizontal.",
+            "traduccion": "Width or extent in the horizontal direction."
+        },
+        "waitfor": {
+            "categoria": ('Comando',),
+            "definicion": "Esperar una condición o evento específico antes de continuar con la ejecución.",
+            "traduccion": "Wait for a specific condition or event before continuing execution."
+        },
         "week": {
-            "categoria": ("Tiempo",),
+            "categoria": ('Tiempo',),
             "definicion": "Período de siete días.",
-            "traduccion": "Period of seven days."},
+            "traduccion": "Period of seven days."
+        },
         "webhook": {
-            "categoria": ("Redes",),
+            "categoria": ('Redes',),
             "definicion": "Método para que una aplicación envíe información a otra automáticamente.",
-            "traduccion": "Method for one application to automatically send information to another."},
+            "traduccion": "Method for one application to automatically send information to another."
+        },
         "worlds": {
-            "categoria": ("Mundo",),
+            "categoria": ('Mundo',),
             "definicion": "Diversos entornos o mundos virtuales en un videojuego.",
-            "traduccion": "Various environments or virtual worlds in a video game."}},
+            "traduccion": "Various environments or virtual worlds in a video game."
+        }
+    },
     "x": {
         "x": {
-            "categoria": ("General",),
+            "categoria": ('General',),
             "definicion": "Una variable comúnmente utilizada en matemáticas y programación para representar una cantidad desconocida o un valor.",
-            "traduccion": "A variable commonly used in mathematics and programming to represent an unknown quantity or value."},
+            "traduccion": "A variable commonly used in mathematics and programming to represent an unknown quantity or value."
+        },
         "xor": {
-            "categoria": ("Operadores",),
+            "categoria": ('Operadores',),
             "definicion": "Operador lógico que devuelve verdadero si solo uno de los operandos es verdadero.",
-            "traduccion": "A logical operator that returns true if only one of the operands is true."},
+            "traduccion": "A logical operator that returns true if only one of the operands is true."
+        },
         "xml": {
-            "categoria": ("Formato de datos",),
+            "categoria": ('Formato de datos',),
             "definicion": "Lenguaje de marcado utilizado para almacenar y transportar datos de forma estructurada.",
-            "traduccion": "Markup language used for storing and transporting structured data."},
+            "traduccion": "Markup language used for storing and transporting structured data."
+        },
         "x-axis": {
-            "categoria": ("Gráficos",),
+            "categoria": ('Gráficos',),
             "definicion": "El eje horizontal en un gráfico, comúnmente utilizado para representar variables independientes.",
-            "traduccion": "The horizontal axis in a graph, commonly used to represent independent variables."},
+            "traduccion": "The horizontal axis in a graph, commonly used to represent independent variables."
+        },
         "xcode": {
-            "categoria": ("Herramienta",),
+            "categoria": ('Herramienta',),
             "definicion": "Entorno de desarrollo integrado (IDE) de Apple para crear aplicaciones para sus sistemas operativos.",
-            "traduccion": "Apple's integrated development environment (IDE) for creating applications for its operating systems."},
+            "traduccion": "Apple's integrated development environment (IDE) for creating applications for its operating systems."
+        },
         "x11": {
-            "categoria": ("Sistema",),
+            "categoria": ('Sistema',),
             "definicion": "Protocolo de red que permite la ejecución de aplicaciones gráficas de forma remota sobre redes.",
-            "traduccion": "A network protocol that allows the execution of graphical applications remotely over networks."},
+            "traduccion": "A network protocol that allows the execution of graphical applications remotely over networks."
+        },
         "xen": {
-            "categoria": ("Virtualización",),
+            "categoria": ('Virtualización',),
             "definicion": "Sistema de virtualización de código abierto que permite la ejecución de múltiples sistemas operativos.",
-            "traduccion": "An open-source virtualization system that allows the execution of multiple operating systems."},
+            "traduccion": "An open-source virtualization system that allows the execution of multiple operating systems."
+        },
         "xss": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "Vulnerabilidad de seguridad que permite inyectar scripts maliciosos en sitios web.",
-            "traduccion": "A security vulnerability that allows malicious scripts to be injected into websites."},
+            "traduccion": "A security vulnerability that allows malicious scripts to be injected into websites."
+        },
         "xaml": {
-            "categoria": ("Lenguaje",),
+            "categoria": ('Lenguaje',),
             "definicion": "Lenguaje de marcado basado en XML utilizado para diseñar interfaces gráficas en aplicaciones de Windows.",
-            "traduccion": "XML-based markup language used to design graphical interfaces in Windows applications."},
+            "traduccion": "XML-based markup language used to design graphical interfaces in Windows applications."
+        },
         "xdebug": {
-            "categoria": ("Depuración",),
+            "categoria": ('Depuración',),
             "definicion": "Extensión para PHP que facilita el proceso de depuración mediante la visualización de información de ejecución.",
-            "traduccion": "Extension for PHP that facilitates the debugging process by displaying execution information."},
+            "traduccion": "Extension for PHP that facilitates the debugging process by displaying execution information."
+        },
         "xgboost": {
-            "categoria": ("Algoritmos",),
+            "categoria": ('Algoritmos',),
             "definicion": "Un algoritmo de machine learning que implementa boosting, muy utilizado en tareas de clasificación.",
-            "traduccion": "A machine learning algorithm that implements boosting, widely used in classification tasks."},
+            "traduccion": "A machine learning algorithm that implements boosting, widely used in classification tasks."
+        },
         "xunit": {
-            "categoria": ("Pruebas",),
+            "categoria": ('Pruebas',),
             "definicion": "Marco de pruebas unitarias utilizado en varios lenguajes de programación como .NET y Java.",
-            "traduccion": "Unit testing framework used in various programming languages like .NET and Java."},
+            "traduccion": "Unit testing framework used in various programming languages like .NET and Java."
+        },
         "x-input": {
-            "categoria": ("Entrada",),
+            "categoria": ('Entrada',),
             "definicion": "Referencia a un tipo de entrada en sistemas informáticos o juegos, como teclados o ratones.",
-            "traduccion": "Reference to an input type in computer systems or games, like keyboards or mice."},
+            "traduccion": "Reference to an input type in computer systems or games, like keyboards or mice."
+        },
         "xor_gate": {
-            "categoria": ("Circuitos lógicos",),
+            "categoria": ('Circuitos lógicos',),
             "definicion": "Puerta lógica que realiza una operación XOR entre dos entradas.",
-            "traduccion": "A logical gate that performs an XOR operation between two inputs."},
+            "traduccion": "A logical gate that performs an XOR operation between two inputs."
+        },
         "xcache": {
-            "categoria": ("Caché",),
+            "categoria": ('Caché',),
             "definicion": "Sistema de caché de alto rendimiento para PHP.",
-            "traduccion": "High-performance caching system for PHP."},
+            "traduccion": "High-performance caching system for PHP."
+        },
         "xmlrpc": {
-            "categoria": ("Protocolo",),
+            "categoria": ('Protocolo',),
             "definicion": "Protocolo de llamadas a procedimientos remotos utilizando XML para la codificación de datos.",
-            "traduccion": "Remote procedure call protocol using XML to encode data."},
+            "traduccion": "Remote procedure call protocol using XML to encode data."
+        },
         "xdebugger": {
-            "categoria": ("Depuración",),
+            "categoria": ('Depuración',),
             "definicion": "Herramienta de depuración para programas que permiten analizar el flujo de ejecución del código.",
-            "traduccion": "Debugging tool for programs that allows analyzing the flow of code execution."},
+            "traduccion": "Debugging tool for programs that allows analyzing the flow of code execution."
+        },
         "xsd": {
-            "categoria": ("Esquema",),
+            "categoria": ('Esquema',),
             "definicion": "Lenguaje basado en XML que describe la estructura de un documento XML.",
-            "traduccion": "XML-based language that describes the structure of an XML document."},
+            "traduccion": "XML-based language that describes the structure of an XML document."
+        },
         "x-input-handler": {
-            "categoria": ("Control",),
+            "categoria": ('Control',),
             "definicion": "Manejador que procesa las entradas del usuario en sistemas interactivos.",
-            "traduccion": "Handler that processes user inputs in interactive systems."},
+            "traduccion": "Handler that processes user inputs in interactive systems."
+        },
         "xterm": {
-            "categoria": ("Terminal",),
+            "categoria": ('Terminal',),
             "definicion": "Emulador de terminal basado en X Window System, comúnmente utilizado en Linux.",
-            "traduccion": "Terminal emulator based on X Window System, commonly used in Linux."},
+            "traduccion": "Terminal emulator based on X Window System, commonly used in Linux."
+        },
         "xchange": {
-            "categoria": ("Intercambio",),
+            "categoria": ('Intercambio',),
             "definicion": "Plataforma o herramienta para intercambiar información o datos entre diferentes sistemas.",
-            "traduccion": "Platform or tool for exchanging information or data between different systems."},
+            "traduccion": "Platform or tool for exchanging information or data between different systems."
+        },
         "xenserver": {
-            "categoria": ("Virtualización",),
+            "categoria": ('Virtualización',),
             "definicion": "Plataforma de virtualización de servidor basada en Xen, utilizada para la gestión de máquinas virtuales.",
-            "traduccion": "Xen-based server virtualization platform used for managing virtual machines."},
+            "traduccion": "Xen-based server virtualization platform used for managing virtual machines."
+        },
         "xapi": {
-            "categoria": ("Interfaz",),
+            "categoria": ('Interfaz',),
             "definicion": "Interfaz de programación de aplicaciones utilizada para interactuar con servicios web.",
-            "traduccion": "Application programming interface used to interact with web services."},
+            "traduccion": "Application programming interface used to interact with web services."
+        },
         "xact": {
-            "categoria": ("Base de datos",),
+            "categoria": ('Base de datos',),
             "definicion": "Sistema que maneja la transacción de datos en una base de datos.",
-            "traduccion": "System that manages data transactions in a database."},
+            "traduccion": "System that manages data transactions in a database."
+        },
         "xscale": {
-            "categoria": ("Escalabilidad",),
+            "categoria": ('Escalabilidad',),
             "definicion": "Técnica utilizada para medir o modificar la escala de un sistema.",
-            "traduccion": "Technique used to measure or modify the scale of a system."},
+            "traduccion": "Technique used to measure or modify the scale of a system."
+        },
         "x-frame": {
-            "categoria": ("Seguridad",),
+            "categoria": ('Seguridad',),
             "definicion": "Mecanismo de seguridad que evita que un sitio web sea cargado en un marco de otro sitio.",
-            "traduccion": "Security mechanism that prevents a website from being loaded in a frame from another site."},
+            "traduccion": "Security mechanism that prevents a website from being loaded in a frame from another site."
+        },
         "xerror": {
-            "categoria": ("Error",),
+            "categoria": ('Error',),
             "definicion": "Error que ocurre en un programa cuando se producen condiciones inesperadas durante la ejecución.",
-            "traduccion": "Error that occurs in a program when unexpected conditions arise during execution."},
+            "traduccion": "Error that occurs in a program when unexpected conditions arise during execution."
+        },
         "xdrive": {
-            "categoria": ("Almacenamiento",),
+            "categoria": ('Almacenamiento',),
             "definicion": "Sistema de almacenamiento en línea o en la nube.",
-            "traduccion": "Online or cloud-based storage system."},
+            "traduccion": "Online or cloud-based storage system."
+        },
         "xfer": {
-            "categoria": ("Transferencia",),
+            "categoria": ('Transferencia',),
             "definicion": "Proceso de transferencia de datos entre dos sistemas o dispositivos.",
-            "traduccion": "Process of transferring data between two systems or devices."},
+            "traduccion": "Process of transferring data between two systems or devices."
+        },
         "xilinx": {
-            "categoria": ("Hardware",),
+            "categoria": ('Hardware',),
             "definicion": "Empresa que fabrica dispositivos FPGA (Field-Programmable Gate Array).",
-            "traduccion": "Company that manufactures FPGA (Field-Programmable Gate Array) devices."},
+            "traduccion": "Company that manufactures FPGA (Field-Programmable Gate Array) devices."
+        },
         "x86": {
-            "categoria": ("Arquitectura",),
+            "categoria": ('Arquitectura',),
             "definicion": "Arquitectura de procesadores que utiliza un conjunto de instrucciones basadas en 32 bits.",
-            "traduccion": "Processor architecture that uses a 32-bit instruction set."},
+            "traduccion": "Processor architecture that uses a 32-bit instruction set."
+        },
         "xmac": {
-            "categoria": ("Mac",),
+            "categoria": ('Mac',),
             "definicion": "Módulo utilizado en los sistemas MacOS para la gestión de dispositivos y redes.",
-            "traduccion": "Module used in MacOS systems for managing devices and networks."},
+            "traduccion": "Module used in MacOS systems for managing devices and networks."
+        },
         "xorg": {
-            "categoria": ("Gráfico",),
+            "categoria": ('Gráfico',),
             "definicion": "Servidor de ventanas para sistemas Unix y Linux que gestiona la entrada y salida de gráficos.",
-            "traduccion": "Window server for Unix and Linux systems that manages input and output of graphics."},
+            "traduccion": "Window server for Unix and Linux systems that manages input and output of graphics."
+        },
         "xenial": {
-            "categoria": ("Distribución",),
+            "categoria": ('Distribución',),
             "definicion": "Versión de Ubuntu LTS que proporciona estabilidad y soporte a largo plazo.",
-            "traduccion": "LTS version of Ubuntu providing stability and long-term support."},
+            "traduccion": "LTS version of Ubuntu providing stability and long-term support."
+        },
         "xmlns": {
-            "categoria": ("XML",),
+            "categoria": ('XML',),
             "definicion": "Atributo utilizado en documentos XML para definir un espacio de nombres.",
-            "traduccion": "Attribute used in XML documents to define a namespace."},
+            "traduccion": "Attribute used in XML documents to define a namespace."
+        },
         "xprint": {
-            "categoria": ("Impresión",),
+            "categoria": ('Impresión',),
             "definicion": "Mecanismo para la impresión de documentos desde aplicaciones o programas.",
-            "traduccion": "Mechanism for printing documents from applications or programs."},
+            "traduccion": "Mechanism for printing documents from applications or programs."
+        },
         "xos": {
-            "categoria": ("Sistema operativo",),
+            "categoria": ('Sistema operativo',),
             "definicion": "Sistema operativo experimental utilizado para aprender sobre el diseño de OS.",
-            "traduccion": "Experimental operating system used to learn about OS design."},
+            "traduccion": "Experimental operating system used to learn about OS design."
+        },
         "xno": {
-            "categoria": ("Negación",),
+            "categoria": ('Negación',),
             "definicion": "Palabra utilizada para denotar una negación o respuesta negativa en programación.",
-            "traduccion": "Word used to denote a negation or negative response in programming."},
+            "traduccion": "Word used to denote a negation or negative response in programming."
+        },
         "xmirror": {
-            "categoria": ("Reflejo",),
+            "categoria": ('Reflejo',),
             "definicion": "Proceso de duplicar datos o información entre dos sistemas.",
-            "traduccion": "Process of duplicating data or information between two systems."}},
+            "traduccion": "Process of duplicating data or information between two systems."
+        }
+    },
     "y": {
         "yaml": {
-            "categoria": ("Formato de datos",),
+            "categoria": ('Formato de datos',),
             "definicion": "Lenguaje de serialización de datos legible por humanos utilizado para configurar aplicaciones.",
-            "traduccion": "Human-readable data serialization language used for configuring applications."},
+            "traduccion": "Human-readable data serialization language used for configuring applications."
+        },
         "yield": {
-            "categoria": ("Python",),
+            "categoria": ('Python',),
             "definicion": "Palabra clave en Python que permite pausar una función y devolver un valor, manteniendo su estado.",
-            "traduccion": "Keyword in Python that allows pausing a function and returning a value while maintaining its state."},
+            "traduccion": "Keyword in Python that allows pausing a function and returning a value while maintaining its state."
+        },
         "yarn": {
-            "categoria": ("Herramienta",),
+            "categoria": ('Herramienta',),
             "definicion": "Administrador de paquetes para aplicaciones JavaScript, utilizado en proyectos web.",
-            "traduccion": "Package manager for JavaScript applications used in web projects."},
+            "traduccion": "Package manager for JavaScript applications used in web projects."
+        },
         "y-axis": {
-            "categoria": ("Gráficos",),
+            "categoria": ('Gráficos',),
             "definicion": "El eje vertical en un gráfico, comúnmente utilizado para representar variables dependientes.",
-            "traduccion": "The vertical axis in a graph, commonly used to represent dependent variables."},
+            "traduccion": "The vertical axis in a graph, commonly used to represent dependent variables."
+        },
         "yellow": {
-            "categoria": ("Color",),
+            "categoria": ('Color',),
             "definicion": "Color primario en la teoría del color, utilizado en gráficos y diseño.",
-            "traduccion": "Primary color in color theory, used in graphics and design."},
+            "traduccion": "Primary color in color theory, used in graphics and design."
+        },
         "y2k": {
-            "categoria": ("Error",),
+            "categoria": ('Error',),
             "definicion": "Problema relacionado con el cambio de año del milenio, que afectaba a los sistemas informáticos.",
-            "traduccion": "Problem related to the change of the millennium year, affecting computer systems."},
+            "traduccion": "Problem related to the change of the millennium year, affecting computer systems."
+        },
         "yes": {
-            "categoria": ("Booleano",),
+            "categoria": ('Booleano',),
             "definicion": "Valor booleano que representa la afirmación o la veracidad en la programación.",
-            "traduccion": "Boolean value representing affirmation or truth in programming."},
+            "traduccion": "Boolean value representing affirmation or truth in programming."
+        },
         "yarn.lock": {
-            "categoria": ("Archivo",),
-            "definicion": "Archivo utilizado en proyectos de JavaScript que garantiza las dependencias correctas de paquetes.",
-            "traduccion": "File used in JavaScript projects that ensures correct package dependencies."},
-        "yelp": {
-            "categoria": ("API",),
-            "definicion": "API utilizada para obtener información sobre reseñas de negocios locales en la web.",
-            "traduccion": "API used to get information about reviews of local businesses on the web."},
-        "yellowbox": {
-            "categoria": ("Interfaz de usuario",),
-            "definicion": "Elemento visual en interfaces gráficas que resalta información importante.",
-            "traduccion": "Visual element in graphical interfaces that highlights important information."},
-        "yesno": {
-            "categoria": ("Entrada",),
-            "definicion": "Tipo de entrada que solo acepta respuestas afirmativas o negativas.",
-            "traduccion": "Type of input that only accepts yes or no answers."},
-        "youtube": {
-            "categoria": ("Plataforma",),
-            "definicion": "Plataforma de videos en línea donde los usuarios pueden cargar y ver videos.",
-            "traduccion": "Online video platform where users can upload and view videos."},
-        "yarnpkg": {
-            "categoria": ("Herramienta",),
-            "definicion": "Herramienta de línea de comandos para gestionar dependencias de proyectos de JavaScript.",
-            "traduccion": "Command-line tool for managing dependencies of JavaScript projects."},
-        "yew": {
-            "categoria": ("Framework",),
-            "definicion": "Framework para crear aplicaciones web modernas utilizando Rust.",
-            "traduccion": "Framework for creating modern web applications using Rust."},
-        "yellowhat": {
-            "categoria": ("Seguridad",),
-            "definicion": "Término utilizado para describir hackers éticos o de sombrero blanco.",
-            "traduccion": "Term used to describe ethical hackers or white-hat hackers."},
-        "yarn upgrade": {
-            "categoria": ("Comando",),
-            "definicion": "Comando que actualiza las dependencias de los paquetes en un proyecto de Yarn.",
-            "traduccion": "Command that upgrades the package dependencies in a Yarn project."},
-        "yottabyte": {
-            "categoria": ("Unidad de medida",),
-            "definicion": "Unidad de medida de almacenamiento de datos equivalente a 1 billón de gigabytes.",
-            "traduccion": "Data storage unit equal to one trillion gigabytes."},
-        "young": {
-            "categoria": ("Estado",),
-            "definicion": "Término que se refiere a una versión temprana o nueva de un producto o proyecto.",
-            "traduccion": "Term referring to an early or new version of a product or project."},
-        "yad": {
-            "categoria": ("Comando",),
-            "definicion": "Comando de Unix utilizado para mostrar un archivo o una secuencia de texto.",
-            "traduccion": "Unix command used to display a file or a sequence of text."},
-        "yosemite": {
-            "categoria": ("Sistema operativo",),
-            "definicion": "Versión de Mac OS X lanzada por Apple, conocida por su diseño y nuevas funciones.",
-            "traduccion": "Mac OS X version released by Apple, known for its design and new features."},
-        "yoga": {
-            "categoria": ("Software",),
-            "definicion": "Software de modelado 3D utilizado en animación y diseño gráfico.",
-            "traduccion": "3D modeling software used in animation and graphic design."},
-        "yellowback": {
-            "categoria": ("Biblioteca",),
-            "definicion": "Biblioteca de JavaScript utilizada para crear interfaces de usuario interactivas.",
-            "traduccion": "JavaScript library used to create interactive user interfaces."},
-        "yarn init": {
-            "categoria": ("Comando",),
-            "definicion": "Comando utilizado para iniciar un nuevo proyecto con Yarn.",
-            "traduccion": "Command used to initialize a new project with Yarn."},
-        "yesod": {
-            "categoria": ("Framework",),
-            "definicion": "Framework para el desarrollo de aplicaciones web utilizando Haskell.",
-            "traduccion": "Framework for developing web applications using Haskell."},
-        "yielding": {
-            "categoria": ("Python",),
-            "definicion": "Proceso de devolver un valor desde una función generadora en Python.",
-            "traduccion": "Process of returning a value from a generator function in Python."},
-        "yggdrasil": {
-            "categoria": ("Redes",),
-            "definicion": "Red de distribución de servicios de Internet basada en una topología descentralizada.",
-            "traduccion": "Decentralized Internet services distribution network based on a tree-like topology."},
-        "yarn.lock": {
-            "categoria": ("Gestión de dependencias",),
+            "categoria": ('Gestión de dependencias',),
             "definicion": "Archivo que asegura la integridad y versión de las dependencias del proyecto en Yarn.",
-            "traduccion": "File that ensures the integrity and version of dependencies in a Yarn project."},
+            "traduccion": "File that ensures the integrity and version of dependencies in a Yarn project."
+        },
+        "yelp": {
+            "categoria": ('API',),
+            "definicion": "API utilizada para obtener información sobre reseñas de negocios locales en la web.",
+            "traduccion": "API used to get information about reviews of local businesses on the web."
+        },
+        "yellowbox": {
+            "categoria": ('Interfaz de usuario',),
+            "definicion": "Elemento visual en interfaces gráficas que resalta información importante.",
+            "traduccion": "Visual element in graphical interfaces that highlights important information."
+        },
+        "yesno": {
+            "categoria": ('Entrada',),
+            "definicion": "Tipo de entrada que solo acepta respuestas afirmativas o negativas.",
+            "traduccion": "Type of input that only accepts yes or no answers."
+        },
+        "youtube": {
+            "categoria": ('Plataforma',),
+            "definicion": "Plataforma de videos en línea donde los usuarios pueden cargar y ver videos.",
+            "traduccion": "Online video platform where users can upload and view videos."
+        },
+        "yarnpkg": {
+            "categoria": ('Herramienta',),
+            "definicion": "Herramienta de línea de comandos para gestionar dependencias de proyectos de JavaScript.",
+            "traduccion": "Command-line tool for managing dependencies of JavaScript projects."
+        },
+        "yew": {
+            "categoria": ('Framework',),
+            "definicion": "Framework para crear aplicaciones web modernas utilizando Rust.",
+            "traduccion": "Framework for creating modern web applications using Rust."
+        },
+        "yellowhat": {
+            "categoria": ('Seguridad',),
+            "definicion": "Término utilizado para describir hackers éticos o de sombrero blanco.",
+            "traduccion": "Term used to describe ethical hackers or white-hat hackers."
+        },
+        "yarn upgrade": {
+            "categoria": ('Comando',),
+            "definicion": "Comando que actualiza las dependencias de los paquetes en un proyecto de Yarn.",
+            "traduccion": "Command that upgrades the package dependencies in a Yarn project."
+        },
+        "yottabyte": {
+            "categoria": ('Unidad de medida',),
+            "definicion": "Unidad de medida de almacenamiento de datos equivalente a 1 billón de gigabytes.",
+            "traduccion": "Data storage unit equal to one trillion gigabytes."
+        },
+        "young": {
+            "categoria": ('Estado',),
+            "definicion": "Término que se refiere a una versión temprana o nueva de un producto o proyecto.",
+            "traduccion": "Term referring to an early or new version of a product or project."
+        },
+        "yad": {
+            "categoria": ('Comando',),
+            "definicion": "Comando de Unix utilizado para mostrar un archivo o una secuencia de texto.",
+            "traduccion": "Unix command used to display a file or a sequence of text."
+        },
+        "yosemite": {
+            "categoria": ('Sistema operativo',),
+            "definicion": "Versión de Mac OS X lanzada por Apple, conocida por su diseño y nuevas funciones.",
+            "traduccion": "Mac OS X version released by Apple, known for its design and new features."
+        },
+        "yoga": {
+            "categoria": ('Software',),
+            "definicion": "Software de modelado 3D utilizado en animación y diseño gráfico.",
+            "traduccion": "3D modeling software used in animation and graphic design."
+        },
+        "yellowback": {
+            "categoria": ('Biblioteca',),
+            "definicion": "Biblioteca de JavaScript utilizada para crear interfaces de usuario interactivas.",
+            "traduccion": "JavaScript library used to create interactive user interfaces."
+        },
+        "yarn init": {
+            "categoria": ('Comando',),
+            "definicion": "Comando utilizado para iniciar un nuevo proyecto con Yarn.",
+            "traduccion": "Command used to initialize a new project with Yarn."
+        },
+        "yesod": {
+            "categoria": ('Framework',),
+            "definicion": "Framework para el desarrollo de aplicaciones web utilizando Haskell.",
+            "traduccion": "Framework for developing web applications using Haskell."
+        },
+        "yielding": {
+            "categoria": ('Python',),
+            "definicion": "Proceso de devolver un valor desde una función generadora en Python.",
+            "traduccion": "Process of returning a value from a generator function in Python."
+        },
+        "yggdrasil": {
+            "categoria": ('Redes',),
+            "definicion": "Red de distribución de servicios de Internet basada en una topología descentralizada.",
+            "traduccion": "Decentralized Internet services distribution network based on a tree-like topology."
+        },
         "yellowbrick": {
-            "categoria": ("Software",),
+            "categoria": ('Software',),
             "definicion": "Biblioteca de Python utilizada para la visualización de datos en modelos de machine learning.",
-            "traduccion": "Python library used for visualizing data in machine learning models."},
+            "traduccion": "Python library used for visualizing data in machine learning models."
+        },
         "yieldfrom": {
-            "categoria": ("Python",),
+            "categoria": ('Python',),
             "definicion": "Palabra clave en Python que delega la ejecución de una función generadora a otra.",
-            "traduccion": "Keyword in Python that delegates the execution of a generator function to another."},
+            "traduccion": "Keyword in Python that delegates the execution of a generator function to another."
+        },
         "youtrack": {
-            "categoria": ("Gestión de proyectos",),
+            "categoria": ('Gestión de proyectos',),
             "definicion": "Herramienta de gestión de proyectos y seguimiento de incidencias.",
-            "traduccion": "Project management and issue tracking tool."},
+            "traduccion": "Project management and issue tracking tool."
+        },
         "yarn add": {
-            "categoria": ("Comando",),
+            "categoria": ('Comando',),
             "definicion": "Comando de Yarn utilizado para agregar dependencias a un proyecto.",
-            "traduccion": "Yarn command used to add dependencies to a project."},
+            "traduccion": "Yarn command used to add dependencies to a project."
+        },
         "yaml.load": {
-            "categoria": ("Python",),
+            "categoria": ('Python',),
             "definicion": "Método en Python que carga contenido desde un archivo YAML.",
-            "traduccion": "Method in Python that loads content from a YAML file."},
+            "traduccion": "Method in Python that loads content from a YAML file."
+        },
         "yahoo": {
-            "categoria": ("Plataforma",),
+            "categoria": ('Plataforma',),
             "definicion": "Motor de búsqueda y portal web conocido por su contenido de noticias, deportes y finanzas.",
-            "traduccion": "Search engine and web portal known for its news, sports, and finance content."},
+            "traduccion": "Search engine and web portal known for its news, sports, and finance content."
+        },
         "yesno_button": {
-            "categoria": ("Interfaz",),
+            "categoria": ('Interfaz',),
             "definicion": "Botón en una interfaz gráfica que permite al usuario seleccionar 'sí' o 'no'.",
-            "traduccion": "Button in a graphical interface that allows the user to select 'yes' or 'no'."},
+            "traduccion": "Button in a graphical interface that allows the user to select 'yes' or 'no'."
+        },
         "yellowcolor": {
-            "categoria": ("Color",),
+            "categoria": ('Color',),
             "definicion": "Color utilizado en diseño gráfico y desarrollo web.",
-            "traduccion": "Color used in graphic design and web development."}},
+            "traduccion": "Color used in graphic design and web development."
+        }
+    },
     "z": {
         "zscore": {
-                "categoria": ("Estadística",),
-                "definicion": "Función que calcula el valor z, que indica cuántas desviaciones estándar está un valor de la media.",
-                "traduccion": "Function that calculates the z-score, which indicates how many standard deviations a value is from the mean."},
+            "categoria": ('Estadística',),
+            "definicion": "Función que calcula el valor z, que indica cuántas desviaciones estándar está un valor de la media.",
+            "traduccion": "Function that calculates the z-score, which indicates how many standard deviations a value is from the mean."
+        },
         "zoneinfo": {
-                "categoria": ("Manejo de tiempo",),
-                "definicion": "Módulo que proporciona soporte para zonas horarias en Python.",
-                "traduccion": "Module that provides support for time zones in Python."},
+            "categoria": ('Manejo de tiempo',),
+            "definicion": "Módulo que proporciona soporte para zonas horarias en Python.",
+            "traduccion": "Module that provides support for time zones in Python."
+        },
         "zipfile": {
-                "categoria": ("Manejo de archivos",),
-                "definicion": "Módulo para crear, leer y modificar archivos ZIP.",
-                "traduccion": "Module for creating, reading, and modifying ZIP files."},
+            "categoria": ('Manejo de archivos',),
+            "definicion": "Módulo para crear, leer y modificar archivos ZIP.",
+            "traduccion": "Module for creating, reading, and modifying ZIP files."
+        },
         "zeta": {
-                "categoria": ("Matemáticas",),
-                "definicion": "Función matemática que involucra una serie infinita, generalmente utilizada en teoría de números.",
-                "traduccion": "Mathematical function involving an infinite series, often used in number theory."},
+            "categoria": ('Matemáticas',),
+            "definicion": "Función matemática que involucra una serie infinita, generalmente utilizada en teoría de números.",
+            "traduccion": "Mathematical function involving an infinite series, often used in number theory."
+        },
         "zorder": {
-                "categoria": ("Gráficos",),
-                "definicion": "Propiedad que determina el orden de apilamiento de los objetos gráficos en un gráfico.",
-                "traduccion": "Property that determines the stacking order of graphical objects in a plot."},
+            "categoria": ('Gráficos',),
+            "definicion": "Propiedad que determina el orden de apilamiento de los objetos gráficos en un gráfico.",
+            "traduccion": "Property that determines the stacking order of graphical objects in a plot."
+        },
         "zfill": {
-                "categoria": ("Manipulación de texto",),
-                "definicion": "Método que completa una cadena con ceros hasta una longitud especificada.",
-                "traduccion": "Method that pads a string with zeros to a specified length."},
+            "categoria": ('Manipulación de texto',),
+            "definicion": "Método que completa una cadena con ceros hasta una longitud especificada.",
+            "traduccion": "Method that pads a string with zeros to a specified length."
+        },
         "zipapp": {
-                "categoria": ("Herramientas",),
-                "definicion": "Herramienta que permite empaquetar aplicaciones Python en archivos zip ejecutables.",
-                "traduccion": "Tool that allows packing Python applications into executable zip files."},
+            "categoria": ('Herramientas',),
+            "definicion": "Herramienta que permite empaquetar aplicaciones Python en archivos zip ejecutables.",
+            "traduccion": "Tool that allows packing Python applications into executable zip files."
+        },
         "zlib.decompress": {
-                "categoria": ("Compresión de datos",),
-                "definicion": "Función del módulo zlib que descomprime los datos previamente comprimidos.",
-                "traduccion": "Function from the zlib module that decompresses data previously compressed."},
+            "categoria": ('Compresión de datos',),
+            "definicion": "Función del módulo zlib que descomprime los datos previamente comprimidos.",
+            "traduccion": "Function from the zlib module that decompresses data previously compressed."
+        },
         "zlib.compress": {
-                "categoria": ("Compresión de datos",),
-                "definicion": "Función del módulo zlib que comprime datos en un formato específico.",
-                "traduccion": "Function from the zlib module that compresses data into a specific format."},
+            "categoria": ('Compresión de datos',),
+            "definicion": "Función del módulo zlib que comprime datos en un formato específico.",
+            "traduccion": "Function from the zlib module that compresses data into a specific format."
+        },
         "zen_of_python": {
-                "categoria": ("Buenas prácticas",),
-                "definicion": "Conjunto de principios que guían el diseño y desarrollo de código Python claro y eficiente.",
-                "traduccion": "Set of principles that guide the design and development of clear and efficient Python code."}}
+            "categoria": ('Buenas prácticas',),
+            "definicion": "Conjunto de principios que guían el diseño y desarrollo de código Python claro y eficiente.",
+            "traduccion": "Set of principles that guide the design and development of clear and efficient Python code."
+        }
+    }
 }

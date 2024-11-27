@@ -1,25 +1,8 @@
-import tkinter as tk 
 import sys
 import os
-
-def limpiarDiccionario():
-    rutaArchivo = os.path.abspath(os.path.join(os.path.dirname(__file__), "../src/diccionario.py"))
-    with open(rutaArchivo, "rb") as file:
-        contenido = file.read()
-    if b"\x00" in contenido:
-        contenido = contenido.replace(b"\x00", b"")
-        with open(rutaArchivo, "wb") as file:
-            file.write(contenido)
-
-limpiarDiccionario()
-
-ruta_src = os.path.abspath(os.path.join(os.path.dirname(__file__), "../src"))
-sys.path.insert(0, ruta_src)
+import tkinter as tk
 
 def obtenerRutaRecurso(rutaRelativa):
-    """
-    Obtiene la ruta del recurso en cualquier entorno (desarrollo o ejecutable).
-    """
     if hasattr(sys, '_MEIPASS'):
         # Si está empaquetado con PyInstaller
         return os.path.join(sys._MEIPASS, rutaRelativa)
@@ -31,9 +14,39 @@ def obtenerRutaRecurso(rutaRelativa):
 rutaDiccionario = obtenerRutaRecurso("src/diccionario.py")
 rutaIcono = obtenerRutaRecurso("ui/img/diccionarioimg.ico")
 
-from model import verificarNombre
-from diccionario import diccionario
+print("Ruta diccionario:", rutaDiccionario)
+print("Ruta icono:", rutaIcono)
+
+# Asegurarse de agregar la ruta src al sys.path
+ruta_src = os.path.abspath(os.path.join(os.path.dirname(__file__), "../src"))
+if ruta_src not in sys.path:
+    sys.path.insert(0, ruta_src)
+
+def limpiarDiccionario():
+    # Obtener la ruta correcta del archivo diccionario.py
+    rutaArchivo = rutaDiccionario
+    if not os.path.exists(rutaArchivo):
+        print(f"Error: El archivo {rutaArchivo} no existe.")
+        return
+
+    with open(rutaArchivo, "rb") as file:
+        contenido = file.read()
+    if b"\x00" in contenido:
+        contenido = contenido.replace(b"\x00", b"")
+        with open(rutaArchivo, "wb") as file:
+            file.write(contenido)
+
+limpiarDiccionario()
+
+# Importar después de asegurar que la ruta src está en sys.path
+try:
+    from diccionario import diccionario
+except ModuleNotFoundError:
+    print("No se pudo encontrar el módulo diccionario.")
+    sys.exit(1)
+
 from tkinter import messagebox
+
 # ------------------------------------------------------
 # Variables:
 # ------------------------------------------------------
@@ -45,6 +58,16 @@ nombreNT = tk.StringVar
 # Funciones:
 # ------------------------------------------------------
 
+def verificarNombre(termino):
+    termino = " ".join(termino.split())
+    termino = termino.lower()
+    for i in "abcdefghijklmnopqrstuvwxyz":
+        if termino in list(diccionario[i].keys()):
+            return True
+            break
+    return False 
+ 
+ 
 # ------------------------------------------------------
 # Funciones de Funcionalidades:
 # ------------------------------------------------------
