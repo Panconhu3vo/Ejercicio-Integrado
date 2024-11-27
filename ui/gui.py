@@ -60,41 +60,60 @@ def FNFiltrar(event=None):
         if idxLetra:
             txtTerminosListados.see(idxLetra)
             
-def FNeliminarTermino(event=None):#enNombreET
-    termino = enNombreET.get()
-    if verificarNombre(termino) == True:
+def FNeliminarTermino(event=None):
+    # Obtener el término ingresado por el usuario
+    termino = enNombreET.get().strip()
 
+    # Verificar si el término existe en el diccionario
+    if verificarNombre(termino):
+        # Mostrar mensaje de confirmación
         confirmacion = messagebox.askyesno(
-        "Confirmar Eliminación",  
-        "¿Estás seguro de que deseas eliminar este término?"  
+            "Confirmar Eliminación",
+            f"¿Estás seguro de que deseas eliminar el término '{termino}'?"
         )
-        if confirmacion:
-            
-            datos = diccionario[termino[0]][termino]
-            txtConsoleE.configure(state="normal")
-            txtConsoleE.insert('1.0',f"""Termino: {termino}
-  Definicion: {diccionario[termino[0]][termino]["definicion"]}
-  Traduccion: {diccionario[termino[0]][termino]["traduccion"]}
-  Categoria: {diccionario[termino[0]][termino]["categoria"]}
-  
-        El término {termino} Fue Eliminado
-""")
-            txtConsoleE.configure(state='disabled')
-            del diccionario[termino[0]][termino]
-        else:
-            txtConsoleE.configure(state='normal')
-        txtConsoleE.insert('1.0',f'''
-    Confirmacion cancelada
-''')
-        txtConsoleE.configure(state='disable')
-    else: 
-        txtConsoleE.configure(state='normal')
-        txtConsoleE.insert('1.0',f''' 
-    El Término ,{termino} no se encuentra, 
-    asegurate de escribirlo bien
 
-''')
-        txtConsoleE.configure(state='disable')    
+        if confirmacion:
+            # Eliminar el término del diccionario
+            letraInicial = termino[0].lower()
+            datos = diccionario[letraInicial][termino]  # Datos del término a eliminar
+
+            # Mostrar información del término eliminado
+            txtConsoleE.configure(state="normal")
+            txtConsoleE.delete(1.0, tk.END)
+            txtConsoleE.insert(
+                "1.0",
+                f"""Término Eliminado:
+- Término: {termino}
+- Definición: {datos["definicion"]}
+- Traducción: {datos["traduccion"]}
+- Categoría: {datos["categoria"]}
+""")
+            txtConsoleE.configure(state="disabled")
+
+            # Eliminar el término del diccionario
+            del diccionario[letraInicial][termino]
+
+            # Si la letra queda vacía, eliminarla del diccionario
+            if not diccionario[letraInicial]:
+                del diccionario[letraInicial]
+
+            # Guardar el diccionario actualizado
+            guardarDiccionario()
+            limpiarDiccionario()
+
+        else:
+            # Mensaje de confirmación cancelada
+            txtConsoleE.configure(state="normal")
+            txtConsoleE.delete(1.0, tk.END)
+            txtConsoleE.insert("1.0", "Operación cancelada. No se eliminó ningún término.\n")
+            txtConsoleE.configure(state="disabled")
+    else:
+        # Mensaje de término no encontrado
+        txtConsoleE.configure(state="normal")
+        txtConsoleE.delete(1.0, tk.END)
+        txtConsoleE.insert("1.0", f"El término '{termino}' no se encuentra en el diccionario.\n")
+        txtConsoleE.configure(state="disabled")
+
 
 def FNagregarTermino(event=None):
     txtConsole.configure(state="normal")
@@ -131,7 +150,6 @@ def FNagregarTermino(event=None):
         txtConsole.configure(state="normal")
         txtConsole.insert("1.0", "Término existente, ingresa uno nuevo.\n")
         txtConsole.configure(state="disable")
-    
 
 # Función para guardar el diccionario en el archivo
 def guardarDiccionario():
