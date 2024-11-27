@@ -2,49 +2,48 @@ import sys
 import os
 import tkinter as tk
 
+# Función para manejar rutas dinámicas
 def obtenerRutaRecurso(rutaRelativa):
     if hasattr(sys, '_MEIPASS'):
-        # Si está empaquetado con PyInstaller
+        # Ruta cuando está empaquetado con PyInstaller
         return os.path.join(sys._MEIPASS, rutaRelativa)
     else:
-        # Durante el desarrollo
+        # Ruta durante el desarrollo
         return os.path.abspath(rutaRelativa)
 
-# Usar la función para configurar rutas
+# Ruta al diccionario y al icono
 rutaDiccionario = obtenerRutaRecurso("src/diccionario.py")
 rutaIcono = obtenerRutaRecurso("ui/img/diccionarioimg.ico")
 
-print("Ruta diccionario:", rutaDiccionario)
-print("Ruta icono:", rutaIcono)
-
-# Asegurarse de agregar la ruta src al sys.path
-ruta_src = os.path.abspath(os.path.join(os.path.dirname(__file__), "../src"))
-if ruta_src not in sys.path:
-    sys.path.insert(0, ruta_src)
-
-def limpiarDiccionario():
-    # Obtener la ruta correcta del archivo diccionario.py
-    rutaArchivo = rutaDiccionario
-    if not os.path.exists(rutaArchivo):
-        print(f"Error: El archivo {rutaArchivo} no existe.")
-        return
-
-    with open(rutaArchivo, "rb") as file:
-        contenido = file.read()
-    if b"\x00" in contenido:
-        contenido = contenido.replace(b"\x00", b"")
-        with open(rutaArchivo, "wb") as file:
-            file.write(contenido)
-
-limpiarDiccionario()
-
-# Importar después de asegurar que la ruta src está en sys.path
+# Cargar el contenido de diccionario.py dinámicamente
+diccionario = {}
 try:
-    from diccionario import diccionario
-except ModuleNotFoundError:
-    print("No se pudo encontrar el módulo diccionario.")
+    with open(rutaDiccionario, "r", encoding="utf-8") as archivo:
+        contenido = archivo.read()
+        exec(contenido, globals())  # Ejecuta el contenido de diccionario.py
+except FileNotFoundError:
+    print(f"No se pudo encontrar el archivo: {rutaDiccionario}")
+    sys.exit(1)
+except Exception as e:
+    print(f"Error al cargar el diccionario: {e}")
     sys.exit(1)
 
+# Función para limpiar bytes nulos en diccionario.py
+def limpiarDiccionario():
+    if not os.path.exists(rutaDiccionario):
+        print(f"Error: El archivo {rutaDiccionario} no existe.")
+        return
+
+    with open(rutaDiccionario, "rb") as file:
+        contenido = file.read()
+
+    if b"\x00" in contenido:
+        contenido = contenido.replace(b"\x00", b"")
+        with open(rutaDiccionario, "wb") as file:
+            file.write(contenido)
+
+# Llama a la función para limpiar el diccionario
+limpiarDiccionario()
 from tkinter import messagebox
 
 # ------------------------------------------------------
@@ -98,74 +97,65 @@ def FNFiltrar(event=None):
             txtTerminosListados.see(idxLetra)
             
 def FNeliminarTermino(event=None):
-    # Obtener el término ingresado por el usuario
     termino = enNombreET.get().strip()
 
-    # Verificar si el término existe en el diccionario
     if verificarNombre(termino):
-        # Mostrar mensaje de confirmación
         confirmacion = messagebox.askyesno(
             "Confirmar Eliminación",
             f"¿Estás seguro de que deseas eliminar el término '{termino}'?"
         )
-
         if confirmacion:
-            # Eliminar el término del diccionario
             letraInicial = termino[0].lower()
-            datos = diccionario[letraInicial][termino]  # Datos del término a eliminar
+            datos = diccionario[letraInicial].pop(termino, None)
 
-            # Mostrar información del término eliminado
+            # Si no quedan términos en la letra, eliminar la letra del diccionario
+            if not diccionario[letraInicial]:
+                del diccionario[letraInicial]
+
+            guardarDiccionario()
+            limpiarDiccionario()
+
+            # Actualizar consola con mensaje de éxito
             txtConsoleE.configure(state="normal")
             txtConsoleE.delete(1.0, tk.END)
             txtConsoleE.insert(
                 "1.0",
-                f"""Término Eliminado:
-- Término: {termino}
-- Definición: {datos["definicion"]}
-- Traducción: {datos["traduccion"]}
-- Categoría: {datos["categoria"]}
-""")
-            txtConsoleE.configure(state="disabled")
-
-            # Eliminar el término del diccionario
-            del diccionario[letraInicial][termino]
-
-            # Si la letra queda vacía, eliminarla del diccionario
-            if not diccionario[letraInicial]:
-                del diccionario[letraInicial]
-
-            # Guardar el diccionario actualizado
-            guardarDiccionario()
-            limpiarDiccionario()
-
+                f"Término eliminado con éxito:\n"
+                f"- Término: {termino}\n"
+                f"- Definición: {datos['definicion']}\n"
+                f"- Traducción: {datos['traduccion']}\n"
+                f"- Categoría: {datos['categoria']}\n"
+            )
+            txtConsoleE.update_idletasks()  # Forzar actualización
+            txtConsoleE.configure(state="disable")
         else:
-            # Mensaje de confirmación cancelada
+            # Mensaje para cancelación
             txtConsoleE.configure(state="normal")
             txtConsoleE.delete(1.0, tk.END)
             txtConsoleE.insert("1.0", "Operación cancelada. No se eliminó ningún término.\n")
-            txtConsoleE.configure(state="disabled")
+            txtConsoleE.update_idletasks()  # Forzar actualización
+            txtConsoleE.configure(state="disable")
     else:
-        # Mensaje de término no encontrado
+        # Mensaje si no se encuentra el término
         txtConsoleE.configure(state="normal")
         txtConsoleE.delete(1.0, tk.END)
         txtConsoleE.insert("1.0", f"El término '{termino}' no se encuentra en el diccionario.\n")
-        txtConsoleE.configure(state="disabled")
+        txtConsoleE.update_idletasks()  # Forzar actualización
+        txtConsoleE.configure(state="disable")
 
 def FNagregarTermino(event=None):
     txtConsole.configure(state="normal")
     txtConsole.delete(1.0, tk.END)
-    txtConsole.configure(state="disable")
+    txtConsole.update_idletasks()
     
     # Obtener valores del formulario
-    nombreTermino = enNombreNT.get()
+    nombreTermino = enNombreNT.get().strip()
     definicionTermino = txtDefinicion.get(1.0, tk.END).strip()
     traduccionTermino = txtTraduccion.get(1.0, tk.END).strip()
     categoriaTermino = categoriaSelect.get()
 
-    # Verificar si el término ya existe
     if verificarNombre(nombreTermino) == False:
-        # Agregar el término al diccionario
-        letraInicial = nombreTermino[0].lower()  # Categorizar por la primera letra
+        letraInicial = nombreTermino[0].lower()
         if letraInicial not in diccionario:
             diccionario[letraInicial] = {}
         diccionario[letraInicial][nombreTermino] = {
@@ -173,19 +163,16 @@ def FNagregarTermino(event=None):
             "traduccion": traduccionTermino,
             "categoria": categoriaTermino,
         }
-
-        # Guardar el diccionario actualizado en el archivo
         guardarDiccionario()
         limpiarDiccionario()
-        # Confirmar la acción
-        txtConsole.configure(state="normal")
+
+        # Mensaje de éxito
         txtConsole.insert("1.0", "\n ¡¡¡Término agregado correctamente!!! \n")
-        txtConsole.configure(state="disable")
     else:
         # Mensaje de término existente
-        txtConsole.configure(state="normal")
         txtConsole.insert("1.0", "Término existente, ingresa uno nuevo.\n")
-        txtConsole.configure(state="disable")
+    
+    txtConsole.configure(state="disable")
 
 # Función para guardar el diccionario en el archivo
 def guardarDiccionario():
