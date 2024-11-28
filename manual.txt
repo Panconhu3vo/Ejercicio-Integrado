@@ -1,0 +1,86 @@
+Manual de Uso: Diccionario del Programador
+Introducción
+El Diccionario del Programador es una herramienta ejecutable diseñada para ayudar a programadores a comprender términos técnicos en inglés y español. La aplicación permite:
+
+Agregar, eliminar, buscar y listar términos.
+Acceder a una sección de "Acerca de" para conocer detalles del equipo y proyecto.
+Este manual describe cómo utilizar la aplicación y resolver problemas comunes.
+
+Requisitos Previos
+Sistema Operativo: Windows (compatible con la versión .exe).
+No requiere instalación de Python ni librerías externas.
+Estructura del Proyecto
+Diccionario_Programador.exe: Archivo ejecutable para abrir la aplicación.
+Documentación: Archivos que incluyen manuales y descripciones del proyecto (como este manual).
+Funcionalidades
+1. Menú Principal
+Incluye las siguientes opciones:
+
+Agregar Término: Añade un término con su definición, traducción y categoría.
+Eliminar Término: Permite eliminar términos existentes.
+Buscar Término: Encuentra términos y muestra detalles como su traducción y categoría.
+Listar Términos: Despliega una lista completa de términos almacenados.
+Acerca De: Proporciona información sobre el equipo y el propósito del proyecto.
+Salir: Cierra la aplicación.
+2. Agregar Término
+Permite añadir términos al diccionario.
+
+Pasos:
+
+Selecciona "Agregar Término".
+Completa los campos:
+Nombre único del término.
+Definición técnica.
+Traducción al español.
+Categoría predefinida.
+Haz clic en Guardar para confirmar.
+Notas:
+
+Si el término ya existe, se mostrará un mensaje de error.
+3. Eliminar Término
+Elimina términos almacenados.
+
+Pasos:
+
+Selecciona "Eliminar Término".
+Escribe el nombre exacto del término que deseas eliminar.
+Haz clic en Eliminar.
+Notas:
+
+Si el término no existe, se mostrará un mensaje indicando el error.
+4. Buscar Término
+Encuentra términos específicos en el diccionario.
+
+Pasos:
+
+Selecciona "Buscar Término".
+Ingresa el nombre exacto del término en el cuadro de búsqueda.
+Haz clic en Buscar para ver los resultados.
+Notas:
+
+Si el término no se encuentra, se mostrará un mensaje indicando que no existe.
+5. Listar Términos
+Muestra todos los términos disponibles.
+
+Pasos:
+
+Selecciona "Listar Términos".
+Revisa la lista completa que se muestra en pantalla.
+6. Acerca De
+Muestra información del proyecto y su equipo.
+
+Pasos:
+
+Selecciona "Acerca De".
+Lee la información en la ventana emergente.
+7. Salir
+Cierra la aplicación.
+
+Pasos:
+
+Selecciona "Salir" en el menú principal.
+La aplicación se cerrará automáticamente.
+Resolución de Problemas
+Problema: El programa no abre.
+Verifica que el archivo Diccionario del Programador Español - Ingles.exe no esté dañado.
+Asegúrate de estar usando Windows.
