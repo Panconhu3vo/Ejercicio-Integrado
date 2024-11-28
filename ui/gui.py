@@ -98,6 +98,7 @@ def FNFiltrar(event=None):
             
 def FNeliminarTermino(event=None):
     termino = enNombreET.get().strip()
+    print(f"El término ingresado para eliminar es: {termino}")  # Depuración
 
     if verificarNombre(termino):
         confirmacion = messagebox.askyesno(
@@ -105,17 +106,17 @@ def FNeliminarTermino(event=None):
             f"¿Estás seguro de que deseas eliminar el término '{termino}'?"
         )
         if confirmacion:
+            print("Confirmación recibida para eliminar.")  # Depuración
             letraInicial = termino[0].lower()
             datos = diccionario[letraInicial].pop(termino, None)
 
-            # Si no quedan términos en la letra, eliminar la letra del diccionario
             if not diccionario[letraInicial]:
                 del diccionario[letraInicial]
 
             guardarDiccionario()
             limpiarDiccionario()
 
-            # Actualizar consola con mensaje de éxito
+            # Actualizar consola
             txtConsoleE.configure(state="normal")
             txtConsoleE.delete(1.0, tk.END)
             txtConsoleE.insert(
@@ -126,22 +127,23 @@ def FNeliminarTermino(event=None):
                 f"- Traducción: {datos['traduccion']}\n"
                 f"- Categoría: {datos['categoria']}\n"
             )
-            txtConsoleE.update_idletasks()  # Forzar actualización
+            txtConsoleE.update_idletasks()
             txtConsoleE.configure(state="disable")
         else:
-            # Mensaje para cancelación
+            print("El usuario canceló la eliminación.")  # Depuración
             txtConsoleE.configure(state="normal")
             txtConsoleE.delete(1.0, tk.END)
             txtConsoleE.insert("1.0", "Operación cancelada. No se eliminó ningún término.\n")
-            txtConsoleE.update_idletasks()  # Forzar actualización
+            txtConsoleE.update_idletasks()
             txtConsoleE.configure(state="disable")
     else:
-        # Mensaje si no se encuentra el término
+        print(f"Término '{termino}' no encontrado en el diccionario.")  # Depuración
         txtConsoleE.configure(state="normal")
         txtConsoleE.delete(1.0, tk.END)
         txtConsoleE.insert("1.0", f"El término '{termino}' no se encuentra en el diccionario.\n")
-        txtConsoleE.update_idletasks()  # Forzar actualización
+        txtConsoleE.update_idletasks()
         txtConsoleE.configure(state="disable")
+
 
 def FNagregarTermino(event=None):
     txtConsole.configure(state="normal")
@@ -176,36 +178,23 @@ def FNagregarTermino(event=None):
 
 # Función para guardar el diccionario en el archivo
 def guardarDiccionario():
-    rutaArchivo = r"src\diccionario.py"
-    with open(rutaArchivo, "w", encoding="utf-8") as archivo:
-        # Escribir el encabezado del diccionario
-        archivo.write("diccionario = {\n")
-        
-        # Obtener el total de letras
-        totalLetras = len(diccionario)
-        for j, (letra, terminos) in enumerate(diccionario.items(), start=1):
-            archivo.write(f"    \"{letra}\": {{\n")
-            
-            # Escribir cada término dentro de la letra
-            totalTerminos = len(terminos)
-            for i, (termino, detalles) in enumerate(terminos.items(), start=1):
-                archivo.write(f"        \"{termino}\": {{\n")
-                archivo.write(f"            \"categoria\": {repr(detalles['categoria'])},\n")
-                archivo.write(f"            \"definicion\": \"{detalles['definicion'].strip()}\",\n")
-                archivo.write(f"            \"traduccion\": \"{detalles['traduccion'].strip()}\"\n")
-                # Si no es el último término, agrega una coma
-                if i < totalTerminos:
+    # Obtener la ruta correcta del diccionario
+    rutaArchivo = obtenerRutaRecurso("src/diccionario.py")
+    try:
+        with open(rutaArchivo, "w", encoding="utf-8") as archivo:
+            archivo.write("diccionario = {\n")
+            for letra, terminos in diccionario.items():
+                archivo.write(f'    "{letra}": {{\n')
+                for termino, datos in terminos.items():
+                    archivo.write(f'        "{termino}": {{\n')
+                    archivo.write(f'            "categoria": {datos["categoria"]},\n')
+                    archivo.write(f'            "definicion": "{datos["definicion"]}",\n')
+                    archivo.write(f'            "traduccion": "{datos["traduccion"]}"\n')
                     archivo.write("        },\n")
-                else:
-                    archivo.write("        }\n")  # Sin coma para el último término
-            
-            # Si no es la última letra, agrega una coma
-            if j < totalLetras:
                 archivo.write("    },\n")
-            else:
-                archivo.write("    }\n")  # Sin coma para la última letra
-        
-        archivo.write("}\n")
+            archivo.write("}\n")
+    except Exception as e:
+        print(f"Error al guardar el diccionario: {e}")
 
 # Funcion buscar termino
 def FNbuscarTermino(event=None):
@@ -386,7 +375,7 @@ vn = tk.Tk()
 vn.configure(bg="#F2F2F2")
 vn.geometry("600x420")
 vn.resizable(False, False)
-vn.title("Diccionario del Programador")
+vn.title("Diccionario del Programador Español-Inglés")
 vn.iconbitmap(rutaIcono)
 
 # ------------------------------------------------------
