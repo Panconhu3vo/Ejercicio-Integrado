@@ -70,6 +70,7 @@ def verificarNombre(termino):
 # ------------------------------------------------------
 # Funciones de Funcionalidades:
 # ------------------------------------------------------
+
 def FNlistarTerminos(event=None): 
     txtTerminosListados.configure(state="normal")
 
@@ -98,7 +99,6 @@ def FNFiltrar(event=None):
             
 def FNeliminarTermino(event=None):
     termino = enNombreET.get().strip()
-    print(f"El término ingresado para eliminar es: {termino}")  # Depuración
 
     if verificarNombre(termino):
         confirmacion = messagebox.askyesno(
@@ -106,7 +106,6 @@ def FNeliminarTermino(event=None):
             f"¿Estás seguro de que deseas eliminar el término '{termino}'?"
         )
         if confirmacion:
-            print("Confirmación recibida para eliminar.")  # Depuración
             letraInicial = termino[0].lower()
             datos = diccionario[letraInicial].pop(termino, None)
 
@@ -130,20 +129,17 @@ def FNeliminarTermino(event=None):
             txtConsoleE.update_idletasks()
             txtConsoleE.configure(state="disable")
         else:
-            print("El usuario canceló la eliminación.")  # Depuración
             txtConsoleE.configure(state="normal")
             txtConsoleE.delete(1.0, tk.END)
             txtConsoleE.insert("1.0", "Operación cancelada. No se eliminó ningún término.\n")
             txtConsoleE.update_idletasks()
             txtConsoleE.configure(state="disable")
     else:
-        print(f"Término '{termino}' no encontrado en el diccionario.")  # Depuración
         txtConsoleE.configure(state="normal")
         txtConsoleE.delete(1.0, tk.END)
         txtConsoleE.insert("1.0", f"El término '{termino}' no se encuentra en el diccionario.\n")
         txtConsoleE.update_idletasks()
         txtConsoleE.configure(state="disable")
-
 
 def FNagregarTermino(event=None):
     txtConsole.configure(state="normal")
@@ -481,6 +477,7 @@ agregarTermino = tk.Frame(vn)
 
 # Título de la sección "Agregar Término"
 tk.Label(
+    
     agregarTermino, text="Agregar Término",
     font=("Roboto", 16, "bold"), fg="#1B1259"
 ).pack(side="top")
